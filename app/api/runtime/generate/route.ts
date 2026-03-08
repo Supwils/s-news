@@ -11,6 +11,10 @@ const TOPIC_SCRIPT_MAP: Record<string, string> = {
   "ai-tech": "run-aitech-news.sh",
   science: "run-science-news.sh",
   crypto: "run-crypto-news.sh",
+  "energy-climate": "run-energy-climate-news.sh",
+  "auto-mobility": "run-auto-mobility-news.sh",
+  gaming: "run-gaming-news.sh",
+  "supply-chain": "run-supply-chain-news.sh",
   all: "run_all_news.sh",
 };
 
@@ -48,7 +52,7 @@ export async function POST(request: NextRequest) {
   const scriptName = topic && TOPIC_SCRIPT_MAP[topic];
   if (!scriptName) {
     return NextResponse.json(
-      { ok: false, error: "Missing or invalid topic. Use: general | finance | ai-tech | all" },
+      { ok: false, error: "Missing or invalid topic. Use: general | finance | ai-tech | science | crypto | energy-climate | auto-mobility | gaming | supply-chain | all" },
       { status: 400 },
     );
   }

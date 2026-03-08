@@ -20,6 +20,10 @@ const bodyFont = Instrument_Sans({
 export const metadata: Metadata = {
   title: "S-News",
   description: "Local-first daily news desk.",
+  icons: {
+    icon: "/snew-logo1.svg",
+    apple: "/snew-logo1.svg",
+  },
 };
 
 const themeScript = `

@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import { Monitor, Moon, Sun } from "lucide-react";
 
+import { copy } from "@/data/copy";
+
 const STORAGE_KEY = "s-news-theme";
 type Theme = "light" | "dark" | "system";
 
@@ -31,9 +33,9 @@ function resolveEffectiveTheme(theme: Theme): "light" | "dark" {
 
 const THEME_ORDER: Theme[] = ["light", "dark", "system"];
 const THEME_LABELS: Record<Theme, string> = {
-  light: "浅色",
-  dark: "深色",
-  system: "跟随系统",
+  light: copy.ui.theme.light,
+  dark: copy.ui.theme.dark,
+  system: copy.ui.theme.system,
 };
 
 function subscribeToHydration() {
@@ -73,7 +75,7 @@ function ThemeButton({
       type="button"
       onClick={cycleTheme}
       className="flex h-10 w-10 min-w-10 cursor-pointer items-center justify-center rounded-full border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_90%,transparent)] text-[var(--color-text-primary)] shadow-[var(--shadow-card)] backdrop-blur-md transition-[transform,color,border-color,box-shadow] duration-200 hover:scale-105 hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-card-hover)] focus:outline-none focus:ring-2 focus:ring-[var(--color-border-strong)] focus:ring-offset-2 focus:ring-offset-[var(--color-bg-primary)] active:scale-[0.98] sm:h-11 sm:w-11 md:h-12 md:w-12"
-      aria-label={`主题：${THEME_LABELS[theme]}，点击切换`}
+      aria-label={copy.ui.theme.ariaLabel(THEME_LABELS[theme])}
       title={THEME_LABELS[theme]}
     >
       <Icon className="h-[18px] w-[18px] sm:h-5 sm:w-5" strokeWidth={1.75} aria-hidden />

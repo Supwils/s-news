@@ -5,6 +5,40 @@ type NewsMarkdownProps = {
   content: string;
 };
 
+type InlineMarkdownProps = {
+  content: string;
+  className?: string;
+};
+
+/** Renders short markdown (e.g. description, highlights, takeaway) so **bold** is displayed correctly. */
+export function InlineMarkdown({ content, className = "" }: InlineMarkdownProps) {
+  return (
+    <div className={className}>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        components={{
+          p: ({ children }) => <p className="m-0">{children}</p>,
+          strong: ({ children }) => (
+            <strong className="font-semibold text-[var(--color-text-primary)]">{children}</strong>
+          ),
+          a: ({ href, children }) => (
+            <a
+              href={href}
+              target="_blank"
+              rel="noreferrer"
+              className="underline decoration-[var(--color-border-strong)] underline-offset-4 transition hover:text-[var(--color-text-primary)]"
+            >
+              {children}
+            </a>
+          ),
+        }}
+      >
+        {content}
+      </ReactMarkdown>
+    </div>
+  );
+}
+
 export function NewsMarkdown({ content }: NewsMarkdownProps) {
   return (
     <div className="news-prose">

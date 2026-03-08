@@ -15,8 +15,11 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 cd "$PROJECT_ROOT"
 
+TODAY=$(date +%Y-%m-%d)
+TODAY_CN=$(date +%Y年%m月%d日)
+
 COMMAND_FILE=".cursor/commands/general-news.md"
-INSTRUCTION="严格按照 @${COMMAND_FILE} 的完整流程执行：使用当前真实日期，按优先级做多轮实时搜索（Web Search），筛选排序后按该文件中的 Markdown 模板整理，最后将日报写入 NEWS/general/ 对应日期的 md 文件。不要省略任何步骤。"
+INSTRUCTION="今日日期必须使用：${TODAY}（${TODAY_CN}），文件名与标题中的日期一律为此日，不得使用 2025 年或其他年份。严格按照 @${COMMAND_FILE} 的完整流程执行：按优先级做多轮实时搜索（Web Search），筛选排序后按该文件中的 Markdown 模板整理，最后将日报写入 NEWS/general/ 对应日期的 md 文件。不要省略任何步骤。"
 
 if ! command -v agent &> /dev/null; then
   echo "错误: 未找到 Cursor CLI (agent)。请先安装: curl https://cursor.com/install -fsS | bash" >&2

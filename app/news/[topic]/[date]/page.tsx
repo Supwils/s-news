@@ -4,7 +4,7 @@ import { ArrowLeft, Clock3, Command, FileText, Layers3 } from "lucide-react";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
-import { NewsMarkdown } from "@/components/news-markdown";
+import { InlineMarkdown, NewsMarkdown } from "@/components/news-markdown";
 import { formatDisplayDate, getNewsEntry } from "@/lib/news";
 import { getTopicMeta, isTopicKey } from "@/lib/news-meta";
 
@@ -95,7 +95,7 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
                       key={highlight}
                       className="rounded-2xl border border-[var(--color-border-soft)] bg-[var(--color-surface-muted)] px-4 py-3 text-sm leading-7 text-[var(--color-text-secondary)]"
                     >
-                      {highlight}
+                      <InlineMarkdown content={highlight} />
                     </div>
                   ))}
                 </div>
@@ -105,7 +105,9 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
             {entry.takeaway ? (
               <section className="rounded-[32px] border border-[var(--color-border)] bg-[var(--color-surface)] p-5 shadow-[var(--shadow-card)] sm:p-6">
                 <p className="text-sm uppercase tracking-[0.28em] text-[var(--color-text-muted)]">Daily framing</p>
-                <p className="mt-4 text-base leading-8 text-[var(--color-text-primary)]">{entry.takeaway}</p>
+                <div className="mt-4 text-base leading-8 text-[var(--color-text-primary)]">
+                  <InlineMarkdown content={entry.takeaway} />
+                </div>
               </section>
             ) : null}
           </aside>

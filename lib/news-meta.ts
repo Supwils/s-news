@@ -1,4 +1,13 @@
-export type TopicKey = "general" | "finance" | "ai-tech" | "science" | "crypto";
+export type TopicKey =
+  | "general"
+  | "finance"
+  | "ai-tech"
+  | "science"
+  | "crypto"
+  | "energy-climate"
+  | "auto-mobility"
+  | "gaming"
+  | "supply-chain";
 
 export type TopicMeta = {
   key: TopicKey;
@@ -59,6 +68,46 @@ export const TOPICS: TopicMeta[] = [
     accent: "var(--color-accent-violet)",
     commandPath: ".cursor/commands/crypto-news.md",
     scriptPath: "scripts/run-crypto-news.sh",
+  },
+  {
+    key: "energy-climate",
+    label: "能源与气候",
+    shortLabel: "能源/气候",
+    description: "能源政策、绿电与储能、碳市场、极端天气与转型。",
+    folder: "energy-climate",
+    accent: "var(--color-accent-amber)",
+    commandPath: ".cursor/commands/energy-climate-news.md",
+    scriptPath: "scripts/run-energy-climate-news.sh",
+  },
+  {
+    key: "auto-mobility",
+    label: "汽车与出行",
+    shortLabel: "汽车/出行",
+    description: "电动车、自动驾驶、出行平台、电池与供应链。",
+    folder: "auto-mobility",
+    accent: "var(--color-accent-blue)",
+    commandPath: ".cursor/commands/auto-mobility-news.md",
+    scriptPath: "scripts/run-auto-mobility-news.sh",
+  },
+  {
+    key: "gaming",
+    label: "游戏与文娱",
+    shortLabel: "游戏",
+    description: "游戏行业、流媒体、文娱并购与监管。",
+    folder: "gaming",
+    accent: "var(--color-accent-fuchsia)",
+    commandPath: ".cursor/commands/gaming-news.md",
+    scriptPath: "scripts/run-gaming-news.sh",
+  },
+  {
+    key: "supply-chain",
+    label: "供应链与制造",
+    shortLabel: "供应链",
+    description: "全球制造、供应链迁移、关键物料与产能。",
+    folder: "supply-chain",
+    accent: "var(--color-accent-slate)",
+    commandPath: ".cursor/commands/supply-chain-news.md",
+    scriptPath: "scripts/run-supply-chain-news.sh",
   },
 ];
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# 依次执行通用、金融、AI 科技三个主题的日报生成脚本
+# 依次执行全部主题的日报生成脚本（通用、金融、AI 科技、科学、加密、能源气候、汽车出行、游戏、供应链）
 # 依赖：已安装并登录 Cursor CLI (agent)
 #
 
@@ -18,7 +18,7 @@ fi
 
 echo "=== 开始依次生成全部主题日报 ==="
 
-for script in run-general-news.sh run-finance-news.sh run-aitech-news.sh run-science-news.sh run-crypto-news.sh; do
+for script in run-general-news.sh run-finance-news.sh run-aitech-news.sh run-science-news.sh run-crypto-news.sh run-energy-climate-news.sh run-auto-mobility-news.sh run-gaming-news.sh run-supply-chain-news.sh; do
   path="$SCRIPT_DIR/$script"
   if [[ -x "$path" ]]; then
     echo ""

@@ -38,8 +38,17 @@ function extractDescription(content: string) {
 }
 
 function extractTakeaway(content: string) {
-  const match = content.match(/\*\*(总体定性|今日定性)：\*\*\s*(.+)/);
-  return match?.[2]?.trim();
+  // 优先：带标签的总体定性/今日定性（支持冒号在粗体内或外）
+  const match = content.match(/\*\*(总体定性|今日定性)(：\*\*|\*\*：)\s*(.+)/);
+  if (match?.[3]) return match[3].trim();
+
+  // 回退：取 ## 今日小结 下最后一段非 bullet 的段落作为定性
+  const summaryHeading = content.match(/^##\s+今日小结$/m);
+  if (summaryHeading?.index === undefined) return undefined;
+  const summaryBlock = content.slice(summaryHeading.index).split(/\n---/)[0] ?? "";
+  const paragraphs = summaryBlock.split(/\n\n+/).map((p) => p.trim()).filter(Boolean);
+  const lastNonBullet = paragraphs.filter((p) => !p.startsWith("- ")).pop();
+  return lastNonBullet?.trim() || undefined;
 }
 
 function extractHighlights(content: string) {

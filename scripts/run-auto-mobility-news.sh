@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
-# 使用 Cursor CLI 执行加密与 Web3 新闻日报 command
-# 将 .cursor/commands/crypto-news.md 作为 context，按其中流程生成日报并写入 NEWS/crypto/
+# 使用 Cursor CLI 执行汽车与出行新闻日报 command
+# 将 .cursor/commands/auto-mobility-news.md 作为 context，按其中流程生成日报并写入 NEWS/auto-mobility/
 #
 # 依赖：已安装并登录 Cursor CLI (agent)
 # 安装：curl https://cursor.com/install -fsS | bash
@@ -18,8 +18,8 @@ cd "$PROJECT_ROOT"
 TODAY=$(date +%Y-%m-%d)
 TODAY_CN=$(date +%Y年%m月%d日)
 
-COMMAND_FILE=".cursor/commands/crypto-news.md"
-INSTRUCTION="今日日期必须使用：${TODAY}（${TODAY_CN}），文件名与标题中的日期一律为此日，不得使用 2025 年或其他年份。严格按照 @${COMMAND_FILE} 的完整流程执行：按优先级做多轮实时搜索（Web Search），筛选排序后按该文件中的 Markdown 模板整理，最后将日报写入 NEWS/crypto/ 对应日期的 md 文件。不要省略任何步骤。"
+COMMAND_FILE=".cursor/commands/auto-mobility-news.md"
+INSTRUCTION="今日日期必须使用：${TODAY}（${TODAY_CN}），文件名与标题中的日期一律为此日，不得使用 2025 年或其他年份。严格按照 @${COMMAND_FILE} 的完整流程执行：按优先级做多轮实时搜索（Web Search），筛选排序后按该文件中的 Markdown 模板整理，最后将日报写入 NEWS/auto-mobility/ 对应日期的 md 文件。不要省略任何步骤。"
 
 if ! command -v agent &> /dev/null; then
   echo "错误: 未找到 Cursor CLI (agent)。请先安装: curl https://cursor.com/install -fsS | bash" >&2
