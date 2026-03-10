@@ -3,7 +3,8 @@
 import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import { Monitor, Moon, Sun } from "lucide-react";
 
-import { copy } from "@/data/copy";
+import { useLocale } from "@/components/locale-context";
+import { getCopy } from "@/data/copy";
 
 const STORAGE_KEY = "s-news-theme";
 type Theme = "light" | "dark" | "system";
@@ -32,11 +33,6 @@ function resolveEffectiveTheme(theme: Theme): "light" | "dark" {
 }
 
 const THEME_ORDER: Theme[] = ["light", "dark", "system"];
-const THEME_LABELS: Record<Theme, string> = {
-  light: copy.ui.theme.light,
-  dark: copy.ui.theme.dark,
-  system: copy.ui.theme.system,
-};
 
 function subscribeToHydration() {
   return () => {};
@@ -46,10 +42,14 @@ function ThemeButton({
   theme,
   setTheme,
   mounted,
+  themeLabels,
+  ariaLabelFn,
 }: {
   theme: Theme;
   setTheme: (t: Theme) => void;
   mounted: boolean;
+  themeLabels: Record<Theme, string>;
+  ariaLabelFn: (label: string) => string;
 }) {
   const cycleTheme = useCallback(() => {
     const next = THEME_ORDER[(THEME_ORDER.indexOf(theme) + 1) % THEME_ORDER.length];
@@ -64,7 +64,7 @@ function ThemeButton({
   if (!mounted) {
     return (
       <div
-        className="h-10 w-10 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] opacity-0 sm:h-11 sm:w-11 md:h-12 md:w-12"
+        className="h-10 w-10 rounded-full border border-(--color-border) bg-(--color-surface) opacity-0 sm:h-11 sm:w-11 md:h-12 md:w-12"
         aria-hidden
       />
     );
@@ -74,9 +74,9 @@ function ThemeButton({
     <button
       type="button"
       onClick={cycleTheme}
-      className="flex h-10 w-10 min-w-10 cursor-pointer items-center justify-center rounded-full border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_90%,transparent)] text-[var(--color-text-primary)] shadow-[var(--shadow-card)] backdrop-blur-md transition-[transform,color,border-color,box-shadow] duration-200 hover:scale-105 hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-card-hover)] focus:outline-none focus:ring-2 focus:ring-[var(--color-border-strong)] focus:ring-offset-2 focus:ring-offset-[var(--color-bg-primary)] active:scale-[0.98] sm:h-11 sm:w-11 md:h-12 md:w-12"
-      aria-label={copy.ui.theme.ariaLabel(THEME_LABELS[theme])}
-      title={THEME_LABELS[theme]}
+      className="flex h-10 w-10 min-w-10 cursor-pointer items-center justify-center rounded-full border border-(--color-border) bg-[color-mix(in_srgb,var(--color-surface)_90%,transparent)] text-(--color-text-primary) shadow-(--shadow-card) backdrop-blur-md transition-[transform,color,border-color,box-shadow] duration-200 hover:scale-105 hover:border-(--color-border-strong) hover:shadow-(--shadow-card-hover) focus:outline-none focus:ring-2 focus:ring-(--color-border-strong) focus:ring-offset-2 focus:ring-offset-(--color-bg-primary) active:scale-[0.98] sm:h-11 sm:w-11 md:h-12 md:w-12"
+      aria-label={ariaLabelFn(themeLabels[theme])}
+      title={themeLabels[theme]}
     >
       <Icon className="h-[18px] w-[18px] sm:h-5 sm:w-5" strokeWidth={1.75} aria-hidden />
     </button>
@@ -84,6 +84,13 @@ function ThemeButton({
 }
 
 export function ThemeSwitch() {
+  const locale = useLocale();
+  const copy = getCopy(locale);
+  const themeLabels: Record<Theme, string> = {
+    light: copy.ui.theme.light,
+    dark: copy.ui.theme.dark,
+    system: copy.ui.theme.system,
+  };
   const [theme, setTheme] = useState<Theme>(() => getStoredTheme());
   const mounted = useSyncExternalStore(subscribeToHydration, () => true, () => false);
 
@@ -94,11 +101,12 @@ export function ThemeSwitch() {
   }, [mounted, theme]);
 
   return (
-    <div
-      className="fixed right-3 top-3 z-[9999] sm:right-6 sm:top-4 md:top-5"
-      style={{ pointerEvents: "auto" }}
-    >
-      <ThemeButton theme={theme} setTheme={setTheme} mounted={mounted} />
-    </div>
+    <ThemeButton
+      theme={theme}
+      setTheme={setTheme}
+      mounted={mounted}
+      themeLabels={themeLabels}
+      ariaLabelFn={copy.ui.theme.ariaLabel}
+    />
   );
 }

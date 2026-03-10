@@ -1,4 +1,7 @@
-import { copy } from "@/data/copy";
+"use client";
+
+import { useLocale } from "@/components/locale-context";
+import { getCopy } from "@/data/copy";
 
 type NewsDeskIllustrationProps = {
   entryCount: number;
@@ -11,6 +14,9 @@ export function NewsDeskIllustration({
   topicCount,
   className,
 }: NewsDeskIllustrationProps) {
+  const locale = useLocale();
+  const copy = getCopy(locale);
+
   return (
     <div className={["flex w-full max-w-[620px] flex-col items-center", className ?? ""].join(" ")}>
       <div className="relative aspect-[4/3] w-full">
@@ -101,12 +107,12 @@ export function NewsDeskIllustration({
           </g>
         </svg>
 
-        <div className="news-desk-float-c absolute left-3 top-4 rounded-full border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_92%,transparent)] px-3 py-2 text-xs text-[var(--color-text-secondary)] shadow-[var(--shadow-card)]">
+        <div className="news-desk-float-c absolute left-3 top-4 rounded-full border border-(--color-border) bg-[color-mix(in_srgb,var(--color-surface)_92%,transparent)] px-3 py-2 text-xs text-(--color-text-secondary) shadow-(--shadow-card)">
           {topicCount} {copy.home.newsDesk.topicPlates}
         </div>
       </div>
 
-      <div className="news-desk-float-a mt-3 rounded-full border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_92%,transparent)] px-4 py-2 text-xs text-[var(--color-text-secondary)] shadow-[var(--shadow-card)]">
+      <div className="news-desk-float-a mt-3 rounded-full border border-(--color-border) bg-[color-mix(in_srgb,var(--color-surface)_92%,transparent)] px-4 py-2 text-xs text-(--color-text-secondary) shadow-(--shadow-card)">
         {copy.home.newsDesk.stackLabel} {entryCount} {copy.home.newsDesk.stackSuffix}
       </div>
     </div>

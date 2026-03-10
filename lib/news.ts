@@ -1,6 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 
+import { getCopy, type Locale } from "@/data/copy";
 import { getTopicMeta, TOPICS, type TopicKey, type TopicMeta } from "@/lib/news-meta";
 
 export type NewsEntry = {
@@ -29,12 +30,12 @@ function countMatches(content: string, pattern: RegExp) {
   return content.match(pattern)?.length ?? 0;
 }
 
-function extractTitle(content: string) {
-  return content.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? "未命名日报";
+function extractTitle(content: string, fallback: string) {
+  return content.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? fallback;
 }
 
-function extractDescription(content: string) {
-  return content.match(/^>\s+(.+)$/m)?.[1]?.trim() ?? "本日报暂无摘要说明。";
+function extractDescription(content: string, fallback: string) {
+  return content.match(/^>\s+(.+)$/m)?.[1]?.trim() ?? fallback;
 }
 
 function extractTakeaway(content: string) {
@@ -89,7 +90,9 @@ function getReadingMinutes(content: string) {
   return Math.max(3, Math.ceil(content.replace(/\s+/g, "").length / 900));
 }
 
-async function readTopicEntries(topic: TopicMeta) {
+type NewsFallbacks = { untitled: string; noDescription: string };
+
+async function readTopicEntries(topic: TopicMeta, fallbacks: NewsFallbacks) {
   const directory = path.join(NEWS_ROOT, topic.folder);
   const files = (await readDirectorySafe(directory)).filter((file) => file.endsWith(".md"));
 
@@ -105,8 +108,8 @@ async function readTopicEntries(topic: TopicMeta) {
         fileName,
         filePath,
         content,
-        title: extractTitle(content),
-        description: extractDescription(content),
+        title: extractTitle(content, fallbacks.untitled),
+        description: extractDescription(content, fallbacks.noDescription),
         articleCount: countMatches(content, /^###\s+/gm),
         sectionCount: countMatches(content, /^##\s+/gm),
         readingMinutes: getReadingMinutes(content),
@@ -121,32 +124,36 @@ async function readTopicEntries(topic: TopicMeta) {
   return sortEntries(entries);
 }
 
-export async function getAllNewsEntries() {
-  const nested = await Promise.all(TOPICS.map((topic) => readTopicEntries(topic)));
+export async function getAllNewsEntries(locale: Locale = "zh") {
+  const fallbacks = getCopy(locale).news;
+  const nested = await Promise.all(
+    TOPICS.map((topic) => readTopicEntries(getTopicMeta(topic.key, locale)!, fallbacks)),
+  );
   return sortEntries(nested.flat());
 }
 
-export async function getAllNewsPreviews() {
-  const entries = await getAllNewsEntries();
+export async function getAllNewsPreviews(locale: Locale = "zh") {
+  const entries = await getAllNewsEntries(locale);
   return entries.map(toNewsPreview);
 }
 
-export async function getEntriesByTopic(topic: TopicKey) {
-  const meta = getTopicMeta(topic);
+export async function getEntriesByTopic(topic: TopicKey, locale: Locale = "zh") {
+  const meta = getTopicMeta(topic, locale);
   if (!meta) {
     return [];
   }
 
-  return readTopicEntries(meta);
+  const fallbacks = getCopy(locale).news;
+  return readTopicEntries(meta, fallbacks);
 }
 
-export async function getEntryPreviewsByTopic(topic: TopicKey) {
-  const entries = await getEntriesByTopic(topic);
+export async function getEntryPreviewsByTopic(topic: TopicKey, locale: Locale = "zh") {
+  const entries = await getEntriesByTopic(topic, locale);
   return entries.map(toNewsPreview);
 }
 
-export async function getNewsEntry(topic: TopicKey, date: string) {
-  const entries = await getEntriesByTopic(topic);
+export async function getNewsEntry(topic: TopicKey, date: string, locale: Locale = "zh") {
+  const entries = await getEntriesByTopic(topic, locale);
   return entries.find((entry) => entry.date === date) ?? null;
 }
 
@@ -211,7 +218,12 @@ export function groupPreviewsByDate(entries: NewsPreview[]) {
   }, []);
 }
 
-export function searchEntries(entries: NewsPreview[], query: string, topic: TopicKey | "all") {
+export function searchEntries(
+  entries: NewsPreview[],
+  query: string,
+  topic: TopicKey | "all",
+  locale: Locale = "zh",
+) {
   const normalized = query.trim().toLowerCase();
 
   return entries.filter((entry) => {
@@ -223,17 +235,25 @@ export function searchEntries(entries: NewsPreview[], query: string, topic: Topi
       return true;
     }
 
-    const haystack = `${entry.searchText} ${(getTopicMeta(entry.topic)?.label ?? "").toLowerCase()}`;
+    const haystack = `${entry.searchText} ${(getTopicMeta(entry.topic, locale)?.label ?? "").toLowerCase()}`;
 
     return haystack.includes(normalized);
   });
 }
 
-export function formatDisplayDate(date: string) {
+const MONTH_NAMES_EN = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+export function formatDisplayDate(date: string, locale: Locale = "zh") {
   const [year, month, day] = date.split("-").map(Number);
   if (!year || !month || !day) {
     return date;
   }
 
+  if (locale === "en") {
+    return `${MONTH_NAMES_EN[month - 1]} ${day}, ${year}`;
+  }
   return `${year}年${month}月${day}日`;
 }

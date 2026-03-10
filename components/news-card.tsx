@@ -1,9 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowUpRight, Clock3, FileText, Layers3 } from "lucide-react";
 
+import { useLocale } from "@/components/locale-context";
 import { InlineMarkdown } from "@/components/news-markdown";
 import { TopicIcon } from "@/components/topic-icon";
-import { copy } from "@/data/copy";
+import { getCopy } from "@/data/copy";
 import { formatDisplayDate } from "@/lib/news-client";
 import { getTopicMeta } from "@/lib/news-meta";
 import type { NewsPreview } from "@/lib/news";
@@ -15,7 +18,9 @@ type NewsCardProps = {
 };
 
 export function NewsCard({ entry, compact = false, className }: NewsCardProps) {
-  const topic = getTopicMeta(entry.topic);
+  const locale = useLocale();
+  const copy = getCopy(locale);
+  const topic = getTopicMeta(entry.topic, locale);
 
   if (!topic) {
     return null;
@@ -24,7 +29,7 @@ export function NewsCard({ entry, compact = false, className }: NewsCardProps) {
   return (
     <article
       className={[
-        "group relative overflow-hidden rounded-[28px] border border-[var(--color-border)] bg-[var(--color-surface)]/92 p-5 shadow-[var(--shadow-card)] transition duration-300 hover:-translate-y-[3px] hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-card-hover)] sm:p-6",
+        "group relative overflow-hidden rounded-[28px] border border-(--color-border) bg-(--color-surface)/92 p-5 shadow-(--shadow-card) transition duration-300 hover:-translate-y-[3px] hover:border-(--color-border-strong) hover:shadow-(--shadow-card-hover) sm:p-6",
         className ?? "",
       ].join(" ")}
     >
@@ -59,40 +64,40 @@ export function NewsCard({ entry, compact = false, className }: NewsCardProps) {
           </span>
 
           <div className="space-y-2">
-            <h3 className="max-w-3xl text-lg leading-tight font-semibold text-[var(--color-text-primary)] sm:text-[1.35rem]">
+            <h3 className="max-w-3xl text-lg leading-tight font-semibold text-(--color-text-primary) sm:text-[1.35rem]">
               {entry.title}
             </h3>
             <InlineMarkdown
               content={entry.description}
-              className="max-w-3xl text-sm leading-7 text-[var(--color-text-secondary)] sm:text-[0.98rem]"
+              className="max-w-3xl text-sm leading-7 text-(--color-text-secondary) sm:text-[0.98rem]"
             />
           </div>
         </div>
 
         <Link
           href={`/news/${entry.topic}/${entry.date}`}
-          className="hidden rounded-full border border-[var(--color-border)] bg-[var(--color-surface-muted)] p-3 text-[var(--color-text-primary)] transition duration-200 hover:border-[var(--color-border-strong)] hover:bg-[var(--color-surface)] hover:translate-x-0.5 sm:inline-flex"
+          className="hidden rounded-full border border-(--color-border) bg-(--color-surface-muted) p-3 text-(--color-text-primary) transition duration-200 hover:border-(--color-border-strong) hover:bg-(--color-surface) hover:translate-x-0.5 sm:inline-flex"
           aria-label={copy.ui.newsCard.viewEntry(entry.title)}
         >
           <ArrowUpRight size={16} />
         </Link>
       </div>
 
-      <div className="mt-5 flex flex-wrap items-center gap-2 text-xs text-[var(--color-text-muted)]">
-        <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--color-border)] px-3 py-1.5">
+      <div className="mt-5 flex flex-wrap items-center gap-2 text-xs text-(--color-text-muted)">
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-(--color-border) px-3 py-1.5">
           <Clock3 size={13} />
           {entry.readingMinutes} {copy.ui.newsCard.min}
         </span>
-        <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--color-border)] px-3 py-1.5">
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-(--color-border) px-3 py-1.5">
           <Layers3 size={13} />
           {entry.sectionCount} {copy.ui.newsCard.sections}
         </span>
-        <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--color-border)] px-3 py-1.5">
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-(--color-border) px-3 py-1.5">
           <FileText size={13} />
           {entry.articleCount} {copy.ui.newsCard.stories}
         </span>
-        <span className="rounded-full border border-[var(--color-border)] px-3 py-1.5">
-          {formatDisplayDate(entry.date)}
+        <span className="rounded-full border border-(--color-border) px-3 py-1.5">
+          {formatDisplayDate(entry.date, locale)}
         </span>
       </div>
 
@@ -101,7 +106,7 @@ export function NewsCard({ entry, compact = false, className }: NewsCardProps) {
           {entry.highlights.slice(0, 3).map((highlight) => (
             <div
               key={highlight}
-              className="rounded-2xl border border-[var(--color-border-soft)] bg-[var(--color-surface-muted)]/80 px-4 py-3 text-sm leading-6 text-[var(--color-text-secondary)]"
+              className="rounded-2xl border border-(--color-border-soft) bg-(--color-surface-muted)/80 px-4 py-3 text-sm leading-6 text-(--color-text-secondary)"
             >
               <InlineMarkdown content={highlight} />
             </div>
@@ -110,14 +115,14 @@ export function NewsCard({ entry, compact = false, className }: NewsCardProps) {
       ) : null}
 
       {entry.takeaway ? (
-        <div className="mt-5 border-l border-[var(--color-border-strong)] pl-4 text-sm leading-7 text-[var(--color-text-primary)]">
+        <div className="mt-5 border-l border-(--color-border-strong) pl-4 text-sm leading-7 text-(--color-text-primary)">
           <InlineMarkdown content={entry.takeaway} />
         </div>
       ) : null}
 
       <Link
         href={`/news/${entry.topic}/${entry.date}`}
-        className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-[var(--color-text-primary)] transition hover:gap-3 sm:hidden"
+        className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-(--color-text-primary) transition hover:gap-3 sm:hidden"
       >
         {copy.ui.newsCard.readFull}
         <ArrowUpRight size={15} />

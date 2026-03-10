@@ -1,3 +1,4 @@
+import type { Locale } from "@/data/copy";
 import { getTopicMeta, type TopicKey } from "@/lib/news-meta";
 import type { NewsPreview } from "@/lib/news";
 
@@ -28,7 +29,12 @@ export function groupPreviewsByDate(entries: NewsPreview[]) {
     }, []);
 }
 
-export function searchEntries(entries: NewsPreview[], query: string, topic: TopicKey | "all") {
+export function searchEntries(
+  entries: NewsPreview[],
+  query: string,
+  topic: TopicKey | "all",
+  locale: Locale = "zh",
+) {
   const normalized = query.trim().toLowerCase();
 
   return entries.filter((entry) => {
@@ -40,16 +46,24 @@ export function searchEntries(entries: NewsPreview[], query: string, topic: Topi
       return true;
     }
 
-    const haystack = `${entry.searchText} ${(getTopicMeta(entry.topic)?.label ?? "").toLowerCase()}`;
+    const haystack = `${entry.searchText} ${(getTopicMeta(entry.topic, locale)?.label ?? "").toLowerCase()}`;
     return haystack.includes(normalized);
   });
 }
 
-export function formatDisplayDate(date: string) {
+const MONTH_NAMES_EN = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+export function formatDisplayDate(date: string, locale: Locale = "zh") {
   const [year, month, day] = date.split("-").map(Number);
   if (!year || !month || !day) {
     return date;
   }
 
+  if (locale === "en") {
+    return `${MONTH_NAMES_EN[month - 1]} ${day}, ${year}`;
+  }
   return `${year}年${month}月${day}日`;
 }

@@ -4,7 +4,8 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { NewsCard } from "@/components/news-card";
-import { copy } from "@/data/copy";
+import { getCopy } from "@/data/copy";
+import { getLocaleFromCookie } from "@/lib/get-locale";
 import { getEntryPreviewsByTopic } from "@/lib/news";
 import { getTopicMeta, isTopicKey } from "@/lib/news-meta";
 
@@ -19,7 +20,9 @@ export async function generateMetadata({ params }: TopicPageProps): Promise<Meta
     return {};
   }
 
-  const meta = getTopicMeta(topic);
+  const locale = await getLocaleFromCookie();
+  const copy = getCopy(locale);
+  const meta = getTopicMeta(topic, locale);
 
   return {
     title: `${meta?.label ?? copy.ui.topicPage.defaultTitle} | ${copy.about.siteName}`,
@@ -34,8 +37,10 @@ export default async function TopicPage({ params }: TopicPageProps) {
     notFound();
   }
 
-  const meta = getTopicMeta(topic);
-  const entries = await getEntryPreviewsByTopic(topic);
+  const locale = await getLocaleFromCookie();
+  const copy = getCopy(locale);
+  const meta = getTopicMeta(topic, locale);
+  const entries = await getEntryPreviewsByTopic(topic, locale);
 
   if (!meta) {
     notFound();

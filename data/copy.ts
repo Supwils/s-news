@@ -1,9 +1,33 @@
 /**
  * Centralized copy for About page, home, and shared UI.
- * Use these keys in app/about and components instead of hardcoded strings.
+ * Use getCopy(locale) for locale-aware strings; keys stay the same across zh/en.
  */
-export const copy = {
-  /** About page (app/about) */
+
+export type Locale = "zh" | "en";
+
+export type RuntimeCopy = {
+  readOnlyHeading: string;
+  readOnlyBody: string;
+  backToNews: string;
+  runHeading: string;
+  runBody: string;
+  runButton: string;
+  runningLabel: string;
+  resultSuccess: string;
+  resultError: string;
+  topicLabel: string;
+  navHome: string;
+  navAbout: string;
+  navRuntime: string;
+  siteTitle: string;
+  siteSubtitle: string;
+  allTopics: string;
+  progressStep: (step: number, total: number) => string;
+  progressRunning: (label: string) => string;
+  progressPercent: (pct: number) => string;
+};
+
+const copyZh = {
   about: {
     siteName: "S-News",
     headerSubtitle: "What this thing is, and why it exists",
@@ -68,15 +92,27 @@ export const copy = {
       toRuntime: "去 Runtime",
     },
   },
-
-  /** Runtime page when execution is not allowed (e.g. deployed / read-only) */
   runtime: {
     readOnlyHeading: "本站为只读展示",
     readOnlyBody: "日报生成仅在本地或配置的自建环境下可用。请返回首页浏览已归档的日报。",
     backToNews: "返回首页看新闻",
-  },
-
-  /** Home (news-home, today-pulse, news-desk-illustration) */
+    runHeading: "运行日报生成",
+    runBody: "选择主题后点击运行，将调用本机 agent CLI 执行对应脚本并写入 NEWS 目录。仅在本地或配置的自建环境下可用。",
+    runButton: "运行",
+    runningLabel: "运行中…",
+    resultSuccess: "运行完成",
+    resultError: "运行结束（有错误或超时）",
+    topicLabel: "主题",
+    navHome: "首页",
+    navAbout: "About",
+    navRuntime: "Runtime",
+    siteTitle: "S-News",
+    siteSubtitle: "Run scripts, refill the news desk",
+    allTopics: "全部主题",
+    progressStep: (step: number, total: number) => `第 ${step} / ${total} 步`,
+    progressRunning: (label: string) => `正在运行：${label}`,
+    progressPercent: (pct: number) => `已完成 ${pct}%`,
+  } satisfies RuntimeCopy,
   home: {
     siteName: "S-News",
     headerSubtitle: "Daily news desk, minus the folder chaos",
@@ -152,8 +188,6 @@ export const copy = {
       stackSuffix: "份归档",
     },
   },
-
-  /** Shared UI (news-card, theme-switch, etc.) */
   ui: {
     newsCard: {
       readFull: "阅读完整日报",
@@ -170,8 +204,237 @@ export const copy = {
     },
     topicPage: {
       backHome: "返回首页",
+      backToTopic: (label: string) => `返回 ${label}`,
       badge: "Topic archive",
       defaultTitle: "日报",
     },
+    detailPage: {
+      issueDetails: "期数详情",
+      keyHighlights: "要点",
+      dailyFraming: "今日定性",
+      minRead: (min: number) => `${min} 分钟阅读`,
+    },
+  },
+  news: {
+    untitled: "未命名日报",
+    noDescription: "本日报暂无摘要说明。",
+  },
+  notFound: {
+    badge: "404 / Missing issue",
+    title: "这份日报不存在",
+    body: "可能还没有生成对应日期的文件，或链接中的主题与日期不正确。你可以先回到首页继续浏览已有归档。",
+    backLink: "返回 S-News 首页",
   },
 } as const;
+
+const copyEn = {
+  about: {
+    siteName: "S-News",
+    headerSubtitle: "What this thing is, and why it exists",
+    nav: {
+      home: "Home",
+      about: "About",
+      runtime: "Runtime",
+    },
+    hero: {
+      badge: "About S-News",
+      titleLine1: 'It\'s not a "tool page that types."',
+      titleLine2: "It\'s more like a daily news desk that opens by itself.",
+      intro:
+        "S-News turns locally generated multi-topic digests into a reading interface you can keep open. No need to remember script names or folder paths. Open the home page and today\'s content is already lined up.",
+    },
+    metrics: {
+      totalLabel: "Total digests",
+      totalHint: "All archived locally",
+      todayLabel: "Today\'s stack",
+      todayNoData: "Nothing yet today",
+      topicLabel: "Topics",
+      topicHint: "General, finance, tech, science, crypto, energy & climate, auto, gaming, supply chain",
+      archiveLabel: "Archive days",
+      archiveHint: "Look back without digging through chat logs",
+    },
+    editorial: {
+      badge: "Editorial system",
+      heading: "Why the home page stays minimal",
+      body: "The home page should hand you the news, not a product pitch. Explanatory content lives here on About; the home page stays for today\'s digests, search, and archive.",
+      cards: [
+        { title: "Content first on home", description: "You see what\'s there today, then decide what to open. Important info first; intro copy stays out of the way." },
+        { title: "About explains the rest", description: "How the product is organized, why it\'s laid out this way, where scripts live—all explained here, in one place." },
+        { title: "Newspaper-desk feel", description: "Less jargon, more of a “flip the paper, pick a section, look back” experience." },
+      ],
+    },
+    signalFilter: {
+      badge: "Signal filter",
+      heading: "How it helps you cut through the noise",
+      body: "Each digest is archived by date and topic; titles, summaries, and highlights are all searchable. You don\'t need to remember whether it was “market watch” or “night session”—one word is enough.",
+      cards: [
+        { title: "By date", description: "Today, yesterday, last week—all in order, no memory required." },
+        { title: "By topic", description: "Only the sections you care about, without everything at once." },
+        { title: "By search", description: "Search summaries, highlights, or topic terms—faster than scrolling a table of contents." },
+        { title: "By card", description: "Scan the overview, then expand if you want the full read." },
+      ],
+    },
+    runbook: {
+      badge: "Runbook",
+      heading: "Where digests come from",
+      body: "Run scripts, write to a local directory, then the app reads and displays. No magic—just a tidy pipeline. Still Markdown; it just doesn\'t live in a folder basement anymore.",
+      flowCards: [
+        { step: "01", title: "Trigger", description: "Run the script for a topic from Runtime or the shell to start the digest pipeline." },
+        { step: "02", title: "Write locally", description: "Output goes to `NEWS/<topic>/` by date so you can revisit anytime." },
+        { step: "03", title: "App reads", description: "Next.js reads the Markdown and turns it into cards, archive, filters, and full-page views." },
+      ],
+    },
+    cta: {
+      label: "Next stop",
+      heading: "Enough said—time to get back to the news.",
+      body: "Home for today, Runtime to run, this page to explain. Clear roles, less friction.",
+      backHome: "Back to news",
+      toRuntime: "To Runtime",
+    },
+  },
+  runtime: {
+    readOnlyHeading: "Read-only site",
+    readOnlyBody: "Digest generation runs only locally or in your own environment. Please use the home page to browse archived digests.",
+    backToNews: "Back to news",
+    runHeading: "Run digest generation",
+    runBody: "Pick a topic and click Run to invoke the local agent CLI and write to the NEWS directory. Only available locally or in your configured environment.",
+    runButton: "Run",
+    runningLabel: "Running…",
+    resultSuccess: "Run complete",
+    resultError: "Run finished (error or timeout)",
+    topicLabel: "Topic",
+    navHome: "Home",
+    navAbout: "About",
+    navRuntime: "Runtime",
+    siteTitle: "S-News",
+    siteSubtitle: "Run scripts, refill the news desk",
+    allTopics: "All topics",
+    progressStep: (step: number, total: number) => `Step ${step} of ${total}`,
+    progressRunning: (label: string) => `Running: ${label}`,
+    progressPercent: (pct: number) => `${pct}% complete`,
+  } satisfies RuntimeCopy,
+  home: {
+    siteName: "S-News",
+    headerSubtitle: "Daily news desk, minus the folder chaos",
+    nav: {
+      about: "About",
+      runtime: "Runtime",
+      localFirst: "Local-first",
+      dateArchive: "By date",
+    },
+    hero: {
+      badge: "News desk",
+      titleLine1: "Don\'t let digests sleep in folders.",
+      titleLine2: "Today\'s important stuff is already lined up here.",
+      intro: "See today first, then dig into the archive. For how this works and why it\'s laid out this way, go to About; to run generation, go to Runtime.",
+      ctaToday: "See today\'s news",
+      ctaAbout: "About",
+      ctaRuntime: "Run from Runtime",
+    },
+    metrics: {
+      totalLabel: "Archived digests",
+      totalHint: "All here, no folder hunting",
+      todayLabel: "Today\'s count",
+      todayNoData: "Nothing yet",
+      topicLabel: "Topics",
+      archiveLabel: "Archive days",
+      archiveHint: "By date, easy to look back",
+    },
+    todayStack: {
+      badge: "Today\'s stack",
+      headlineSuffix: " front",
+      body: "Start with the latest batch. It\'s already ordered so you can skim before diving in.",
+      countLabel: "Today\'s digests",
+      countSuffix: " digests",
+    },
+    todayPulse: {
+      badge: "Today\'s pulse",
+      heading: "Today\'s front is open",
+      topicReadySuffix: " ready",
+      fallbackLead: "Leads are set; pick what to read",
+      bodySuffix: ". Start with this batch, then go deeper.",
+      latestLabel: "Latest digest",
+    },
+    signalFilter: {
+      badge: "Signal filter",
+      titleLine1: "Want to dig in? Filter.",
+      titleLine2: "Want to skim? Still look sharp.",
+      body: "Search by title, summary, highlights, or topic. Narrow the set, then open a digest. Your eyes and patience will thank you.",
+      cards: [
+        { title: "By topic", description: "Finance, AI, energy, auto, gaming, supply chain—or all of them." },
+        { title: "By keyword", description: "One word can pull the right digest from the archive." },
+        { title: "Live results", descriptionPrefix: "Showing ", descriptionSuffix: " digests, no mystery loading." },
+      ],
+      searchPlaceholder: "Search title, summary, highlights, or topic…",
+      searchA11y: "Search digests",
+      filterAllTopics: "All topics",
+      resultSummaryPrefix: "Showing ",
+      resultSummarySuffix: " digests, newest first.",
+    },
+    dateArchive: {
+      badge: "Date archive",
+      issue: "issue",
+      issues: "issues",
+    },
+    noResults: {
+      badge: "No results",
+      heading: "No matches",
+      body: "Try another keyword or switch back to all topics. The digests are still there—just not hit by this search.",
+      backLink: "Back to full view",
+    },
+    newsDesk: {
+      topicPlates: " plates",
+      stackLabel: "Stacked",
+      stackSuffix: " archived",
+    },
+  },
+  ui: {
+    newsCard: {
+      readFull: "Read full digest",
+      viewEntry: (title: string) => `View ${title}`,
+      min: "min",
+      sections: "sections",
+      stories: "stories",
+    },
+    theme: {
+      light: "Light",
+      dark: "Dark",
+      system: "System",
+      ariaLabel: (label: string) => `Theme: ${label}, click to switch`,
+    },
+    topicPage: {
+      backHome: "Back to home",
+      backToTopic: (label: string) => `Back to ${label}`,
+      badge: "Topic archive",
+      defaultTitle: "Digest",
+    },
+    detailPage: {
+      issueDetails: "Issue details",
+      keyHighlights: "Key highlights",
+      dailyFraming: "Daily framing",
+      minRead: (min: number) => `${min} min read`,
+    },
+  },
+  news: {
+    untitled: "Untitled digest",
+    noDescription: "No summary for this digest.",
+  },
+  notFound: {
+    badge: "404 / Missing issue",
+    title: "This digest doesn\'t exist",
+    body: "The file for this date may not exist yet, or the topic/date in the URL may be wrong. You can go back to the home page to browse the archive.",
+    backLink: "Back to S-News home",
+  },
+} as const;
+
+const COPIES: Record<Locale, typeof copyZh> = {
+  zh: copyZh,
+  en: copyEn as unknown as typeof copyZh,
+};
+
+export function getCopy(locale: Locale = "zh") {
+  return COPIES[locale] ?? copyZh;
+}
+
+/** @deprecated Use getCopy(locale) for i18n. Default export kept for backward compatibility during migration. */
+export const copy = copyZh;

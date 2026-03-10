@@ -18,7 +18,21 @@ const TOPIC_SCRIPT_MAP: Record<string, string> = {
   all: "run_all_news.sh",
 };
 
-const RUN_TIMEOUT_MS = 10 * 60 * 1000; // 10 minutes
+/** Order for "run all" (same as run_all_news.sh). Each topic runs in its own exec to avoid one long timeout. */
+const ALL_TOPICS_ORDER: string[] = [
+  "general",
+  "finance",
+  "ai-tech",
+  "science",
+  "crypto",
+  "energy-climate",
+  "auto-mobility",
+  "gaming",
+  "supply-chain",
+];
+
+const RUN_TIMEOUT_MS = 20 * 60 * 1000; // 20 minutes (single-topic)
+const RUN_ALL_PER_TOPIC_TIMEOUT_MS = 8 * 60 * 1000; // 8 minutes per topic when running all
 
 function isAllowedHost(request: NextRequest): boolean {
   if (process.env.VERCEL) {
@@ -58,13 +72,84 @@ export async function POST(request: NextRequest) {
   }
 
   const projectRoot = process.cwd();
-  const scriptPath = path.join(projectRoot, "scripts", scriptName);
 
+  // Run all topics as a stream: one exec per topic, progress events + terminal logs
+  if (topic === "all") {
+    const total = ALL_TOPICS_ORDER.length;
+    const stream = new ReadableStream({
+      async start(controller) {
+        const enc = new TextEncoder();
+        const write = (obj: object) => {
+          controller.enqueue(enc.encode(JSON.stringify(obj) + "\n"));
+        };
+        let aggregateStdout = "";
+        let aggregateStderr = "";
+        try {
+          for (let i = 0; i < total; i++) {
+            const topicKey = ALL_TOPICS_ORDER[i];
+            const script = TOPIC_SCRIPT_MAP[topicKey];
+            if (!script) continue;
+            const scriptPath = path.join(projectRoot, "scripts", script);
+            const done = i + 1;
+            console.log(`[Runtime] Starting topic ${done}/${total}: ${topicKey}`);
+            write({ type: "progress", topic: topicKey, done: i, total, current: topicKey });
+            try {
+              const { stdout, stderr } = await execAsync(`bash "${scriptPath}"`, {
+                cwd: projectRoot,
+                timeout: RUN_ALL_PER_TOPIC_TIMEOUT_MS,
+                maxBuffer: 5 * 1024 * 1024,
+              });
+              aggregateStdout += (stdout ?? "") + "\n";
+              if (stderr) aggregateStderr += stderr + "\n";
+              console.log(`[Runtime] Finished topic ${done}/${total}: ${topicKey}`);
+              write({ type: "progress", topic: topicKey, done, total, current: null });
+            } catch (err: unknown) {
+              const nodeErr = err as { killed?: boolean; code?: number; stdout?: string; stderr?: string; message?: string };
+              aggregateStdout += nodeErr.stdout?.slice(-2000) ?? "";
+              aggregateStderr += nodeErr.stderr?.slice(-2000) ?? "";
+              const timedOut = nodeErr.killed === true;
+              const errorMsg = timedOut ? "Run timed out (8 min per topic)" : (nodeErr as Error).message;
+              console.error(`[Runtime] Failed topic ${done}/${total}: ${topicKey}`, errorMsg);
+              write({
+                type: "done",
+                ok: false,
+                topic: "all",
+                error: errorMsg,
+                code: nodeErr.code,
+                stdout: aggregateStdout.slice(-4000),
+                stderr: aggregateStderr.slice(-2000),
+              });
+              controller.close();
+              return;
+            }
+          }
+          write({
+            type: "done",
+            ok: true,
+            topic: "all",
+            stdout: aggregateStdout.slice(-4000),
+            stderr: aggregateStderr.slice(-2000) ? aggregateStderr.slice(-2000) : undefined,
+          });
+        } catch (err) {
+          console.error("[Runtime] Run-all stream error", err);
+          write({ type: "done", ok: false, topic: "all", error: (err as Error).message });
+        } finally {
+          controller.close();
+        }
+      },
+    });
+    return new Response(stream, {
+      headers: { "Content-Type": "application/x-ndjson" },
+    });
+  }
+
+  // Single topic: one exec, return JSON when done
+  const scriptPath = path.join(projectRoot, "scripts", scriptName);
   try {
     const { stdout, stderr } = await execAsync(`bash "${scriptPath}"`, {
       cwd: projectRoot,
       timeout: RUN_TIMEOUT_MS,
-      maxBuffer: 2 * 1024 * 1024,
+      maxBuffer: 5 * 1024 * 1024,
     });
     return NextResponse.json({
       ok: true,
@@ -81,7 +166,7 @@ export async function POST(request: NextRequest) {
       {
         ok: false,
         topic,
-        error: timedOut ? "Run timed out (5 min)" : (nodeErr as Error).message,
+        error: timedOut ? "Run timed out (20 min)" : (nodeErr as Error).message,
         code: nodeErr.code,
         stdout,
         stderr,
