@@ -23,7 +23,7 @@ export function TodayPulse({ latestEntries, latestDate, className }: TodayPulseP
 
   const visibleTopics = TOPICS.filter((topic) =>
     latestEntries.some((entry) => entry.topic === topic.key),
-  ).slice(0, 5).map((t) => getTopicMeta(t.key, locale)!);
+  ).map((t) => getTopicMeta(t.key, locale)!);
 
   const topicLabel =
     visibleTopics.length > 0
@@ -58,9 +58,9 @@ export function TodayPulse({ latestEntries, latestDate, className }: TodayPulseP
           <div className="absolute inset-x-4 top-3 h-px bg-(--color-border-strong)" />
           <div className="pulse-sheen absolute left-0 top-0 h-6 w-28" aria-hidden="true" />
 
-          <div className="relative flex min-h-[68px] items-start justify-between gap-3 pt-0.5 sm:min-h-[74px]">
+          <div className="relative grid min-h-[68px] grid-cols-3 items-start justify-items-center gap-x-2 gap-y-4 pt-0.5 sm:min-h-[74px] sm:grid-cols-5 xl:grid-cols-9 xl:flex xl:justify-between xl:gap-3">
             {visibleTopics.map((topic, index) => (
-              <div key={topic.key} className="flex min-w-0 flex-1 items-center justify-center">
+              <div key={topic.key} className="flex min-w-0 flex-1 items-center justify-center xl:max-w-none">
                 <div className="flex flex-col items-center gap-2.5">
                   <span
                     className="pulse-node flex h-3 w-3 rounded-full border border-(--color-border) bg-(--color-surface)"

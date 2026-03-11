@@ -2,6 +2,7 @@
 
 import { useLocale } from "@/components/locale-context";
 import { getCopy } from "@/data/copy";
+import { TOPICS } from "@/lib/news-meta";
 
 type NewsDeskIllustrationProps = {
   entryCount: number;
@@ -104,6 +105,27 @@ export function NewsDeskIllustration({
             />
             <rect x="184" y="318" width="62" height="8" rx="4" fill="var(--color-text-muted)" opacity="0.22" />
             <rect x="258" y="318" width="96" height="8" rx="4" fill="var(--color-text-muted)" opacity="0.16" />
+          </g>
+
+          {/* All 9 category indicators */}
+          <g className="news-desk-float-c" aria-hidden="true">
+            {TOPICS.map((topic, i) => {
+              const cx = 32 + (i * 62);
+              const cy = 398;
+              const r = 6;
+              return (
+                <circle
+                  key={topic.key}
+                  cx={cx}
+                  cy={cy}
+                  r={r}
+                  fill={topic.accent}
+                  opacity="0.72"
+                  stroke="var(--color-border)"
+                  strokeWidth="1"
+                />
+              );
+            })}
           </g>
         </svg>
 
