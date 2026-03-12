@@ -50,7 +50,7 @@ export function QuickTopicLinks({
                   className="inline-flex items-center gap-1.5 rounded-full border border-(--color-border-strong) bg-(--color-surface-muted) px-3 py-1.5 text-sm text-(--color-text-secondary)"
                   aria-current="page"
                 >
-                  <TopicIcon topicKey={key} className="size-4 shrink-0" />
+                  <TopicIcon topic={key} size={16} className="shrink-0" />
                   <span>{label}</span>
                   <span className="text-xs text-(--color-text-muted)">({copy.quickLinkCurrent})</span>
                 </span>
@@ -64,7 +64,7 @@ export function QuickTopicLinks({
                   href={`/news/${key}/${date}`}
                   className="inline-flex items-center gap-1.5 rounded-full border border-(--color-border) px-3 py-1.5 text-sm text-(--color-text-secondary) transition hover:border-(--color-border-strong) hover:text-(--color-text-primary)"
                 >
-                  <TopicIcon topicKey={key} className="size-4 shrink-0" />
+                  <TopicIcon topic={key} size={16} className="shrink-0" />
                   {label}
                 </Link>
               );
@@ -78,7 +78,7 @@ export function QuickTopicLinks({
                 className="inline-flex items-center gap-1.5 rounded-full border border-(--color-border-soft) px-3 py-1.5 text-sm text-(--color-text-muted) transition hover:border-(--color-border) hover:text-(--color-text-secondary) cursor-pointer"
                 title={copy.noNewsHint}
               >
-                <TopicIcon topicKey={key} className="size-4 shrink-0 opacity-60" />
+                <TopicIcon topic={key} size={16} className="shrink-0 opacity-60" />
                 {label}
               </button>
             );
