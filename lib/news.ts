@@ -157,6 +157,14 @@ export async function getNewsEntry(topic: TopicKey, date: string, locale: Locale
   return entries.find((entry) => entry.date === date) ?? null;
 }
 
+/** Returns topic keys that have a news entry for the given date (same-day quick links). */
+export async function getTopicsWithNewsForDate(date: string, locale: Locale = "zh"): Promise<TopicKey[]> {
+  const results = await Promise.all(
+    TOPICS.map(async (t) => ({ key: t.key, has: !!(await getNewsEntry(t.key, date, locale)) })),
+  );
+  return results.filter((r) => r.has).map((r) => r.key);
+}
+
 export function groupEntriesByDate(entries: NewsEntry[]) {
   return sortEntries(entries).reduce<
     Array<{

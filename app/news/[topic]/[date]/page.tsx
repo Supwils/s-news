@@ -5,10 +5,11 @@ import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
 import { InlineMarkdown, NewsMarkdown } from "@/components/news-markdown";
+import { QuickTopicLinks } from "@/components/quick-topic-links";
 import { getCopy } from "@/data/copy";
 import { getLocaleFromCookie } from "@/lib/get-locale";
-import { formatDisplayDate, getNewsEntry } from "@/lib/news";
-import { getTopicMeta, isTopicKey } from "@/lib/news-meta";
+import { formatDisplayDate, getNewsEntry, getTopicsWithNewsForDate } from "@/lib/news";
+import { getTopicMeta, isTopicKey, TOPICS } from "@/lib/news-meta";
 
 type NewsDetailPageProps = {
   params: Promise<{ topic: string; date: string }>;
@@ -45,6 +46,8 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
   const copy = getCopy(locale);
   const entry = await getNewsEntry(topic, date, locale);
   const meta = getTopicMeta(topic, locale);
+  const availableTopics = await getTopicsWithNewsForDate(date, locale);
+  const topicLabels = TOPICS.map((t) => ({ key: t.key, label: getTopicMeta(t.key, locale)!.label }));
 
   if (!entry || !meta) {
     notFound();
@@ -53,6 +56,17 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
   return (
     <main className="min-h-screen bg-(--color-bg-primary) px-4 py-6 text-(--color-text-primary) sm:px-6 lg:px-8">
       <div className="mx-auto max-w-[1380px] space-y-6">
+        <QuickTopicLinks
+          date={date}
+          currentTopic={topic}
+          availableTopics={availableTopics}
+          topicLabels={topicLabels}
+          copy={{
+            quickLinkHeading: copy.ui.detailPage.quickLinkHeading,
+            quickLinkCurrent: copy.ui.detailPage.quickLinkCurrent,
+            noNewsHint: copy.ui.detailPage.noNewsHint,
+          }}
+        />
         <div className="flex flex-wrap items-center justify-between gap-3">
           <Link
             href={topic ? `/news/${topic}` : "/"}

@@ -213,6 +213,9 @@ const copyZh = {
       keyHighlights: "要点",
       dailyFraming: "今日定性",
       minRead: (min: number) => `${min} 分钟阅读`,
+      quickLinkHeading: "同日期其他主题",
+      quickLinkCurrent: "当前",
+      noNewsHint: "新闻不见了，试试别的主题。",
     },
   },
   news: {
@@ -413,6 +416,9 @@ const copyEn = {
       keyHighlights: "Key highlights",
       dailyFraming: "Daily framing",
       minRead: (min: number) => `${min} min read`,
+      quickLinkHeading: "Same-day topics",
+      quickLinkCurrent: "Current",
+      noNewsHint: "No digest for this date. Try another topic.",
     },
   },
   news: {
