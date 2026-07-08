@@ -78,7 +78,14 @@ function getRelativeNewsPath(topic: TopicMeta, locale: Locale, fileName: string)
 }
 
 function resolveRelativeNewsPath(relativePath: string) {
-  return path.join(process.cwd(), ...relativePath.split("/"));
+  // `relativePath` is always rooted at the NEWS directory (see getRelativeNewsPath),
+  // e.g. "NEWS/general/zh/2026-07-06_….md". Resolve it under the NEWS_ROOT constant
+  // instead of process.cwd() so Turbopack scopes its static file-trace glob to
+  // NEWS/** rather than the entire project root (which would pull node_modules, .git,
+  // .next, etc. into the serverless bundle — the "overly broad pattern" warning).
+  const segments = relativePath.split("/");
+  const withinNews = segments[0] === "NEWS" ? segments.slice(1) : segments;
+  return path.join(NEWS_ROOT, ...withinNews);
 }
 
 function toIndexedPreview(entry: NewsEntry, topic: TopicMeta, locale: Locale): IndexedNewsPreview {
