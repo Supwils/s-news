@@ -6,170 +6,190 @@
 
 ## I. Policy & Market Environment
 
-### 1. South Korea Issues L4 Driverless Safety Guidelines: 15,000 km Driving Record, One Takeover per 160 km Max (Policy / South Korea)
-**Summary:** On July 7, 2026, South Korea's Ministry of Land, Infrastructure and Transport released Guidelines on Safety Operation Requirements for Unmanned Self-Driving Cars, paving the way for Level 4 commercialization under temporary operation permits. Key requirements include a minimum of 15,000 km of verified driving records (combinable across up to five vehicles using the same system, each with at least 3,000 km); no more than one human takeover per 160 km or less during testing; real-time remote monitoring, two-way communication, passenger emergency-stop capability, and a Minimum Risk Condition (MRC) strategy. The guidelines draw on approval practices from the U.S. and China; a briefing for automakers and research institutions is scheduled for July 10. The government is also pursuing legislation to extend temporary permit periods from five to up to nine years.
+### 1. NHTSA Orders U.S. AV Developers to Stop Interfering with First Responders, Submit Fixes by Month-End (Policy / United States)
+**Summary:** TechCrunch and The Autowire reported on July 8, 2026, that NHTSA Administrator Jonathan Morrison issued an open letter to all driverless automated driving system (ADS) developers in the United States, citing a documented pattern of driverless vehicles interfering with law enforcement and emergency response — including driving into fire scenes, blocking ambulances and fire apparatus, and failing to recognize lights, cones, smoke, and other cues. Morrison called such scenarios "not rare or extreme edge cases" and said inability to respond appropriately constitutes a "functional insufficiency," demanding developers immediately focus resources on fixes and submit solutions to NHTSA by month-end while reserving existing enforcement authority. The letter also disclosed NHTSA's progress on Federal Motor Vehicle Safety Standards (FMVSS) revisions that could relax human-driver equipment requirements such as wipers and sun visors for dedicated driverless vehicles without steering wheels or pedals.
 
 **Links:**
 
-- [Chosun — Ministry Requires 15,000 km Driving Records for Autonomous Vehicles](https://www.chosun.com/english/market-money-en/2026/07/07/QZZCWGJB2FAXDHHIIEQL5JCKY4/)
-- [Herald Business — South Korea issues safety guidelines to accelerate fully driverless car era](https://biz.heraldcorp.com/article/10800352)
+- [TechCrunch — Feds demand autonomous vehicle companies stop interfering with first responders](https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/)
+- [The Autowire — Robotaxis Keep Blocking First Responders — NHTSA Finally Notices](https://theautowire.com/2026/07/08/robotaxis-keep-driving-into-fire-scenes-and-washington-just-admitted-theres-no-rule-against-it/)
 
-**Commentary:** South Korea is lowering L4 entry costs via mileage thresholds and combinable fleet data — a regulatory catch-up move as Waymo and Baidu Apollo already operate at scale; cross-scenario record recognition will be the next battleground.
+**Commentary:** Regulators have publicly admitted that paid, unsupervised robotaxis were never required to prove they understand emergency scenes the way a 16-year-old learner must — the rule vacuum between robotaxi scale-up and public safety is shifting from PR controversy to a compliance countdown.
 
 ---
 
-### 2. Malaysia Revises EV Import Policy: RM200,000 Minimum CIF, 180 kW Motor Output After 2022–2025 Tax Incentives End (Policy / Southeast Asia)
-**Summary:** Malay Mail reported on July 8, 2026, that Malaysia's Deputy Minister of Investment, Trade and Industry Sim Tze Tzin told Parliament that after tax incentives for imported completely built-up (CBU) EVs expired on December 31, 2025, the government revised import policy with a minimum cost, insurance, and freight (CIF) value of RM200,000 and a minimum motor power output of 180 kW. Sim said the measures are not intended to raise EV price floors but represent rationalization and strategic transition of national CBU policy, balancing consumer affordability, XEV adoption targets of 20% by 2030, 50% by 2040, and 80% by 2050, and Malaysia's competitiveness as a regional EV hub. Lawmakers had questioned impacts on imported EV prices and adoption; the government stressed that investors need clear, consistent policy before committing to local investment.
+### 2. CPCA June Analysis: ICE Retail Plunges 39%, NEV Penetration at 62.8%, Exports the Sole High-Growth Engine (Market / China)
+**Summary:** Sina Finance and Futunn reported on July 8, 2026, that the China Passenger Car Association (CPCA) released its June national passenger-car market analysis: retail sales reached 1.602 million units, down 23.2% year-on-year but up 6.1% month-on-month; H1 cumulative retail fell 20.2% to 8.701 million units. June's defining theme was "ICE collapse at home, NEV dominance, export surge" — ICE passenger retail fell 39%, conventional ICE share dropped to 37.2%, and pure ICE fell 42%; NEV retail penetration held at a record 62.8%. Exports hit 877,000 units in June (+82.3% YoY), with NEV exports at 499,000 (+152.7%), accounting for 56.9% of total exports; H1 NEV manufacturer exports reached 2.231 million units (+124.3% YoY). CPCA Secretary-General Cui Dongshu said high fuel prices are accelerating ICE-to-NEV substitution and growing overseas acceptance of Chinese NEV brands.
 
 **Links:**
 
-- [Malay Mail — Miti: EV import policy revised after tax incentives end, RM200,000 CIF threshold set](https://www.malaymail.com/news/malaysia/2026/07/08/miti-ev-import-policy-revised-after-tax-incentives-end-rm200000-cif-threshold-set/226799)
+- [Sina Finance — June ICE passenger car sales fall 39% as auto market faces pressure](https://finance.sina.com.cn/jjxw/2026-07-08/doc-inihceis8353215.shtml)
+- [Futunn — CPCA: June auto market defined by ICE collapse, NEV dominance, export surge](https://news.futunn.com/post/75700635/china-passenger-car-association-the-core-characteristics-of-the-auto)
 
-**Commentary:** Southeast Asia's second act — "subsidize volume first, then set thresholds to protect local industry" — is playing out in Malaysia; the low-cost imported EV window is closing as regional competition shifts from consumer subsidies to supply-chain landing bets.
+**Commentary:** Behind weak headline volumes lies a structural flip — domestic demand leans on NEVs while growth leans on exports; China's "price war at home, scale war abroad" dual track is now unmistakable in the data.
 
 ---
 
-### 3. U.S. Congress Proposes National $130/Year EV Fee in BUILD America 250 Act to Offset Lost Federal Gas Tax Revenue (Policy / United States)
-**Summary:** Marketplace and Ars Technica reported around July 7, 2026, that the bipartisan transportation bill "Building Unrivaled Infrastructure and Long-term Development for America's 250th Act" would establish a first-ever national EV registration fee: $130/year for battery-electric vehicles (rising $5 annually from 2029 to $150 by 2035), and $35/year for plug-in hybrids (rising to $50). Brookings senior fellow Adie Tomer noted the federal gas tax has not been raised since 1993; 42 states already charge local EV fees ($50–$300), but a federal personal-vehicle registration fee would be unprecedented. The Zero Emissions Transportation Association criticized the rate as exceeding average annual federal gas tax paid by conventional drivers ($73–$89) and warned that a lump-sum annual bill is more salient than embedded fuel taxes, potentially discouraging electrification.
+### 3. China H1 NEV Retail Down 13%; AlixPartners Says Only 3 of 30 Focused Makers Were Profitable in 2025 (Market / China)
+**Summary:** TechTimes reported on July 8, 2026, citing CPCA preliminary data released July 3, that China NEV passenger retail totaled 4.734 million units in H1 2026, down 13% year-on-year; June retail was 1.037 million (-7% YoY) while wholesale rose 22%, reflecting factories pushing inventory into export channels. AlixPartners' 23rd Annual Global Automotive Outlook (published June 25, 2026) found that among 30 China-focused NEV manufacturers, only BYD, Xiaomi, and Leapmotor achieved full-year profitability in 2025, with just seven projected to break even by 2030 — meaning more than half may exit via bankruptcy or acquisition. With domestic margins tightening, Chinese automakers are projected to export nearly 10 million vehicles in 2026 (+41% from 7.1 million in 2025), structurally enabled by a battery cost advantage rivals in Europe and North America cannot currently match.
 
 **Links:**
 
-- [Marketplace — Congress is eyeing a national fee for electric vehicles](https://www.marketplace.org/story/2026/07/07/congress-eyes-a-national-ev-registration-fee)
-- [Ars Technica — EV drivers will pay $130 a year under Congress' 2026 transportation bill](https://arstechnica.com/cars/2026/05/bipartisan-bill-in-congress-includes-130-annual-ev-registration-fee/)
+- [TechTimes — China EV Sales Slide 13% in H1 2026: Only 3 Brands Profitable as Export Push Soars](https://www.techtimes.com/articles/319909/20260708/china-ev-sales-slide-13-h1-2026-only-3-brands-profitable-export-push-soars.htm)
 
-**Commentary:** With federal purchase credits gone, a "road-use tax" is becoming the new EV cost line item — U.S. electrification policy is shifting from purchase incentives to usage fees, in sharp contrast to subsidy expansion in Europe and Asia.
+**Commentary:** Record penetration and profit concentration now coexist — China's NEV sector is moving from "policy-nurtured industry-wide gains" to a survival race trading scale for cash flow and exports for liquidity.
 
 ---
 
-## II. Market & Major Automakers
-
-### 4. First U.S.-Built Tesla Model Y L Rolls Off Giga Texas, Six-Seat Long-Wheelbase Variant Expands American Production (Market / United States)
-**Summary:** The Driven reported on July 8, 2026, that after Model Y L production began at Tesla's Shanghai plant in April, the first U.S.-built six-seat Model Y L has rolled off the line at Giga Texas. The extended three-row SUV's AWD variant delivers up to 378 kW, 0–100 km/h in about 5 seconds, and up to roughly 681 km range on a large NMC pack with 19-inch wheels. It is also Tesla's first V2L-capable model in Australia (3.3 kW discharge), priced from A$74,900. Shanghai-built Model Y L has been Australia's best-selling vehicle of any type for two consecutive months; U.S. production should accelerate North American deliveries and reduce cross-border logistics dependence.
+### 4. Malaysia Sets 30,000 Charging Station Target by 2030, Partners with TNB on Substations and CPO Incentives (Policy / Southeast Asia)
+**Summary:** BusinessToday and The Star reported on July 8, 2026, that Malaysia's Deputy Minister of Investment, Trade and Industry Sim Tze Tzin told Parliament the national charging target has been raised to 30,000 facilities by 2030 after missing the prior 10,000-by-2025 goal (ending 2025 with roughly 5,624 points). Sim said the government is working with Tenaga Nasional Berhad (TNB) to expand electrical substations to supply DC fast chargers and is discussing targeted incentives for charging point operators (CPOs); existing Green Investment Tax Allowance (GITA) already offers CPOs 100% investment tax allowance, while charging equipment manufacturers enjoy full income tax exemption through assessment year 2032. Lawmakers urged integrating chargers into residential and smaller-town developments; the government said the EV ecosystem remains early-stage and policies will continue to evolve.
 
 **Links:**
 
-- [The Driven — Tesla starts US production of best-selling 6-seater Model Y L](https://thedriven.io/2026/07/08/tesla-starts-us-production-of-best-selling-6-seater-model-y-l/)
+- [BusinessToday — Malaysia Targets 30,000 EV Charging Stations By 2030](https://www.businesstoday.com.my/2026/07/08/malaysia-targets-30000-ev-charging-stations-by-2030/)
+- [The Star — Gov't refining EV incentives, cooperating with TNB to boost fast-charging stations](https://www.thestar.com.my/news/nation/2026/07/08/govt-refining-ev-incentives-cooperating-with-tnb-to-boost-fast-charging-stations)
 
-**Commentary:** Model Y L validates the "family six-seat + long range" formula in China before feeding it back into U.S. production lines — Tesla is defending premium SUV share through SKU depth, not price cuts alone.
+**Commentary:** Southeast Asia's charging bottleneck is not pile count alone but substation and grid capacity — Malaysia embedding "grid first" in policy signals that charging competition is shifting from station rollout to power-system coordination.
 
 ---
 
-### 5. Tesla Model Y Regains Germany's Monthly BEV Crown in June; Volkswagen Leads H1 2026 German BEV Brands (Market / Europe)
-**Summary:** Citing KBA data released July 7, 2026, Vietnam.vn reported that 6,023 Tesla Model Y units were newly registered in Germany in June, accounting for 7.2% of that month's BEV registrations and reclaiming the monthly top spot for the first time since March; Volkswagen Group models had held the lead in April and May. Best-Selling-Cars H1 data shows German BEV registrations up 48% year-on-year to 368,006 (25% market share); Volkswagen led brands with 52,445 units (13.4% share), followed by Škoda and BMW, while Tesla's 19,701 Model Y sales made it the best-selling single BEV model though the brand ranked fourth for the half. Tesla also announced a target to raise Model Y weekly output at Grünheide near Berlin to 7,500 vehicles.
+## II. Autonomous Driving & Mobility
+
+### 5. Waymo Launches Fully Driverless Operations in Las Vegas; Denver, San Diego, Tampa Queued Next (Autonomous Driving / United States)
+**Summary:** Electrek and The Verge reported on July 8, 2026, that Waymo activated "no one at the wheel" robotaxi service in Las Vegas and confirmed Denver, San Diego, and Tampa will follow; initial rides are employee-only with public service opening soon. The expansion is backed by a $16 billion funding round earlier this year (at a $126 billion valuation) and a roughly 3,000-vehicle fleet, targeting 1 million paid rides per week by end-2026. Waymo is also testing the Hyundai Ioniq 5 with a safety specialist present. Tampa adds a second Florida Sun Belt market, and Waymo's 2026 rollout pace is advancing faster than the industry's familiar slip-and-delay pattern.
 
 **Links:**
 
-- [Vietnam.vn — Tesla Model Y returns to the top-selling electric car in Germany](https://www.vietnam.vn/en/tesla-model-y-tro-lai-vi-tri-mau-xe-dien-ban-chay-nhat-tai-duc)
-- [Best-Selling-Cars — 2026 Half-Year Germany: Best-Selling Electric Car Brands and Models](https://www.best-selling-cars.com/germany/2026-half-year-germany-best-selling-electric-car-brands-and-models/)
+- [Electrek — Waymo goes driverless in Las Vegas, with Denver, San Diego, Tampa next](https://electrek.co/2026/07/08/waymo-driverless-las-vegas-four-new-cities/)
+- [The Verge — Waymo kicks off driverless trips in four new cities](https://www.theverge.com/transportation/962772/waymo-kicks-off-driverless-trips-in-four-new-cities)
 
-**Commentary:** Germany's "monthly champion" and "half-year brand leader" now belong to different players — European electrification has entered a multi-polar phase where volume models and margin models are diverging under pricing pressure.
+**Commentary:** Waymo's four-city push on the same day as NHTSA's emergency-scene order creates tension — commercial throttle wide open while regulators turn "will you yield to fire trucks?" from a PR issue into a hard compliance gate.
 
 ---
 
-### 6. BMW's $1.7 Billion South Carolina Expansion Takes Shape; iX5 Becomes First U.S.-Built BEV BMW, Six EVs by 2030 (Market / United States)
-**Summary:** Benzinga reported on July 7, 2026, that BMW North America CEO Sebastian Mackensen told Fox Business the company's 2022-announced plan — $1 billion to upgrade Spartanburg and $700 million for a Woodruff battery assembly plant — is entering its substantive phase. The new X5 debuted at Spartanburg on June 30; the all-electric iX5 will become the first BEV BMW assembled in the U.S. before end-2026, with at least five more fully electric models from the South Carolina plant by 2030. Mackensen said BMW remains convinced electrification is a long-term drivetrain option despite near-term U.S. EV sales challenges; Spartanburg has been America's highest-value automotive exporter for over a decade, shipping nearly 3 million vehicles worth $113 billion from 2014 through 2025.
+### 6. Atlanta Rideshare Drivers Rally, Saying Autonomy and Algorithms Halved Annual Earnings (Mobility / United States)
+**Summary:** FOX 5 Atlanta reported on July 8, 2026, that some Atlanta Uber drivers say earnings have been "cut in half" over the past year since Waymo launched its driverless fleet locally, compounded by platform algorithm changes. Driver coalitions and labor advocates plan a rally at Historic Fourth Ward Park on Thursday, July 9, protesting driverless expansion, automation, and unregulated data-center growth. An Uber spokesperson cited company statements advocating a phased, hybrid transition with guardrails to prevent worker displacement and preserve earnings and trust; drivers argue algorithms are being optimized for corporate efficiency at labor's expense.
 
 **Links:**
 
-- [Benzinga — BMW Says It is 'Here For the Long Game' in US As $1.7 Billion South Carolina EV Expansion Takes Shape](https://www.benzinga.com/markets/tech/26/07/60301597/bmw-says-it-is-here-for-the-long-game-in-us-as-1-7-billion-south-carolina-ev-expansion-takes-shape)
+- [FOX 5 Atlanta — Uber drivers in Atlanta report earnings slashed in half due to AI vehicles](https://www.fox5atlanta.com/news/uber-drivers-atlanta-report-earnings-slashed-half-due-ai-vehicles)
 
-**Commentary:** As rivals trim North American EV investment, BMW is anchoring its bet on a U.S.-built iX5 — Spartanburg is becoming the most committed German electrification manufacturing stake in America.
+**Commentary:** Robotaxi competition's first social invoice is landing — the clash between technical feasibility and driver livelihoods is moving from Silicon Valley narrative to Sun Belt street politics.
 
 ---
 
-## III. Autonomous Driving & Mobility
+## III. Market & Major Automakers
 
-### 7. Zoox Monthly Active User Share Doubles to 25% in H1 2026, Competing Head-to-Head with Waymo in Miami and Beyond (Autonomous Driving / United States)
-**Summary:** Business Insider reported in July 2026 that Apptopia data shows Amazon-owned Zoox's share of monthly active users rose from 15% in January to 25% in June, while Waymo fell from 79% to 69% (still growing in absolute terms, up 15%). Zoox entered Austin and Miami in H1 2026 and expanded service areas in San Francisco and Las Vegas while ramping production of a new robotaxi. Apptopia noted Waymo grew several-fold among 17–25-year-old users, but Zoox is competing for new demand in the same neighborhoods. Industry analysis still places Waymo years ahead in driverless miles and commercial cities, but robotaxi competition is shifting from single-city pilots to multi-platform user acquisition in shared markets.
+### 7. Toyota Invests $3.6 Billion to Shift Tacoma Production from Mexico to Texas; All U.S. Midsize Pickups Will Be American-Built (Market / United States)
+**Summary:** GM Authority and BNamericas reported around July 8, 2026, that Toyota North America will invest $3.6 billion to expand its San Antonio, Texas plant — adding a second assembly line, roughly 2 million square feet, and 2,000 jobs — gradually shifting Tacoma production from Baja California, Mexico over about four years to build alongside the Tundra and Sequoia. Once complete, every U.S.-market midsize pickup (including Ford Ranger, Nissan Frontier, Jeep Gladiator, Honda Ridgeline, and GM's Colorado/Canyon) will be assembled in the United States. Toyota stressed continued commitment across North America and urged swift USMCA resolution; analysts cite annual USMCA review uncertainty, Mexico's judicial reform, and security risks as drivers of capacity "reshoring" to the U.S.
 
 **Links:**
 
-- [Business Insider — Zoox Grows Number of Active Users As Robotaxi Wars Continue](https://www.businessinsider.com/zoox-grows-active-users-robotaxi-wars-waymo-numbers-2026-7)
+- [GM Authority — Toyota Tacoma Production Moving From Mexico To Texas](https://gmauthority.com/blog/2026/07/toyota-tacoma-production-moving-from-mexico-to-texas/)
+- [BNamericas — Toyota moves production from Mexico to the US as doubts grow over the future of the USMCA](https://www.bnamericas.com/en/analysis/toyota-moves-production-from-mexico-to-the-us-as-doubts-grow-over-the-future-of-the-usmca)
 
-**Commentary:** App MAU is not paid miles, but Zoox gaining share in Waymo territory signals robotaxi wars have entered the mindshare phase — whether a second player survives in the same city depends on operational density, not technology narrative alone.
+**Commentary:** Pickups are America's profit pool — Toyota is "domesticating" Tacoma with $3.6 billion; in an era of trade-rule uncertainty, site selection weighs political risk premium as much as unit cost.
 
 ---
 
-### 8. Tesla Begins Public-Road Engineering Tests of Production Cybercab in Austin (Autonomous Driving / United States)
-**Summary:** Digitimes reported on July 6, 2026, that Tesla has begun engineering tests of the production Cybercab on public roads in Austin, Texas — the purpose-built two-seat robotaxi's first exposure to real urban traffic. The move follows June's unsupervised Robotaxi launch in Austin and early-July Miami expansion, marking a key step from Model Y-based fleets toward a dedicated robotaxi platform. Cybercab's steering-wheel- and pedal-free design will require alignment with NHTSA's recently proposed brake-standard revisions for ADS-only vehicles before compliant mass production.
+### 8. Toyota Recalls ~5,400 Model Year 2026 Grand Highlander and Lexus TX Units for Rear Axle Carrier Defect (Market / United States)
+**Summary:** A Toyota USA press release dated July 8, 2026, announced a North American safety recall of approximately 5,400 model year 2026 Toyota Grand Highlander and Lexus TX vehicles because rear axle carriers may not have been manufactured properly and could break under certain conditions, affecting rear stability. Dealers will inspect rear axle carrier sub-assembly codes and replace affected units at no charge; owners are expected to be notified in early September 2026.
 
 **Links:**
 
-- [Digitimes — Tesla starts public road tests of Cybercab](https://www.digitimes.com/news/a20260706PD247/tesla-austin-production-vehicle-texas.html)
+- [Toyota USA Newsroom — Toyota Recalls Certain Model Year 2026 Toyota Grand Highlander and Lexus TX vehicles](https://pressroom.toyota.com/toyota-recalls-certain-model-year-2026-toyota-grand-highlander-and-lexus-tx-vehicles/)
 
-**Commentary:** Cybercab road tests push the robotaxi story from "modified Model Y in a geofence" toward "dedicated platform validation" — whether the purpose-built vehicle scales faster than the general fleet will define Tesla's autonomy cost curve.
+**Commentary:** A safety recall in year one of a premium three-row SUV launch tests whether Toyota's brand premium can absorb the hit — dealer response speed and transparency will matter most.
 
 ---
 
-## IV. Batteries, Charging & Energy
-
-### 9. Hyundai Motor Group Deploys V2G Pilot to 40 Jeju Households; Korea's Legal Framework Still Incomplete (Battery / South Korea)
-**Summary:** Seoul Economic Daily and Asia Business Daily reported on July 8, 2026, that Hyundai Motor Group is operating a vehicle-to-grid (V2G) pilot for 40 Ioniq 9 and Kia EV9 owners on Jeju Island — the first Korean households to experience bidirectional charging between vehicle batteries and the grid at home. Participants charge during off-peak hours and feed power back during peak demand; Hyundai will analyze connection frequency, time-of-day patterns, and user acceptance of battery discharge to design commercial services and compensation models, also informing future V2G projects at the Saemangeum AI Hydrogen City. Industry officials note Korea has not yet defined EVs' legal status as distributed energy resources or established settlement standards, limiting nationwide V2G rollout pending regulatory reform.
+### 9. Renault CEO Says Compact BEVs Now Earn Positive Margins, Warns EU Must Align Industrial Policy or Lose Home Market (Market / Europe)
+**Summary:** newmobility.news reported on July 8, 2026, that Renault CEO François Provost told Les Echos that the new-generation compact BEVs — Renault 5, Renault 4, and the upcoming Twingo — are achieving positive margins, challenging industry consensus that European small cars cannot be profitable. Provost said the Megane E-Tech and Scenic E-Tech laid the family-car electrification foundation, while the Renault 5 pushes the test into a more price-sensitive segment; if small EV margins beat larger BEVs, electrification need not remain a loss-making compliance exercise. His message to Brussels and Paris: Europe must ensure rules create European jobs and value chains, not just a market for cheaper imports.
 
 **Links:**
 
-- [Seoul Economic Daily — Hyundai Launches V2G Pilot Letting Homes Draw Power From EVs](https://en.sedaily.com/finance/2026/07/08/hyundai-launches-v2g-pilot-letting-homes-draw-power-from-evs)
-- [Asia Business Daily — Electric Vehicles as Power Plants: 'V2G' Demonstration Begins, but Legal Framework Urgently Needed](https://www.asiae.co.kr/en/article/automobile/2026070809130408657)
+- [newmobility.news — Renault boss turns small EV profits into a warning for EU](https://newmobility.news/en/2026/07/08/renault-boss-turns-small-ev-profits-into-a-warning-for-eu/)
 
-**Commentary:** V2G technology has reached the driveway, but market-access tickets haven't been issued — Korea's pilot value lies in building compensation-pricing data for "EVs as storage assets," not proving bidirectional charging works.
+**Commentary:** As Chinese affordable EVs press from below, Renault is using "small cars already profitable" to win policy voice — Europe's electrification pivot point is shifting from flagship SUVs to the ~€20,000 entry segment.
 
 ---
 
-### 10. CATL Unveils Tectrans II 8C Ultra-Fast LCV Battery: 80% Charge in 6:48, Million-Kilometer Warranty (Battery / China)
-**Summary:** The Driven reported on July 8, 2026, that CATL launched the Tectrans II (Tianxing II) ultra-fast charging battery for light commercial vehicles (LCVs) — the first 8C-rated product for logistics and commercial fleets. CATL claims 20%–80% charging in approximately 6 minutes 48 seconds and full charge in about 8 minutes 56 seconds, with a 10-year or 1-million-kilometer warranty emphasizing cycle life and used-vehicle residual value. CATL is also planning a new charging network compatible with both passenger and commercial vehicles. The launch follows flash-charging passenger models like the BYD Seal 08, signaling that battery leaders are extending ultra-fast charging competition from private owners to high-turnover urban logistics.
+## IV. EVs, Batteries & New Models
+
+### 10. Tesla Model Y L Goes on Sale in U.S.: True Six-Seat Long-Wheelbase Variant from $61,990, 325-Mile EPA Range (New Models / United States)
+**Summary:** MotorTimes reported on July 8, 2026, that Tesla officially brought the Model Y L to North America, with the Launch Series priced from $61,990. Roughly 7 inches longer than the standard Model Y with a 5.9-inch longer wheelbase, it uses a 2+2+2 layout with heated/ventilated captain's chairs in row two and heated, power-reclining third-row seats. The dual-motor AWD variant delivers 325 miles EPA range and 0–60 mph in about 4.4 seconds, with adaptive suspension, FSD (Supervised), and one year of complimentary Supercharging and Premium Connectivity. The launch follows Tesla's discontinuation of Model S and Model X, filling the premium family-SUV line with more space.
 
 **Links:**
 
-- [The Driven — CATL unveils new ultra-fast charging battery for light commercial vehicles, with million kilometre warranty](https://thedriven.io/2026/07/08/catl-unveils-new-ultra-fast-charging-battery-for-light-commercial-vehicles-with-million-kilometre-warranty/)
+- [MotorTimes — Tesla Model Y L Arrives in the US With True Three-Row Design](https://www.motortimes.com/articles/60265/20260708/tesla-model-y-l-arrives-us-true-three-row-design-challenge-growing-electric-suv-competition.htm)
 
-**Commentary:** 8C plus a million-kilometer warranty targets the LCV logic that time equals money — if commercial ultra-fast charging delivers, it will push charging networks toward megawatt-class upgrades faster than passenger cars alone.
+**Commentary:** After retiring S/X, Tesla is defending the premium family BEV SUV with a China-validated long-wheelbase six-seater — product strategy is shifting from performance flagships to space premium.
 
 ---
 
-## V. New Models & Industry
-
-### 11. Leapmotor Opens European Orders for B03X from €24,900; Stellantis Channels Drive Global Compact BEV Push (New Models / Europe)
-**Summary:** CleanTechnica and electrive reported on July 7, 2026, that Leapmotor International — Stellantis' joint venture — opened European orders for the B03X compact electric crossover from €24,900 (just below Germany's €25,000 psychological threshold; leasing from €239/month with no down payment). The vehicle features CTC 2.0 Plus cell-to-chassis battery integration in 52.9 kWh and 63.8 kWh variants, 2.5C fast charging from 30%–80% in about 16 minutes, up to roughly 382 km WLTP range, a 14.6-inch center display, and Leap OS 4.0. B03X is the global strategic model unveiled in Brussels in early 2026 (known as A10 in China), marking Leapmotor's volume push into Europe via Stellantis' dealer network.
+### 11. Ford Clarifies 2027 UEV-Platform Electric Pickup Is a "Small Four-Door Truck," Not Midsize, Starting Around $30,000 (New Models / United States)
+**Summary:** Electrek reported on July 8, 2026, that in a Louisville Assembly Plant upgrade statement, Ford for the first time called its 2027 Universal EV (UEV) platform debut an "all-new, affordable small four-door electric pickup" rather than the midsize model it had consistently promoted. As the first UEV vehicle, it will use LFP batteries and megacasting-style manufacturing to cut costs, starting around $30,000 with at least 300 miles of range; cabin space is benchmarked against a Toyota RAV4-class vehicle. Ford's Q2 sales fell 10% partly due to phasing out Escape and Lincoln Corsair to clear capacity for the truck.
 
 **Links:**
 
-- [CleanTechnica — Leapmotor B03X Orders Open in Europe: A New Benchmark in the Urban Crossover Segment](https://cleantechnica.com/2026/07/07/leapmotor-b03x-orders-open-in-europe-a-new-benchmark-in-the-urban-crossover-segment/)
-- [electrive — Leapmotor opens orders for B03X starting at €24,900](https://www.electrive.com/2026/07/07/leapmotor-opens-orders-for-b03x-starting-at-e24900/)
+- [Electrek — Ford admits its $30K midsize EV pickup is 'small'](https://electrek.co/2026/07/08/ford-admits-30k-midsize-ev-pickup-is-small/)
 
-**Commentary:** China's H1 NEV sales champion is putting sub-€25,000 EVs into European showrooms — Chinese affordable EV exports are moving from trade trials to localized channel distribution.
+**Commentary:** Rebranding from "midsize" to "small" is both a product repositioning and profit-pool separation from Ranger — Ford's volume electrification bet is a ~$30,000 pickup, not a head-on fight with Silverado EV.
 
 ---
 
-### 12. VinFast VF2 Priced at 188 Million Dong (~$7,100), Vietnam's Cheapest Four-Door BEV, Deliveries in September (New Models / Southeast Asia)
-**Summary:** Nikkei Asia and Paul Tan reported on July 8, 2026, that VinFast launched the four-door, four-seat VF2 city EV at 188 million Vietnamese dong (about $7,100–$7,200) including the battery — its cheapest model to date. The car carries an 18.3 kWh battery and 30 kW motor with roughly 210 km NEDC range and fast-charging support; pre-orders open July 15 with deliveries from September, plus 10 free monthly V-Green charging sessions through February 2029. The launch coincides with tightening gasoline-motorcycle restrictions in Hanoi, as VinFast targets Vietnam's low car-penetration market with ownership costs comparable to premium motorcycles.
+### 12. Volvo Rolls Out First 10 Australia-Built Heavy-Duty Electric Trucks: 700 km Range, 40-Minute Fast Charge (EV Trucks / Australia)
+**Summary:** The Driven reported on July 8, 2026, that Volvo held a ceremony at its Wacol, Brisbane headquarters celebrating the first 10 heavy-duty battery-electric trucks assembled in Australia, attended by Prime Minister Anthony Albanese. Built on the same line as diesel trucks, they are rated for roughly 40 tonnes of freight, up to 700 km per charge, and about 40 minutes to recharge; some units go to Linfox, with another customer ordering 10. The Clean Energy Finance Corporation invested A$70 million to accelerate electric truck production. Volvo Group Australia president Martin Merrick called for harmonized axle-weight and other regulations so electric heavy trucks can operate at full advantage.
 
 **Links:**
 
-- [Nikkei Asia — VinFast rolls out $7,100 EV to tap Vietnam's underpenetrated car market](https://asia.nikkei.com/business/automobiles/electric-vehicles/vinfast-rolls-out-7-100-ev-to-tap-vietnam-s-underpenetrated-car-market2)
-- [Paul Tan — VinFast VF2 launched in Vietnam, priced at just RM29k](https://paultan.org/2026/07/08/vinfast-vf2-launched-in-vietnam/)
+- [The Driven — Volvo delivers first 10 Australia-made battery electric trucks, with 700 km range](https://thedriven.io/2026/07/08/imagine-a-city-thats-pollution-free-volvo-delivers-first-10-australia-made-battery-electric-trucks-with-700-km-range/)
 
-**Commentary:** A ~$7,000 four-door EV pushes the car-vs-motorcycle substitution logic to the extreme — Southeast Asia's electrification battleground may be entry-level "two-wheel to four-wheel" upgrades, not Tesla-style premium plays.
+**Commentary:** With Middle East conflict pushing diesel costs higher and Australia's June EV car sales at records, locally built heavy electric trucks are debuting — commercial electrification's tipping point may arrive before passenger cars.
 
 ---
 
-### 13. Eighth-Gen Lexus ES Launches in Australia, First RHD Market with Hybrid and BEV Options (New Models / Australasia)
-**Summary:** AutoBuzz reported on July 8, 2026, that the eighth-generation Lexus ES — globally debuted at Auto Shanghai 2025 — has officially launched in Australia as the first right-hand-drive market, offering a 2.5L hybrid and two BEV configurations. The single-motor ES350e delivers up to 224 hp; the dual-motor ES500e reaches 343 hp. Both EV variants use a 74.7 kWh pack with 465–510 km WLTP range and 150 kW DC fast charging (10%–80% in about 28 minutes). The Australian launch is a key step in Lexus' "hybrid plus BEV" dual-track strategy across developed markets.
+### 13. Zeekr 9X Five-Seat Variant Opens Pre-Sales: 1,381 hp Tri-Motor PHEV, 6C Battery 80% in 9 Minutes (New Models / China)
+**Summary:** CarNewsChina and CnEVPost reported on July 8, 2026, that Geely's Zeekr officially opened pre-sales for the five-seat version of its flagship 9X SUV alongside the existing six-seat layout, positioned as a large luxury PHEV. The SEA Super Electric Hybrid system uses 900V architecture with a 2.0T engine plus tri-motor combined output of 1,030 kW (1,381 hp) and 0–100 km/h in 3.1 seconds; the 6C hybrid battery delivers up to 380 km CLTC electric range with 20%–80% charging in about 9 minutes. A 5,000 yuan deposit unlocks up to 90,000 yuan in limited-time benefits including a Naim sound system and power running boards; final five-seat pricing is not yet announced. The six-seat version has delivered over 60,000 units since September 2025, ranking first among large SUVs above 500,000 yuan for seven consecutive months.
 
 **Links:**
 
-- [AutoBuzz — All-new 8th-gen Lexus ES debuts in Australia in hybrid and EV guise](https://autobuzz.my/2026/07/08/all-new-8th-gen-lexus-es-debuts-in-australia-in-hybrid-and-ev-guise/)
+- [CarNewsChina — Zeekr 9X five-seater hybrid SUV opens pre-sales in China](https://carnewschina.com/2026/07/08/zeekr-9x-five-seater-hybrid-suv-opens-pre-sales-in-china-featuring-1381-hp-and-6c-battery/)
+- [CnEVPost — Zeekr kicks off pre-sales of 5-seat 9X](https://cnevpost.com/2026/07/08/zeekr-kicks-off-pre-sales-5-seat-9x/)
 
-**Commentary:** Launching hybrid and BEV together in a developed RHD market shows Toyota Group still bets on powertrain diversity over BEV-only — the ES buyer profile demands a no-range-anxiety option alongside electrification.
+**Commentary:** The five-seat layout expands trunk space from 470 L to over 1,000 L — Zeekr is surgically segmenting the premium family market, setting up a direct clash with Nio's five-seat ES8 launching July 9.
+
+---
+
+### 14. MG 07 Electric Coupe Pre-Sales Set for July 29: Semi-Solid-State Battery from ~$22,000, 610 km Range (Battery / China)
+**Summary:** Electrek reported on July 8, 2026, that SAIC's MG announced the new MG 07 electric coupe will open pre-sales in China on July 29, 2026. The base variant uses a 67 kWh semi-solid-state battery with 610 km CLTC range (about 379 miles), priced under 150,000 yuan (~$22,000); the top trim adds an 800V platform with 5C fast charging and up to 840 km range, under 180,000 yuan. Features include the industry's first "Queen" makeup station (pull-out vanity above the glovebox) and lidar. MG plans to bring semi-solid-state battery tech to Europe by end-2026, starting with the MG4 Urban.
+
+**Links:**
+
+- [Electrek — This $22,000 EV has a semi-solid-state battery and makeup station](https://electrek.co/2026/07/08/22000-ev-semi-solid-state-battery-makeup-station/)
+
+**Commentary:** Semi-solid-state batteries are moving from concept to sub-150,000-yuan mass production — Chinese OEMs are using chemistry iteration to escape LFP homogenization, pressuring Europe's entry EV segment with a new tech gap.
+
+---
+
+### 15. BYD Shark PHEV Pickup Opens UK Orders from £47,290, 56-Mile EV Range Beats Ford Ranger PHEV (New Models / Europe)
+**Summary:** Electrek reported on July 8, 2026, that BYD's Shark plug-in hybrid pickup opened for order in the UK and Europe from £47,290 (~$63,000 including VAT), with deliveries by year-end. The DMO Super Hybrid system pairs a 32.2 kWh Blade Battery for 55.9 miles WLTP electric range and 419 miles combined, with 0–100 km/h in 5.7 seconds — roughly double the Ford Ranger PHEV's 27-mile EV range. Executive Vice President Stella Li said Europe's PHEV pickup market is "expanding rapidly"; the Shark is already on sale in Mexico, Brazil, Australia, and other markets.
+
+**Links:**
+
+- [Electrek — BYD's pickup priced from $63,000 in UK with 56 miles EV range](https://electrek.co/2026/07/08/byds-pickup-priced-from-63000-in-uk-with-56-miles-ev-range/)
+
+**Commentary:** European pickup electrification is taking a PHEV-first path — BYD is differentiating with double the EV range as Chinese brands move beyond sedans into high-margin utility segments.
 
 ---
 
 ## Today's Summary
-- South Korea issued L4 driverless safety guidelines (15,000 km driving record threshold); Malaysia set EV import floors at RM200,000 CIF and 180 kW output; U.S. Congress proposed a national $130/year EV fee.
-- First U.S.-built Tesla Model Y L rolled off Giga Texas; Germany's June BEV crown returned to Model Y while Volkswagen led H1 brands; BMW's $1.7B South Carolina expansion advances with U.S.-built iX5 by year-end.
-- Zoox monthly active user share doubled in H1; Tesla Cybercab began public-road tests in Austin.
-- Hyundai deployed a 40-household V2G pilot on Jeju; CATL launched the 8C ultra-fast Tectrans II commercial-vehicle battery.
-- Leapmotor opened European B03X orders from €24,900; VinFast VF2 priced at ~$7,100; eighth-gen Lexus ES launched in Australia.
-- **Daily Framing:** An "infrastructure and access-rules day" — South Korea, Malaysia, and the U.S. simultaneously reshaped L4 regulation, import thresholds, and road-use taxation, while battery and V2G technology continued spilling into commercial fleets and home energy.
+- NHTSA ordered U.S. AV developers to submit emergency-scene fixes by month-end; Waymo launched fully driverless service in Las Vegas the same day with Denver, San Diego, and Tampa queued, while Atlanta drivers rallied over falling earnings.
+- CPCA data released July 8: June ICE retail fell 39%, NEV penetration 62.8%, H1 NEV exports up 124.3%; AlixPartners says only 3 of 30 China-focused NEV makers were profitable in 2025.
+- Toyota is investing $3.6 billion to move Tacoma from Mexico to Texas and recalling ~5,400 Grand Highlander/TX units; Renault's CEO says compact BEVs are now margin-positive.
+- Tesla Model Y L starts at $61,990 in the U.S.; Ford clarified its 2027 UEV pickup is a small four-door truck at ~$30,000; Volvo delivered the first 10 Australia-built heavy electric trucks.
+- Zeekr 9X five-seat pre-sales opened; MG 07 semi-solid-state coupe pre-sales set for July 29; BYD Shark launched in the UK; Malaysia raised its 2030 charging target to 30,000 stations.
+- **Daily Framing:** A "robotaxi expansion meets regulatory collision" day — Waymo's four-city push and NHTSA's emergency-scene order landed together, alongside China's "split domestic market, export surge" and North American supply-chain reshoring, as the global auto industry faces simultaneous pressure on scale, safety, and geopolitics.
 
 ---
 

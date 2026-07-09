@@ -1,196 +1,187 @@
-# Jul 8, 2026 · Energy & Climate Daily Digest
+# July 8, 2026 · Energy & Climate Daily Digest
 
-> Today's energy and climate highlights for July 8, 2026 — summaries, links, and commentary.
+> Today's energy and climate highlights for July 8, 2026, with summaries, links, and commentary.
 
 ---
 
 ## I. Policy & Carbon Markets
 
-### 1. US, Japan, and South Korea Sign SMR Cooperation MOU at NATO Summit, Pledging Over **$10 Million** for Indo-Pacific Deployment (Policy · Nuclear)
-**Summary:** Anadolu Agency reported on **July 8, 2026** that the United States, Japan, and South Korea signed a trilateral Memorandum of Cooperation (MOC) on the sidelines of the NATO Summit in Ankara, Türkiye, aimed at accelerating the deployment of small modular reactors (SMRs) in third countries, with an initial focus on the Indo-Pacific. The US State Department said the framework will promote fleet deployment models to de-risk projects, achieve economies of scale, catalyze private investment, streamline licensing, and optimize supply chains. The US pledged more than **$10 million** for the State Department's FIRST program to support safe SMR deployment in the Indo-Pacific; GE Vernova, Hitachi, Samsung C&T, and SGE also agreed to advance BWRX-300 deployment across Europe. Secretary of State Marco Rubio called SMRs "the future of energy generation" at the signing ceremony and cited Strait of Hormuz disruptions during the US-Iran conflict as underscoring the urgency of energy security.
+### 1. EU drafts ETS overhaul: slower CO2 cuts, extended free allowances; formal proposal due July 17 (Carbon market · EU)
+**Summary:** Reuters reported on **July 8, 2026**, citing a European Commission official, that Brussels is drafting a major revision of the Emissions Trading System (ETS) for formal release on **July 17**. The package aims to align with the bloc's **2040** target of a **90%** emissions cut while addressing member-state concerns over industrial competitiveness. Core changes include extending ETS operation beyond the current **2039** cutoff into the **2040s**; offering more free allowances to industry in exchange for verified decarbonization investment; and potentially extending free allocations for sectors covered by the Carbon Border Adjustment Mechanism (CBAM) — Brussels had previously said free permits would end when CBAM fully applies in **2034**. Fast-tracked adjustments to heat- and fuel-related free allocation rules could release an extra **€6 billion** in allowances; member states would also be required to spend more auction revenue supporting carbon-cost-exposed industries. The draft remains internal and must pass European Parliament and Council negotiation after publication.
 
 **Links:**
 
-- [Anadolu Agency — US, Japan, South Korea sign cooperation agreement for deployment of small modular reactors](https://www.aa.com.tr/en/asia-pacific/us-japan-south-korea-sign-cooperation-agreement-for-deployment-of-small-modular-reactors/3989887)
+- [Reuters — EU plans slower CO2 cuts, more free permits for industry in carbon market overhaul](https://uk.finance.yahoo.com/news/eu-carbon-market-more-flexible-095310784.html)
+- [Climate Market Now — Carbon Crunch: Top 5 Developments to Watch in the Upcoming EU-ETS Review](https://climatemarketnow.com/carbon-crunch-top-5-topics-to-expect-from-the-upcoming-eu-ets-review/)
 
-**Commentary:** Geopolitical oil shocks are turning SMRs from a technology option into a diplomatic instrument — the US-Japan-Korea fleet model packages nuclear exports as a replicable baseload alternative for allies under Hormuz risk.
+**Commentary:** The EU is swinging again between climate ambition and industrial competitiveness — free allowances for decarbonization investment is a political trade, but slowing the linear reduction factor may weaken carbon pricing's long-term constraint on high-carbon assets.
 
 ---
 
-### 2. European People's Party Draft Seeks Slower ETS Cuts and Extended Free Allowances; Commission Proposal Due **July 17** (Carbon Market · EU)
-**Summary:** Reuters via Global Banking and Finance reported on **July 7, 2026** that a draft internal paper from the European People's Party (EPP) — the European Parliament's largest group — calls for slowing emissions reductions and extending free pollution permits under the EU Emissions Trading System to "safeguard industrial competitiveness." The current ETS design requires at least a **4.3%** annual emissions cut, rising to **4.4%** from **2028**; the EPP draft proposes lowering the annual reduction rate by at least **1** percentage point from **2031 to 2035**, with further slowing after **2035**, and capping free allowance phase-out at **30%** before **2030**. The European Commission is due to propose ETS revision legislation on **July 17**, including a **€30 billion** "ETS Investment Booster" financed by **400 million** allowances and a comprehensive Market Stability Reserve (MSR) redesign. An E3G analysis on **July 7** noted the review will shape the carbon market's long-term form under the **2040** climate target and test whether the EU can balance competitiveness, decarbonization, and fiscal pressure.
+### 2. U.S. NRC releases three proposals in one week: streamlined NEPA, licensing reform, radiation standard update (Policy · U.S.)
+**Summary:** The U.S. Nuclear Regulatory Commission (NRC) issued three proposed rules between **July 1 and 8, 2026**, aimed at accelerating new reactor licensing and construction. Environmental reforms published **July 8** would sharply streamline National Environmental Policy Act (NEPA) reviews: eliminating draft environmental impact statements (EIS), adding categorical exclusions for microreactor licensing, advanced demonstration projects, and site decommissioning, and compressing environmental assessment and EIS timelines to roughly **1 year** and **2 years** respectively — saving an estimated **$135 million** in regulatory costs over a decade. A separate proposal would allow earlier site work after docketing and open pathways for **40-year** and ultimately **100-year** operating licenses; a third would replace the half-century-old ALARA ("as low as reasonably achievable") principle with risk-informed graded dose management while keeping existing radiation exposure limits. Each rule has a **45-day** public comment period with hearings planned. The moves align with the Trump administration's "American nuclear renaissance" and a goal of quadrupling net nuclear capacity by **2050**.
 
 **Links:**
 
-- [Global Banking and Finance — EU's biggest political group seeks to ease carbon market burden on industry](https://www.globalbankingandfinance.com/eus-biggest-political-group-seeks-to-ease-carbon-market-burden/)
-- [E3G — The EU Emissions Trading System at a juncture – What is at stake for the EU?](https://www.e3g.org/publications/eu-ets-revision-what-is-at-stake-for-europe/)
+- [ANS Nuclear Newswire — NEPA review changes coming under NRC proposed rule](https://www.ans.org/news/2026-07-08/article-8190/nepa-review-changes-coming-under-nrc-proposed-rule/)
+- [E&E News — NRC looks to speed up reactor build-out, scrap decades-old radiation standard](https://www.eenews.net/articles/nrc-looks-to-speed-up-reactor-build-out-scrap-decades-old-radiation-standard/)
 
-**Commentary:** On the eve of ETS revision, industrial lobbying and climate ambition are colliding head-on — extended free allowances would discount the carbon price signal, but the **€30 billion** booster may become the compromise chip.
+**Commentary:** Regulatory streamlining is an accelerator for nuclear revival — but retiring ALARA and shrinking environmental review will trigger fierce debate over public acceptance versus safety margins; permits may move faster than trust.
 
 ---
 
-### 3. China to End NEV Vehicle and Vessel Tax Breaks from **January 1, 2027**, Countdown to "Equal Treatment with ICE" (Policy · China)
-**Summary:** OFweek New Energy Vehicle reported on **July 8, 2026** that China's Ministry of Finance, State Taxation Administration, and Ministry of Industry and Information Technology jointly announced adjustments to vehicle and vessel tax incentives for energy-efficient and certain new energy vehicles from **January 1, 2027**, ending **15 years** of exemptions with full taxation applied uniformly to existing and new vehicles. This follows the shift on **January 1, 2026** from full NEV purchase tax exemption to a 50% reduction. Current NEV purchase tax relief runs through **December 31, 2027**, with no exemptions from **2028** onward. Analysis notes pure electric passenger vehicles and fuel cell passenger vehicles are not directly affected by the vessel tax change; plug-in hybrids, range-extended vehicles with fuel engines, and NEV commercial vehicles face the greatest impact. The policy signals a clear shift from "policy cultivation" to "market-driven" development.
+### 3. China to end NEV vehicle-and-vessel tax breaks from 2027; PHEVs and commercial vehicles hit first (Policy · China)
+**Summary:** OFweek reported on **July 8, 2026**, that China's Ministry of Finance, State Taxation Administration, and MIIT jointly announced that preferential vehicle-and-vessel tax treatment for energy-efficient and certain new-energy vehicles will be phased out from **January 1, 2027**, ending **15 years** of broad-based exemptions. Battery-electric and fuel-cell passenger vehicles are unaffected since they consume no fuel; plug-in hybrids (including range-extenders), fuel-cell commercial vehicles, and energy-efficient conventional vehicles will lose exemptions or half-rate reductions, with both existing and new vehicles taxed uniformly. This follows the **January 1, 2026** shift from full to half purchase-tax exemption for NEVs — with purchase-tax relief running through **December 31, 2027** and ending entirely in **2028**, moving toward the industry's long-called "equal treatment with ICE vehicles." Analysts read the signal as clear: the sector is shifting from policy incubation to market-driven growth, with resources tilting toward pure-electric routes.
 
 **Links:**
 
-- [OFweek — Vehicle and vessel tax adjustment: NEV tax incentives to exit faster](https://nev.ofweek.com/2026-07/ART-71008-8480-30693636.html)
+- [OFweek — Vehicle-and-vessel tax adjustment accelerates NEV tax incentive exit](https://nev.ofweek.com/2026-07/ART-71008-8480-30693636.html)
 
-**Commentary:** As tax incentives phase out orderly, the test is product competitiveness rather than policy dividends — when PHEV commercial vehicles lose vessel tax shelter, hybrid routes must compete head-on with BEV on full lifecycle cost.
+**Commentary:** After dual-credit and purchase-tax tapering, vehicle-and-vessel tax now lands as a blanket measure — PHEVs and commercial NEVs take the first hit while pure-electric routes gain a cleaner policy lane.
 
 ---
 
-### 4. MIT Study: Despite OBBBA Rollbacks, US Power Sector Still Likely to Retain ~**67%** of IRA Emissions-Reduction Gains (Policy · US)
-**Summary:** Axios and MIT CEEPR reported on **July 7, 2026** that Lily Bermel of MIT's Center for Energy and Environmental Policy Research published a "Glass Half Full" commentary assessing the impact of the **2025** One Big Beautiful Bill Act (OBBBA) on US power-sector decarbonization. The study projects that over **2025–2035**, the US will still achieve roughly **71%** of new clean generation and **67%** of emissions reductions relative to a no-rollback scenario; however, total fossil generation will be **19%** higher, with slower coal retirements and increased gas-fired operation. Bermel notes executive-branch actions — permitting freezes, stop-work orders, tariffs, and funding impoundments — may push actual deployment below OBBBA model projections in the near term. She recommends lawmakers focus next on permitting reform and transmission buildout to raise the deployment ceiling rather than solely restoring wind and solar tax credits.
+## II. Green Power & Storage
+
+### 4. Netherlands' Zeewolde wind farm signs 20 MW / 200–800 MWh hydrogen-iron flow long-duration storage (Storage · Netherlands)
+**Summary:** Energy-Storage.News reported on **July 8, 2026**, that Dutch long-duration storage developer Elestor partnered with Windpark Zeewolde — Europe's largest onshore wind farm at **322 MW** with **222 turbines** — to deploy a phased hydrogen-iron flow battery system rated **20 MW** with **10–40 hours** duration and **200–800 MWh** total capacity, directly connected to the wind area grid to relieve severe Dutch grid congestion. The project proceeds in stages: a pre-commercial demonstration unit first, with the full system targeted for **2031**; the wind farm plans to rebrand as Energiehub Zeewolde as storage comes online, shifting from pure generation to an integrated "generation–storage–flexible demand" hub. Elestor's technology uses abundant hydrogen and iron electrolytes with decoupled power and energy scaling, covering **8–150 hours** of storage — well beyond mainstream **4-hour** lithium-ion systems.
 
 **Links:**
 
-- [Axios — "Glass half full" on carbon cuts despite IRA losses](https://www.axios.com/2026/07/07/carbon-emissions-cuts-biden-climate-law-rollbacks)
-- [MIT CEEPR — Glass Half Full: Building a Decarbonized U.S. Power Sector](https://ceepr.mit.edu/workingpaper/glass-half-full/)
+- [Energy-Storage.News — Elestor, Windpark Zeewolde partner on 10-40-hour hydrogen-iron flow battery LDES project](https://www.energy-storage.news/elestor-windpark-zeewolde-partner-on-10-40-hour-hydrogen-iron-flow-battery-ldes-project-in-netherlands/)
+- [Elestor — Elestor and Windpark Zeewolde partner on long-duration energy storage](https://elestor.com/news/elestor-and-windpark-zeewolde-partner-on-long-duration-energy-storage-to-address-grid-congestion)
 
-**Commentary:** The "half full" narrative does not mean policy is harmless — IRA legacy sustains most of the emissions curve, but executive constraints and gas backfill are reshaping the floor of US grid cleanliness.
+**Commentary:** When transmission expansion can't keep pace with wind and solar buildout, a **40-hour** flow battery becomes the Netherlands' "trade time for space" answer — long-duration storage is moving from tech demos to commercial contracts at Europe's biggest onshore wind farm.
 
 ---
 
-### 5. Peking University Study: Accelerated Industrial Decarbonization Could Preserve ~**50 Billion Tonnes** CO₂ Space, Save **$1.8 Trillion** by 2060 (Policy · China)
-**Summary:** Guangming Daily reported on **July 8, 2026** that a collaboration between Peking University's Dai Hanqing team and the Ministry of Ecology and Environment's Yan Gang group found that accelerating deployment of disruptive low-carbon technologies in industry could preserve approximately **50 billion tonnes** of CO₂ emissions space and reduce long-term system costs by about **8%**, saving up to **$1.8 trillion** cumulatively from **2020 to 2060**. The team developed a policy-driven endogenous learning mechanism linked to technology maturity, modeling how early climate policy deployment triggers a virtuous cycle of "policy push → scale deployment → cost decline." The study identifies **2035–2040** as China's strategic window to break carbon lock-in; by **2060**, over **88%** of annual reductions would come from technologies costing below **$200/tonne CO₂**.
+### 5. Germany H1 2026 BESS offtake exceeds full-year 2025 by 7%; fixed-price agreements up 153% (Storage · Germany)
+**Summary:** Energy Storage News cited Pexapark's market brief on **July 8, 2026**, that German battery energy storage system (BESS) offtake volumes in **H1 2026** already exceeded **2025** full-year totals by **7%**, with fixed-price agreement (FPA) capacity jumping from **254 MW** for all of **2025** to **642 MW** in the first half — a **153%** increase. Drivers include the first wave of solar-plus-storage co-located projects entering the market and banks requiring **60–80%** contracted revenue for project finance. Tolling remains the dominant German structure, with day-ahead swaps emerging as an alternative; Pexapark's early-2026 outlook noted Europe contracted nearly **24 GWh** of BESS under flexibility purchase and optimization agreements in **2025** — triple **2024**. A joint study by three German renewable associations estimates expanded storage and grid flexibility could save about **€3.9 billion** annually in system costs.
 
 **Links:**
 
-- [Guangming Daily — Early action saves money: the "win-win" code of industrial low-carbon transition](https://news.gmw.cn/2026-07/08/content_38872859.htm)
+- [Energy Storage News — Germany's BESS offtake volumes up 7% in H1, says Pexapark](https://www.ess-news.com/2026/07/08/germanys-bess-offtake-volumes-up-7-in-h1-says-pexapark/)
 
-**Commentary:** The economics of industrial decarbonization are flipping — if "early action saves money" is adopted in policy, carbon market and subsidy design logic may shift from penalizing delay to rewarding speed.
+**Commentary:** German storage finance is shifting from "betting on spot" to "locking revenue" — the FPA surge shows banks are treating batteries as infrastructure, not venture bets.
 
 ---
 
-## II. Clean Power & Storage
+### 6. Germany H1 2026: renewables reach 61.8% of net public generation, 58% of consumption; wind and solar hit records (Green power · Germany)
+**Summary:** SolarQuarter and CRBC News reported on **July 8, 2026**, that Fraunhofer ISE analysis based on the Energy Charts platform shows renewables accounted for **61.8%** of Germany's net public electricity generation in **H1 2026** (**61.3%** in **H1 2025**), with consumption-side share hitting a record **58%** (ZSW/BDEW methodology). Offshore wind rose from **11.4 TWh** to **14.6 TWh**, onshore wind from **48.7 TWh** to **52.8 TWh**, and solar reached **43.2 TWh** (**+10%** year-on-year); hydropower and biomass edged down. Despite a sharp natural gas price spike linked to the Iran conflict, German power prices remained relatively stable. Fossil generation (gas, lignite, hard coal combined) rose **6%** to **78.6 TWh**, reflecting backup demand under extreme weather and gas-price shocks — but wind and solar gains still dominate the structural shift.
 
-### 6. World's Largest Single-Unit Floating Turbine "Haiyou Anlan" Sets Sail; China Floaters Enter Commercial Era (Clean Power · China)
-**Summary:** Sina Finance reported on **July 8, 2026** that "Haiyou Anlan," the world's largest single-unit capacity and China's first tension-leg platform (TLP) floating turbine, completed integrated assembly and departed Zhuhai Gaolan Port under maritime escort for the Lufeng oilfield cluster off eastern Guangdong. The project features a **16 MW**-class turbine widely speculated to match Ming Yang Smart Energy's MySE16.X series; if confirmed, Ming Yang would supply core equipment for two generations of CNOOC floating projects. As of **November 2025**, the predecessor "Haiyou Guanlan" exceeded **22 million kWh** annual generation with **99.94%** utilization. Of **7** assembled floating turbines in China, Ming Yang platforms hold **4** slots. The launch marks China's floating wind transition from pilot demonstration to scalable, replicable, profitable commercial deployment.
+**Links:**
+
+- [SolarQuarter — Germany's Renewable Energy Share Reaches 61.8% As Solar And Wind Set New Records In H1 2026](https://solarquarter.com/2026/07/08/germanys-renewable-energy-share-reaches-61-8-as-solar-and-wind-set-new-records-in-h1-2026/)
+- [Euronews — Solar-mad Germans turn to battery storage to shield themselves against fossil fuel price shocks](https://www.euronews.com/2026/07/08/solar-mad-germans-turn-to-battery-storage-to-shield-themselves-against-fossil-fuel-price-s)
+
+**Commentary:** Germany runs above 60% renewable share yet still leans on fossils for backup — high renewable penetration and gas-price shocks coexist, and household solar-plus-storage is becoming a private hedge against geopolitical energy risk.
+
+---
+
+### 7. UK scraps mandatory NSIP pre-application consultations for large solar; planning cycle may shorten 12 months from July 24 (Policy · UK)
+**Summary:** Solar Energy News reported on **July 8, 2026**, that the UK government approved planning reforms removing mandatory pre-application consultations for Nationally Significant Infrastructure Projects (NSIPs) from **July 24**, covering solar above **100 MW** in England and **350 MW** in Wales, plus large wind and nuclear projects. The change removes pre-submission consultation obligations with statutory advisors, landowners, local authorities, and communities, potentially shortening individual project timelines by about **12 months** and saving the industry roughly **£1 billion** over the current parliamentary term. **July 8** was also the government decision deadline for several large solar farms including the **740 MW** One Earth Solar Farm; earlier in July, **150 MW** Dean Moor and **320 MW** Peartree Hill secured development consent. Energy Secretary Michael Shanks said Britain "cannot afford to wait years" for clean energy infrastructure approval.
+
+**Links:**
+
+- [Solar Energy News — Britain scraps mandatory consultations for large-scale solar planning](https://solarenergynews.co/britain-scraps-mandatory-consultations-for-large-scale-solar-planning/)
+
+**Commentary:** The UK is using administrative speed to offset CfD auction uncertainty — cutting **12 months** of consultation is a clear supply-side signal, but community acceptance risk hasn't vanished; it just moves later in the permitting process.
+
+---
+
+### 8. China's first 16 MW tension-leg floating turbine "Haiyou Anlan" sets sail; floating wind enters commercial cycle (Green power · China)
+**Summary:** Sina Finance reported on **July 8, 2026**, that "Haiyou Anlan" — the world's largest single-unit capacity and China's first tension-leg platform (TLP) floating turbine — completed integrated assembly and departed Zhuhai Gaolan Port under maritime escort for the Lufeng oilfield cluster off eastern Guangdong. The milestone marks China's floating wind moving beyond pilot demonstration into a scalable, replicable, profitable commercial cycle. Industry observers believe it carries a **16 MW** turbine closely matching Mingyang Smart Energy's MySE16.X series; the earlier "Haiyou Guanlan" **7.25 MW** unit exceeded **22 GWh** annual output through **November 2025** with **99.94%** availability. Industry tallies show **7** assembled floating turbines in China, with Mingyang holding **4** — dominating the domestic floating wind market.
 
 **Links:**
 
 - [Sina Finance — "Haiyou Anlan" sets sail, breaking global floating turbine records](https://finance.sina.com.cn/cj/2026-07-08/doc-inihaiee8026667.shtml)
 
-**Commentary:** Deep-sea wind's decisive factor is shifting from "can it float" to "can it profit" — the TLP plus **16 MW** unit combination opens commercial pathways for both offshore oil platform off-grid supply and grid interconnection.
+**Commentary:** From **7.25 MW** to **16 MW**, from semi-submersible to tension-leg — China is commercializing floating wind through offshore oil-and-gas scenarios, and the deepwater capacity race is entering a "bigger turbines, lighter foundations" phase.
 
 ---
 
-### 7. Elestor Partners with Netherlands' Largest Onshore Wind Farm on **20 MW** Hydrogen-Iron Flow Long-Duration Storage (Storage · Netherlands)
-**Summary:** Innovation News Network reported on **July 7, 2026** that Dutch long-duration storage firm Elestor partnered with Windpark Zeewolde to deploy a large-scale hydrogen-iron flow battery at the Netherlands' largest onshore wind farm. The project proceeds in phases: first installing a final pre-commercial system for validation, then deploying a commercial production battery. Once complete, the system will deliver up to **20 MW** power with **10–40 hours** storage duration, capacity between **200–800 MWh**, directly connected to the wind farm's energy infrastructure to ease grid congestion and improve renewable availability. Elestor's hydrogen-iron flow battery uses abundant hydrogen and iron materials for frequent long-cycle operation, aiming to demonstrate long-duration storage value in renewable integration and grid resilience.
+## III. Oil, Gas & Geopolitical Energy
+
+### 9. U.S.-Iran conflict escalates again: Hormuz tensions push Brent above $76, near two-week high (Oil & gas · Middle East)
+**Summary:** Al Jazeera and AP reported on **July 8, 2026**, that President Trump declared the interim peace deal with Iran "over" as the U.S. launched new strikes and revoked a **60-day** sanctions waiver allowing Iran to openly sell crude — the waiver had been set to expire **August 21** but transactions will be barred from **July 17** onward. Iranian-linked forces had attacked three commercial vessels in the Strait of Hormuz, through which roughly **one-fifth** of global oil flows. September Brent briefly hit **$76.48/bbl** (up over **3%**), with intraday peaks near **$79** — highest since **June 19**; WTI topped **$75**. U.S. gasoline averaged **$3.80/gallon**, still below **$4.16** a month ago. Analysts expect prices to stay elevated for months if strait transit remains well below pre-conflict **50%** levels; airline stocks fell while energy shares rose.
 
 **Links:**
 
-- [Innovation News Network — Elestor and Windpark Zeewolde partner on long-duration energy storage project](https://www.innovationnewsnetwork.com/elestor-and-windpark-zeewolde-partner-on-long-duration-energy-storage-project/71325/)
+- [Al Jazeera — Oil surges as US strikes Iran, reversing return to pre-war prices](https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels)
+- [AP News — What renewed US-Iran hostilities might mean for fuel prices](https://apnews.com/article/oil-gasoline-prices-iran-trump-strait-72181b48494a6367c40cf6e9a817e6b4)
 
-**Commentary:** Pairing onshore wind with long-duration storage is Europe's structural response to grid connection bottlenecks — when lithium cannot solve multi-day wind lulls, hydrogen-iron flow is getting its first commercial-scale test bed in the Netherlands.
+**Commentary:** The ceasefire-breach-sanctions-price-spike cycle is back — Hormuz remains global energy's single point of failure, and oil rebounds always outpace diplomatic repair.
 
 ---
 
-### 8. EIA Projects US Electricity Demand Records in **2026–2027** as AI Data Centers Push Consumption Past **4.3 Trillion kWh** (Clean Power · US)
-**Summary:** GreentechLead reported on **July 8, 2026** that the US Energy Information Administration's latest forecast shows US electricity consumption will set consecutive records in **2026** and **2027**, driven primarily by AI data centers, cryptocurrency operations, and broad electrification. EIA expects total consumption to rise from a record **4,195 billion kWh** in **2025** to **4,269 billion kWh** in **2026** and **4,399 billion kWh** in **2027**. In the generation mix, natural gas will remain the largest share (~**40%** through **2027**), renewables will rise to **27%**, nuclear holds **18%**, and coal falls further to **15%**. The report notes hyperscale AI data center expansion is forcing utilities, generators, and grid operators to accelerate investment in generation capacity, transmission infrastructure, and renewables.
+### 10. IEEFA: Middle East crisis exposes fossil dependence; demand reduction and electrification are the durable fix (Oil & gas · Global)
+**Summary:** IEEFA and Foreign Policy analyses on **July 8, 2026**, note that U.S.-Iran conflict swings have trapped global energy markets in a ceasefire-breach-price-spike loop; even if hostilities ease, oil flows through Hormuz may need at least **six months** to return to pre-conflict levels, with LNG taking longer. IEEFA distills five lessons: LNG is failing the "secure transition fuel" test; strategic reserves and subsidies are short-term painkillers; the durable response is demand reduction, electrification, and clean power. South Korea has framed the crisis as a renewables acceleration opportunity; electric cooking in India is **37%** cheaper than unsubsidized LPG; Pakistan's distributed solar buildout is reducing import-fuel exposure. Foreign Policy reports Gulf producers are fast-tracking routes bypassing Hormuz — such as the UAE's Fujairah second pipeline — as the global energy map is redrawn in real time in a low-trust world.
 
 **Links:**
 
-- [GreentechLead — US Power Demand to Hit New Records in 2026 and 2027 as AI Data Centers Drive Electricity Consumption](https://greentechlead.com/power/us-power-demand-to-hit-new-records-in-2026-and-2027-as-ai-data-centers-drive-electricity-consumption-54109)
+- [IEEFA — Deal or no deal: Five energy market lessons from the Middle East crisis](https://ieefa.org/resources/deal-or-no-deal-five-energy-market-lessons-middle-east-crisis)
+- [Foreign Policy — The Global Energy Map Is Being Redrawn in Real Time](https://foreignpolicy.com/2026/07/08/energy-oil-fossil-fuel-hormuz-iran-ukraine-war/)
 
-**Commentary:** AI power demand has moved from a marginal variable to a total driver — as the demand curve steepens, gas's **40%** baseload role is hard to displace short-term, but it also opens an unprecedented expansion window for wind, solar, storage, and nuclear.
+**Commentary:** A second major supply shock within five years is rewriting national energy-security formulas — "find another supplier" inertia is giving way to "buy less fossil fuel" structural transition.
 
 ---
 
-### 9. Germany Confirms Grid Fee Exemption for BESS Commissioned by **August 4, 2029**, but FID Required Before **2027** (Storage · Germany)
-**Summary:** Energy-Storage.News reports that Germany's energy system regulator has confirmed battery energy storage systems (BESS) commissioned by **August 4, 2029** will be exempt from charging and discharging grid fees, ending months of uncertainty; however, projects must reach final investment decision (FID) before **2027** when new regulations take effect. The regulator plans dynamic grid fees between **2030 and 2033**. Industry sources say almost no new investment decisions were made in the past five months due to policy uncertainty, and high grid fees make some BESS projects uneconomical; Belgium currently exempts fees, the Netherlands uses flexible billing, and Romania recently exempted storage. Germany targets **80%** renewables by **2030**, with large-scale storage seen as critical support.
+### 11. U.S. DOE closes $3.26 billion loan to upgrade Texas grid for AI data centers and Permian Basin load (Grid · U.S.)
+**Summary:** Washington Examiner reported on **July 8, 2026**, that the Department of Energy's Office of Energy Dominance Financing closed a **$3.26 billion** loan with AEP Texas subsidiary to finance roughly **100** transmission projects across Texas — **2,800 miles** of new, rebuilt, and upgraded lines expected to double carrying capacity. Energy Secretary Chris Wright said the investment will modernize Texas' grid, support AI and advanced manufacturing and Permian Basin oil-and-gas development, and help hold down electricity costs. Texas has at least **248** planned new data center projects atop **335** existing facilities; grid operator ERCOT said in **June** that **89%** of new power demand comes from data centers. This is the third major transmission deal under the financing tool since the Trump administration took office.
 
 **Links:**
 
-- [Energy-Storage.News — Germany gov confirms August 2029 grid fee exemption for storage, but sets 2027 FID deadline](https://www.energy-storage.news/german-government-confirms-august-2029-grid-fee-exemption-date-for-storage-but-sets-2027-fid-deadline/)
+- [Washington Examiner — Trump finalizes $3 billion loan to upgrade Texas grid for data center power demand](https://www.washingtonexaminer.com/policy/energy-and-environment/4640320/texas-grid-data-center-power-demand/)
 
-**Commentary:** Grid fee exemption gives German storage a certainty floor, but the **2027** FID deadline leaves developers less than a year — Europe's largest storage market may trigger a rush in **H2 2026**.
+**Commentary:** AI load and oil-and-gas load are competing for the same Texas transmission capacity — the **$3.26 billion** loan is a physical response to demand-side explosion, and it reveals how deeply "energy dominance" is bound to data-center expansion.
 
 ---
 
-## III. Climate & Disasters
+## IV. Climate & Disasters
 
-### 10. Germany: Late-June Heat Wave Caused **5,486** Excess Deaths, National Record **41.7°C** (Climate · Europe)
-**Summary:** DNYUZ reported on **July 8, 2026**, citing preliminary data from Germany's Federal Statistical Office (Destatis), that the last full week of June recorded **5,486** more deaths than the **2022–2025** median, with the weekend coinciding with the heat wave peak and a national record **41.7°C (107.1°F)**. The Robert Koch Institute is expected to publish heat-related death estimates shortly. Alexandra Schneider, deputy director at Helmholtz Munich's Institute of Epidemiology, said the link between heat and excess deaths is "undisputed," with the elderly, infants, and socially isolated at highest risk. Spain and France also report thousands of heat-related deaths; Europe faces another extreme heat episode centered on France, with Germany expected above normal through the weekend and next week.
+### 12. China climate center: equatorial Pacific index hits 1.60°C; strong-to-very-strong eastern El Niño expected summer–fall (Climate · China)
+**Summary:** China Economic Net cited Xinhua on **July 8, 2026**, reporting that National Climate Center experts said equatorial central-eastern Pacific sea temperatures have risen steadily since **June**, with the key-area index reaching **1.60°C** — **0.64°C** above **May** — and forecasts pointing to a strong-to-very-strong eastern-type El Niño forming in **summer–fall 2026**. Mid-summer (**July–August**) priorities include torrential floods, drought, heatwaves, and typhoon-related flooding; in a mature El Niño autumn-winter, southern China especially South China and the Jiangnan region typically sees above-normal rainfall with above-normal temperatures nationwide. In the decay phase into **spring–summer 2027**, flood risk rises across multiple basins including the Yangtze, with stronger, wider summer heatwaves. Nanjing University President Tan Zhemin called for climate risk-chain thinking across forecasting, sector coordination, and supply-chain management.
 
 **Links:**
 
-- [DNYUZ — Germany recorded 5,000 excess deaths in late-June heat wave](https://dnyuz.com/2026/07/08/germany-recorded-5000-excess-deaths-in-late-june-heat-wave/)
+- [China Economic Net — Strong-to-very-strong eastern El Niño expected summer–fall](http://www.ce.cn/xwzx/gnsz/gdxw/202607/t20260708_3076377.shtml)
 
-**Commentary:** **5,000+** excess deaths quantify climate adaptation failure — as European heat wave frequency and intensity climb together, public health and grid "heat resilience" are hard constraints alongside emissions cuts.
+**Commentary:** A strong eastern El Niño plus global warming means **2026–2027** China's climate calendar runs "drought and flood together, heat intensifying" — energy supply security and agricultural disaster prevention must be planned as cross-year risks, not seasonal weather.
 
 ---
 
-### 11. France: June Heat Wave Caused **2,700+** Deaths; Observed Temperatures Near **2070s** Model Projections (Climate · Europe)
-**Summary:** A Carbon Brief guest post on **July 7, 2026** estimated that extreme heat from **June 12–29, 2026** caused over **2,700** heat-related deaths in France, significantly above the **1980–2025** baseline; daily heat mortality rose from under **100** to nearly **300** on the hottest days (**June 24–25**). France's June average daily maximum reached **36.9°C**, **2.4°C** above the previous **2022** record. Analysis notes observed warming in France has outpaced climate model projections, with June maximums closer to **2070s** estimates. Public Health France attributed roughly **2,000** deaths to extreme heat in the week of **June 22–28**. World Weather Attribution has shown human-caused climate change increased the frequency and intensity of June's European heat wave.
+### 13. Typhoon Maysak aftermath kills 17 in South China floods; Super Typhoon Bavi approaches East Coast this weekend (Disaster · China)
+**Summary:** Al Jazeera and CNA reported on **July 8, 2026**, that torrential floods and tornadoes from Typhoon Maysak's remnants have killed at least **17** people and injured hundreds in China. Guangxi reported **6** deaths and **11** missing with over **130,000** evacuated; **40+** rivers exceeded warning levels as reservoirs and levees face severe stress. Hubei thunderstorms killed **11** and injured **331**, with nearly **5,000** homes damaged. The National Climate Center expects up to **6** typhoons in the Northwest Pacific and South China Sea in **July** (climatological **3.8**), with up to **3** landfalls (normal **1.8**) and above-normal intensity. Super Typhoon Bavi is forecast to make landfall along the Zhejiang–Fujian coast **July 11–12** with winds around **150 mph** (~**241 km/h**); President Xi called for "all-out" rescue efforts. Scientists warn El Niño is shifting typhoon tracks westward and intensifying rainfall — the **2026** season may exceed normal severity.
 
 **Links:**
 
-- [Carbon Brief — Guest post: France's June heatwave caused more than 2,700 heat-related deaths](https://www.carbonbrief.org/guest-post-frances-june-heatwave-caused-more-than-2700-heat-related-deaths/)
+- [CNA — Rescuers search for survivors of China storms as super typhoon nears](https://www.channelnewsasia.com/east-asia/china-rescuers-search-flood-storm-survivors-guangxi-6241481)
+- [Al Jazeera — Tornadoes kill 17 in central China as Typhoon Bavi looms offshore](https://www.aljazeera.com/news/2026/7/7/tornadoes-kill-17-in-central-china-as-typhoon-bavi-looms-offshore)
 
-**Commentary:** When real heat waves outrun **2070s** models, adaptation timelines need to move forward — France's **2,700+** deaths show mitigation lag and adaptation gaps are "billing" simultaneously.
+**Commentary:** Maysak hasn't fully cleared and Bavi is already inbound — in El Niño years there's no typhoon-season breathing room; energy infrastructure and grid repair must deploy on continuous-combat contingency plans.
 
 ---
 
-### 12. Extreme Heat Strains Healthcare and Nuclear Power: Swiss Plant Shuts on River Temperatures; Over Half of US Under Heat Alerts (Climate · Global)
-**Summary:** Inside Climate News reported on **July 7, 2026** that severe heat waves blanketed Europe and the US from **June through early July**, with the French government recording over **2,000** excess deaths in one scorching late-June week (officials acknowledge likely an underestimate). More than half the US population was under heat alerts at some point last week; Washington, D.C. reached **39°C (102°F)** with a **47°C (117°F)** heat index on **July 4**, a local record; New Jersey reported at least **29** heat deaths. In Europe, Switzerland's Beznau nuclear plant temporarily shut reactors as river temperatures rose too high for safe cooling; Hungary relaxed cooling-water regulations at the Paks plant. In England, MRI scanners, cooling units, and IT systems failed amid late-June heat. Research projects US annual heat-related emergency visits or hospitalizations could reach **237,000** by **2040**.
+### 14. "Super El Niño" may split South American extremes: Chile rainfall up 60%, Amazon drought and wildfire risk (Climate · South America)
+**Summary:** UPI reported on **July 8, 2026**, that NOAA and the World Meteorological Organization confirmed El Niño ocean-atmosphere coupling is established, with a **63%** chance of "very strong" or extreme intensity between **November 2026 and January 2027**. Chile is preparing for a possible "Super El Niño," with some regions facing up to **60%** above-normal rainfall and elevated river flood, flash flood, and landslide risk; Uruguay, southern Brazil, Paraguay, and northeastern Argentina typically see above-normal precipitation, while northern South America and parts of the Amazon face higher drought, heat, and wildfire probability. Scientist Cristián Martínez-Villalobos noted arid coastal regions can see extreme downpours in strong El Niño years while inland agricultural zones face opposite risks — compounded by global warming amplifying heatwaves and average temperatures.
 
 **Links:**
 
-- [Inside Climate News — Extreme Temperatures Once Again Prove Deadly in Europe and U.S.](https://insideclimatenews.org/news/07072026/todays-climate-heat-waves-europe-us-deaths/)
-- [DD India — Deadly heatwave hits US and Europe, claims hundreds of lives](https://ddindia.co.in/2026/07/deadly-heatwave-hits-us-and-europe-claims-hundreds-of-lives-shatters-temperature-records/)
+- [UPI — Very strong El Niño raises risk of extreme weather in South America](https://www.upi.com/Top_News/World-News/2026/07/08/latam-south-ameica-el-nino/5611783533115/)
 
-**Commentary:** Heat waves are breaching both the "life line" and the "power line" — when cooling water shuts down nuclear plants and healthcare systems fail in heat, energy system climate resilience is an operational hard constraint, not a fringe issue.
-
----
-
-### 13. South China Heavy Rain Persists, Central/Eastern Heat and Humidity Intensify; Typhoon Bavi Heads Toward Waters East of Taiwan (Climate · China)
-**Summary:** China Daily reported on **July 8, 2026** that heavy rain will narrow on **July 8–9** but remain strong in parts of Guangxi and Guangdong, where saturated soils raise compound disaster risk from cumulative rainfall. Central and eastern regions face intensifying heat and humidity; North China and the Huang-Huai region will see expanding hot weather, with Zhengzhou facing five consecutive hot days and lows around **26°C**. Southern Zhejiang, Fujian, and the Sichuan Basin remain muggy; Chongqing faces a week-long heat streak with highs of **38–39°C**. Typhoon Bavi maintained super typhoon strength on the **8th**, expected to turn northwest tonight toward waters east of Taiwan.
-
-**Links:**
-
-- [China Daily — Guangxi and Guangdong face compound rain risk; central/eastern heat intensifies](https://cn.chinadaily.com.cn/a/202607/08/WS6a4db43ca310d709c2fbc598.html)
-
-**Commentary:** South China rain and northern heat running in parallel is a classic summer "dual-track extreme" — grid peak shaving, agricultural drainage, and urban flood control face simultaneous pressure, testing cross-provincial power mutual aid and emergency dispatch.
-
----
-
-## IV. Oil, Gas & Transition
-
-### 14. US Reimposes Iran Oil Sanctions, Wind-Down Cut to **July 17**, Oil Rises Over **5%** (Oil & Gas · Geopolitics)
-**Summary:** Economic Times and Gulf News reported on **July 8, 2026** that after attacks on commercial vessels near the Strait of Hormuz, the US reimposed sanctions on Iranian oil sales on Tuesday. The Treasury had authorized a wind-down through **August 21** last month; revocation shortened the deadline to **July 17**. US officials called Iran's strait attacks "wholly unacceptable"; UKMTO reported three tankers struck by unknown projectiles in recent days. Oil prices rose more than **5%** after the announcement. The US also launched a new round of strikes on more than **80** Iranian targets, including air defense, command and control, coastal radar, and **60+** IRGC small boats. The Strait of Hormuz carries roughly **one-fifth** of global oil and substantial LNG — a critical energy chokepoint.
-
-**Links:**
-
-- [Economic Times — US reinstates sanctions on Iranian oil sales after LNG, oil tanker attacks](https://economictimes.indiatimes.com/news/international/world-news/us-reinstates-sanctions-on-iranian-oil-sales-after-lng-oil-tanker-attacks/articleshow/132251156.cms)
-- [Gulf News — US reimposes oil sanctions on Iran and why it matters for global markets](https://gulfnews.com/business/energy/us-reimposes-oil-sanctions-on-iran-and-why-it-matters-for-global-markets-1.500600461)
-
-**Commentary:** Sanctions and military strikes escalating in tandem put the ceasefire under its severest test — the **5%** oil jump is only the first bill; sustained strait disruption would systematically raise the energy transition's "security premium."
-
----
-
-### 15. Middle East Crisis Drives Electrification Investment: IEA Sees **$3.4 Trillion** Global Energy Spend in **2026**, **$2.2 Trillion** in Low-Emissions (Transition · Global)
-**Summary:** PV Europe citing the IEA's **2026** World Energy Investment report notes the Middle East conflict is prompting governments and companies to reassess energy investment strategy; the effective closure of the Strait of Hormuz has shifted risk perceptions and accelerated diversification in Asia and the Middle East. IEA Executive Director Fatih Birol called it "the largest energy security crisis the world has ever faced." Global energy investment is projected at **$3.4 trillion**, with roughly **$2.2 trillion** flowing to grids, storage, low-emissions fuels, nuclear, renewables, efficiency, and electrification, and ~**$1.2 trillion** to oil, gas, and coal. Oil investment falls below **$500 billion** for a third consecutive year; gas investment rises to **$330 billion**, a decade high; coal spending is expected at **$180 billion**, highest since **2012** (China ~**70%**). Carbon Brief and IEEFA analyses note the crisis simultaneously drives short-term fossil fuel emergency measures and long-term renewable/electrification investment, with leaders in India, South Korea, and elsewhere reaffirming accelerated clean energy transition.
-
-**Links:**
-
-- [PV Europe — IEA: Middle East crisis driving investment in electrification](https://www.pveurope.eu/financing/iea-middle-east-crisis-driving-investment-electrification)
-- [Carbon Brief — Q&A: What does the Iran war mean for the energy transition and climate action?](https://www.carbonbrief.org/qa-what-does-the-iran-war-mean-for-the-energy-transition-and-climate-action/)
-
-**Commentary:** The energy transition is "tearing both ways" in crisis — record low-emissions investment alongside coal rebound shows security anxiety can catalyze electrification while also giving fossil fuels political cover.
+**Commentary:** El Niño in South America is never "uniform rain" — Chile flood defense and Amazon fire prevention run in parallel under one event, and global agricultural and lithium-copper supply chains must reprice climate exposure simultaneously.
 
 ---
 
 ## Today's Summary
-- US, Japan, and South Korea signed an SMR trilateral MOU at the NATO Summit with over **$10 million** for Indo-Pacific deployment; the EU EPP draft seeks slower ETS cuts ahead of the Commission's **July 17** proposal.
-- China's **16 MW** floating turbine "Haiyou Anlan" set sail; vehicle/vessel tax breaks exit from **2027**; Peking University research finds accelerated industrial decarbonization could save **$1.8 trillion**.
-- MIT's "half full" study finds the US may retain ~**67%** of IRA emissions gains; EIA projects AI-driven demand exceeding **4,399 billion kWh** by **2027**.
-- Elestor's **20 MW** long-duration storage in the Netherlands; Germany confirms BESS grid fee exemption through **2029**; European heat caused **5,486** excess deaths in Germany and **2,700+** in France.
-- US reimposed Iran oil sanctions with oil up **5%+**; IEA projects **$3.4 trillion** global energy investment in **2026**, **$2.2 trillion** in low-emissions sectors.
-- **Daily Framing:** Today in the energy and climate cycle is a "security shock and adaptation billing day" — from Hormuz sanctions to European heat death data, from SMR diplomacy to ETS bargaining, the world is paying increasingly concrete costs for geopolitical energy risk and climate extremes.
+- Renewed U.S.-Iran conflict pushed oil higher as Hormuz transit risk and revoked sanctions waivers returned global oil markets to tension mode.
+- The EU plans a **July 17** ETS proposal seeking new balance between industrial competitiveness and the **2040** emissions target.
+- Germany's H1 2026 renewable share exceeded **60%** with surging storage offtake; household solar-plus-storage is becoming a grassroots hedge against fossil price shocks.
+- Netherlands' Zeewolde signed **10–40-hour** hydrogen-iron flow long-duration storage — grid congestion is forcing routes beyond lithium-ion duration limits.
+- China's climate center warned of strong-to-very-strong El Niño as South China floods and Super Typhoon Bavi converge, testing energy supply and disaster response together.
+- **Daily Framing:** Today is a "geopolitical shock and climate risk resonance day" in the energy-climate cycle — oil surged again on Hormuz, El Niño and typhoon alerts sounded on both sides of the Pacific, while storage and renewable progress in Germany and the Netherlands shows structural decarbonization remains the steadiest path through dual uncertainty.
 
 ---
 
-*This digest is compiled from real-time search and is for reference only; facts are subject to source material.*  
+*This digest is compiled from real-time search and is for reference only; facts are subject to original sources.*  
 *Date: July 8, 2026 (Wednesday)*

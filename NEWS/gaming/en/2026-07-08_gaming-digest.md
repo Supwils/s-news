@@ -6,173 +6,182 @@
 
 ## I. Major Studios & Products
 
-### 1. id Software Reportedly Loses Half Its Staff — Day After Revelations DLC Launch
+### 1. Xbox Layoff Fallout: WARN Notices Hit 158 ZeniMax Roles in Texas, 52 at Obsidian in California
 
-**Summary:** On July 8, Game Developer, GamingBolt, The Verge, and others followed up on the impact of Microsoft's Xbox "reset" on id Software. Multiple sources say roughly 50% of the studio was cut — about 90 people — with QA "decimated" and reports that "most (if not all) coders" were let go. The layoffs landed just after *DOOM: The Dark Ages | Revelations* launched on July 7 — a $19.99 expansion with a new campaign chapter, Chain Spear weapon, and Ripatorium 3.0 update. id co-founder John Romero posted support for affected staff on Bluesky; the CWA union said it has not yet reached a first contract with Microsoft. In an internal email reported by outlets, Bethesda president Jill Braff said the company is shifting from per-studio roadmaps to an IP-centric model. Doom and Quake remain priorities, but the studio's future capacity is in question.
+**Summary:** On July 8, Game File reported U.S. WARN layoff notices showing how Microsoft's July 6 gaming cuts are landing by state. ZeniMax in Texas is eliminating 158 positions across Richardson (96), Austin (22), and 40 remote roles — spanning gameplay designers, a director of engine technology, principal engine programmers, QA testers, and producers at id Software and Bethesda. Roughly 146 are CWA-represented; effective date is September 4. In California, Obsidian Entertainment is cutting 52 workers (43 on-site, 9 in-state remote), including art directors, a narrative designer, and area designers. Obsidian shipped three games in 2025 (*Avowed*, *The Outer Worlds 2*, *Grounded 2*). Xbox CEO Asha Sharma previously said roughly 3,200 more roles would be cut through FY27 — about 20% of Xbox staff.
 
 **Links:**
 
-- [GamingBolt — id Software Suffers 90 Layoffs (Jul 8)](https://gamingbolt.com/id-software-suffers-90-layoffs-most-if-not-all-coders-and-qa-department-let-go-rumor)
-- [The Verge — Doom developer id reportedly cut in half as part of Xbox layoffs (Jul 7–8)](https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs)
+- [Game File — Xbox cuts impacted 158 ZeniMax workers in Texas and 52 Obsidian employees in California (Jul 8)](https://www.gamefile.news/p/xbox-cuts-texas-california)
+- [Gematsu — Xbox to lay off 3,200 employees, divest five studios (Jul 6)](https://www.gematsu.com/2026/07/xbox-to-lay-off-3200-employees-divest-five-studios)
 
-**Commentary:** Flagship DLC ships while the team behind it is hollowed out — another case of "release on schedule, cut headcount anyway."
+**Commentary:** The July 6 "reset" is becoming a state-by-state headcount ledger — capacity loss at Bethesda and Obsidian may matter more than studio spin-offs.
 
 ---
 
-### 2. Bloomberg: Xbox May Restore More Console Exclusives for Premium Single-Player Titles
+### 2. Nintendo and Square Enix Announce Same-Day Mobile Shutdowns: *Mario Kart Tour* and *Final Fantasy VII: Ever Crisis*
 
-**Summary:** On July 8, Gamereactor, Twisted Voxel, Windows Report, and others cited a Bloomberg report by Jason Schreier: after Asha Sharma announced roughly 3,200 job cuts in FY27 and the spin-off of four studios, Microsoft is reportedly adjusting its first-party publishing strategy. Large multiplayer and live-service games would remain cross-platform, but more flagship single-player and premium releases would stay Xbox-console exclusive to give players "a reason to buy its console." The report ties the shift to Game Pass missing internal growth targets and years of cross-platform expansion failing to reverse revenue declines. Microsoft has not officially confirmed a game list; *Gears of War: E-Day* and *Clockwork Revolution* are already confirmed as Xbox console exclusives (with PC and cloud still supported).
+**Summary:** On July 8, Square Enix and Nintendo each announced flagship mobile games will shut down later in 2026. Square Enix said *FINAL FANTASY VII EVER CRISIS* ends service October 6 at 11:00 PM PDT. The title launched on App Store and Google Play in September 2023 and on Steam that December; the company cited difficulty maintaining the best experience and announced no offline complete edition. Hours later, Nintendo confirmed *Mario Kart Tour* ends September 29 at 11:00 PM PDT. Final Vacation Tour Gold Pass benefits will be free for all players; ruby sales ended July 8. Neither company promised an offline mode. Player communities widely called for purchasable offline versions to preserve years of content and spending.
 
 **Links:**
 
-- [Gamereactor — Report: Microsoft want more singleplayer games to be Xbox exclusive (Jul 8)](https://www.gamereactor.eu/report-microsoft-want-more-singleplayer-games-to-be-xbox-exclusive-1744913/)
-- [Twisted Voxel — Xbox Will Reportedly Make More First-Party Games Console Exclusive (Jul 8)](https://twistedvoxel.com/xbox-will-reportedly-make-more-first-party-games-console-exclusive/)
+- [TheGamer — Mario Kart Tour And Final Fantasy Ever Crisis Are Shutting Down (Jul 8)](https://www.thegamer.com/a-mario-kart-and-final-fantasy-game-both-confirmed-they-are-ending-service-today/)
 
-**Commentary:** After years of platform expansion, Xbox is trying to re-bind content to hardware during a contraction cycle — subscription scale is no longer the only bet.
+**Commentary:** Two high-profile live-service games bow out the same day — what happens to digital legacy after shutdown is again a trust test between players and publishers.
 
 ---
 
-### 3. Perfect World's *Neverness to Everness* Lands on Steam and Epic with v1.2 "999 Nights"
+### 3. *DOOM: The Dark Ages — Revelations* Expansion Launches July 8 at $19.99
 
-**Summary:** On July 8, Hotta Studio's supernatural urban open-world RPG *Neverness to Everness* (《异环》) officially launched on Steam, the Epic Games Store, and Samsung's Galaxy Store, alongside major Version 1.2 update "999 Nights." The patch adds S-Class character Shinku, a new main story chapter, anomaly board-game content, riichi mahjong, and more urban lifestyle systems. Official accounts support cross-progression across PC, mobile, and PS5. Players can redeem code WELCOMETONTE (valid Jul 8–Aug 18) for an exclusive avatar frame; logging in and unlocking the mail feature grants a free S-Class character selection box.
+**Summary:** On July 8, id Software and Bethesda's story expansion *DOOM: The Dark Ages — Revelations* launched on PS5 and other platforms. The DLC adds a new campaign chapter, demons, the Chain Spear weapon, and Ripatorium 3.0 (three new maps with upgraded weapons). Standalone price is $19.99; base-game owners can also buy a Premium Edition upgrade for $34.99. Premium Edition owners already include the expansion. Purchasing the DLC alone still requires owning *DOOM: The Dark Ages*.
 
 **Links:**
 
-- [163.com — 《异环》正式登陆 Steam (Jul 8)](https://www.163.com/dy/article/L1AD9PS10526D8LR.html)
-- [GosuGamers — Neverness to Everness launches on Steam and Epic with Version 1.2 update (Jul 8)](https://www.gosugamers.net/entertainment/news/78751-neverness-to-everness-launches-on-steam-and-epic-games-store-with-version-1-2-update)
+- [PlayStation LifeStyle — Doom: The Dark Ages – Revelations release today on PS Store (Jul 8)](https://www.playstationlifestyle.net/2026/07/08/doom-the-dark-ages-revelations-release-today-ps-store-ps5/)
 
-**Commentary:** A month after global launch, the Chinese urban open-world title completes its PC distribution puzzle ahead of summer season competition.
+**Commentary:** Flagship Doom content ships on schedule amid Xbox's massive restructuring — another case of "release continues, teams shrink."
 
 ---
 
-### 4. Smilegate's *Lost Ark* Launches New "Dimension Shifter" Class with Growth Event
+### 4. *Subnautica 2* Early Access 1.1 "Adaptive Measures" Update: Sonic Resonator Now Stuns Fish
 
-**Summary:** On July 8, Smilegate officially added the new "Dimension Shifter" class to flagship MMORPG *Lost Ark*. It is the first original class based on the male "Yoz" race, wielding dimensional clock hands as blades with teleportation, space manipulation, and time-acceleration mechanics. Hits on enemies speed the clock, boosting attack and movement speed while shortening cooldowns. A dedicated Powerpass event runs Jul 8–Sep 16, instantly boosting characters to Item Level 1660, with milestone rewards up to IL 1720.
+**Summary:** On July 8, Unknown Worlds released *Subnautica 2*'s first named post-launch update, "Adaptive Measures" (Early Access 1.1). Players can now strike sea creatures with the Survival Multi-Tool and see clear recoil feedback; the Sonic Resonator works as a weapon for the first time, briefly stunning fish into unconsciousness. The patch adds more abandoned Biomods and equip slots in the early game, clearer blight-creature aggression signals, and wreck-exploration puzzle improvements. A roadmap points to Update 1.2 focusing on co-op: voice chat, emotes, revives, and trading.
 
 **Links:**
 
-- [Inven Global — Lost Ark Officially Launches New Class 'Dimension Shifter' (Jul 8)](https://www.invenglobal.com/articles/23546/lost-ark-officially-launches-new-class-dimension-shifter)
+- [Kotaku — Subnautica 2's First Big Update Finally Lets You Fight The Fish (Jul 8)](https://kotaku.com/subnautica-2-patch-update-adaptive-measures-unknown-worlds-2000713698)
+- [Steam — Subnautica 2 Early Access 1.1 - Adaptive Measures Update](https://store.steampowered.com/news/app/1962700/view/699894448411121467)
 
-**Commentary:** Long-running MMOs still lean on new classes to drive summer retention — Korean progression loops remain the core hook.
+**Commentary:** From "run only" to "fight back" — underwater survival horror is iterating combat in direct response to player feedback.
 
 ---
 
-### 5. Nintendo Switch Online Adds Four Classic Game Boy / GBA Titles
+### 5. *Hearthstone* Expansion "Escape from Violet Hold" Goes Live with Per-Class "Rulebreaker" Minions
 
-**Summary:** Starting July 8, Nintendo updated the Nintendo Classics library for Switch Online subscribers. Standard members get three Game Boy titles: *Fortified Zone* (1991), *The Sword of Hope II* (1992), and *Wario Land: Super Mario Land 3* (1994). Expansion Pack members also receive GBA title *Dr. Mario & Puzzle League* (2005). All four are playable on Nintendo Switch and Switch 2 — the first NSO classic drop since *Donkey Kong 64* in late May.
+**Summary:** On July 8, Blizzard's *Hearthstone* expansion *Escape from Violet Hold* officially released. The prison-break-themed set adds a "Rulebreaker" minion for each class that breaks a core game rule, plus the Prepare keyword, disguised minions playable on opponent boards, and "bribe" cards with potent effects that also benefit opponents. The accompanying update brings new Arena rewards and achievements, a returning Darkmoon Faire event, and 45 day-one deck guides from Vicious Syndicate.
 
 **Links:**
 
-- [My Nintendo News — New Game Boy and Game Boy Advance games added to Nintendo Classics (Jul 8)](https://mynintendonews.com/2026/07/08/new-game-boy-and-game-boy-advance-games-added-to-nintendo-classics/)
-- [Nintendo Everything — Nintendo Switch Online adds Fortified Zone, Wario Land, and more (Jul 7–8)](https://nintendoeverything.com/nintendo-switch-online-adds-fortified-zone-wario-land-super-mario-land-3-the-sword-of-hope-2-dr-mario-puzzle-league/)
+- [Massively Overpowered — Hearthstone adds rule-breaking cards with Escape from Violet Hold expansion (Jul 8)](https://massivelyop.com/2026/07/08/hearthstone-adds-rule-breaking-cards-and-sneaky-mechanics-with-escape-from-violet-hold-expansion/)
 
-**Commentary:** *Wario Land 3* joins the vault — NSO's retro library keeps subscription stickiness alive through slow, steady drops.
+**Commentary:** "Break the rules" is the design thesis — digital CCGs lean on mechanical disruption to stay fresh in a saturated market.
 
 ---
 
-## II. Regional Highlights & China Market
+## II. Regional Highlights & Regulation
 
-### 6. ChinaJoy 2026 Super Early-Bird Tickets Go on Sale Jul 8 at 14:00 — Theme: "Play with AI"
+### 6. Tencent's *Out of Control Evolution* and NetEase's *Forgotten Sea* Launch PC on July 9 — Both Top 10M+ Pre-Registrations
 
-**Summary:** At 14:00 on July 8, super early-bird tickets for the 23rd ChinaJoy opened at ¥150 across platforms including Damai, with a 60-second flash-sale window. The show runs Jul 31–Aug 3 at Shanghai New International Expo Center under the theme "Play with AI," featuring Vision Future tech zones and Next Play experiential areas for AI NPCs and generative narrative. Early-bird (¥160) and standard tickets follow on Jul 9 and Jul 10. More than 500 companies and over 1,000 game products are expected on the show floor.
+**Summary:** On July 8, Chinese outlets reported both Tencent and NetEase summer flagship titles are set for simultaneous July 9 PC launch, with mobile versions planned within July. Tencent's *Out of Control Evolution* (《失控进化》) is a survival-building PvPvE title with 40M+ pre-registrations, spanning stone-age-to-firearms progression, base defense, and multiplayer raids. NetEase Joker Studio's *Forgotten Sea* (《遗忘之海》) is an ocean open-world RPG with 33M+ pre-registrations, blending puppet aesthetics, sailing, turn-based combat, and roguelite loops for narrative-focused, bite-sized play. Both target 25–35-year-old adults but diverge sharply on session intensity and online commitment.
 
 **Links:**
 
-- [游戏茶馆 — 2026 ChinaJoy Ticket Guide (Jul 8 sale)](https://youxichaguan.com/archives/201427)
-- [上海本地宝 — ChinaJoy 2026 Ticket Schedule](http://sh.bendibao.com/news/202677/307406.shtm)
+- [17173 — 《失控进化》《遗忘之海》同日定档 (Jul 8)](https://news.17173.com/content/07082026/092829008.shtml)
 
-**Commentary:** Ticket wars arrive before the expo itself — ChinaJoy's three-wave sale has become an annual reflex test for Chinese players.
+**Commentary:** Same launch day, same eight-figure pre-registration scale — summer's first major clash splits players between heavy co-op survival and lighter ocean storytelling.
 
 ---
 
-### 7. Eve of Summer Launch Wave: *Forgotten Sea*, *Honkai: Elf*, *Black Flag Resynced* Arrive Jul 9
+### 7. Giant Network H1 Net Profit Forecast at ¥2–2.2B, Up 157%–183%; *Supernatural Action Group* Drives Growth
 
-**Summary:** July 8 marks the final 24-hour countdown for several major releases. NetEase/Joker Studio's ocean open-world RPG *Forgotten Sea* (《遗忘之海》) has pre-download live ahead of Jul 9 10:00 PC launch, with pre-registration reportedly exceeding 33 million; mobile is planned for July. miHoYo's *Honkai: Elf* (《崩坏：因缘精灵》) "Evolution Test" opens Jul 9 as a limited cross-platform closed beta. Ubisoft's *Assassin's Creed Black Flag Resynced* launches Jul 9 globally — PC/PS5 preload opened Jul 7, Steam China standard edition at ¥248; consoles unlock at local midnight, PC at 22:00 Beijing time Jul 9.
+**Summary:** On the evening of July 7, Giant Network (002558.SZ) issued its H1 2026 earnings preview, forecasting net profit attributable to shareholders of ¥2.0–2.2 billion — up 157.38%–183.12% YoY and already exceeding full-year 2025 profit. Revenue growth is attributed mainly to *Supernatural Action Group* (《超自然行动组》). Shares spiked toward a limit-up on July 7 but closed July 8 at ¥29.09, down 3.75%. On July 2, the company launched a major *Ghost Blows Out the Light* crossover map "Yunnan Worm Valley" for the summer season. The same news cycle also covered NetEase's new title *Ghost Shadow Hidden Blade* (《诡影藏锋》) revealing its first trailer and an August 7 PC first test.
 
 **Links:**
 
-- [17173 — NetEase *Forgotten Sea* and miHoYo *Honkai: Elf* open Jul 9 (Jul 7)](https://news.17173.com/content/07062026/161959322.shtml)
-- [Ubisoft — Assassin's Creed Black Flag Resynced Out July 9](https://www.ubisoft.com/en-us/game/assassins-creed/news/3pdOduSqqhRaxjaGYP4QP7/assassins-creed-black-flag-resynced-out-july-9-everything-you-need-to-know)
+- [Sina Finance — Giant Network H1 profit exceeds full 2025 (Jul 8)](https://finance.sina.com.cn/roll/2026-07-08/doc-inihceiu8036939.shtml)
 
-**Commentary:** July 9 stacks Chinese blockbusters and a AAA remaster — summer competition is already underway in preloads and ticket queues.
+**Commentary:** A party-horror hit is carrying a listed game company's half-year numbers — summer crossovers and new tests will decide whether growth holds.
+
+---
+
+### 8. Papergames' *Love and Deepspace* Apologizes Again: Cancels BilibiliWorld, Promises Full Player Reimbursement
+
+**Summary:** On July 8, the *Love and Deepspace* (《恋与深空》) team issued another apology over recent controversies, saying the incident caused "great distress" and "negative impact" for players. The studio pledged staff training and self-review guided by "reverence for history, protection of national sentiment, and inheritance of Chinese culture." It canceled its planned BilibiliWorld 2026 appearance and committed to fully reimbursing players for ticket, flight, train, and hotel cancellation costs under a "compensate wherever possible" principle. This year's BW features 170+ brands, 700+ booths, and 130+ game companies. Cultural-symbol disputes had escalated since late June.
+
+**Links:**
+
+- [Beijing Daily — Love and Deepspace cancels BW, covers player losses (Jul 8)](https://news.bjd.com.cn/2026/07/08/11851580.shtml)
+
+**Commentary:** From content controversy to expo withdrawal — a top otome title's cultural blind spots are converting into measurable commercial and reputational cost.
+
+---
+
+### 9. UK Gambling Commission Rolls Out Staged Financial Risk Assessments — £5,000 24-Hour Threshold in Phase One
+
+**Summary:** On July 7–8, the UK Gambling Commission confirmed a three-phase rollout of Financial Risk Assessments (FRAs). Phase one covers only the largest operators and customers aged 25+, triggered when net deposits exceed £5,000 in a rolling 24-hour period — expected to affect under 0.5% of accounts. Final thresholds will drop to £1,000/24h or £3,000/90d for over-25s (£750/£2,000 for under-25s). The regulator says ~97% of checks should be frictionless and will not enforce against operators who fail to act during the introductory period. The Betting and Gaming Council expressed deep disappointment, fearing revenue shrinkage similar to the Netherlands' 2024 affordability regime.
+
+**Links:**
+
+- [Yogonet — UK Gambling Commission to start staged financial risk assessments (Jul 8)](https://www.yogonet.com/international/news/2026/07/08/125276-uk-gambling-commission-to-start-staged-financial-risk-assessments-with-higher-threshold)
+- [InterGame — Gambling Commission gives go-ahead to financial risk checks (Jul 7)](https://www.intergameonline.com/igaming/news/gambling-commission-financial-risk-checks-go-ahead)
+
+**Commentary:** Regulators are tiptoeing in with no immediate enforcement — the UK is walking a tightrope between consumer protection and industry revenue amid global compliance tightening.
+
+---
+
+### 10. Konami First to File Full-Category Manufacturer License Applications with Japan's Casino Regulator
+
+**Summary:** On July 8, Konami Gaming announced it submitted manufacturer license applications to Japan's Casino Regulatory Commission (JCRC) — the first such filing by a game-equipment maker, covering all applicable license categories. Japan's integrated resort market is under construction, headlined by MGM Osaka on Yumeshima island, targeting a 2030 opening. Konami said it invested in localization, documentation, and operational planning to meet Japanese legal and cultural requirements. Submission does not equal approval; no review timeline was disclosed. Konami supplies casino games and technology in 400+ regulated markets worldwide.
+
+**Links:**
+
+- [InterGame — Konami submits Japan's first licence application (Jul 8)](https://www.intergameonline.com/land-based-gaming/news/konami-submits-japans-first-licence-application)
+- [AGB — Konami files first Japan casino manufacturer applications (Jul 8)](https://agbrief.com/news/japan/08/07/2026/konami-files-first-japan-casino-manufacturer-applications-ahead-of-osaka-ir-launch/)
+
+**Commentary:** Japan's IR framework enters the "applications filed, awaiting review" phase — a game giant is staking an early compliance position on the 2030 casino market.
 
 ---
 
 ## III. Streaming & Esports
 
-### 8. Esports World Cup Paris: Fatal Fury and More Begin Jul 8 Play
+### 11. Netflix Signs Six Major Digital Publishers for 3–20 Minute Short Content Starting August 3
 
-**Summary:** On July 8, the 2026 Esports World Cup continues at Paris Expo Porte de Versailles. *Fatal Fury: City of the Wolves* officially starts (Jul 8–11, $1M prize pool); *Apex Legends* ALGS playoffs (Jul 7–11) and *Dota 2* (Jul 7–19) run concurrently. Upcoming events include *League of Legends*, *Free Fire*, and the MLBB Women's Invitational across 25 tournaments and 24 titles. Roughly 2,000 players from 200+ clubs compete; DAZN and other platforms offer free streams.
+**Summary:** On July 7–8, Netflix announced partnerships with BuzzFeed, Condé Nast, Hearst Magazines, Penske Media's PMX brands (including THR, Variety, Billboard), People Inc., and Tastemade. Starting August 3, subscribers in the U.S., Canada, U.K., Ireland, Australia, and New Zealand will get curated short videos (3–20 minutes) on the homepage — food, travel, fashion, celebrities, home, and more. Netflix framed the move as letting members "watch some of your favorite videos from around the internet without having to leave Netflix," directly targeting YouTube's living-room footprint. More publisher partners are expected later.
 
 **Links:**
 
-- [DAZN — How to watch the Esports World Cup 2026](https://www.dazn.com/en-GB/news/e-sports/how-to-watch-the-esports-world-cup-2026-live-stream-schedule-games-and-prize-money/1l9m7n5ikbdr91dbbhl04yjivs)
-- [Liquipedia — Esports World Cup 2026](https://liquipedia.net/esports/Esports_World_Cup/2026)
+- [VideoWeek — Netflix Pushes Further Into Short-Form Video (Jul 8)](https://videoweek.com/2026/07/08/netflix-pushes-further-into-short-form-video-with-slate-of-publisher-partnerships/)
+- [The Hollywood Reporter — Netflix Inks Video Deal With Leading Publishers (Jul 7)](https://www.hollywoodreporter.com/tv/tv-news/netflix-video-deal-publishers-penske-media-1236639039/)
 
-**Commentary:** EWC enters its densest schedule week — fighting games, battle royales, and MOBAs compete for global attention and sponsor budgets on one stage.
+**Commentary:** From longform to Clips to publisher shorts — Netflix is pushing subscription toward an "all entertainment hub" and competing with YouTube for couch attention.
 
 ---
 
-### 9. ESL Updates Rules: CS2 Tournaments Ban Skin Trading and Gambling Site Sponsors
+### 12. G2 Defeat T1 3-1 at MSI 2026, Ending T1's Legendary International Top-Four Streak
 
-**Summary:** Around early July, ESL FACEIT Group (EFG) updated its official rulebook to bar esports organizations from accepting sponsors tied to CS2 skin trading, case-opening, or skin gambling — aligning with Valve's tightened tournament licensing rules from December 2025. Any company interacting with a player's Valve inventory (deposit, trade, gamble) is now off-limits as a team sponsor. EFG also clarified that private in-game voice comms between teammates remain subject to the code of conduct — echoing enforcement action at IEM Cologne over coach communication.
+**Summary:** On July 8 at MSI in Daejeon, G2 Esports beat defending world champions T1 3-1 in the lower bracket, eliminating them in fifth place. It is G2's first international best-of-five win over T1 since MSI 2019 and T1's first-ever failure to reach the top four at an international event they attended. In the decider, BrokenBlade's signature Kled pick countered Doran as G2 closed a marathon late-game fight. G2 advances to face North America's LYON; T1 returns to the LCK to regroup ahead of Worlds.
 
 **Links:**
 
-- [The Esports Radar — EFG bans skin trading and gambling sites as team sponsors in CS2 tournaments](https://esportsradar.gg/esl-officially-bans-skin-trading-and-gambling-sites-as-team-sponsors-in-cs2-tournaments/)
+- [Dot Esports — G2 eliminate T1 from MSI 2026 (Jul 8)](https://dotesports.com/league-of-legends/news/g2-esports-eliminate-t1-from-msi-2026-ending-legendary-international-top-four-streak)
+- [Esports News UK — G2 beat T1, T1's lowest international finish (Jul 8)](https://esports-news.co.uk/2026/07/08/g2-esports-beat-t1-msi-2026-lowest-finish/)
 
-**Commentary:** Valve sets the tone, tournament organizers follow — smaller CS teams lose a funding channel that skin gambling once provided.
+**Commentary:** Seven years later, Europe finally beat T1 again — and broke one of League's longest dominance streaks in a single afternoon.
 
 ---
 
-### 10. IEM Cologne 2026: Legacy Coach adrrr Banned for Communication Violations
+### 13. Esports World Cup 2026 Paris Opening Ceremony Marks Record $75M Prize Pool
 
-**Summary:** On July 8, Legacy coach Alan "adrrr" Riveros was barred from coaching for the remainder of IEM Cologne 2026 Major. Reports say he violated Valve rules on coach-to-player communication outside designated timeouts — after Legacy's win over PARIVISION. Monte coach kakafu had received a similar warning earlier in the event. With ESL tightening enforcement on and off stage, the coach's "invisible influence" is becoming a competitive-integrity flashpoint in CS.
-
-**Links:**
-
-- [Bexonsoft — adrrr's Shocking Exit from IEM Cologne 2026 Major (Jul 8)](https://bexonsoft.com/article/breaking-news-adrrr-s-shocking-exit-from-iem-cologne-2026-major)
-
-**Commentary:** The coach's chair is turning into a compliance minefield — high-intensity matches are redefining where off-stage communication ends.
-
----
-
-### 11. MLBB Asian Games Qualifiers Set Viewership Record; 12 Nations Advance
-
-**Summary:** The *Mobile Legends: Bang Bang* Asian Games qualifiers, which concluded July 7, set new viewership benchmarks for Asian Games esports. Per Esports Charts, the event reached 10.1 million hours watched — the highest in Asian Games esports history — with peak concurrent viewers above 1.27 million (second all-time among Asian Games esports events). Twelve nations advanced, including the Philippines, Indonesia, Malaysia, Saudi Arabia, and Jordan. MLBB will debut as an official medal event at the September 2026 Asian Games.
+**Summary:** On July 8, the Esports World Cup held its opening ceremony at La Seine Musicale in Paris, headlined by DJ Snake and Aya Nakamura, officially kicking off the relocated event. EWC 2026 moved from Riyadh to Paris Expo Porte de Versailles after Middle East logistics became untenable; relocation was confirmed May 20. The tournament runs July 6–August 23 with 2,000+ players, 200+ clubs, 25 events across 24 titles, and a record $75 million prize pool. More than 1.5 million players competed across 330 qualifiers. Cristiano Ronaldo and Magnus Carlsen remain global ambassadors. Competition began July 6; *Valorant* quarterfinals and the *Dota 2* grand final are among upcoming highlights.
 
 **Links:**
 
-- [ALL-STAR — MLBB Sets Viewership Record Ahead of Asian Games (Jul 7)](https://all-starmagazine.com/news-and-updates/mlbb-asian-games-record-viewership/)
+- [PR Newswire — Esports World Cup 2026 Opens in Paris (Jul 8)](https://www.prnewswire.com/news-releases/esports-world-cup-2026-opens-in-paris-marking-a-new-global-chapter-for-competitive-gaming-302821040.html)
+- [TechTimes — Esports World Cup 2026 Launches Paris Edition (Jul 8)](https://www.techtimes.com/articles/319929/20260708/esports-world-cup-2026-launches-paris-edition-dj-snake-aya-nakamura.htm)
 
-**Commentary:** Mobile esports has already proven its audience before the medal ceremony — expectations for September will be even higher.
-
----
-
-## IV. Industry Culture
-
-### 12. July 8 Is National Video Game Day
-
-**Summary:** July 8 is National Video Game Day in the U.S. (distinct from National Video Games Day on September 12). The observance encourages players to revisit classics, join community events, and celebrate gaming culture; industry estimates put the global game catalog above five million titles. In 2026, the day coincides with fallout from Xbox's major restructuring and a packed summer launch calendar — player communities are celebrating while also debating layoffs and digital ownership.
-
-**Links:**
-
-- [National Today — National Video Game Day (Jul 8, 2026, Wednesday)](https://nationaltoday.com/video-game-day/)
-
-**Commentary:** The holiday narrative is nostalgia and play — but in 2026, the industry backdrop is contraction and strategic reset.
+**Commentary:** An emergency move from Riyadh to Paris makes EWC 2026 a case study in geopolitical risk and esports industry resilience.
 
 ---
 
 ## Today's Summary
 
-- Xbox reset fallout continues: id Software reportedly lost half its staff right after *Revelations* shipped; Bethesda's IP-centric pivot is sharpening.
-- Bloomberg reports Microsoft may restore more Xbox console exclusives for premium single-player titles while keeping multiplayer cross-platform.
-- China's *Neverness to Everness* completes Steam/Epic distribution; *Lost Ark* gets a new class; NSO adds four retro titles.
-- ChinaJoy 2026 super early-bird tickets opened today under the "Play with AI" theme; the show opens in Shanghai at month-end.
-- July 9 brings *Forgotten Sea*, *Honkai: Elf* test, *Black Flag Resynced*, and more.
-- Esports World Cup Paris enters Fatal Fury and other event days; CS tightens sponsor and coach-communication rules.
-- MLBB Asian Games qualifiers set viewership records ahead of September's medal debut.
-- **Daily Framing:** A "launch day under layoff shadow" — players consume new content as the supply side shrinks and strategies pivot.
+- Xbox layoffs hit state WARN filings: 158 ZeniMax roles in Texas and 52 at Obsidian in California, effective September 4.
+- Nintendo's *Mario Kart Tour* and Square Enix's *FF VII Ever Crisis* announced shutdowns the same day; offline-edition calls intensified.
+- *DOOM Revelations*, *Subnautica 2* 1.1, and *Hearthstone*'s new expansion shipped as scheduled.
+- Tencent's *Out of Control Evolution* and NetEase's *Forgotten Sea* launch PC July 9; Giant Network posted strong H1 guidance; *Love and Deepspace* canceled BW.
+- UK FRAs advance in phases; Konami filed Japan's first IR manufacturer license applications.
+- Netflix added publisher short-form content; G2 ended T1's international top-four streak; EWC Paris opening ceremony held.
+- **Daily Framing:** An "aftershock and schedule day" — Xbox restructuring ripples, mobile shutdowns, and new regulation continue, while global esports and the summer launch race hit full stride.
 
 ---
 

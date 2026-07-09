@@ -6,45 +6,90 @@
 
 ## I. Policy & Regulation
 
-### 1. Trump Administration Clears Broad **OpenAI GPT-5.6** Release; **Sol/Terra/Luna** Set for Thursday Launch (Policy / U.S.)
-**Summary:** Per **Axios** on **July 8, 2026**, the U.S. Department of Commerce has approved a broad public release of **OpenAI**'s frontier **GPT-5.6** models. A source familiar with the matter said additional testing was conducted by the **Center for AI Standards and Innovation** (**CAISI**) within Commerce, with **OpenAI** technical experts remaining in Washington to address questions. **OpenAI** confirmed late Tuesday that flagship **GPT-5.6 Sol** plus mid-tier **Terra** and lightweight **Luna** will launch publicly **this Thursday (July 9)**. Context: in **June**, the Trump administration required a staggered **GPT-5.6** rollout limited to roughly **20** government-approved preview partners; **OpenAI** said at the time that phased release was not its preference, and that firms and government are operating ahead of formal standards called for in the president's latest **AI** executive order.
+### 1. Trump Administration Clears Broad **OpenAI GPT-5.6** Release; **Sol/Terra/Luna** Set for **July 9** Launch (Policy / U.S.)
+**Summary:** Per **Axios** and **CNBC** on **July 8, 2026**, after additional testing by the Commerce Department's **Center for AI Standards and Innovation** (**CAISI**) and **OpenAI** technical staff on site in Washington, **OpenAI** was cleared to expand **GPT-5.6** beyond a restricted preview of roughly **20** government-vetted partners. **OpenAI** confirmed late Tuesday that flagship **GPT-5.6 Sol** plus mid-tier **Terra** and lightweight **Luna** will launch publicly **Thursday (July 9)**. Context: in **June**, the administration required a staggered rollout. A White House official said the same day that under the **June 2** executive order, no government "approval" is required or granted, and meetings with government experts are voluntary.
 **Links:**
 
 - [Axios — Trump administration lifts restrictions on OpenAI's GPT 5.6](https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted)
-- [OpenAI — Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [CNBC — OpenAI to publicly release GPT-5.6, rolls out Live voice AI models](https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html)
 
-**Commentary:** Frontier model launches have shifted from "company sets the date" to "government co-signs the release"—**GPT-5.6** clearing the gate signals that U.S. **AI** export logic is extending to models as strategic assets.
+**Commentary:** Frontier models have entered a "government roster preview, then widen" playbook—however the White House frames it, **GPT-5.6** clearing the gate makes release timing part of the default government–industry script.
 
 ---
 
-### 2. **Anthropic** Consumer Privacy Policy Takes Effect Today, Adding Identity Verification and **Agent** Data Terms (Privacy / U.S.)
-**Summary:** Per the **Anthropic Privacy Center**, an updated privacy policy effective **July 8, 2026** applies only to consumer accounts (**Claude Free, Pro, Max**); **Enterprise, Team, API**, and other commercial services remain under separate agreements. Key changes include: disclosure of data flows when **Claude** runs multi-step tasks or connects third-party apps; a new "**Verification Data**" section stating the company may ask users to confirm age or identity to keep services safe; added detail on research participation (surveys, interviews); and clearer language on when data may be shared with third parties and the legal bases relied upon. Anthropic reiterates: it does not sell user data, **Claude** remains ad-free, and users can control whether conversations are used for model improvement.
+### 2. **CNBC** Investigation: Chinese Models Hold **30%–46%** of U.S. Enterprise **API** Traffic; Lawmakers Intensify Scrutiny (Industry / U.S.)
+**Summary:** Per **CNBC** on **July 7–8, 2026**, **OpenRouter** data show Chinese **AI** models have accounted for more than **30%** of weekly tokens from U.S. companies since **February 8**, peaking at **46%**—vs. an **11%** 12-month average and just **4.5%** in the first half of **2025**. **DeepSeek** and **Z.ai GLM-5.2** are favored as **60%–90%** cheaper than leading **OpenAI/Anthropic** frontier models; **Vercel** said **GLM-5.2** daily token volume rose roughly **27x** and customer count **80x** in its first full week. On **July 8**, **CNBC** separately reported the House Homeland Security and Select Committee on China are probing security risks from Chinese-model adoption, having sent inquiry letters to **Cursor**, **Airbnb**, and others.
+**Links:**
+
+- [CNBC — Chinese AI models gain ground with U.S. companies as costs surge](https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html)
+- [CNBC — Lawmakers probe growing use of Chinese AI models in U.S. companies](https://www.cnbc.com/2026/07/08/chinese-ai-models-probe-us-lawmakers.html)
+
+**Commentary:** Enterprises vote with wallets for cheaper models; Congress votes with investigations for unease—"cost-optimal" and "supply-chain secure" are colliding in the U.S. **AI** market.
+
+---
+
+### 3. **Anthropic** Consumer Privacy Policy Takes Effect; **Fable 5** Shifts to Usage Credits (Policy / U.S.)
+**Summary:** Per the **Anthropic Privacy Center**, an updated policy effective **July 8, 2026** covers consumer accounts (**Claude Free/Pro/Max**), adding **Agent** multi-step task and third-party app data flows plus a "**Verification Data**" identity-verification section. On **Fable 5**, per **TechTimes** and **Android Authority**, billing was scheduled to move off subscription limits at midnight Pacific **July 8** to prepaid credits (**$10**/M input, **$50**/M output); **Android Authority** updated **July 8** that amid user backlash, **Anthropic** extended existing subscribers' **Fable 5** access to **July 12**. Enterprise seat plans never included **Fable 5** allowances.
 **Links:**
 
 - [Anthropic Privacy Center — Updates to our Privacy Policy](https://privacy.claude.com/en/articles/10301952-updates-to-our-privacy-policy)
-- [Anthropic — Privacy Policy](https://www.anthropic.com/legal/privacy)
+- [Android Authority — Fable 5's second act on Claude ends today, unless you're willing to pay more](https://www.androidauthority.com/anthropic-claude-fable-5-credits-usage-july-3684840/)
 
-**Commentary:** Once **Agents** act on users' behalf across external apps, privacy boundaries must expand—consumer vs. commercial "two-tier rules" will become a key procurement checkpoint for enterprise **Claude** buyers.
+**Commentary:** **Agent**-era privacy expansion and frontier-model "subscription can't cover it" landed the same day—**Fable 5**'s extension is a buffer; metered frontier access is the baseline.
 
 ---
 
 ## II. Models & Products
 
-### 3. **Meta** Launches **Muse Image** and Previews **Muse Video** (Product / U.S.)
-**Summary:** Per **Meta**'s official blog and **SiliconANGLE** on **July 7–8, 2026**, **Meta Superintelligence Labs** released in-house image model **Muse Image**—supporting precise instruction following, multi-reference composition, sketch-guided editing, and **agentic** tools including web search and code generation (e.g., writing **Python** scripts to visualize spreadsheet data). The model is live in the **Meta AI** app, **meta.ai**, U.S. **Instagram Stories**, and **WhatsApp** in select markets; **Muse Video** was previewed alongside, ranked third on **Arena** text-to-video human-preference **Elo** per **Meta**, with native audio support. **Muse Image** includes invisible watermark **Content Seal** that survives cropping and compression; advertiser access via **Advantage+** is planned.
+### 4. **OpenAI** Launches Full-Duplex Voice Models **GPT-Live**, Rolling Out Globally in **ChatGPT Voice** (Product / U.S.)
+**Summary:** Per **OpenAI**'s blog and **TechCrunch** on **July 8, 2026**, **OpenAI** released **GPT-Live**—**GPT-Live-1** and **GPT-Live-1 mini**—built on a full-duplex architecture that listens and speaks simultaneously, supports natural interruption and pauses, and delegates complex work to background **GPT-5.5** without breaking conversation flow. Paid users default to **GPT-Live-1**; free users get **GPT-Live-1 mini**; rollout is global on **iOS/Android/ChatGPT.com** with **API** access coming soon. Launch excludes voice with video or screen sharing; audio is retained **30** days for context; voice training is off by default.
+**Links:**
+
+- [OpenAI — Introducing GPT-Live](https://openai.com/index/introducing-gpt-live/)
+- [TechCrunch — OpenAI releases new voice models for more natural live conversations](https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/)
+
+**Commentary:** Voice evolved from three-stage cascades to full-duplex plus background frontier models—**OpenAI** is betting voice becomes **AI**'s primary interface and paving the road for hardware narratives.
+
+---
+
+### 5. **Meta** Launches **Muse Image** and Previews **Muse Video** (Product / U.S.)
+**Summary:** Per **Meta**'s official blog and **CNBC** on **July 7, 2026**, **Meta Superintelligence Labs** released in-house image model **Muse Image**—supporting precise instruction following, multi-reference composition, sketch-guided editing, and **agentic** tools including web search and code generation. The model is live in the **Meta AI** app, **meta.ai**, U.S. **Instagram Stories**, and **WhatsApp** in select markets; **Muse Video** was previewed alongside, ranked third on **Arena** text-to-video human-preference **Elo** per **Meta**, with native audio support. **Muse Image** includes invisible watermark **Content Seal**; advertiser access via **Advantage+** is planned.
 **Links:**
 
 - [Meta — Introducing Muse Image and Muse Video](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/)
-- [SiliconANGLE — Meta launches image generation model with coding, search capabilities](https://siliconangle.com/2026/07/07/meta-launches-image-generation-model-coding-search-capabilities/)
+- [CNBC — Meta debuts Muse Image, Superintelligence Labs' first AI image model](https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html)
 
 **Commentary:** **Meta** fills its **Agent** stack with an image model that can search and code—launching in-house media generation also marks the end of its **Midjourney** partnership.
 
 ---
 
-## III. China & Asia-Pacific Industry
+## III. Security & Deepfakes
 
-### 4. Physical **AI** "First Stock" **Momenta** Lists in Hong Kong; Day-One Market Cap Exceeds **HK$70B** (Capital / China)
-**Summary:** Per **Sina Finance** on **July 8, 2026**, autonomous driving company **Momenta** (ticker **6880.HK**) debuted on the Hong Kong Stock Exchange as the "physical **AI** first stock"; shares opened up more than **6%**, pushing market capitalization above **HK$70 billion**. The offer price was **HK$295.6** per share, raising roughly **HK$6.8 billion** from about **22.93 million** shares globally; the public tranche was **414x** oversubscribed, with **14** cornerstone investors committing about **HK$3 billion**, including **GIC**, **BlackRock**, **Temasek**, **Mercedes-Benz**, and **BYD**. On **July 7**, the company announced vehicles running its systems had surpassed **1 million** units in production; **CEO** Cao Xudong said the **R7** world model will serve as a foundation for robotics and broader physical **AI** scenarios.
+### 6. **Google SynthID** Watermark Exposes **McConnell** Hospital Deepfake Hoax (Security / U.S.)
+**Summary:** Per **TechCrunch** on **July 8, 2026**, an image appearing to show Kentucky Senator **Mitch McConnell** in extreme distress in a hospital bed circulated widely on **Reddit** and **X**; **Snopes** debunked it Wednesday, finding **Google**'s **SynthID** invisible watermark designed to flag **AI**-generated images. **McConnell** has been largely absent since an emergency hospital admission on **June 14**, fueling health speculation. **SynthID** launched at **I/O 2025**; **OpenAI** joined in **May 2026**; **Anthropic** does not participate.
+**Links:**
+
+- [TechCrunch — Google's deepfake detector system used to debunk McConnell hoax pic](https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/)
+
+**Commentary:** Watermarking scored a rare win in a major political hoax—but coverage only extends to tools that opt in; anti-deepfake defense remains a fragmented arms race.
+
+---
+
+## IV. China & Asia-Pacific Industry
+
+### 7. **DeepSeek**, **Zhipu** Reportedly Developing Custom Inference Chips to Reduce **Nvidia** Dependence (Chips / China)
+**Summary:** Per **Reuters** (via **Ars Technica** and **TechNode**) on **July 7–8, 2026**, **DeepSeek** is developing a custom **AI** chip focused on inference—not training—a project begun roughly a year ago with quiet hiring and talks with design houses, foundries, and memory vendors, aiming to cut reliance on **Nvidia** and **Huawei** hardware. **The Information** the same week said **Zhipu AI** is in early talks with domestic chip designers on a bespoke **ASIC** for its **GLM** family, with full delivery potentially **2+** years out. Context: **GLM-5.2** daily token volume surged roughly **27x** in its first week on **Vercel** while U.S. export controls tighten compute access.
+**Links:**
+
+- [Ars Technica — Facing US export controls, China's DeepSeek plans to make its own chips](https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/)
+- [TrendForce — China AI Model Developers Ramp Up In-house Chips: DeepSeek, Zhipu Explore Custom Silicon](https://www.trendforce.com/news/2026/07/08/news-china-ai-model-developers-ramp-up-in-house-chips-deepseek-zhipu-explore-custom-silicon/)
+
+**Commentary:** Chinese labs are mirroring **OpenAI/Anthropic**'s custom-inference-chip path—software advantages can't erase compute ceilings; silicon is the next moat.
+
+---
+
+### 8. Physical **AI** "First Stock" **Momenta** Lists in Hong Kong; Day-One Market Cap Exceeds **HK$70B** (Capital / China)
+**Summary:** Per **Sina Finance** on **July 8, 2026**, autonomous driving company **Momenta** (ticker **6880.HK**) debuted on the Hong Kong Stock Exchange as the "physical **AI** first stock"; shares opened up more than **6%**, pushing market capitalization above **HK$70 billion**. The offer price was **HK$295.6** per share, raising roughly **HK$6.8 billion** from about **22.93 million** shares globally; the public tranche was **414x** oversubscribed, with **14** cornerstone investors committing about **HK$3 billion**, including **GIC**, **BlackRock**, **Temasek**, **Mercedes-Benz**, and **BYD**. On **July 7**, the company announced vehicles running its systems had surpassed **1 million** units in production.
 **Links:**
 
 - [Sina Finance — Physical AI first stock lists; market cap exceeds HK$70B](https://finance.sina.com.cn/wm/2026-07-08/doc-inihaieh4886781.shtml)
@@ -53,61 +98,57 @@
 
 ---
 
-### 5. Ant Lingbo Open-Sources **LingBot-VLA 2.0**, One Model Across **20** Robot Form Factors (Product / China)
-**Summary:** Per **Sina Finance** and **NetEase** on **July 8, 2026**, Ant Lingbo officially released and open-sourced embodied manipulation base model **LingBot-VLA 2.0**, expanding from **9** dual-arm configurations in **v1.0** to **20** robot types across **17** domestic and international vendors, covering single-arm, dual-arm, humanoid, and mobile-base full-body degrees of freedom. Pre-training aggregated roughly **60,000** hours of high-quality real-robot trajectories, with **Depth** spatial perception and long-horizon task-state modeling; a fine-tuned variant runs inference in under **130ms** on an **RTX 4090**. Weights, training code, and a technical report are on **Hugging Face** and **ModelScope**.
-**Links:**
-
-- [Sina Finance — Ant open-sources next-gen VLA brain covering 20 robot types](https://finance.sina.com.cn/roll/2026-07-08/doc-inihaiea8211755.shtml)
-- [NetEase — Open-source breakthrough with 50,000 hours of real-machine data](https://m.163.com/dy/article/L1AK7RUG0511ABV6.html)
-
-**Commentary:** Embodied **AI** is shifting from single-robot demos to cross-embodiment reuse cost—whoever ships a deployable universal **VLA** brain first wins the fragmented robotics market.
-
----
-
-### 6. **WAIC 2026** Enters Final Sprint; **1,100+** Exhibitors with **300+** Global Product Debuts (Industry / China)
-**Summary:** Per **China Economic Net** on **July 8, 2026**, the **2026 World Artificial Intelligence Conference & High-Level Meeting on Global AI Governance** will run **July 17–20** across Shanghai's World Expo, Zhangjiang, and West Bund venues under the theme "Intelligent Partners, Co-Creating the Future," with preparations in their final sprint. The event features **140+** forums, exhibition space exceeding **100,000 sqm** for the first time, **1,100+** companies showing **3,000+** exhibits including **300+** global debuts; computing-power and embodied-intelligence tracks each draw **200+** firms. Industry matchmaking has landed **57** core scenarios and **RMB 16.2 billion** in intended deals; the **AI**-native "**Hi WAIC**" platform covers pre-, during-, and post-conference services.
+### 9. **WAIC 2026** Enters Final Sprint; **1,100+** Exhibitors with **300+** Global Product Debuts (Industry / China)
+**Summary:** Per **China Economic Net** on **July 8, 2026**, the **2026 World Artificial Intelligence Conference & High-Level Meeting on Global AI Governance** will run **July 17–20** across Shanghai's World Expo, Zhangjiang, and West Bund venues under the theme "Intelligent Partners, Co-Creating the Future," with preparations in their final sprint. The event features **140+** forums, exhibition space exceeding **100,000 sqm** for the first time, **1,100+** companies showing **3,000+** exhibits including **300+** global debuts; industry matchmaking has landed **57** core scenarios and **RMB 16.2 billion** in intended deals.
 **Links:**
 
 - [China Economic Net — WAIC 2026 gears up](http://www.ce.cn/cysc/newmain/yc/jsxw/202607/t20260708_3074486.shtml)
-- [36Kr — WAIC 2026 Forum Schedule](https://eu.36kr.com/en/p/3886440482943235)
 
 **Commentary:** With just **9** days to opening, **WAIC** has become China's **AI** industry barometer—the debut list and **RMB 16.2B** intent pipeline are the H2 signal for capital and orders.
 
 ---
 
-### 7. **Huawei** Publishes "τ-Law" **V2**, First Public Kirin Production Data and Ascend Roadmap (Chips / China)
-**Summary:** Per **China Economic Net** on **July 8, 2026**, **Huawei** semiconductor chief He Tingbo updated her **ChinaXiv** paper *Time-Scaling Theory for Multi-Level Electronic Systems* ("τ-Law") to **V2** (posted **July 3**), bridging theory to engineering validation in roughly **40** days since **V1**. **V2** discloses first production-chip measurements: **Kirin 2026** cuts power roughly **41%** vs. the prior generation at equal performance, with transistor density up about **53.5%**; it also details the **Ascend 910C** (**2025**), **950** (**2026**), and **990** (~**2030**, introducing logic folding) roadmap. The paper projects **100x+** **AI** hardware integration gains by **2035** vs. **2026**; the industry's largest **Atlas 950 SuperPoD** will make its live debut at **WAIC 2026**.
+## V. Funding & Infrastructure
+
+### 10. **Prime Intellect** Closes **$130M Series A** at **$1B** Valuation (Funding / U.S.)
+**Summary:** Per **TechCrunch** on **July 8, 2026**, **Prime Intellect** raised **$130 million** in **Series A** at a **$1 billion** valuation, led by **Radical Ventures** with **Nvidia Ventures**, **Intel Capital**, **Dell Technologies Capital**, and others participating. Founded in **2024**, the startup provides compute and reinforcement-learning tooling so enterprises can build their own **agent** systems rather than relying on closed frontier labs; customers include **Ramp** and **Zapier**, with an annualized revenue run rate of roughly **$100 million**.
 **Links:**
 
-- [China Economic Net — Huawei τ-Law V2 officially released](http://www.ce.cn/cysc/tech/gd2012/202607/t20260708_3075952.shtml)
-- [Yicai — Huawei updates τ-Law with Kirin and Ascend roadmaps](https://www.yicai.com/news/103260575.html)
+- [TechCrunch — Prime Intellect raises $130M Series A to help enterprises build their own AI agents](https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/)
 
-**Commentary:** In the post-Moore era, **Huawei** reframes competition from "process node" to "time constant τ"—publishing production data moves China's **AI** compute roadmap from rumor to verifiable science.
+**Commentary:** As enterprises chafe at frontier cost and lock-in, infrastructure to "be your own **AI lab**" is becoming its own investable category.
 
 ---
 
-## IV. Global Partnerships & Regional Dynamics
-
-### 8. **Naver Cloud** Partners with France's **Mistral AI** on Sovereign Manufacturing **AI** Across Asia and Europe (Partnership / Korea)
-**Summary:** Per **Chosun Biz** and **The Asia Business Daily** on **July 8, 2026**, Korea's **Naver Cloud** and France's **Mistral AI** signed a comprehensive partnership to jointly target manufacturing **AI**. Both are members of **Nvidia**'s **Nemotron Alliance** and will focus on proven European factory use cases—real-time quality anomaly detection, parts selection optimization—adapted for Korean and Asian manufacturing with data-sovereignty requirements; **Mistral**'s latest models and full-stack products will run on the **Naver Cloud Platform**, with field deployment engineers (**FDEs**) stationed at customer sites. **Mistral** has prior manufacturing work with **Airbus**, **BMW**, and **ASML**.
+### 11. **Apple** Signs **$30B+** Deal with **Broadcom** to Make **15 Billion** Wireless Chips in the U.S. (Infrastructure / U.S.)
+**Summary:** Per **TechCrunch** on **July 8, 2026**, **Apple** signed a multiyear agreement worth over **$30 billion** with **Broadcom** to design and manufacture more than **15 billion** custom U.S.-made wireless connectivity chips; **Apple** will invest **$1.5 billion** in capex at **Broadcom**'s **Fort Collins, Colorado** facility. The deal is part of its pledge to invest **$600 billion** in the U.S. economy over four years, responding to Trump administration pressure on domestic manufacturing; **Apple** said it will create "hundreds" of American jobs.
 **Links:**
 
-- [Chosun Biz — Naver Cloud and Mistral AI unite to advance manufacturing AI in Korea and Europe](https://biz.chosun.com/en/en-it/2026/07/08/GSWODFTE6NGHNAMUJJXMTG2PCA/)
-- [The Asia Business Daily — Mistral AI Launches Business in Korea with Naver Cloud](https://www.asiae.co.kr/en/article/science/2026070808423102942)
+- [TechCrunch — Apple to produce Made in America wireless chips with Broadcom](https://techcrunch.com/2026/07/08/apple-to-produce-made-in-america-wireless-chips-with-broadcom/)
 
-**Commentary:** Beyond U.S. general-purpose models, Asian and European manufacturing leaders are stitching a third supply chain around "sovereign **AI** + vertical scenes"—data never leaving the factory floor beats raw parameter counts.
+**Commentary:** **$30B for chips, $1.5B for fabs, hundreds of jobs**—the classic arithmetic of buying policy headroom with capex in a tariff standoff.
+
+---
+
+### 12. **Waymo** Goes Fully Driverless in Las Vegas; **Denver/San Diego/Tampa** Queued Next (Autonomous / U.S.)
+**Summary:** Per **Electrek** on **July 8, 2026**, **Alphabet**'s **Waymo** announced Tuesday that Las Vegas vehicles are running with no safety driver, with **Denver**, **San Diego**, and **Tampa** to follow. The company raised **$16 billion** earlier this year at a **$126 billion** valuation, targeting **1 million** paid rides per week by end-**2026**; its fleet stands at roughly **3,000** vehicles with London and Tokyo expansion planned.
+**Links:**
+
+- [Electrek — Waymo goes driverless in Las Vegas, with Denver, San Diego, Tampa next](https://electrek.co/2026/07/08/waymo-driverless-las-vegas-four-new-cities/)
+
+**Commentary:** Robotaxi scaling shifted from "announcing plans" to "flipping cities live"—**Waymo**'s cadence is pulling autonomous ride-hail from tech narrative into everyday mobility ledgers.
 
 ---
 
 ## Today's Summary
 
-- **Regulatory green-light day:** U.S. Commerce cleared **GPT-5.6** for broad release, cementing government co-review for frontier launches; **Anthropic**'s consumer privacy policy took effect the same day, redrawing data boundaries for the **Agent** era.
-- **Media generation battle:** **Meta Muse Image/Video** enters with search, coding, and watermarking—self-built multimedia **Agents** and ad monetization pipelines advance in parallel.
-- **China physical **AI** milestones:** **Momenta** listed in Hong Kong and **LingBot-VLA 2.0** open-sourced across **20** robot types—capital and engineering both point from lab to mass production.
-- **Compute & conference runway:** **Huawei** τ-Law **V2** published production data; **WAIC 2026** enters its final **9**-day sprint with **300+** global debuts queued.
-- **Sovereign **AI** alignment:** **Naver Cloud × Mistral** targets manufacturing verticals, giving Asian and European firms a data-sovereignty path outside U.S.-centric platforms.
+- **Government co-clearance + voice interface day:** **GPT-5.6** cleared for **July 9** broad release while **GPT-Live** full-duplex voice rolled out globally—frontier models and interaction form advancing in parallel.
+- **U.S.–China model contest heating up:** **CNBC** disclosed Chinese models at up to **46%** of U.S. enterprise **API** traffic as Congress opened probes the same day; **DeepSeek/Zhipu** custom inference-chip reports added fuel.
+- **Anthropic commercial pivot:** Consumer privacy policy took effect; **Fable 5** moved toward metered credits (briefly extended to **July 12**), making frontier capability pricing and compliance costs explicit.
+- **Trust and safety:** **Google SynthID** caught a **McConnell** deepfake—a rare real-world watermark win.
+- **China and capital deployment:** **Momenta** listed in Hong Kong; **WAIC 2026** enters its final **9**-day sprint; **Prime Intellect**'s unicorn round validates enterprise **agent** infrastructure demand.
 
-**Daily Framing:** Today is a **"government co-clearance day"**—U.S. frontier models cleared the gate alongside **Anthropic** privacy reforms, while China's physical **AI** IPO and **WAIC** sprint show global competition shifting from parameter races to release permissions, deployment scenes, and data sovereignty.
+**Daily Framing:** Today is a **"voice and clearance day"**—**OpenAI** bet on voice as the primary interface while clearing **GPT-5.6** through government review, even as Chinese firms press U.S. market share with cheap tokens and custom silicon, shifting global **AI** competition from parameter races to release permissions, interaction design, and cost routing.
 
 ---
 

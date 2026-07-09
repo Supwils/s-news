@@ -6,131 +6,140 @@
 
 ## I. Regulation & Policy
 
-### 1. **SEC** Publishes **2026** Agenda, Targets **July** Release of "**Regulation Crypto**" Exemption Proposal (Regulation)
-**Summary:** Per **Cointelegraph**, **BlockBeats/BTCFans**, and **Bitcoin.com** on **July 7–8**, SEC Chair **Paul Atkins** included **six** crypto-related rulemakings in the agency's unified regulatory agenda, covering broker-dealer custody, alternative trading systems (**ATS**), digital assets on national securities exchanges, and the flagship "**Regulation Crypto**" proposal (**RIN 3235-AN38**). The offer-and-sale rule is targeted for a **July 2026** notice of proposed rulemaking, currently under final White House **OIRA** review. The framework would provide temporary registration exemptions of up to roughly **four years**, a startup fundraising cap near **$5 million**, and a separate path allowing up to approximately **$75 million** in raises over **12 months**, with principles-based disclosure. The agenda runs parallel to Congress's **CLARITY Act**; **Atkins** said the SEC will defer to legislation if passed but will advance "bridge rules" in the meantime.
+### 1. **ESMA** Launches First Post-**MiCA** Joint Supervisory Action on **CASP** Custody Resilience (Regulation)
+**Summary:** Per the **ESMA** website and **Cointelegraph** on **July 8**, the European Securities and Markets Authority launched a Common Supervisory Action (**CSA**) on Crypto-Asset Service Providers (**CASPs**), with a focus on digital operational resilience in custody — the first coordinated review after **MiCA**'s transition period ended on **July 1**. National Competent Authorities will conduct risk-based sample reviews covering governance, key and storage management, transaction controls, incident detection and response, smart-contract risks, and third-party dependencies. The exercise runs from **H2 2026** through **H1 2027**, with a consolidated report to ESMA's Board of Supervisors expected in **H2 2027**. The move marks a shift from rule-building to active enforcement across the EU.
 **Links:**
 
-- [Cointelegraph — SEC crypto rule changes are high on its 2026 agenda (Jul 7, 2026)](https://cointelegraph.com/news/sec-crypto-rule-changes-2026-agenda)
-- [Bitcoin.com — SEC Chair Atkins Says 'Reg Crypto' Proposal Is One Step From Publication](https://news.bitcoin.com/sec-chair-atkins-says-reg-crypto-proposal-covering-fundraising-and-startup-exemptions-is-one-step-from-publication/)
+- [ESMA — Common Supervisory Action on CASPs' Digital Operational Resilience (Jul 8, 2026)](https://www.esma.europa.eu/press-news/esma-news/esma-launches-common-supervisory-action-casps-digital-operational-resilience)
+- [Cointelegraph — ESMA turns spotlight on crypto custody risks after MiCA transition (Jul 8, 2026)](https://cointelegraph.com/news/esma-crypto-custody-scrutiny-mica-transition)
 
-**Commentary:** Administrative rulemaking and legislation are racing in parallel — whether the **July** proposal actually publishes will determine if US token startups get a workable compliance path before a **CLARITY** floor vote.
+**Commentary:** Custody is the last line of defense for client assets — this joint review will test whether roughly **280** authorized firms have built the operational controls their licenses imply.
 
 ---
 
-### 2. **CLARITY Act** Stalled in Recess; **August 7** Becomes Senate's Last **2026** Window (Regulation)
-**Summary:** Per **Coinspeaker**, **Yahoo Finance**, and **Coinpaper** on **July 4–8**, the **Digital Asset Market Clarity Act (H.R. 3633)** missed the White House's informal **July 4** signing target and remains at **Calendar No. 423** with no floor vote or cloture motion filed. The Senate returns **July 13**, leaving roughly **20** working days before the **August 7** summer recess. Three disputes remain unresolved: **Section 604** exemptions for non-custodial **DeFi** developers, stablecoin yield language (**Coinbase** earns roughly **$1.35 billion** annually in **USDC** rewards), and ethics provisions around presidential crypto holdings. **Polymarket** and similar markets now price **2026** passage at roughly **42%–50%**.
+### 2. **SEC** Lists Three Crypto Rulemakings on **2026** Agenda; "**Regulation Crypto**" Awaits **OIRA** Before **July** Release (Regulation)
+**Summary:** Per **CryptoBriefing**, **The Block**, and **Anue/CNYES** on **July 7–8**, the US Securities and Exchange Commission included three crypto-specific proposed rules in its unified regulatory agenda, targeting notice of proposed rulemaking in **July 2026**: **RIN 3235-AN38** (crypto asset offers and sales, including exemptions and safe harbors), **RIN 3235-AN48** (broker-dealer net capital and customer protection amendments), and **RIN 3235-AN49** (market structure for digital assets on **ATS** and national securities exchanges). Chair **Paul Atkins** said "**Regulation Crypto**" has advanced to White House **OIRA** review, with temporary registration exemptions, limited fundraising paths, and decentralization safe harbors. With Congress's **CLARITY Act** stalled, SEC administrative rulemaking is the market's nearest-term compliance path.
 **Links:**
 
-- [Coinspeaker — CLARITY Act Stalls: Three Disputes Block Senate Vote](https://www.coinspeaker.com/clarity-act-senate-stall-crypto-regulation-2026/)
-- [Yahoo Finance — CLARITY Act Countdown: Crypto Bill Misses July 4 Target, August 7 Deadline Looms](https://finance.yahoo.com/markets/crypto/articles/clarity-act-countdown-crypto-bill-161215444.html)
+- [CryptoBriefing — SEC adds three crypto rules to 2026 regulatory agenda (Jul 7, 2026)](https://cryptobriefing.com/sec-crypto-rules-2026-regulatory-agenda/)
+- [Anue/CNYES — US SEC may propose crypto rules this month (Jul 8, 2026)](https://news.cnyes.com/news/id/6526854)
 
-**Commentary:** Missing the Independence Day symbolic deadline shifts focus to the **August 7** hard cutoff; failure there raises the risk of major text changes or delay into **2027** as midterm politics intensify.
+**Commentary:** Legislative gridlock is pushing administrative rules to the front — whether the **July** proposal actually publishes will determine if US token startups get a workable path before a **CLARITY** floor vote.
 
 ---
 
-### 3. One Week After **MiCA** Enforcement, **USDT** Liquidity Keeps Migrating as **USDC** Consolidates (Regulation)
-**Summary:** The EU's **Markets in Crypto-Assets (MiCA)** framework became fully enforceable on **July 1**. Per **crypto.news**, **FXStreet**, and **The Paypers** on **July 6–8**, **Tether** did not apply for an Electronic Money Institution (**EMI**) license and publicly rejected MiCA's requirement to hold roughly **60%** of reserves in EU bank deposits. Licensed platforms including **Coinbase**, **Kraken**, and **Crypto.com** have stopped or restricted **USDT** spot trading for EU users. **Circle** secured French **ACPR** authorization for **USDC** and **EURC** across the bloc. **FXStreet** reports EU venue **USDT** volume has fallen more than **70%** while **USDC** volume has nearly doubled, with liquidity systematically shifting to compliant rails.
+### 3. India's **RBI** Still Favors Crypto Prohibition, Citing Tax Evasion and Capital Outflows (Regulation)
+**Summary:** Per **CoinDesk** citing **Reuters** on **July 8**, the Reserve Bank of India continues to push a policy "leaning toward prohibition" in government documents, opposing bank exposure to crypto and both dollar- and rupee-pegged stablecoins while warning of financial contagion, seigniorage loss, and stress during market turmoil. Tax authorities flagged serious compliance gaps: in the fiscal year ended **March 2023**, fewer than a quarter of roughly **645,000** crypto transactors declared gains on tax returns. Offshore exchange and peer-to-peer rupee trades remain hard to trace. Authorities worry that amid Iran-driven oil spikes and record rupee weakness, widespread crypto adoption could accelerate capital outflows and worsen India's current account deficit.
 **Links:**
 
-- [crypto.news — What is MiCA? Europe's crypto regulation explained](https://crypto.news/what-is-mica-europes-crypto-regulation-explained/)
-- [FXStreet — MiCA locked USDT out of Europe: The liquidity didn't disappear, it moved (Jul 6, 2026)](https://www.fxstreet.com/cryptocurrencies/news/mica-locked-usdt-out-of-europe-the-liquidity-didnt-disappear-it-moved-202607062030)
+- [CoinDesk — RBI still favors crypto prohibition to curtail tax evasion (Jul 8, 2026)](https://www.coindesk.com/policy/2026/07/08/reserve-bank-of-india-still-favors-crypto-prohibition-to-curtail-tax-evasion-reuters)
 
-**Commentary:** Stablecoin competition is shifting from market-cap scale to regulatory usability, with European institutional settlement rails tilting toward **USDC** as **USDT**'s global liquidity engine clashes with regional compliance gaps.
+**Commentary:** Policy deadlock in one of the world's largest crypto user bases will keep suppressing domestic institutional adoption, in sharp contrast to US and EU framework-building.
+
+---
+
+### 4. **GENIUS Act** One-Year Rulemaking Clock Ends **July 18**; Six Federal Agencies Race on Stablecoin Rules (Regulation)
+**Summary:** Per **CryptoSlate** and **Paradigm**'s rulemaking tracker on **July 8**, the **Guiding and Establishing National Innovation for U.S. Stablecoins Act** was enacted on **July 18, 2025**, with a statutory one-year deadline for finalizing implementation rules by **July 18, 2026**. **OCC**, **FDIC**, **Treasury**, **FinCEN**, and other agencies must finalize reserve composition, monthly audits, licensing, AML, and redemption standards. The law mandates **1:1** reserves, prohibits interest payments to holders, and requires issuers above **$10 billion** to transition to federal oversight within **360 days**; after **July 18, 2028**, non-compliant stablecoins generally cannot be offered to US users. Compliance paths for offshore issuers across roughly **$230 billion** in outstanding stablecoins remain the focal point.
+**Links:**
+
+- [CryptoSlate — GENIUS made stablecoins legal, July 18 decides which stay competitive (Jul 8, 2026)](https://cryptoslate.com/genius-made-stablecoins-legal-july-18-decides-which-stablecoins-stay-competitive/)
+- [Paradigm — GENIUS Act Rulemaking Tracker](https://paradigm.xyz/genius)
+
+**Commentary:** Stablecoin issuance is shifting from a crypto product to a regulated-scale business — **July 18** final rules will reshape US market access for offshore giants like **USDT**.
 
 ---
 
 ## II. Markets & Major Coins
 
-### 4. Bitcoin Consolidates Near **$63K** as **July 8** **FOMC** Minutes Take Center Stage (Markets)
-**Summary:** Per **AMBCrypto**, **BeInCrypto**, and **Economies.com** on **July 8**, Bitcoin traded around **$62,800–$63,300**, up roughly **7%** over the prior week but still well below May levels near **$80K**. Options expiring **July 8** skewed call-heavy on **Deribit** with a put/call ratio near **0.58** and max pain at **$63,000**. The **June 16–17 FOMC** meeting minutes are due at **2:00 p.m. ET**, with rates held at **3.50%–3.75%** for a fourth consecutive meeting. **Glassnode** noted options markets are pricing low future volatility and reduced demand for downside protection — a possible early sign of returning risk appetite.
+### 5. Trump Declares US-Iran Ceasefire "Over"; Bitcoin Slips Below **$63K** (Markets)
+**Summary:** Per **CoinDesk**, **Crypto Briefing**, and **FX168** on **July 8**, President **Donald Trump** told reporters at the **NATO** summit in Ankara that the ceasefire with Iran is "over," after US-Iran airstrikes and attacks on ships in the Strait of Hormuz lifted oil prices. Bitcoin retreated from intraday highs to roughly **$62,600–$62,700** in Asian hours, down nearly **1%–2%** since midnight **UTC**; Ethereum traded around **$1,730–$1,740**, with **XRP** and **Solana** down **1%–2.3%**. **WTI** crude rose more than **2%** to about **$72.27**; the Dollar Index held above **101**. The move interrupted a five-day rebound from lows near **$58,300** on **July 1**.
 **Links:**
 
-- [AMBCrypto — Bitcoin's path to $80K may hinge on this hidden trend (Jul 8, 2026)](https://ambcrypto.com/bitcoins-path-to-80k-may-hinge-on-this-hidden-trend/)
-- [BeInCrypto — Bitcoin Options Turn Call-Heavy Before July 8 FOMC Minutes](https://beincrypto.com/bitcoin-options-call-heavy-fomc-minutes/)
+- [CoinDesk — Bitcoin under pressure as Trump says Iran ceasefire is over (Jul 8, 2026)](https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil)
+- [Crypto Briefing — Trump declares US-Iran ceasefire 'over' as crypto markets take a hit (Jul 8, 2026)](https://cryptobriefing.com/trump-iran-strikes-crypto-markets/)
 
-**Commentary:** Dovish macro expectations and call positioning support near-term stability, but whether **$63K** holds after the minutes will be the key test of whether this rebound can evolve into a trend reversal.
+**Commentary:** Crypto again validated its role as a geopolitical risk asset — oil and rate expectations are more immediate price drivers than on-chain metrics today.
 
 ---
 
-### 5. On-Chain Data: Over **50%** of Bitcoin Supply at a Loss as Bottom Signals Battle **ETF** Selling (Markets)
-**Summary:** Per **Cointelegraph** and **Bitcoin.com** on **July 7–8**, digital-asset broker **K33** reported that more than **50%** of circulating Bitcoin is held at a loss; historically, cycle bottoms in **2017**, **2018**, and **2022** followed within weeks to about a month. **Cointelegraph** Head of Markets **Horus Hughes** told **Schwab Network** that roughly **$2.9 billion** in buy-side flow returned to spot and futures over the prior **seven days**. The **Block Scholes** Risk Appetite Index bounced from a **July 3** low of **-1.27**; in **eight** prior instances, median spot returns over the following **100 days** were about **12%**. **K33** cautioned that large sellers such as spot Bitcoin **ETF** holders may make this cycle's bottom formation different from past cycles.
+### 6. Altcoins Hit by Liquidations; **CoinDesk 20** Index Down **2.9%** Intraday (Markets)
+**Summary:** Per **CoinDesk** on **July 8**, escalating US-Iran tensions and Trump's ceasefire remarks pushed the **CoinDesk 20** index down **2.9%** since midnight **UTC**, with all but one constituent in the red. Roughly **$450 million** in contracts were liquidated network-wide, about **$350 million** from altcoin pairs; **JUP**, **ETHFI**, and **PUMP** fell **5.5%–9.3%**, and **Solana** erased its entire **July** gain. **Deribit** one-week put skew jumped from **16%** to nearly **20%**, favoring downside protection; Bitcoin and Ethereum **30-day** implied volatility indices **BVIV** and **EVIV** rose for a second consecutive day.
 **Links:**
 
-- [Cointelegraph — Bitcoin nears cycle bottom as over half of supply is held at a loss, says K33 (Jul 7, 2026)](https://cointelegraph.com/news/half-bitcoins-supply-at-loss-cycle-bottom-k33)
-- [Bitcoin.com — Whale Buying Hints at Bitcoin Bottom After Worst Month Since 2022 (Jul 7, 2026)](https://news.bitcoin.com/whale-buying-hints-at-bitcoin-bottom-after-worst-month-since-2022-3-signals-to-watch/)
+- [CoinDesk — Crypto and stocks tumble after Trump declares ceasefire over (Jul 8, 2026)](https://www.coindesk.com/markets/2026/07/08/crypto-and-stocks-tumble-after-trump-declares-ceasefire-over-following-iran-strikes)
 
-**Commentary:** Cycle indicators and institutional **ETF** outflow pressure are in tension — the market is debating whether historical bottom patterns still apply under a new seller structure, and weeks of net inflows are needed to confirm a turn.
+**Commentary:** Highly leveraged altcoins take the first hit when risk appetite collapses — rising options skew signals traders are hedging deeper drawdowns rather than betting on a quick rebound.
 
 ---
 
-### 6. Ethereum Near **$1,750–$1,770**; **$1,709** Level Holds ~**$728M** Long Liquidation Risk (Markets)
-**Summary:** Per **ChainCatcher** data at **02:30 UTC on July 8** and market quotes, Ethereum traded around **$1,750–$1,770**. If price falls below **$1,709**, cumulative long liquidation intensity on major centralized exchanges could reach roughly **$728 million**; a break above **$1,888** could trigger about **$584 million** in short liquidations. During an early **July 7–8** rally, **24-hour** network-wide liquidations exceeded **$418 million** across more than **106,000** traders, with the largest single liquidation near **$11.6 million** on Binance **ETHUSDT**. On-chain monitors also flagged an "**OG whale**" who began re-accumulating over **$8 million** in **ETH** near **$2,050** after selling above **$2,850** — contrasting with leveraged futures positioning.
+## III. DeFi & Protocols
+
+### 7. **Robinhood Chain** Surpasses **$100M TVL** in Week One; **24h DEX** Volume Tops **$500M** (DeFi)
+**Summary:** Per **Crypto Briefing** and **Crypto Times** on **July 8**, **Robinhood**'s **Arbitrum Orbit**-based Ethereum **L2** "Robinhood Chain," which went live on **July 1**, crossed **$100 million** in total value locked within a week (**DeFiLlama** showed roughly **$106 million**, up about **159%** in **24 hours**), with **24-hour** decentralized exchange volume exceeding **$500 million**. Roughly **$90 million** sits in **Morpho** lending (backing **Robinhood Earn**), after **Ethena** seeded about **$50 million** into a **Steakhouse Financial**-curated **USDG** vault. **Pump.fun** added support for Robinhood Chain tokens on **July 8**; CEO **Vlad Tenev** acknowledged meme activity growing alongside tokenized-stock infrastructure.
 **Links:**
 
-- [ChainCatcher — If ETH falls below $1,709, cumulative long liquidation intensity will reach $728M (Jul 8, 2026)](https://www.chaincatcher.com/en/article/2275372)
-- [BitRss — Ethereum Tanks to 2-Month Low: Whales Return but Sub-$2K Fears Mount](https://bitrss.com/ethereum-tanks-to-2-month-low-whales-return-but-sub-2k-fears-mount-213581)
+- [Crypto Briefing — Robinhood Chain DEX volume exceeds $500M in 24 hours (Jul 8, 2026)](https://cryptobriefing.com/robinhood-chain-dex-volume-500m/)
+- [Crypto Times — Robinhood Chain tops $100M TVL a week after launch (Jul 8, 2026)](https://www.cryptotimes.io/2026/07/08/robinhood-chain-tops-100-million-tvl-a-week-after-launch/)
 
-**Commentary:** Spot **ETF** expectations and high-leverage derivatives are intertwined; **$1,700** has become a technical battleground where small moves can trigger cascading liquidations.
+**Commentary:** A traditional brokerage building its own **L2** is acquiring users faster than expected, but TVL concentration in a single lending protocol and cross-border securities compliance remain long-term variables.
 
 ---
 
-## III. Institutions & ETFs
+## IV. Institutions & ETFs
 
-### 7. **Grayscale**: **Strategy**'s **$216M** Sale "Reduces Tail Risk," May Help Bitcoin Find a Floor (Institutions)
-**Summary:** Per **Bitcoin.com** on **July 7–8**, **Grayscale Research** head **Zach Pandl** said **Michael Saylor**'s **Strategy (MSTR)** sold **3,588 BTC** for approximately **$216 million** between **June 29 and July 5** (average prices roughly **$59,256–$60,773**) to fund preferred-share dividends and boost dollar reserves to cover about **17 months** of payments. The company still holds **843,775 BTC** and roughly **$2.55 billion** in cash. Sales were executed under a **June 29** bitcoin monetization program allowing up to **$1.25 billion** in disposals. **Pandl** argued the move cuts forced-liquidation tail risk; a rebound in **STRC** suggests investors read it positively. Spot **BTC** showed limited reaction, holding near **$63,000**.
+### 8. US Spot Bitcoin **ETFs** Log **$143M** Daily Inflow — Third Consecutive Positive Session (Institutions)
+**Summary:** Per **NewsBTC**, **Decrypt**, and **Cryptonomist** on **July 8** citing **Farside** data, US spot Bitcoin ETFs recorded roughly **$143 million** in net inflows — a third straight positive day, totaling about **$510 million** over three sessions and ending an eight-week bleed of roughly **$8 billion** (year-to-date outflows near **$2.8 billion**). **CoinShares** Head of Research **James Butterfill** said "sentiment might be turning a corner," but **Glassnode** shows average ETF cost basis near **$83,800**, leaving most holders underwater. Bitcoin traded around **$62,000**, still up about **6%** on the week.
 **Links:**
 
-- [Bitcoin.com — Grayscale: Strategy's $216M Bitcoin Sale 'Reduces Tail Risk' (Jul 7, 2026)](https://news.bitcoin.com/grayscale-strategy-bitcoin-sale-reduces-tail-risk/)
-- [BingX — Strategy offloads 3,588 BTC in biggest sale since 2022; Bitcoin holds near $63,000](https://bingx.com/en/flash-news/post/strategy-sells-btc-for-about-m-in-first-net-sale-since-bitcoin-holds-near)
+- [NewsBTC — Bitcoin ETF inflows return as Farside shows institutions buying the dip (Jul 8, 2026)](https://www.newsbtc.com/news/bitcoin-etf-inflows-return-as-farside-data-shows-institutions-still-buying-the-2/)
+- [Decrypt — Bitcoin ETFs 'turning a corner' after record $8B bleed (Jul 8, 2026)](https://decrypt.co/373029/bitcoin-etfs-turning-corner-after-record-bleed)
 
-**Commentary:** The largest corporate holder's shift from "never sell" to disciplined disposals is partially priced in; the key variable is whether further sales approach the **$1.25 billion** program ceiling.
+**Commentary:** ETF flows remain the cleanest daily read on institutional demand — three days of inflows have not confirmed a trend reversal but have broken an eight-week outflow streak.
 
 ---
 
-### 8. Spot Bitcoin **ETFs** Log Third Consecutive Inflow Day; **BlackRock IBIT** Added ~**$209M** on **July 6** (Institutions)
-**Summary:** Per **CryptoBriefing**, **Bitcoin.com**, and **The Crypto Times** on **July 6–7**, US spot Bitcoin ETFs recorded roughly **$265.7 million** in net inflows on **July 6** — a second straight positive session. **BlackRock's IBIT** led with about **$209.4 million**, more than half the day's total. **Grayscale's GBTC** lost roughly **$44.45 million** while **ARKB** and Grayscale's Mini Trust also contributed inflows. Spot Ethereum ETFs added about **$20.66 million** the same day; Bitcoin products attracted roughly **9×** more capital than Ether funds. **SoSoValue** described the phase as a "repair observation window" requiring several weeks of sustained inflows to confirm a weekly flow reversal.
+### 9. **SpaceX** Moves Bitcoin Wallets for First Time in Six Months; On-Chain Data Points to Maintenance (Institutions)
+**Summary:** Per **CoinDesk** on **July 8**, **SpaceX** moved bitcoin across its wallets early Wednesday for the first time in about six months — three transfers totaling less than **$300** worth of **BTC**, all between internal addresses with no flows to exchange deposit addresses. The company still holds **18,712 BTC** (about **$1.16 billion**); its **June 12** record **IPO** disclosed the full position for the first time, more than doubling prior on-chain estimates of roughly **8,285 coins**. **Arkham** analysts said transfers this size typically reflect fee funding, address consolidation, or signing tests rather than sales.
 **Links:**
 
-- [CryptoBriefing — BlackRock's IBIT leads Bitcoin ETF inflows with $209M on July 6](https://cryptobriefing.com/blackrock-ibit-bitcoin-etf-inflows-july-6/)
-- [Bitcoin.com — Bitcoin and Ether ETFs Attract $286 Million as BlackRock Funds Spark Broad Recovery](https://news.bitcoin.com/bitcoin-and-ether-etfs-attract-286-million-as-blackrock-funds-spark-broad-recovery/)
+- [CoinDesk — SpaceX's first bitcoin wallet movements in six months likely don't signal sales (Jul 8, 2026)](https://www.coindesk.com/markets/2026/07/08/spacex-s-first-bitcoin-wallet-movements-in-six-months-likely-don-t-signal-sales)
 
-**Commentary:** **IBIT** is again the flow bellwether, but June's roughly **$4.5 billion** outflow overhang remains — single-day inflows are not yet a structural institutional turn.
+**Commentary:** Public companies face amplified scrutiny of even minor on-chain movements, but absent exchange flows, the "imminent sale" narrative lacks evidence.
 
 ---
 
-### 9. **Strike** Launches "Volatility-Proof" Bitcoin-Backed Loans at Up to ~**14.2%** APR (Institutions)
-**Summary:** Per **Cointelegraph**, **The Block**, and **CryptoBriefing** on **July 7–8**, **Jack Mallers**' payments platform **Strike** rolled out "volatility-proof" bitcoin-collateralized term loans in select US states: regardless of how far **BTC** falls, borrowers face no price-triggered margin calls or liquidations as long as payments stay current. Trade-offs include a maximum initial **LTV** of **45%** (vs. **50%** on standard loans), a **six-month** term cap (vs. **12 months**), and APR roughly **2.95** percentage points above standard products (**~10.7%–14.2%** overall). After a **10-day** grace period on missed payments, partial collateral liquidation may still occur. The product is backed by a roughly **$2.1 billion** credit facility involving **Tether**, targeting pain from **Strike**'s May **2025** loan book after **BTC** fell about **54%** from peak to trough.
+### 10. **Strike** Launches "Volatility-Proof" Bitcoin-Backed Loans at Up to ~**14.2%** APR (Institutions)
+**Summary:** Per **Cointelegraph** on **July 8**, **Jack Mallers**' payments platform **Strike** rolled out "volatility-proof" bitcoin-collateralized term loans in select US states: regardless of how far **BTC** falls, borrowers face no price-triggered margin calls or liquidations as long as payments stay current. Trade-offs include a maximum initial **LTV** of **45%** (vs. **50%** on standard loans), a **six-month** term cap (vs. **12 months**), and APR roughly **2.95** percentage points above standard products (**~10.7%–14.2%** overall). After a **10-day** grace period on missed payments, partial collateral liquidation may still occur. The product targets pain from **Strike**'s May **2025** loan book after **BTC** fell about **54%** from peak to trough.
 **Links:**
 
 - [Cointelegraph — Strike launches 'volatility-proof' Bitcoin loans amid bear market (Jul 8, 2026)](https://cointelegraph.com/news/strike-launches-volatility-proof-bitcoin-loans-amid-bear-market-but-at-what-cost)
-- [The Block — Jack Mallers' Strike launches 'volatility-proof' bitcoin loans (Jul 7, 2026)](https://www.theblock.co/post/407511/jack-maller-strike-launches-volatility-proof-bitcoin-loans-protect-against-liquidation)
 
-**Commentary:** Paying a premium to immunize loans against price moves reflects bear-market borrowing demand; if adoption grows, it may reduce forced selling by corporates and HNW holders — but payment discipline remains the ultimate liquidation trigger.
+**Commentary:** Paying a premium to immunize loans against price moves reflects bear-market borrowing demand — payment discipline remains the ultimate liquidation trigger.
 
 ---
 
-## IV. DeFi & Protocols
+## V. Security & Enforcement
 
-### 10. **Vitalik** Says Ethereum's **L2** "Rollup-Centric" Roadmap No Longer Fits **2026**, Calls for Ecosystem Repositioning (DeFi)
-**Summary:** Per **Yahoo Finance**, **CryptoSlate**, and **Traders News** on **July 8**, Ethereum co-founder **Vitalik Buterin** posted on **X** and **Ethereum Research** that the **2020** "rollup-centric" scaling vision "no longer makes sense" in **2026**: **L2** decentralization and interoperability progressed far slower than expected, while **L1** scaling exceeded forecasts and mainnet gas fees are already low. He proposed treating **L2s** as a "full spectrum" of networks with varying trust and security rather than privileged "official shards"; **L2s** handling **ETH** or Ethereum-issued assets should meet at least **Stage 1** security and develop distinct value propositions. The same day he called for **L2** gas-pricing reform and cross-chain wallet standards to reduce fragmentation that makes users feel they are hopping between separate chains.
+### 11. **CFTC** Sues North Carolina Pool Operator Over Alleged **$14M** Crypto and Futures Fraud (Enforcement)
+**Summary:** Per **Cointelegraph** and **Crypto.news** on **July 7–8**, the Commodity Futures Trading Commission filed a civil complaint in the Western District of North Carolina against **Trevor L. Vernon** and **Argent Capital Management**, alleging they solicited about **$14.8 million** from at least **60 investors** between **March 2022** and **February 2026** for a commodity pool trading Bitcoin, Ether, equity index futures, and options. The agency says trading losses exceeded **$8.6 million** while investors received fabricated performance reports, with new investor funds used to pay earlier participants in a Ponzi-like manner. Defendants are also charged with failing to register under the Commodity Exchange Act and making false statements during the investigation; the **CFTC** seeks restitution, disgorgement, civil penalties, and permanent trading bans.
 **Links:**
 
-- [Traders News — Vitalik Buterin pushes for reform of Ethereum L2 fees as wallet fragmentation increases (Jul 8, 2026)](https://tradernews.org/2026/07/08/vitalik-buterin-pushes-for-reform-of-ethereum-l2-fees-as-wallet-fragmentation-increases/)
-- [Yahoo Finance — Vitalik Buterin Says Ethereum's L2 Model 'No Longer Makes Sense' (2026)](https://finance.yahoo.com/news/vitalik-buterin-says-ethereum-l2-084051165.html)
+- [Cointelegraph — CFTC charges commodity, crypto pool operator with $14M fraud (Jul 8, 2026)](https://cointelegraph.com/news/cftc-charges-commodity-crypto-pool-operator-with-14m-fraud)
+- [CFTC — Complaint: Trevor Vernon, et al. (Jul 7, 2026)](https://www.cftc.gov/media/14301/ENF_VernonComplaint070726/download)
 
-**Commentary:** Ethereum's core layer is pivoting from an **L2** quantity race toward **L1** capability plus **L2** differentiation and wallet interoperability — smaller **L2s** may face further liquidity and narrative pressure.
+**Commentary:** Even as regulators pivot toward rulemaking, enforcement against unregistered pools and fabricated performance reports has not eased — retail fundraising with mixed crypto exposure remains a high-risk zone.
 
 ---
 
 ## Today's Summary
 
-- **Regulatory dual track accelerates:** The **SEC** targets a **July** "**Regulation Crypto**" proposal while the **CLARITY Act** stalls in recess; one week after **MiCA** enforcement, **USDT** European liquidity keeps migrating to **USDC**.
-- **Markets search for a floor:** Bitcoin consolidates near **$63K** ahead of **FOMC** minutes; over **50%** of supply at a loss and ~**$2.9B** in seven-day buy-side flow coexist with ongoing **ETF** overhang.
-- **Ethereum leverage standoff:** Price near **$1,750** with ~**$728M** long liquidation risk below **$1,709**; futures wipeouts and whale accumulation run in parallel.
-- **Institutions diverge:** **Strategy**'s sale is framed by **Grayscale** as tail-risk reduction; spot **ETFs** see consecutive inflows but have not reversed June outflows; **Strike** answers bear-market liquidation pain with high-rate products.
-- **Protocol pivot:** **Vitalik** publicly questions the **L2** rollup-centric roadmap and pushes fee and wallet-standard reform, raising internal integration pressure on the Ethereum ecosystem.
+- **Regulation and enforcement advance in parallel:** **ESMA** launches its first post-**MiCA** custody review; **SEC**'s "**Regulation Crypto**" awaits **OIRA** clearance; the **GENIUS Act** rulemaking deadline hits **July 18**; India's **RBI** maintains a prohibition-leaning stance.
+- **Geopolitics reprices risk:** Trump's declaration that the US-Iran ceasefire is "over" lifted oil and pushed Bitcoin below **$63K**, with roughly **$450M** in altcoin liquidations as risk appetite faded.
+- **Institutional signals diverge:** Spot Bitcoin ETFs logged three consecutive inflow days totaling about **$510M**, offsetting geopolitical selling; **SpaceX**'s small on-chain transfers look like maintenance, not sales.
+- **L2 milestone:** **Robinhood Chain** crossed **$100M TVL** and **$500M** daily **DEX** volume in its first week — validating brokerage-built chain infrastructure.
+- **Products and enforcement:** **Strike** offers high-rate "volatility-proof" loans amid bear-market liquidation pain; the **CFTC** pursues a **$14M** mixed crypto commodity-pool fraud case.
 
-**Daily Framing:** Today is a **regulatory agenda day**, a **macro-minutes watch day**, and a **cycle-bottom debate day** — the **SEC** and **CLARITY** outline US compliance prospects, markets test a floor between **Strategy** selling and **ETF** inflows, and **Vitalik** hits reset on Ethereum's **L2** era.
+**Daily Framing:** Today is a **geopolitical risk repricing day** and a **transatlantic regulatory enforcement day** — Middle East escalation interrupted crypto's short rebound while **ESMA** and the **SEC** push formal frameworks forward, and **ETF** inflows suggest institutional buyers are still positioning through the noise.
 
 ---
 
