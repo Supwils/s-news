@@ -8,6 +8,12 @@ cd "$PROJECT_ROOT"
 # 让 launchd/cron 能找到 pnpm 和 agent（nvm + Cursor CLI）
 export PATH="$HOME/.nvm/versions/node/v22.17.0/bin:$HOME/.local/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
 
+# The launchd plist sets no environment, so SITE_URL was never present and the
+# post-deploy cache warmup silently skipped every day. Default to production;
+# an explicit SITE_URL in the environment still wins.
+: "${SITE_URL:=https://news.supwil.com}"
+export SITE_URL
+
 LOG_TS() { date '+%Y-%m-%d %H:%M:%S'; }
 log_info() { echo "[$(LOG_TS)] [INFO] $*"; }
 log_warn() { echo "[$(LOG_TS)] [WARN] $*"; }
@@ -106,6 +112,23 @@ if [[ "$COMMITTED" == "1" && -n "$WARM_TARGET" ]]; then
   fi
 else
   log_warn "Step skipped: warm_cache reason=$([[ "$COMMITTED" == "1" ]] && echo no_SITE_URL || echo no_changes)"
+fi
+
+# Housekeeping: quarantined digests are kept for inspection, not forever.
+LAST_STEP="housekeeping"
+find "$PROJECT_ROOT/.quarantine" -mindepth 1 -maxdepth 1 -type d -mtime +14 -exec rm -rf {} + 2>/dev/null || true
+
+# Weekly link-health refresh (Mondays, after publish): ~17k HEAD requests, so it
+# never runs in the build; best-effort, and the resulting commit rides the next
+# day's push if LINK_CHECK_PUSH is off.
+if [[ "$(date +%u)" == "1" ]]; then
+  LAST_STEP="link_check"
+  log_info "Step start: link_check (weekly)"
+  if LINK_CHECK_PUSH=1 bash "$SCRIPT_DIR/run-check-links.sh"; then
+    log_info "Step success: link_check"
+  else
+    log_warn "Step warn: link_check failed (non-fatal)"
+  fi
 fi
 
 JOB_DURATION=$(( $(date +%s) - JOB_STARTED_AT_EPOCH ))

@@ -44,12 +44,12 @@ WARM_CONCURRENCY="${WARM_CONCURRENCY:-6}"
 
 # Every path worth warming, one per line. Empty if the index is missing or
 # unreadable — the home pages are still warmed in that case.
-HOT_PATHS="$(node -e '
-  const fs = require("fs");
+HOT_PATHS="$(node --input-type=module -e '
+  import { readFileSync } from "node:fs";
   const [indexFile, warmDays] = process.argv.slice(1);
   const out = [];
   try {
-    const idx = JSON.parse(fs.readFileSync(indexFile, "utf8"));
+    const idx = JSON.parse(readFileSync(indexFile, "utf8"));
     const entries = Array.isArray(idx.entries) ? idx.entries : [];
     if (entries.length) {
       const days = [...new Set(entries.map((e) => e.date))].sort().reverse().slice(0, Number(warmDays) || 1);
@@ -60,6 +60,11 @@ HOT_PATHS="$(node -e '
         out.push("/news/" + topic);
       }
       out.push("/archive/" + days[0].slice(0, 7));
+      // Nav entry pages added 2026-07: weekly rollups and cross-topic events.
+      out.push("/weekly");
+      out.push("/events");
+      const { isoWeekId } = await import("./lib/iso-week.mjs");
+      out.push("/weekly/" + isoWeekId(days[0]));
     }
   } catch (_) { /* best-effort: emit nothing */ }
   for (const p of out) {
