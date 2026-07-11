@@ -74,16 +74,18 @@ log_info "Step success: build"
 
 LAST_STEP="git_commit_push"
 COMMITTED=0
-if [[ -n $(git status -s) ]]; then
+# `git add -A NEWS/` stages additions, modifications and deletions under NEWS/
+# and nothing else. The old `git add NEWS/ && git add -u` swept every unrelated
+# working-tree change into the "adding daily news" commit.
+if [[ -n $(git status -s -- NEWS/) ]]; then
   log_info "Step start: git_commit_push changes_detected=true"
-  git add NEWS/
-  git add -u
+  git add -A NEWS/
   git commit -m "feat(content): adding daily news"
   git push
   COMMITTED=1
   log_info "Step success: git_commit_push result=committed_and_pushed"
 else
-  log_warn "Step skipped: git_commit_push reason=no_changes"
+  log_warn "Step skipped: git_commit_push reason=no_changes_under_NEWS"
 fi
 
 # Warm the edge cache for the hot set (home pages + newest day's articles) once
@@ -108,4 +110,20 @@ fi
 
 JOB_DURATION=$(( $(date +%s) - JOB_STARTED_AT_EPOCH ))
 log_info "Daily job finished status=success duration_sec=${JOB_DURATION}"
-notify_success "${JOB_DURATION}" "Pushed to origin/main."
+# A partially successful run still publishes. Say so, loudly, rather than
+# reporting an unqualified success — the failed topics were quarantined out of
+# NEWS/ and produced no content today.
+RUN_SUMMARY="Pushed to origin/main."
+if [[ -f "$PROJECT_ROOT/.generated/daily-run.json" ]]; then
+  FAILED_TOPICS="$(node -e '
+    try {
+      const run = require(process.argv[1]);
+      process.stdout.write((run.failed ?? []).join(", "));
+    } catch { /* no manifest: nothing to report */ }
+  ' "$PROJECT_ROOT/.generated/daily-run.json" 2>/dev/null || true)"
+  if [[ -n "$FAILED_TOPICS" ]]; then
+    RUN_SUMMARY="Pushed to origin/main. QUARANTINED topics (no content today): ${FAILED_TOPICS}"
+    log_warn "Partial run: quarantined topics=${FAILED_TOPICS}"
+  fi
+fi
+notify_success "${JOB_DURATION}" "${RUN_SUMMARY}"

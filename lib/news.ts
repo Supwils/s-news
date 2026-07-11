@@ -2,17 +2,22 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 
-import { getCopy, type Locale } from "@/data/copy";
-import {
-  countArticles,
-  countSections,
-  extractDescription,
-  extractHighlights,
-  extractTakeaway,
-  extractTitle,
-  getReadingMinutes,
-} from "@/lib/markdown-extract.mjs";
-import { getTopicMeta, TOPICS, type TopicKey, type TopicMeta } from "@/lib/news-meta";
+import { type Locale } from "@/data/copy";
+import { getTopicMeta, TOPICS, type TopicKey } from "@/lib/news-meta";
+
+/**
+ * Everything here answers from `.generated/news-index*.json` and never opens a
+ * markdown file. That is deliberate: `lib/news-content.ts` owns the only code
+ * that joins a dynamic path under `NEWS/`, and Turbopack traces that dynamic
+ * join by pulling all 1770 digests into the bundle of every route that can
+ * reach it. Keeping the reader in a separate module means only the three routes
+ * that actually render an article body pay for the corpus.
+ *
+ * Consequence: the index must exist. It is built by `predev`, `prebuild`, and
+ * `prestart`, and `build-news-index.mjs` refuses to write an empty one — so a
+ * missing index is a broken setup, and failing loudly beats silently falling
+ * back to a filesystem scan.
+ */
 
 export type NewsEntry = {
   topic: TopicKey;
@@ -33,7 +38,17 @@ export type NewsPreview = Omit<NewsEntry, "content" | "filePath"> & {
   searchText: string;
 };
 
-type IndexedNewsPreview = NewsPreview & {
+/**
+ * What a card actually renders. `searchText` is a derived blob only the search
+ * surfaces use; list pages must never serialize it into their RSC payload.
+ */
+export type NewsCardEntry = Omit<NewsPreview, "searchText">;
+
+export function toCardEntry({ searchText: _searchText, ...entry }: NewsPreview): NewsCardEntry {
+  return entry;
+}
+
+export type IndexedNewsPreview = NewsPreview & {
   relativePath: string;
   archiveMonth: string;
 };
@@ -45,21 +60,12 @@ type NewsIndex = {
 };
 
 const TOPIC_ORDER = TOPICS.map((topic) => topic.key);
-const NEWS_ROOT = path.join(process.cwd(), "NEWS");
 const NEWS_INDEX_PATHS: Record<Locale, string> = {
   zh: path.join(process.cwd(), ".generated", "news-index.json"),
   en: path.join(process.cwd(), ".generated", "news-index-en.json"),
 };
 
 const indexCache: Partial<Record<Locale, { mtimeMs: number; data: NewsIndex }>> = {};
-
-async function readDirectorySafe(directory: string) {
-  try {
-    return await fs.readdir(directory);
-  } catch {
-    return [];
-  }
-}
 
 function sortEntries<T extends { date: string; topic: TopicKey }>(entries: T[]) {
   return [...entries].sort((left, right) => {
@@ -71,31 +77,6 @@ function sortEntries<T extends { date: string; topic: TopicKey }>(entries: T[]) 
   });
 }
 
-type NewsFallbacks = { untitled: string; noDescription: string };
-
-function getRelativeNewsPath(topic: TopicMeta, locale: Locale, fileName: string) {
-  return path.posix.join("NEWS", topic.folder, locale, fileName);
-}
-
-function resolveRelativeNewsPath(relativePath: string) {
-  // `relativePath` is always rooted at the NEWS directory (see getRelativeNewsPath),
-  // e.g. "NEWS/general/zh/2026-07-06_….md". Resolve it under the NEWS_ROOT constant
-  // instead of process.cwd() so Turbopack scopes its static file-trace glob to
-  // NEWS/** rather than the entire project root (which would pull node_modules, .git,
-  // .next, etc. into the serverless bundle — the "overly broad pattern" warning).
-  const segments = relativePath.split("/");
-  const withinNews = segments[0] === "NEWS" ? segments.slice(1) : segments;
-  return path.join(NEWS_ROOT, ...withinNews);
-}
-
-function toIndexedPreview(entry: NewsEntry, topic: TopicMeta, locale: Locale): IndexedNewsPreview {
-  return {
-    ...toNewsPreview(entry),
-    relativePath: getRelativeNewsPath(topic, locale, entry.fileName),
-    archiveMonth: entry.date.slice(0, 7),
-  };
-}
-
 function fromIndexedPreview(entry: IndexedNewsPreview): NewsPreview {
   const { relativePath: _relativePath, archiveMonth: _archiveMonth, ...preview } = entry;
   return preview;
@@ -105,7 +86,7 @@ function fromIndexedPreview(entry: IndexedNewsPreview): NewsPreview {
 // React.cache dedupes calls within a single render; the mtime-keyed Map
 // survives across renders inside the same Node process and avoids re-reading
 // the index file when it hasn't changed.
-const loadNewsIndex = cache(async (locale: Locale = "zh"): Promise<NewsIndex | null> => {
+const loadNewsIndex = cache(async (locale: Locale = "zh"): Promise<NewsIndex> => {
   const indexPath = NEWS_INDEX_PATHS[locale];
   try {
     const stat = await fs.stat(indexPath);
@@ -122,88 +103,24 @@ const loadNewsIndex = cache(async (locale: Locale = "zh"): Promise<NewsIndex | n
     };
     indexCache[locale] = { mtimeMs: stat.mtimeMs, data };
     return data;
-  } catch {
+  } catch (cause) {
     indexCache[locale] = undefined;
-    return null;
+    throw new Error(
+      `Missing or unreadable news index at ${indexPath}. Run \`pnpm build:news-index\` (predev/prebuild do this for you).`,
+      { cause },
+    );
   }
 });
 
-async function readTopicEntries(topic: TopicMeta, fallbacks: NewsFallbacks, locale: Locale = "zh") {
-  const directory = path.join(NEWS_ROOT, topic.folder, locale);
-  const files = (await readDirectorySafe(directory)).filter((file) => file.endsWith(".md"));
-
-  const entries = await Promise.all(
-    files.map(async (fileName) => {
-      const filePath = path.join(directory, fileName);
-      const content = await fs.readFile(filePath, "utf8");
-      const date = fileName.slice(0, 10);
-
-      const entry: NewsEntry = {
-        topic: topic.key,
-        date,
-        fileName,
-        filePath,
-        content,
-        title: extractTitle(content, fallbacks.untitled),
-        description: extractDescription(content, fallbacks.noDescription),
-        articleCount: countArticles(content),
-        sectionCount: countSections(content),
-        readingMinutes: getReadingMinutes(content),
-        highlights: extractHighlights(content, locale),
-        takeaway: extractTakeaway(content, locale),
-      };
-
-      return entry;
-    }),
-  );
-
-  return sortEntries(entries);
-}
-
-async function readEntryFromTopicByDate(topic: TopicMeta, date: string, fallbacks: NewsFallbacks, locale: Locale = "zh") {
-  const directory = path.join(NEWS_ROOT, topic.folder, locale);
-  const files = await readDirectorySafe(directory);
-  const fileName = files.find((file) => file.startsWith(`${date}_`) && file.endsWith(".md"));
-
-  if (!fileName) {
-    return null;
-  }
-
-  const filePath = path.join(directory, fileName);
-  const content = await fs.readFile(filePath, "utf8");
-
-  return {
-    topic: topic.key,
-    date,
-    fileName,
-    filePath,
-    content,
-    title: extractTitle(content, fallbacks.untitled),
-    description: extractDescription(content, fallbacks.noDescription),
-    articleCount: countArticles(content),
-    sectionCount: countSections(content),
-    readingMinutes: getReadingMinutes(content),
-    highlights: extractHighlights(content, locale),
-    takeaway: extractTakeaway(content, locale),
-  } satisfies NewsEntry;
-}
-
-export async function getAllNewsEntries(locale: Locale = "zh") {
-  const fallbacks = getCopy(locale).news;
-  const nested = await Promise.all(
-    TOPICS.map((topic) => readTopicEntries(getTopicMeta(topic.key, locale)!, fallbacks, locale)),
-  );
-  return sortEntries(nested.flat());
+/** The raw indexed entry, including the fields the previews drop. */
+export async function findIndexedEntry(topic: TopicKey, date: string, locale: Locale = "zh") {
+  const index = await loadNewsIndex(locale);
+  return index.entries.find((entry) => entry.topic === topic && entry.date === date) ?? null;
 }
 
 export async function getAllNewsPreviews(locale: Locale = "zh") {
   const index = await loadNewsIndex(locale);
-  if (index) {
-    return index.entries.map(fromIndexedPreview);
-  }
-
-  const entries = await getAllNewsEntries(locale);
-  return entries.map(toNewsPreview);
+  return index.entries.map(fromIndexedPreview);
 }
 
 export type HomePreviews = {
@@ -250,76 +167,25 @@ export async function getHomePreviews(locale: Locale = "zh"): Promise<HomePrevie
   return { entries, topicCounts, totalCount };
 }
 
-export async function getEntriesByTopic(topic: TopicKey, locale: Locale = "zh") {
-  const meta = getTopicMeta(topic, locale);
-  if (!meta) {
-    return [];
-  }
-
-  const fallbacks = getCopy(locale).news;
-  return readTopicEntries(meta, fallbacks, locale);
-}
-
 export async function getEntryPreviewsByTopic(topic: TopicKey, locale: Locale = "zh") {
   const index = await loadNewsIndex(locale);
-  if (index) {
-    return index.entries
-      .filter((entry) => entry.topic === topic)
-      .map(fromIndexedPreview);
-  }
-
-  const entries = await getEntriesByTopic(topic, locale);
-  return entries.map(toNewsPreview);
+  return index.entries.filter((entry) => entry.topic === topic).map(fromIndexedPreview);
 }
 
 export async function getEntryPreviewsByMonth(month: string, locale: Locale = "zh") {
   const index = await loadNewsIndex(locale);
-  if (index) {
-    return index.entries
-      .filter((entry) => entry.archiveMonth === month)
-      .map(fromIndexedPreview);
-  }
-
-  const entries = await getAllNewsEntries(locale);
-  return entries
-    .filter((entry) => entry.date.startsWith(`${month}-`))
-    .map(toNewsPreview);
+  return index.entries.filter((entry) => entry.archiveMonth === month).map(fromIndexedPreview);
 }
 
 export async function getArchiveMonths(locale: Locale = "zh") {
   const index = await loadNewsIndex(locale);
-  if (index) {
-    return [...new Set(index.entries.map((entry) => entry.archiveMonth))].sort((left, right) => right.localeCompare(left));
-  }
-
-  const entries = await getAllNewsPreviews(locale);
-  return [...new Set(entries.map((entry) => entry.date.slice(0, 7)))].sort((left, right) => right.localeCompare(left));
+  return [...new Set(index.entries.map((entry) => entry.archiveMonth))].sort((left, right) =>
+    right.localeCompare(left),
+  );
 }
 
-export async function getNewsEntry(topic: TopicKey, date: string, locale: Locale = "zh") {
-  const meta = getTopicMeta(topic, locale);
-  if (!meta) {
-    return null;
-  }
-
-  const index = await loadNewsIndex(locale);
-  const indexedEntry = index?.entries.find((entry) => entry.topic === topic && entry.date === date);
-  if (indexedEntry) {
-    const filePath = resolveRelativeNewsPath(indexedEntry.relativePath);
-    const content = await fs.readFile(filePath, "utf8");
-    return {
-      ...fromIndexedPreview(indexedEntry),
-      filePath,
-      content,
-    } satisfies NewsEntry;
-  }
-
-  const fallbacks = getCopy(locale).news;
-  return readEntryFromTopicByDate(meta, date, fallbacks, locale);
-}
-
-export async function getAllNewsParams() {
-  const previews = await getAllNewsPreviews();
+export async function getAllNewsParams(locale: Locale = "zh") {
+  const previews = await getAllNewsPreviews(locale);
   return previews.map((entry) => ({
     topic: entry.topic,
     date: entry.date,
@@ -328,18 +194,11 @@ export async function getAllNewsParams() {
 
 export async function getTopicsWithNewsForDate(date: string, locale: Locale = "zh"): Promise<TopicKey[]> {
   const index = await loadNewsIndex(locale);
-  if (index) {
-    return sortEntries(
-      index.entries
-        .filter((entry) => entry.date === date)
-        .map((entry) => ({ topic: entry.topic, date: entry.date })),
-    ).map((entry) => entry.topic);
-  }
-
-  const results = await Promise.all(
-    TOPICS.map(async (t) => ({ key: t.key, has: !!(await getNewsEntry(t.key, date, locale)) })),
-  );
-  return results.filter((r) => r.has).map((r) => r.key);
+  return sortEntries(
+    index.entries
+      .filter((entry) => entry.date === date)
+      .map((entry) => ({ topic: entry.topic, date: entry.date })),
+  ).map((entry) => entry.topic);
 }
 
 export function groupEntriesByDate(entries: NewsEntry[]) {
@@ -382,19 +241,6 @@ export function toNewsPreview(entry: NewsEntry): NewsPreview {
       .join(" ")
       .toLowerCase(),
   };
-}
-
-export async function getIndexedNewsPreviewsForBuild(locale: Locale = "zh") {
-  const fallbacks = getCopy(locale).news;
-  const nested = await Promise.all(
-    TOPICS.map(async (topicDef) => {
-      const topic = getTopicMeta(topicDef.key, locale)!;
-      const entries = await readTopicEntries(topic, fallbacks, locale);
-      return entries.map((entry) => toIndexedPreview(entry, topic, locale));
-    }),
-  );
-
-  return sortEntries(nested.flat());
 }
 
 export function groupPreviewsByDate(entries: NewsPreview[]) {

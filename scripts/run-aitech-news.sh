@@ -27,6 +27,12 @@ echo "项目目录: $PROJECT_ROOT"
 echo "执行 command: $COMMAND_FILE"
 echo "---"
 bash "$SCRIPT_DIR/news-agent.sh" "${COMMAND_FILE}" "${INSTRUCTION}"
+
+# Verify what the agent actually wrote. cursor-agent exits 0 having written
+# nothing when a search fails or the context is truncated, and a digest that
+# drifts from the template would fail `pnpm build` in the daily job — costing
+# every other topic its publication. A bad digest is quarantined out of NEWS/.
+bash "$SCRIPT_DIR/assert-digest.sh" "ai-tech" "AI与科技新闻日报" "ai-tech-digest" "$TODAY"
 if [[ "${SKIP_NEWS_INDEX_REFRESH:-0}" != "1" ]]; then
   bash "$SCRIPT_DIR/refresh-news-index.sh"
 fi

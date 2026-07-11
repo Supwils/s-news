@@ -17,7 +17,15 @@ import { localizePath } from "@/lib/locale-routing";
 import { formatDisplayDate } from "@/lib/news-client";
 import { TOPICS, getTopicMeta, isTopicKey, type TopicKey } from "@/lib/news-meta";
 import {
+  isTimeRange,
+  TIME_RANGES,
+  timeRangeFilters,
+  timeRangeLabel,
+  type TimeRange,
+} from "@/lib/search-time-range";
+import {
   loadPagefind,
+  type PagefindFilters,
   type PagefindResultData,
   type PagefindRuntime,
   type Locale,
@@ -27,6 +35,7 @@ type SearchPageProps = {
   initialQuery: string;
   initialTopics: TopicKey[];
   initialLocaleScope: "current" | "all";
+  initialTimeRange: TimeRange;
 };
 
 type Row = {
@@ -64,6 +73,7 @@ export function SearchPage({
   initialQuery,
   initialTopics,
   initialLocaleScope,
+  initialTimeRange,
 }: SearchPageProps) {
   const locale = useLocale();
   const router = useRouter();
@@ -72,6 +82,7 @@ export function SearchPage({
   const [query, setQuery] = useState(initialQuery);
   const [selectedTopics, setSelectedTopics] = useState<TopicKey[]>(initialTopics);
   const [scope, setScope] = useState<"current" | "all">(initialLocaleScope);
+  const [timeRange, setTimeRange] = useState<TimeRange>(initialTimeRange);
   const [activeIndex, setActiveIndex] = useState(0);
   const [rows, setRows] = useState<Row[]>([]);
   const [loading, setLoading] = useState(false);
@@ -79,6 +90,7 @@ export function SearchPage({
   const [runtimeChecked, setRuntimeChecked] = useState(false);
   const [totalResults, setTotalResults] = useState<number | null>(null);
   const [pageSize, setPageSize] = useState(PAGE_SIZE_INITIAL);
+  const [loadingMore, setLoadingMore] = useState(false);
   const pendingResults = useRef<Array<{ data: () => Promise<PagefindResultData> }>>([]);
   const queryToken = useRef(0);
   // Marks the moment of the user's last keystroke in the input. The URL→state
@@ -102,11 +114,12 @@ export function SearchPage({
 
   // Sync filter state ⇄ URL.
   const syncUrl = useCallback(
-    (nextQuery: string, nextTopics: TopicKey[], nextScope: "current" | "all") => {
+    (nextQuery: string, nextTopics: TopicKey[], nextScope: "current" | "all", nextRange: TimeRange) => {
       const params = new URLSearchParams();
       if (nextQuery.trim()) params.set("q", nextQuery.trim());
       for (const t of nextTopics) params.append("topic", t);
       if (nextScope === "all") params.set("scope", "all");
+      if (nextRange !== "all") params.set("range", nextRange);
       const base = localizePath("/search", locale);
       const qs = params.toString();
       router.replace(qs ? `${base}?${qs}` : base, { scroll: false });
@@ -119,10 +132,10 @@ export function SearchPage({
     const timer = setTimeout(() => {
       const params = new URLSearchParams(window.location.search);
       if ((params.get("q") ?? "") === query.trim()) return; // no-op
-      syncUrl(query, selectedTopics, scope);
+      syncUrl(query, selectedTopics, scope, timeRange);
     }, 400);
     return () => clearTimeout(timer);
-  }, [query, selectedTopics, scope, syncUrl]);
+  }, [query, selectedTopics, scope, timeRange, syncUrl]);
 
   // Run query whenever inputs change.
   useEffect(() => {
@@ -145,9 +158,11 @@ export function SearchPage({
 
     const timer = setTimeout(async () => {
       try {
-        const filters: Record<string, string[]> = {};
-        if (selectedTopics.length > 0) filters.topic = selectedTopics;
-        if (scope === "current") filters.locale = [locale];
+        // `{any: [...]}`, never a bare array: Pagefind ANDs array values, so
+        // ticking two topic checkboxes used to return zero results.
+        const filters: PagefindFilters = { ...timeRangeFilters(timeRange) };
+        if (selectedTopics.length > 0) filters.topic = { any: selectedTopics };
+        if (scope === "current") filters.locale = { any: [locale] };
 
         const response = await runtime.search(normalized, { filters });
         if (token !== queryToken.current) return;
@@ -174,19 +189,26 @@ export function SearchPage({
     }, 100);
 
     return () => clearTimeout(timer);
-  }, [query, selectedTopics, scope, runtime, runtimeChecked, locale]);
+  }, [query, selectedTopics, scope, timeRange, runtime, runtimeChecked, locale]);
 
   const handleLoadMore = useCallback(async () => {
     const total = pendingResults.current.length;
-    if (pageSize >= total) return;
+    // `pageSize` only advances after the awaited `r.data()` calls resolve, so a
+    // second click before then would slice — and append — the same page twice.
+    if (loadingMore || pageSize >= total) return;
     const nextSize = Math.min(pageSize + PAGE_SIZE_STEP, total);
     const slice = pendingResults.current.slice(pageSize, nextSize);
     const token = queryToken.current;
-    const data = await Promise.all(slice.map((r) => r.data()));
-    if (token !== queryToken.current) return;
-    setRows((prev) => [...prev, ...data.map((d) => dataToRow(d, locale))]);
-    setPageSize(nextSize);
-  }, [pageSize, locale]);
+    setLoadingMore(true);
+    try {
+      const data = await Promise.all(slice.map((r) => r.data()));
+      if (token !== queryToken.current) return;
+      setRows((prev) => [...prev, ...data.map((d) => dataToRow(d, locale))]);
+      setPageSize(nextSize);
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [loadingMore, pageSize, locale]);
 
   // Re-derive scope/topics if URL changes externally (back/forward). Skip if
   // the user just typed — they own the source of truth for USER_EDIT_WINDOW_MS.
@@ -195,6 +217,8 @@ export function SearchPage({
     const qParam = searchParams.get("q") ?? "";
     const topicParams = searchParams.getAll("topic").filter(isTopicKey) as TopicKey[];
     const scopeParam: "current" | "all" = searchParams.get("scope") === "all" ? "all" : "current";
+    const rangeParam = searchParams.get("range");
+    const nextRange: TimeRange = isTimeRange(rangeParam) ? rangeParam : "all";
     if (qParam !== query) setQuery(qParam);
     if (
       topicParams.length !== selectedTopics.length ||
@@ -203,6 +227,7 @@ export function SearchPage({
       setSelectedTopics(topicParams);
     }
     if (scopeParam !== scope) setScope(scopeParam);
+    if (nextRange !== timeRange) setTimeRange(nextRange);
     // intentionally only depend on searchParams
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
@@ -219,7 +244,7 @@ export function SearchPage({
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     // Cancel debounce and flush immediately on Enter.
-    syncUrl(query, selectedTopics, scope);
+    syncUrl(query, selectedTopics, scope, timeRange);
   };
 
   const toggleTopic = (key: TopicKey) => {
@@ -227,18 +252,24 @@ export function SearchPage({
       ? selectedTopics.filter((t) => t !== key)
       : [...selectedTopics, key];
     setSelectedTopics(next);
-    syncUrl(query, next, scope);
+    syncUrl(query, next, scope, timeRange);
   };
 
   const setScopeAndSync = (next: "current" | "all") => {
     setScope(next);
-    syncUrl(query, selectedTopics, next);
+    syncUrl(query, selectedTopics, next, timeRange);
+  };
+
+  const setTimeRangeAndSync = (next: TimeRange) => {
+    setTimeRange(next);
+    syncUrl(query, selectedTopics, scope, next);
   };
 
   const clearFilters = () => {
     setSelectedTopics([]);
     setScope("current");
-    syncUrl(query, [], "current");
+    setTimeRange("all");
+    syncUrl(query, [], "current", "all");
   };
 
   const emptyState =
@@ -295,8 +326,24 @@ export function SearchPage({
       <div className="np-search-page-body">
         <aside className="np-search-facets">
           <div className="np-search-facets-head">
+            <span>{locale === "zh" ? "时间" : "Time"}</span>
+          </div>
+          <div className="np-search-page-scope" style={{ marginBottom: 20, flexWrap: "wrap" }}>
+            {TIME_RANGES.map((range) => (
+              <button
+                key={range}
+                type="button"
+                data-active={timeRange === range || undefined}
+                onClick={() => setTimeRangeAndSync(range)}
+              >
+                {timeRangeLabel(range, locale)}
+              </button>
+            ))}
+          </div>
+
+          <div className="np-search-facets-head">
             <span>{locale === "zh" ? "主题" : "Topics"}</span>
-            {selectedTopics.length > 0 ? (
+            {selectedTopics.length > 0 || timeRange !== "all" || scope !== "current" ? (
               <button type="button" onClick={clearFilters} className="np-search-facets-clear">
                 {locale === "zh" ? "清空" : "Clear"}
               </button>
@@ -378,10 +425,15 @@ export function SearchPage({
                     type="button"
                     className="np-search-load-more"
                     onClick={handleLoadMore}
+                    disabled={loadingMore}
                   >
-                    {locale === "zh"
-                      ? `加载更多（剩余 ${totalResults - rows.length} 条）`
-                      : `Load more (${totalResults - rows.length} remaining)`}
+                    {loadingMore
+                      ? locale === "zh"
+                        ? "加载中…"
+                        : "Loading…"
+                      : locale === "zh"
+                        ? `加载更多（剩余 ${totalResults - rows.length} 条）`
+                        : `Load more (${totalResults - rows.length} remaining)`}
                   </button>
                 </div>
               ) : null}

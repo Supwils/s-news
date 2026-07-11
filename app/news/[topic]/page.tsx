@@ -2,10 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { StructuredData } from "@/components/structured-data";
+import { TOPIC_INITIAL_CARDS } from "@/lib/list-windows";
 import { TopicPageContent } from "@/components/topic-page-content";
 import { getCopy } from "@/data/copy";
 import { localizePath } from "@/lib/locale-routing";
-import { getEntryPreviewsByTopic } from "@/lib/news";
+import {
+  getEntryPreviewsByTopic,
+  toCardEntry,
+} from "@/lib/news";
 import { getTopicMeta, isTopicKey, TOPICS } from "@/lib/news-meta";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
 
@@ -108,9 +112,13 @@ export default async function TopicPage({ params }: TopicPageProps) {
   return (
     <>
       <StructuredData data={structuredData} />
-      {/* searchText is only used by full-text search (Pagefind / home modal),
-          never by the cards rendered here — drop it to shrink the payload. */}
-      <TopicPageContent topic={topic} entries={entries.map((e) => ({ ...e, searchText: "" }))} />
+      {/* Only the prerendered window is serialized into this page; the rest of
+          the archive is fetched from /api/news when the reader asks for it. */}
+      <TopicPageContent
+        topic={topic}
+        entries={entries.slice(0, TOPIC_INITIAL_CARDS).map(toCardEntry)}
+        totalEntries={entries.length}
+      />
     </>
   );
 }

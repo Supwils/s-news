@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 
 import { localizePath } from "@/lib/locale-routing";
 import { getAllNewsPreviews } from "@/lib/news";
+import { getAllEventIds } from "@/lib/events";
+import { getAllWeekIds } from "@/lib/rollups";
 import { TOPICS } from "@/lib/news-meta";
 import { absoluteUrl } from "@/lib/site";
 
@@ -11,13 +13,24 @@ export const revalidate = 86400;
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Both calls are deduped by React.cache in lib/news.ts, so this is two
   // index reads total (one per locale) instead of three.
-  const [entriesZh, entriesEn] = await Promise.all([
+  const [entriesZh, entriesEn, weekIdsZh, weekIdsEn, eventIdsZh, eventIdsEn] = await Promise.all([
     getAllNewsPreviews("zh"),
     getAllNewsPreviews("en"),
+    getAllWeekIds("zh"),
+    getAllWeekIds("en"),
+    getAllEventIds("zh"),
+    getAllEventIds("en"),
   ]);
-  const archiveMonths = [
-    ...new Set(entriesZh.map((entry) => entry.date.slice(0, 7))),
-  ].sort((left, right) => right.localeCompare(left));
+  const monthsOf = (entries: typeof entriesZh) =>
+    [...new Set(entries.map((entry) => entry.date.slice(0, 7)))].sort((left, right) =>
+      right.localeCompare(left),
+    );
+
+  const archiveMonths = monthsOf(entriesZh);
+  // Only advertise English archive months that actually hold English digests.
+  // Deriving these from the Chinese index listed contentless `/en/archive/<month>`
+  // shells whose hreflang claimed to be the equivalent of a populated zh archive.
+  const archiveMonthsEn = monthsOf(entriesEn);
 
   const staticPagesZh: MetadataRoute.Sitemap = [
     {
@@ -98,7 +111,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  const archivePagesEn: MetadataRoute.Sitemap = archiveMonths.map((month) => ({
+  const archivePagesEn: MetadataRoute.Sitemap = archiveMonthsEn.map((month) => ({
     url: absoluteUrl(localizePath(`/archive/${month}`, "en")),
     lastModified: new Date(`${month}-01T08:00:00.000Z`),
     changeFrequency: "monthly",
@@ -119,7 +132,61 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
+  const weeklyIndexPages: MetadataRoute.Sitemap = [
+    { url: absoluteUrl("/weekly"), lastModified: new Date(), changeFrequency: "weekly", priority: 0.6 },
+    {
+      url: absoluteUrl(localizePath("/weekly", "en")),
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.5,
+    },
+  ];
+
+  const weeklyPagesZh: MetadataRoute.Sitemap = weekIdsZh.map((weekId) => ({
+    url: absoluteUrl(`/weekly/${weekId}`),
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.5,
+  }));
+
+  const weeklyPagesEn: MetadataRoute.Sitemap = weekIdsEn.map((weekId) => ({
+    url: absoluteUrl(localizePath(`/weekly/${weekId}`, "en")),
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.4,
+  }));
+
+  const eventIndexPages: MetadataRoute.Sitemap = [
+    { url: absoluteUrl("/events"), lastModified: new Date(), changeFrequency: "daily", priority: 0.6 },
+    {
+      url: absoluteUrl(localizePath("/events", "en")),
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.5,
+    },
+  ];
+
+  const eventPagesZh: MetadataRoute.Sitemap = eventIdsZh.map((id) => ({
+    url: absoluteUrl(`/events/${id}`),
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.4,
+  }));
+
+  const eventPagesEn: MetadataRoute.Sitemap = eventIdsEn.map((id) => ({
+    url: absoluteUrl(localizePath(`/events/${id}`, "en")),
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.3,
+  }));
+
   return [
+    ...weeklyIndexPages,
+    ...weeklyPagesZh,
+    ...weeklyPagesEn,
+    ...eventIndexPages,
+    ...eventPagesZh,
+    ...eventPagesEn,
     ...staticPagesZh,
     ...staticPagesEn,
     ...topicPagesZh,

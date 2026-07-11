@@ -2,18 +2,28 @@ import { revalidatePath } from "next/cache";
 import { NextResponse } from "next/server";
 
 /**
- * Token-protected on-demand revalidation.
+ * Token-protected on-demand revalidation. POST only — it mutates cache state,
+ * so it must not be reachable by a prefetch or an <img> tag.
  *
  * Usage:
- *   curl -X POST "$SITE_URL/api/revalidate?path=/&token=$REVALIDATE_TOKEN"
+ *   # whole route tree, both locales
+ *   curl -X POST "$SITE_URL/api/revalidate?token=$REVALIDATE_TOKEN"
+ *   # one or more specific paths
+ *   curl -X POST "$SITE_URL/api/revalidate?path=/news/finance&token=$REVALIDATE_TOKEN"
  *
- * Designed to be called by daily-news-and-commit.sh after pushing fresh
- * markdown to git, so the deployed site picks up new content without
- * a full redeploy.
+ * The daily job (scripts/daily-news-and-commit.sh) pushes to git and lets Vercel
+ * redeploy, so it does not call this. This endpoint exists for the case where
+ * content lands without a deploy.
  */
 export const dynamic = "force-dynamic";
 
-const DEFAULT_PATHS = ["/", "/en", "/about", "/en/about"];
+/**
+ * Fresh markdown changes far more than the home page: the topic pages, the
+ * month archives, every detail page, and the sitemap are all `force-static`.
+ * Revalidating the root as a layout invalidates the whole route tree in one
+ * call, which is what "picks up new content without a full redeploy" requires.
+ */
+const DEFAULT_LAYOUT_PATHS = ["/", "/en"];
 
 function isAuthorized(provided: string | null) {
   const expected = process.env.REVALIDATE_TOKEN;
@@ -37,15 +47,17 @@ export async function POST(request: Request) {
   }
 
   const explicitPaths = url.searchParams.getAll("path");
-  const paths = explicitPaths.length > 0 ? explicitPaths : DEFAULT_PATHS;
 
-  for (const target of paths) {
-    revalidatePath(target);
+  if (explicitPaths.length > 0) {
+    for (const target of explicitPaths) {
+      revalidatePath(target);
+    }
+    return NextResponse.json({ ok: true, revalidated: explicitPaths, at: Date.now() });
   }
 
-  return NextResponse.json({ ok: true, revalidated: paths, at: Date.now() });
-}
+  for (const target of DEFAULT_LAYOUT_PATHS) {
+    revalidatePath(target, "layout");
+  }
 
-export async function GET(request: Request) {
-  return POST(request);
+  return NextResponse.json({ ok: true, revalidated: DEFAULT_LAYOUT_PATHS, scope: "layout", at: Date.now() });
 }

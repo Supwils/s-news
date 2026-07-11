@@ -1,43 +1,61 @@
 #!/usr/bin/env node
 
-import { readFile, readdir } from "node:fs/promises";
+import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
+import { FRAMING_MARKER, SUMMARY_HEADING } from "../lib/markdown-extract.mjs";
+import { LOCALES, TOPIC_FOLDERS } from "./news-topics.mjs";
+
+const SCRIPT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PROJECT_ROOT = process.cwd();
 const NEWS_ROOT = path.resolve(process.env.NEWS_ROOT ?? path.join(PROJECT_ROOT, "NEWS"));
-const STRICT_MODE = process.env.NEWS_CONTENT_VALIDATION_MODE === "strict";
+const BASELINE_PATH = path.resolve(
+  process.env.NEWS_CONTENT_BASELINE ?? path.join(SCRIPT_ROOT, "scripts", "news-content-baseline.json"),
+);
 
-const TOPICS = [
-  "general",
-  "finance",
-  "ai-tech",
-  "science",
-  "crypto",
-  "energy-climate",
-  "auto-mobility",
-  "gaming",
-  "supply-chain",
-  "sports-health-nutrition",
-];
+/**
+ * Three modes:
+ *   baseline (default) — fail on any issue not present in the baseline. This is
+ *                        what `prebuild` runs: legacy defects are grandfathered,
+ *                        a newly generated digest that drifts from the template
+ *                        fails the build.
+ *   strict             — fail on any issue at all; the baseline is ignored.
+ *   warn               — never fail; print everything. For surveying the corpus.
+ *
+ * `--update-baseline` rewrites the baseline from the current corpus.
+ */
+const MODE = process.env.NEWS_CONTENT_VALIDATION_MODE ?? "baseline";
+const UPDATE_BASELINE = process.argv.includes("--update-baseline");
+
+/**
+ * `--files a.md b.md` validates exactly those files, strictly, ignoring the
+ * baseline. Runners use it to gate the digest they just generated: a freshly
+ * written file has no business being grandfathered.
+ */
+const FILE_ARGS = (() => {
+  const index = process.argv.indexOf("--files");
+  return index === -1 ? [] : process.argv.slice(index + 1).filter((arg) => !arg.startsWith("--"));
+})();
 
 const LOCALE_RULES = {
   zh: {
-    summaryHeading: /^##\s+今日小结$/m,
+    summaryHeading: SUMMARY_HEADING.zh,
+    framing: FRAMING_MARKER.zh,
     articleLabels: [
       { name: "summary label", pattern: /\*\*摘要：\*\*/ },
       { name: "links label", pattern: /\*\*链接：\*\*/ },
       { name: "commentary label", pattern: /(?:\*\*)?简评：\*\*/ },
     ],
-    framing: /\*\*(总体定性|今日定性)(：\*\*|\*\*：)/,
   },
   en: {
-    summaryHeading: /^##\s+Today's Summary$/m,
+    summaryHeading: SUMMARY_HEADING.en,
+    framing: FRAMING_MARKER.en,
     articleLabels: [
       { name: "summary label", pattern: /\*\*Summary:\*\*/ },
       { name: "links label", pattern: /\*\*Links?:\*\*/ },
       { name: "commentary label", pattern: /\*\*Commentary:\*\*/ },
     ],
-    framing: /\*\*Daily Framing:\*\*/,
   },
 };
 
@@ -123,28 +141,102 @@ async function validateLocaleDirectory(topic, locale, errors) {
   }
 }
 
-async function main() {
-  const errors = [];
-
-  for (const topic of TOPICS) {
-    await validateLocaleDirectory(topic, "zh", errors);
-    await validateLocaleDirectory(topic, "en", errors);
+async function readBaseline() {
+  try {
+    const raw = await readFile(BASELINE_PATH, "utf8");
+    return new Set(JSON.parse(raw).issues ?? []);
+  } catch {
+    return new Set();
   }
+}
+
+/** `NEWS/<topic>/<locale>/<file>.md` → the locale whose rules apply. */
+function localeOfPath(filePath) {
+  const segments = path.resolve(filePath).split(path.sep);
+  const locale = segments[segments.length - 2];
+  if (locale !== "zh" && locale !== "en") {
+    throw new Error(`Cannot infer locale from ${filePath} (expected .../zh/ or .../en/).`);
+  }
+  return locale;
+}
+
+async function validateExplicitFiles(files) {
+  const errors = [];
+  for (const file of files) {
+    const content = await readFile(file, "utf8");
+    validateContent(content, localeOfPath(file), path.relative(PROJECT_ROOT, file), errors);
+  }
+  errors.sort();
 
   if (errors.length > 0) {
-    const log = STRICT_MODE ? console.error : console.warn;
-    log(`NEWS content validation found ${errors.length} issue(s)${STRICT_MODE ? "" : " (warning mode)"}:`);
-    for (const error of errors) {
-      log(`- ${error}`);
-    }
-    if (STRICT_MODE) {
-      process.exit(1);
-    }
-    console.log(`NEWS content validation finished in warning mode for ${TOPICS.length} topics under ${NEWS_ROOT}.`);
+    console.error(`NEWS content validation found ${errors.length} issue(s) in ${files.length} file(s):`);
+    for (const error of errors) console.error(`- ${error}`);
+    process.exit(1);
+  }
+
+  console.log(`NEWS content validation passed for ${files.length} file(s).`);
+}
+
+async function main() {
+  if (FILE_ARGS.length > 0) {
+    await validateExplicitFiles(FILE_ARGS);
     return;
   }
 
-  console.log(`NEWS content validation passed for ${TOPICS.length} topics under ${NEWS_ROOT}.`);
+  const errors = [];
+
+  for (const topic of TOPIC_FOLDERS) {
+    for (const locale of LOCALES) {
+      await validateLocaleDirectory(topic, locale, errors);
+    }
+  }
+
+  errors.sort();
+
+  if (UPDATE_BASELINE) {
+    await writeFile(BASELINE_PATH, `${JSON.stringify({ issues: errors }, null, 2)}\n`, "utf8");
+    console.log(`Wrote ${errors.length} grandfathered issue(s) to ${path.relative(PROJECT_ROOT, BASELINE_PATH)}.`);
+    return;
+  }
+
+  if (MODE === "warn") {
+    for (const error of errors) console.warn(`- ${error}`);
+    console.log(`NEWS content validation finished in warning mode: ${errors.length} issue(s).`);
+    return;
+  }
+
+  if (MODE === "strict") {
+    if (errors.length === 0) {
+      console.log(`NEWS content validation passed (strict) for ${TOPIC_FOLDERS.length} topics under ${NEWS_ROOT}.`);
+      return;
+    }
+    console.error(`NEWS content validation found ${errors.length} issue(s):`);
+    for (const error of errors) console.error(`- ${error}`);
+    process.exit(1);
+  }
+
+  // Baseline mode: only issues absent from the baseline are fatal. Baselined
+  // issues that no longer reproduce are reported so the baseline can be
+  // ratcheted down, but they never fail the build.
+  const baseline = await readBaseline();
+  const regressions = errors.filter((error) => !baseline.has(error));
+  const fixed = [...baseline].filter((error) => !errors.includes(error));
+
+  if (fixed.length > 0) {
+    console.log(
+      `${fixed.length} baselined issue(s) no longer reproduce — run \`pnpm validate:news-content:update-baseline\` to ratchet.`,
+    );
+  }
+
+  if (regressions.length > 0) {
+    console.error(`NEWS content validation found ${regressions.length} new issue(s) not in the baseline:`);
+    for (const error of regressions) console.error(`- ${error}`);
+    process.exit(1);
+  }
+
+  console.log(
+    `NEWS content validation passed for ${TOPIC_FOLDERS.length} topics under ${NEWS_ROOT} (${baseline.size} legacy issue(s) grandfathered).`,
+  );
 }
 
 main().catch((error) => {

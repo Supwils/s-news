@@ -2,7 +2,7 @@ import { type Locale } from "@/data/copy";
 import { localizePath } from "@/lib/locale-routing";
 import { getAllNewsPreviews, getEntryPreviewsByTopic, type NewsPreview } from "@/lib/news";
 import { getTopicMeta, isTopicKey, type TopicKey } from "@/lib/news-meta";
-import { absoluteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
+import { absoluteUrl, getSiteDescription, SITE_NAME } from "@/lib/site";
 
 function escapeXml(value: string) {
   return value
@@ -36,13 +36,16 @@ function buildFeedXml({
   entries: NewsPreview[];
   locale: Locale;
 }) {
-  const siteUrl = absoluteUrl("/");
+  // Every URL in the feed must stay inside the feed's own locale tree: an item
+  // <link> that drops the /en prefix sends English subscribers to the Chinese
+  // page, and an unlocalized <guid> makes readers dedupe the two feeds together.
+  const siteUrl = absoluteUrl(localizePath("/", locale));
   const feedUrl = absoluteUrl(feedPath);
 
   const items = entries
     .slice(0, 50)
     .map((entry) => {
-      const url = absoluteUrl(`/news/${entry.topic}/${entry.date}`);
+      const url = absoluteUrl(localizePath(`/news/${entry.topic}/${entry.date}`, locale));
       return [
         "<item>",
         `<title>${escapeXml(entry.title)}</title>`,
@@ -74,7 +77,7 @@ export async function buildGlobalFeed(locale: Locale = "zh") {
   const entries = await getAllNewsPreviews(locale);
   return buildFeedXml({
     title: SITE_NAME,
-    description: SITE_DESCRIPTION,
+    description: getSiteDescription(locale),
     feedPath: localizePath("/feed.xml", locale),
     entries,
     locale,

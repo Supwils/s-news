@@ -3,14 +3,12 @@ import { notFound } from "next/navigation";
 
 import { NewsDetailContent } from "@/components/news-detail-content";
 import { NewsMarkdown } from "@/components/news-markdown-block";
+import { getEventsForDigest } from "@/lib/events";
+import { getDeadLinks } from "@/lib/link-health";
 import { StructuredData } from "@/components/structured-data";
 import { localizePath } from "@/lib/locale-routing";
-import {
-  getAllNewsParams,
-  getEntryPreviewsByTopic,
-  getNewsEntry,
-  getTopicsWithNewsForDate,
-} from "@/lib/news";
+import { getAllNewsParams, getEntryPreviewsByTopic, getTopicsWithNewsForDate } from "@/lib/news";
+import { getNewsEntry } from "@/lib/news-content";
 import { getTopicMeta, isTopicKey } from "@/lib/news-meta";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
 
@@ -133,7 +131,14 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
   };
 
   const { filePath: _filePath, content: zhContent, ...clientEntry } = entryZh;
-  const articleBody = <NewsMarkdown content={zhContent} />;
+  const deadLinks = await getDeadLinks();
+  const events = (await getEventsForDigest(topic, date, "zh")).map((event) => ({
+    id: event.id,
+    title: event.title,
+    topics: event.topics,
+    memberCount: event.memberCount,
+  }));
+  const articleBody = <NewsMarkdown content={zhContent} deadLinks={deadLinks} articleDate={date} locale="zh" />;
 
   return (
     <>
@@ -145,6 +150,7 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
         articleBody={articleBody}
         availableTopics={availableTopicsZh}
         related={relatedZh}
+        events={events}
       />
     </>
   );

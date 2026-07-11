@@ -10,10 +10,10 @@ import { getCopy } from "@/data/copy";
 import { localizePath } from "@/lib/locale-routing";
 import { formatDisplayDate } from "@/lib/news-client";
 import { getTopicMeta } from "@/lib/news-meta";
-import type { NewsPreview } from "@/lib/news";
+import type { NewsCardEntry } from "@/lib/news";
 
 type NewsCardProps = {
-  entry: NewsPreview;
+  entry: NewsCardEntry;
   compact?: boolean;
   className?: string;
 };

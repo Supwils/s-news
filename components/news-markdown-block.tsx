@@ -2,9 +2,16 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 import { reparseInlineChildren } from "@/components/news-markdown";
+import type { Locale } from "@/data/copy";
+import { archiveUrl, type DeadLinks } from "@/lib/link-health";
 
 type NewsMarkdownProps = {
   content: string;
+  /** URLs the link checker found unreachable; their links get an archive fallback. */
+  deadLinks?: DeadLinks;
+  /** This digest's date, used to pick the Wayback snapshot for a dead link. */
+  articleDate?: string;
+  locale?: Locale;
 };
 
 // Structural labels the cursor commands emit. Some legacy digests pack them
@@ -44,8 +51,13 @@ function normalizeStructuralLabels(content: string): string {
  * (every news detail page is `force-static`) so `react-markdown` + `remark-gfm`
  * never ship to the client. Do NOT import this from a client component.
  */
-export function NewsMarkdown({ content }: NewsMarkdownProps) {
+export function NewsMarkdown({ content, deadLinks, articleDate, locale = "zh" }: NewsMarkdownProps) {
   const normalized = normalizeStructuralLabels(content);
+  const archivedLabel = locale === "en" ? "archived" : "存档";
+  const archivedTitle =
+    locale === "en"
+      ? "Original link is unreachable — opening the Web Archive snapshot instead"
+      : "原链接已失效——改为打开 Web Archive 存档快照";
   return (
     <div className="news-prose">
       <ReactMarkdown
@@ -85,16 +97,27 @@ export function NewsMarkdown({ content }: NewsMarkdownProps) {
               {reparseInlineChildren(children, false)}
             </li>
           ),
-          a: ({ href, children }) => (
-            <a
-              href={href}
-              target="_blank"
-              rel="noreferrer"
-              className="underline decoration-(--color-border-strong) underline-offset-4 transition hover:text-(--color-text-primary)"
-            >
-              {reparseInlineChildren(children, true)}
-            </a>
-          ),
+          a: ({ href, children }) => {
+            const isDead = Boolean(href && deadLinks?.has(href));
+            const resolvedHref = isDead && articleDate ? archiveUrl(articleDate, href!) : href;
+            return (
+              <a
+                href={resolvedHref}
+                target="_blank"
+                rel="noreferrer"
+                data-link-status={isDead ? "archived" : undefined}
+                title={isDead ? archivedTitle : undefined}
+                className="underline decoration-(--color-border-strong) underline-offset-4 transition hover:text-(--color-text-primary)"
+              >
+                {reparseInlineChildren(children, true)}
+                {isDead ? (
+                  <sup className="np-mono ml-0.5 align-super text-[0.62em] tracking-[0.08em] text-(--np-ink-red)">
+                    {archivedLabel}
+                  </sup>
+                ) : null}
+              </a>
+            );
+          },
           hr: () => <hr className="my-8 border-(--color-border)" />,
         }}
       >

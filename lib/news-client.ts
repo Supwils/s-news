@@ -1,11 +1,11 @@
 import type { Locale } from "@/data/copy";
 import { getTopicMeta, type TopicKey } from "@/lib/news-meta";
 import { TOPICS } from "@/lib/news-meta";
-import type { NewsPreview } from "@/lib/news";
+import type { NewsCardEntry, NewsPreview } from "@/lib/news";
 
 const TOPIC_ORDER = TOPICS.map((topic) => topic.key);
 
-export function groupPreviewsByDate(entries: NewsPreview[]) {
+export function groupPreviewsByDate<T extends NewsCardEntry>(entries: T[]) {
   return [...entries]
     .sort((left, right) => {
       if (left.date !== right.date) {
@@ -17,7 +17,7 @@ export function groupPreviewsByDate(entries: NewsPreview[]) {
     .reduce<
       Array<{
         date: string;
-        entries: NewsPreview[];
+        entries: T[];
       }>
     >((groups, entry) => {
       const current = groups.at(-1);

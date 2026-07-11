@@ -1,8 +1,10 @@
 "use client";
 
-import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
+import { usePathname } from "next/navigation";
+import { createContext, useContext, useEffect, useMemo, type ReactNode } from "react";
 
 import type { Locale } from "@/data/copy";
+import { detectLocaleFromPath } from "@/lib/locale-routing";
 
 type LocaleContextValue = {
   locale: Locale;
@@ -28,18 +30,25 @@ function persistLocalePreference(locale: Locale) {
   window.localStorage.setItem(STORAGE_KEY, locale);
 }
 
+/**
+ * The route decides the locale — `/en/*` is English, everything else Chinese.
+ *
+ * Deriving it from the pathname rather than from a prop is what makes nesting
+ * safe. The root layout used to render a zh provider around the /en layout's en
+ * provider; React flushes child effects before parent effects, so the zh one ran
+ * last and overwrote `document.lang`, the locale cookie, and localStorage on
+ * every English page.
+ */
 export function LocaleProvider({
   children,
   initialLocale = "zh",
 }: {
   children: ReactNode;
+  /** Fallback for rendering contexts where no pathname is available. */
   initialLocale?: Locale;
 }) {
-  const [locale, setLocale] = useState<Locale>(initialLocale);
-
-  useEffect(() => {
-    setLocale(initialLocale);
-  }, [initialLocale]);
+  const pathname = usePathname();
+  const locale: Locale = pathname ? detectLocaleFromPath(pathname) : initialLocale;
 
   useEffect(() => {
     syncLocaleOnDocument(locale);
@@ -49,19 +58,15 @@ export function LocaleProvider({
   const value = useMemo(
     () => ({
       locale,
-      setLocale: (nextLocale: Locale) => {
-        setLocale(nextLocale);
-        persistLocalePreference(nextLocale);
-      },
+      // Navigating to the other locale's route is what actually switches the
+      // locale. Writing the preference here only makes it survive the hop, for
+      // server components that read the cookie (the 404 page).
+      setLocale: persistLocalePreference,
     }),
     [locale],
   );
 
-  return (
-    <LocaleContext.Provider value={value}>
-      {children}
-    </LocaleContext.Provider>
-  );
+  return <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>;
 }
 
 export function useLocale(): Locale {

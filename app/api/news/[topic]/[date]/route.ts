@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { getNewsEntry } from "@/lib/news";
+import { getNewsEntry } from "@/lib/news-content";
 import { isTopicKey } from "@/lib/news-meta";
 
 type RouteContext = {

@@ -5,6 +5,15 @@ export const SITE_DESCRIPTION =
   "Local-first daily news desk with archived multi-topic AI-generated digests.";
 export const SITE_DEFAULT_LOCALE: Locale = "zh";
 
+const SITE_DESCRIPTION_BY_LOCALE: Record<Locale, string> = {
+  zh: "本地优先的每日新闻台，归档多主题 AI 日报。",
+  en: SITE_DESCRIPTION,
+};
+
+export function getSiteDescription(locale: Locale) {
+  return SITE_DESCRIPTION_BY_LOCALE[locale];
+}
+
 function normalizeBaseUrl(url: string) {
   return url.endsWith("/") ? url.slice(0, -1) : url;
 }

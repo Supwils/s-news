@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 
 import { MonthArchivePageContent } from "@/components/month-archive-page-content";
 import { StructuredData } from "@/components/structured-data";
+import { ARCHIVE_INITIAL_GROUPS, countDays, takeFirstDayGroups } from "@/lib/list-windows";
 import { localizePath } from "@/lib/locale-routing";
-import { getArchiveMonths, getEntryPreviewsByMonth } from "@/lib/news";
+import { getArchiveMonths, getEntryPreviewsByMonth, toCardEntry } from "@/lib/news";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
 
 type MonthArchivePageProps = {
@@ -89,10 +90,13 @@ export default async function MonthArchivePage({ params }: MonthArchivePageProps
   return (
     <>
       <StructuredData data={structuredData} />
-      {/* searchText is only used by full-text search, never by the cards here. */}
+      {/* Only the prerendered day-groups are serialized into this page; the rest
+          of the month is fetched from /api/news when the reader asks for it. */}
       <MonthArchivePageContent
         month={month}
-        entries={entries.map((e) => ({ ...e, searchText: "" }))}
+        entries={takeFirstDayGroups(entries, ARCHIVE_INITIAL_GROUPS).map(toCardEntry)}
+        totalEntries={entries.length}
+        totalDays={countDays(entries)}
         previousMonth={previousMonth}
         nextMonth={nextMonth}
       />

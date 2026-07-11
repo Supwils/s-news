@@ -3,14 +3,12 @@ import { notFound } from "next/navigation";
 
 import { NewsDetailContent } from "@/components/news-detail-content";
 import { NewsMarkdown } from "@/components/news-markdown-block";
+import { getEventsForDigest } from "@/lib/events";
+import { getDeadLinks } from "@/lib/link-health";
 import { StructuredData } from "@/components/structured-data";
 import { localizePath } from "@/lib/locale-routing";
-import {
-  getAllNewsParams,
-  getEntryPreviewsByTopic,
-  getNewsEntry,
-  getTopicsWithNewsForDate,
-} from "@/lib/news";
+import { getAllNewsParams, getEntryPreviewsByTopic, getTopicsWithNewsForDate } from "@/lib/news";
+import { getNewsEntry } from "@/lib/news-content";
 import { getTopicMeta, isTopicKey } from "@/lib/news-meta";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
 
@@ -75,8 +73,17 @@ export async function generateMetadata({ params }: NewsDetailPageProps): Promise
   };
 }
 
+/**
+ * Prerender only the entries that have an English digest.
+ *
+ * A Chinese-only entry still resolves under `/en` — the page falls back to the
+ * Chinese body below — but it is not in the English sitemap, so nothing links
+ * to it and no crawler asks for it. Prerendering those ~360 pages cost build
+ * output for URLs nobody requests; they are generated on demand and cached on
+ * the first (rare) hit instead. `dynamicParams` stays at its default of true.
+ */
 export async function generateStaticParams() {
-  return getAllNewsParams();
+  return getAllNewsParams("en");
 }
 
 export default async function EnglishNewsDetailPage({ params }: NewsDetailPageProps) {
@@ -142,7 +149,14 @@ export default async function EnglishNewsDetailPage({ params }: NewsDetailPagePr
   };
 
   const { filePath: _filePath, content, ...clientEntry } = activeEntry;
-  const articleBody = <NewsMarkdown content={content} />;
+  const deadLinks = await getDeadLinks();
+  const events = (await getEventsForDigest(topic, date, "en")).map((event) => ({
+    id: event.id,
+    title: event.title,
+    topics: event.topics,
+    memberCount: event.memberCount,
+  }));
+  const articleBody = <NewsMarkdown content={content} deadLinks={deadLinks} articleDate={date} locale={entryEn ? "en" : "zh"} />;
 
   return (
     <>
@@ -155,6 +169,7 @@ export default async function EnglishNewsDetailPage({ params }: NewsDetailPagePr
         availableTopics={availableTopicsEn}
         related={relatedEn}
         isChineseFallback={!entryEn}
+        events={events}
       />
     </>
   );

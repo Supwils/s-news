@@ -654,6 +654,7 @@ select {
   .np-nav-show-mobile {
     display: inline-flex;
     align-items: center;
+    gap: 8px;
   }
 }
 
@@ -1274,4 +1275,116 @@ select {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
+}
+
+/* === Events: wire desk (list) + clipping timeline (detail) ================ */
+
+/* Index rows read like wire dispatches: red mono dateline, stacked topic
+   ticks as the signature of "one story, several desks". */
+.np-evt-row {
+  display: flex;
+  gap: 18px;
+  padding: 18px 6px;
+  border-bottom: 1px solid var(--np-rule-soft);
+  transition: background 140ms ease;
+}
+.np-evt-row:hover {
+  background: var(--color-surface-muted);
+}
+.np-evt-ticks {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-top: 7px;
+  flex-shrink: 0;
+}
+.np-evt-tick {
+  width: 16px;
+  height: 4px;
+}
+.np-evt-title {
+  font-size: 19px;
+  line-height: 1.45;
+  color: var(--color-text-primary);
+  text-decoration-color: transparent;
+  text-underline-offset: 5px;
+  transition: text-decoration-color 140ms ease;
+}
+.np-evt-row:hover .np-evt-title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--np-rule-strong);
+}
+.np-evt-datehead {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 34px 0 4px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-text-primary);
+}
+.np-evt-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border: 1px solid var(--np-rule-strong);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+/* Detail: a vertical wire rail with date nodes; members are clippings. */
+.np-evt-rail {
+  position: relative;
+  padding-left: 26px;
+}
+.np-evt-rail::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  bottom: 6px;
+  width: 1px;
+  background: var(--np-rule-strong);
+}
+.np-evt-node {
+  position: relative;
+}
+.np-evt-node::before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 5px;
+  width: 11px;
+  height: 11px;
+  border-radius: 999px;
+  background: var(--color-bg-primary);
+  border: 2px solid var(--np-ink-red);
+}
+.np-evt-clipping {
+  border: 1px solid var(--color-border);
+  border-left-width: 3px;
+  background: var(--color-surface);
+  padding: 16px 18px;
+  box-shadow: 2px 3px 0 var(--np-rule-soft);
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+.np-evt-clipping:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 5px 0 var(--np-rule-soft);
+}
+
+/* === Weekly: numbered desk headers + row hover =========================== */
+.np-weekly-row {
+  transition: background 140ms ease;
+}
+.np-weekly-row:hover {
+  background: var(--color-surface-muted);
+}
+.np-wk-deskno {
+  font-size: 30px;
+  line-height: 1;
+  color: var(--np-rule-strong);
+  font-weight: 600;
+  min-width: 44px;
 }

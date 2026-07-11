@@ -12,15 +12,19 @@ import { localizePath } from "@/lib/locale-routing";
 type MobileDrawerProps = {
   homeHref: string;
   archiveHref: string;
+  weeklyHref: string;
+  eventsHref: string;
   topicsHref: string;
   aboutHref: string;
   searchHref: string;
-  active: "today" | "archive" | "topics" | "about" | "search" | null;
+  active: "today" | "archive" | "weekly" | "events" | "topics" | "about" | "search" | null;
 };
 
 export function MobileDrawer({
   homeHref,
   archiveHref,
+  weeklyHref,
+  eventsHref,
   topicsHref,
   aboutHref,
   searchHref,
@@ -47,6 +51,8 @@ export function MobileDrawer({
     { href: homeHref, key: "today", label: locale === "zh" ? "今日" : "Today" },
     { href: searchHref, key: "search", label: locale === "zh" ? "搜索" : "Search" },
     { href: archiveHref, key: "archive", label: locale === "zh" ? "归档" : "Archive" },
+    { href: weeklyHref, key: "weekly", label: locale === "zh" ? "周报" : "Weekly" },
+    { href: eventsHref, key: "events", label: locale === "zh" ? "事件" : "Events" },
     { href: topicsHref, key: "topics", label: locale === "zh" ? "主题" : "Topics" },
     { href: aboutHref, key: "about", label: locale === "zh" ? "关于" : "About" },
   ];
@@ -119,6 +125,8 @@ export function buildDrawerHrefs(locale: "zh" | "en", archiveMonth: string) {
   return {
     homeHref: localizePath("/", locale),
     archiveHref: localizePath(`/archive/${archiveMonth}`, locale),
+    weeklyHref: localizePath("/weekly", locale),
+    eventsHref: localizePath("/events", locale),
     topicsHref: localizePath("/#topics", locale),
     aboutHref: localizePath("/about", locale),
     searchHref: localizePath("/search", locale),

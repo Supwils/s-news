@@ -57,7 +57,7 @@
 ```markdown
 # YYYY年M月D日 · AI 与科技圈新闻日报
 
-> 基于年月日整理的今日 AI / 科技热点，含摘要、链接与简评。
+> 基于 YYYY年M月D日 整理的今日 AI / 科技热点，含摘要、链接与简评。
 
 ---
 
@@ -80,8 +80,8 @@
 ...
 
 ## 今日小结
-- [3–5 条 bullet]：概括今日主线（政策/监管、模型与产品、资本、地缘或区域重点）。
-- 最后 1–2 句：**总体定性**——今天在 AI/科技周期里是「什么日」（如：监管冲突日、大模型发布日、融资热日等）。
+- [3–4 条 bullet]：概括今日主线（政策/监管、模型与产品、资本、地缘或区域重点）。
+- **必须单独占一行**，格式固定为：`**总体定性：** 今天在AI/科技周期里是「……日」——……`（冒号写在粗体内部，供机器解析；后接一句总结）。
 
 ---
 
@@ -105,15 +105,48 @@
 ### 4-B 英文版
 紧接中文版，生成完整英文翻译并写入：`NEWS/ai-tech/en/YYYY-MM-DD_ai-tech-digest.md`
 
-英文版结构要求：
-- 标题（`#`）：英文标题，格式如 `# Apr 23, 2026 · AI & Tech Daily Digest`
-- 摘要引用（`>`）：翻译为英文。
-- 各条新闻标题、摘要（Summary:）、链接（保留原 URL）、简评（Commentary:）全部翻译为英文。
-- 分类标题（`##`）翻译为英文（如 "## I. Safety, Compliance & Supply Chain Trust"）。
-- **将"## 今日小结"翻译为"## Today's Summary"**，bullet 点翻译为英文。
-- **将"**总体定性**："或"**今日定性**："翻译为"**Daily Framing:**"**。
-- 格式、层级、链接、分隔线（`---`）与中文版完全一致。
-- 结尾注释也翻译为英文（如 `*This digest is compiled from real-time search results and is for reference only.*`）。
+英文版必须与中文版结构完全一致，并**逐字使用**下列标签。这些标签由 `scripts/validate-news-content.mjs` 机器校验：写错会让当天本主题的日报被隔离、不予发布。
+
+```markdown
+# MMM D, YYYY · AI & Tech Daily Digest
+
+> [把中文摘要引用翻译为英文]
+
+---
+
+## I. [英文分类标题]
+
+### 1. [英文标题]
+
+**Summary:** [2–4 sentences]
+
+**Links:**
+
+- [Source — Title](URL)
+
+**Commentary:** [one sentence]
+
+---
+
+### 2. ...
+
+## Today's Summary
+
+- [3–4 bullets]
+
+**Daily Framing:** [one sentence: what kind of day this was]
+
+---
+
+*This digest is compiled from real-time search results and is for reference only.*
+```
+
+硬性要求（不可协商）：
+- 标签逐字为 `**Summary:**`、`**Links:**`、`**Commentary:**`、`## Today's Summary`、`**Daily Framing:**`。**禁止**改写为 `**Sources:**`、`**Source:**`、`**References:**` 或任何同义词。
+- `## Today's Summary` 里的撇号必须是 ASCII 直角撇号 `'`（U+0027），**禁止**使用排版弯撇号 `’`（U+2019）。
+- `**Links:**` 之后必须紧跟至少一条 `- [名称](URL)` 形式的 markdown 链接列表项。
+- 链接保留原始 URL，不翻译、不缩短、不替换为搜索页。
+- 分类标题、层级、分隔线 `---` 与中文版逐一对应。
 
 3. 不修改既有文件。
 
@@ -125,5 +158,19 @@
 - **有信息量**：摘要含关键主体、数字、时间、范围；简评一语中的。
 - **可追溯**：每条带真实可用的 URL，信源名称清晰。
 - **小结有用**：今日小结能让人 30 秒内抓住当日主线和定性。
+
+---
+
+## 输出前自检（保存文件前逐项核对，任何一项不过就先修正）
+
+以下各项由机器逐字校验，不过会导致当天本主题日报被隔离、不予发布：
+
+1. 文件名与 `# ` 标题里的日期 = 调用方传入的日期（不是训练数据里的年份）。
+2. 中文标签逐字（全角冒号、冒号在粗体内）：`**摘要：**`、`**链接：**`、`**简评：**`。
+3. 英文标签逐字：`**Summary:**`、`**Links:**`、`**Commentary:**`——不是 Sources / References / Comment。
+4. 每条新闻的 `**链接：**` / `**Links:**` 之后至少一条 `- [名称](URL)`，URL 为真实原文链接。
+5. `## 今日小结` 存在；`**总体定性：** …` 单独占一行。英文版 `## Today's Summary`（ASCII 直撇号 `'`）与 `**Daily Framing:** …` 同理。
+6. 小结 bullet 3–4 条；正文条目数在本命令规定的区间内。
+7. 中英两个文件都已写入各自的目标路径。
 
 执行时请直接开始多轮 Web Search，再按上述结构整理并保存。

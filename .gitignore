@@ -12,3 +12,4 @@ tsconfig.tsbuildinfo
 public/pagefind
 
 .env
+.quarantine

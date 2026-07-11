@@ -123,7 +123,7 @@ export function SearchModal({ entries, onClose }: SearchModalProps) {
     const timer = setTimeout(async () => {
       try {
         const response = await runtime.search(normalized, {
-          filters: { locale: [locale] },
+          filters: { locale: { any: [locale] } },
         });
         if (token !== queryToken.current) return;
         const data = await Promise.all(

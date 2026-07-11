@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 type RuntimeNavLinkProps = {
   href?: string;
   className?: string;
+  style?: React.CSSProperties;
   children: React.ReactNode;
 };
 
@@ -13,7 +14,7 @@ type RuntimeNavLinkProps = {
  * Renders a link to /runtime only when the API allows execution (e.g. localhost).
  * On deployed (e.g. Vercel) runtime is disabled, so the link is hidden and users only see read-only news.
  */
-export function RuntimeNavLink({ href = "/runtime", className, children }: RuntimeNavLinkProps) {
+export function RuntimeNavLink({ href = "/runtime", className, style, children }: RuntimeNavLinkProps) {
   const [allowed, setAllowed] = useState<boolean | null>(null);
 
   useEffect(() => {
@@ -28,7 +29,7 @@ export function RuntimeNavLink({ href = "/runtime", className, children }: Runti
   }
 
   return (
-    <Link href={href} className={className}>
+    <Link href={href} className={className} style={style}>
       {children}
     </Link>
   );

@@ -35,6 +35,24 @@ export function detectLocaleFromPath(path: string): Locale {
   return normalized === EN_PREFIX || normalized.startsWith(`${EN_PREFIX}/`) ? "en" : "zh";
 }
 
+/**
+ * Routes that exist only in the default locale. `/runtime` is a local-only
+ * developer tool with no `/en` twin, so switching language there must not
+ * navigate into a 404.
+ */
+const SINGLE_LOCALE_PREFIXES = ["/runtime"];
+
+export function hasLocaleTwin(path: string) {
+  const basePath = stripLocalePrefix(path);
+  return !SINGLE_LOCALE_PREFIXES.some(
+    (prefix) => basePath === prefix || basePath.startsWith(`${prefix}/`),
+  );
+}
+
 export function switchPathLocale(path: string, locale: Locale) {
-  return localizePath(stripLocalePrefix(path), locale);
+  const basePath = stripLocalePrefix(path);
+  if (!hasLocaleTwin(basePath)) {
+    return localizePath("/", locale);
+  }
+  return localizePath(basePath, locale);
 }

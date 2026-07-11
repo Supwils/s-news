@@ -66,19 +66,35 @@ run_topic() {
 
     log_info "Topic start topic=${topic}"
     started_at="$(date +%s)"
-    if "$path" >"$debug_log" 2>&1; then
-      ended_at="$(date +%s)"
-      duration="$((ended_at - started_at))"
-      log_info "Topic success topic=${topic} duration_sec=${duration} debug_log=${debug_log}"
-    else
-      exit_code="$?"
-      ended_at="$(date +%s)"
-      duration="$((ended_at - started_at))"
-      reason="$(awk 'NF{line=$0} END{print line}' "$debug_log" 2>/dev/null || true)"
-      reason="$(trim "${reason:-unknown_error}")"
-      log_error "Topic failed topic=${topic} duration_sec=${duration} exit_code=${exit_code} reason=${reason} debug_log=${debug_log}"
-      return "$exit_code"
-    fi
+
+    # Retry once. news-agent.sh documents cursor-agent spinning on transient DNS
+    # errors; rate limits and truncated generations are equally intermittent. A
+    # second attempt is far cheaper than losing the topic for the day.
+    local attempt
+    for attempt in 1 2; do
+      # `exit_code="$?"` must live in the `else` branch: a failed `if` with no
+      # `else` evaluates to status 0, so reading `$?` after the block would
+      # report every failure as a success.
+      if "$path" >"$debug_log" 2>&1; then
+        ended_at="$(date +%s)"
+        duration="$((ended_at - started_at))"
+        log_info "Topic success topic=${topic} attempt=${attempt} duration_sec=${duration} debug_log=${debug_log}"
+        return 0
+      else
+        exit_code="$?"
+      fi
+      if [[ "$attempt" -eq 1 ]]; then
+        log_warn "Topic attempt failed topic=${topic} exit_code=${exit_code} retrying=true"
+        sleep "${NEWS_RETRY_DELAY_SECONDS:-20}"
+      fi
+    done
+
+    ended_at="$(date +%s)"
+    duration="$((ended_at - started_at))"
+    reason="$(awk 'NF{line=$0} END{print line}' "$debug_log" 2>/dev/null || true)"
+    reason="$(trim "${reason:-unknown_error}")"
+    log_error "Topic failed topic=${topic} duration_sec=${duration} exit_code=${exit_code} reason=${reason} debug_log=${debug_log}"
+    return "$exit_code"
   else
     log_warn "Topic skipped script=${script} reason=missing_or_not_executable"
   fi
@@ -113,25 +129,55 @@ for script in "${SCRIPTS[@]}"; do
   TOPICS+=("$topic")
 done
 
-failure=0
+SUCCEEDED=()
+FAILED=()
 for i in "${!PIDS[@]}"; do
   pid="${PIDS[$i]}"
   topic="${TOPICS[$i]}"
   if wait "$pid"; then
-    :
+    SUCCEEDED+=("$topic")
   else
     exit_code="$?"
     log_error "Topic process failed topic=${topic} exit_code=${exit_code}"
-    failure="$exit_code"
+    FAILED+=("$topic")
   fi
 done
 exec 9>&-
-
-if [[ "$failure" != "0" ]]; then
-  unset SKIP_NEWS_INDEX_REFRESH
-  exit "$failure"
-fi
 unset SKIP_NEWS_INDEX_REFRESH
+
+# A failed topic has already been quarantined out of NEWS/ by assert-digest.sh,
+# so the corpus is valid and the healthy topics can still be built and published.
+# Losing one topic must not cost the other nine their publication.
+: "${NEWS_MIN_SUCCESS_TOPICS:=7}"
+TOTAL="${#SCRIPTS[@]}"
+SUCCESS_COUNT="${#SUCCEEDED[@]}"
+
+mkdir -p "$PROJECT_ROOT/.generated"
+# Built with node rather than printf: expanding an empty array under `set -u`
+# is an error on the bash 3.2 that ships with macOS, where the cron host runs.
+DAILY_RUN_DATE="$(date +%Y-%m-%d)" \
+DAILY_RUN_TOTAL="$TOTAL" \
+DAILY_RUN_SUCCEEDED="${SUCCEEDED[*]:-}" \
+DAILY_RUN_FAILED="${FAILED[*]:-}" \
+node -e '
+  const list = (value) => (value ?? "").split(" ").filter(Boolean);
+  const manifest = {
+    date: process.env.DAILY_RUN_DATE,
+    total: Number(process.env.DAILY_RUN_TOTAL),
+    succeeded: list(process.env.DAILY_RUN_SUCCEEDED),
+    failed: list(process.env.DAILY_RUN_FAILED),
+  };
+  require("node:fs").writeFileSync(process.argv[1], JSON.stringify(manifest, null, 2) + "\n");
+' "$PROJECT_ROOT/.generated/daily-run.json"
+
+if [[ "${#FAILED[@]}" -gt 0 ]]; then
+  log_warn "Topics failed count=${#FAILED[@]} topics=${FAILED[*]} (quarantined; publishing the rest)"
+fi
+
+if [[ "$SUCCESS_COUNT" -lt "$NEWS_MIN_SUCCESS_TOPICS" ]]; then
+  log_error "Only ${SUCCESS_COUNT}/${TOTAL} topics succeeded, below NEWS_MIN_SUCCESS_TOPICS=${NEWS_MIN_SUCCESS_TOPICS}. Refusing to publish."
+  exit 1
+fi
 
 log_info "Step start: validate_news_layout"
 node "$SCRIPT_DIR/validate-news-layout.mjs"
@@ -141,4 +187,4 @@ log_info "Step start: refresh_news_index"
 bash "$SCRIPT_DIR/refresh-news-index.sh"
 log_info "Step success: refresh_news_index"
 
-log_info "Generate all topics finished status=success"
+log_info "Generate all topics finished status=success succeeded=${SUCCESS_COUNT}/${TOTAL} failed=${FAILED[*]:-none}"

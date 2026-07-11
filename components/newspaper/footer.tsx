@@ -4,7 +4,25 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 import { useLocale } from "@/components/locale-context";
+import { RuntimeNavLink } from "@/components/runtime-nav-link";
 import { localizePath } from "@/lib/locale-routing";
+
+/**
+ * When the site was generated, inlined at build time by next.config.ts. Calling
+ * `new Date()` here instead put the build timestamp into the prerendered HTML
+ * and the visit timestamp into the hydrated tree — a mismatch on every page.
+ */
+const BUILD_STAMP = formatUtcStamp(process.env.NEXT_PUBLIC_BUILD_TIME);
+
+function formatUtcStamp(isoTimestamp: string | undefined) {
+  if (!isoTimestamp) return "";
+  const pad = (n: number) => String(n).padStart(2, "0");
+  const at = new Date(isoTimestamp);
+  if (Number.isNaN(at.getTime())) return "";
+  return `${at.getUTCFullYear()}-${pad(at.getUTCMonth() + 1)}-${pad(at.getUTCDate())} ${pad(
+    at.getUTCHours(),
+  )}:${pad(at.getUTCMinutes())} UTC`;
+}
 
 type NewspaperFooterProps = {
   /** UTC timestamp for the "GENERATED …" stamp. Accepts any formatted string. */
@@ -13,15 +31,7 @@ type NewspaperFooterProps = {
 
 export function NewspaperFooter({ generatedAt }: NewspaperFooterProps) {
   const locale = useLocale();
-  const stamp =
-    generatedAt ??
-    (() => {
-      const now = new Date();
-      const pad = (n: number) => String(n).padStart(2, "0");
-      return `${now.getUTCFullYear()}-${pad(now.getUTCMonth() + 1)}-${pad(
-        now.getUTCDate(),
-      )} ${pad(now.getUTCHours())}:${pad(now.getUTCMinutes())} UTC`;
-    })();
+  const stamp = generatedAt ?? BUILD_STAMP;
 
   const feedHref = localizePath("/feed.xml", locale);
   const aboutHref = localizePath("/about", locale);
@@ -44,10 +54,14 @@ export function NewspaperFooter({ generatedAt }: NewspaperFooterProps) {
     >
       <span>SWIL-NEWS · LOCAL-FIRST DAILY DIGEST</span>
       <span style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
-        <span>GENERATED {stamp}</span>
+        {stamp ? <span>GENERATED {stamp}</span> : null}
         <FooterLink href={feedHref}>RSS</FooterLink>
         <FooterLink href={aboutHref}>ABOUT</FooterLink>
-        <FooterLink href="/runtime">RUNTIME</FooterLink>
+        {/* Runtime is local-only; on a public deployment the nav hides it, so
+            the footer must not advertise a route that answers 403. */}
+        <RuntimeNavLink href="/runtime" style={{ color: "var(--color-text-secondary)" }}>
+          RUNTIME
+        </RuntimeNavLink>
       </span>
     </footer>
   );

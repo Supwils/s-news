@@ -7,19 +7,21 @@ import { NewsCard } from "@/components/news-card";
 import { useLocale } from "@/components/locale-context";
 import { NewspaperFooter } from "@/components/newspaper/footer";
 import { NewspaperMasthead } from "@/components/newspaper/masthead";
+import { ARCHIVE_GROUPS_STEP, ARCHIVE_INITIAL_GROUPS } from "@/lib/list-windows";
 import { localizePath } from "@/lib/locale-routing";
 import { formatArchiveMonth, formatDisplayDate, groupPreviewsByDate } from "@/lib/news-client";
-import type { NewsPreview } from "@/lib/news";
+import type { NewsCardEntry } from "@/lib/news";
+import { useMoreEntries } from "@/lib/use-more-entries";
 
-// Only the first few day-groups are rendered into the static HTML; the rest are
-// revealed client-side on demand so a busy month doesn't bloat the payload.
-const INITIAL_GROUPS = 8;
-const GROUPS_STEP = 8;
 
 type MonthArchivePageContentProps = {
   month: string;
-  /** Already resolved for the current route's locale by the server page. */
-  entries: NewsPreview[];
+  /** Only the first ARCHIVE_INITIAL_GROUPS day-groups, resolved for this route's locale. */
+  entries: NewsCardEntry[];
+  /** Every digest archived this month, including the ones not passed above. */
+  totalEntries: number;
+  /** Every day with a digest this month, including the ones not passed above. */
+  totalDays: number;
   previousMonth: string | null;
   nextMonth: string | null;
 };
@@ -27,14 +29,26 @@ type MonthArchivePageContentProps = {
 export function MonthArchivePageContent({
   month,
   entries,
+  totalEntries,
+  totalDays,
   previousMonth,
   nextMonth,
 }: MonthArchivePageContentProps) {
   const locale = useLocale();
-  const groups = groupPreviewsByDate(entries);
-  const [visibleGroups, setVisibleGroups] = useState(INITIAL_GROUPS);
+  const { entries: allEntries, fetchRest, loading, failed } = useMoreEntries(entries, { locale, month });
+  const [visibleGroups, setVisibleGroups] = useState(ARCHIVE_INITIAL_GROUPS);
+
+  const groups = groupPreviewsByDate(allEntries);
   const shownGroups = groups.slice(0, visibleGroups);
-  const remainingGroups = groups.length - shownGroups.length;
+  const remainingGroups = totalDays - shownGroups.length;
+
+  const handleLoadMore = async () => {
+    // Only reveal more once the data behind them is actually here, so a failed
+    // fetch doesn't silently skip a page of days on the next retry.
+    if (await fetchRest()) {
+      setVisibleGroups((count) => count + ARCHIVE_GROUPS_STEP);
+    }
+  };
 
   return (
     <div className="np-root">
@@ -71,8 +85,8 @@ export function MonthArchivePageContent({
           </h1>
           <p className="np-sans" style={{ fontSize: 14, lineHeight: 1.7, color: "var(--color-text-secondary)", margin: 0 }}>
             {locale === "en"
-              ? `${entries.length} digests archived this month.`
-              : `本月共归档 ${entries.length} 份日报。`}
+              ? `${totalEntries} digests archived this month.`
+              : `本月共归档 ${totalEntries} 份日报。`}
           </p>
 
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 18 }}>
@@ -125,16 +139,26 @@ export function MonthArchivePageContent({
             ))}
 
             {remainingGroups > 0 ? (
-              <div style={{ display: "flex", justifyContent: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
                 <button
                   type="button"
                   className="np-btn-secondary"
-                  onClick={() => setVisibleGroups((count) => count + GROUPS_STEP)}
+                  onClick={handleLoadMore}
+                  disabled={loading}
                 >
-                  {locale === "en"
-                    ? `Load more (${remainingGroups} more day${remainingGroups === 1 ? "" : "s"})`
-                    : `加载更多（剩余 ${remainingGroups} 天）`}
+                  {loading
+                    ? locale === "en"
+                      ? "Loading…"
+                      : "加载中…"
+                    : locale === "en"
+                      ? `Load more (${remainingGroups} more day${remainingGroups === 1 ? "" : "s"})`
+                      : `加载更多（剩余 ${remainingGroups} 天）`}
                 </button>
+                {failed ? (
+                  <p className="np-sans" style={{ fontSize: 13, color: "var(--np-ink-red)", margin: 0 }}>
+                    {locale === "en" ? "Could not load more. Try again." : "加载失败，请重试。"}
+                  </p>
+                ) : null}
               </div>
             ) : null}
           </section>

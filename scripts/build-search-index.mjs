@@ -21,26 +21,15 @@ import { fileURLToPath } from "node:url";
 
 import { createIndex, close as closePagefind } from "pagefind";
 
+import { digestDateFromFileName, LOCALES, TOPIC_FOLDERS } from "./news-topics.mjs";
+
 // Resolve relative to this script, not the caller's CWD — robust against hooks
 // or wrappers that cd elsewhere before exec.
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const NEWS_ROOT = path.join(PROJECT_ROOT, "NEWS");
 const OUT_DIR = path.join(PROJECT_ROOT, "public", "pagefind");
 
-const TOPICS = [
-  "general",
-  "finance",
-  "ai-tech",
-  "science",
-  "crypto",
-  "energy-climate",
-  "auto-mobility",
-  "gaming",
-  "supply-chain",
-  "sports-health-nutrition",
-];
-
-const LOCALES = ["zh", "en"];
+const TOPICS = TOPIC_FOLDERS;
 
 function extractTitle(markdown) {
   return markdown.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? "";
@@ -128,9 +117,16 @@ async function main() {
     for (const locale of LOCALES) {
       const files = await listMarkdown(topic, locale);
       for (const filePath of files) {
-        const raw = await readFile(filePath, "utf8");
         const fileName = path.basename(filePath);
-        const date = fileName.slice(0, 10); // YYYY-MM-DD
+        const date = digestDateFromFileName(fileName);
+        if (!date) {
+          // Same guard as build-news-index.mjs: a non-digest filename would
+          // otherwise become a search record pointing at a URL that 404s.
+          skipped++;
+          continue;
+        }
+
+        const raw = await readFile(filePath, "utf8");
 
         const title = extractTitle(raw);
         const description = extractDescription(raw);

@@ -7,33 +7,40 @@ import { useLocale } from "@/components/locale-context";
 import { NewspaperFooter } from "@/components/newspaper/footer";
 import { NewspaperMasthead } from "@/components/newspaper/masthead";
 import { getCopy } from "@/data/copy";
-import type { NewsPreview } from "@/lib/news";
+import { TOPIC_CARDS_STEP, TOPIC_INITIAL_CARDS } from "@/lib/list-windows";
+import type { NewsCardEntry } from "@/lib/news";
 import { getTopicMeta, type TopicKey } from "@/lib/news-meta";
+import { useMoreEntries } from "@/lib/use-more-entries";
 
 type TopicPageContentProps = {
   topic: TopicKey;
-  /** Already resolved for the current route's locale by the server page. */
-  entries: NewsPreview[];
+  /** Only the first TOPIC_INITIAL_CARDS entries, resolved for this route's locale. */
+  entries: NewsCardEntry[];
+  /** Every digest in this topic, including the ones not passed above. */
+  totalEntries: number;
 };
 
-// Only the first window is rendered into the static HTML; the rest are revealed
-// client-side on demand. Keeps the prerendered payload small for topics with a
-// long archive without dropping any data.
-const INITIAL_CARDS = 36;
-const CARDS_STEP = 36;
 
-export function TopicPageContent({ topic, entries }: TopicPageContentProps) {
+export function TopicPageContent({ topic, entries, totalEntries }: TopicPageContentProps) {
   const locale = useLocale();
   const copy = getCopy(locale);
   const meta = getTopicMeta(topic, locale);
-  const [visibleCount, setVisibleCount] = useState(INITIAL_CARDS);
+  const { entries: allEntries, fetchRest, loading, failed } = useMoreEntries(entries, { locale, topic });
+  const [visibleCount, setVisibleCount] = useState(TOPIC_INITIAL_CARDS);
 
   if (!meta) {
     return null;
   }
 
-  const visibleEntries = entries.slice(0, visibleCount);
-  const remaining = entries.length - visibleEntries.length;
+  const visibleEntries = allEntries.slice(0, visibleCount);
+  const remaining = totalEntries - visibleEntries.length;
+
+  const handleLoadMore = async () => {
+    // Only reveal more once the data behind them has arrived.
+    if (await fetchRest()) {
+      setVisibleCount((count) => count + TOPIC_CARDS_STEP);
+    }
+  };
 
   return (
     <div className="np-root">
@@ -98,11 +105,11 @@ export function TopicPageContent({ topic, entries }: TopicPageContentProps) {
               color: "var(--color-text-muted)",
             }}
           >
-            {entries.length} {locale === "en" ? "ISSUES ARCHIVED" : "份归档"}
+            {totalEntries} {locale === "en" ? "ISSUES ARCHIVED" : "份归档"}
           </p>
         </section>
 
-        {entries.length === 0 ? (
+        {totalEntries === 0 ? (
           <section style={{ marginTop: 32 }}>
             <p className="np-sans" style={{ fontSize: 15, lineHeight: 1.7, color: "var(--color-text-secondary)", margin: 0 }}>
               {locale === "en"
@@ -118,16 +125,21 @@ export function TopicPageContent({ topic, entries }: TopicPageContentProps) {
               ))}
             </section>
             {remaining > 0 ? (
-              <div style={{ marginTop: 28, display: "flex", justifyContent: "center" }}>
-                <button
-                  type="button"
-                  className="np-btn-secondary"
-                  onClick={() => setVisibleCount((count) => count + CARDS_STEP)}
-                >
-                  {locale === "en"
-                    ? `Load more (${remaining} remaining)`
-                    : `加载更多（剩余 ${remaining} 篇）`}
+              <div style={{ marginTop: 28, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
+                <button type="button" className="np-btn-secondary" onClick={handleLoadMore} disabled={loading}>
+                  {loading
+                    ? locale === "en"
+                      ? "Loading…"
+                      : "加载中…"
+                    : locale === "en"
+                      ? `Load more (${remaining} remaining)`
+                      : `加载更多（剩余 ${remaining} 篇）`}
                 </button>
+                {failed ? (
+                  <p className="np-sans" style={{ fontSize: 13, color: "var(--np-ink-red)", margin: 0 }}>
+                    {locale === "en" ? "Could not load more. Try again." : "加载失败，请重试。"}
+                  </p>
+                ) : null}
               </div>
             ) : null}
           </>

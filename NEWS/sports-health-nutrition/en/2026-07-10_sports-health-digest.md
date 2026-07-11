@@ -1,194 +1,170 @@
 # Jul 10, 2026 · Sports, Health & Nutrition Daily Digest
 
-> A digest of today's sports, wellness, and nutrition highlights for July 10, 2026, with summaries, links, and brief commentary.
+> Today's sports, health, wellness, and nutrition highlights compiled on Jul 10, 2026, with summaries, links, and commentary.
 
 ---
 
-## I. Sports & Fitness
+## I. Nutrition & Diet
 
-### 1. Wimbledon men's semis: **Sinner** and **Djokovic** meet again on Centre Court Friday
-**Summary:** Per ATP Tour and Olympics.com on **July 10, 2026**, the Wimbledon men's singles semi-finals were scheduled for Centre Court: **Alexander Zverev** vs. British wild card **Arthur Fery** (1:30 p.m. BST), followed by world No. 1 and defending champion **Jannik Sinner** against seven-time champion **Novak Djokovic**. It is their second straight Wimbledon semi-final and third in four years; Sinner leads their career head-to-head **6-5**, though Djokovic won their Australian Open semi-final in January. Djokovic came through a five-set, five-hour quarter-final over **Felix Auger-Aliassime**; Sinner beat **Jan-Lennard Struff** in straight sets.
+### 1. **CALERIE 2** trial: modest caloric restriction improves glycemic control via the **adiponectin–ceramide** axis in non-obese adults
+**Summary:** As reported in **Nature Communications** on **July 9, 2026**, the **CALERIE™ 2** randomized controlled trial followed non-obese (**BMI 22–27.9**) men and premenopausal women aged **21–50** for **24** months (**NCT00427193**). Caloric restriction raised high-molecular-weight **adiponectin** and lowered circulating **ceramides** linked to insulin resistance (**C16:0, C18:0, C24:0**). Mediation analysis suggested ceramide reductions may partially explain improved insulin secretion, insulin sensitivity, and **IGF-1** signaling. Effects peaked at **12** months and attenuated by **24** months, indicating partial metabolic adaptation.
 
 **Links:**
 
-- [ATP Tour — Wimbledon 2026 semi-finals preview (July 10, 2026)](https://www.atptour.com/en/news/wimbledon-2026-sfs-all-you-need-to-know)
-- [Olympics.com — Sinner vs Djokovic semi-final schedule (July 10, 2026)](https://www.olympics.com/en/news/wimbledon-2026-jannik-sinner-novak-djokovic-semi-final-schedule-watch-live)
+- [Nature Communications — Caloric restriction and adiponectin–ceramide axis (July 9, 2026)](https://www.nature.com/articles/s41467-026-74468-0)
 
-**Commentary:** Grass-court marathons test lower-limb endurance and electrolyte management—amateur athletes can learn from staged hydration and post-match recovery routines.
+**Commentary:** For normal-weight adults with borderline glucose, a sustainable calorie deficit may matter more than scale weight alone—but a **24**-month RCT is not a lifetime prescription; work with a clinician or dietitian on a realistic deficit.
 
 ---
 
-### 2. **UFC 329** official weigh-ins done; **McGregor** vs. **Holloway** rematch set for Saturday
-**Summary:** Per Yahoo Sports and SI on **July 10, 2026**, official weigh-ins for **UFC 329** at Las Vegas's **T-Mobile Arena** ran **12:00–2:00 p.m. ET**. The non-title welterweight main event caps at **171 lb**. **Conor McGregor** faces former featherweight champion **Max Holloway** early Saturday—**13** years after McGregor won their first bout in **2013**, and McGregor's first fight since losing a trilogy to **Dustin Poirier** in **2021**. CBS airs a one-hour "This is UFC: McGregor vs. Holloway" special with ceremonial weigh-ins at **9:00 p.m. ET**; at the **July 9** press conference staredown, McGregor knocked Holloway's sunglasses to the floor.
+### 2. Low-protein, methionine-supplemented "longevity diet": mice gained healthspan and lost fat; human data link animal protein to **type 2 diabetes**
+**Summary:** Per **ScienceDaily** on **July 9, 2026**, a **USC** team reported in **Cell Metabolism** that a plant- and fish-forward, low-protein diet with modest **methionine** supplementation (**LDMM**) extended healthspan and cut body fat and frailty in **20**-month-old mice without lower calorie intake. An analysis of more than **200,000** people found the highest animal-protein (and methionine) intake roughly doubled **type 2 diabetes** risk versus the lowest intake. Authors stress amino-acid composition over total protein; a human RCT is still needed.
 
 **Links:**
 
-- [Yahoo Sports — UFC 329 official weigh-in results (July 10, 2026)](https://ca.sports.yahoo.com/news/ufc-329-mcgregor-vs-holloway-live-weigh-in-results-and-video-for-conor-mcgregors-return-133000145.html)
-- [SI — UFC 329 morning weigh-in show (July 10, 2026)](https://www.si.com/fannation/mma/news/ufc-329-morning-weigh-in-show-live-stream-results-mcgregor-vs-holloway-2)
+- [ScienceDaily — Longevity diet with methionine supplementation (July 9, 2026)](https://www.sciencedaily.com/releases/2026/07/260708022206.htm)
 
-**Commentary:** Weigh-in psychology is part of competition; rapid rehydration and electrolyte balance after cuts matter for next-day performance.
+**Commentary:** Mouse and observational data cannot be treated as a personal eating plan—prioritize more plants and whole grains before experimenting with extreme protein cuts.
 
 ---
 
-### 3. Five-time Olympic gold swimmer **McKeown** withdraws from Commonwealth Games with glandular fever
-**Summary:** Per ABC News and AP on **July 10, 2026**, Australian backstroke star **Kaylee McKeown** medically withdrew from the Glasgow Commonwealth Games (opening **July 23**) and the August Pan Pacific Championships in Los Angeles after a glandular fever diagnosis. The **24-year-old** won **100 m/200 m** backstroke gold at Tokyo and Paris and dominated Singapore worlds last year. She had months of fatigue, shortness of breath, and poor appetite, initially mistaking symptoms for flu. She feared pushing through could trigger chronic fatigue; Swimming Australia Olympic head coach **Rohan Taylor** backed her decision to prioritize health.
+### 3. Evening chronotypes eat more at night and carry more body fat with worse lipids
+**Summary:** A study in **Frontiers in Nutrition** published **July 7, 2026** assessed **287** healthy New Zealand women aged **18–45**. **34%** were evening types, with higher **BMI**, body-fat percentage, and android/gynoid fat ratio; they also consumed more energy after **20:00**, while morning/intermediate types ate more before **10:00**. Evening types showed poorer fasting lipid and glucose markers, suggesting chronotype and meal timing may jointly influence obesity risk.
 
 **Links:**
 
-- [ABC News — McKeown withdraws from Commonwealth Games (July 10, 2026)](https://www.abc.net.au/news/2026-07-10/kaylee-mckeown-medically-withdraws-commonwealth-games/106900100)
-- [AP News — McKeown out with glandular fever (July 10, 2026)](https://apnews.com/article/kaylee-mckeown-commonwealth-games-2f608b9585f506e205262eee5a4d28ac)
+- [Frontiers in Nutrition — Chronotype, meal timing and metabolic biomarkers (July 7, 2026)](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1862060/full)
 
-**Commentary:** Training through viral illness risks chronic fatigue; rest and graded return remain the safest path.
+**Commentary:** If you are hungrier late at night, shift main meals and protein earlier and cap late snacks—timing may matter as much as total calories.
 
 ---
 
-### 4. World Cup quarter-final eve: illness hits **England** and **Norway** camps; **Rice** isolated
-**Summary:** Per Daily Mail, updated **July 10, 2026**, England midfielder **Declan Rice**—already managing hamstring and lower-back issues—caught a bug and was isolated from the main squad, missing two training days. England face Norway on **July 11** at Miami's Hard Rock Stadium for a semi-final berth; **Jordan Henderson** is out after a wrist injury, and **Jarrell Quansah** is suspended. Norway goalkeeper **Orjan Nyland** confirmed illness in camp; manager **Stale Solbakken** coughed heavily at a press conference, and **Jorgen Strand Larsen** and **Marcus Holmgren Pedersen** had earlier missed matches through illness.
+### 4. **IARC/WHO EPIC** cohort: ultra-processed foods linked to a distinct "bad lipid" blood metabolic signature
+**Summary:** Per **Medical Xpress** on **July 6, 2026**, **Jessica Blanco-Lopez** at **IARC** analyzed diet and targeted metabolomics in **15,200 EPIC** participants; the paper appears in **Critical Reviews in Food Science and Nutrition**. Higher ultra-processed intake correlated with **22** circulating metabolites, including markers of impaired fatty-acid oxidation and mitochondrial stress, plus lower lipids needed for membrane stability. Plasma stearic-acid patterns suggest harm may extend beyond fat content alone. The design is cross-sectional, so causality is not established.
 
 **Links:**
 
-- [Daily Mail — England illness scare ahead of Norway quarter-final (July 10, 2026)](https://www.dailymail.com/sport/football/article-15967051/england-declan-rice-illness-norway-miami.html)
-- [FIFA — Norway v England quarter-final preview](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-england-preview-live-stream-team-news-tickets)
+- [Medical Xpress — Ultra-processed foods and blood metabolic signature (July 6, 2026)](https://medicalxpress.com/news/2026-07-ultra-foods-linked-higher-bad.html)
 
-**Commentary:** Tournament hygiene and individual immune recovery matter as much as tactics in summer heat—fans should hydrate and manage sun exposure too.
+**Commentary:** Cutting ultra-processed foods protects mitochondrial and lipid metabolism at the molecular level—active people benefit too.
 
 ---
 
-### 5. **Nature Communications**: exercise-linked gut metabolites may prevent muscle atrophy
-**Summary:** Per **Nature Communications**, published online **July 10, 2026**, University of Kentucky–led researchers transplanted cecal contents from exercise-trained female donor mice into exercise-naïve recipients under unilateral hindlimb immobilization. Recipients from trained donors showed less atrophy than sedentary-donor controls. Untargeted metabolomics highlighted microbial metabolites including **pipecolic acid** and **succinate**; oral administration attenuated atrophy and preserved function in sedentary mice, possibly by boosting cellular energy and translational capacity. The authors propose a novel class of exercise mimetics along the gut–muscle axis.
+### 5. **NIH ECHO** cohort: following dietary guidelines in pregnancy lowers some chemical exposures but raises certain **pesticide** markers with more produce
+**Summary:** Per **UNC Gillings** on **July 8, 2026**, an **American Journal of Clinical Nutrition** study of nearly **1,500** pregnant **ECHO** participants found diets closer to U.S. guidelines (more produce, whole grains, lean protein; less added sugar) linked to roughly **13%** lower urinary levels of some packaging- and cooking-related chemicals. More fruit and vegetable intake was also associated with higher pesticide metabolites. Authors still recommend produce, with organic choices, washing, or peeling to reduce pesticide exposure.
 
 **Links:**
 
-- [Nature Communications — Exercise-associated microbial metabolites prevent muscle atrophy (July 10, 2026)](https://www.nature.com/articles/s41467-026-74852-w)
+- [UNC Gillings — Healthy pregnancy diet and chemical exposures (July 8, 2026)](https://sph.unc.edu/sph-news/a-healthy-diet-during-pregnancy-associated-with-lower-exposure-to-some-but-not-all-chemicals-nih-study-finds/)
 
-**Commentary:** The gut–muscle axis may eventually help bedridden or post-surgical patients, but human trials are far off—regular activity remains irreplaceable.
+**Commentary:** "Eating healthy" and "eating clean" are not identical in pregnancy—wash produce and diversify sources rather than skipping vegetables.
 
 ---
 
-### 6. China releases summer youth "follow the event to travel" sports directory
-**Summary:** Per China National Radio on **July 10, 2026**, China's General Administration of Sport and Ministry of Culture and Tourism jointly published the **2026** summer national youth "follow the event to travel" activity catalog with **20** events—including the national youth sunshine sports congress, the second national youth athletics championships, national U-series track meets, youth fencing and swimming U-series, multi-site youth triathlon opens, youth handball and baseball finals, and the China Youth Football League men's U17 national final—aiming to blend sport, culture, tourism, and summer youth engagement.
+## II. Exercise & Training Science
+
+### 6. Youth track-and-field injury research is methodologically fragmented across **54** studies
+**Summary:** A scoping review in **BMC Sports Science, Medicine and Rehabilitation** published **July 10, 2026** screened through **March 2026** and included **54** studies on athletes aged roughly **15–24**. Injury definitions ranged from time-loss and medical-attention to symptom-based and diagnosis-confirmed approaches; training load, footwear, prior injury, and other factors were measured inconsistently, with variable alignment to athletics consensus methods. Authors call for standardized definitions, exposure metrics, and prospective surveillance to build effective prevention.
 
 **Links:**
 
-- [CNR — 2026 summer youth sports travel catalog (July 10, 2026)](https://travel.cnr.cn/dsywzl/20260710/t20260710_527701005.shtml)
+- [BMC Sports Sci Med Rehabil — Youth track and field injury scoping review (July 10, 2026)](https://link.springer.com/article/10.1186/s13102-026-01824-4)
 
-**Commentary:** Competition-linked travel can help adolescents build durable exercise habits and teamwork in real event settings.
+**Commentary:** Before trusting "injury-proof" training claims, ask how injuries were defined and exposure recorded—weak methods make comparisons unreliable.
 
 ---
 
-## II. Health & Medicine
-
-### 7. Taiwan team builds local longevity model predicting age **95+** with **95.6%** accuracy
-**Summary:** Per PChome health news on **July 10, 2026**, a five-year cross-institutional team (Taichung and Taipei Veterans General Hospitals, NYCU, NTU public health) built Taiwan's first healthy-longevity genomic database, published in **GeroScience**. More than **2,000** adults aged **85+** in good health were compared with deceased TPMI cases aged **50–70**, identifying five Taiwan-specific longevity loci (**PTPRD, TANC1, SLC22A3, PCSK2, ZNF806**). Integrating genetics and health data, the model predicts living past **95** with **95.6%** accuracy. Lead physician **Ming-Shun Hsieh** stressed genes guide precision medicine but lifestyle and exercise remain the aging foundation.
+### 7. In youth soccer, **low-volume** Nordic hamstring curls (**4×3**) beat higher volumes for change-of-direction performance
+**Summary:** An **RCT** in **Frontiers in Sports and Active Living** on **July 3, 2026** randomized **60** **13.7**-year-old male players to low (**4×3**), moderate (**4×6**), or high (**4×9**) Nordic hamstring training for **8** in-season weeks. All groups improved, but low volume outperformed moderate and high volume on **10 m** sprints and **15 m** change-of-direction tests with and without the ball (**d ≈ 0.56–0.78**). More Nordic volume was not better.
 
 **Links:**
 
-- [PChome — Taiwan longevity gene breakthrough (July 10, 2026)](https://news.pchome.com.tw/healthcare/top1health/20260710/index-17836488777120168012.html)
+- [Frontiers — Low-volume Nordic hamstring training in youth soccer (July 3, 2026)](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1818507/full)
 
-**Commentary:** Local cohorts fill an Asian longevity data gap, but the model is research-stage—modifiable habits still dominate public health messaging.
+**Commentary:** Amateur players can protect hamstrings and agility with **2–3** small weekly sets—no need to grind to failure.
 
 ---
 
-### 8. Taiwan "carcinogenic salad oil" case: **Chung Lien** GM detained on evidence-tampering concerns
-**Summary:** Per Liberty Times on **July 10, 2026**, Taichung prosecutors searched four firms on **July 9** and interviewed **11** defendants after benzopyrene was found in Chung Lien soybean salad oil. Roughly **1,300** metric tons reached **360** downstream firms; **401** products remain on preventive recall. All **11** face food-safety charges; GM **Yu Ling-Chong** was the first executive held in custody over alleged evidence destruction and collusion; chairman **Tsai Ching-Sung** posted **NT$20 million** bail, with others posting **NT$500,000–20 million**.
+### 8. For soccer performance, **strength training** shows the largest gains in jumping, sprinting, and agility
+**Summary:** A network meta-analysis in **Frontiers in Physiology** on **July 6, 2026** pooled **53 RCTs** with **1,580** players comparing strength, endurance, speed, and technical training. Strength work ranked highest for countermovement jump, squat **1RM**, **5–30 m** sprints, and **T**-test agility (**SUCRA mostly >87%**); endurance training led for **VO₂max** (**SUCRA 84.7%**). Modalities differ, but strength evidence is strongest for overall on-field performance.
 
 **Links:**
 
-- [Liberty Times — Chung Lien GM detention (July 10, 2026)](https://news.ltn.com.tw/news/life/breakingnews/5500531)
+- [Frontiers in Physiology — Optimal dose of S&C for football players (July 6, 2026)](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1791257/full)
 
-**Commentary:** Supply-chain tracing and prosecution proceed in parallel—consumers should buy from vetted channels and follow official recall lists.
+**Commentary:** If you want explosive and agile play, program systematic resistance work—mileage alone rarely fixes the biggest gap in the evidence.
 
 ---
 
-## III. Nutrition & Diet
-
-### 9. First RCT: ketogenic diet may improve schizophrenia-spectrum and bipolar 1 symptoms (**UCSF**)
-**Summary:** Per Medical Xpress and Neuroscience News on **July 10, 2026**, UCSF researchers published the first randomized controlled ketogenic-diet trial for psychotic disorders in **Schizophrenia Bulletin**. Of **58** adults with schizophrenia-spectrum or bipolar 1 disorder with psychosis, **47** completed the one-month comparison: the keto group improved metabolic markers vs. usual diet; higher ketones correlated with lower glucose and PHQ-9 depression scores independent of weight loss. **25** participants continued four months with sustained metabolic gains plus reductions in schizophrenia and depression symptoms and better cognition. Ketosis was maintained on **83%** of daily tests in month one and **94%** in extension, with no serious diet-related adverse events.
+### 9. Intermittent fasting plus resistance training: **11-RCT** meta-analysis finds no clear harm to strength or hypertrophy adaptations
+**Summary:** An exploratory multilevel meta-analysis in **Frontiers in Nutrition** on **June 24, 2026** (search through **March 2026**) included **11** trials with **303** participants comparing **≥4** weeks of fasting plus resistance training versus resistance training alone. Pooled effect **g = 0.09** (**95% CI −0.23 to 0.40**); maximal strength, local endurance, girth, and explosive performance showed no clear between-group differences. With matched training and nutrition support, limited current evidence does not show fasting necessarily impairs long-term resistance adaptations.
 
 **Links:**
 
-- [Medical Xpress — Ketogenic diet RCT in psychotic disorders (July 10, 2026)](https://medicalxpress.com/news/2026-07-randomized-trial-ketogenic-diet-psychotic.html)
-- [Neuroscience News — Ketogenic diet eases schizophrenia and bipolar symptoms (July 10, 2026)](https://neurosciencenews.com/ketogenic-diet-schizophrenia-bipolar-31018/)
+- [Frontiers in Nutrition — Intermittent fasting plus resistance training meta-analysis (June 24, 2026)](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1869031/full)
 
-**Commentary:** Metabolic–psychiatric crossover is promising, but small samples and a single-arm extension mean patients must not stop medication without medical supervision.
+**Commentary:** If time-restricted eating fits your schedule, keep total protein and training quality high—fasting itself is not a proven muscle killer, but evidence remains limited.
 
 ---
 
-### 10. **IARC** study: blood metabolic fingerprint reflects ultra-processed food intake and inflammation
-**Summary:** Per Medical Daily (**July 6, 2026** publication; widely cited **July 10**), WHO cancer agency researcher **Jessica Blanco-Lopez** and colleagues published the largest targeted metabolomics study to date in **Critical Reviews in Food Science and Nutrition**, linking higher ultra-processed food (UPF) intake to **22** distinct blood metabolites associated with inflammation and disrupted fat metabolism. The work does not prove causation but adds biological support to epidemiological warnings, aligning with U.S. dietary guidance to limit added sugars, saturated fat, and sodium concentrated in UPFs.
+## III. Public Health & Disease Prevention
+
+### 10. **WHO/IARC Global Status Report on Cancer 2026**: ~**20.6 million** new cases annually; burden could near **35 million** by **2050**
+**Summary:** Per **WHO** on **July 8, 2026**, the report estimates roughly **20.6 million** new cancers and nearly **10 million** deaths each year—second only to cardiovascular disease. Without action, annual incidence could approach **35 million** by **2050**. Scientific gains coexist with unequal access: five-year breast-cancer survival exceeds **85%** in many high-income countries but remains below **30%** in some low-income settings. Seven recommendations under three shifts—better capabilities, protections, and value—place affected communities at the center of control efforts.
 
 **Links:**
 
-- [Medical Daily — Ultra-processed food blood metabolic signature (July 2026)](https://www.medicaldaily.com/ultra-processed-food-blood-metabolic-signature-iarc-2026-476005)
+- [WHO — Global status report on cancer 2026 (July 8, 2026)](https://www.who.int/publications/i/item/9789240123977)
+- [IARC — Press release on projected cancer burden (July 8, 2026)](https://www.iarc.who.int/wp-content/uploads/2026/07/pr383_E.pdf)
 
-**Commentary:** Metabolomics may become a nutrition assessment tool; for now, cutting UPF and eating more whole foods remains the practical default.
+**Commentary:** For individuals, the report reinforces that tobacco control, vaccines, screening, and accessible care matter as much as lifestyle—routine checkups are low-cost "cancer capability."
 
 ---
 
-### 11. Gut-friendly dietary index linked to lower all-cause mortality in coronary heart disease
-**Summary:** Per News-Medical on **July 9, 2026**, a **Medicine** study using U.S. **NHANES 2005–2018** data evaluated the Dietary Index for Gut Microbiota (DI-GM) and all-cause mortality in adults with coronary heart disease. Weighted Cox models showed lower mortality risk with higher DI-GM in a nonlinear pattern; diabetes status modified the association. Authors suggest gut-supportive diets may aid nutritional risk stratification, but retrospective design and single 24-hour recalls limit causal claims.
+### 11. **ECHO** cohort: prenatal **acetaminophen** not linked to preterm birth, birth weight, or small-for-gestational-age outcomes
+**Summary:** Per **UNC Gillings** on **July 10, 2026**, **American Journal of Epidemiology** analyzed **8,957** mother–infant pairs: **59%** used acetaminophen in pregnancy. After adjustment, no significant associations with preterm birth (**aOR 0.99**), birth weight (**aβ −7.52 g**), or small-for-gestational age (**aOR 1.02**); large-for-gestational-age odds were lower (**aOR 0.87, 95% CI 0.79–0.96**). Neurodevelopment, dose–response, and trimester-specific effects were not assessed.
 
 **Links:**
 
-- [News-Medical — Gut-friendly diet and CHD mortality (July 9, 2026)](https://www.news-medical.net/news/20260709/Gut-friendly-diet-linked-to-lower-mortality-risk-in-coronary-heart-disease.aspx)
+- [UNC Gillings — Acetaminophen in pregnancy and birth outcomes (July 10, 2026)](https://sph.unc.edu/sph-news/no-link-between-acetaminophen-use-during-pregnancy-and-adverse-birth-outcomes-study-finds/)
+- [American Journal of Epidemiology — ECHO cohort study](https://doi.org/10.1093/aje/kwag110)
 
-**Commentary:** CHD patients should pair fiber-rich, fermented-food patterns with exercise and prescribed therapy—not diet alone.
+**Commentary:** Clinician-guided fever and pain relief remains reasonable; do not stop or overdose based on online fear—brain outcomes and dosing still need study.
 
 ---
 
-### 12. Global analysis: healthy plant-food intake often falls as children age, especially in the U.S.
-**Summary:** Per Newsy Today on **July 10, 2026**, Tufts-led analysis in **BMJ Global Health** across **185** countries since **1990** found that while total healthy plant-food intake rose globally, high-income nations often see sharp declines from infancy through adolescence—the U.S. drop is especially pronounced. East and Southeast Asia currently lead intake; South Asia is the only region without gains over nearly **30** years. Researchers call for stronger federal nutrition programs, school-meal rules, and "food is medicine" produce prescriptions, citing Chile's front-of-pack warnings as one policy model.
+### 12. **WHO** updates pediatric **HIV** antiretroviral dosing: weight-band tables to simplify prescribing
+**Summary:** Per **WHO** and **EATG** on **July 10, 2026**, new guidance sets updated dosing for **HIV** prevention and treatment in neonates, infants, and children. Based on recent pharmacokinetic and clinical evidence, it harmonizes weight-band tables for regimens including **dolutegravir** and **abacavir/lamivudine**, with sections on preterm infants, tuberculosis co-treatment, and prophylaxis versus treatment doses—aimed at simpler clinical and program implementation.
 
 **Links:**
 
-- [Newsy Today — Global nutrition crisis plant-based foods for kids (July 10, 2026)](https://www.newsy-today.com/global-nutrition-crisis-why-kids-need-more-plant-based-foods/)
+- [WHO — Optimal antiretroviral dosing for paediatric populations (July 10, 2026)](https://www.who.int/publications/i/item/10-2471-B09711)
+- [EATG — WHO updated paediatric ARV dosing guidance (July 10, 2026)](https://www.eatg.org/hiv-news/who-issues-updated-dosing-guidance-for-antiretroviral-medicines-used-in-newborns-infants-and-children/)
 
-**Commentary:** Adolescence is a habit-setting window—families and schools must protect fruit, vegetable, legume, and nut intake together.
+**Commentary:** This is mainly a policy signal for global pediatric **HIV** care standardization; the public should not self-adjust medications—specialist protocols apply.
 
 ---
 
-## IV. Lifestyle
+## IV. Sleep & Mental Health
 
-### 13. Nutritionist warns summer fatigue and dizziness may signal chronic dehydration
-**Summary:** Per PChome health news on **July 10, 2026**, citing Taipei City Hospital Zhongxing branch dietitian **Yi-Chen Ho**, rising heat has many people tired, dizzy, and unfocused—often misread as poor sleep when chronic dehydration is the culprit. Roughly **70%** of the body is water; thirst usually means mild dehydration already. Long-term deficits can cause headache, constipation, and dark urine; heavy sweating raises heat-exhaustion risk. Ho's "smart hydration" rules: drink on a schedule, hydrate before/during/after activity, and proactively replenish older adults and chronically ill patients.
-
-**Links:**
-
-- [PChome — Summer chronic dehydration and hydration rules (July 10, 2026)](https://news.pchome.com.tw/healthcare/top1health/20260710/index-17836519857557468012.html)
-
-**Commentary:** Build hydration into summer training and outdoor work plans; electrolyte drinks are for heavy sweat loss, not routine thirst.
-
----
-
-### 14. Harvard scholars propose "public sleep": major events can disrupt community rest
-**Summary:** Per Harvard Gazette in **July 2026**, Harvard Medical School's **Tony J. Cunningham** and colleagues argue that elections, championship games, disasters, or war can synchronously disturb sleep across populations—a "public sleep" cost understudied versus individual sleep loss. Data around the **2020** and **2024** U.S. elections showed similar pre-election sleep disruption despite divergent mood after results, suggesting sleep effects can be distinct from emotional response. Researchers urge prospective wearable cohorts and public messaging to help people recover sleep after unavoidable disruptions.
+### 13. Emergency-department shift workers: **bedtime rumination** fully mediates the burnout–insomnia link
+**Summary:** A **Scientific Reports** analysis published **July 4, 2026** from the **REST** trial included **58** ED physicians and nurses with burnout, insomnia, and pre-sleep arousal scales plus actigraphy and shift-load metrics. Cognitive pre-sleep arousal (rumination) fully mediated burnout and insomnia severity; "vulnerable adaptors" with worse objective sleep also reported higher emotional exhaustion. Findings support a cognitive–behavioral pathway in shift-work sleep problems.
 
 **Links:**
 
-- [Harvard Gazette — Losing sleep is bad for individuals, communities too (July 2026)](https://news.harvard.edu/gazette/story/2026/07/losing-sleep-is-bad-for-individuals-communities-too/)
+- [Scientific Reports — Bedtime rumination mediates burnout–insomnia link (July 4, 2026)](https://www.nature.com/articles/s41598-026-47128-y)
 
-**Commentary:** After late-night sports or news binges, plan sleep-debt recovery—several nights of drift raise cardiovascular and mood risk.
-
----
-
-### 15. "Sleepmaxxing" social trend: experts warn obsessive tracking can harm sleep
-**Summary:** Per The Independent in **July 2026**, the sleepmaxxing trend stacks interventions—fixed bedtimes, cool bedrooms, trackers—to "optimize" rest. Specialists **Kat Lederle** and **Lizzie Hill** note much of this is classic sleep hygiene, but obsessing over scores raises cortisol and adrenaline, blocking sleep onset. They recommend a relaxed relationship with sleep, prioritizing exercise, no smoking, and stable routines; meaningful behavior change often needs **2–4** weeks.
-
-**Links:**
-
-- [The Independent — What is sleepmaxxing? (July 2026)](https://www.independent.co.uk/life-style/health-and-families/what-is-sleepmaxxing-trend-how-to-optimise-sleep-b3011755.html)
-
-**Commentary:** Wearables are guides, not judges—leaving bed when awake and cutting screen time beats chasing a perfect score.
+**Commentary:** If your mind races in bed after high-stress shifts, try cognitive wind-down (tomorrow lists, less pre-sleep scrolling) before chasing extra sleep hours alone.
 
 ---
 
 ## Today's Summary
 
-- **Sports**: Wimbledon **Sinner–Djokovic** semi-final day; **UFC 329** McGregor return weigh-ins; **McKeown** out with glandular fever; England–Norway illness scare before quarter-final; exercise-linked gut metabolites in **Nature Communications**; China youth sports-travel catalog released.
-- **Health**: Taiwan longevity model **95.6%** accurate for age **95+**; carcinogenic oil case leads to executive detention; ketogenic-diet psychosis RCT published.
-- **Nutrition**: Blood signature for ultra-processed food; gut-friendly diet and CHD mortality; global child plant-food intake declines with age.
-- **Lifestyle**: Summer chronic-dehydration alert; Harvard "public sleep" framework; sleepmaxxing over-tracking risks.
-- **Daily Framing:** Today sits at the intersection of pre-tournament weigh-ins and semi-finals, viral illness disrupting schedules, gut–muscle and metabolic–psychiatric diet evidence, escalated food-safety prosecution, and summer hydration plus sleep-anxiety trends—competition, public health, and personal lifestyle management all under pressure at once.
+- **Nutrition mechanisms:** **CALERIE 2** highlights the restriction–**ceramide** axis; the **LDMM** longevity diet and **EPIC** ultra-processed signature reinforce that what and when you eat may matter more than counting alone.
+- **Training dose:** youth track-and-field methods need harmonization; Nordic curls show "less is more"; soccer gains favor strength work; fasting plus lifting shows no clear adaptation penalty yet.
+- **Public health:** **WHO**'s **2026** cancer report warns of a **2050** surge; **ECHO** clarifies acetaminophen and birth outcomes; **WHO** also simplified pediatric **HIV** dosing the same day.
+- **Sleep psychology:** rumination is a key bridge from burnout to insomnia in ED shift workers—cognitive tools beat blind sleep extension.
+- **Daily Framing:** Today was a "mechanism-and-guideline day" in the health cycle—from molecular metabolism and training dose to global cancer burden and pediatric **HIV** prescribing, all helping calibrate what evidence says about eating, training, sleeping, and medication.
 
 ---
 

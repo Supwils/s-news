@@ -2,6 +2,7 @@
 
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import {
   countArticles,
@@ -12,25 +13,16 @@ import {
   extractTitle,
   getReadingMinutes,
 } from "../lib/markdown-extract.mjs";
+import { digestDateFromFileName, LOCALES, TOPIC_FOLDERS } from "./news-topics.mjs";
 
-const PROJECT_ROOT = process.cwd();
+// Resolve relative to this script, not the caller's CWD — robust against hooks
+// or wrappers that cd elsewhere before exec. (build-search-index.mjs already
+// did this; an index written to the wrong .generated/ is an empty site.)
+const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const NEWS_ROOT = path.join(PROJECT_ROOT, "NEWS");
 const OUTPUT_DIR = path.join(PROJECT_ROOT, ".generated");
 
-const TOPICS = [
-  { key: "general", folder: "general" },
-  { key: "finance", folder: "finance" },
-  { key: "ai-tech", folder: "ai-tech" },
-  { key: "science", folder: "science" },
-  { key: "crypto", folder: "crypto" },
-  { key: "energy-climate", folder: "energy-climate" },
-  { key: "auto-mobility", folder: "auto-mobility" },
-  { key: "gaming", folder: "gaming" },
-  { key: "supply-chain", folder: "supply-chain" },
-  { key: "sports-health-nutrition", folder: "sports-health-nutrition" },
-];
-
-const TOPIC_ORDER = TOPICS.map((topic) => topic.key);
+const TOPIC_ORDER = TOPIC_FOLDERS;
 
 function sortEntries(entries) {
   return [...entries].sort((left, right) => {
@@ -49,21 +41,28 @@ async function readDirectorySafe(directory) {
   }
 }
 
-async function buildIndex(locale) {
+async function buildIndex(locale, skipped) {
   const isEn = locale === "en";
   const fallbackTitle = isEn ? "Untitled digest" : "未命名日报";
   const fallbackDesc = isEn ? "No summary for this digest." : "本日报暂无摘要说明。";
 
   const entries = [];
 
-  for (const topic of TOPICS) {
-    const directory = path.join(NEWS_ROOT, topic.folder, locale);
+  for (const topic of TOPIC_FOLDERS) {
+    const directory = path.join(NEWS_ROOT, topic, locale);
     const files = (await readDirectorySafe(directory)).filter((file) => file.endsWith(".md"));
 
     for (const fileName of files) {
+      const date = digestDateFromFileName(fileName);
+      if (!date) {
+        // A file without a YYYY-MM-DD_ prefix would otherwise become an entry
+        // with date "draft.md", a nonsense archiveMonth, and a 404ing detail URL.
+        skipped.push(path.posix.join("NEWS", topic, locale, fileName));
+        continue;
+      }
+
       const filePath = path.join(directory, fileName);
       const content = await readFile(filePath, "utf8");
-      const date = fileName.slice(0, 10);
 
       const title = extractTitle(content, fallbackTitle);
       const description = extractDescription(content, fallbackDesc);
@@ -71,10 +70,10 @@ async function buildIndex(locale) {
       const highlights = extractHighlights(content, locale);
 
       entries.push({
-        topic: topic.key,
+        topic,
         date,
         fileName,
-        relativePath: path.posix.join("NEWS", topic.folder, locale, fileName),
+        relativePath: path.posix.join("NEWS", topic, locale, fileName),
         archiveMonth: date.slice(0, 7),
         title,
         description,
@@ -98,7 +97,22 @@ async function buildIndex(locale) {
 
 await mkdir(OUTPUT_DIR, { recursive: true });
 
-const [zhIndex, enIndex] = await Promise.all([buildIndex("zh"), buildIndex("en")]);
+const skipped = [];
+const [zhIndex, enIndex] = await Promise.all([
+  buildIndex(LOCALES[0], skipped),
+  buildIndex(LOCALES[1], skipped),
+]);
+
+for (const file of skipped) {
+  console.warn(`skipped (not a YYYY-MM-DD_*.md digest): ${file}`);
+}
+
+// An empty index means NEWS/ was unreadable or missing. Writing it and exiting 0
+// ships a site with no content and no failing signal.
+if (zhIndex.entries.length === 0) {
+  console.error(`No digests found under ${NEWS_ROOT}. Refusing to write an empty index.`);
+  process.exit(1);
+}
 
 const zhPath = path.join(OUTPUT_DIR, "news-index.json");
 const enPath = path.join(OUTPUT_DIR, "news-index-en.json");

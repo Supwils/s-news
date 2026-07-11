@@ -8,6 +8,14 @@ import { Bookmark, Check, ExternalLink, RotateCcw, Search } from "lucide-react";
 import { useLocale } from "@/components/locale-context";
 import { InlineMarkdown } from "@/components/news-markdown";
 import { NewspaperFooter } from "@/components/newspaper/footer";
+import {
+  articleId,
+  loadDismissedIds,
+  loadReadSet,
+  loadReadingSession,
+  saveDismissedIds,
+  type ReadingSession,
+} from "@/lib/reading-state";
 import { NewspaperMasthead } from "@/components/newspaper/masthead";
 import { SearchModal } from "@/components/search-modal";
 import { localizePath } from "@/lib/locale-routing";
@@ -25,24 +33,9 @@ type NewsHomeProps = {
   totalCount: number;
 };
 
-type ReadingSession = {
-  articleId: string;
-  articleTitle: string;
-  topic: TopicKey;
-  progress: number;
-  lastReadAt: number;
-};
 
 type TopicFilter = TopicKey | "all";
 
-const READ_THRESHOLD = 0.9;
-const READING_SESSION_KEY = "s-news-reading-session";
-const READ_SET_KEY = "s-news-read-articles";
-// Stores which specific article-ids the user has dismissed the continue
-// banner for. Per-id + persistent (localStorage) so that dismissing today's
-// banner doesn't reappear on refresh, but a brand new session next time
-// will surface.
-const CONTINUE_DISMISSED_KEY = "s-news-continue-dismissed-ids";
 
 const MONTHS_EN = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
 
@@ -71,9 +64,6 @@ function stripInlineMarkdown(text: string) {
     .replace(/\[([^\]]+?)\]\([^)]+?\)/g, "$1");
 }
 
-function articleId(entry: Pick<NewsPreview, "topic" | "date">) {
-  return `${entry.topic}:${entry.date}`;
-}
 
 export function NewsHome(props: NewsHomeProps) {
   const { entries, topicCounts, totalCount } = props;
@@ -170,28 +160,12 @@ export function NewsHome(props: NewsHomeProps) {
   const [searchOpen, setSearchOpen] = useState(false);
 
   useEffect(() => {
-    try {
-      let readSetNext = new Set<string>();
-      let sessionNext: ReadingSession | null = null;
-      let dismissedNext = new Set<string>();
-      const readRaw = localStorage.getItem(READ_SET_KEY);
-      if (readRaw) {
-        readSetNext = new Set(JSON.parse(readRaw) as string[]);
-      }
-      const sessRaw = localStorage.getItem(READING_SESSION_KEY);
-      if (sessRaw) {
-        const parsed = JSON.parse(sessRaw) as ReadingSession;
-        if (parsed.progress < READ_THRESHOLD) sessionNext = parsed;
-      }
-      const dismRaw = localStorage.getItem(CONTINUE_DISMISSED_KEY);
-      if (dismRaw) {
-        dismissedNext = new Set(JSON.parse(dismRaw) as string[]);
-      }
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-shot hydration from browser storage
-      setClientState({ readSet: readSetNext, session: sessionNext, dismissedIds: dismissedNext });
-    } catch {
-      // ignore
-    }
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-shot hydration from browser storage
+    setClientState({
+      readSet: loadReadSet(),
+      session: loadReadingSession(),
+      dismissedIds: loadDismissedIds(),
+    });
   }, []);
 
   const handleDismissContinue = useCallback(() => {
@@ -199,11 +173,7 @@ export function NewsHome(props: NewsHomeProps) {
       if (!s.session) return s;
       const next = new Set(s.dismissedIds);
       next.add(s.session.articleId);
-      try {
-        localStorage.setItem(CONTINUE_DISMISSED_KEY, JSON.stringify([...next]));
-      } catch {
-        // ignore
-      }
+      saveDismissedIds(next);
       return { ...s, dismissedIds: next };
     });
   }, []);
@@ -456,10 +426,10 @@ function HeroGrid({
         {moreCount > 0 ? (
           <Link
             href={
-              activeTopic === "all" && todayDate && currentMonth
-                ? localizePath(`/archive/${currentMonth}`, locale)
-                : activeTopic !== "all"
-                  ? localizePath(`/news/${activeTopic}/${lead.date}`, locale)
+              activeTopic !== "all"
+                ? localizePath(`/news/${activeTopic}`, locale)
+                : todayDate && currentMonth
+                  ? localizePath(`/archive/${currentMonth}`, locale)
                   : "#"
             }
             className="np-btn-ghost"

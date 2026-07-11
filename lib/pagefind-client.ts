@@ -11,11 +11,18 @@ import type { TopicKey } from "@/lib/news-meta";
 
 export type { Locale };
 
+/**
+ * Verified against the built index: Pagefind ANDs the values of a bare array —
+ * `{topic: ["finance", "crypto"]}` asks for digests tagged with *both*, which is
+ * never true and silently returns zero results. `{any: [...]}` is the OR every
+ * caller actually means. The type admits only the `any` form so the mistake
+ * cannot be made again.
+ */
 export type PagefindFilters = {
-  topic?: TopicKey[];
-  locale?: Locale[];
-  year?: string[];
-  month?: string[];
+  topic?: { any: TopicKey[] };
+  locale?: { any: Locale[] };
+  year?: { any: string[] };
+  month?: { any: string[] };
 };
 
 export type PagefindMeta = {

@@ -82,8 +82,17 @@ case "$BACKEND" in
     _run_with_timeout codex --model "$MODEL" --approval-mode full-auto "$PROMPT"
     ;;
 
+  noop)
+    # Test-only backend: writes nothing and exits 0, exactly like a cursor-agent
+    # run whose search failed or whose context was truncated. Lets the daily
+    # pipeline be exercised end-to-end — assert-digest, quarantine, retry,
+    # threshold, manifest — without spending a token. Never set this in cron.
+    echo "[news-agent] noop backend: pretending to run ${COMMAND_FILE} (no output written)" >&2
+    exit 0
+    ;;
+
   *)
-    echo "错误: 未知的 NEWS_AGENT_BACKEND='${BACKEND}'。支持的值: cursor | claude | codex" >&2
+    echo "错误: 未知的 NEWS_AGENT_BACKEND='${BACKEND}'。支持的值: cursor | claude | codex | noop (test)" >&2
     exit 1
     ;;
 esac

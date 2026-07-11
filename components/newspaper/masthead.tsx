@@ -18,14 +18,22 @@ import { useShortcutLabel } from "@/lib/use-shortcut-label";
 const WEEKDAYS_EN = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 const MONTHS_EN = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
 
-type NavRoute = "today" | "archive" | "topics" | "about" | null;
+type NavRoute = "today" | "archive" | "weekly" | "events" | "topics" | "about" | null;
+
+/**
+ * The newest digest date, resolved at build time from the generated index (see
+ * next.config.ts). Pages without an issue of their own (about, search, runtime,
+ * 404) stamp this instead of reading the wall clock during render — which used
+ * to bake the build date into `force-static` HTML and mismatch on hydration.
+ */
+const LATEST_ISSUE_DATE = process.env.NEXT_PUBLIC_LATEST_ISSUE_DATE ?? "";
 
 type MastheadProps = {
   /** Which nav item to mark as active. `null` = no active item (e.g. detail page). */
   active?: NavRoute;
-  /** Date used for the mono stamp. Falls back to today's date. */
+  /** Date used for the mono stamp. Falls back to the latest issue's date. */
   date?: string;
-  /** Archive month for the "Archive" link (YYYY-MM). Defaults to current month. */
+  /** Archive month for the "Archive" link (YYYY-MM). Defaults to the latest issue's month. */
   archiveMonth?: string;
   /**
    * Click handler for the search button. If provided (e.g. on the home page),
@@ -55,15 +63,15 @@ export function NewspaperMasthead({
   const router = useRouter();
   const pathname = usePathname();
   const shortcutLabel = useShortcutLabel();
-  const today = new Date();
-  const pad = (n: number) => String(n).padStart(2, "0");
-  const fallbackDate = `${today.getUTCFullYear()}-${pad(today.getUTCMonth() + 1)}-${pad(today.getUTCDate())}`;
-  const stampDate = date ?? fallbackDate;
-  const stamp = formatStamp(stampDate);
-  const archiveHref = localizePath(`/archive/${archiveMonth ?? stampDate.slice(0, 7)}`, locale);
+  const stampDate = date ?? LATEST_ISSUE_DATE;
+  const stamp = stampDate ? formatStamp(stampDate) : "";
+  const archiveTarget = archiveMonth ?? (stampDate ? stampDate.slice(0, 7) : null);
+  const archiveHref = localizePath(archiveTarget ? `/archive/${archiveTarget}` : "/", locale);
   const homeHref = localizePath("/", locale);
   const topicsHref = localizePath("/#topics", locale);
   const aboutHref = localizePath("/about", locale);
+  const weeklyHref = localizePath("/weekly", locale);
+  const eventsHref = localizePath("/events", locale);
   const searchHref = localizePath("/search", locale);
 
   const handleSearchClick = () => {
@@ -144,6 +152,12 @@ export function NewspaperMasthead({
           <NavItem href={archiveHref} active={active === "archive"}>
             {locale === "zh" ? "归档" : "Archive"}
           </NavItem>
+          <NavItem href={weeklyHref} active={active === "weekly"}>
+            {locale === "zh" ? "周报" : "Weekly"}
+          </NavItem>
+          <NavItem href={eventsHref} active={active === "events"}>
+            {locale === "zh" ? "事件" : "Events"}
+          </NavItem>
           <NavItem href={topicsHref} active={active === "topics"}>
             {locale === "zh" ? "主题" : "Topics"}
           </NavItem>
@@ -171,7 +185,7 @@ export function NewspaperMasthead({
           <ThemeSwitch />
         </nav>
 
-        <div className="np-nav-show-mobile" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+        <div className="np-nav-show-mobile">
           <button
             type="button"
             className="np-masthead-search"
@@ -185,6 +199,8 @@ export function NewspaperMasthead({
           <MobileDrawer
             homeHref={homeHref}
             archiveHref={archiveHref}
+            weeklyHref={weeklyHref}
+            eventsHref={eventsHref}
             topicsHref={topicsHref}
             aboutHref={aboutHref}
             searchHref={searchHref}

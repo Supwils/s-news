@@ -18,6 +18,14 @@ import { getTopicMeta, TOPICS, type TopicKey } from "@/lib/news-meta";
 
 type NewsDetailViewEntry = Omit<NewsEntry, "filePath" | "content">;
 
+/** Slim event link for the sidebar — full members live on the event page. */
+export type DetailEventLink = {
+  id: string;
+  title: string;
+  topics: TopicKey[];
+  memberCount: number;
+};
+
 type NewsDetailContentProps = {
   topic: TopicKey;
   date: string;
@@ -32,6 +40,8 @@ type NewsDetailContentProps = {
    * rendering the Chinese original as a fallback.
    */
   isChineseFallback?: boolean;
+  /** Cross-topic events this digest participates in (may be empty). */
+  events?: DetailEventLink[];
 };
 
 export function NewsDetailContent({
@@ -42,6 +52,7 @@ export function NewsDetailContent({
   availableTopics,
   related,
   isChineseFallback = false,
+  events = [],
 }: NewsDetailContentProps) {
   const locale = useLocale();
   const activeEntry = entry;
@@ -60,7 +71,7 @@ export function NewsDetailContent({
 
   return (
     <div className="np-root">
-      <ReadingProgress />
+      <ReadingProgress article={{ topic, date, title: activeEntry.title }} />
       <NewspaperMasthead date={date} archiveMonth={date.slice(0, 7)} />
       <main className="mx-auto w-full" style={{ maxWidth: 1280, padding: 40 }}>
         <nav className="np-crumbs" aria-label="Breadcrumb">
@@ -266,6 +277,51 @@ export function NewsDetailContent({
                   }}
                 >
                   <InlineMarkdown content={activeEntry.takeaway} />
+                </div>
+              </section>
+            ) : null}
+
+            {events.length > 0 ? (
+              <section
+                style={{
+                  border: "1px solid var(--color-border)",
+                  padding: 24,
+                  background: "var(--color-surface)",
+                }}
+              >
+                <p
+                  className="np-mono"
+                  style={{
+                    fontSize: 11,
+                    letterSpacing: "0.24em",
+                    textTransform: "uppercase",
+                    color: "var(--color-text-muted)",
+                  }}
+                >
+                  {locale === "zh" ? "跨主题事件" : "Cross-topic events"}
+                </p>
+                <div style={{ marginTop: 14, display: "flex", flexDirection: "column", gap: 14 }}>
+                  {events.map((event) => (
+                    <Link
+                      key={event.id}
+                      href={localizePath(`/events/${event.id}`, locale)}
+                      style={{ display: "flex", flexDirection: "column", gap: 4 }}
+                    >
+                      <span
+                        className="np-serif"
+                        style={{ fontSize: 15, lineHeight: 1.5, color: "var(--color-text-primary)" }}
+                      >
+                        {event.title}
+                      </span>
+                      <span className="np-mono" style={{ fontSize: 10.5, color: "var(--color-text-muted)" }}>
+                        {event.topics
+                          .map((eventTopic) => getTopicMeta(eventTopic, locale)?.shortLabel ?? eventTopic)
+                          .join(" · ")}
+                        {" · "}
+                        {locale === "zh" ? `${event.memberCount} 篇报道 →` : `${event.memberCount} reports →`}
+                      </span>
+                    </Link>
+                  ))}
                 </div>
               </section>
             ) : null}
