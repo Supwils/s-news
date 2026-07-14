@@ -20,7 +20,7 @@
 
 ### 2. 200+ economists and AI researchers sign "We Must Act Now" warning on large-scale job displacement (Policy / Global)
 
-**Summary:** Per Stanford Digital Economy Lab, AP News, and Al Jazeera on July 13–14, 2026, an 88-word open letter titled "We Must Act Now: A Statement on AI's Transformation of the Economy" — organized by Erik Brynjolfsson, Ajay Agrawal, Anton Korinek, and Tom Cunningham — has been signed by more than 200 economists and AI researchers, including 16 Nobel laureates and executives and researchers from OpenAI, Anthropic, and Google. It warns that AI could drive an economic transformation larger and faster than the Industrial Revolution over the next decade, with both opportunity and large-scale job displacement, and calls for immediate incentives, guardrails, and institutions so AI complements humans and benefits society.
+**Summary:** Per Stanford Digital Economy Lab, AP News, and Business Insider on July 13–14, 2026, an 88-word open letter titled "We Must Act Now: A Statement on AI's Transformation of the Economy" — organized by Erik Brynjolfsson, Ajay Agrawal, Anton Korinek, and Tom Cunningham — has been signed by more than 200 economists and AI researchers, including 16 Nobel laureates and executives and researchers from OpenAI, Anthropic, and Google. It warns that AI could drive an economic transformation larger and faster than the Industrial Revolution over the next decade, with both opportunity and large-scale job displacement, and calls for immediate incentives, guardrails, and institutions so AI complements humans and benefits society.
 
 **Links:**
 
@@ -31,144 +31,187 @@
 
 ---
 
-### 3. Doubao and Qwen to disable user-built anthropomorphic agents as China's dedicated rules take effect July 15 (Policy / China)
+### 3. Doubao and Tongyi Qianwen to shut user-built persona agents on July 15 as China persona-interaction rules take effect (Policy / China)
 
-**Summary:** Per 财经中国, Nikkei Asia, and Cybernews on July 14, 2026, ByteDance's Doubao and Alibaba's Qwen announced they will shut down user-created anthropomorphic agent features on July 15, ending virtual companions and similar personas while keeping built-in Q&A and creation tools. The Interim Measures for the Administration of AI Anthropomorphic Interaction Services — issued by China's cyberspace regulator and four other agencies — also take effect that day, banning virtual intimate relationships for minors, prohibiting emotional-dependency design, and requiring extreme-emotion detection and minor-protection modes.
+**Summary:** According to Tencent News, NetEase, and Nikkei Asia on July 14, 2026, and earlier reports, ByteDance's Doubao and Alibaba's Tongyi Qianwen announced they will shut user-created persona agent features on July 15, ending virtual companions and similar roles while keeping built-in Q&A and creation tools. The Interim Measures for the Administration of AI Persona Interaction Services from China's cyberspace and other regulators also take effect that day, banning virtual kin/companion services for minors, prohibiting emotional dependency inducement, and requiring extreme-emotion detection and minor modes. Doubao offers a data export window through October 15 and directs users with continued needs to its Maoxiang app.
 
 **Links:**
 
-- [财经中国 — 豆包、千问下线智能体，AI拟人监管新规即将施行](https://www.cjcn.com.cn/news/show-472510.html)
+- [Tencent News — Doubao and Tongyi pivot as persona-interaction rules take effect](https://news.qq.com/rain/a/20260709A0278900)
 - [Nikkei Asia — China's leading chatbots to ditch AI personas as Beijing tightens rules](https://asia.nikkei.com/business/technology/artificial-intelligence/china-s-leading-chatbots-to-ditch-ai-personas-as-beijing-tightens-rules)
 
-**Commentary:** China is peeling emotional companionship off general chatbot platforms — AI can understand you, but dependency cannot be a KPI.
+**Commentary:** China is stripping emotional companionship from general chatbot home screens — AI can assist you, but dependency cannot be a KPI.
 
 ---
 
-### 4. India's PIB Fact Check debunks report that ministries were barred from using OpenAI and Anthropic models (Policy / India)
+### 4. Korean police confirm mass GitHub personal access token leak, issue emergency security advisory (Security / Korea)
 
-**Summary:** Per New Kerala/ANI on July 14, 2026, India's Press Information Bureau Fact Check unit dismissed a media report as "fake" claiming the Ministry of Electronics and Information Technology (MeitY) had directed central ministries to pause deployment of OpenAI and Anthropic cybersecurity models. PIB clarified on X that MeitY issued no such direction or advisory and urged the public to rely on official government sources. The episode shows how fast misinformation can move markets amid rising sovereign-AI governance debate in India.
+**Summary:** According to Seoul Economic Daily on July 14, 2026, Korea's National Office of Investigation confirmed that large numbers of GitHub personal access tokens (PATs) were leaked externally and issued an emergency advisory to companies and individual developers. Police recommend immediately checking private repositories for unauthorized access, revoking existing PATs and reissuing new ones, and reviewing the past one to three months for abnormal IP or off-hours source downloads and tampering; they also urge MFA, least-privilege segmentation, and no hard-coded keys in source code. GitHub told police it had revoked leaked tokens and warned affected users; authorities are investigating how the leak occurred.
 
 **Links:**
 
-- [New Kerala — PIB Fact Check Debunks Fake Report on MeitY Advisory Against OpenAI, Anthropic](https://www.newkerala.com/news/a/pib-fact-check-debunks-report-meity-advisory-against-684.htm)
+- [Seoul Economic Daily — Police Warn of Mass GitHub Access Token Leak, Urge Security Steps](https://en.sedaily.com/society/2026/07/14/police-warn-of-mass-github-access-token-leak-urge-security)
 
-**Commentary:** In sovereign-AI narratives, rumors outrun policy — PIB's denial is itself part of India's digital-governance information war.
+**Commentary:** Developer credentials are now a national cyber incident — in the agent era, a breached PAT can propagate supply-chain risk exponentially through dependency chains.
 
 ---
 
-### 5. Meta appeals Los Angeles social-media addiction verdict, citing Section 230 and the First Amendment (Litigation / US)
+## II. Models & Products
 
-**Summary:** Per AP News and ABC News on July 14, 2026, Meta has appealed a landmark Los Angeles jury verdict challenging the finding that it designed platforms to hook young users without regard for their well-being. The case involves a 20-year-old woman, Kaley (court initials KGM), where jurors found negligence by Meta and Google-owned YouTube was a substantial factor in her harm; TikTok's parent and Snap settled before trial. Meta will lean on Section 230 and free-speech defenses, and the outcome could shape thousands of similar suits and the legal boundary of platform design liability.
+### 5. StepFun launches STEPX Neo and agent-native OS Step AOS (Product / China)
+
+**Summary:** According to Caixin, PChome, and 36Kr on July 13–14, 2026, StepFun officially launched its LLM-native AI terminal brand STEPX, the agent-native operating system Step AOS, personal agent Amoo, and the first phone running the stack, STEPX Neo. Users can complete tasks with natural-language one-liners as agents operate across the full system stack rather than as a voice-assistant overlay; ecosystem partners include Alipay, Meituan, Amap, and Baidu. Chairman Yin Qi said China's LLM commercialization may require hardware-software integration, but did not disclose mass-production timing for the phone.
 
 **Links:**
 
-- [AP News — Meta appeals jury verdict in social media addiction lawsuit](https://apnews.com/article/meta-verdict-appeal-social-media-addiction-f2fc62210b02f1945bfd416f5554dd5c)
-- [ABC News — Meta appeals landmark jury verdict that found it to blame for social media addiction](https://abcnews.com/Technology/wireStory/meta-appeals-landmark-jury-verdict-found-blame-social-134665725)
+- [Caixin — StepFun launches agent OS and STEPX Neo AI phone](https://companies.caixin.com/2026-07-14/102464046.html)
+- [PChome — StepFun unveils LLM-native agent phone that executes tasks in one sentence](https://article.pchome.net/news/14543.html)
 
-**Commentary:** Whether infinite scroll and autoplay count as content-dissemination decisions — this appeal will test if design features can pierce the Section 230 shield in California appellate courts.
+**Commentary:** From app-layer AI to OS-native agents — StepFun is moving the fight from model leaderboards to whether WeChat and peers will open their gates.
 
 ---
 
-## II. Enterprise & Industry Strategy
+### 6. Amap releases ABot-World Studio general world-model workshop and open-sources models (Product / China)
 
-### 6. Satya Nadella warns enterprises face a "Reverse Information Paradox" — paying cash while surrendering proprietary knowledge (Industry / US)
-
-**Summary:** Per TechCrunch, The Register, and The Next Web on July 13, 2026, Microsoft CEO Satya Nadella published a long post on X outlining the "Reverse Information Paradox": prompts, feedback, and business knowledge fed to improve models may flow to providers at no charge beyond the cash bill. He urges a "trust boundary," proprietary learning environments inside tenants, decoupling orchestration from any single model, and enterprise rights over usage data and outputs. OpenRouter and Vercel also report rising open-model traffic share.
+**Summary:** According to CJCn on July 14, 2026, Alibaba Group's Amap released the general world-model workshop ABot-World Studio and opened testing. Users can generate real-time interactive, shareable AI worlds from text or images, saving outputs as video and 3DGS files; the product can run locally on a single RTX 5090, with official tests showing stable continuous inference beyond one hour. The studio natively supports a "portal" mechanism linking different 3D scenes, and the underlying ABot-World series (ABot-World0 for video and ABot-3DWorld0 for 3D) is fully open-sourced.
 
 **Links:**
 
-- [TechCrunch — Satya Nadella has issued a shocking warning to companies using AI](https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/)
-- [The Register — Microsoft chief turns hostile on frontier AI labs, warns companies to guard their IP](https://www.theregister.com/ai-and-ml/2026/07/13/microsoft-chief-turns-hostile-on-frontier-ai-labs-warns-companies-to-guard-their-ip/5270628)
+- [CJCn — Amap releases ABot-World Studio general world-model workshop](https://www.cjcn.com.cn/news/show-472588.html)
 
-**Commentary:** Having invested in OpenAI while warning customers about closed models, Nadella elevates data sovereignty from compliance talk to Azure-era competitive narrative.
+**Commentary:** A mapping giant is extending "navigating the world" into "generating worlds" — open source plus local deployment is pushing world models toward reusable spatial asset pipelines.
 
 ---
 
-### 7. Finland's NestAI launches battlefield AI OS NestOS with Finnish and Estonian defense cooperation (Industry / Europe)
+### 7. Westlake University and Alibaba DAMO Academy launch stem-cell AI model "Guiyuan," simulating nearly 4 million combinations (Product / China)
 
-**Summary:** Per Euractiv and Sifted on July 14, 2026, Finnish defense-AI company NestAI (founder Peter Sarlin) released NestOS, a modular adaptive operating system for modern battlefields that runs at the edge without cloud connectivity, supporting end-to-end drone missions and orchestration. The firm signed cooperation agreements with Finland's Ministry of Defence and Estonia's Defence Forces and is partnering with Nokia on resilient battlefield communications — amid renewed focus on European reliance on non-European AI after US export controls hit Anthropic frontier models.
+**Summary:** According to Sina Tech on July 14, 2026, Westlake University and DAMO Academy built a large-scale combinatorial perturbation dataset for stem-cell reprogramming and released the fate-prediction AI model "Guiyuan." It uses dual-modal encoding: molecular structures for small-molecule drugs and protein language models for growth factors and cytokines, projected into a shared high-dimensional space to predict combination effects on cell fate. The team simulated nearly 4 million potential combinations; experimental validation under model-recommended schemes successfully yielded high-quality hypoblast-like stem cells, now being applied to Parkinson's dopaminergic precursor production and process optimization.
+
+**Links:**
+
+- [Sina Tech — Westlake and DAMO launch stem-cell AI model Guiyuan](https://finance.sina.com.cn/tech/digi/2026-07-14/doc-inihuaah5334371.shtml)
+
+**Commentary:** When AI moves from reading papers to reading cell fate, biomedicine's design space shifts from lab trial-and-error to computable combinatorial search.
+
+---
+
+### 8. OpenAI temporarily removes ChatGPT Work/Codex five-hour usage cap and resets quotas (Product / US)
+
+**Summary:** According to BleepingComputer and ProPakistani on July 12–14, 2026, OpenAI product lead Thibault Sottiaux said on X that after surging demand in the 48 hours following GPT-5.6 and ChatGPT Work launch, the company temporarily removed the five-hour rolling usage limit for Plus, Pro, and Business plans and performed a one-time usage quota reset for all users, while rolling out GPT-5.6 Sol efficiency improvements to reduce per-task consumption. OpenAI had pledged fixes during the week of July 14 for desktop navigation, usage visibility, and multi-agent rollback issues; weekly caps remain, so access is not fully unlimited.
+
+**Links:**
+
+- [BleepingComputer — OpenAI temporarily relaxes GPT-5.6 Sol usage limits](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/)
+- [ProPakistani — OpenAI Removes 5-Hour Limit for ChatGPT Work and Codex Users](https://propakistani.pk/2026/07/14/openai-removes-5-hour-limit-for-chatgpt-work-and-codex-users/)
+
+**Commentary:** The agent GA "firefighting week" — usage policy is becoming the paid-user bottleneck before model capability does.
+
+---
+
+## III. Funding & Infrastructure
+
+### 9. AI drug-design startup Chai Discovery closes $400M Series C at $3.8B valuation (Funding / US)
+
+**Summary:** According to Chai Discovery, the NYT, and FinSMEs on July 14, 2026, San Francisco AI molecular-design company Chai Discovery raised $400 million in Series C funding at a $3.8 billion valuation, led by Index Ventures with Kleiner Perkins, Sequoia Capital, Dimension, and others participating; OpenAI, Thrive Capital, and other existing backers rejoined. The company says its latest Chai-3 model is turning long-intractable targets into tractable design problems, with Eli Lilly, Pfizer, and Novartis already adopting its models organization-wide.
+
+**Links:**
+
+- [Chai Discovery — Series C announcement](https://www.chaidiscovery.com/news/series-c)
+- [NYT — Chai Discovery, an A.I. Drug Start-Up, Raises $400 Million](https://www.nytimes.com/2026/07/14/business/dealbook/chai-discovery-ai-drug-development.html)
+
+**Commentary:** Vertical AI funding logic has upgraded from "can it discover drugs?" to "can it become pharma infrastructure" — $3.8B prices the platform narrative.
+
+---
+
+### 10. Video-generation unicorn PixVerse Series C extension totals $439M as Alibaba joins (Funding / Singapore)
+
+**Summary:** According to TechCrunch and Creati.ai on July 13–14, 2026, Singapore-based AI video platform PixVerse closed a Series C extension bringing the round to $439 million at a valuation above $2 billion; new investors include Alibaba, Lollapalooza Capital, and Mirae Asset, with iGlobe Partners and OCBC LionX Ventures returning. The company plans a new V-Series video model and world-model update this year; with 100M+ users across 175+ countries, it is extending from creation tools toward interactive world-model platforms.
+
+**Links:**
+
+- [TechCrunch — Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/)
+- [Creati.ai — PixVerse raises $439 million as video AI funding shifts toward scale](https://creati.ai/ai-news/2026-07-14/pixverse-raises-439-million-as-video-ai-funding-shifts-toward-scale-world-models-and-enterprise/)
+
+**Commentary:** Chinese capital is again backing global video AI — PixVerse is upgrading the funding story from tools to interactive worlds.
+
+---
+
+### 11. European defense AI company Helsing closes $1.8B Series E at $18B valuation (Funding / Europe)
+
+**Summary:** According to CNBC and Tech.eu on July 13–14, 2026, Munich defense AI company Helsing raised $1.8 billion in Series E funding at an $18 billion valuation, up from roughly $13.8 billion in its June 2025 Series D; Dragoneer Investment Group and Lightspeed Venture Partners co-led, with JPMorgan Chase, CPP Investments, General Catalyst, and others participating in an oversubscribed round. Capital will accelerate integrating AI platforms into partner nations' defense capabilities; the company says it remains predominantly European-owned.
+
+**Links:**
+
+- [CNBC — Defense startup Helsing raises $1.8 billion at $18 billion valuation](https://www.cnbc.com/2026/07/13/helsing-fund-raise-defense-18-billion.html)
+- [Tech.eu — European defencetech leader Helsing secures $1.8B Series E at $18B valuation](https://tech.eu/2026/07/13/european-defence-ai-leader-helsing-secures-18b-series-e-at-18b-valuation/)
+
+**Commentary:** An $1.8B single round for European defense AI shows "sovereign battlefield intelligence" is now a fundable asset class, not just policy rhetoric.
+
+---
+
+### 12. Humanoid robot firm LimX Dynamics closes nearly $200M Pre-IPO round at RMB 15B valuation (Funding / China)
+
+**Summary:** According to Caixin and NetEase Tech on July 14, 2026, Shenzhen general-purpose humanoid robot company LimX Dynamics (逐际动力) closed a Pre-IPO round of nearly $200 million (about RMB 1.356 billion) at a post-money valuation of RMB 15 billion, bringing total funding over the past six months to $400 million. Investors include IDG Capital, Lens Technology, GGG Group, Redstone VC, Huashan Capital, and Hefei Binhu Industrial Development Group, with UAE Stone Venture and existing backers such as NIO Capital adding; funds will target brain-body fusion breakthroughs and scaled deployment of thousands of fully autonomous humanoids.
+
+**Links:**
+
+- [Caixin — LimX Dynamics closes nearly $200M Pre-IPO at RMB 15B valuation](https://www.caixin.com/2026-07-14/102464079.html)
+- [NetEase Tech — LimX Dynamics closes nearly $200M Pre-IPO round](https://www.163.com/tech/article/L1PQIIIM00098IEO.html?clickfrom=w_tech)
+
+**Commentary:** A Pre-IPO mega-round in embodied AI shows capital is pricing deployable robot bodies, not just foundation models, ahead of listing expectations.
+
+---
+
+## IV. Industry & Geopolitics
+
+### 13. Apple vs. OpenAI trade-secrets case intensifies: ex-engineer exploited auth bug to keep accessing intranet (Litigation / US)
+
+**Summary:** According to Firstpost, Ars Technica, and The Register on July 10–14, 2026, Apple sued OpenAI, former hardware executive Tang Tan, former engineer Chang Liu, and io Products in the Northern District of California, alleging systematic theft of unreleased hardware designs, manufacturing processes, and supply-chain secrets after poaching 400+ Apple employees. Apple says Liu continued accessing internal file servers for weeks after departure via a previously unknown authentication flaw, messaging a colleague "LOL, I found out I can access [network storage], so funny"; OpenAI denies wrongdoing and says it develops products independently. The case could affect OpenAI's year-end hardware launch and IPO timeline.
+
+**Links:**
+
+- [Firstpost — Apple vs OpenAI: Ex-employee accused of exploiting security bug to steal confidential data](https://www.firstpost.com/tech/apple-vs-openai-ex-employee-accused-of-exploiting-security-bug-to-steal-confidential-data-14031174.html)
+- [Ars Technica — Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets](https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/)
+
+**Commentary:** From Siri integration partner to courtroom adversary — the first battle of the AI hardware race is pinned on trade-secret theft, expanding legal risk before IPO.
+
+---
+
+### 14. Nvidia cuts approved Asian AI chip customer list by more than half, builds compliance whitelist (Geopolitics / Global)
+
+**Summary:** According to the Financial Times via The Hindu BusinessLine and The Next Web on July 13–14, 2026, Nvidia intensified customer due diligence in Singapore, Malaysia, and Japan, building a whitelist of buyers passing stricter compliance checks; more than half of prior customers — especially neo-cloud providers — failed the first review, though rejected firms may reapply after remediation. Staff now visit data centers, verify contracts, and interview end users, with US Commerce Department oversight; the move aims to stop advanced AI chips reaching China via third countries, following May 2026 Commerce guidance on export licenses for China-linked entities.
+
+**Links:**
+
+- [The Hindu BusinessLine — Nvidia halves Asia AI chip customer list, FT reports](https://www.thehindubusinessline.com/info-tech/nvidia-halves-asia-ai-chip-customer-list-ft-reports/article71219836.ece)
+- [The Next Web — Nvidia builds a white list: more than half of its Asian customers are off it](https://thenextweb.com/news/nvidia-halves-asia-buyer-list-china-crackdown)
+
+**Commentary:** Washington upgraded export control from inspecting shipments to inspecting ownership structures — Nvidia's whitelist is the commercial front line of the chip war.
+
+---
+
+### 15. Finland's NestAI releases battlefield AI OS NestOS with Finnish and Estonian military cooperation (Industry / Europe)
+
+**Summary:** According to Euractiv and Sifted on July 14, 2026, Finnish defense AI company NestAI (founder Peter Sarlin) released NestOS, a modular adaptive operating layer for modern battlefields supporting end-to-end drone missions and mission orchestration at the network edge. The company signed cooperation agreements with Finland's Ministry of Defence and Estonia's Defence Forces and partnered with Nokia on resilient battlefield communications; Sarlin said the goal is reducing Europe's reliance on non-European AI models — against the backdrop of US export controls on Anthropic frontier models.
 
 **Links:**
 
 - [Euractiv — NestAI unveils European-made military AI backed by Finland and Estonia](https://www.euractiv.com/news/nestai-unveils-european-made-military-ai-backed-by-finland-and-estonia/)
 - [Sifted — Peter Sarlin's NestAI wants to help Europe reduce reliance on foreign models for defence](https://sifted.eu/articles/peter-sarlins-nestai-models-for-defence)
 
-**Commentary:** When Washington can cut off cloud frontier models, European defense AI sovereignty is moving from white papers to battlefield contracts.
-
----
-
-### 8. JPMorgan says finance will manage generative AI spend with more "discipline" while hiring more Singapore tech talent (Industry / Singapore)
-
-**Summary:** Per The Business Times on July 14, 2026, JPMorgan Global Payments co-head Max Neukirchen said finance is shifting from "everyone can try anything" to strict internal budgeting: routine admin tasks like news summaries stay on low-cost standard models, while premium tokens are reserved for revenue-adjacent agents such as real-time corporate treasury forecasting. The bank is matching compute costs to project upside while hiring engineers and data architects in Singapore, a key Asia-Pacific hub; it is also an Anthropic Project Glasswing partner with access to reviewed Claude Mythos 5 cybersecurity models.
-
-**Links:**
-
-- [The Business Times — JPMorgan expects industry to manage AI spend with more 'discipline' as it eyes more S'pore tech talent](https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/jpmorgan-rein-ai-spend-it-hires-more-singapore-tech-talent)
-
-**Commentary:** Wall Street's first lesson is not buy more tokens — tag every prompt with ROI as enterprise AI enters a financial-discipline cycle.
-
----
-
-## III. Funding & Infrastructure
-
-### 9. Video-generation unicorn PixVerse Series C extension totals $439M as Alibaba joins round (Funding / Singapore)
-
-**Summary:** Per DealStreetAsia and TechCrunch announcements on July 14, 2026, Singapore-based AI video platform PixVerse completed a Series C extension bringing total round funding to $439 million; new investors include Alibaba, Lollapalooza Capital, and Mirae Asset, with iGlobe Partners and OCBC LionX Ventures re-upping. TechCrunch says valuation has crossed $2 billion; the platform has 100M+ users across 175+ countries and plans to expand interactive worlds and livestreaming powered by its real-time world model R1.
-
-**Links:**
-
-- [DealStreetAsia — PixVerse's Series C reaches $439m as Alibaba joins extension round](https://www.dealstreetasia.com/stories/pixverse-series-c-funding-extension-488982)
-- [TechCrunch — Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/)
-
-**Commentary:** Chinese capital is again backing a global video-AI consumer app — PixVerse is pitching interactive worlds, not just generation tools.
-
----
-
-### 10. Meta raises Louisiana Hyperion data-center investment above $50B, targeting 5GW+ at full capacity (Infrastructure / US)
-
-**Summary:** Per SiliconANGLE on July 13, 2026, Meta significantly expanded its Hyperion data-center campus in Richland Parish, Louisiana: investment rose from more than $10 billion in late 2024 and $27 billion last year to over $50 billion, with full-capacity compute exceeding 5 gigawatts — roughly the power of hundreds of thousands of homes. Bloomberg reports total project cost could reach $250 billion when chips are included; Meta has awarded about $1.6 billion in local contracts and plans another $1 billion for roads and water upgrades.
-
-**Links:**
-
-- [SiliconANGLE — Meta boosts investment in Hyperion data center campus to $50B+](https://siliconangle.com/2026/07/13/meta-boosts-investment-hyperion-data-center-campus-50b/)
-
-**Commentary:** $50 billion is just the civil-engineering bill — once chips are counted, Hyperion pushes the AI infrastructure race toward national energy-project scale.
-
----
-
-## IV. Compute & Regional Innovation
-
-### 11. China's first software-defined 3D near-memory AI chip debuts in Shanghai — 520 TFLOPS at 14nm (Compute / China)
-
-**Summary:** Per Sina News on July 13, 2026, China's first AI chip combining software-defined and 3D near-memory computing debuted in Shanghai, delivering 520 trillion floating-point operations per second on 14nm process with 6.4TB/s memory bandwidth, easing the "memory wall" through architecture rather than advanced-node scaling. A full software toolchain compatible with mainstream deep-learning frameworks was released alongside products from accelerator cards through liquid-cooled super-nodes and large-scale intelligent-computing clusters.
-
-**Links:**
-
-- [Sina News — 中国自研AI芯片取得架构突破](https://www.sina.cn/news/detail/5320312879056639.html)
-
-**Commentary:** When node chasing stalls, architecture-for-compute is China's second bet on controllable supply chains — the 14nm headline is about resilience, not bragging rights.
-
----
-
-### 12. German consortium releases open sovereign model Soofi S 30B, trained entirely on Deutsche Telekom cloud (Models / Europe)
-
-**Summary:** Per Creati.ai citing The Decoder on July 13, 2026, a German research consortium released open LLM Soofi S 30B-A3B, trained entirely on Deutsche Telekom infrastructure in Munich as a European sovereign-AI play balancing performance and control. Reporting says it leads fully open peers on aggregate German and English benchmarks (including OLMo 3 32B and Apertus 70B), scores 73.8% on HumanEval, ties Qwen3.5 35B-A3B at 61.2 on INCLUDE-DE regional knowledge, and emphasizes efficient long-context inference.
-
-**Links:**
-
-- [Creati.ai — German consortium unveils Soofi S, an open 30B model aimed at sovereign AI](https://creati.ai/ai-news/2026-07-13/german-consortium-unveils-soofi-s-an-open-30b-model-aimed-at-sovereign-ai-with-strong-german-and/)
-
-**Commentary:** Europe's open-model pitch is shifting from multilingual coverage to "trained and hosted domestically" — sovereignty is landing in model cards.
+**Commentary:** When Washington can cut off cloud frontier models with a switch, Europe's defense AI sovereignty narrative is moving from papers to battlefield contracts.
 
 ---
 
 ## Today's Summary
 
-- Japan's election AI-labeling law, China's anthropomorphic-interaction rules effective July 15, and India's PIB debunking a ministry ban on OpenAI/Anthropic sketch three governance faces on the same day.
-- 200+ signatories on "We Must Act Now" push AI job-impact urgency into policy time; Meta's addiction appeal keeps tearing at platform-design liability versus Section 230.
-- Nadella's Reverse Information Paradox and JPMorgan's token discipline mark enterprise AI's shift from experimentation to data sovereignty plus cost attribution.
-- PixVerse's $439M Series C and Meta's $50B+ Hyperion build show consumer video AI and hyperscale compute still vacuuming capital.
-- **Daily Framing:** Today in the AI/tech cycle is a "governance landing and cost sobriety" day — governments draw AI boundaries while enterprises and banks start pricing agents and walling data.
+- Japan's election AI-labeling law, China's persona-interaction rules taking effect July 15, and Korea's GitHub token leak sketch different facets of AI governance and security on the same day.
+- 200+ signatories on "We Must Act Now" push AI job-displacement risk from tech debate into urgent policy agenda.
+- StepFun STEPX Neo, Amap ABot-World Studio, DAMO "Guiyuan," and OpenAI usage firefighting show agents and vertical AI shifting from model capability to OS integration, world models, and product operations.
+- Chai Discovery's $400M, PixVerse's $439M, Helsing's $1.8B, and LimX Dynamics' Pre-IPO show capital flowing simultaneously into drug AI, video world models, defense AI, and embodied intelligence.
+- Apple vs. OpenAI, Nvidia's Asia whitelist, and NestAI military AI form today's geopolitical through-line across hardware theft, chip compliance, and defense sovereignty.
+
+**Daily Framing:** Today was a "governance landing, agent deployment, and capital bifurcation" day — nations drew boundaries through law and compliance, China and Silicon Valley pushed agents onto devices and patched products, while mega-rounds concentrated on verticals that fit defense budgets, pharma pipelines, and robot production lines.
 
 ---
 

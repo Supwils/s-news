@@ -6,183 +6,196 @@
 
 ## I. Indices & Broad Market
 
-### 1. U.S. Stocks Fall on July 13 as Hormuz Blockade Lifts Oil; Nasdaq Drops 1.55%
+### 1. June CPI Below Forecasts; U.S. Stocks Rebound Tuesday After Monday's Selloff
 
-**Summary:** On Monday, July 13, President Donald Trump announced a reinstatement of the Strait of Hormuz blockade on Iranian shipping and a proposed 20% fee on all cargo transiting the waterway, escalating U.S.–Iran tensions and sending oil prices sharply higher. The S&P 500 fell 0.79% to 7,515.34, the Nasdaq Composite dropped 1.55% to 25,873.18 (breaking below its 50-day moving average), the Dow declined 0.26% to 52,498.64, and the Nasdaq 100 lost 1.88% to 29,264.10. The Philadelphia Semiconductor Index plunged 4.78% while energy led S&P sector gains. WTI crude rose 9.08% to $77.99/bbl and Brent climbed 10.76% to $83.31/bbl; spot gold fell 2.7% to about $3,986.64/oz. The VIX jumped 14.11% to 17.15, its highest level in weeks.
+**Summary:** On Tuesday, July 14, the Bureau of Labor Statistics reported June CPI rose 3.5% year over year (down from 4.2% in May) and fell 0.4% month over month on a seasonally adjusted basis — the largest monthly drop since April 2020. Reuters-polled economists had expected 3.8%. After the release, traders cut the odds of a 25-bp Fed hike in July from about 35% to roughly 15%. As of 10:15 a.m. ET, the S&P 500 gained about 0.2%, recovering part of Monday's loss; the Dow rose about 142 points (0.3%) and the Nasdaq Composite added about 0.3%. Trading Economics intraday data showed the S&P 500 near 7,543 (+0.37%) and the Nasdaq 100 near 29,493 (+0.78%). The 10-year Treasury yield fell from 4.62% to about 4.57%, while Brent crude still climbed about 2.6% to $85.43/bbl.
 
 **Links:**
 
-- [Business Times — US stocks: Wall Street ends lower as Iran tensions dampen risk appetite](https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-lower-iran-tensions-dampen-risk-appetite-chipmakers-drop)
-- [Investopedia — Markets News, July 13, 2026: Major Indexes End Lower](https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07132026-12016813)
+- [AP News — Wall Street calms after US inflation data less bad than expected](https://apnews.com/article/stocks-markets-oil-iran-trump-ai-6807d21c72974fbac48356f83eeebbce)
+- [BLS — Consumer Price Index Summary, June 2026](https://www.bls.gov/news.release/cpi.nr0.htm)
 
-**Commentary:** Geopolitical shock colliding with a sub-16 VIX is a classic setup for amplified moves — the bullish case is a short-lived blockade pulling oil back below $70 and the Nasdaq reclaiming its 50-day line; the bearish case is a prolonged Hormuz disruption plus a hawkish Fed, triggering a stagflation-and-valuation double hit.
+**Commentary:** Softer inflation gave risk appetite a breather, but oil remains elevated — the bullish case is continued core disinflation and index repair; the bearish case is an energy shock repricing inflation expectations and reversing Tuesday's bounce.
 
 ---
 
-### 2. Asia-Pacific Shares Slide on July 14; KOSPI Falls 2%, Nikkei Down 1.17%
+### 2. Monday's U.S.–Iran Escalation Lifts Oil; Major Indexes Close Lower
 
-**Summary:** On Tuesday, July 14, Asia-Pacific markets extended Monday's U.S. selloff. South Korea's KOSPI fell 2.01% and the KOSDAQ lost 1.8%; Japan's Nikkei 225 declined 1.17% and the Topix fell 0.51%; Australia's S&P/ASX 200 dropped 0.29%. MSCI's Asia-Pacific ex-Japan index was down 1.7% at one point, with Taiwan's benchmark hitting a one-month low. Brent crude extended gains, touching $85.64/bbl intraday. Eastspring Investments CIO Vis Nayar noted the main transmission channel for Asia is higher energy prices lifting inflation expectations and pressuring rates and currencies.
+**Summary:** On Monday, July 13, President Trump said the U.S. would reinstate a maritime blockade on Iranian ports as fighting in the Gulf intensified. Brent crude closed up about 9.6% at $83.30/bbl and WTI rose about 9.1% to $77.99. The Dow fell 0.26% to 52,498.70, the S&P 500 lost 0.79% to 7,515.47, and the Nasdaq Composite dropped 1.55% to 25,873.18; tech led losses while energy gained about 3.2%. The Philadelphia Semiconductor Index plunged 4.78% and the Nasdaq 100 fell about 1.9%. The VIX closed at 17.16, up about 14.2% on the day. Markets also braced for Fed Chair Kevin Warsh's congressional debut and the July 14 bank-earnings kickoff.
 
 **Links:**
 
-- [NDTV Profit — Asian Stock Markets Today | July 14](https://www.ndtvprofit.com/markets/asian-markets-today-july-14-south-koreas-kospi-falls-2-nikkei-in-red-as-trump-escalates-iran-conflict-11767604)
-- [Channel NewsAsia — Asian stocks drop as oil rises after Trump's Hormuz levy threat](https://www.channelnewsasia.com/world/oil-rise-us-iran-war-attacks-strait-hormuz-6252266)
+- [NST — Wall Street ends lower as Iran tensions dampen risk appetite](https://www.nst.com.my/business/corporate/2026/07/1488151/wall-street-ends-lower-iran-tensions-dampen-risk-appetite)
+- [Saxo Bank — Market Quick Take: Inflation fears return, July 14, 2026](https://www.home.saxo/en-ch/content/articles/macro/market-quick-take---inflation-fears-return---14-july-2026-14072026)
 
-**Commentary:** Asian markets are shifting from AI beta to energy-and-rates beta — the bullish case is a narrowing semiconductor decline and a regional V-shaped bounce; the bearish case is persistently high oil forcing Asian central banks to delay easing and compressing growth-stock multiples.
+**Commentary:** Geopolitics and energy were the trigger for this leg lower — the bullish case is partial Hormuz reopening pulling oil below $80; the bearish case is a prolonged conflict forcing the Fed to reprice hikes ahead of the July 28–29 meeting.
 
 ---
 
 ## II. Tech & Mega-Caps
 
-### 3. SK Hynix Posts Largest-Ever Daily Drop; Korea Circuit Breaker Ripples Through Global Semis
+### 3. IBM Issues Surprise Earnings Warning; Shares Plunge ~23%–25%
 
-**Summary:** On July 13, SK Hynix shares plunged 15.37% in Seoul to KRW 1.845 million, the company's largest single-day drop on record, pulling the KOSPI down as much as 9% and triggering a 20-minute trading halt. Its Nasdaq ADR (SKHY) fell 9.32% to $152.35, nearly erasing the 13% debut gain from July 10. A Korea Investment & Securities report suggested Q2 operating profit may miss consensus by about 8%, while profit-taking after the $26.5B listing and liquidation of Korea's 2x leveraged ETFs created a Seoul–New York "vicious cycle." The shock spread to Micron (MU, -4.32%), Sandisk (SNDK, -12.63%), Western Digital (WDC), AMD (-4.21%), and Intel (INTC, -6.1%).
+**Summary:** Before the open on July 14, IBM released preliminary Q2 results a week early: revenue of about $17.2B (vs. ~$17.86B expected) and adjusted EPS of about $2.93 (vs. ~$3.01), its first EPS miss in at least five years. CEO Arvind Krishna said clients reprioritized capex toward servers, storage, and memory for AI infrastructure, hurting z17 mainframe and related software sales; several large deals failed to close on schedule. Shares fell about 19%–25% premarket, touching roughly $215 and approaching the 23.7% Black Monday record drop of October 19, 1987. Final results are due July 22. The warning also pressured sentiment across traditional enterprise software.
 
 **Links:**
 
-- [Korea JoongAng Daily — SK hynix ADR drops 9% on Nasdaq as AI chip rally faces valuation reset](https://www.koreajoongangdaily.com/business/sk-hynix-adr-drops-more-than-9-on-second-day-of-trading/12771846)
-- [TipRanks — Chip Stocks Slide on "Vicious Cycle" Warning and SK Hynix Weak Profit Estimate](https://www.tipranks.com/news/mu-sndk-skhy-chip-stocks-slide-after-hours-on-vicious-cycle-warning-and-sk-hynixs-weak-profit-estimate)
+- [CNBC — IBM stock craters after issuing second-quarter earnings warning](https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html)
+- [Morningstar — IBM stock dives toward worst day in nearly 40 years](https://www.morningstar.com/news/marketwatch/2026071437/ibms-stock-dives-toward-worst-day-in-nearly-40-years-after-the-surprise-release-of-an-earnings-miss)
 
-**Commentary:** Post-mega-IPO valuation reset is a stress test for the memory chain — the bullish case is Q2 earnings validating HBM scarcity and shares stabilizing above the $149 offer price; the bearish case is leveraged-product liquidations cascading across Korea and the U.S., dragging the SOX index back toward year-to-date lows.
+**Commentary:** IBM is the poster child for AI-capex crowding-out — the bullish case is a July 22 repair roadmap limiting damage to IBM alone; the bearish case is sustained IT budget shifts toward compute hardware and a broader software re-rating.
 
 ---
 
-### 4. Apple Hits Record High as Capital Rotates from AI Chips to Steady Cash Flow
+### 4. Apple Leads Mag 7 in 2026 as Flows Rotate Out of AI Chips
 
-**Summary:** On July 13, Apple (AAPL) rose 0.67% to $317.42, touching an intraday record of $323.45 and reaching a market cap of about $4.66 trillion, while the Nasdaq fell 1.55% and the Philadelphia Semiconductor Index dropped 4.78%. Bloomberg analysis noted growing skepticism about returns on massive AI infrastructure spending, with Apple's decision to skip the data-center arms race increasingly viewed as a safe-haven asset rather than a liability; AAPL has rallied about 15% from its June 25 low, adding nearly $600 billion in market value. Citi raised its price target over the weekend from $315 to $365 on iPhone 17 strength; Nvidia (NVDA) fell 3.54% to $203.50 on the same session.
+**Summary:** Reports on July 14 noted Apple has rallied about 16% from its June 25 low, adding roughly $650B in market value and becoming 2026's best-performing Magnificent Seven name (up about 17% YTD); it rose about 1.4% on July 13 to a record. Over the same stretch the Philadelphia Semiconductor Index fell about 10% while the Nasdaq 100 gained only about 0.3%. Investors worry massive AI infrastructure capex (projected above $700B this year) is squeezing hyperscaler free cash flow; Morgan Stanley says the Mag 7 P/E premium vs. the S&P 500 has fallen to about 10%, the lowest in a decade. Apple trades near 32x earnings — the richest multiple in the group — yet only 61% of Wall Street analysts rate it a buy.
 
 **Links:**
 
-- [Yahoo Finance — Apple's $600 Billion Rally Fueled by Traders Fleeing AI Selloff](https://finance.yahoo.com/markets/stocks/articles/apple-600-billion-rally-fueled-101317523.html)
-- [Investopedia — Apple Just Hit a New High](https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07132026-12016813)
+- [The Edge Malaysia — Apple's US$650 bil rally fuelled by traders fleeing AI sell-off](https://theedgemalaysia.com/node/810544)
+- [Yahoo Finance — Magnificent 7 trading at cheapest valuation in more than a decade](https://finance.yahoo.com/markets/article/the-magnificent-7-stocks-are-trading-at-their-cheapest-valuation-in-more-than-a-decade-131922532.html)
 
-**Commentary:** Mag 7 dispersion — chips weak, Apple strong — confirms the AI trade is splitting — the bullish case is Apple continuing as a defensive anchor for the Dow and S&P; the bearish case is rising memory costs eroding margins and forcing another round of price hikes that dampen demand.
+**Commentary:** Rotation is moving from AI hardware toward cash-flow certainty — the bullish case is a Mag 7 valuation repair lifting indexes; the bearish case is persistent AI capex pressure keeping free cash flow under strain and prolonging the group's malaise.
 
 ---
 
-### 5. Nvidia, AMD, Broadcom Lead AI Chip Selloff on Hyperscaler Spending Concerns
+### 5. Semiconductors and AI Names Slammed Monday; Nvidia Falls 3.5%
 
-**Summary:** On July 13, AI chip and semiconductor names led U.S. market losses. Nvidia fell 3.54%, AMD dropped 4.21%, Broadcom (AVGO) lost 3.98%, and Qualcomm (QCOM) weakened; the Philadelphia Semiconductor Index fell 4.78% to a multi-month low. A Morgan Stanley note on July 14 suggested capital may rotate from chip stocks back to hyperscalers as the market rewards more disciplined AI capex. Business Insider cited Wall Street views that the Magnificent Seven has had a lackluster 2026 (the Roundhill MAGS ETF is roughly flat YTD) while the SOX index is up about 78% year to date — but July 13 marked an early reversal signal.
+**Summary:** On July 13, AI and chip stocks led the decline: Nvidia (NVDA) fell 3.5%, Micron (MU) 4.3%, SanDisk (SNDK) 12.6%, Marvell (MRVL) 7.8%, and Arm more than 7%. Asia followed — South Korea's KOSPI had dropped about 9% in the prior session, with Samsung Electronics down 10.7% and SK Hynix 15.4%; the two account for over 60% of KOSPI market cap. TSMC's June revenue rose about 68% YoY, yet its U.S. ADR still fell 2.9%. Markets weighed rich AI valuations, oil-driven inflation fears, and rising Fed-hike odds, while Korea's tech crash sparked global chip-chain contagion.
 
 **Links:**
 
-- [Yahoo Finance — Nvidia, Broadcom, AMD Lead AI Chip Stock Selloff After SK Hynix Slump](https://sg.finance.yahoo.com/news/nvidia-broadcom-amd-lead-ai-130643330.html)
-- [Business Insider — Why Wall Street Says It's Time to Buy the Dip in the Mag 7 Stocks](https://www.businessinsider.com/magnificent-seven-stocks-buy-the-dip-meta-msft-amzn-goog-2026-7)
+- [Northwest Arkansas Democrat-Gazette — Stocks slip under weight of AI losses, rising oil costs](https://www.nwaonline.com/news/2026/jul/14/stocks-slip-under-weight-of-ai-losses-rising-oil/)
+- [BusinessToday — Brent crude rises 13%, AI stocks tumble](https://www.businesstoday.in/markets/stocks/story/brent-crude-oil-prices-rise-hit-one-month-high-ai-stocks-tumble-542687-2026-07-14)
 
-**Commentary:** A sustained chips-to-cloud rotation would reshape the 2026 AI trade — the bullish case is hyperscaler earnings validating AI monetization and a chip bounce; the bearish case is a capex slowdown narrative taking hold and the SOX giving back more than half its year-to-date gains.
+**Commentary:** Chips flipped from leaders to laggards on valuation and macro — the bullish case is a Tuesday semiconductor bounce (Micron and Sandisk up about 5% intraday) after cooler CPI; the bearish case is sustained oil gains driving a deeper AI drawdown.
 
 ---
 
-## III. Earnings & Results
+## III. Earnings & Fundamentals
 
-### 6. JPMorgan Leads Q2 Earnings on July 14; Consensus EPS ~$5.50–$5.80
+### 6. Goldman Sachs Posts Record Q2: EPS $20.98; Investment-Banking Fees +55%
 
-**Summary:** On Tuesday, July 14, JPMorgan Chase (JPM) is scheduled to release Q2 results at 7:00 a.m. ET and host its earnings call at 8:30 a.m. ET, officially opening Q2 earnings season. Wall Street consensus points to EPS of about $5.50–$5.80 (roughly 11%–17% YoY growth) and revenue of $49.8B–$51.3B (about 8%–14% YoY). Investors will focus on net interest income trends, credit provisions, investment banking and trading revenue, and CEO Jamie Dimon's commentary on geopolitics and rates. Citigroup, Wells Fargo, and BlackRock also report Tuesday; Bank of America, Goldman Sachs, and Morgan Stanley follow on July 15. LSEG expects S&P 500 Q2 earnings growth of about 24%.
+**Summary:** On July 14, Goldman Sachs reported Q2 results for the period ended June 30: net revenue of $20.34B (+~39.5% YoY), net earnings of $6.63B, and diluted EPS of $20.98 — well above the ~$14.48 consensus; annualized ROE was 23.5%. Global Banking & Markets revenue hit a record $15.52B, equities trading a record $7.42B, and investment-banking fees $3.4B (+55% YoY), helped by the SpaceX IPO, SK Hynix listing, and M&A advisory. The IB backlog reached a five-year high. Shares rose more than 6.5%, the best performer among major banks on the day.
 
 **Links:**
 
-- [JPMorgan Chase IR — Second-Quarter 2026 Earnings Call (July 14)](https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-second-quarter-2026-earnings-call)
-- [Investing.com — JPMorgan, Citibank Earnings Preview](https://www.investing.com/analysis/jpmorgan-citibank-earnings-preview-buybacks-capital-return-in-focus-200683763)
+- [Proactive Investors — Goldman Sachs Q2 earnings beat on trading and investment banking](https://www.proactiveinvestors.com/companies/news/1095421/goldman-sachs-q2-earnings-beat-driven-by-strength-in-trading-and-investment-banking-1095421.html)
+- [Goldman Sachs — 2026 Second Quarter Earnings Release](https://www.goldmansachs.com/)
 
-**Commentary:** Bank earnings are the test of whether high rates plus trading strength can offset geopolitical risk — the bullish case is NII and capital markets revenue both beating and financials leading the market; the bearish case is management warning on second-half credit deterioration and triggering sector contagion.
+**Commentary:** Goldman validates the volatility-trading-IB triangle — the bullish case is backlog support for H2 banking revenue and financials leading earnings season; the bearish case is a geopolitical calm-down cutting trading revenue sequentially.
 
 ---
 
-## IV. Sectors & Industries
+### 7. JPMorgan Q2 Net Income $21.2B; EPS $7.70 Beats Estimates
 
-### 7. Trump Announces 20% Hormuz Toll and Iran Blockade; Oil Posts Biggest Gain Since April
-
-**Summary:** On July 13–14, President Trump announced via Truth Social a reinstatement of the Hormuz blockade on Iranian ports and a 20% fee on all cargo transiting the strait; U.S. Central Command said the blockade would take effect at 4:00 p.m. ET on July 14. WTI crude rose 9.08% to $77.99/bbl on July 13 and Brent gained 10.76% to $83.31/bbl — the largest daily gain since May 2020; Brent reached $85.64/bbl in Asian trading on July 14. Citi warned the fee proposal materially raises military escalation risk; Lipow Oil Associates estimates the charge equates to roughly $16/bbl in added cost. The strait carries about 20% of global oil trade; Kpler data showed only 14 vessels transited on July 13 versus 37 a week earlier.
+**Summary:** Before the open on July 14, JPMorgan Chase reported Q2 net income of $21.2B and diluted EPS of $7.70 on revenue of about $57.35B — well above Wall Street's ~$5.55 EPS and ~$50.6B revenue consensus. Markets, investment banking, consumer banking, and wealth management all contributed; CFO Jeremy Barnum raised full-year net-interest-income guidance. Yet the stock fell about 2.5% intraday — among the weakest big-bank reactions — as investors focused on H2 NII and credit quality rather than the known-strong quarter. Citigroup rose about 1.5%–1.8% and Bank of America gained about 1.4% before fading.
 
 **Links:**
 
-- [CNBC — Oil prices today: Brent, WTI rise on Hormuz toll](https://www.cnbc.com/2026/07/14/oil-prices-today-brent-wti-hormuz-trump-toll-iran.html)
-- [CNBC — Trump's Hormuz toll plans bring oil supply risks back in spotlight](https://www.cnbc.com/2026/07/14/trumps-hormuz-toll-plans-bring-oil-supply-risks-back-in-spotlight.html)
+- [SEC — JPMorgan Chase Q2 2026 Earnings 8-K Filing](https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/jpm-20260714.htm)
+- [The Edge Malaysia — Wall Street rises on cooler inflation data, big bank earnings](https://theedgemalaysia.com/node/810675)
 
-**Commentary:** Energy is shifting from "rising oil lifts all boats" to geopolitical-exposure stock picking — the bullish case is a symbolic blockade and oil retreating below $75; the bearish case is Iran walking away from the June MOU and oil staying higher for longer, overturning IEA surplus forecasts.
+**Commentary:** Beat-and-drop reflects rate-path anxiety — the bullish case is upward NII guidance pulling financials higher; the bearish case is oil repricing inflation and cutting NII expectations again.
 
 ---
 
-## V. Central Bank & Macro
+### 8. Wells Fargo Q2 Net Income $6.4B; EPS $2.00
 
-### 8. Fed Governor Waller Warns on Inflation; Markets Price ~50% July Rate Hike Odds
-
-**Summary:** On July 13, Federal Reserve Governor Christopher Waller said core inflation has trended higher through the first half of 2026 (core PCE at 3.4% YoY in May) and that if the June CPI due July 14 comes in hot, the FOMC will need to consider tightening "in the near term." Headline PCE was 4.1% YoY in May, well above the 2% target, with core inflation rising before the Hormuz conflict. CME data showed July hike odds jumping from near zero to about 47%–50%, with September hike probability near 76%. The 10-year Treasury yield rose to about 4.57% and the 30-year exceeded 5%. Waller emphasized that "sternly staring at inflation" is not an option.
+**Summary:** On July 14, Wells Fargo reported Q2 net income of $6.4B and diluted EPS of $2.00 (+~25% YoY) on revenue of $22.6B (+~9% YoY), with ROTCE rising to 17.7%. Net interest and non-interest income both grew; average loans rose 12% YoY and deposits 10%. Corporate & Investment Banking revenue rose 16% and Wealth & Investment Management 13%. The bank announced $3.0B in buybacks and an 11% dividend hike to $0.50/share. Despite a broad beat, shares fell about 2%, mirroring JPMorgan's sell-the-news reaction.
 
 **Links:**
 
-- [Federal Reserve — Speech by Governor Waller on the economic outlook (July 13, 2026)](https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm)
-- [New York Times — The Fed's Christopher Waller Warns of Higher Rates Soon if Inflation Stays High](https://www.nytimes.com/2026/07/13/business/federal-reserve-inflation-data-rates.html)
+- [eToro — Wells Fargo Q2 2026 Earnings Report](https://happening.etoro.app/s/nyse/WFC/q2-2026-earnings-report)
+- [Bank of America IR — Second Quarter 2026 Financial Results (peer context)](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-reports-second-quarter-2026-financial-results.html)
 
-**Commentary:** Waller's remarks make July 14 CPI a policy pivot trigger — the bullish case is June CPI easing to 3.8% as expected and the Fed holding rates steady; the bearish case is sticky core inflation plus an oil shock forcing a Q3 hike and compressing growth-stock multiples.
+**Commentary:** Regional-bank earnings resilience is confirmed but price action is mixed — the bullish case is stable credit supporting financials' valuation repair; the bearish case is late-cycle slowdown signals emerging in H2 reports.
 
 ---
 
-### 9. June CPI Due July 14 at 8:30 a.m. ET; Consensus Expects 3.8% YoY
+## IV. Sectors & Themes
 
-**Summary:** The Bureau of Labor Statistics is scheduled to release June 2026 CPI at 8:30 a.m. ET on Tuesday, July 14 — a critical data point ahead of the Fed's July 28–29 meeting. May CPI was 4.2% YoY, the highest since April 2023; economists broadly expect June to ease to 3.8% YoY with a monthly decline of 0.1%–0.2% (the first negative print since May 2020), largely reflecting a roughly 9.6% drop in gasoline prices after the mid-June U.S.–Iran ceasefire. FXStreet forecasts a 0.25% monthly gain and 0.24% core CPI rise; CNN cited FactSet showing core inflation at 2.9% in May. In-line data could ease Waller's hawkish pressure; a surprise would reinforce hike pricing and hit risk assets.
+### 9. Brent Crude Rises ~13% in Two Days; Energy Only Bright Spot Monday
+
+**Summary:** On July 13–14, Brent crude climbed from about $75.48/bbl (July 11) to roughly $85.66–$86 in early Tuesday trade, a two-day gain of about 13.5% and a one-month high. WTI moved in tandem. The S&P 500 energy sector rose about 3.2% on Monday; Exxon Mobil gained about 4.1%. Higher oil revived inflation fears, lifting the 10-year yield from 4.56% to about 4.61% and briefly pushing July Fed-hike odds above 43%; post-CPI odds fell back toward 10%–15%. Energy and tech diverged sharply.
 
 **Links:**
 
-- [BLS — Schedule of Releases: June 2026 CPI on July 14](https://www.bls.gov/schedule/news_release/cpi.htm)
-- [CNN Business — Don't be fooled: America's inflation problems aren't going away](https://www.cnn.com/2026/07/13/economy/inflation-prices)
+- [BusinessToday — Brent crude oil prices rise 13%, hit one-month high](https://www.businesstoday.in/markets/stocks/story/brent-crude-oil-prices-rise-hit-one-month-high-ai-stocks-tumble-542687-2026-07-14)
+- [TS2 — Oil up 13% as AI stocks, Fed and CPI all in play](https://ts2.tech/en/oil-up-13-as-ai-stocks-fed-and-cpi-all-in-play/)
 
-**Commentary:** CPI adjudicates the energy-shock-versus-core-sticky inflation debate — the bullish case is falling energy pulling headline inflation lower and markets re-pricing toward rate cuts; the bearish case is stubborn core services and shelter plus a July Hormuz-driven energy rebound forcing Fed action.
+**Commentary:** Oil is the shadow policy variable for inflation and the Fed — the bullish case is conflict easing and crude back toward $75, easing hike pressure; the bearish case is Brent retesting $100 and undoing CPI-driven dovish repricing.
+
+---
+
+## V. Central Banks & Macro
+
+### 10. June Core Inflation Flat; Energy Down 5.7% MoM but Up 15.7% YoY
+
+**Summary:** The BLS July 14 release showed June food prices up 3.0% YoY and energy up 15.7% YoY but down 5.7% MoM; core CPI (ex food and energy) ran near 2.9%–3.0% YoY. The all-items CPI-U index stood at 333.952 (1982–84=100) for a 3.5% unadjusted 12-month gain. TS2 reported traders cut July hike odds from 35% to about 10% and September action odds from above 90% to roughly 60%. Analysts warned that if Middle East fighting persists, June's energy pullback may prove temporary and core services inflation remains sticky.
+
+**Links:**
+
+- [BLS — Consumer Price Index Summary, June 2026](https://www.bls.gov/news.release/cpi.nr0.htm)
+- [TS2 — Soft CPI data trims Fed rate hike bets](https://ts2.tech/en/soft-cpi-data-trims-fed-rate-hike-bets-high-real-yields-weigh-on-stocks/)
+
+**Commentary:** One print is not a trend reversal — the bullish case is core inflation drifting toward 2% and the Fed on hold; the bearish case is a second oil shock lifting PPI and July CPI.
+
+---
+
+### 11. Fed Chair Warsh's Congressional Debut: Anti-Inflation Pledge, No Rate Guidance
+
+**Summary:** On July 14, new Fed Chair Kevin Warsh delivered his first semiannual monetary policy testimony to the House Financial Services Committee, pledging zero tolerance for persistent high inflation and a resolute return to price stability, but offering no forward guidance on rates per his stated approach. The June FOMC held the fed funds rate at 3.5%–3.75%; about half of 18 officials penciled in at least one hike by year-end, while Warsh submitted no dot-plot forecast. Testimony coincided with June CPI; Warsh appears before the Senate Banking Committee on July 15. The next FOMC meeting is July 28–29.
+
+**Links:**
+
+- [PBS News — Fed chair Kevin Warsh testifies on monetary policy](https://www.pbs.org/newshour/politics/watch-live-fed-chair-kevin-warsh-testifies-on-monetary-policy-in-house-hearing)
+- [Yahoo Finance — Fed Chair Kevin Warsh pledges to defeat inflation](https://finance.yahoo.com/economy/policy/articles/fed-chair-kevin-warsh-pledges-124428389.html)
+
+**Commentary:** Hawkish words with no immediate action keeps markets guessing — the bullish case is inflation data supporting no hikes in 2026; the bearish case is a hawkish Senate turn restarting hike talk.
 
 ---
 
 ## VI. Institutions & Positioning
 
-### 10. Wall Street Raises JPMorgan Price Targets; BofA Sees $408, KBW $370
+### 12. Wall Street Sees Mag 7 Dip-Buying Opportunity; Morgan Stanley Eyes Hyperscaler Rotation
 
-**Summary:** Ahead of earnings, multiple banks lifted JPM targets: Bank of America on July 7 raised its target from $362 to $408 (Buy, implying ~20% upside); UBS maintained $375–$384; KBW on July 9 lifted from $363 to $370; Evercore ISI sees $360. Among 24 analysts, consensus is Buy with an average target of about $342–$354, still 4%–13% above the July 13 close of $335.47. Institutions view JPM as the earnings-season bellwether for financials and the broader market, alongside its $50B buyback and $1.65 quarterly dividend.
+**Summary:** Around July 14, Morgan Stanley told clients that as chip volatility rises, flows may rotate from semiconductors back to Amazon, Microsoft, and Alphabet — hyperscalers showing more disciplined AI spending. Business Insider summarized Goldman, Morgan Stanley, and other firms arguing the Mag 7's flat 2026 (Roundhill Mag 7 ETF roughly unchanged YTD) may set up a rebound window. The Motley Fool ranked free-cash-flow yield across the group, placing Meta, Apple, Microsoft, and Nvidia in the top four as relatively resilient AI-capex-cycle names.
 
 **Links:**
 
-- [StockAnalysis — JPMorgan Chase (JPM) Stock Forecast & Price Targets](https://stockanalysis.com/stocks/jpm/forecast/)
-- [MarketBeat — JPM Price Target Raised to $408.00 at Bank of America](https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-nysejpm-price-target-raised-to-40800-at-bank-of-america-2026-07-07/)
+- [Business Insider — Why Wall Street says it's time to buy the dip in Mag 7 stocks](https://www.businessinsider.com/magnificent-seven-stocks-buy-the-dip-meta-msft-amzn-goog-2026-7)
+- [The Motley Fool — Ranking Magnificent 7 stocks by free-cash-flow yield](https://www.fool.com/investing/2026/07/13/rank-magnificent-7-stocks-free-cash-flow-yield/)
 
-**Commentary:** Analyst optimism collides with geopolitical risk — the bullish case is a JPM beat-and-raise lifting XLF to new year-to-date highs; the bearish case is credit-cost warnings triggering financial-sector profit-taking and dragging the S&P lower.
+**Commentary:** Institutional views are splitting — the bullish case is a Mag 7 valuation repair lifting the Nasdaq; the bearish case is AI capex continuing to erode cash flow and making dip-buying fail again.
 
 ---
 
 ## VII. Sentiment & Technicals
 
-### 11. VIX Jumps 14% to 17.15; Nasdaq Breaks Below 50-Day Moving Average
+### 13. VIX Rises to 17.16; S&P 500 Dispersion Hits Six-Year High
 
-**Summary:** On July 13, the CBOE VIX closed up 14.17% at 17.16 (intraday high 17.41), a multi-week high and a sharp rise from 15.03 on July 10. The Nasdaq Composite at 25,873.18 broke below its 50-day moving average near 26,100; the S&P 500 fell 0.79% while energy led sector gains. The Trading Tools noted the VIX in the "normal" zone at the 53rd percentile but up sharply from 15.0 the prior session; S&P 500 21-day realized volatility was about 14.1% with an implied-minus-realized spread of roughly 3.0 points. Real Investment Advice had previously warned that summer 2026's VIX–S&P divergence means low vol does not equal low risk.
-
-**Links:**
-
-- [Yahoo Finance — CBOE Volatility Index (^VIX)](https://finance.yahoo.com/quote/%5EVIX/)
-- [The Trading Tools — VIX Today: Live Fear Index vs S&P 500](https://www.thetrading.tools/vix-fear-index)
-
-**Commentary:** VIX jumping from 15 to 17 is an early risk-appetite inflection signal — the bullish case is soft CPI pulling VIX back below 15; the bearish case is a geopolitical-plus-CPI double hit pushing VIX above 20 and triggering CTA systematic de-risking.
-
----
-
-### 12. A-Shares Fall on July 14; Northbound Outflow of RMB 17.384B Sets Record
-
-**Summary:** On July 14, mainland China equities traded lower: the Shanghai Composite fell 0.83% to 3,414.62 (down more than 2% intraday), the Shenzhen Component lost 1.08% to 13,996.46, and the ChiNext dropped 1.06% to 2,858.67 (down more than 3% intraday). Combined turnover was about RMB 1.70 trillion, the ninth consecutive session above RMB 1 trillion. Northbound (Stock Connect) funds recorded a net sell of RMB 17.384 billion, the largest single-day outflow since the program launched; Shenzhen Connect net selling of RMB 12.389 billion also set a record. Mainland funds net sold about RMB 133.7 billion, with electronics, healthcare, and IT each seeing outflows above RMB 10 billion. Global chip weakness and Middle East tensions weighed on sentiment despite a brief afternoon broker-led bounce.
+**Summary:** On July 14, the VIX closed at 17.16 (prior 15.03), up about 14.2%; VIX1D jumped about 48% to 14.63 pricing the CPI event, yet remained well below the 52-week high of 35.30. TS2 reported the S&P 500 dispersion index at 47%, a six-year peak, with a ~31-point gap between single-stock implied vol and index VIX — calm at the index level, risk building underneath. Saxo Bank noted the term structure stayed in contango and SKEW held elevated at 145.69. Retail mega-cap tech call share was about 56%, near year highs.
 
 **Links:**
 
-- [Jiemian — Mainland funds net sold over RMB 130B; electronics hit hardest](https://www.jiemian.com/article/4673202.html)
-- [Wall Street CN — A-share close: northbound net selling hits record](https://dedicated.wallstreetcn.com/qq/articles/3598657)
+- [Saxo Bank — Market Quick Take: Inflation fears return, July 14, 2026](https://www.home.saxo/en-ch/content/articles/macro/market-quick-take---inflation-fears-return---14-july-2026-14072026)
+- [TS2 — VIX stays quiet while S&P 500 signal flashes 47% risk warning](https://ts2.tech/en/vix-stays-quiet-while-sp-500-signal-flashes-47-risk-warning/)
 
-**Commentary:** Record northbound outflows reflect global risk aversion meeting A-share profit-taking — the bullish case is geopolitical easing bringing foreign flows back and electronics stabilizing; the bearish case is sustained foreign selling of hard-tech leaders triggering a cascade from concentrated Q2 holdings.
+**Commentary:** Index-level calm masks stock-level stress — the bullish case is CPI and bank earnings resolving dispersion lower; the bearish case is failed sector rotation and vol jumping from stocks to the index.
 
 ---
 
 ## Today's Summary
 
-- U.S. stocks fell on July 13 on geopolitical and oil shocks, with the Nasdaq down 1.55% and below its 50-day line; Asia-Pacific shares followed on July 14, with Korea's KOSPI down more than 2% and A-share northbound outflows hitting a record RMB 17.384 billion.
-- SK Hynix posted its largest-ever daily drop (Korea -15%, ADR -9.3%), rippling through global semiconductors; Apple hit a record high as capital rotated from AI chips toward steady cash-flow names.
-- JPMorgan leads Q2 earnings on July 14 with consensus EPS around $5.50–$5.80; June CPI is also due at 8:30 a.m. ET, with expectations for 3.8% YoY headline inflation.
-- Trump's 20% Hormuz toll and Iran blockade lifted Brent to $83–$85/bbl; Fed Governor Waller warned on inflation, with markets pricing roughly 50% odds of a July hike.
-- The VIX jumped 14% to 17.15; mainland funds net sold over RMB 130 billion, with electronics seeing nearly RMB 30.2 billion in outflows.
+- Tuesday, July 14, was a triple catalyst day — CPI, earnings season, and Warsh's Fed debut: June headline inflation at 3.5% YoY beat expectations and lifted U.S. equities, but Monday's 0.79% S&P drop and 1.55% Nasdaq slide on Iran-oil stress still loomed.
+- IBM's ~25% plunge on a surprise earnings warning exposed AI-capex crowding-out of enterprise software; semiconductors fell hard Monday before a partial Tuesday bounce, while Apple led the Mag 7 and the group's valuation premium hit a decade low.
+- Goldman posted a record Q2 (EPS $20.98) and led financials higher; JPMorgan earned $21.2B but sold off on guidance concerns; Wells Fargo beat with EPS $2.00 — bank strength contrasted sharply with IBM's warning.
+- Brent crude rose about 13% over two days above $85; Warsh pledged inflation defeat without rate guidance, and July hike odds fell from ~35% to roughly 10%–15% after CPI.
+- The VIX rose to 17.16 while S&P 500 dispersion hit a six-year high — a fragile balance of steady indexes and risky individual names.
 
-**Daily Framing:** July 14 was a "geopolitical shock realization day" — the Hormuz blockade and oil surge ended the false calm near record highs, with chip carnage, a VIX spike, and record northbound outflows all signaling shrinking risk appetite, while same-day CPI and bank earnings will decide whether this is a one-off event-driven selloff or the start of a valuation-and-rates double hit.
+**Daily Framing:** July 14 was a "data-rescue day" — softer June CPI and strong bank earnings restored confidence, but elevated oil, IBM's crash, and semiconductor volatility reminded markets this bounce still rests on fragile geopolitical and AI-valuation balance.
 
 ---
 

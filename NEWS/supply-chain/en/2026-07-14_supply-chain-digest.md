@@ -6,158 +6,158 @@
 
 ## I. Semiconductors & Critical Materials
 
-### 1. UMC starts advanced photonic chip production in Singapore as AI connectivity demand spills into packaging
-**Summary:** Nikkei Asia reported on Jul 14, 2026, that Taiwan's second-largest foundry United Microelectronics Corp. has begun producing advanced photonics chips in Singapore to meet surging AI demand for high-speed interconnect; a senior executive told Nikkei that combining optical technology with chip packaging is seen as the next growth driver. The Singapore line extends UMC's footprint beyond mature-node foundry into AI data-center optical interconnect and silicon photonics — complementing TSMC's CoWoS advanced-packaging expansion, which addresses compute stacking while photonics addresses rack-level bandwidth. Related Nikkei coverage the same day notes LG's $1 billion Vietnam semiconductor investment and Qualcomm's challenge to Nvidia's HBM dependence, reflecting how AI infrastructure competition is moving beyond GPUs into interconnect and regional capacity.
+### 1. UMC delivers mass-produced 12-inch silicon photonics from Singapore as AI data-center interconnect enters shipping phase
+**Summary:** CNBC and TrendForce reported on Jul 14, 2026, that Taiwan's second-largest foundry United Microelectronics Corp. announced first mass-produced silicon photonics wafer deliveries from its Singapore 12-inch fab, developed with local fabless SILITH in 18 months from R&D to production, qualified by a leading cloud infrastructure customer for volume deployment; the platform supports 200G/lane products and is extending toward 400G/lane and 1.6T solutions. UMC plans to open its own silicon photonics platform to customers in 2027 and offer advanced packaging from 2027 to shorten electrical paths between photonic chips and processors. Citi upgraded its second-half outlook the same day, forecasting 13% quarter-on-quarter revenue growth in Q2 2026 and gross margin recovery; Singapore is aggregating King Yuan, Vanguard (TSMC-backed), and NXP's $7.8 billion joint venture into a regional semiconductor ecosystem.
 
 **Links:**
 
-- [Nikkei Asia — Taiwan's No. 2 chipmaker UMC starts photonic chip production in Singapore (July 14, 2026)](https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-no.-2-chipmaker-umc-starts-photonic-chip-production-in-singapore)
+- [CNBC — UMC starts mass production in Singapore; Citi sees improving outlook (July 14, 2026)](https://www.cnbc.com/2026/07/14/umc-starts-mass-production-in-singapore-citi-sees-improving-outlook.html)
+- [TrendForce — UMC Announces First Delivery of Mass-Produced Silicon Photonics Wafers from Singapore 12-Inch Fab (July 14, 2026)](https://www.trendforce.com/news/2026/07/14/news-umc-announces-first-delivery-of-mass-produced-silicon-photonics-wafers-from-singapore-12-inch-fab/)
 
-**Commentary:** AI's next bottleneck is optical — UMC is turning Singapore from a mature-node site into a silicon-photonics shipping hub.
+**Commentary:** AI's bottleneck is spilling from GPU stacking to rack-level optical interconnect — UMC is turning Singapore from a mature-node site into a silicon-photonics shipping hub.
 
 ---
 
-### 2. Micron commits $500 million and a 10-year deal to GlobalWafers' Texas 300 mm wafer expansion
-**Summary:** Per eeNews Europe on Jul 13, 2026, and GlobalWafers' Jul 9 announcement, Micron will provide GlobalWafers with $500 million in strategic financing and plan a 10-year supply agreement supporting expansion of its 300 mm silicon wafer facility in Sherman, Texas; Chair Doris Hsu said Phase II expansion is now "imperative" because Phase I capacity cannot cover volumes Micron committed under the new agreement. Micron also raised expected US fab and technology spending from more than $200 billion to more than $250 billion through 2035, targeting 40% of DRAM production in the US; GlobalWafers' Texas project previously received up to $406 million under the CHIPS program. The transaction remains subject to definitive agreements and closing conditions, but it moves "local for local" from slogan to the most basic upstream input — silicon wafers.
+### 2. Nvidia cuts Asia buyer whitelist by more than half as Singapore, Malaysia, and Japan vetting tightens
+**Summary:** The Next Web, citing the Financial Times, reports Nvidia has cut by more than half the number of Asia customers cleared to buy AI chips, building a new regional buyer whitelist and stepping up due diligence in Singapore, Malaysia, and Japan — the three jurisdictions most common in chip-diversion cases over the past two years. The tightening follows a May 31, 2026 Commerce Department BIS clarification that export licenses are required when an entity's ultimate parent is headquartered in China or Macau, so a Singapore registration no longer settles compliance; in March, US prosecutors charged Supermicro's co-founder and others over an alleged scheme to move roughly $2.5 billion of Nvidia chips into China via a Southeast Asian proxy. Excluded firms may reapply, but criteria are unpublished; legitimate data-center operators may be blocked over shareholder structures they cannot easily explain. Nvidia has not commented publicly; shares fell about 3.5% on Monday with the broader chip complex.
 
 **Links:**
 
-- [eeNews Europe — Micron backs Texas wafer supply with $500 million deal (July 13, 2026)](https://www.eenewseurope.com/en/micron-texas-wafer-supply-globalwafers-500-million/)
+- [The Next Web — Nvidia builds a white list: more than half of its Asian customers are off it](https://thenextweb.com/news/nvidia-halves-asia-buyer-list-china-crackdown)
+
+**Commentary:** Export control shifted from inspecting every shipment to policing the customer list — compliance cost is being outsourced to the chip vendor, shrinking Southeast Asia's AI infrastructure buyer pool.
+
+---
+
+### 3. UBS raises DRAM price forecasts as HBM capacity displacement extends structural shortage to 2028
+**Summary:** CryptoBriefing, citing UBS's July Memory Monthly, says global memory chip monthly sales reached $74.6 billion in July 2026, up 31.7% month-on-month — an all-time monthly high; DRAM was about $48 billion (+27.7% MoM). UBS raised Q3 2026 DDR contract price forecasts to +32% quarter-on-quarter and Q4 to +18%, with NAND at +30% and +12%, and sees DRAM structurally undersupplied through at least Q2 2028. TrendForce's Jul 3 survey also expects general DRAM contract prices to rise 13–18% QoQ in 3Q26 and NAND 10–15%; HBM consumes an estimated 23–25% of global DRAM wafer starts while overall capacity grows only about 14% annually, and AI server RDIMM and HBM long-term agreements further squeeze PC and embedded DRAM spot supply.
+
+**Links:**
+
+- [CryptoBriefing — Memory sales hit record $74.6B as AI demand surges, UBS reports](https://cryptobriefing.com/memory-sales-record-ai-demand-ubs/)
+- [TrendForce — AI Server Demand Continues to Support Memory Prices in 3Q26 (July 3, 2026)](https://www.trendforce.com/presscenter/news/20260703-13134.html)
+
+**Commentary:** Memory "shortage" is wafer reallocation, not a cycle — every HBM lot added is another round of price hikes and allocation for consumer and automotive DRAM.
+
+---
+
+### 4. Micron commits $500 million and a 10-year deal to GlobalWafers' Texas 300 mm wafer expansion
+**Summary:** The Storm Media on Jul 9, 2026, and eeNews Europe on Jul 13 report Micron will provide GlobalWafers with $500 million in strategic financing and plan a 10-year supply agreement supporting Phase II expansion of its 300 mm silicon wafer facility in Sherman, Texas; Chair Doris Hsu said Phase I capacity cannot cover volumes Micron committed under the new agreement and Phase II is now "imperative." Micron also raised expected US fab and technology spending to more than $250 billion through 2035, targeting 40% of DRAM production in the US; GlobalWafers' Texas project previously received up to $406 million under the CHIPS program. Hsu also cited Middle East tensions pushing international freight rates higher, making "local for local" a resilience requirement rather than a cost option.
+
+**Links:**
+
 - [The Storm Media — GlobalWafers Secures 10-Year Deal and $500 Million from Micron (July 9, 2026)](https://world.storm.mg/articles/1148365)
+- [eeNews Europe — Micron backs Texas wafer supply with $500 million deal (July 13, 2026)](https://www.eenewseurope.com/en/micron-texas-wafer-supply-globalwafers-500-million/)
 
-**Commentary:** Memory reshoring is not just fabs — a decade-long wafer contract locks the invisible upstream layer in Texas.
-
----
-
-### 3. Intel announces €5 billion Leixlip expansion to boost Intel 3 Xeon output
-**Summary:** Intel's Jul 13, 2026 news release and RTE report a €5 billion (about $5.7 billion) capital program at its Leixlip campus in Ireland to upgrade existing fabs and install advanced equipment, expanding output of Intel Xeon 6 and next-generation Intel 3 server processors; work began earlier this year and is expected to finish by end-2027, creating hundreds of full-time jobs and thousands of construction roles. Irish Taoiseach Micheál Martin said the move strengthens Europe's resilient semiconductor supply chain; Leixlip has seen more than €30 billion in cumulative investment since 1989 and employs about 4,900 people. The expansion adds no new buildings — it integrates campus modules via an automated track system and raises utilization of existing cleanroom space to meet sustained AI and HPC silicon demand.
-
-**Links:**
-
-- [Intel Newsroom — Intel Invests €5 Billion to Expand Manufacturing in Europe (July 13, 2026)](https://newsroom.intel.com/intel-foundry/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe/)
-- [RTE — Hundreds of new Intel jobs for Leixlip in €5bn investment (July 13, 2026)](https://www.rte.ie/news/business/2026/0713/1583104-new-intel-leixlip-jobs/)
-
-**Commentary:** Europe's advanced-node increment comes from sweating existing fabs, not greenfield plants — Intel Foundry customers need deliverable capacity first.
+**Commentary:** Memory reshoring is not just fabs — a decade-long wafer contract locks the most upstream input layer in Texas.
 
 ---
 
-### 4. China tightens KrF/ArF photoresist monomer exports; SEMI warns of 6–8 week lead-time extensions
-**Summary:** SEMI's Jul 12, 2026 Global Photolithography Materials Alert (GPM-2026-07) states that China's Ministry of Commerce has placed certain KrF/ArF photoresist core monomers, including acrylic-derivative categories, under export control requiring dual-use licenses; SEMI expects Q3 lead times to extend by six to eight weeks as US and European wafer fabs urgently evaluate alternative suppliers. Global Trade Draft notes the issue has shifted from material shortage to licensing, lead time, and supplier qualification — near-term purchase execution and delivery commitments are at risk. This stacks with MOFCOM's Jul 1 strategic-minerals violation reporting mechanism and extraterritorial restrictions on entities such as MP Materials, raising compliance costs across the materials chain.
+### 5. China tightens KrF/ArF photoresist monomer exports; SEMI warns of 6–8 week lead-time extensions
+**Summary:** Global Trade Draft, citing SEMI's Jul 12, 2026 Global Photolithography Materials Alert (GPM-2026-07), states China's Ministry of Commerce has placed certain KrF/ArF photoresist core monomers, including acrylic-derivative categories, under export control requiring dual-use licenses; SEMI expects Q3 lead times to extend six to eight weeks as US and European wafer fabs urgently evaluate alternative suppliers. Morgan Lewis's July analysis notes MOFCOM's strategic-minerals violation reporting mechanism effective Jul 1, 2026, and June 2026 listing of 10 US entities including MP Materials and USA Rare Earth with global prohibitions on re-transfer of China-origin dual-use items, stacking with photoresist licensing to raise compliance and second-source costs.
 
 **Links:**
 
 - [Global Trade Draft — SEMI Alert Signals Tighter Controls on KrF/ArF Inputs (July 12, 2026)](https://globaltradedraft.com/news/Electronic_Chem/Photoresist_for_KrF_ArF/SEMI_Alert_Signals_Tighter_Controls_on_KrF_ArF_Inputs.html)
 - [Morgan Lewis — Recent China Export Control Actions Signal Active Enforcement for Rare Earths and Strategic Minerals (July 2026)](https://www.morganlewis.com/pubs/2026/07/recent-china-export-control-actions-signal-active-enforcement-for-rare-earths-and-strategic-minerals)
 
-**Commentary:** Photoresist bottlenecks are shifting from Japanese suppliers to "China-origin monomers plus licenses" — fabs must stock paperwork and second sources, not just inventory.
+**Commentary:** The materials bottleneck moved from Japanese suppliers to "China-origin monomers plus licenses" — fabs must stock paperwork and qualification, not just inventory.
 
 ---
 
-## II. Logistics, Ports & Geopolitical Disruption
+## II. Logistics, Ports & Geopolitical Shock
 
-### 5. Trump announces 20% Hormuz cargo security fee; US Navy restarts maritime blockade on Jul 14
-**Summary:** Shipping Telegraph reported on Jul 14, 2026, that President Trump said the US would become the "Guardian of the Hormuz Strait" and charge 20% on all cargo shipped through the waterway to cover security costs; US Central Command (CENTCOM) simultaneously announced it would resume enforcing a naval blockade on vessels entering and leaving Iranian ports from 4 p.m. ET on Jul 14. CENTCOM said it would continue supporting regional traffic for vessels not violating the blockade; during the prior Apr 13–Jun 18 blockade, US forces redirected more than 140 compliant vessels and disabled nine non-compliant ships. The Loadstar notes Middle East-related spot rates on some lanes have surged more than 250% above the global average, with certain backhaul and intra-regional trades exceeding pandemic peaks; carriers are again turning to Middle East landbridge routes to bypass the Gulf.
+### 6. Trump announces 20% Hormuz cargo security fee as US naval blockade on Iran resumes Jul 14
+**Summary:** Shipping Telegraph reported on Jul 14, 2026, that President Trump said the US would become "Guardian of the Hormuz Strait" and charge 20% on all cargo shipped through the waterway to reimburse security costs, beginning immediately Monday; US Central Command announced enforcement of a naval blockade on vessels entering and leaving Iranian ports from Jul 14 at 4 p.m. ET. CENTCOM said it continues supporting traffic for vessels not violating the blockade; during the prior Apr 13–Jun 18 blockade it redirected more than 140 compliant vessels and disabled nine non-compliant ships. The IMO Council reiterated that strait passage should remain free of tolls and charges; UN Secretary-General António Guterres urged restraint. Iran's foreign ministry said Muscat talks focused on strait administration arrangements and accused Washington of blocking an agreement.
 
 **Links:**
 
 - [Shipping Telegraph — Trump to charge 20% on cargo shipped through Hormuz; restarts Iranian blockade (July 14, 2026)](https://shippingtelegraph.com/shipping-reports/trump-to-charge-20-on-cargo-shipped-through-hormuz-restarts-iranian-blockade/)
-- [The Loadstar — Box ship attacked, Hormuz shut again, Middle East rates sail past pandemic peak](https://theloadstar.com/box-ship-attacked-hormuz-shut-again-middle-east-rates-sail-past-pandemic-peak/)
 
-**Commentary:** A 20% transit fee plus naval blockade prices geopolitical risk directly into bills of lading — shippers must choose Cape routing or protection payments.
-
----
-
-### 6. Hormuz commercial transits hit a two-month low; only 14 merchant vessels crossed on Sunday
-**Summary:** Anadolu Agency and IndexBox reported on Jul 14, 2026, that after Iran's Islamic Revolutionary Guard Corps announced the strait closed until further notice on Sunday, Kpler data showed only 14 commercial vessels transited Hormuz that day — the lowest since May 25; Jul 10–12 saw 73 total crossings, averaging under 25 per day, far below the pre-war ~130 daily average and the 70-plus daily recoveries after the Jun 14 US-Iran preliminary agreement. Crossings fell from 24 on Jul 11 to 20 on Jul 10, accelerating downward. Business Standard notes inbound tanker capacity averaged 6 million barrels per day on Jul 10–12, down from 8.5 million in the first week of July; some compliant outbound energy carriers transited with AIS signals off. Gibson brokers warn that prolonged closure amid rapidly drawn-down global stocks raises supply constraint and freight upside risk.
-
-**Links:**
-
-- [Anadolu Agency — Commercial ship traffic through Strait of Hormuz falls back to near-record lows](https://www.aa.com.tr/en/us-israel-iran-war/commercial-ship-traffic-through-strait-of-hormuz-falls-back-to-near-record-lows/3996431)
-- [IndexBox — Strait of Hormuz Tanker Traffic Hits Two-Month Low Amid US-Iran Strikes (July 14, 2026)](https://www.indexbox.io/blog/strait-of-hormuz-tanker-traffic-hits-two-month-low-amid-us-iran-strikes/)
-
-**Commentary:** Brief post-ceasefire recovery has been erased by renewed attacks — Kpler counts matter more than diplomatic claims that the strait is "open."
+**Commentary:** A 20% transit fee plus naval blockade prices geopolitical risk directly into bills of lading — shippers are choosing between Cape reroutes and paying for "security."
 
 ---
 
-### 7. Global port congestion hits a four-year high; roughly 3.4 million TEU waiting at anchor
-**Summary:** Maritime Gateway reported on Jul 14, 2026, that Linerlytica data show nearly 11% of the global container fleet at anchor waiting for berths, with about 3.4 million TEU queued — the worst congestion in four years. Shanghai faces roughly three-day waits and three-to-four-day import/export dwell amid solar exports and an early peak season; Singapore schedule reliability is "sub-optimal," and Taipei/Keelung congestion has worsened as exporters rush shipments ahead of the Jul 24 expiry of a 10% US tariff deadline. India's Nhava Sheva is tightening on vessel bunching, rail delays, trucking shortages, and yard density; Antwerp backlogs persist, Hamburg faces Kohlbrand Bridge and Altenwerder rail constraints, and Rotterdam heatwave stoppages add delays. Maersk cut 5,000 TEU weekly on its NE3/AE3 Asia–North Europe service; Shanghai–North Europe SCFI rose 3% to $3,158/TEU in early July, with some 40-foot targets nearing $5,000.
+### 7. Global port congestion hits four-year high with roughly 3.4 million TEU at anchor
+**Summary:** Maritime Gateway reported on Jul 14, 2026, that Linerlytica data show about 11% of the global container fleet at anchor waiting for berths, with roughly 3.4 million TEU queued — the worst congestion in four years. Shanghai faces about three days' vessel waiting and three to four days' import/export dwell amid solar exports and an early peak season; Singapore reports sub-optimal schedule reliability, and Taipei/Keelung worsened as exporters rush shipments before the Jul 24 expiry of the US 10% Section 122 tariff. Nhava Sheva faces vessel bunching, rail delays, trucking shortages, and yard density; Antwerp is clearing backlog, Hamburg faces Kohlbrand Bridge and Altenwerder rail constraints, and Rotterdam heat triggered temporary stoppages. Maersk cut NE3/AE3 Asia–North Europe weekly capacity by 5,000 TEU; Shanghai–North Europe SCFI rose 3% to $3,158/TEU in early July, with some routes targeting $5,000 for 40-foot boxes.
 
 **Links:**
 
 - [Maritime Gateway — World's Ports Hit Four-Year Congestion High (July 14, 2026)](https://www.maritimegateway.com/worlds-ports-hit-four-year-congestion-high/)
 
-**Commentary:** Red Sea diversion, Hormuz re-closure, and tariff-deadline front-loading are stacking — port queues have become a global anchor problem, not a routing-only issue.
+**Commentary:** Red Sea diversions, Hormuz re-closure, and tariff-deadline front-loading are stacking — ports have moved from a routing problem to a global anchor queue.
 
 ---
 
-### 8. Far East–US West Coast spot rates up 276% since pre-crisis; capacity injection only moderates the climb
-**Summary:** Supply Chain Intelligence citing Xeneta chief analyst Peter Sand notes that since the late-February US-Israel attack on Iran, Far East–US West Coast and East Coast spot rates are up 276% and 232% respectively; the latest week saw some moderation, but shippers still pay multiples of year-start budgets. Sand says the change is mainly on the supply side: carriers continue injecting capacity on Far East–US West Coast (+5.5% week-on-week), US East Coast (+6.2%), and Far East–North Europe (+3.1%), improving reliability slightly but not yet translating into lower rates. Peak season is beginning with Middle East conflict keeping oil elevated and limiting rate relief; Sand says Hormuz remains "effectively closed" to container shipping. Shippers accept shorter spot-quote validity and higher buffer inventory under high rates and uncertain schedules.
+### 8. Tariff front-loading may push July US container imports to a record 2.47 million TEU
+**Summary:** Shipping Great on Jul 13, 2026, citing NRF and Hackett Associates' Global Port Tracker, says importers front-loading ahead of the Jul 24 Section 122 10% global surcharge expiry and potential Section 301 forced-labor tariffs could push July US container imports to 2.47 million TEU, exceeding the May 2022 pandemic peak of 2.4 million TEU. Asia–US West Coast spot rates surged more than 120% to about $6,482/FEU and East Coast to about $7,904; an STG Logistics survey of 500 enterprises found 85.6% used front-loading, but 42% reported significant warehousing cost increases and 44% severe working-capital strain. Thomson Reuters' 2026 Global Trade Report also shows 72% of trade professionals cite US tariff volatility as the most impactful regulatory change and 65% have changed sourcing patterns.
 
 **Links:**
 
-- [Supply Chain Intelligence — Iran conflict raises Asia-US container rates 276%](https://news.yrules.com/en/archives/25901)
+- [Shipping Great — The Real Cost of Tariff-Hedging Frontloading in 2026 Logistics (July 13, 2026)](https://www.shippinggreat.com/2026/07/13/the-real-cost-of-tariff-hedging-frontloading-in-2026-logistics/)
+- [Thomson Reuters — The 2026 supply chain challenge: Global trade disruption](https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri/)
 
-**Commentary:** Trans-Pacific rate plateaus are built from strait closure, front-loading, and added capacity — more ships improve punctuality but are far from pre-pandemic pricing.
+**Commentary:** Front-loading dodges duties but buys port queues and warehouse bills — the hidden cost of tariff hedging is concentrating ahead of the Jul 24 deadline.
 
 ---
 
-## III. Manufacturing Investment & Trade Policy
+## III. Manufacturing, Labor & Trade Policy
 
-### 9. China's Jun exports +27% and imports +36% as AI hardware and tariff front-loading drive trade
-**Summary:** CNBC and AP reported on Jul 14, 2026, that customs data show Jun exports rose 27% year-on-year in US-dollar terms (from 19.4% in May) — the strongest since Oct 2021 and well above the 18.2% consensus; imports jumped 36%, the largest gain since Jun 2021, with a $125.6 billion trade surplus. First-half trade in electronic components and computer parts neared 5.1 trillion yuan (about $760 billion), up nearly 57%; shipments to the US rose about 14% while imports grew 26%. Exporters are front-loading ahead of the Jul 24 expiry of a 10% broad US tariff and potential Section 301 add-ons; import surges partly reflect Iran-war energy and commodity costs, while Jun crude imports fell 41% year-on-year to 29.3 million tons per CNBC — reportedly the lowest in nearly a decade. Markets watch a late-July Politburo meeting for stimulus, though analysts see limited major easing given resilient exports.
+### 9. Hyundai Motor three-day partial strike; Mobis affiliates Motras and Unitus to follow Jul 15
+**Summary:** Asia Business Daily on Jul 14, 2026, and Yonhap on Jul 13 report Hyundai Motor's union began a three-day partial strike Jul 13–15, stopping two hours per day and night shift after 15 rounds of failed wage, bonus, and AI/humanoid-robot deployment talks; the company announced production suspension across plants including Ulsan, citing partial disruption to all vehicle models. Hyundai Mobis production subsidiaries Motras (seat/chassis/front-end modules) and Unitus (airbags/steering/braking) plan four-hour partial strikes on Jul 15 day and night shifts — under JIT, module supply cuts hit lines more directly than vehicle-plant walkouts. A Jul 14 union statement warned of stronger action at a Jul 16 central committee meeting if management offers no new proposal. South Korea accounts for nearly half of Hyundai's global output, with more than 1 million annual exports; last year's partial strikes cut about 7,000 vehicles.
+
+**Links:**
+
+- [Asia Business Daily — Hyundai Motor Affiliates Also Halt Operations... Supply Chain on Alert Amid 'Domino Strikes' (July 14, 2026)](https://www.asiae.co.kr/en/article/automobile/2026071416361889615)
+- [Yonhap — Hyundai Motor workers begin three-day partial strike over pay dispute (July 13, 2026)](https://en.yna.co.kr/view/AEN20260713009700320)
+
+**Commentary:** Auto's next battleground is robot-deployment clauses plus JIT module domino strikes — Korean line stoppages will quickly reach global inventory.
+
+---
+
+### 10. China's June exports +27% and imports +36% as AI hardware and tariff front-loading drive trade
+**Summary:** CNBC and AP reported on Jul 14, 2026, that customs data show June exports rose 27% year-on-year in USD terms (from 19.4% in May), the strongest since October 2021 and well above the 18.2% consensus; imports rose 36% with a $125.6 billion trade surplus. First-half trade in electronic components and computer parts neared 5.1 trillion yuan (about $760 billion), up nearly 57%; imports from South Korea rose 85% and from Taiwan 41.1%, reflecting AI compute-chain upstream pull. Exporters front-loaded ahead of the Jul 24 US tariff switch; import surges partly reflect Iran-war-driven energy and commodity costs. Gavekal notes exports as a share of manufacturing sales reached 24% in the first four months of 2026, the highest since China's 2001 WTO accession.
 
 **Links:**
 
 - [CNBC — China trade data: imports, exports soar (July 14, 2026)](https://www.cnbc.com/2026/07/14/china-june-trade-data-exports-imports.html)
 - [AP News — China's exports jump 27% in June on strong demand for AI](https://apnews.com/article/china-trade-ai-tech-economy-29da1a43eba2961b57f6cfbe6f936e42)
 
-**Commentary:** China's trade K-shape is visible in the data — AI chains and front-loading lift exports, crude import contraction exposes energy-geopolitics costs, and domestic demand still waits on policy signals.
+**Commentary:** China's trade K-shape is visible in the data — AI chains and front-loading lift exports while domestic demand still waits on policy, and manufacturers trade margin for volume.
 
 ---
 
-### 10. Malaysia's PM Anwar orders response to global supply crisis; plastics industry as manufacturing bellwether
-**Summary:** Malay Mail and NST reported on Jul 14, 2026, that Prime Minister Anwar Ibrahim, also finance minister, directed the Ministry of Investment, Trade and Industry (MITI) and Ministry of Economy to engage manufacturers hit by the global supply crisis after a National Economic Action Council (NEAC) review; particular focus went to plastics, with 2025 sales of RM62.69 billion (RM64.78 billion in 2024), 45% packaging and 29% electrical and electronics, feeding food packaging, automotive, medical, and other sectors. Economy Minister Akmal Nasrullah Mohd Nasir said firms face raw-material, logistics, cash-flow, and delivery uncertainty, with some impacts on contracts, investment, and workforce; the Malaysian Plastics Manufacturers Association submitted structural cost and competitiveness proposals for ministry review balancing fiscal and chain interests. Anwar posted on X that the government takes industry concerns seriously.
+### 11. Malaysia's PM Anwar moves on global supply crisis as plastics sector mirrors manufacturing stress
+**Summary:** NST reported on Jul 14, 2026, that Prime Minister Anwar Ibrahim, also finance minister, directed MITI and the Economy Ministry after a National Economic Action Council meeting to engage manufacturers hit by the global supply crisis and ease cost pressures, with particular focus on plastics — 2025 sales of RM62.69 billion (RM64.78 billion in 2024), 45% packaging and 29% electrical and electronics, feeding food packaging, automotive, and medical downstream. Economy Minister Akmal said firms report pressure on raw materials, logistics, cash flow, and delivery certainty; the Malaysian Plastics Manufacturers Association submitted structural cost and competitiveness proposals to NEAC for review balancing fiscal and chain interests.
 
 **Links:**
 
-- [Malay Mail — Anwar directs Miti, Economy Ministry to engage industries hit by global supply crisis (July 14, 2026)](https://www.malaymail.com/news/malaysia/2026/07/14/anwar-directs-miti-economy-ministry-to-engage-industries-hit-by-global-supply-crisis/227486)
 - [NST — Global supply crisis: Anwar orders action to ease manufacturers' cost pressures (July 14, 2026)](https://www.nst.com.my/news/nation/2026/07/1488235/global-supply-crisis-anwar-orders-action-ease-manufacturers-cost)
 
 **Commentary:** Global crisis reaches Southeast Asia through plastic intermediates into E&E, automotive, and medtech BOMs — Anwar is translating macro shock into sector-by-sector intervention.
 
 ---
 
-### 11. US Section 232 pharma tariffs approach Jul 31 deadline; Pfizer and two other Annex III firms still lack onshoring deals
-**Summary:** Pharmaceutical Commerce and Exiger analyses in Jul 2026 note that President Trump's Apr 2 proclamation imposes a default 100% tariff on patented drugs, APIs, and key starting materials under Section 232; Annex III's 17 large drugmakers face Jul 31, 2026, with others from Sep 29. Approved Commerce onshoring agreements cut the rate to 20%; combined HHS most-favored-nation pricing deals can yield 0% through Jan 2029. As of publication, Pfizer, Johnson & Johnson, and GSK/ViiV — three Annex III firms — had not finalized Commerce onshoring agreements after the Jun 12 application deadline, leaving tariff exposure unresolved; industry has pledged more than $500 billion in US investment. FDA's Feb 2026 PreCheck Pilot offers pre-submission guidance for new US lines, but the Jul 31 compliance window is extremely tight.
+### 12. US pharma Section 232 tariffs loom Jul 31 as Pfizer and two other Annex III firms lack finalized onshoring deals
+**Summary:** Pharmaceutical Commerce and Exiger analysis in July states Trump's Apr 2, 2026 proclamation imposes a default 100% Section 232 tariff on patented drugs, APIs, and key starting materials; 17 Annex III large pharma firms face Jul 31, 2026, with others from Sep 29. Commerce-approved onshoring agreements cut the rate to 20%; pairing onshoring with an HHS most-favored-nation pricing agreement yields 0% through January 2029. As of publication, Pfizer, Johnson & Johnson, and GSK/ViiV — three Annex III firms — had not finalized Commerce onshoring agreements after the Jun 12 application deadline, leaving tariff exposure unresolved; the 0% path requires both HHS pricing and Commerce onshoring agreements.
 
 **Links:**
 
 - [Pharmaceutical Commerce — FAQ: Where US Pharma Reshoring Stands in 2026](https://www.pharmaceuticalcommerce.com/view/faq-where-us-pharma-reshoring-stands-in-2026)
-- [PharmExec — Preparing for the July 31 Pharma Tariff Deadline](https://www.pharmexec.com/view/preparing-july-31-tariff-deadline)
+- [Exiger — Pharma Tariff Exposure: What's at Stake as Implementation Approaches](https://www.exiger.com/perspectives/pharma-tariff-exposure-whats-at-stake-as-implementation-approaches/)
 
-**Commentary:** Pharma faces a two-week "reshore or 100% tariff" countdown — without Commerce paperwork, production and import planning must assume the worst case.
-
----
-
-### 12. Manufacturer safety stocks hit highest since Jan 2023; GEP says firms still distrust trade stability
-**Summary:** Supply & Demand Chain Executive citing GEP global PMI supplementary data reports that Jun manufacturer reports of order backlogs due to critical input shortages were the highest since late 2022, with bottlenecks likely persisting into Q3; safety-stock building rose again in Jun, remaining at the highest level since Jan 2023. North America and Asia drove raw-material and intermediate purchasing (US input buying at its fastest since Apr 2022; Japan, China, and Vietnam also accelerated) while European factories retrenched. Reports of stockpiling due to price or supply concerns also hit Jan 2023 highs; GEP VP John Piatek said lower oil and transport costs have not restored trust — firms keep buying ahead because they expect more disruption.
-
-**Links:**
-
-- [Supply & Demand Chain Executive — Supply Chain Leaders to Build Buffer Stocks in Anticipation of Further Disruption](https://www.sdcexec.com/sourcing-procurement/manufacturing/news/22970346/gep-supply-chain-leaders-to-build-buffer-stocks-in-anticipation-of-further-disruption)
-
-**Commentary:** Macro freight relief diverges from micro hoarding — procurement managers are voting with balance sheets that Hormuz and tariffs are prelude, not peak risk.
+**Commentary:** Pharma's "reshore or 100% tariff" countdown has two weeks left — without Commerce paperwork in place, production and import planning must assume the worst case.
 
 ---
 
 ## Today's Summary
 
-- Trump announced a 20% Hormuz cargo fee and restarted the Iran maritime blockade on Jul 14; Kpler showed only 14 merchant vessels transiting on Sunday, the lowest tanker traffic since May 25.
-- Global port congestion hit a four-year high with about 3.4 million TEU at anchor; Far East–US West Coast spot rates are up 276% since pre-crisis, with Nhava Sheva and Asia–Europe hubs still tight.
-- UMC started photonic chip production in Singapore; Micron committed $500 million and a 10-year GlobalWafers Texas wafer deal; Intel is expanding Leixlip with €5 billion; KrF/ArF China-origin monomer exports now require licenses.
-- China's Jun exports rose 27% and imports 36%, led by AI hardware and tariff front-loading; Malaysia intervened in a plastics-led supply crisis; the US pharma Section 232 Jul 31 tariff window is approaching.
+- Trump announced a 20% Hormuz cargo fee and resumed the Iran naval blockade on Jul 14; global port congestion hit a four-year high with roughly 3.4 million TEU at anchor, and tariff front-loading may push July US imports to a record 2.47 million TEU.
+- UMC delivered mass-produced silicon photonics from Singapore and Nvidia cut its Asia buyer whitelist by more than half; UBS sees DRAM structural shortage through 2028, and Micron committed $500 million to a 10-year GlobalWafers Texas wafer deal.
+- Hyundai Motor's three-day partial strike continues with Mobis module plants set to follow Jul 15; China's June exports rose 27% and imports 36%, led by AI hardware and front-loading.
+- Malaysia's government intervened in plastics-sector supply-crisis pressure, and the US pharma Section 232 Jul 31 deadline approaches with Pfizer and two other Annex III firms still without finalized onshoring agreements.
 
-**Daily Framing:** Today was a "strait re-closure and port congestion day" in the supply-chain cycle — geopolitical fees and anchor queues are pushing AI expansion and trade front-loading into a defensive high-cost, high-inventory mode.
+**Daily Framing:** Today was a "strait tolls and port queues" day in the supply cycle — geopolitical pricing, tariff front-loading, and AI expansion are pushing logistics, chips, and autos into a high-cost defensive posture together.
 
 ---
 

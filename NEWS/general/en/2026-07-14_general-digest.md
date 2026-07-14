@@ -6,156 +6,155 @@
 
 ## I. Global Headlines
 
-### 1. Third Night of U.S.-Iran Strikes: Five-Hour Campaign Targets Military Sites; Iran Hits Gulf Tankers and U.S. Bases
-**Summary:** According to Al Jazeera, CNBC, and ABC on July 14, U.S. Central Command said it completed a third consecutive night of strikes against Iranian military targets in a roughly five-hour operation, hitting coastal defenses, missile and drone sites, and maritime capabilities in Bushehr, Chabahar, Jask, Konarak, Abu Musa, and Bandar Abbas. President Trump simultaneously announced the reinstatement of a naval blockade on Iranian ports and a proposed 20% "guardian" fee on cargo transiting the Strait of Hormuz. Iran's Islamic Revolutionary Guard Corps retaliated with cruise missiles against two UAE-flagged tankers, Mombasa and Al Bahiyah, in the strait's southern lane within Omani territorial waters, killing one Indian crew member and injuring eight. Tehran also claimed strikes on U.S. Fifth Fleet facilities in Bahrain, a U.S. air base in Jordan, and targets in Kuwait. Jordan said it intercepted four Iranian missiles; Bahrain sounded missile alerts again. India's Ministry of External Affairs summoned Iranian diplomats over the Indian sailor's death.
+### 1. U.S. and Iran Return to Open War: Third Night of U.S. Strikes; Iran Hits Gulf Tankers and U.S. Bases
+**Summary:** According to AP, Al Jazeera, and CNBC on July 14, the United States and Iran have slid back into open military confrontation after the interim ceasefire of June 17. U.S. Central Command said it completed a third wave of strikes on July 13 in a roughly five-hour operation, hitting military targets in Bushehr, Chabahar, Jask, Konarak, Abu Musa, and Bandar Abbas to degrade Iran's ability to attack commercial shipping. Iran's Islamic Revolutionary Guard Corps retaliated with missiles against two UAE-flagged tankers, Mombasa and Al Bahiyah, in the strait's southern lane within Omani waters, killing one Indian crew member and injuring eight. Tehran also struck U.S.-related targets in Bahrain (home to the Fifth Fleet), Jordan, Kuwait, and the UAE. Jordan said it intercepted four Iranian missiles; Bahrain sounded missile alerts again. President Trump has formally notified Congress that the U.S.-Iran war has resumed, giving the Pentagon 60 additional days under the War Powers Resolution.
 
 **Links:**
 
-- [Al Jazeera — Iran war live: US launches more attacks; 1 killed in Iranian strike on ship](https://www.aljazeera.com/news/liveblog/2026/7/14/iran-war-live-us-launches-more-attacks-trump-orders-blockade-in-hormuz)
+- [AP News — US attacks Iran as Tehran fires at tankers in strait](https://apnews.com/article/iran-us-hormuz-strait-war-july-14-2026-abd060c55feea216625689e57d8f76be)
 - [CNBC — U.S. targets military assets in latest round of strikes against Iran](https://www.cnbc.com/2026/07/14/us-iran-hormuz-strikes-oil-toll.html)
 
-**Commentary:** Last month's interim ceasefire framework is effectively dead — blockade orders and tanker attacks on the same day show Hormuz sliding from a transit-rights dispute into a regional war forcing Gulf states to pick sides.
+**Commentary:** Last month's Islamabad ceasefire dividend was erased in a single day — Hormuz is sliding from a transit-rights dispute into a regional war forcing Gulf states to pick sides, with Houthi threats to reopen Red Sea attacks widening the shock radius.
 
 ---
 
-### 2. Hormuz Crisis Sends Oil Surging; Brent Nears $85 as War-Risk Premiums Spike
-**Summary:** Per CNBC, The Star, and China Financial Information Network on July 14, oil prices jumped sharply after Trump announced the blockade and proposed transit fee: NYMEX WTI August futures closed up $6.73 at $78.14/bbl (+9.42%), and Brent September rose $7.29 to $83.30/bbl (+9.59%), with Brent briefly approaching $85 intraday. Lloyd's List Intelligence expects Hormuz war-risk premiums to rise sharply as shipowners and charterers pause transit decisions. The U.S. 10-year Treasury yield climbed to about 4.62%, and the two-year yield hit its highest since February 2025, as markets priced renewed inflation risks from the energy shock. Analysts note the waterway carried roughly one-fifth of global oil and gas trade before the conflict; any sustained disruption would directly hit global inflation and central-bank policy room.
+### 2. Trump Reverses 20% Hormuz Transit Fee, Reinstates Iranian Port Blockade; Brent Nears $85
+**Summary:** Per AP, Al Jazeera, and El País on July 14, Trump on Monday announced the reinstatement of a naval blockade on Iranian ports (effective 4:00 p.m. ET on July 14) and initially proposed a 20% "guardian" fee on cargo transiting the Strait of Hormuz; on Tuesday he reversed the toll plan, saying Gulf states would instead make trade and investment deals with the U.S. Iran, meanwhile, declared the strait closed as both sides accused each other of blocking passage. The escalation pushed Brent crude up about 2% to roughly $85/bbl and WTI to about $80; Lloyd's List Intelligence expects Hormuz war-risk premiums to rise sharply as shipowners and charterers pause transit decisions. Analysts note the waterway carried roughly one-fifth of global oil and gas trade in peacetime; any sustained disruption would directly hit global inflation and central-bank policy room.
 
 **Links:**
 
-- [The Star — Oil surges, stocks slip and bond yields rise as Gulf conflict flares up again](https://www.thestar.com.my/business/business-news/2026/07/14/oil-surges-stocks-slip-and-bond-yields-rise-as-gulf-conflict-flares-up-again)
-- [China Financial Information Network — Xinhua Finance Morning Brief: July 14](https://m.cnfin.com/yw-lb/zixun/20260714/4439855_1.html)
+- [Al Jazeera — Iran war live: Trump reverses 20-percent Hormuz tariff announcement](https://www.aljazeera.com/news/liveblog/2026/7/14/iran-war-live-us-launches-more-attacks-trump-orders-blockade-in-hormuz)
+- [El País — United States and Iran return to open war after a week of confrontations in Hormuz](https://english.elpais.com/international/2026-07-14/united-states-and-iran-return-to-open-war-after-a-week-of-confrontations-in-hormuz.html)
 
-**Commentary:** A near-10% one-day oil rally pushes energy risk back to the center of macro pricing — just as the Warsh-led Fed turned hawkish, Hormuz escalation heats up the July rate debate.
-
----
-
-### 3. UK Designates IRGC a National Security Threat; Supporting the Group Could Mean 14 Years in Prison
-**Summary:** Per the BBC, GOV.UK, and Al Jazeera on July 13–14, UK Home Secretary Shabana Mahmood announced that Iran's Islamic Revolutionary Guard Corps (IRGC) will be designated a threat to national security under the National Security (State Threats) Act 2026, which received Royal Assent last week. The IRGC joins Russia's GRU Volunteer Corps and the Iran-backed Islamic Movement of Companions of the Right (IMCR) as the first bodies designated. Once Parliament approves the regulations, expressing support, assisting UK-related activities, or accepting material benefits from these groups becomes a criminal offense punishable by up to 14 years in prison, with higher penalties for sabotage. The government said MI5 identified at least 20 potentially lethal Iran-backed plots in the past year, and the IRGC "almost certainly directed" seven IMCR attacks in Europe, including the March 23 arson on four Jewish ambulances in Golders Green, London. Foreign Secretary Yvette Cooper summoned Iran's ambassador.
-
-**Links:**
-
-- [GOV.UK — Support for IRGC outlawed in crackdown on foreign state proxies](https://www.gov.uk/government/news/support-for-irgc-outlawed-in-crackdown-on-foreign-state-proxies)
-- [BBC — UK bans support for Iran's Islamic Revolutionary Guard Corps](https://www.bbc.co.uk/news/articles/cz0jkj7e87go)
-
-**Commentary:** London's "state-threat" designation rather than a traditional terror listing expands enforcement tools while sidestepping legal controversy — pairing with Washington's Gulf military escalation in a dual military-judicial squeeze on Iran.
+**Commentary:** "Blockade plus toll" morphing into "trade for security" within a day is itself a risk premium — markets are pricing whether Washington can reliably steward the global energy chokepoint, not any single fee formula.
 
 ---
 
 ## II. U.S. Politics and Economy
 
-### 4. Trump Says Iran Deal "Still Possible," Formally Notifies Congress of Renewed Military Action
-**Summary:** Per RTE, ABC, and Al Jazeera on July 14, Trump told reporters in the Oval Office that "I think a deal is possible," saying a framework existed two days earlier but Iran sought further negotiations; Iranian Foreign Ministry spokesperson Baghaei said Tehran would ignore its obligations if Washington did the same, while continuing talks through Qatari, Pakistani, and Omani mediators to prevent further escalation. The White House confirmed Trump notified Congress on July 10 that the Pentagon resumed military action against Iran from July 7, giving the Pentagon 60 additional days under the War Powers Resolution. Trump also announced a national address on Thursday, July 17, without specifying the topic. An AFP tally based on Iranian announcements put at least 25 deaths in Iran since hostilities resumed last week.
+### 3. U.S. June CPI Eases to 3.5% YoY, Down 0.4% MoM; Core Inflation Flat on the Month
+**Summary:** Per the Bureau of Labor Statistics release on July 14, the seasonally adjusted all-items CPI fell 0.4% in June — the largest monthly decline since April 2020 — while the year-over-year rate eased to 3.5% from 4.2% in May. Energy prices dropped 5.7% on the month, with gasoline down 9.7%, driving the headline decline. Core CPI, excluding food and energy, was unchanged on the month and rose 2.6% YoY (from 2.9% in May). Analysts note the data largely reflects lower oil prices during the ceasefire period and does not capture this week's 15%+ oil rebound after Hormuz re-escalation; the White House cited the report as vindication of Trump's inflation outlook, though Governor Waller had already warned of a "near-term" hike if core inflation ran hot.
 
 **Links:**
 
-- [RTE — Trump says deal 'still possible' as US strikes Iran](https://www.rte.ie/news/middle-east/2026/0714/1583215-us-iran-strikes/)
-- [ABC News — Middle East ceasefire in tatters as Trump reinstates blockade and Iran strikes US bases](https://www.abc.net.au/news/2026-07-14/iran-united-states-war-blog-july-14-2026/106912082)
+- [BLS — Consumer Price Index News Release, June 2026](https://www.bls.gov/news.release/cpi.htm)
+- [NBC News — Inflation eased to 3.5% in June, just before energy prices spiked](https://www.nbcnews.com/business/economy/june-cpi-inflation-oil-prices-ai-rcna587311)
 
-**Commentary:** "Maximum military pressure plus a rhetorical diplomatic door" is Trump's familiar playbook — Thursday's national address may determine whether the blockade and transit fee become tradable diplomatic leverage.
+**Commentary:** June CPI is good news in the rearview mirror — once the energy shock lags into the July print, the Fed's July 28–29 decision will again be Hormuz-priced.
 
 ---
 
-### 5. Fed Governor Waller Warns of "Near-Term" Rate Hike; June CPI Due for Release Today
-**Summary:** Per the Federal Reserve and The New York Times on July 13, Governor Christopher Waller told the New York Association for Business Economics that monetary policy stands at a "crossroads": if this week's June core inflation reading runs hot again, the FOMC will need to consider tightening "in the near term" to avoid repeating the 2021–2022 mistake of waiting too long. He noted that even excluding direct energy effects, inflation this year remains well above the 2% target, with headline PCE at 4.1% YoY in May and core PCE rising from 3.0% in December 2025 to 3.4% in May. The Bureau of Labor Statistics is scheduled to release June CPI at 8:30 a.m. ET on July 14 (May headline CPI was 4.2% YoY); markets broadly expect June headline to ease toward about 3.8% on lower gasoline prices during the ceasefire period, though same-day Hormuz re-escalation complicates interpretation. CME FedWatch implies roughly a 43% chance of a 25-bp hike at the July 28–29 meeting.
+### 4. Federal Judge Rules Trump's $10 Billion IRS Settlement Improper
+**Summary:** Per News24 and U.S. media on July 14, Miami federal Judge Kathleen Williams found that President Trump improperly used a $10-billion lawsuit against the IRS to extract personal benefits, preventing the May settlement from taking legal effect. Trump dropped the suit in exchange for broad tax protections and a proposed $1.8-billion "government weaponization victims" fund that critics said would benefit political allies; Acting Attorney General Todd Blanche told Congress the fund would not proceed, though some tax provisions remain. Williams referred Trump's lawyer and senior Justice Department officials who signed the deal to bar disciplinary authorities. Blanche is scheduled to appear before the Senate Judiciary Committee on July 16 for his nomination hearing to serve as permanent attorney general.
 
 **Links:**
 
-- [Federal Reserve — Speech by Governor Waller on the economic outlook](https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm)
-- [The New York Times — The Fed's Christopher Waller Warns of Higher Rates Soon if Inflation Stays High](https://www.nytimes.com/2026/07/13/business/federal-reserve-inflation-data-rates.html)
+- [News24 — US judge slams Trump settlement with IRS](https://www.news24.com/world/us-judge-slams-trump-settlement-with-irs-20260714-0335)
+- [TIME — Lawmakers criticize Trump over resumption of Iran war](https://time.com/article/2026/07/14/democrats-republicans-lawmakers-criticize-trump-resumption-iran-war-strait-of-hormuz/)
 
-**Commentary:** Waller tied the July meeting directly to this week's CPI/PPI — if core inflation stays sticky while Hormuz pushes oil higher, the "growth downgrade plus forced tightening" combo will test Chair Warsh's "deliver price stability" narrative.
+**Commentary:** Judicial rejection of "litigation for personal gain" and bipartisan congressional criticism of the Iran war restart are converging — the tension between executive power expansion and legal constraint is surfacing on both judicial and foreign-policy fronts.
+
+---
+
+### 5. Senate Agenda Uncertain After Graham's Death; Warsh Testifies Before Congress
+**Summary:** Per the Arkansas Democrat-Gazette and the Fed schedule on July 14, Senate Republicans returned from recess Monday with an uncertain agenda after senior GOP Senator Lindsey Graham died suddenly on July 11; Mitch McConnell remains hospitalized with pneumonia. The GOP's slim 53–47 majority faces confirmation hearings this week for AG nominee Todd Blanche and DNI nominee Jay Clayton, plus a September 30 fiscal-year deadline to avoid a government shutdown. The same day, new Fed Chair Kevin Warsh testified before the House Financial Services Committee on the semiannual monetary policy report; Governor Waller on July 13 had warned the FOMC may need to tighten "in the near term" if core inflation runs hot, with markets at one point pricing roughly a 50% chance of a July hike.
+
+**Links:**
+
+- [Arkansas Democrat-Gazette — Senate returns with uncertain agenda after Graham's death](https://www.arkansasonline.com/news/2026/jul/14/senate-returns-with-uncertain-agenda-after/)
+- [Saxo Bank — Market Quick Take: Inflation fears return, July 14, 2026](https://www.home.saxo/en-ch/content/articles/macro/market-quick-take---inflation-fears-return---14-july-2026-14072026)
+
+**Commentary:** Graham's death weakens GOP foreign-policy hawkishness just as Warsh's first congressional appearance collides with Hormuz-driven oil — the Fed's "deliver price stability" narrative and the White House war agenda will clash openly in this week's hearings.
 
 ---
 
 ## III. China's Policy and Economy
 
-### 6. H1 Trade Hits 25.47 Trillion Yuan, Up 16.9% YoY, First Time Exceeding 25 Trillion
-**Summary:** Per Xinhua, China Economic Net, and customs data released at a State Council Information Office briefing on July 14, China's goods trade in H1 2026 reached 25.47 trillion yuan (+16.9% YoY), the first time exceeding 25 trillion in any comparable period; exports were 14.73 trillion yuan (+13.4%) and imports 10.74 trillion yuan (+22.1%), with import growth outpacing exports. June trade totaled 4.78 trillion yuan (+24.2% YoY), the 17th consecutive month of growth. Mechanical and electrical product exports rose 20.1% to 9.36 trillion yuan, accounting for 63.5% of exports; high-tech exports grew 39%. Private enterprises handled 14.53 trillion yuan (+17%), nearly 60% of total trade. Trade with BRI partner countries reached 12.97 trillion yuan (+14.8%), 50.9% of the total. Customs Vice Minister Wang Jun said the foreign trade fundamentals remain solid despite H2 pressures.
+### 6. Politburo Member Ma Xingrui Expelled From Party and Public Office for Corruption
+**Summary:** Per Xinhua, Caixin, and China Daily on July 14, the CPC Central Committee Political Bureau on June 30 reviewed a CCDI report on Ma Xingrui's serious violations and decided to expel him from the Party and public office, terminate his status as a 20th Party Congress delegate, confiscate illicit gains, and transfer his case to prosecutors. The notice said Ma lost his ideals and beliefs, engaged in power-for-sex and money-for-sex transactions, allowed relatives to leverage his influence for large benefits in "family corruption," and failed to rein in misconduct after the 18th Party Congress. Ma, 67, formerly headed China's crewed space program, served as Guangdong governor and Xinjiang Party chief, and joined the 24-member Politburo in 2022; he was placed under investigation in April — the third current-term Politburo member to fall.
 
 **Links:**
 
-- [China Economic Net — China's foreign trade grows strongly and steadily in H1 2026](http://www.ce.cn/xwzx/gnsz/gdxw/202607/t20260714_3086167.shtml)
-- [China Economic Net — China's goods trade up 16.9% in H1 2026](http://www.ce.cn/xwzx/gnsz/gdxw/202607/t20260714_3085845.shtml)
+- [China Economic Net — CPC Central Committee expels Ma Xingrui from Party and public office](http://www.ce.cn/xwzx/gnsz/gdxw/202607/t20260714_3085887.shtml)
+- [China Daily — Senior official Ma Xingrui expelled from CPC, public office](https://www.chinadaily.com.cn/a/202607/14/WS6a55ac71a310986e2b4652d8.html)
 
-**Commentary:** Import growth far outpacing exports reflects both domestic demand and commodity restocking — amid global energy shocks, this structure gives policymakers room for countercyclical adjustment with resilient exports and expandable domestic demand.
+**Commentary:** The fall of a space-program technocrat marks anti-corruption reaching deeper into the technocratic core — with knock-on effects for Xinjiang and western development personnel, and a signal that senior discipline knows no exceptions.
 
 ---
 
-### 7. State Council Issues "15th Five-Year Plan to Expand Consumption," Targeting 60 Trillion Yuan Retail Sales by 2030
-**Summary:** Per People's Daily and policy briefings on July 13–14, the State Council approved and issued the "15th Five-Year Plan to Expand Consumption," calling for expanded service consumption, upgraded goods consumption, and richer consumption scenarios. The plan targets social retail sales of about 60 trillion yuan by 2030, a higher household consumption rate, and continued growth in digital consumption. It deploys 28 key tasks across six areas — service consumption quality, goods consumption expansion, new business models, consumption capacity, consumption environment, and institutional mechanisms — plus nine special columns on the silver economy, culture and tourism, automobiles, and more. The plan explicitly calls for advancing "AI + consumption" and expanding supply of AI phones, wearables, robots, and other next-generation smart terminals.
+### 7. PBOC to Inject 1.4 Trillion Yuan via Reverse Repo; Li Qiang Stresses Countercyclical Adjustment
+**Summary:** Per the PBOC announcement, Yicai, and Xinhua Finance on July 14, the People's Bank of China will conduct a 1.4-trillion-yuan six-month outright reverse repo operation on July 15; after 900 billion yuan in maturities the same day, the net injection will be 500 billion yuan — the first net injection of six-month repos since February. Analysts note DR001 and DR007 have risen near the 1.4% policy rate amid mid-month tax payments and government-bond issuance, continuing the "short drain, long inject" liquidity stance. The same news cycle highlighted Premier Li Qiang's July 13 symposium with experts and entrepreneurs, stressing stronger countercyclical adjustment, systematic efforts to unlock domestic demand, scaled commercial AI applications, and stabilizing employment and businesses while optimizing the business environment.
 
 **Links:**
 
-- [People's Daily — State Council approves the 15th Five-Year Plan to Expand Consumption](http://politics.people.com.cn/n1/2026/0713/c1001-40759730.html)
-- [People's Daily — Sustained domestic demand expansion and consumption boost (policy Q&A)](http://finance.people.com.cn/n1/2026/0714/c1004-40759808.html)
+- [Yicai — PBOC to conduct 1.4 trillion yuan outright reverse repo on July 15](https://www.yicai.com/news/103274478.html)
+- [China Financial Information Network — Premier Li Qiang chairs economic symposium](https://m.cnfin.com/yw-lb/zixun/20260714/4439855_1.html)
 
-**Commentary:** The 60-trillion retail target elevates consumption from a growth sidekick to a "15th Five-Year" mainline task — paired with Li Qiang's same-day emphasis on countercyclical adjustment, the key test is whether fiscal transfers and income distribution keep pace.
+**Commentary:** Monetary liquidity support and fiscal demand expansion are moving in tandem — amid external energy shocks, the test is whether incremental policy tools land in Q3 in time.
 
 ---
 
-### 8. Premier Li Qiang Chairs Economic Symposium, Stressing Countercyclical Adjustment and Domestic Demand
-**Summary:** Per Xinhua and Sina Finance on July 13–14, Premier Li Qiang chaired an experts-and-entrepreneurs symposium on July 13 to hear views on the economic situation and next steps. Participants said that amid a turbulent international environment, H1 growth was generally stable, new drivers strengthened, and high-quality development momentum continued. Li stressed that H2 work directly affects full-year targets and a strong start to the "15th Five-Year Plan," calling for strategic focus, stronger countercyclical adjustment, full use of existing policies, and preparation of incremental measures. He urged systematic efforts to unlock domestic demand, improve services supply, advance major infrastructure and human-capital investment, accelerate manufacturing digitalization and scaled commercial AI applications, and stabilize employment and businesses while optimizing the business environment.
+### 8. State Council Approves "15th Five-Year Plan to Expand Consumption," Targeting 60 Trillion Yuan Retail Sales by 2030
+**Summary:** Per Xinhua, gov.cn, and Sina Finance on July 13–14, the State Council approved and issued the "15th Five-Year Plan to Expand Consumption," calling for expanded service consumption, upgraded goods consumption, and richer consumption scenarios. The plan targets social retail sales of about 60 trillion yuan by 2030 and a higher household consumption rate. It deploys 28 key tasks across six areas — service consumption quality, goods consumption expansion, new business models, consumption capacity, consumption environment, and institutional mechanisms — plus nine special columns on the silver economy, culture and tourism, automobiles, and more. NDRC and MOFCOM officials said retail sales already exceeded 50 trillion yuan at the end of the 14th Five-Year period, and the 15th Five-Year era will be a critical phase of volume-and-quality expansion.
 
 **Links:**
 
-- [Sina Finance — Premier Li Qiang chairs economic experts and entrepreneurs symposium](https://finance.sina.com.cn/roll/2026-07-14/doc-inihsyqp4173638.shtml)
-- [China Financial Information Network — Xinhua Finance Morning Brief: July 14](https://m.cnfin.com/yw-lb/zixun/20260714/4439855_1.html)
+- [Xinhua — State Council approves the 15th Five-Year Plan to Expand Consumption](https://www.news.cn/20260713/7354fda4914a49f9b464351330332437/c.html)
+- [Sina Finance — China deploys 28 key tasks to expand consumption in the 15th Five-Year period](https://finance.sina.com.cn/jjxw/2026-07-14/doc-inihtmeq5384788.shtml)
 
-**Commentary:** The symposium and consumption plan entering the news cycle together signal a H2 pivot from "stabilizing foreign trade" toward "stabilizing domestic demand plus promoting innovation" — an incremental policy window may open in Q3.
-
----
-
-### 9. Politburo Member Ma Xingrui Expelled From Party; Third Current-Term Member Purged for Corruption
-**Summary:** Per Xinhua, Caixin, and Reuters on July 14, the CPC Central Committee Political Bureau on June 30 reviewed a CCDI report on Ma Xingrui's serious violations and decided to expel him from the Party and public office, transferring his case to prosecutors. The notice said Ma "lost his ideals and beliefs," engaged in power-for-sex transactions, illegally accepted gifts, helped relatives buy property below market price, and allowed family members to leverage his influence for large benefits in "family corruption." Ma, 67, formerly headed China's crewed space program, served as Guangdong governor and Shenzhen Party secretary, and became Xinjiang Party chief in late 2021 and a Politburo member in 2022; he was placed under investigation in April. He is the third of the 24-member Politburo selected in 2022 to fall in the current term, after CMC Vice Chairman He Weidong (expelled October 2025) and CMC Vice Chairman Zhang Youxia (investigation opened January 2026).
-
-**Links:**
-
-- [Caixin Global — Former Politburo Member Ma Xingrui Expelled From Party, Faces Criminal Prosecution](https://www.caixinglobal.com/2026-07-14/former-politburo-member-ma-xingrui-expelled-from-party-faces-criminal-prosecution-102464110.html)
-- [Reuters via WTVB — China purges third Politburo member in deepening anti-graft drive](https://wtvbam.com/2026/07/14/china-purges-third-politburo-member-in-deepening-anti-graft-drive/)
-
-**Commentary:** The fall of a space-program technocrat marks anti-corruption reaching deeper into the technocratic core — with knock-on effects for Xinjiang and western development personnel arrangements.
+**Commentary:** The 60-trillion retail target elevates consumption from a growth sidekick to a "15th Five-Year" mainline — paired with liquidity injection and Li Qiang's symposium, the key test is whether income distribution and fiscal transfers keep pace.
 
 ---
 
 ## IV. U.S.-China Relations
 
-### 10. U.S. Weighs Open-Source AI Release Framework Amid Competition from Cheaper Chinese Models
-**Summary:** Per Firstpost and The Washington Post on July 14, the Trump administration is discussing a capability-based framework for releasing open-source AI with leading tech firms: whether to open U.S. frontier models would be benchmarked against the performance of China's leading open-source systems. Data from platforms such as OpenRouter show rising developer adoption of Chinese models; enterprise users increasingly favor "good enough and cheaper" options. The talks run parallel to a voluntary frontier-AI testing and deployment framework expected this month. Separately, U.S. authorities estimate Chinese rivals cost American labs about $6 billion annually through "adversarial distillation" replication of U.S. AI systems; Anthropic and OpenAI have accused multiple Chinese firms, and bipartisan lawmakers are pushing sanctions on related entities.
+### 9. Beijing Urges U.S. and Iran to Exercise Restraint, Respect Coastal States' Rights in Hormuz
+**Summary:** Per Anadolu Agency, Global Times, and The Hindu on July 14, Foreign Ministry spokesperson Lin Jian said at a regular briefing that China is deeply concerned about renewed military conflict in the Gulf, urging the U.S. and Iran to heed international calls for peace, remain calm and restrained, safeguard the hard-won ceasefire, avoid a return to war, and above all prevent fighting from spreading and harming more civilians. Lin stressed that respecting the lawful rights and interests of Hormuz coastal states and restoring normal, safe passage as soon as possible is what the international community expects, and all parties should work in the same direction toward a proper settlement. The statement came as Trump reinstated the Iranian port blockade and both sides attacked tankers and military bases; analysts note the energy-channel crisis forces Beijing to balance mediation with securing its own supply lines and Belt and Road corridors.
 
 **Links:**
 
-- [Firstpost — US weighs new AI release framework as cheaper Chinese models reshape the global race](https://www.firstpost.com/tech/us-weighs-new-ai-release-framework-as-cheaper-chinese-models-reshape-the-global-race-14031153.html)
-- [Briefs — U.S. Says Chinese AI Replication Costs $6 Billion Annually](https://www.briefs.co/news/u-s-says-chinese-ai-replication-costs-6-billion-annually/)
+- [Anadolu Agency — China urges US, Iran to avoid return of war, backs lawful rights of coastal nations in Hormuz](https://www.aa.com.tr/en/asia-pacific/china-urges-us-iran-to-avoid-return-of-war-backs-lawful-rights-of-coastal-nations-in-hormuz/3997262)
+- [The Hindu — West Asia war live, July 14, 2026](https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-14-2026/article71219702.ece)
 
-**Commentary:** Washington is extending the fight from chip export controls toward model export controls — the open-versus-closed, security-versus-market-share triangle will define the next phase of U.S.-China tech rivalry.
+**Commentary:** Beijing highlights "coastal states' rights" rather than picking sides — leaving face for Gulf partners while preserving diplomatic room for China's energy imports and Belt and Road corridor security.
 
 ---
 
 ## V. Other Regions
 
-### 11. Bangkok Bar Fire Death Toll Rises to 30; Safety Violations Under Investigation
-**Summary:** Per the BBC, AP, and The Straits Times on July 14, the death toll from the July 12 late-night fire at the Rong Beer Na Lat Phrao bar in Bangkok rose to 30, with more than 70 injured and 24 in critical condition — the capital's deadliest fire in 17 years. Experts from the Engineering Institute of Thailand found an emergency exit near the restrooms apparently locked and entrance doors partially blocked by furniture; the venue was registered as a "restaurant with live music" rather than an entertainment venue, so fire-retardant materials were not mandatory. Indie band Thotsakan was performing when the stage ignited within seconds; two band members died. Most victims were found in windowless restrooms, likely from smoke inhalation. Bangkok Governor Chadchart Sittipunt vowed tighter regulations; the Interior Ministry is reviewing whether the venue was licensed for live performances.
+### 10. Russia Launches Massive Overnight Strike on Ukraine; Ballistic Missiles Hit Kyiv, 7 Killed and 78 Injured
+**Summary:** Per the Kyiv Independent and Kyiv Post on July 14, Russia from the evening of July 13 into July 14 launched a large-scale attack using eight Iskander/S-400 ballistic missiles, two Kh-59/69 cruise missiles, and 135 drones; Ukrainian air defenses downed seven missiles and 108 drones. At least seven people were killed and 78 injured. Air raid sirens sounded in Kyiv at 12:15 a.m.; 16 sites were damaged, including a school and a business, though Zelensky said the capital reported no casualties. Dnipropetrovsk, Donetsk, Zhytomyr, and Odesa oblasts were also hit. Zelensky urged the EU to adopt its 21st sanctions package this week and strengthen anti-ballistic cooperation.
 
 **Links:**
 
-- [BBC — Death toll from Bangkok bar fire rises to 30 as police probe safety lapses](https://www.bbc.co.uk/news/articles/clyxyzlp9p2o)
-- [AP News — Bangkok bar fire kills 30: What to know](https://apnews.com/article/bangkok-bar-fire-ceiling-safety-exit-damage-167072225ec324aa069d3a172d55f837)
+- [Kyiv Independent — Russian attacks kill 7, injure 78 across Ukraine](https://kyivindependent.com/russian-attacks-kill-7-injure-78-across-ukraine-over-past-day-as-kyiv-comes-under-another-ballistic-missile-strike/)
+- [Kyiv Post — Ukraine intercepts ballistic missiles as Russia fires 145 aerial weapons](https://www.kyivpost.com/post/80215)
 
-**Commentary:** Licensing loopholes plus failed escape routes are Southeast Asia's recurring nightclub disaster script — whether Thailand turns 30 deaths into nationwide fire-safety reform is the real test.
+**Commentary:** Ballistic missiles hitting Kyiv and tanker attacks in Hormuz made the same day's headlines — two hot wars are mirroring each other through strikes on civilian shipping and infrastructure, squeezing Washington's energy and aid agendas simultaneously.
+
+---
+
+### 11. Assam Reports 1,679 People Sent to Bangladesh in Two Years; "Pushback" Mechanism Sparks Controversy
+**Summary:** Per The Indian Express, Moneycontrol, and Scroll on July 14, Assam Chief Minister Himanta Biswa Sarma told the state assembly that between July 1, 2024, and June 30, 2026, the state sent 1,679 people to Bangladesh through formal deportation, "sent back," and expulsion under the revived 1950 Immigrants (Expulsion from Assam) Act; 193 were declared foreigners by tribunals, including 67 expelled under the 1950 law after 24-hour notices and escort to the border, plus an infant who crossed with her mother. India says it follows central directives and does not repatriate those with pending appeals; Bangladesh and critics say many cases lack bilateral nationality verification and amount to "pushbacks." The same day, India's Supreme Court set aside High Court judgments declaring 27 people foreigners.
+
+**Links:**
+
+- [The Indian Express — 193 in 2 years: How many people have been pushed back to Bangladesh?](https://indianexpress.com/article/india/193-in-2-years-how-many-people-have-been-pushed-people-back-to-bangladesh-10785098/)
+- [Scroll — Assam: 193 declared foreigners forced into Bangladesh in two years](https://scroll.in/latest/1094259/assam-193-declared-foreigners-forced-into-bangladesh-in-two-years-says-cm-himanta-sarma)
+
+**Commentary:** Immigration enforcement is sliding from judicial process to immediate border push — friction between rule-of-law boundaries and diplomatic trust will keep simmering on India's longest land border, with spillover risks for South Asian Muslim communities.
 
 ---
 
 ## Today's Summary
 
-- **Middle East:** A third night of U.S.-Iran strikes; Trump reinstated the Iranian port blockade and proposed a 20% Hormuz transit fee; Iran attacked UAE tankers (1 dead, 8 injured) and struck U.S.-related targets in Bahrain, Jordan, and Kuwait; Brent crude jumped nearly 10%.
-- **U.S. policy:** Waller warned of a "near-term" hike if core inflation runs hot; June CPI is due for release today; Trump said an Iran deal remains possible and will address the nation Thursday.
-- **China's economy:** H1 trade up 16.9% YoY; the State Council issued the consumption "15th Five-Year Plan" targeting 60 trillion yuan in retail sales by 2030; Li Qiang chaired an economic symposium stressing countercyclical adjustment.
-- **China's politics:** Politburo member Ma Xingrui was expelled — the third current-term member to fall.
-- **U.S.-China tech:** Washington is weighing an open-source AI release framework and alleges Chinese "adversarial distillation" costs U.S. firms about $6 billion annually.
-- **Other regions:** The UK designated the IRGC a national security threat; a Bangkok bar fire killed 30.
+- **Middle East:** A third night of U.S.-Iran strikes; Trump reinstated the Iranian port blockade then reversed the 20% Hormuz transit fee; Iran attacked UAE tankers (1 dead, 8 injured) and struck targets in Bahrain, Jordan, and Kuwait; Brent crude neared $85.
+- **U.S. macro:** June CPI eased to 3.5% YoY with a 0.4% monthly decline, but does not reflect this week's oil rebound; Warsh testified before Congress while Waller warned of a possible "near-term" hike; a judge blocked Trump's IRS settlement.
+- **China's policy:** Ma Xingrui was expelled from the Party; the PBOC announced a 1.4-trillion-yuan reverse-repo net injection; the State Council issued the consumption "15th Five-Year Plan" targeting 60 trillion yuan in retail sales by 2030; Li Qiang stressed countercyclical adjustment and domestic demand.
+- **U.S.-China:** Beijing urged U.S.-Iran restraint and emphasized respect for Hormuz coastal states' rights and safe passage.
+- **Other regions:** Russian overnight strikes on Ukraine killed 7 and injured 78; Assam reported sending 1,679 people to Bangladesh over two years amid "pushback" controversy.
 
-**Daily Framing:** Today is a Tuesday of Hormuz remilitarization and global inflation repricing — blockade orders and tanker attacks erased last month's ceasefire dividend in a single session, forcing the Warsh Fed to confront oil and CPI simultaneously before July's meeting; meanwhile China paired record trade data with a consumption "15th Five-Year Plan," while anti-corruption and AI rivalry sketch parallel domestic-governance and external-competition storylines.
+**Daily Framing:** Today is a Tuesday of Hormuz remilitarization colliding with inflation data and an energy shock — ceasefire dividends were erased by blockades and tanker attacks in a single session, and June's CPI easing cannot mask this week's oil surge forcing the Warsh Fed and global central banks into a corner; China paired liquidity support, a consumption plan, and anti-corruption signals in a dual domestic-governance and external-competition response, while South Asian immigration pushbacks and Ukrainian ballistic-missile strikes show multiple powder kegs burning in parallel.
 
 ---
 
