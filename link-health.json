@@ -1,0 +1,4329 @@
+{
+  "version": 1,
+  "checkedAt": "2026-07-21T02:51:04.480Z",
+  "counts": {
+    "total": 19195,
+    "ok": 15099,
+    "dead": 1439,
+    "unknown": 2657
+  },
+  "dead": {
+    "http://economy.caijing.com.cn/20260626/5167354.shtml": {
+      "status": "network-error"
+    },
+    "http://economy.caijing.com.cn/20260611/5164705.shtml": {
+      "status": "network-error"
+    },
+    "http://economy.caijing.com.cn/20260602/5162947.shtml": {
+      "status": "network-error"
+    },
+    "http://create.roblox.com/build": {
+      "status": "network-error"
+    },
+    "http://down.foodmate.net/wap/index.php?moduleid=25&itemid=41080": {
+      "status": "network-error"
+    },
+    "http://blog.playstation.com/2026/02/27/upgraded-pssr-upscaler-is-coming-to-ps5-pro/": {
+      "status": "timeout"
+    },
+    "http://health.people.com.cn/n1/2026/0422/c14739-sanjian-2026.html": {
+      "status": 404
+    },
+    "http://hkstock.cnfol.com/shichangfenxi/20260316/32070693.html": {
+      "status": 404
+    },
+    "http://health.people.com.cn/n1/2026/0423/c14739-40707452.html": {
+      "status": "timeout"
+    },
+    "http://news.cnpc.com.cn/system/2026/05/08/030192340.shtml": {
+      "status": "network-error"
+    },
+    "http://politics.people.com.cn/n1/2026/0421/c1001-state-council-energy.html": {
+      "status": 404
+    },
+    "http://tech.china.com.cn/hydt/20260313/412292.shtml": {
+      "status": "network-error"
+    },
+    "http://www.cgigr.com.cn/2026/q1-report": {
+      "status": "network-error"
+    },
+    "http://www.csrs.org.cn/sleep-health-white-paper-2026": {
+      "status": 404
+    },
+    "http://www.gammadata.cn/cn/news/Q1-2026-gaming-market/": {
+      "status": 404
+    },
+    "http://www.ilovepcbang.com/news/articleView.html?idxno=129671": {
+      "status": 404
+    },
+    "http://www.people.com.cn/ai-compute-2026": {
+      "status": 404
+    },
+    "http://www.people.com.cn/digital-economy-2026": {
+      "status": 404
+    },
+    "http://www.xinhuanet.com/english/2026-04/22/liu-zhenmin-climate-multilateral.htm": {
+      "status": 404
+    },
+    "http://www.xinhuanet.com/politics/2026-04/21/state-council-energy-study.htm": {
+      "status": 404
+    },
+    "http://www.xinhuanet.com/health/2026-04/22/china-sleep-2026.htm": {
+      "status": 404
+    },
+    "http://www.xinhuanet.com/science/2026-04/22/mrna-vaccine-ind.htm": {
+      "status": 404
+    },
+    "https://24seven.news/2026/06/27/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/": {
+      "status": 404
+    },
+    "https://4movingmedical.com/fast-track-2026/": {
+      "status": "network-error"
+    },
+    "https://36kr.com/p/yizhuang-humanoid-robot-marathon-analysis-2026/": {
+      "status": 404
+    },
+    "https://36kr.com/p/guangdong-super-esports-league-2026": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/new-york-sues-trump-administrations-deal-end-offshore-133520227": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-6252026-134220440": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/world-shares-mixed-oil-falls-after-wall-street-132127130": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/iraqs-oil-hub-slows-crawl-strait-hormuz-shutdown-131641155": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/world-shares-higher-after-wall-street-hits-record-132088346": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/world-shares-mixed-oil-falls-after-wall-street-sets-another-record-on-ceasefire-hopes-132127130": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/iran-reviewing-us-proposal-trump-pressures-tehran-agreement-132735703": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/china-opens-investigations-us-trade-practices-response-trump-131464213": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/china-factory-activity-rebounds-march-iran-war-looms-131562604": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/iran-war-halts-qatar-helium-output-threatening-global-131278124": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/trump-administration-appeals-ruling-blocked-pentagon-action-anthropic-131657674": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-422026-131667588": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/japan-south-korea-stocks-hit-records-oil-gains-133475473": {
+      "status": 404
+    },
+    "https://abcnews.com/Entertainment/wireStory/hollywood-directors-reach-tentative-4-year-deal-studios-133736337": {
+      "status": 404
+    },
+    "https://abcnews.com/International/wireStory/uks-starmer-hosts-zelenskyy-macron-merz-discuss-support-133659267": {
+      "status": 404
+    },
+    "https://abcnews.com/International/wireStory/protesters-block-copper-exports-china-rio-tinto-mine-133952721": {
+      "status": 404
+    },
+    "https://abcnews.com/International/wireStory/war-iran-raises-pressure-ukraine-russia-prepares-new-131243838": {
+      "status": 404
+    },
+    "https://abcnews.com/Health/wireStory/trump-signs-order-speed-review-of-psychedelics-including-controversial-132165514": {
+      "status": 404
+    },
+    "https://abcnews.com/International/wireStory/uk-gathers-30-countries-plot-ways-reopening-strait-131640331": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/republicans-mull-dropping-1-billion-security-money-request-133163212": {
+      "status": 404
+    },
+    "https://abcnews.com/Sports/wireStory/after-escaping-taliban-years-exile-afghan-womens-soccer-133519971": {
+      "status": 404
+    },
+    "https://abcnews.com/Sports/wireStory/yankees-hit-6-homers-starter-2-hits-time-133334636": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/pam-bondi-face-closed-door-questioning-house-lawmakers-133408948": {
+      "status": 404
+    },
+    "https://abcnews.com/Sports/wireStory/messi-scores-penalty-argentina-beats-iceland-3-0-133736070": {
+      "status": 404
+    },
+    "https://abcnews.com/Sports/wireStory/rory-mcilroy-6-shot-lead-entering-3rd-round-131946844": {
+      "status": 404
+    },
+    "https://abcnews.com/Technology/wireStory/indonesia-tightens-control-key-commodities-major-trade-takeover-133211693": {
+      "status": 404
+    },
+    "https://abcnews.com/Sports/wireStory/john-tavares-scores-5-seconds-left-ot-lift-131565645": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/trump-administration-asks-appeals-court-pause-order-halting-131728966": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/senate-republicans-reject-war-powers-resolution-after-trump-134195190": {
+      "status": 404
+    },
+    "https://abcnews.com/Technology/wireStory/yahoo-turns-ai-powered-answer-engine-scout-lead-131473137": {
+      "status": 404
+    },
+    "https://abcnews.com/Sports/wireStory/top-seeded-arizona-beats-arkansas-109-88-reach-131460756": {
+      "status": 404
+    },
+    "https://abcnews.com/US/wireStory/china-hits-back-us-sanctions-tech-giants-restricting-134085740": {
+      "status": 404
+    },
+    "https://abcnews.com/US/wireStory/trump-nominates-us-attorney-jay-clayton-director-national-133793834": {
+      "status": 404
+    },
+    "https://abcnews.com/US/wireStory/trumps-plan-build-triumphal-arch-gets-hearing-key-132092676": {
+      "status": 404
+    },
+    "https://abcnews.com/US/wireStory/conservatives-gather-cpac-openly-divided-iran-war-131385411": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Business/wireStory/china-opens-investigations-us-trade-practices-response-trump-131464213": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Business/wireStory/iraqs-oil-hub-slows-crawl-strait-hormuz-shutdown-131641155": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Health/wireStory/trump-signs-order-speed-review-psychedelics-including-controversial-132165514": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Business/wireStory/uk-gathers-30-countries-plot-ways-reopening-strait-131640345": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Sports/wireStory/us-forward-christian-pulisic-misses-milan-match-injury-132833476": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Technology/wireStory/anthropic-pentagon-head-court-ai-firm-seeks-end-131362035": {
+      "status": 404
+    },
+    "https://abcnews.go.com/International/wireStory/asia-braces-wave-energy-shocks-iran-war-132837680": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Technology/wireStory/epic-games-lays-off-1000-amid-slowing-fortnite-131367967": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Politics/wireStory/rubio-sell-iran-war-skeptical-g7-diplomats-after-131460102": {
+      "status": 404
+    },
+    "https://abcnews.go.com/Sports/wireStory/uconn-reaches-3rd-national-title-game-4-seasons-131736437": {
+      "status": 404
+    },
+    "https://abcnews.go.com/US/wireStory/3-men-charged-conspiring-smuggle-us-artificial-intelligence-131237823": {
+      "status": 404
+    },
+    "https://abcnews.go.com/International/wireStory/japan-deploys-long-range-missiles-131566210": {
+      "status": 404
+    },
+    "https://about.fb.com/news/2026/04/teen-ai-insights/": {
+      "status": 404
+    },
+    "https://about.bnef.com/us-battery-storage-chinese-cells-2026/": {
+      "status": 404
+    },
+    "https://abcnews.go.com/US/wireStory/democrats-vow-fight-1-billion-senate-security-proposal-132839106": {
+      "status": 404
+    },
+    "https://agenceurope.eu/en/bulletin/article/13877/9/european-commission-considers-three-year-postponement-of-sanctions-against-energy-importers-not-complying-with-methane-regulation": {
+      "status": 404
+    },
+    "https://apnews.com/article/forest-service-relocation-dc-salt-lake-city-eca93fa055ffce3528e8c71160a135": {
+      "status": 404
+    },
+    "https://apnews.com/article/navy-secretary-fired-iran-hormuz-2026": {
+      "status": 404
+    },
+    "https://apnews.com/article/west-virginia-chemical-plant-explosion-2026": {
+      "status": 404
+    },
+    "https://app.xinhuanet.com/news/article.html?articleId=83a8f8ef00dbb20da2a2650e3979b169": {
+      "status": 404
+    },
+    "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-99-bridging-the-atlantic": {
+      "status": 404
+    },
+    "https://asia.nikkei.com/business/materials/china-s-rare-earth-curbs-endanger-6-5tn-of-western-industry-iea-says": {
+      "status": 404
+    },
+    "https://athleticsweekly.com/featured/boston-marathon-2026-korir-course-record/": {
+      "status": 404
+    },
+    "https://au.finance.yahoo.com/news/nexon-presents-transformation-plan-2026-170000990.html": {
+      "status": 404
+    },
+    "https://azcc.gov/news/home/2026/03/05/acc-votes-to-eliminate-renewable-energy-standard-and-tariff-(rest": {
+      "status": 404
+    },
+    "https://bilyonaryo.com/2026/03/19/philweb-corporation-partners-with-tiger-resort-leisure-and-entertainment-inc-to-launch-okada-play-online-gaming-platform/brand-news/": {
+      "status": "timeout"
+    },
+    "https://bilyonaryo.com/2026/04/21/catl-launches-battery-innovations-to-strengthen-global-market-leadership/mobility/": {
+      "status": "timeout"
+    },
+    "https://blackhealthmatters.com/ohow-cancer-prevention-2026/": {
+      "status": 404
+    },
+    "https://blockchain.news/flashnews/sillytuna-loses-23-6m-aethusdc-in-hack-funds-moved-to-dai-and-xmr": {
+      "status": "timeout"
+    },
+    "https://blockchain.news/flashnews/u-s-government-deposits-8-2-btc-coinbase": {
+      "status": "timeout"
+    },
+    "https://blockchain.news/news/bitcoin-etfs-record-3b-outflows-contrarian-signal": {
+      "status": "timeout"
+    },
+    "https://blockchain.news/news/circle-cctp-pay-first-settle-later-usdc-cross-chain": {
+      "status": "timeout"
+    },
+    "https://blogs.nvidia.cn/blog/nvidia-unveils-vera-the-cpu-for-agents-2/": {
+      "status": 404
+    },
+    "https://blueyonder.com/insights/2026-supply-chain-sustainability-survey": {
+      "status": 404
+    },
+    "https://breakthroughprize.org/laureates/2026": {
+      "status": 404
+    },
+    "https://business.financialpost.com/pmn/business-pmn/trumps-war-jolts-global-central-banks-from-fed-to-ecb-to-boj": {
+      "status": 410
+    },
+    "https://business.nasdaq.com/articles/nvidia-stock-investors-just-got-good-news-amazon-google-meta-platforms-and-microsoft": {
+      "status": "timeout"
+    },
+    "https://ca.finance.yahoo.com/news/asian-stocks-lower-oil-falls-084224313.html": {
+      "status": 404
+    },
+    "https://ca.finance.yahoo.com/news/us-eases-russian-oil-sanctions-182938833.html": {
+      "status": 404
+    },
+    "https://ca.finance.yahoo.com/news/worlds-largest-chipmaker-does-not-220030588.html": {
+      "status": 404
+    },
+    "https://carbon-pulse.com/cbam-q1-2026-data/": {
+      "status": 404
+    },
+    "https://cbn.globo.com/economia/noticia/2026/07/10/inflacao-oficial-desacelera-em-junio-e-fica-em-016percent-aponta-ibge.ghtml": {
+      "status": 404
+    },
+    "https://cdn1.benzinga.com/markets/tech/26/04/51795495/musk-hits-out-at-tesla-killers-as-tesla-outsells-gm-ford-rivian": {
+      "status": 404
+    },
+    "https://cdn5.benzinga.com/markets/tech/26/04/51795495/musk-hits-out-at-tesla-killers-as-tesla-outsells-gm-ford-rivian": {
+      "status": 404
+    },
+    "https://cars.usnews.com/cars-trucks/best-hybrid-and-electric-cars-2026": {
+      "status": "timeout"
+    },
+    "https://chaingridnews.com/2026/05/09/hacker-drains-5-9m-from-ethereum-liquidity-provider-trustedvolumes/": {
+      "status": 404
+    },
+    "https://clariveno.com/article/bitcoin-ethereum-etfs-crash-111m-lost-as-fed-rate-cut-hopes-fade-what-s-next-for-crypto": {
+      "status": 404
+    },
+    "https://chejiahao.autohome.com.cn/info/25612812": {
+      "status": "network-error"
+    },
+    "https://cms.cern.ch/iCMS/analysisadmin/cadi?ancode=W-boson-mass-2026": {
+      "status": "network-error"
+    },
+    "https://cnevpost.com/2026/04/16/tesla-adds-sunwoda-battery-supplier/": {
+      "status": 404
+    },
+    "https://cntechpost.com/2026/05/09/baidu-releases-ernie-5-1-pre-training-cost-at-only-6-industry-peers/": {
+      "status": "network-error"
+    },
+    "https://cnevpost.com/china-nev-april-2026-pre-show/": {
+      "status": 404
+    },
+    "https://coincu.com/ethereum/ethereum-spot-etf-net-outflow-92-million-7-day-streak-2/": {
+      "status": 404
+    },
+    "https://coingape.com/l2-unity-launches-50m-token-airdrop-across-arbitrum-and-optimism-eligibility-open-for-100k-wallets/": {
+      "status": 404
+    },
+    "https://cointelegraph.com/features/has-robinhoods-layer-2-given-eth-a-new-bull-case": {
+      "status": 404
+    },
+    "https://cointelegraph.com/features/republican-opposition-cbdc-housing-affordability-bill": {
+      "status": 404
+    },
+    "https://cointelegraph.com/news/crypto-markets-recover-iran-ceasefire-2026": {
+      "status": 404
+    },
+    "https://cordcuttersnews.com/disney-plans-to-cut-1000-staff-in-the-new-ceo/": {
+      "status": 404
+    },
+    "https://cop31.tr/news/bonn-electrification-target-2026": {
+      "status": 404
+    },
+    "https://cpnn.com.cn/news/zngc/202604/t20260421_1882721.html": {
+      "status": 404
+    },
+    "https://credencewire.com/article/senate-passes-ai-accountability-act-june-2026": {
+      "status": 404
+    },
+    "https://crunchupdates.com/x-layer-solv-protocol-bitcoin-defi-liquidity/": {
+      "status": 410
+    },
+    "https://crypto-news-flash.com/ethereum-foundation-adds-46-6m-in-eth-staking-move-as-treasury-strategy-shifts/": {
+      "status": 410
+    },
+    "https://cryptobriefing.com/cftc-approves-bitcoin-perpetual-futures/": {
+      "status": 404
+    },
+    "https://cryptobriefing.com/covenant-ai-exit-bittensor-tao-falls-15/": {
+      "status": 404
+    },
+    "https://cryptolisted.net/bitcoin-btc-ether-eth-suffer-worst-weekly-drop-since-ftx-crash/": {
+      "status": "network-error"
+    },
+    "https://cryptonews.net/news/ethereum/32572565/": {
+      "status": 404
+    },
+    "https://defillama.com/rates/2026-04-22": {
+      "status": 404
+    },
+    "https://dev.to/ohmygod/the-q1-2026-defi-exploit-autopsy-137m-lost-15-protocols-breached-the-5-root-cause-patterns-and-3o92": {
+      "status": 404
+    },
+    "https://doi.org/10.1007/s12144-026-09306-z": {
+      "status": "timeout"
+    },
+    "https://dotesports.com/league-of-legends/msi-2026-tickets/": {
+      "status": 404
+    },
+    "https://dotesports.com/league-of-legends/msi-2026-daejeon/": {
+      "status": 404
+    },
+    "https://economictimes.indiatimes.com/india-online-gaming-rules-may-2026/": {
+      "status": 404
+    },
+    "https://electrek.co/2026/04/21/pge-tesla-cybertruck-v2g-residential/": {
+      "status": 404
+    },
+    "https://electrek.co/2026/04/22/europe-ev-q1-surge-51-percent/": {
+      "status": 404
+    },
+    "https://electrek.co/2026/04/22/catl-5c-condensed-matter-2026/": {
+      "status": 404
+    },
+    "https://electrek.co/nevi-ruling-2026/": {
+      "status": 404
+    },
+    "https://electrek.co/tesla-robotaxi-app-rollback-2026/": {
+      "status": 404
+    },
+    "https://electriccarsreport.com/2026/03/enel-installs-3730-fast-ev-charging-points-across-italy-under-pnrr-program/": {
+      "status": 404
+    },
+    "https://elpais.com/ciencia/2026-04-21/artemis-ii-gateway-industria-espacial-europea.html": {
+      "status": 404
+    },
+    "https://en.babelinsight.id/heatwave-breaks-records-europe-thunderstorms-australia": {
+      "status": "network-error"
+    },
+    "https://en.infomaxai.com/news/articleView.html?idxno=126507": {
+      "status": 404
+    },
+    "https://en.sedaily.com/finance/2026/05/13/sk-on-to-mass-produce-koreas-first-erev-batteries-as-new-growth-engine": {
+      "status": 404
+    },
+    "https://endcap.news/policy/trump-xi-board-of-trade-30-billion-managed-trade-may-13": {
+      "status": 404
+    },
+    "https://energy.ec.europa.eu/topics/energy-security/emergency-measures_en": {
+      "status": 404
+    },
+    "https://energynow.com/2026/04/chinas-catl-debuts-ev-battery-with-speedy-six-minute-recharge-and-a-1000-km-range/": {
+      "status": "timeout"
+    },
+    "https://energynow.com/2026/06/30/as-trump-shreds-climate-rules-chinas-emissions-start-to-fall/": {
+      "status": "timeout"
+    },
+    "https://english.cctv.com/2026/05/09/ARTICDcyuIw0Q96ZtvhLMGhp260509.shtml": {
+      "status": "timeout"
+    },
+    "https://europeanpulse.com/paris-court-orders-totalenergies-to-disclose-indirect-emissions-and-strengthen-climate-strategy/": {
+      "status": 404
+    },
+    "https://finance.people.com.cn/n1/2026/0522/c1004-40725541.html": {
+      "status": "network-error"
+    },
+    "https://finance.sina.com.cn/jjxw/2026-04-03/doc-inhtfkwx3698715.shtml": {
+      "status": 404
+    },
+    "https://finance.sina.com.cn/roll/2026-05-25/doc-inhzafpu3712685.html": {
+      "status": 404
+    },
+    "https://finance.sina.com.cn/roll/2026-05-25/doc-inhzasck5849233.html": {
+      "status": 404
+    },
+    "https://finance.sina.com.cn/tech/2026-04-16/doc-inhuszrw2791203.shtml": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/economy/policy/articles/dow-falls-nearly-800-points-214600297.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/markets/commodities/articles/oil-prices-dip-most-stocks-025819872.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/sap-reports-8-rise-in-q1-091221025.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/goldman-strategists-lift-p-500-080509731.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/news/general-mills-reports-fiscal-2026-110000174.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/news/lyft-rides-smarter-more-efficient-203000945.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/news/jpmorgan-hires-goldman-zhang-co-002239793.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/news/trump-war-jolts-global-central-200000508.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/news/us-says-china-agrees-to-spend-billions-on-agricultural-goods-194438412.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/sectors/technology/articles/china-prepares-295-billion-plan-081310126.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/sectors/technology/articles/amazon-meta-microsofts-ai-data-center-push-faces-strong-revolt-seven-in-10-americans-dont-want-hubs-near-them-150118422.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/sectors/healthcare/articles/ifinatamab-deruxtecan-granted-priority-review-110000963.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/sectors/healthcare/articles/datroway-datopotamab-deruxtecan-dlnk-approved-141600868.html": {
+      "status": 404
+    },
+    "https://financialpost.com/pmn/business-pmn/trumps-war-jolts-global-central-banks-from-fed-to-ecb-to-boj": {
+      "status": 410
+    },
+    "https://financialpost.com/pmn/business-pmn/uae-asks-un-to-approve-measures-including-force-to-open-hormuz": {
+      "status": 410
+    },
+    "https://financialpost.com/investing/big-techs-boomerang-powers-sp-500-new-heights": {
+      "status": 410
+    },
+    "https://financialpost.com/pmn/business-pmn/us-stocks-sink-nasdaq-100-and-dow-industrials-enter-correction": {
+      "status": 410
+    },
+    "https://financefeeds.com/cow-swap-protocol-halts-services-following-major-dns-hijacking-attack/": {
+      "status": 404
+    },
+    "https://forum.arbitrum.foundation/security-council-emergency-action-2026-04-21": {
+      "status": 404
+    },
+    "https://fynqo.org/2026/03/06/the-true-cost-of-reshoring-2026-a-184-billion-supply-chain-pivot/": {
+      "status": "network-error"
+    },
+    "https://globenergia.pl/rzad-szykuje-wazne-zmiany-skorzystaja-prosumenci-biometan-i-magazyny-energii/": {
+      "status": "network-error"
+    },
+    "https://hk.finance.yahoo.com/news/%E5%9C%8B%E5%AE%B6%E6%95%B8%E6%93%9A%E5%B1%80-%E5%88%B02028%E5%B9%B4%E5%BA%A6%E6%93%AC%E6%89%93%E9%80%A0-%E6%89%B9%E6%95%B8%E6%93%9A%E9%A9%85%E5%8B%95ai%E5%89%B5%E6%96%B0%E7%99%BC%E5%B1%95%E5%85%B8%E5%9E%8B%E6%87%89%E7%94%A8%E5%A0%B4%E6%99%AF-235813332.html": {
+      "status": 404
+    },
+    "https://hoodline.com/2026/05/gm-slams-brakes-on-new-carlisle-battery-plant-1600-jobs-in-limbo/": {
+      "status": 404
+    },
+    "https://home.cern/news/press-release/cern/muon-g-2-experiment-pioneers-win-breakthrough-prize-fundamental-physics": {
+      "status": 404
+    },
+    "https://home.cern/news/press-release/experiments/base-experiment-cern-succeeds-transporting-antimatter": {
+      "status": 404
+    },
+    "https://indianautosblog.com/polestar-enters-estonia-latvia-and-lithuania-eyes-stronger-europe-presence-p328513": {
+      "status": "network-error"
+    },
+    "https://indiaseatradenews.com/india-launches-first-wind-turbine-supply-chain-management-portal-to-boost-domestic-manufacturing-and-exports/": {
+      "status": 404
+    },
+    "https://innovation.cms.gov/innovation-models/balance-model-2026": {
+      "status": 404
+    },
+    "https://insider-gaming.com/g2-eliminated-from-lol-ewc-by-dplus-kias-unpaid-players/": {
+      "status": 404
+    },
+    "https://invest.genpt.com/": {
+      "status": "network-error"
+    },
+    "https://investors.micron.com/news-releases/news-release-details/micron-strengthens-automotive-ecosystem-supply-through-strategic": {
+      "status": "timeout"
+    },
+    "https://ir.micron.com/": {
+      "status": "network-error"
+    },
+    "https://ir.tsmc.com/english/financials/earnings-release": {
+      "status": "network-error"
+    },
+    "https://jjckb.xinhuanet.com/20260416/50a2a36e5ef94bd5b32ed2d76eec0123/c.html": {
+      "status": "timeout"
+    },
+    "https://jjckb.xinhuanet.com/20260526/91dd660a76f8415980ba7222a5f18364/c.html": {
+      "status": "timeout"
+    },
+    "https://koreajoongangdaily.joins.com/news/2026-03-17/business/tech/Govt-to-invest-67-billion-in-AI-sector-to-foster-Korean-equivalent-of-Nvidia/2546798": {
+      "status": "timeout"
+    },
+    "https://koreajoongangdaily.joins.com/news/2026-05-22/business/industry/Posco-partners-with-US-rare-earth-company-to-build-200M-production-facility/2599119": {
+      "status": "timeout"
+    },
+    "https://koreajoongangdaily.joins.com/news/2026-05-30/business/finance/Kospi-rises-nearly-30-in-May-but-all-sectors-save-for-AI-lag-behind-gains/2604735": {
+      "status": "timeout"
+    },
+    "https://ktvz.com/politics/cnn-us-politics/2026/05/16/trump-returns-from-china-with-no-iran-breakthrough-and-a-decision-to-make/": {
+      "status": "network-error"
+    },
+    "https://kripicard.blog/aave-labs-launches-stable-vaults-for-fintech-stablecoin-yield/": {
+      "status": "network-error"
+    },
+    "https://kr-asia.com/ai-demand-strains-supplies-of-lasers-fiber-and-other-optical-tech": {
+      "status": "network-error"
+    },
+    "https://kpmg.com/xx/en/media/press-releases/2026/04/global-vc-investment-surges-to-record-330-9-billion-dollar-in-q1-26.html": {
+      "status": "network-error"
+    },
+    "https://kpmg.com/us/en/taxnewsflash/news/2026/04/united-states-new-rules-calculating-section-232-tariffs-steel-aluminum-copper.html": {
+      "status": "network-error"
+    },
+    "https://kpmg.com/us/en/taxnewsflash/news/2026/03/us-bis-april-2026-inclusions-window-section-232-automobile-parts-tariff.html": {
+      "status": "network-error"
+    },
+    "https://kpmg.com/us/en/media/news/kpmg-2026-tariff-survey.html": {
+      "status": "network-error"
+    },
+    "https://kpmg.com/us/en/articles/2026/march-2026-supply-chain-update.html": {
+      "status": "network-error"
+    },
+    "https://kpmg.com/us/en/articles/2026/kpmg-2026-tariff-survey.html": {
+      "status": "network-error"
+    },
+    "https://kpmg.com/us/en/articles/2026/global-semiconductor-industry-outlook-2026.html": {
+      "status": "network-error"
+    },
+    "https://kp.china-embassy.gov.cn/chn/zt/xjpfc/": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/xbox-series-x-ps5-increased-demand-low-supply-gta6-2000711005": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/video-game-worker-strike-ubisoft-zenimax-bethesda-2000716754": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/vampire-survivors-studio-reviewing-future-fortnite-collab-after-epics-genai-annoumcents-2000707634": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/ubisoft-ac-black-flag-resynced-reveal-april-23-2026/": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/summer-game-fest-2026-guide-a-complete-schedule-of-every-june-gaming-showcase-2000701541": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/subnautica-2-patch-update-adaptive-measures-unknown-worlds-2000713698": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/sony-is-raising-the-price-of-playing-multiplayer-games-on-playstation-5-2000697079": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/psychonauts-hellblade-south-of-midnight-studios-negotiating-xbox-closure-2000706718": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/marathon-is-finally-going-free-for-a-week-as-bungie-looks-for-a-rebound-2000699845": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/magic-the-gathering-arena-developers-unionize-layoff-remote-work-genai-protections-2000690932": {
+      "status": "network-error"
+    },
+    "https://kotaku.com/dont-kill-the-disc-petition-urging-sony-to-preserve-physical-media-on-ps6-breaks-120000-signatures-2000712823": {
+      "status": "network-error"
+    },
+    "https://ktar.com/arizona-business/data-centers-aps-rate-hike/5812611/": {
+      "status": "network-error"
+    },
+    "https://ktar.com/national-news/us-iran-sign-deal-nuclear-talks-2/5880744/": {
+      "status": "network-error"
+    },
+    "https://kurrant.com/kurrantly-news/german-government-and-autobahn-pick-engie-vianeo-for-megawatt-truck-charging-network/": {
+      "status": "network-error"
+    },
+    "https://lanceroberts.substack.com/p/daily-market-trading-update-june-b96": {
+      "status": "network-error"
+    },
+    "https://lancasteronline.com/business/stock_market/how-major-us-stock-indexes-fared-tuesday-4-28-2026/article_7cc4b33f-4648-577d-a40c-b971f6013297.html": {
+      "status": "network-error"
+    },
+    "https://lancasteronline.com/business/stock_market/how-major-us-stock-indexes-fared-tuesday-4-21-2026/article_3a5a6482-1e28-5dcf-af40-5954be794aa9.html": {
+      "status": "network-error"
+    },
+    "https://lakeland.edu/post/lakeland-wins-another-esports-national-title-2026-04-24": {
+      "status": "network-error"
+    },
+    "https://laist.com/news/climate-environment/crude-oil-spill-in-east-la-reaches-los-angeles-river": {
+      "status": "network-error"
+    },
+    "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-model-export-controls-enterprise-govern/": {
+      "status": "network-error"
+    },
+    "https://l2beat.com/stages": {
+      "status": "network-error"
+    },
+    "https://l2beat.com/scaling/tvl/2026-04-22": {
+      "status": "network-error"
+    },
+    "https://l2beat.com/scaling/tvl/": {
+      "status": "network-error"
+    },
+    "https://kz.kursiv.media/en/2026-05-14/engk-nknk-astana-hosts-1-6-million-counter-strike-2-tournament/": {
+      "status": "network-error"
+    },
+    "https://kyres.bavschool.com/html/193e41999387.html": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/zelensky-trump-macron-hold-behind-the-scenes-meeting-at-g7-summit/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/zelensky-holds-phone-call-with-trump/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/us-waiver-permitting-russian-oil-purchases-expires-without-renewal/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/un-security-council-to-hold-emergency-meeting-in-response-to-russias-ballistic-missile-terror/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/ukraine-war-latest-russia-violates-easter-ceasefire-2-299-times/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/uk-german-french-envoys-attend-high-level-moscow-meeting-amid-e3-peace-push/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/russian-brigade-that-committed-war-crimes-in-bucha-hit-by-ukrainian-drone-strike-military-says/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/russian-attacks-kill-7-injure-78-across-ukraine-over-past-day-as-kyiv-comes-under-another-ballistic-missile-strike/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/russian-attacks-kill-3-injure-20-in-ukraine-over-past-day/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/russian-attacks-kill-1-injure-13-in-ukraine-over-past-day/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/russia-launched-oreshnik-missile-at-ukraine-zelensky-says/": {
+      "status": "network-error"
+    },
+    "https://kyivindependent.com/chonhar-bridge-struck-again-in-occupied-kherson-oblast-as-ukraine-steps-up-pressure-on-russian-logistics-routes-in-south/": {
+      "status": "network-error"
+    },
+    "https://last10k.com/sec-filings/dell/0001571996-26-000021.htm": {
+      "status": "network-error"
+    },
+    "https://leggett.gcs-web.com/news-releases/news-release-details/somnigroup-international-worlds-leading-bedding-company-acquire": {
+      "status": "network-error"
+    },
+    "https://legal-planet.org/2026/04/09/how-exactly-has-trump-gone-after-evs/": {
+      "status": "network-error"
+    },
+    "https://learn.backpack.exchange/articles/backpack-tge-date": {
+      "status": "network-error"
+    },
+    "https://lcb.org/news/mga-outlines-stricter-crypto-and-betting-rules": {
+      "status": "network-error"
+    },
+    "https://lcb.org/news/brazil-tightens-rules-for-online-betting": {
+      "status": "network-error"
+    },
+    "https://lcb.org/news/asia-expands-gambling-crackdown-ahead-of-world-cup": {
+      "status": "network-error"
+    },
+    "https://layerzero.network/security": {
+      "status": "network-error"
+    },
+    "https://law.asia/online-gaming-regulation-india/": {
+      "status": "network-error"
+    },
+    "https://latimesnow.com/2026/06/26/chicago-feds-goolsbee-says-inflation-is-too-high-williams-sees-price-pressures-easing/": {
+      "status": "network-error"
+    },
+    "https://latam.gamescom.global/en/home/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/may/14/xsolla-brings-must-attend-sessions-to-gamesbeat-su/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/mar/31/nike-inc-reports-fiscal-2026-third-quarter-results/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/jun/30/nasdaq-joins-pyth-data-marketplace/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/jul/15/fandango-expands-free-streaming-offering-under-one/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/apr/29/xsolla-and-gamesbeat-release-exclusive-industry-re/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/apr/27/thinktrends-agentic-ai-goes-live-with-the-us-food-/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/apr/27/backed-by-investments-exceeding-1-billion-pci-phar/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/apr/24/qcraft-unveils-physical-ai-model-and-500-tops-inte/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/apr/23/the-iconic-pirate-adventure-returns-in-assassins-c/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/apr/23/okx-to-integrate-into-bitgos-go-network-off-exchan/": {
+      "status": "network-error"
+    },
+    "https://lasvegassun.com/news/2026/apr/22/4moving-biotech-granted-fda-fast-track-designation/": {
+      "status": "network-error"
+    },
+    "https://libraryresources.unog.ch/conferenceprimers/environment": {
+      "status": "network-error"
+    },
+    "https://letsdatascience.com/news/korea-invests-800-trillion-won-in-chip-complex-fd9f99c9": {
+      "status": "timeout"
+    },
+    "https://link.springer.com/article/10.1007/s00134-026-08492-5": {
+      "status": "timeout"
+    },
+    "https://link.springer.com/article/10.1007/s00394-026-03936-6": {
+      "status": "timeout"
+    },
+    "https://link.springer.com/article/10.1007/s00394-026-03971-3": {
+      "status": "timeout"
+    },
+    "https://link.springer.com/article/10.1007/s00394-026-04002-x": {
+      "status": "timeout"
+    },
+    "https://link.springer.com/article/10.1007/s00394-026-04011-w": {
+      "status": "timeout"
+    },
+    "https://link.springer.com/article/10.1007/s00394-026-04022-7": {
+      "status": "timeout"
+    },
+    "https://lolesports.com/msi-2026-tickets/": {
+      "status": 404
+    },
+    "https://lolesports.com/lck/standings-2026/": {
+      "status": 404
+    },
+    "https://lolesports.com/msi-2026/": {
+      "status": 404
+    },
+    "https://m.economictimes.com/news/international/us/us-stock-market-closing-nasdaq-snaps-13-day-rally-as-iran-tensions-rise-oil-jumps-above-95/": {
+      "status": 404
+    },
+    "https://m.thepaper.cn/kuaibao_detail.jsp?contid=17181682&from=kuaibao": {
+      "status": 404
+    },
+    "https://m.zhitongcaijing.com/contentnew/appcontentdetail.html?content_id=1299114": {
+      "status": "network-error"
+    },
+    "https://macaubusiness.com/china-hopes-u-s-will-view-implementation-of-phase-one-trade-deal-objectively-rationally/": {
+      "status": "timeout"
+    },
+    "https://macaubusiness.com/expanded-world-cup-to-hit-macau-gaming-revenue-more-than-ever-citigroup/": {
+      "status": "timeout"
+    },
+    "https://marketoni.com/2026-global-semiconductor-supply-chain-under-strain-geopolitical-tensions-flare-over-critical-rare-earth-minerals/": {
+      "status": "network-error"
+    },
+    "https://marine.copernicus.eu/news/copernicus-marine-data-powers-wmo-global-climate-report-2025-ocean-warming-and-energy-imbalance": {
+      "status": 404
+    },
+    "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-20-s-and-p-500-suffers-technical-breakdown-four-week-slide-ends-below-200-day-moving-average": {
+      "status": 404
+    },
+    "https://med.stanford.edu/news/insights/2026/03/how-much-protein-should-we-be-eating.html": {
+      "status": 404
+    },
+    "https://meyka.com/blog/ethereum-falls-24-as-crypto-rally-stalls-may-29-2905/": {
+      "status": 410
+    },
+    "https://money.usnews.com/investing/news/articles/2026-04-13/hedge-funds-rush-into-bullish-stocks-bets-ahead-of-weekend-us-iran-talks-goldman-note-says": {
+      "status": "timeout"
+    },
+    "https://money.usnews.com/investing/news/articles/2026-04-28/coca-cola-raises-annual-adjusted-profit-forecast": {
+      "status": "timeout"
+    },
+    "https://nationaltoday.com/us/az/casa-grande/news/2026/04/12/lucid-nuro-and-uber-partner-for-next-gen-robotaxi-program-in-sf-bay-area/": {
+      "status": 404
+    },
+    "https://ncei.noaa.gov/news/global-climate-202602": {
+      "status": "network-error"
+    },
+    "https://news.bitcoin.com/clarity-act-misses-july-4-deadline-25-day-window-shrinks/": {
+      "status": 404
+    },
+    "https://news.cctv.com/2026/04/22/energy-security-green.shtml": {
+      "status": 404
+    },
+    "https://news.cctv.com/2026/05/10/ARTINVdLGGpodkh4p6agwCYJ260510.shtml": {
+      "status": "timeout"
+    },
+    "https://news.cctv.com/2026/05/10/ARTIwhsmbGXawciS8WLYFcUK260510.shtml": {
+      "status": "timeout"
+    },
+    "https://news.crunchbase.com/venture/q1-2026-global-venture-report/": {
+      "status": 404
+    },
+    "https://news.emory.edu/plasma-ml-2026/": {
+      "status": 404
+    },
+    "https://news.gtp.gr/2026/05/25/greece-introduces-renewable-energy-spatial-framework-with-new-wind-solar-restrictions/": {
+      "status": "network-error"
+    },
+    "https://news.gmw.cn/2026-07-15/content_38886105.htm": {
+      "status": 404
+    },
+    "https://news.hexun.com/2026-04-09/223957897.html": {
+      "status": "network-error"
+    },
+    "https://news.pku.edu.cn/jxky/33667e7d017d4e2591e90c5c92e6627f.htm": {
+      "status": "network-error"
+    },
+    "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-first-quarter-2026": {
+      "status": "timeout"
+    },
+    "https://news.sap.com/2026/04/agentic-ai-supply-chain-hannover-messe-2026/": {
+      "status": 404
+    },
+    "https://news.xbox.com/en-us/2026/04/21/xbox-game-pass-april-2026-additions/": {
+      "status": 404
+    },
+    "https://news.xbox.com/en-us/2026/04/21/xbox-play-anywhere-steam-integration/": {
+      "status": 404
+    },
+    "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-reports-second-quarter-2026-financial-results.html": {
+      "status": 404
+    },
+    "https://nltimes.nl/2026/06/11/dutch-gamers-file-eu220-million-claim-valve-operator-game-platform-steam": {
+      "status": "network-error"
+    },
+    "https://njbia.org/njbia-statement-on-legislature-holding-climate-superfund-act/": {
+      "status": "network-error"
+    },
+    "https://nintendoworldreport.com/news/74720/yoshi-opens-the-mysterious-book-may-21": {
+      "status": "network-error"
+    },
+    "https://nintendowire.com/news/2026/06/09/final-fantasy-resonance-the-first-hd-2d-final-fantasy-title-launches-october-22nd-2026/": {
+      "status": "network-error"
+    },
+    "https://nintendoeverything.com/ubisoft-announces-monopoly-star-wars-heroes-villains-for-nintendo-switch-2-and-switch/": {
+      "status": "network-error"
+    },
+    "https://nintendoeverything.com/tons-of-new-final-fantasy-7-revelation-details/": {
+      "status": "network-error"
+    },
+    "https://nintendoeverything.com/the-expanse-a-telltale-series-gets-surprise-nintendo-switch-release/": {
+      "status": "network-error"
+    },
+    "https://nintendoeverything.com/rumor-nintendo-direct-happening-by-mid-june/": {
+      "status": "network-error"
+    },
+    "https://nintendoeverything.com/nintendo-financial-results-may-2026-switch-2-at-19-86-million-units-switch-at-155-92-million-more/": {
+      "status": "network-error"
+    },
+    "https://nintendoeverything.com/mouse-p-i-for-hire-sales-surpass-one-million/": {
+      "status": "network-error"
+    },
+    "https://nikopartners.com/niko-partners-2026-predictions/": {
+      "status": "network-error"
+    },
+    "https://ng.investing.com/news/stock-market-news/memory-monthly-sales-hit-record-746b-as-analysts-see-price-surge-ahead-2592480": {
+      "status": "network-error"
+    },
+    "https://ng.investing.com/news/stock-market-news/jpmorgan-upgrades-blackrock-stock-rating-on-strong-earnings-93CH-2602083": {
+      "status": "network-error"
+    },
+    "https://ng.investing.com/news/stock-market-news/chip-stocks-selloff-extends-on-valuation-metas-pivot-fears-2583807": {
+      "status": "network-error"
+    },
+    "https://ng.investing.com/news/cryptocurrency-news/bitcoin-rebounds-above-63000-as-traders-assess-regulatory-developments-2566756": {
+      "status": "network-error"
+    },
+    "https://ng.investing.com/indices/csi300-historical-data": {
+      "status": "network-error"
+    },
+    "https://ng.headtopics.com/news/un-climate-chief-warns-of-fossil-fuel-dependence-in-wake-of-81047400": {
+      "status": "network-error"
+    },
+    "https://nextspaceflight.com/launches/details/8302/": {
+      "status": "network-error"
+    },
+    "https://next.io/news/regulation/maine-governor-signs-sweepstakes-casino-ban/": {
+      "status": "network-error"
+    },
+    "https://newzoo.com/insights/articles/q1-2026-gaming-ma-tracker/": {
+      "status": "network-error"
+    },
+    "https://newtelegraphng.com/ultra-processed-foods-may-undermine-attention-study/": {
+      "status": "network-error"
+    },
+    "https://newswav.com/article/what-to-know-as-israel-and-lebanon-head-to-washington-for-us-mediated-talks-A2604_lffr8H": {
+      "status": "network-error"
+    },
+    "https://newsukraine.rbc.ua/news/ukraine-confirms-strike-on-one-of-southern-1781206873.html": {
+      "status": "network-error"
+    },
+    "https://newsukraine.rbc.ua/news/russia-ukraine-war-frontline-update-as-of-1751416397.html": {
+      "status": "network-error"
+    },
+    "https://noirlab.edu/public/images/noirlab2612a/": {
+      "status": "network-error"
+    },
+    "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets": {
+      "status": "network-error"
+    },
+    "https://nvidianews.nvidia.com/news/hannover-messe-2026-industrial-ai": {
+      "status": "network-error"
+    },
+    "https://nvidianews.nvidia.com/news/europe-unveils-a-record-35-new-nvidia-ai-supercomputers": {
+      "status": "network-error"
+    },
+    "https://nvidianews.nvidia.com/news/alpamayo-autonomous-vehicle-development": {
+      "status": "network-error"
+    },
+    "https://nutritionsource.hsph.harvard.edu/nutrition-news/": {
+      "status": "network-error"
+    },
+    "https://nutritionsource.hsph.harvard.edu/2026/01/09/dietary-guidelines-for-americans-2025-2030/": {
+      "status": "network-error"
+    },
+    "https://nutritionj.biomedcentral.com/article/10.1186/s12937-026-01314-w": {
+      "status": "network-error"
+    },
+    "https://nutritionandmetabolism.biomedcentral.com/article/10.1186/s12986-026-01105-4": {
+      "status": "network-error"
+    },
+    "https://nutrition.org/american-society-for-nutrition-calls-for-strong-science-in-national-nutrition-guidance/": {
+      "status": "network-error"
+    },
+    "https://nutrition.bmj.com/content/early/2026/05/04/bmjnph-2025-001449": {
+      "status": "network-error"
+    },
+    "https://nutrition.bmj.com/content/early/2026/04/30/bmjnph-2025-001482": {
+      "status": "network-error"
+    },
+    "https://nrf.com/research/global-port-tracker": {
+      "status": "network-error"
+    },
+    "https://nrf.com/media-center/press-releases/import-cargo-expected-to-set-new-record-ahead-of-potential-august-tariffs": {
+      "status": "network-error"
+    },
+    "https://nrf.com/blog/disruption-is-the-new-supply-chain-normal": {
+      "status": "network-error"
+    },
+    "https://nrf.com/": {
+      "status": "network-error"
+    },
+    "https://now.solar/2026/06/10/u-s-court-restores-5-safe-harbor-for-wind-and-large-solar-pv-magazine-global/": {
+      "status": "network-error"
+    },
+    "https://now.solar/2026/06/02/trina-solar-announces-907-w-tandem-solar-module-with-29-2-efficiency-pv-magazine-usa/": {
+      "status": "network-error"
+    },
+    "https://novacrystallis.com/2026/03/dissidia-duellum-final-fantasy-launches-march-23-new-characters-revealed/": {
+      "status": "network-error"
+    },
+    "https://north-africa-middle-east-gulf.ec.europa.eu/launch-t-med-trans-mediterranean-renewable-energy-and-clean-tech-cooperation-initiative-2026-06-09_en": {
+      "status": "network-error"
+    },
+    "https://nordic.ign.com/destiny-2/107808/a-petition-calling-on-sony-to-greenlight-destiny-3-has-over-120000-signatures-already-and-its-rising": {
+      "status": "network-error"
+    },
+    "https://nordic.ign.com/crimson-desert/105298/news/crimson-desert-just-launched-and-its-already-one-of-steams-top-3-most-played-games": {
+      "status": "network-error"
+    },
+    "https://nomoslabs.io/archive/iotex-2026": {
+      "status": "network-error"
+    },
+    "https://noisypixel.net/digimon-story-time-stranger-anti-paradox-dlc-release-date/": {
+      "status": "network-error"
+    },
+    "https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai": {
+      "status": "network-error"
+    },
+    "https://nvidianews.nvidia.com/news/nvidia-uber-robotaxi": {
+      "status": "network-error"
+    },
+    "https://nypost.com/2026/03/12/us-news/trump-doj-sues-california-over-ev-mandate-forcing-mileage-rules-on-automakers/": {
+      "status": "network-error"
+    },
+    "https://nypost.com/2026/03/14/world-news/russia-and-china-providing-military-cooperation-to-iran-foreign-minister-claims/": {
+      "status": "network-error"
+    },
+    "https://nypost.com/2026/03/14/world-news/trump-says-iran-wants-to-end-the-war-but-terms-of-a-potential-deal-arent-good-enough": {
+      "status": "network-error"
+    },
+    "https://observer.com/2026/03/yann-lecun-ami-startup-funding-round-fund/": {
+      "status": "network-error"
+    },
+    "https://nz.finance.yahoo.com/news/marvell-technology-q1-earnings-match-143800270.html": {
+      "status": "network-error"
+    },
+    "https://observatoiredeparis.psl.eu/an-unknown-spectral-signature.html": {
+      "status": "network-error"
+    },
+    "https://oecd.ai/en/incidents/2026-03-20-8734": {
+      "status": "network-error"
+    },
+    "https://ods.od.nih.gov/": {
+      "status": "network-error"
+    },
+    "https://ods.od.nih.gov/News/ODS_Digest_April_2026/": {
+      "status": "network-error"
+    },
+    "https://ods.od.nih.gov/attachments/ODS%20Digest%20April%202026_FINAL.pdf": {
+      "status": "network-error"
+    },
+    "https://ofac.treasury.gov/faqs/1251": {
+      "status": "network-error"
+    },
+    "https://ofac.treasury.gov/media/935481/download?inline=": {
+      "status": "network-error"
+    },
+    "https://ofac.treasury.gov/recent-actions/20260327_33": {
+      "status": "network-error"
+    },
+    "https://oeuk.org.uk/new-government-can-revitalise-north-sea-energy-industry-with-policy-reset/": {
+      "status": "network-error"
+    },
+    "https://ognnews.com/Article/48167/Energy_transition_faces_slower_pace_in_2026": {
+      "status": "network-error"
+    },
+    "https://ogai.gov.in/": {
+      "status": "network-error"
+    },
+    "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-US-Strikes-Tanker-and-Downs-Iranian-Drones.html": {
+      "status": "network-error"
+    },
+    "https://oilprice.com/Energy/Crude-Oil/EIA-US-Crude-Inventories-Post-Another-Major-Draw.html": {
+      "status": "network-error"
+    },
+    "https://oilprice.com/Energy/Energy-General/Energy-Stocks-Surged-38-in-Q1-While-the-Rest-of-the-Market-Fell.html": {
+      "status": "network-error"
+    },
+    "https://oilprice.com/Energy/Energy-General/Oil-Prices-Suffer-Biggest-Weekly-Collapse-in-Two-Months.html": {
+      "status": "network-error"
+    },
+    "https://oilprice.com/Energy/Energy-General/What-Happened-to-Big-Oils-Green-Pivot.html": {
+      "status": "network-error"
+    },
+    "https://oilprice.com/Latest-Energy-News/World-News/France-Cuts-64-GW-of-Nuclear-Power-as-Heatwave-Grips-the-Country.html": {
+      "status": "network-error"
+    },
+    "https://on.theverge.com/ai-artificial-intelligence/892478/anthropic-institute-think-tank-claude-pentagon-jack-clark": {
+      "status": "network-error"
+    },
+    "https://on.theverge.com/entertainment/893751/video-game-age-ratings-pegi-loot-boxes": {
+      "status": "network-error"
+    },
+    "https://on.theverge.com/transportation/876703/trump-ev-charging-buy-american-nevi-funds": {
+      "status": "network-error"
+    },
+    "https://oilprice.com/The-Environment/Global-Warming/Europes-Energy-Transition-Stalls-as-Heat-Wave-Exposes-the-Cost-of-Inaction.html": {
+      "status": "network-error"
+    },
+    "https://on.bcg.com/4aTzWBm": {
+      "status": "network-error"
+    },
+    "https://one.news18.com/english/article/brand-makers/nvidia-boosts-space-1-project-with-key-ai-software-architect-hiring-sbe-19103219": {
+      "status": "network-error"
+    },
+    "https://one.news18.com/english/article/world/venezuela-earthquake-death-toll-nears-1500-rescue-window-closes-amid-economic-crisis-mfp-6914027236": {
+      "status": "network-error"
+    },
+    "https://onestopesg.com/esg-news/equinor-drops-renewable-energy-capacity-target": {
+      "status": "network-error"
+    },
+    "https://onlinelibrary.wiley.com/journal/14749726": {
+      "status": "network-error"
+    },
+    "https://onlinelibrary.wiley.com/doi/10.1002/advs.202521667": {
+      "status": "network-error"
+    },
+    "https://openai.com/": {
+      "status": "network-error"
+    },
+    "https://openai.com/business/guaranteed-capacity/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/accelerating-the-next-phase-ai/": {
+      "status": "network-error"
+    },
+    "https://onlinemaharashtra.com/2026-toyota-urban-cruiser-ebella-launched-top-variant-prices-announced-exterior-interior-features-specifications-prices-variants-and-rivals-explained/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/advancing-content-provenance/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/axios-developer-tool-compromise/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/chatgpt-for-your-most-ambitious-work/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/codex-security-now-in-research-preview/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/gpt-5-6/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/introducing-gpt-5-4/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/introducing-child-safety-blueprint/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/introducing-gpt-5-5/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/introducing-gpt-live/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/introducing-gpt-rosalind/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/introducing-openai-for-singapore/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/model-disproves-discrete-geometry-conjecture/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/openai-submits-confidential-s-1/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/openai-on-aws/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/previewing-gpt-5-6-sol/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/openai-to-acquire-promptfoo/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/safety-alignment-long-horizon-models": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/trusted-access-for-cyber/": {
+      "status": "network-error"
+    },
+    "https://openai.com/index/unlocking-self-improvement-gpt-red/": {
+      "status": "network-error"
+    },
+    "https://openai.com/research/verify/": {
+      "status": "network-error"
+    },
+    "https://opencritic.com/news/28264/xbox-officially-rolls-out-game-changing-steam-integration": {
+      "status": "network-error"
+    },
+    "https://opencritic.com/news/28264/xbox-officially-rolls-out-steam-integration": {
+      "status": "network-error"
+    },
+    "https://opencritic.com/news/31279/square-enix-is-working-on-a-framework-to-release-final-fantasy-and-dragon-quest-games-faster": {
+      "status": "network-error"
+    },
+    "https://opencritic.com/news/33209/vampire-survivors-studio-reconsidering-fortnite-crossover-amid-latest-ai-controversy": {
+      "status": "network-error"
+    },
+    "https://openclaws.io/zh/": {
+      "status": "network-error"
+    },
+    "https://openheart.bmj.com/": {
+      "status": "network-error"
+    },
+    "https://openheart.bmj.com/content/13/1/e003573": {
+      "status": "network-error"
+    },
+    "https://opentools.ai/news/openai-and-aws-tag-team-to-deliver-ai-power-to-us-government": {
+      "status": "network-error"
+    },
+    "https://openthemagazine.com/technology/uncle-sam-says-no-after-anthropic-the-us-now-limits-access-to-openais-new-ai-models": {
+      "status": "network-error"
+    },
+    "https://openthemagazine.com/sports/cristiano-ronaldo-makes-fifa-world-cup-history-as-oldest-outfield-starter-at-41": {
+      "status": "network-error"
+    },
+    "https://operations.nfl.com/journey-to-the-nfl/the-nfl-draft/2026-nfl-draft/": {
+      "status": "network-error"
+    },
+    "https://organiser.org/2026/07/01/360476/world/the-china-plus-one-era-why-global-manufacturing-is-shifting-from-beijing-to-new-strategic-hubs/": {
+      "status": "network-error"
+    },
+    "https://optionpit.com/the-fear-index-has-a-bend-in-it/": {
+      "status": "network-error"
+    },
+    "https://orbitaltoday.com/2026/06/01/cape-canaveral-declared-fully-mission-capable-after-blue-origin-new-glenn-explosion/": {
+      "status": "network-error"
+    },
+    "https://osaka.china-consulate.gov.cn/zgxw/202604/t20260425_11899796.htm": {
+      "status": "network-error"
+    },
+    "https://origin.www.bloomberg.com/news/articles/2026-02-24/coreweave-seeks-8-5-billion-loan-from-banks-backed-by-meta-deal?srnd=undefined": {
+      "status": "network-error"
+    },
+    "https://otakukart.com/digimon-story-time-stranger-launches-on-nintendo-switch-and-switch-2-with-over-450-digimon/": {
+      "status": "network-error"
+    },
+    "https://otakukart.com/death-by-scrolling-heads-to-consoles-on-april-16-alongside-major-pc-update/": {
+      "status": "network-error"
+    },
+    "https://otakukart.com/nintendo-download-for-july-10-brings-digimon-story-time-stranger-granblue-fantasy-relink-and-classic-game-boy-title/": {
+      "status": "network-error"
+    },
+    "https://oversight.house.gov/release/burlison-opens-roundtable-on-artificial-intelligence-and-american-prosperity/": {
+      "status": "network-error"
+    },
+    "https://oversight.house.gov/": {
+      "status": "network-error"
+    },
+    "https://outof.games/news/8886-epic-games-spring-sale-2026-is-live-get-huge-discounts-across-the-entire-platform/": {
+      "status": "network-error"
+    },
+    "https://overclock3d.net/news/software/unreal-engine-6-gets-2027-early-access-launch-with-full-release-by-mid-2029/": {
+      "status": "network-error"
+    },
+    "https://pagesix.com/2026/05/14/entertainment/how-to-watch-dutton-ranch-series-premiere-for-free-time-cast/": {
+      "status": "network-error"
+    },
+    "https://pagesix.com/2026/03/21/royal-family/meghan-markle-exit-from-netflix-cost-streamer-millions-sources": {
+      "status": "network-error"
+    },
+    "https://paper.cnstock.com/html/2026-06/25/content_2235070.htm": {
+      "status": "network-error"
+    },
+    "https://paper.cnstock.com/html/2026-06/18/content_2232995.htm": {
+      "status": "network-error"
+    },
+    "https://paper.cnstock.com/html/2026-07/11/content_2242681.htm": {
+      "status": "network-error"
+    },
+    "https://paradigm.xyz/genius": {
+      "status": "network-error"
+    },
+    "https://parameter.io/nvidia-nvda-vs-amd-stock-which-ai-chip-giant-wins-in-2026/": {
+      "status": "network-error"
+    },
+    "https://parameter.io/kawasaki-launches-physical-ai-research-center-in-silicon-valley-alongside-tech-giants/": {
+      "status": "network-error"
+    },
+    "https://parameter.io/tsmc-tsm-stock-climbs-on-strong-ai-orders-from-nvidia-and-apple-supply-chain/": {
+      "status": "network-error"
+    },
+    "https://partner.steamgames.com/doc/marketing/upcoming_events/2026_summer_sale": {
+      "status": "network-error"
+    },
+    "https://parade.com/news/007-first-light-james-bond-video-game-launches-may-27": {
+      "status": "network-error"
+    },
+    "https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/2026june": {
+      "status": "network-error"
+    },
+    "https://patternenergy.com/sunzia-comes-online/": {
+      "status": "network-error"
+    },
+    "https://paultan.org/2026/03/18/2026-bmw-i3-revealed-na0-ev-3-series-with-up-to-469-ps-900-km-wltp-range-400-kw-dc-fast-charging/": {
+      "status": "network-error"
+    },
+    "https://paultan.org/2026/04/01/2026-bmw-ix3-40-revealed/": {
+      "status": "network-error"
+    },
+    "https://paultan.org/2026/06/13/electric-bmw-m3-za0-previewed-with-bmw-m-concept-neue-klasse-over-800-hp-800v-100-kwh-battery/": {
+      "status": "network-error"
+    },
+    "https://paultan.org/2026/04/08/2026-mitsubishi-xforce-launched-in-malaysia/": {
+      "status": "network-error"
+    },
+    "https://pccentral.net/micron-blames-apple-memory-crisis-pricing/": {
+      "status": "network-error"
+    },
+    "https://peckshield.com/kelp-dao-2026": {
+      "status": "network-error"
+    },
+    "https://pennstatehealthnews.org/2026/04/later-sleep-and-wake-times-tied-to-poor-diet-and-sedentary-behavior-in-teens/": {
+      "status": "network-error"
+    },
+    "https://pegi.info/news/pegi-expands-age-rating-criteria-interactive-risk-categories": {
+      "status": "network-error"
+    },
+    "https://penwell.law/blog/anthropic-fable-5-export-directive-legal-analysis": {
+      "status": "network-error"
+    },
+    "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability": {
+      "status": "network-error"
+    },
+    "https://people.com/tyra-banks-files-lawsuit-against-netflix-11997357": {
+      "status": "network-error"
+    },
+    "https://ph.investing.com/analysis/skew-is-broken-goldmans-vol-desk-says-the-market-has-stopped-paying-for-fear-216462": {
+      "status": "network-error"
+    },
+    "https://pershingsquareholdings.com/pershing-square-holdings-ltd-releases-monthly-net-asset-value-and-performance-report-for-february-2026/": {
+      "status": "network-error"
+    },
+    "https://pharmacally.com/xenons-azetukalner-delivers-strong-phase-3-win-in-focal-seizures-sets-stage-for-2026-fda-filing/": {
+      "status": "network-error"
+    },
+    "https://ph.usembassy.gov/": {
+      "status": "network-error"
+    },
+    "https://pharmadevicenews.com/iti-9001-enters-phase-1-as-immunomic-therapeutics-tests-disease-modifying-allergy-vaccine/": {
+      "status": "network-error"
+    },
+    "https://pharmadevicenews.com/is-mrna-1010-the-breakthrough-moderna-needs-beyond-covid-19-vaccines/": {
+      "status": "network-error"
+    },
+    "https://pharmadevicenews.com/why-metavias-higher-dose-titration-strategy-could-matter-more-than-the-first-patient-milestone-itself/": {
+      "status": "network-error"
+    },
+    "https://pharmaphorum.com/news/insilico-and-sk-bio-forge-25bn-ai-neuroimmunity-alliance": {
+      "status": "network-error"
+    },
+    "https://pharmatimes.com/news/pulsesight-reports-positive-phase-1-data-for-pst-611-in-dry-amd/": {
+      "status": "network-error"
+    },
+    "https://phemex.com/blogs/bitcoin-reclaims-63000-as-spot-etf-inflows-turn-positive": {
+      "status": "network-error"
+    },
+    "https://phemex.com/blogs/btc-price-analysis-breakout-above-75k-april-17": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-01-eye-mathematically-attributes-essential-perception.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-02-simulations-path-ideal-glass-crystal.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-blur-reverse-quantum.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-approach-quantum-error-portends-scalable.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-ceramic-shatters-longstanding-high-temperature.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-cell-gatekeeper-critical-rna-quality.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-dna-origami-precisely-positions-photon.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-chandra-black-holes-growth.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-dry-ice-planetary-nebula.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-dual-rail-superconducting-qubits-generate.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-electronics-future-ultra-efficient-graphene.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-german-firms-china.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-independent-case-toponium.html": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/ai-agents-may-build-ethereum-layer-2-by-2026-65118": {
+      "status": "network-error"
+    },
+    "https://phemex.com/blogs/sec-delays-tokenized-stock-innovation-exemption-reasons": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/bitcoin-etf-inflows-surpass-1-billion-in-2026-reversing-outflow-trend-74733": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/bitcoin-analyst-cautious-on-bull-market-claims-amid-technical-signals-76302": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/phemex-crypto-market-daily-bitcoin-holds-71k-as-defi-tokens-lead-gains-key-token-unlocks-today-mar-15-66522": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/phemex-crypto-market-daily-btc-eth-slide-as-major-token-unlocks-and-polygon-zkevm-shutdown-hit-crypto-jul-01-91360": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/phemex-crypto-market-daily-chainlink-unlocks-165m-in-tokens-as-btc-eth-hold-gains-apr-05-70987": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/phemex-crypto-market-daily-crypto-market-rallies-btc-tops-81k-sui-soars-24-ahead-of-us-cpi-may-11-80475": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/phemex-crypto-market-daily-crypto-market-slides-btc-and-eth-drop-defi-tokens-outperform-mar-14-66473": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/stablecoin-market-cap-hits-record-3214-billion-as-defi-tvl-nears-100-billion-74177": {
+      "status": "network-error"
+    },
+    "https://phemex.com/news/article/stablecoin-transfers-exceed-1-trillion-in-april-reports-defillama-76862": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-jwst-reveals-distant-red-galaxy.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-neutrality-stabilize-decisions.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-pairs-atoms.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-physicists-sun-magnetic-kilometers-surface.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-proof-concept-quantum-battery-faster.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-scientists-play-key-role-discovery.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-silicon-quantum-logical.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-ultra-thin-mose8322-infrared-nanometer.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-03-xrism-gamma-cas-ray-year.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-astronomers-thought-early-universe-full.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-atom-substitution-successfully-tunes-molecular.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-atomic-simulations-reveal-rotational-mechanism.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-contribution-artemis-ii-moon-mission.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-bennu-sample-reveals-newly-asteroid.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-disk-catalyst-carbon-dioxide-methanol.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-farming-ancient-dna-reveals-natural.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-mesic-nuclei-reveal-mass.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-oil-gas-wells-emit-microbial.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-quantum-built-qubits-team.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-scientists-energy-demand-goals-climate.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-scientists-unveil-breakthrough-tool-world.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-sombrero-galaxy-vast-halo-emerges.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-superconducting-quantum-circuit-simulates-proton.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-sought-quantum-milestone-fermionic-atom.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-world-largest-quantum-circuit-simulation.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-04-zirconia-thin-reversible-nonpolar-polar.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-ancient-lake-cores-reveal-unprecedented.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-arctic-ocean-food-chain-disrupted.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-black-holes-singularities-hawking-combine.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-brain-cells-play-doom.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-blue-rocket-explosion-bad-news.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-cooling-poverty-extreme-dangerous-millions.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-capturing-elusive-molecular-sandwich.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-meteor-massachusetts-explosion-sightings-delaware.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-deextinction-company-artificial-egg-true.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-million-year-history-blood-cells.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-nanofiber-implant-drugs-survival-glioblastoma.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-pulsar-nebula-supernova-remnant-explored.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-student-astronomer-rosetta-stone-mysterious.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-rainfall-mm-ecosystem-nitrogen-retention.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-superconducting-vortices-moonlight-qubits-disruption.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-temporary-carbon-climate-goals.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-tiny-chip-circuit-power-generation.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-05-tropical-cyclones-ocean-carbon-flip.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-ai-protein-virus-shells-reshape.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-ancient-dna-uncovers-deadly-plague.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-astronomers-carbon-sugar-deep-space.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-atlantic-cold-blob-weakening-ocean.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-binary-black-hole-probes-event.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-boost-carbon-uptake-efficiency-global.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-carbon-bright-angel-formation-mars.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-chemists-snap-complex-3d-molecules.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-collapsing-stars-spawn-mini-universes.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-drug-free-nanoparticles-tumor-growth.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-climate-based-tool-coral-months.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-electron-gain-ultrafast-torque-flips.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-equilibrium-cesium-atoms-reveal-fractional.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-esa-arrakihs-mission-eu-exploration.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-forest-growth-carbon-storage.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-freshwater-boundary-breach-deepens-climate.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-frozen-rat-chromosome-life-mouse.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-genetically-hookworms-therapeutics.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-gold-palladium-catalysis-mechanism-advance.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-honeybees-crown-queens.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-human-driven-139c-15c.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-jwst-dormant-black-hole-billion.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-jwst-reveals-dawn-dusk-atmosphere.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-major-power-outage-france-europe.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-majorana-modes-disorder-atomic-chains.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-megacluster-bacterial-genes-reveals-antibiotics.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-metal-hydride-molecule-laser-path.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-newfound-whale-necropolis-reveals-million.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-pegasus-deploy-link-monthslong-orbit.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-permafrost-trigger-overlooked-carbon-rivers.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-physicists-ai-claude-collaborate-year.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-plankton-linked-vapors-cloud-seed.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-previously-unknown-detoxification-pathway-chloromethane.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-quantum-sensor-major-obstacle-dark.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-radar-echoes-europa-reveal-secrets.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-sea-anemones-reveal-antiviral-defense.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-space-station-slash-climate-uncertainty.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-super-puff-planets-lighter-candy.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-uk-rivers-climate-whiplash.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-analog-gravity-advance-insights-hawking.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-06-world-largest-particle-smasher-halts.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-atlantic-current-fuel-stronger-california.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-blasts.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-atomic-cu-nanoclusters-conversion-fuel.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-decoding-nature-largest-enzymes-reveals.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-dome-roasts-eastern-holiday-weekend.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-earth-primordial-magma-ocean-lava.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-excess-deaths-england-wales-june.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-faintest-planet-imaged-earth-years.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-faster-quantum.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-fish-dna-crystals-rewrite-colorado.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-greenland-meltwater-amoc-weakening-sight.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-frog-protein-antidote-deadly-red.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-healthier-sustainable-diets-reshape-global.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-hidden-jet-link-black-hole.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-hidden-deep-sea-turbulence-climate.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-life-solar-atmosphere-habitable-zone.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-japan-space-agency-flight-experimental.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-mechanical-vibrations-magnetic-memory-quantum.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-nasa-perseverance-rover-ancient-mars.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-oldest-quasars-perplexing-space-mystery.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-oxygenic-photosynthesis-photosystem-overturning-year.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-physicists-room-temperature-quantum-material.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-scientists-hidden-individuality-viral-infections.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-scientists-electrical-molecule-quantum-states.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-scientists-relay-synthesis-key-blocks.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-south-australian-algal-bloom-species.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-theorized-electron-helium-qubit-strong.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-spontaneous-current-loops-kagome-metal.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-tiny-jurassic-bird-reveals-key.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-tropical-forests-photosynthesis-limits-million.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-ultrafast-scanning-tunneling-microscopy-quantum.html": {
+      "status": "network-error"
+    },
+    "https://phys.org/news/2026-07-volcanoes-wildfires-adding-vapor-stratosphere.html": {
+      "status": "network-error"
+    },
+    "https://physics.mit.edu/news/a-new-way-to-spot-signs-of-dark-matter/": {
+      "status": "network-error"
+    },
+    "https://physics.ku.edu/news/article/study-reveals-cosmic-tug-of-war-behind-the-crab-pulsars-zebra-stripes": {
+      "status": "network-error"
+    },
+    "https://physicsworld.com/a/new-class-of-magnons-live-a-hundred-times-longer/": {
+      "status": "network-error"
+    },
+    "https://physicsworld.com/a/laser-driven-free-electron-laser-runs-for-more-than-eight-hours/": {
+      "status": "network-error"
+    },
+    "https://physicsworld.com/a/soot-from-rocket-launches-is-polluting-earths-upper-atmosphere/": {
+      "status": "network-error"
+    },
+    "https://pickuptrucktalk.com/2026/06/uaw-strike-at-key-gm-truck-supplier-silverado-sierra-production/": {
+      "status": "network-error"
+    },
+    "https://physics.nist.gov/cuu/Constants/": {
+      "status": "network-error"
+    },
+    "https://pintu.co.id/en/academy/post/crypto-market-analysis-june-29-2026-bitcoin-etfs-record-largest-outflow-in-history": {
+      "status": "network-error"
+    },
+    "https://platformeconomyinsights.com/australia-opens-online-safety-push-against-top-gaming-platforms/": {
+      "status": "network-error"
+    },
+    "https://plaid.com/blog/chatgpt-personal-finance-plaid/": {
+      "status": "network-error"
+    },
+    "https://playday.one/2026/04/29/xbox-is-down-once-again-in-q3-2026-ms-earnings/": {
+      "status": "network-error"
+    },
+    "https://playday.one/2026/04/27/ps5-prices-are-going-up-in-southeast-asia-and-south-korea/": {
+      "status": "network-error"
+    },
+    "https://playday.one/2026/04/30/sony-issues-statement-on-ongoing-drm-concerns/": {
+      "status": "network-error"
+    },
+    "https://playday.one/2026/05/01/forza-horizon-6s-pre-load-is-live-on-xbox-and-pc-shes-a-biggun/": {
+      "status": "network-error"
+    },
+    "https://playday.one/2026/07/06/double-fine-returns-to-independence-following-xbox-reset/": {
+      "status": "network-error"
+    },
+    "https://playday.one/2026/05/01/refurb-playstation-5-units-see-100-usd-price-increase/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/bbl-esports-and-nrg-advance-to-the-esports-world-cup-2026-valorant-playoffs/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/esic-launches-cheating-investigation-and-temporarily-suspends-peruvian-dota-2-roster/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/iem-cologne-major-2026-opening-matches-schedule-fut-vs-b8-derby-monte-vs-big/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/faze-clan-co-founder-and-former-ceo-arrested-in-the-united-states/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/lec-fines-karmine-corp-movistar-koi-and-player-jojopyun-for-misconduct/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/main-esports-matches-for-june-3-continuation-of-the-iem-cologne-major-2026-and-group-b-matches-at-pmgo-2026-s1/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/kespa-fines-esports-player-ruler-and-assigns-community-service-over-tax-controversy/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/main-esports-matches-on-june-12-playoffs-begin-at-valorant-masters-london-2026-and-iem-cologne-major-2026-continues/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/monte-coach-esl-gave-me-a-final-warning-not-to-show-any-emotions/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/main-esports-matches-on-march-23-day-2-of-the-esl-one-birmingham-2026-group-stage-and-the-final-day-of-the-blast-open-spring-2026-group-stage/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/team-falcons-to-play-blast-slam-vii-playoffs-with-sumail-due-to-visa-issues/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/navi-eliminated-from-lec-2026-spring-playoffs-after-defeat-to-karmine-corp/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/top-esports-matches-on-april-18-iem-rio-semifinals-navi-start-at-pgl-wallachia-season-8/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/top-esports-matches-on-april-13-the-start-of-iem-rio-2026-and-the-final-matches-of-week-three-of-lec-2026-spring/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/top-esports-matches-on-july-10-msi-2026-and-xse-pro-league-guangzhou-2026-continue-along-with-three-tournaments-at-ewc-2026/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/two-ukrainian-teams-invited-to-the-closed-qualifier-for-esports-world-cup-2026/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/ukrainian-esports-federation-bans-s1mple-from-its-tournaments/": {
+      "status": "network-error"
+    },
+    "https://players.com.ua/en/news/valve-adds-falcons-championship-stickers-following-iem-cologne-major-2026-victory/": {
+      "status": "network-error"
+    },
+    "https://playersforlife.com/2026/04/21/xbox-game-pass-to-feature-final-fantasy-v-and-more-in-april/": {
+      "status": "network-error"
+    },
+    "https://pluang.com/en/news-feed/bitcoin-etf-alami-keluar-modal-5-4-miliar-dwf-labs": {
+      "status": "network-error"
+    },
+    "https://pley.gg/cs2/falcons-announce-signing-of-karrigan/": {
+      "status": "network-error"
+    },
+    "https://pluginamerica.org/policy/federal-ev-policy-timeline/": {
+      "status": "network-error"
+    },
+    "https://pluginamerica.org/press-release/plug-in-america-condemns-anti-ev-provisions-in-newly-released-build-america-250-act/": {
+      "status": "network-error"
+    },
+    "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-flies-around-the-moon-official-broadcast/": {
+      "status": "network-error"
+    },
+    "https://plus.nasa.gov/scheduled-video/nasas-artemis-iii-announcement/": {
+      "status": "network-error"
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12125019/": {
+      "status": "network-error"
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12588551/": {
+      "status": "network-error"
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12803467/": {
+      "status": "network-error"
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12990402/": {
+      "status": "network-error"
+    },
+    "https://politicalriskwire.com/the-seven-democrat-math-that-decides-the-clarity-act/": {
+      "status": "network-error"
+    },
+    "https://politicalwire.com/2026/04/11/trump-suddenly-sounds-like-biden/": {
+      "status": "network-error"
+    },
+    "https://polyelectronics.us/semiconductor-lead-times-are-moving-toward-42-weeks-why-a-u-s-ems-partner-matters-more-than-ever-in-2026/": {
+      "status": "network-error"
+    },
+    "https://politics.people.com.cn/n1/2026/0416/c1001-40702154.html": {
+      "status": "network-error"
+    },
+    "https://politics.gmw.cn/2026-07/17/content_38890802.htm": {
+      "status": "network-error"
+    },
+    "https://polygon.com/ggmods-official-launch-april-13/": {
+      "status": "network-error"
+    },
+    "https://polygon.technology/polygon-zkevm": {
+      "status": "network-error"
+    },
+    "https://portal.sina.com.hk/finance/finance-globenewswire/globenewswire/2026/03/16/1612405/innocare-announces-first-healthy-volunteer-dosed-in-clinical-trial-of-novel-vav1-degrader-icp-538-in-china/": {
+      "status": "network-error"
+    },
+    "https://portal.sina.com.hk/finance/sina/2026/06/15/1823887/%E6%B8%AF%E8%82%A1%E6%94%B6%E8%A9%95%EF%BC%9A%E6%81%92%E6%8C%87%E6%BC%B20-5-%E7%A7%91%E6%8C%87%E6%BC%B21-28-%E9%BB%83%E9%87%91%E8%82%A1%E3%80%81%E8%88%AA%E7%A9%BA%E8%82%A1%E5%A4%A7%E6%BC%B2-%E8%8A%AF/": {
+      "status": "network-error"
+    },
+    "https://portcalls.com/naia-air-cargo-crunch-hits-semiconductor-industry-one-global-tech-firm-suspends-production/": {
+      "status": "network-error"
+    },
+    "https://powerupgaming.co.uk/2026/05/18/gta-6-was-apparently-18-months-behind-schedule-but-take-two-ceo-says-19-november-release-is-final/": {
+      "status": "network-error"
+    },
+    "https://ppc.land/ias-total-tv-brings-show-level-transparency-to-ctv-ad-buying/": {
+      "status": "network-error"
+    },
+    "https://premarketdaily.com/can-fedex-and-micron-justify-a-7500-sp/": {
+      "status": "network-error"
+    },
+    "https://pr.tsmc.com/system/files/newspdf/attachment/e98d0838eea3c47083fb67dbc349c059d8457c25/2Q26%20%28E%29_with%20gudiance_final_wmn.pdf": {
+      "status": "network-error"
+    },
+    "https://press.asus.com/news/press-releases/asus-rog-computex-2026-ace-esports-gear-partnerships/": {
+      "status": "network-error"
+    },
+    "https://press.asus.com/news/press-releases/asus-rog-strix-tuf-gaming-4k-dual-mode-monitors/": {
+      "status": "network-error"
+    },
+    "https://press.asus.com/news/press-releases/rog-blast-premier-2026-esports-hardware/": {
+      "status": "network-error"
+    },
+    "https://press.na.square-enix.com/FINAL-FANTASY-VII-REVELATION-ANNOUNCED-EXPERIENCE-THE-JOURNEYS-END-IN-": {
+      "status": "network-error"
+    },
+    "https://press.aboutamazon.com/aws/2026/3/aws-and-cerebras-collaboration-aims-to-set-a-new-standard-for-ai-inference-speed-and-performance-in-the-cloud": {
+      "status": "network-error"
+    },
+    "https://pressreleasenetwork.com/site/2026/03/16/lucid-details-upcoming-midsize-platform-and-announces-new-recurring-revenue-streams/": {
+      "status": "network-error"
+    },
+    "https://pressnote.in/Corporate-News_533672.html": {
+      "status": "network-error"
+    },
+    "https://press.spglobal.com/2026-06-05-Marvell-Technology-and-Flex-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600": {
+      "status": "network-error"
+    },
+    "https://press.un.org/en/2026/sc16330.doc.htm": {
+      "status": "network-error"
+    },
+    "https://press.un.org/en/2026/sc16315.doc.htm": {
+      "status": "network-error"
+    },
+    "https://pressroom.toyota.com/toyota-announces-3-6b-expansion-2000-new-jobs-at-its-san-antonio-plant/": {
+      "status": "network-error"
+    },
+    "https://pressroom.toyota.com/toyota-recalls-certain-model-year-2026-toyota-grand-highlander-and-lexus-tx-vehicles/": {
+      "status": "network-error"
+    },
+    "https://preview.www.fool.com/investing/2026/03/15/my-top-2-mega-cap-stocks-to-buy-after-microsofts-l/": {
+      "status": "network-error"
+    },
+    "https://preview.www.fool.com/investing/2026/03/18/billionaire-david-tepper-tripled-micron-dump-ai/": {
+      "status": "network-error"
+    },
+    "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Schwab-Announces-Latest-Round-of-Enhancements-to-Retail-Trading-Experience/default.aspx": {
+      "status": "network-error"
+    },
+    "https://primerates.com/warsh-first-week-fed-chair-june-fomc-outlook/": {
+      "status": "network-error"
+    },
+    "https://prisma.uni-mainz.de/en/2026/03/11/standard-model-of-particle-physics-tested-to-a-trillionth-of-a-percent-accuracy/": {
+      "status": "network-error"
+    },
+    "https://privacy.claude.com/en/articles/10301952-updates-to-our-privacy-policy": {
+      "status": "network-error"
+    },
+    "https://pro.eslgaming.com/tour/2026/05/annual-club-incentive-update-post-iem-rio/": {
+      "status": "network-error"
+    },
+    "https://pro.thestreet.com/trade-ideas/tesla-heading-toward-buying-opportunity-as-misunderstanding-prevails": {
+      "status": "network-error"
+    },
+    "https://procurementmag.com/news/top-five-stories-in-procurement-may-2": {
+      "status": "network-error"
+    },
+    "https://procurementmag.com/articles/s2c-strategy-navigating-macro-supply-chain-risks": {
+      "status": "network-error"
+    },
+    "https://professional.heart.org/en/science-news/2026-dietary-guidance-to-improve-cardiovascular-health": {
+      "status": "network-error"
+    },
+    "https://professional.heart.org/en/guidelines-statements/2026-dietary-guidance-to-improve-cardiovascular-health-a-scientific-statementcir0000000000001435": {
+      "status": "network-error"
+    },
+    "https://professional.heart.org/en/science-news/2026-dietary-guidance-to-improve-cardiovascular-health/top-things-to-know": {
+      "status": "network-error"
+    },
+    "https://professional.heart.org/en/science-news/2026-heart-disease-and-stroke-statistics": {
+      "status": "network-error"
+    },
+    "https://professional.heart.org/en/science-news/2026-guideline-for-the-prevention-detection-evaluation-and-management-of-ckm-syndrome": {
+      "status": "network-error"
+    },
+    "https://projects.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz": {
+      "status": "network-error"
+    },
+    "https://profit.pakistantoday.com.pk/2026/07/03/global-gas-markets-expected-to-stabilise-after-strait-of-hormuz-reopening": {
+      "status": "network-error"
+    },
+    "https://propakistani.pk/2026/07/14/openai-removes-5-hour-limit-for-chatgpt-work-and-codex-users/": {
+      "status": "network-error"
+    },
+    "https://propakistani.pk/2026/07/02/major-motorway-gets-ultrafast-ev-charging-stations/": {
+      "status": "network-error"
+    },
+    "https://protos.com/cz-vs-star-xu-1b-bet-sends-crypto-rivalry-nuclear/": {
+      "status": "network-error"
+    },
+    "https://protos.com/mev-bot-jaredfromsubway-eth-loses-7-5m-to-approvals-honeypot/": {
+      "status": "network-error"
+    },
+    "https://protos.com/polymarket-exploited-for-700k-in-private-key-hack/": {
+      "status": "network-error"
+    },
+    "https://psprices.com/news/sony-ab-testing-prices/": {
+      "status": "network-error"
+    },
+    "https://pub-c28f91e335744259a8c0ce38e3967177.r2.dev/VTT_CR_00125_26.pdf": {
+      "status": "network-error"
+    },
+    "https://prtimes.jp/main/html/rd/p/000005718.000013450.html": {
+      "status": "network-error"
+    },
+    "https://pubg.com/en/news/9995": {
+      "status": "network-error"
+    },
+    "https://pubgesports.com/en": {
+      "status": "network-error"
+    },
+    "https://public.wmo.int/media/update/global-seasonal-climate-update-april-may-june-2026": {
+      "status": "network-error"
+    },
+    "https://public.wmo.int/media/announcement/state-of-global-climate-2025-report": {
+      "status": "network-error"
+    },
+    "https://public.wmo.int/news/media-centre/el-nino-forecast-intensify-increasing-likelihood-of-extreme-weather": {
+      "status": "network-error"
+    },
+    "https://public.wmo.int/media/update/global-seasonal-climate-update-july-august-september-2026": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/40854218/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/41308939/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/41418890/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/41663400/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/41843416/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/41850728/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/41914202/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/41985132/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/42017883/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/42162965/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/42230125/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/42385787/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/42399371/": {
+      "status": "network-error"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/42407080/": {
+      "status": "network-error"
+    },
+    "https://pubs.acs.org/doi/10.1021/acsnano.6c06017": {
+      "status": "network-error"
+    },
+    "https://pubs.acs.org/doi/10.1021/jacs.5c17644": {
+      "status": "network-error"
+    },
+    "https://pubs.acs.org/doi/10.1021/jacsau.6c00817": {
+      "status": "network-error"
+    },
+    "https://publications.jrc.ec.europa.eu/repository/handle/JRC138105": {
+      "status": "network-error"
+    },
+    "https://pubs.rsc.org/en/content/articlelanding/2026/fo/d6fo00867d": {
+      "status": "network-error"
+    },
+    "https://pulse2.com/microagi-raises-55-million-seed-funding-to-scale-atlas-robotics-deployment-platform/": {
+      "status": "network-error"
+    },
+    "https://regulations.ai/regulations/RAI-US-NA-ENFORCE-2026": {
+      "status": 404
+    },
+    "https://roman.gsfc.nasa.gov/news/roman-construction-complete-2026.html": {
+      "status": 404
+    },
+    "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003612.pdf": {
+      "status": 404
+    },
+    "https://scienmag.com/boosting-plant-based-diet-lowers-older-adults-multimorbidity/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/breakthrough-laser-technique-unveils-secrets-of-radioactive-atomic-nuclei/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/daily-glass-of-100-fruit-juice-may-promote-mental-wellbeing-study-finds/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/future-climate-risks-to-chinas-wind-and-solar/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/groundwater-response-time-dynamics-help-detect-flash-droughts-in-drylands/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/paired-enzymes-drive-moldable-ring-cyclization-cascades/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/permafrost-carbon-release-grows-linearly-with-overshoot-warming-via-amoc-tipping/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/scientists-achieve-direct-observation-of-muonic-molecules-key-to-muon-catalyzed-fusion/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/scientists-pioneer-safe-method-for-inserting-gene-sized-dna-into-genomes/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/semiconductor-chip-enables-parallel-enzymatic-dna-synthesis/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/standard-model-of-particle-physics-confirmed-with-unprecedented-precision-to-one-trillionth-accuracy/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/ucf-scientists-achieve-scalable-quantum-entanglement-breakthrough-for-future-computing/": {
+      "status": "timeout"
+    },
+    "https://scienmag.com/worlds-first-phase-3-trial-of-in-vivo-crispr-therapy-successfully-concludes-bringing-crispr-treatment-closer-to-reality/": {
+      "status": "timeout"
+    },
+    "https://screenrant.com/xbox-officially-steam-integration-update/": {
+      "status": 404
+    },
+    "https://scjss.mofcom.gov.cn/zlgh/zcfb/art/2026/art_e24c3760c5e3453199d2701febe7abbc.html": {
+      "status": "network-error"
+    },
+    "https://seed.bytedance.com/seed3d-2-0/": {
+      "status": "timeout"
+    },
+    "https://sg.finance.yahoo.com/news/anthropic-calls-pause-global-ai-223531771.html": {
+      "status": 404
+    },
+    "https://sg.finance.yahoo.com/news/gdc-festival-gaming-2026-delivers-230700120.html": {
+      "status": 404
+    },
+    "https://siliconangle.com/2026/03/19/deeptune-raises-43m-accelerate-ai-learning-through-virtual-training-gyms/": {
+      "status": 404
+    },
+    "https://skillings.net/rare-earth-supply-chain-what-it-is-why-it-matters-2026-outlook/": {
+      "status": 404
+    },
+    "https://sports.sina.cn/2026-06-06/detail-inianqpm0556334.d.html?vt=4": {
+      "status": 404
+    },
+    "https://sports.sina.cn/2026-04-15/detail-inhunxzu3939175.d.html?vt=4": {
+      "status": 404
+    },
+    "https://sports.yahoo.com/articles/braves-bats-wallop-diamondbacks-17-051245437.html": {
+      "status": 404
+    },
+    "https://sports.yahoo.com/articles/open-thread-may-3-2026-130500811.html": {
+      "status": 404
+    },
+    "https://sports.yahoo.com/articles/cavs-cage-raptors-game-1-194531414.html": {
+      "status": 404
+    },
+    "https://sports.yahoo.com/articles/sabalenka-face-osaka-cobolli-french-133036131.html": {
+      "status": 404
+    },
+    "https://stock.jrj.com.cn/2026/07/03185157692698.html": {
+      "status": 404
+    },
+    "https://support.google.com/youtube/answer/16440338?hl=en": {
+      "status": 404
+    },
+    "https://support.google.com/webmasters/answer/66353": {
+      "status": 404
+    },
+    "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-market-data-2026-q1": {
+      "status": 404
+    },
+    "https://tech.eu/ai-vc-europe-2026-q1/": {
+      "status": 404
+    },
+    "https://tech.eu/2026/05/13/corti-launches-no-equity-accelerator-to-help-healthcare-ai-startups-navigate-europes-tightening-regulation/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/03/05/unleash-raises-35m-ai-generated-code-governance/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/03/09/russian-government-hackers-signal-whatsapp-dutch-spies/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/03/24/arm-is-releasing-the-first-in-house-chip-in-its-35-year-history/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/04/22/waymo-lyft-nashville-flexdrive/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/04/23/era-computer-edge-ai/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/04/21/waymo-miami-orlando-public-highway-mode/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/04/23/waymo-all-access-2026/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/04/22/octen-10m-ai-agent-search/": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-computing-into-cash/": {
+      "status": 404
+    },
+    "https://techxplore.com/news/2026-03-efficiency-perovskite-silicon-triple-junction.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-04-china-weride-eyes-autonomous-cars.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-04-microsoft-invest-bn-japan-ai.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-04-ev-battery-fragile-swap-key.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-04-swapping-atom-molecule.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-05-ai-generates-full-battery-electrolyte.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-05-ultra-thin-membrane-enables-high.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-07-sun-tracking-solar-panels-hail.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-05-renewable-energy-global.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-06-based-material-solar-energy-power.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-06-microgripper-bridges-gap-precision.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-07-chinese-ai-tech-industry-abilities.html": {
+      "status": "network-error"
+    },
+    "https://techxplore.com/news/2026-07-tandem-solar-cell-efficiency-cigs.html": {
+      "status": "network-error"
+    },
+    "https://theedgemalaysia.com/node/799463": {
+      "status": 404
+    },
+    "https://theeditorial.news/tech-news/tsmcs-arizona-fab-21-hits-90-native-yield-the-chip-wars-geography-has-shifted-mqtgnk0l": {
+      "status": "network-error"
+    },
+    "https://thegamingboardroom.com/2026/04/03/new-california-card-room-regulations-take-effect-amid-uncertainty-and-legal-challenges/": {
+      "status": 404
+    },
+    "https://thegamingboardroom.com/2026/04/10/lithuania-looks-to-introduce-mandatory-player-cards-for-all-types-of-gambling/": {
+      "status": 404
+    },
+    "https://thegamingboardroom.com/2026/04/01/australias-new-aml-framework-kicks-in-today-placing-greater-responsibility-on-gambling-sector/": {
+      "status": 404
+    },
+    "https://thegamingboardroom.com/2026/04/01/star-completes-sale-of-50-stake-in-brisbane-integrated-resort-to-hong-kong-partners/": {
+      "status": 404
+    },
+    "https://thefrontrunners.io/article/tungsten-hexafluoride-shortage-japan-shutdown": {
+      "status": "timeout"
+    },
+    "https://thenextweb.com/news/alibaba-integrates-qwen-ai-with-taobao-for-end-to-end-agentic-shopping": {
+      "status": 404
+    },
+    "https://theory.people.com.cn/n1/2026/0408/c40531-40696947.html": {
+      "status": "network-error"
+    },
+    "https://thetradable.com/stocks/asset-managers-hit-largest-vix-short-position-since-july-2024--ms": {
+      "status": 410
+    },
+    "https://timesofindia.indiatimes.com/business/international-business/asian-stocks-today-21-april-2026-markets-mixed-as-us-iran-talks-offset-geopolitical-jitters/": {
+      "status": 404
+    },
+    "https://today.tamu.edu/digit-regeneration-2026/": {
+      "status": 404
+    },
+    "https://transitionawayconference.com/science/": {
+      "status": 404
+    },
+    "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E9%81%8A%E6%88%B2%E5%85%AC%E5%8F%B8gdc-%E5%B1%95%E7%A4%BAai%E5%AF%A6%E5%8A%9B-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E6%95%88%E7%8E%87%E5%A4%A7%E5%B9%85%E6%8F%90%E5%8D%87-103840308.html": {
+      "status": 404
+    },
+    "https://tw.stock.yahoo.com/news/%E9%80%BE%E7%99%BE%E5%AE%B6%E7%BE%8E%E5%9C%8B%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E6%A5%AD%E8%80%85%E7%B1%B2%E5%8F%83%E9%99%A2%E6%8E%A8%E9%80%B2%E7%9B%A3%E7%AE%A1%E6%B3%95%E6%A1%88-071805982.html": {
+      "status": 404
+    },
+    "https://uk.advfn.com/market-news/article/14311/energy-shares-advance-globally-as-oil-pushes-back-above-100-on-hormuz-tensions": {
+      "status": 404
+    },
+    "https://variety.com/streaming-calendar-2026/": {
+      "status": 404
+    },
+    "https://variety.com/streaming-calendar-spring-2026/": {
+      "status": 404
+    },
+    "https://velo.outsideonline.com/road/road-racing/tour-de-france/tour-de-france-riders-trial-secretive-new-lactate-energy-gels/": {
+      "status": 404
+    },
+    "https://wallstreet.ai/insights/q2-2026-earnings-calendar-megacap-tech-banks-preview": {
+      "status": 404
+    },
+    "https://wallstreetcn.com/articles/3774643": {
+      "status": 404
+    },
+    "https://waymo.com/blog/2026/04/miami-orlando-fully-public-launch": {
+      "status": 404
+    },
+    "https://waymo.com/blog/miami-orlando-2026/": {
+      "status": 404
+    },
+    "https://whale-alert.io/transactions/tether-usdt-2b-2026": {
+      "status": 404
+    },
+    "https://wmo.int/en/our-mandate/climate/el-nino-la-nina-update": {
+      "status": 404
+    },
+    "https://wolfstreet.com/2026/03/20/treasury-yields-spike-10-year-to-4-39-30-year-to-4-96-mortgage-rates-spike-to-6-5-as-the-bond-market-gets-antsy/": {
+      "status": 404
+    },
+    "https://worldoftanks.com/en/news/general-news/heat-beta-2026/": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KNOB3ISB0553VFLH.html": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KQ6VDHH3055616ZQ.html": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KTJA155B05561FZP.html": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KTUJNPJC0556EXJK.html?f=post2020_dy_recommends": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KTMFMHK205566SCS.html": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KU7RL4S105561FZX.html": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KUP49B510542MBOG.html?f=post1603_tab_news": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KVE7BEJO05561FZJ.html?f=post2020_dy_recommends": {
+      "status": 404
+    },
+    "https://www.163.com/tech/article/KTUH00GK00097U7T.html": {
+      "status": 404
+    },
+    "https://www.1news.co.nz/2026/06/07/major-ai-firm-urges-pause-in-development-as-risks-grow/": {
+      "status": 404
+    },
+    "https://www.1news.co.nz/2026/04/17/trump-fumes-at-court-blocking-white-house-ballroom-project/": {
+      "status": 404
+    },
+    "https://www.aacr.org/meeting/annual-meeting-2026/": {
+      "status": 404
+    },
+    "https://www.aan.com/PressRoom/home/PressRelease/5332": {
+      "status": 404
+    },
+    "https://www.abc.net.au/news/2026-05-18/ukraine-launches-drone-attack-on-russia/106690990": {
+      "status": 410
+    },
+    "https://www.acea.auto/eu-automotive-policy-2026/": {
+      "status": 404
+    },
+    "https://www.acea.auto/fact/electric-cars-tax-benefits-and-incentives-in-2026/": {
+      "status": 404
+    },
+    "https://www.acea.auto/publication/ev-incentives-europe-2026/": {
+      "status": 404
+    },
+    "https://www.accuweather.com/en/weather-forecasts/summer-forecast-2026-heat-severe-storms-to-shape-the-season-as-el-ni%C3%B1o-develops-strengthens/1884851": {
+      "status": "timeout"
+    },
+    "https://www.ad-hoc-news.de/boerse/news/ueberblick/ethereum-price-holds-key-support-amid-bitcoin-liquidations-and-broader/68968579": {
+      "status": 410
+    },
+    "https://www.aichatdaily.com/ai-security/openai-releases-sol-no-clear-us-government-approval-process": {
+      "status": 404
+    },
+    "https://www.ajc.com/news/2026/04/iran-fires-on-israel-and-gulf-neighbors-as-trump-claims-threat-from-tehran-nearly-eliminated/": {
+      "status": 404
+    },
+    "https://www.ama-assn.org/delivering-care/public-health/dietary-guidelines-patient-summary-2026": {
+      "status": 404
+    },
+    "https://www.altitudesmagazine.com/ultra-processed-foods-linked-accelerated-cognitive-decline-largest/": {
+      "status": "timeout"
+    },
+    "https://www.americanbankingnews.com/2026/04/04/planet-labs-pbc-nysepl-stock-price-up-16-7-after-analyst-upgrade.html": {
+      "status": 404
+    },
+    "https://www.amd.com/en/newsroom/press-releases/2026-4-16-amd-and-the-french-government-announce-plans-to-advance.html": {
+      "status": "timeout"
+    },
+    "https://www.aol.com/articles/xrp-price-why-todays-sec-130627121.html": {
+      "status": 404
+    },
+    "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-03-12-artemis-ii-nasa-targets-april-launch.asp": {
+      "status": "network-error"
+    },
+    "https://www.autocar.co.uk/car-news/new-cars/hyundai-ioniq-3-european-launch-2026": {
+      "status": 404
+    },
+    "https://www.autonews.com/manufacturing/automakers/an-cr-v-dethrones-ford-f150-toyota-rav4-0702/": {
+      "status": 404
+    },
+    "https://www.autonews.com/ev-market-2026/": {
+      "status": 404
+    },
+    "https://www.bakermckenzie.com/en/insight/publications/2026/04/china-supply-chain-security-regulations": {
+      "status": 404
+    },
+    "https://www.bandainamcoent.com/super-robot-wars-y/dlc-infinite-darkness-2026": {
+      "status": 404
+    },
+    "https://www.bandainamcoent.com/news/super-robot-wars-y-infinite-darkness-dlc": {
+      "status": 404
+    },
+    "https://www.bbc.co.uk/sport/hyrox-gen-z-fitness-economy-2026": {
+      "status": 404
+    },
+    "https://www.bcg.com/press/22april2026-bcg-google-cloud-agentic-ai": {
+      "status": 404
+    },
+    "https://www.bcapgroup.com/insights/software-remains-bright-2026/": {
+      "status": 404
+    },
+    "https://www.beijing.gov.cn/ai-agent-subsidy-2026/": {
+      "status": 404
+    },
+    "https://www.bis.org/research/working-papers/stablecoins-etf-systemic-risk-2026.htm": {
+      "status": 404
+    },
+    "https://www.bitget.com/news/detail/12560605272920": {
+      "status": 404
+    },
+    "https://www.bitgo.com/press/go-network-2026/": {
+      "status": 404
+    },
+    "https://www.bladeofshadzero.com/": {
+      "status": "network-error"
+    },
+    "https://www.bmwk.de/Redaktion/EN/Pressemitteilungen/2026/04/petersberg-climate-dialogue-2026.html": {
+      "status": 404
+    },
+    "https://www.bruegel.org/eu-energy-emergency-mechanisms-2026": {
+      "status": 404
+    },
+    "https://www.businesskorea.co.kr/news/articleView.html?idxno=272784": {
+      "status": 404
+    },
+    "https://www.businesstimes.com.sg/international/china-manufacturing-caps-best-quarter-since-2020-survey": {
+      "status": 404
+    },
+    "https://www.businesstimes.com.sg/property/chinas-endless-housing-crisis-shows-faint-signs-hope": {
+      "status": 404
+    },
+    "https://www.businesswire.com/news/home/20260302269687/en/Adobe-to-Announce-Q1-FY2026-Earnings-Results-on-March-12-2026": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260311743439/en/Driivz-Launches-Comprehensive-Energy-Management-System-to-Transform-EV-Charging-Economics-and-Grid-Integration": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260312188473/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260312403884/en": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260317476754/en/Surf-AI-Launches-with-%2457-Million-in-Funding-to-Help-Enterprises-Operationalize-Security": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260318998536/en/iECURE-Selected-for-U.S.-FDA-Chemistry-Manufacturing-and-Controls-Development-and-Readiness-Pilot-Program-to-Support-Manufacturing-Readiness-of-ECUR-506-Ahead-of-Planned-BLA-Submission": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260319660969/en/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260319879864/en/FedEx-Reports-Strong-Third-Quarter-Results": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260320997513/en/Polymarket-Publishes-Enhanced-Market-Integrity-Rules-Across-Its-DeFi-Platform-and-CFTC-Regulated-U.S.-Exchange": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260324271507/en/Braze-Reports-Fiscal-Year-and-Fourth-Quarter-2026-Results": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260325001195/en/Accenture-and-Anthropic-Team-to-Help-Organizations-Secure-Scale-AI-Driven-Cybersecurity-Operations": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260325295907/en/Encoded-Therapeutics-Announces-FDA-Alignment-Initiation-of-Pivotal-Study-and-ASGCT-Presidential-Symposium-Presentation-of-ETX101-in-Dravet-Syndrome": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260325766216/en/Uber-Joins-the-Ibotta-Performance-Network-in-Exclusive-Multi-Year-Partnership/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260325923945/en/H.B.-Fuller-Reports-First-Quarter-2026-Results": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260327323771/en/Intercontinental-Exchange-Announces-New-%24600-Million-Investment-in-Polymarket": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260327464200/en/Tozorakimab-met-primary-endpoint-in-both-OBERON-and-TITANIA-Phase-III-trials-in-patients-with-COPD": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260331071577/en/Applied-AI-Lab-depthfirst-Announces-%2480-Million-in-Series-B-Funding": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260331071577/en/Applied-AI-Lab-depthfirst-Announces-80-Million-in-Series-B-Funding": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260331327850/en/Interactive-Brokers-Launches-Crypto-Asset-Trading-for-Individual-Investors-in-the-European-Economic-Area": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260331867190/en/TD-SYNNEX-Reports-Record-Fiscal-2026-First-Quarter-Results": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260401025174/en/Alkermes-Announces-Initiation-of-Phase-3-Brilliance-Studies-Evaluating-Alixorexton-for-the-Treatment-of-Narcolepsy-Type-1-and-Type-2": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260402933134/en/EACO-Corporation-Reports-Record-2nd-Quarter-Net-Sales-and-All-Time-Record-Quarterly-Net-Income": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260407106333/en/Drift-Protocol-Cryptocurrency-Hack-Class-Action-Lawsuit-Investigation-Drift-Investors-Urged-to-Contact-Award-Winning-Financial-Fraud-Recovery-Firm-Gibbs-Mura-A-Law-Group": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260407249206/en/Hemispherian-Initiates-Phase-12a-Clinical-Trial-of-GLIX1-in-Glioblastoma": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260407918434/en/Toshiba%E2%80%99s-Breakthrough-Algorithm-Harnesses-Edge-of-Chaos-to-Dramatically-Boost-Performance-of-its-Quantum%E2%80%91Inspired-Computer/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260408682814/en/Aurion-Biotech-Doses-First-Patients-in-ASTRA-Phase-3-Study-Evaluating-AURN001-in-Patients-with-Corneal-Edema-Secondary-to-Corneal-Endothelial-Dysfunction": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260410099173/en/Roblox-Announces-Roblox-Plus-a-New-Subscription-Plan-Offering-Exclusive-Platform-Benefits": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260415031797/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260415031797/en/Class-Action-Filed-Over-Drift-Protocol-%24280-Million-Hack-By-Gibbs-Mura-A-Law-Group": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260415853653/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260416511020/en/Janux-Therapeutics-Announces-First-Participant-Dosed-in-Phase-1-Study-of-JANX014": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260419278187/en/Tandem-PV-Opens-California-Factory-for-Next-Generation-Solar-Manufacturing": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260420382912/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260420817069/en/Trade-Disruption-Drives-2400-Surge-in-Shipping-Reroutes-ePost-Global-Data-Shows": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260423398038/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260423878842/en/Morgan-Stanley-Investment-Management-Launches-Stablecoin-Reserves-Portfolio": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260425875774/en/Pulse-Biosciences-Presents-Positive-Outcomes-in-Late-Breaking-Updated-Data-from-nPulse-Cardiac-Catheter-System-at-Heart-Rhythm-2026": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260429736966/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260429736966/en/Xsolla-and-GamesBeat-Release-Exclusive-Industry-Report-on-Latin-Americas-Gaming-Market-Ahead-of-gamescom-latam": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260504370817/en/Volvo-and-Aurora-Launch-Autonomous-Truck-Route-to-Oklahoma-City": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260506151146/en/Atari-Acquires-Rights-to-the-Legendary-Wizardry-RPGs": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260506556902/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260506718774/en/Uber-Announces-Results-for-First-Quarter-2026": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260513018065/en/U.S.-FDA-Approves-INQOVI-in-Combination-with-Venetoclax-the-First-All-Oral-Combination-Treatment-for-Patients-with-Acute-Myeloid-Leukemia-Who-Are-Ineligible-for-Intensive-Induction-Chemotherapy": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260513542161/en/BeOne-Medicines-BEQALZI-sonrotoclax-Approved-by-U.S.-FDA-as-First-and-Only-BCL2-Inhibitor-for-RR-Mantle-Cell-Lymphoma": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260514546216/en/GridCARE-Raises-%2464-Million-Series-A-from-Leading-AI-and-Energy-Investors-to-Create-a-New-Category-Power-Acceleration-for-AI": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260521228404/en/Scribe-Therapeutics-Achieves-Regulatory-Clearance-to-Initiate-First-in-Human-Clinical-Study-of-STX-1150-for-LDL-C-Reduction": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260521552844/en/Payward-Secures-VARA-Authorization-in-UAE-Enabling-Kraken-to-Expand-Regional-Presence": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260526082459/en/CARFAX-Canada-and-UCDA-Expand-Their-Collaboration-to-Help-Dealerships-Detect-VIN-Fraud": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260526724412/en/Voltera-and-Revel-Announce-Combination-to-Create-Scaled-EV-Infrastructure-Platform-for-Fleet-and-Autonomous-Mobility": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260526945751/en/Advance-Auto-Parts-Introduces-New-Good-Parts-Brand-Campaign-Celebrating-Customers-Life-Moments-Miles-and-Milestones": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260527011532/en/Nielsen-BioSciences-Announces-Positive-Phase-3-Trial-Results-of-CANDIN-for-the-Treatment-and-Clearance-of-Common-Warts": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260611677110/en/Adobe-Reports-Record-Q2-Results": {
+      "status": "timeout"
+    },
+    "https://www.caam.org.cn/chn/4/cate_39/con_5241097.html": {
+      "status": "network-error"
+    },
+    "https://www.caam.org.cn/": {
+      "status": "network-error"
+    },
+    "https://www.businesswire.com/news/home/20260617549757/en/CarMax-Reports-First-Quarter-Fiscal-2027-Results": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260630929266/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260706876183/en/": {
+      "status": "timeout"
+    },
+    "https://www.businesswire.com/news/home/20260708283482/en/Immunome-Announces-U.S.-FDA-Acceptance-of-New-Drug-Application-for-Varegacestat-for-the-Treatment-of-Adults-with-Desmoid-Tumors": {
+      "status": "timeout"
+    },
+    "https://www.caixinglobal.com/markets/": {
+      "status": 404
+    },
+    "https://www.caixinglobal.com/energy/": {
+      "status": 404
+    },
+    "https://www.cancilleria.gov.co/fossil-fuel-transition-conference-2026": {
+      "status": 404
+    },
+    "https://www.capgemini.com/insights/research-library/reindustrialization-2026/": {
+      "status": 404
+    },
+    "https://www.cam.ac.uk/research/memristor-ai-2026/": {
+      "status": 404
+    },
+    "https://www.canarymedia.com/articles/power-semiconductors-clean-energy-2026/": {
+      "status": 404
+    },
+    "https://www.callofduty.com/mobile": {
+      "status": "timeout"
+    },
+    "https://www.caranddriver.com/news/g64795/nyias-2026-ev-reveals/": {
+      "status": 404
+    },
+    "https://www.carbonbrief.org/extreme-rainfall-4c-warming-2026": {
+      "status": 404
+    },
+    "https://www.carbonbrief.org/colombia-fossil-fuel-conference-preview-2026/": {
+      "status": 404
+    },
+    "https://www.cbc.ca/news/canada/edmonton/alberta-ottawa-pathways-oilsands-carbon-capture-9.7268392?cmp=rss": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/canada/montreal/quebec-video-game-industry-layoffs-9.7267282?cmp=rss": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/canada/toronto/canada-crypto-atm-ban-scammers-9.7180642": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/cuba-blackout-9.7137675": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/iran-israel-united-states-attacks-9.7132837": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/iran-strikes-military-base-us-troops-wounded-9.7145616?cmp=rss": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/iran-trump-deal-sanctions-9.7165197?cmp=rss": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/israel-lebanon-ceasefire-talks-border-town-9.7161451": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/regional-powers-end-mideast-war-9.7146190": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/russia-victory-day-parade-may-9-9.7193909": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/russian-drone-attacks-ukraine-dnipropetrovsk-9.7197174": {
+      "status": "timeout"
+    },
+    "https://www.cbc.ca/news/world/us-delegation-pakistan-iran-ceasefire-9.7160338": {
+      "status": "timeout"
+    },
+    "https://www.cbp.gov/trade/ieepa-cape-system-2026": {
+      "status": 404
+    },
+    "https://www.cbsnews.com/news/house-gop-pulls-iran-war-powers-resolution-vote/": {
+      "status": 404
+    },
+    "https://www.cbssports.com/golf/news/tiger-woods-returns-golf-tgl-finals-eyes-masters-2026/": {
+      "status": "timeout"
+    },
+    "https://www.cbssports.com/nba/gametracker/playbyplay/NBA_20260530_SA@OKC/": {
+      "status": "timeout"
+    },
+    "https://www.cbssports.com/nfl/news/2026-nfl-schedule-scottie-scheffler-pga-championship-oilers-kris-knoblauch/": {
+      "status": "timeout"
+    },
+    "https://www.cbssports.com/wnba/gametracker/live/WNBA_20260627_LAS@IND/": {
+      "status": "timeout"
+    },
+    "https://www.certik.com/resources/blog/kelp-dao-exploit-2026": {
+      "status": 404
+    },
+    "https://www.chaincatcher.com/article/2270414": {
+      "status": 410
+    },
+    "https://www.channelnewsasia.com/business/strait-hormuz-oil-disruption-shell-6174311": {
+      "status": 404
+    },
+    "https://www.channelnewsasia.com/world/switzerland-talks-implementing-us-iran-deal-6193006": {
+      "status": 404
+    },
+    "https://www.channelnewsasia.com/world/iran-war-us-deal-begin-nuclear-lebanon-6186961": {
+      "status": 404
+    },
+    "https://www.channelnewsasia.com/world/us-stocks-oil-prices-trump-iran-strikes-deal-6177956": {
+      "status": 404
+    },
+    "https://www.channelnewsasia.com/east-asia/tropical-storm-jangmi-injures-9-in-japan-thousands-without-power-6155476": {
+      "status": 404
+    },
+    "https://www.china.org.cn/2026-01/10/content_118272591.shtml": {
+      "status": "network-error"
+    },
+    "https://www.chinadaily.com.cn/fitness-standards-2026/": {
+      "status": 404
+    },
+    "https://www.chinanews.com.cn/cj/2026-04-03/10598588.shtml": {
+      "status": 404
+    },
+    "https://www.chinanews.com.cn/cj/2026/06/13/10639610.shtml": {
+      "status": 404
+    },
+    "https://www.chinanews.com.cn/gj/2026/04/02/10597100.shtml": {
+      "status": 404
+    },
+    "https://www.cliffordchance.com/china-anti-extraterritorial-2026-crypto": {
+      "status": 404
+    },
+    "https://www.climatechangenews.com/2026/04/22/petersberg-climate-dialogue-2026/": {
+      "status": 404
+    },
+    "https://www.cmegroup.com/markets/cryptocurrencies/24-7-crypto-trading.html": {
+      "status": "timeout"
+    },
+    "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html": {
+      "status": "timeout"
+    },
+    "https://www.cmegroup.com/media-room/press-releases/2026/2/19/cme_group_to_launch247cryptocurrencyfuturesandoptionstradingonma.html": {
+      "status": "timeout"
+    },
+    "https://www.cna.com.tw/news/aspt/202606163044337.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/": {
+      "status": "network-error"
+    },
+    "https://www.cnbc.com/2026/03/11/uber-amazon-zox-partnership-robotaxi-demand.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/2026/03/10/oracle-orcl-earnings-report-2026.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/2026/04/20/nvidia-jensen-huang-ai-replace-people.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/2026/04/15/us-strait-of-hormuz-blockade-navy-iran-seaborne-trade-oil.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/amp/2026/03/17/uae-airspace-closure-dubai-airport-drone-strike-middle-east-flights.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/servicenow-earnings-2026/": {
+      "status": 404
+    },
+    "https://www.cnbc.com/amp/2026/05/16/china-signals-tariff-cuts-advances-in-farm-market-access-after-trump-xi-summit.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/amp/2026/04/16/pepsico-pep-q1-2026-earnings.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/amp/2026/05/27/european-markets-stoxx-600-ftse-dax-cac-iran-news.html": {
+      "status": 404
+    },
+    "https://www.cnbc.com/micron-earnings-2026/": {
+      "status": 404
+    },
+    "https://www.cnsa.gov.cn/n6758823/n6758838/c10676920/content.html": {
+      "status": "network-error"
+    },
+    "https://www.cocodelivery.com/press/uber-eats-san-jose-2026": {
+      "status": 404
+    },
+    "https://www.coinwarz.com/mining/bitcoin/difficulty-chart": {
+      "status": 404
+    },
+    "https://www.conference-board.org/research/global-economy-briefs/fomc-preview-march-2026": {
+      "status": "timeout"
+    },
+    "https://www.coxautomotive.com/": {
+      "status": "network-error"
+    },
+    "https://www.coxautoinc.com/news/fullpath-acquisition-2026/": {
+      "status": 404
+    },
+    "https://www.coxautoinc.com/market-insights/ev-2026-q1/": {
+      "status": 404
+    },
+    "https://www.cpnn.com.cn/news/nytt/202606/t20260602_1892300.html": {
+      "status": "network-error"
+    },
+    "https://www.cs.com.cn/xwzx/hg/202603/t20260325_6542757.html": {
+      "status": 404
+    },
+    "https://www.csb.gov.tr/": {
+      "status": 404
+    },
+    "https://www.customs.gov.cn/customs/302249/302266/302267/5741832/index.html": {
+      "status": "network-error"
+    },
+    "https://www.dailypolitical.com/2026/03/12/morgan-stanley-issues-positive-forecast-for-bumble-nasdaqbmbl-stock-price.html": {
+      "status": 404
+    },
+    "https://www.cyclingnews.com/news/van-aert-paris-roubaix-2026-tour/": {
+      "status": 404
+    },
+    "https://www.customscity.com/cbp-ieepa-cape-2026/": {
+      "status": 404
+    },
+    "https://www.desi.lbl.gov/2026/04/21/desi-3d-map-complete/": {
+      "status": 404
+    },
+    "https://www.dietaryguidelines.gov/": {
+      "status": "timeout"
+    },
+    "https://www.dnb.com/supply-chain/global-risk-2026-q2.html": {
+      "status": 404
+    },
+    "https://www.donews.com/news/detail/8/6570969.html": {
+      "status": "network-error"
+    },
+    "https://www.drought.gov/drought-status-updates/snow-drought-current-conditions-and-impacts-west-2026-03-12": {
+      "status": "network-error"
+    },
+    "https://www.drought.gov/drought-status-updates/drought-status-update-southeast-2026-04-16": {
+      "status": "network-error"
+    },
+    "https://www.earthday.org/earth-day-2026-our-power-our-planet/": {
+      "status": 404
+    },
+    "https://www.ebc.com/forex/brent-crude-falls-asia-naphtha-urea-shortage": {
+      "status": 404
+    },
+    "https://www.ebc.com/forex/why-the-vix-is-flashing-fear-while-the-market-refuses-to-break": {
+      "status": 404
+    },
+    "https://www.eba.europa.eu/activities/direct-supervision-and-oversight/markets-crypto-assets": {
+      "status": "timeout"
+    },
+    "https://www.ebnonline.com/": {
+      "status": "timeout"
+    },
+    "https://www.eenews.net/articles/ira-battery-storage-supply-chain-chinese-cells-2026/": {
+      "status": 404
+    },
+    "https://www.eetasia.com/trendforce-sees-tightening-advanced-packaging-and-3nm-capacity-as-ai-competition-turns-into-a-supply-chain-arms-race/": {
+      "status": "timeout"
+    },
+    "https://www.eetimes.com/automakers-face-memory-shock-as-ai-uses-up-semiconductor-supply/": {
+      "status": "timeout"
+    },
+    "https://www.eetimes.com/middle-east-turmoil-materials-shortage-fuel-price-hike-disrupting-chip-industry/": {
+      "status": "timeout"
+    },
+    "https://www.eetimes.com/mlcc-supply-ai-server-2026/": {
+      "status": "timeout"
+    },
+    "https://www.embedded.com/renesas-gf-partner-to-strengthen-supply-chain": {
+      "status": "timeout"
+    },
+    "https://www.energy-transitions.org/publications/lessons-on-energy-security-after-the-hormuz-crisis/": {
+      "status": 404
+    },
+    "https://www.energy.gov/articles/doe-500-million-critical-materials-battery-manufacturing-2026": {
+      "status": 404
+    },
+    "https://www.energy.gov/energysaver/new-and-used-clean-vehicle-tax-credits": {
+      "status": 404
+    },
+    "https://www.energypolicy.columbia.edu/events/global-energy-summit-2026": {
+      "status": 404
+    },
+    "https://www.engineering.com/nvidia-expands-open-ai-models-for-agents-robotics-and-science/": {
+      "status": "timeout"
+    },
+    "https://www.engineering.com/nvidia-forms-nemotron-coalition-to-advance-open-ai/": {
+      "status": "timeout"
+    },
+    "https://www.escardio.org/Research/Research-Topics/Exercise-Physiology": {
+      "status": 404
+    },
+    "https://www.escmid.org/global-2026/abstracts/barnards-ii-neonatal-sepsis": {
+      "status": 404
+    },
+    "https://www.espn.com/college-sports/gymnastics/": {
+      "status": 404
+    },
+    "https://www.esma.europa.eu/mica-transition-2026": {
+      "status": 404
+    },
+    "https://www.eslgaming.com/news/vitality-iem-rio-2026-esm-grand-slam": {
+      "status": 404
+    },
+    "https://www.eurogamer.net/masters-of-albion-early-access-2026": {
+      "status": 404
+    },
+    "https://www.euronews.com/business/2026/04/14/the-largest-energy-security-threat-in-history-is-about-push-oil-prices-further-up-iea-warns": {
+      "status": 404
+    },
+    "https://www.europarl.europa.eu/RegData/etudes/BRIE/2026/774751/EPRS_BRI(2026": {
+      "status": 404
+    },
+    "https://www.europesays.com/europe/56379/": {
+      "status": "network-error"
+    },
+    "https://www.europesays.com/europe/75928/": {
+      "status": "network-error"
+    },
+    "https://www.europarl.europa.eu/legislative-train/carriage/co2-emission-standards-for-new-light-duty-vehicles-and-labelling/report": {
+      "status": 404
+    },
+    "https://www.famitsu.com/toei-games-launch-2026": {
+      "status": 404
+    },
+    "https://www.fda.gov/food/cfsan-strategic-priorities/human-foods-program-2026-priorities": {
+      "status": 404
+    },
+    "https://www.fda.gov/drugs/drug-shortages": {
+      "status": 404
+    },
+    "https://www.fda.gov/drugs/novel-drug-approvals-fda/": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/03/03/the-best-magnificent-seven-stocks-to-buy-in-march/": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/03/20/why-shares-of-super-micro-computer-stock-collapsed-this-week/": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/03/26/microsoft-meta-and-alphabet-stocks-are-all-getting-hammered/": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/03/20/super-micro-has-now-faced-sec-probes-accounting-scandals-and-smuggling-charges/": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/04/01/microsoft-vs-meta-both-ai-stocks-have-been-hit-hard-but-one-is-a-better-buy-now/": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/04/01/nvidia-vs-broadcom-the-smarter-ai-stock-to-buy-in-april/": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/04/25/alphabets-google-could-supercharge-this-artificial-intelligence-ai-stock-that-has-soared-78-in-2026-heres-why-you-should-buy-it-hand-over-fist-before-it-is-too-late.html": {
+      "status": 404
+    },
+    "https://www.forbes.com/sites/gaming-industry-trends-2026/": {
+      "status": 404
+    },
+    "https://www.forbes.com/sites/tylerroush/2026/04/27/could-this-new-ai-smartphone-compete-with-iphone-qualcomm-shares-rise/": {
+      "status": 404
+    },
+    "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1869031/full": {
+      "status": 404
+    },
+    "https://www.gamesindustry.biz/gaming-ma-15-month-high-q1-2026": {
+      "status": 404
+    },
+    "https://www.gamesindustry.biz/morgan-stanley-ai-22b-gaming-profits-2026": {
+      "status": 404
+    },
+    "https://www.gamesradar.com/games/releasing-playstation-games-day-one-on-pc-isnt-a-good-strategy-for-its-aaa-titles-former-playstation-head-says-but-he-hasnt-seen-proof-its-abandoning-the-platform-altogether/": {
+      "status": 404
+    },
+    "https://www.gamespress.com/Saber-Interactive-Changes-the-Game-by-Adding-Steve-Allison-as-Chief-Bu": {
+      "status": "timeout"
+    },
+    "https://www.gamespress.com/en-GB/NIKKE-PV": {
+      "status": "timeout"
+    },
+    "https://www.gate.com/learn/articles/the-clarity-act-and-dei-is-decentralized-finance-entering-a-clearer-regulatory-era": {
+      "status": 404
+    },
+    "https://www.gd.gov.cn/esports-league-2026": {
+      "status": 404
+    },
+    "https://www.gematsu.com/2026/04/super-robot-wars-y-infinite-darkness-dlc": {
+      "status": 404
+    },
+    "https://www.gematsu.com/2026/04/super-robot-wars-y-update-1-3-0-and-infinite-darkness-dlc": {
+      "status": 404
+    },
+    "https://www.gitexeurope.com/": {
+      "status": 404
+    },
+    "https://www.globenewswire.com/news-release/2026/07/3322416/14450/en/Micron-and-Ford-Sign-Strategic-Agreement-to-Strengthen-Long-Term-Memory-Supply-and-Industry-Resilience.html": {
+      "status": 404
+    },
+    "https://www.gov.uk/government/publications/british-industry-supercharger": {
+      "status": 404
+    },
+    "https://www.gpb.org/news/2026-04-30/how-south-asian-representation-in-gaming-is-growing": {
+      "status": 404
+    },
+    "https://www.heygotrade.com/en/news/apple-wwdc-june-8-preview-catalyst/": {
+      "status": 410
+    },
+    "https://www.hltv.org/events/fissure-playground-3-2026/": {
+      "status": 404
+    },
+    "https://www.hollyland-tech.com/melo-p1/": {
+      "status": "network-error"
+    },
+    "https://www.hollywoodreporter.com/streaming-2026-04-23/": {
+      "status": 404
+    },
+    "https://www.hollywoodreporter.com/stranger-things-tales-from-85-2026/": {
+      "status": 404
+    },
+    "https://www.iam-media.com/article/new-china-regulations-aim-block-punish-measures-deemed-as-foreign-overreach": {
+      "status": 404
+    },
+    "https://www.hyundai.com/eu/en/models/ioniq3/news-ioniq3-launch-2026": {
+      "status": 404
+    },
+    "https://www.huxiu.com/article/4863590.html": {
+      "status": "timeout"
+    },
+    "https://www.icinsights.com/news/automotive-semiconductor-share-2025/": {
+      "status": 404
+    },
+    "https://www.ideam.gov.co/": {
+      "status": "network-error"
+    },
+    "https://www.ign.com/articles/ac-black-flag-resynced-2026/": {
+      "status": 404
+    },
+    "https://www.ign.com/articles/video-games-with-loot-boxes-will-now-have-a-16-age-rating-across-europe-as-part-of-a-huge-pegi-shakeup": {
+      "status": 404
+    },
+    "https://www.ign.com/articles/splatoon-raiders-switch-2-2026": {
+      "status": 404
+    },
+    "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-tehran-strait-of-hormuz-b2991211.html": {
+      "status": "timeout"
+    },
+    "https://www.infineon.com/cms/en/discoveries/infineon-auto-semis-no1-2026/": {
+      "status": 404
+    },
+    "https://www.insurancejournal.com/news/national/2026/05/29/871695.html": {
+      "status": 404
+    },
+    "https://www.insurancejournal.com/news/international/2026/07/08/876716.html": {
+      "status": 404
+    },
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/05/14/russia-pounds-ukraine-in-heaviest-wartime-drone-attack-over-two-days": {
+      "status": 404
+    },
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/05/07/us-trade-court-rules-against-trump-s-10-global-tariffs-2": {
+      "status": 404
+    },
+    "https://www.intellinews.com/china-s-cosco-halts-panama-canal-port-calls-after-government-seizes-terminals-430931/": {
+      "status": "timeout"
+    },
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/05/24/trump-says-iran-deal-is-largely-negotiated-would-reopen-strait-of-hormuz": {
+      "status": 404
+    },
+    "https://www.invenglobal.com/lck-geng-drx-2026/": {
+      "status": 404
+    },
+    "https://www.investing.com/analysis/sp-500s-next-move-tumbling-toward-a-technical-correction-or-a-bounce-200677140": {
+      "status": 404
+    },
+    "https://www.isglobal.org/en/news/": {
+      "status": "network-error"
+    },
+    "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/march-2026/": {
+      "status": "timeout"
+    },
+    "https://www.ista.ac.at/research/volcanic-lightning-2026/": {
+      "status": 404
+    },
+    "https://www.itbear.com.cn/html/2026-03/1201682.html": {
+      "status": 404
+    },
+    "https://www.ivalua.com/blog/how-tariffs-impact-procurement-and-supply-chains-in-2026": {
+      "status": 404
+    },
+    "https://www.just-auto.com/news/volkswagen-starts-production-id-unyx-08-suv-china/": {
+      "status": 404
+    },
+    "https://www.jshs.org.cn/EN/10.1016/j.jshs.2026.nordic-hamstring/": {
+      "status": "network-error"
+    },
+    "https://www.kmjournal.net/news/articleView.html?idxno=9486": {
+      "status": 404
+    },
+    "https://www.knews.com.tw/news/10B1C96EDF6878E623D4E7C0B04443D7": {
+      "status": 404
+    },
+    "https://www.koreabiomed.com/news/articleView.html?idxno=32296": {
+      "status": 404
+    },
+    "https://www.koreabiomed.com/news/articleView.html?idxno=32221": {
+      "status": 404
+    },
+    "https://www.koreatimes.co.kr/business/tech-science/20260708/lg-energy-solution-expands-us-ess-production-with-tennessee-lfp-cell-launch": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/companies/20260519/samsung-union-hold-final-mediation-as-strike-deadline-nears": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/companies/20260515/samsungs-chip-output-cut-feared-to-disrupt-global-supply-chains": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/amp/world/20260321/s-korea-joins-7-countries-in-leaders-statement-on-strait-of-hormuz": {
+      "status": "network-error"
+    },
+    "https://www.koreajoongangdaily.com/business/sk-chief-says-us-plants-are-in-the-works-to-address-abnormal-prices-with-bolstered-supply/12779938": {
+      "status": "network-error"
+    },
+    "https://www.koreajoongangdaily.com/business/exus-official-calls-for-diversification-strategy-for-koreas-chip-sector-amid-hormuz-disruptions/12748821": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/companies/20260522/posco-international-bets-big-on-us-rare-earth-supply-chain": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/companies/20260612/naver-krafton-team-up-to-bring-pubg-esports-to-bigger-audiences": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/companies/20260701/celltrion-secures-fdas-1st-interchangeable-status-for-rituximab-biosimilar": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/companies/20260705/samsung-sk-hyundais-investment-plans-fuel-us-trade-pressure-concerns": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/companies/20260710/lfs-lfp-push-aims-to-break-chinas-grip-on-battery-supply-chain": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/tech-science/20260330/nexon-to-publish-blizzards-overwatch-in-korea": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/tech-science/20260621/korean-battery-makers-accelerate-push-into-us-ess-market": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/tech-science/20260622/openai-lands-samsung-as-major-chatgpt-enterprise-customer": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/business/tech-science/20260628/microns-strong-earnings-stoke-hope-for-samsung-sk-hynix-q2-results": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/foreignaffairs/20260413/korea-poland-to-strengthen-cooperation-on-supply-chain-stability-defense": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/flash/mag-7-tech-giants-drag-down-u-s-markets-amid-ai-sector-shift": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/flash/fenwick-west-settles-54m-lawsuit-over-ftx-related-allegations": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/flash/ethereum-foundation-stakes-7-86m-via-lido-finance-amid-rising-eth-demand": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-223m-net-outflow-on-june-30-marking-9th-consecutive-day-of-outflows": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/flash/bitcoin-etf-sees-91m-outflow-as-ethereum-etf-gains-82m-inflow-on-june-8": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/flash/apple-and-microsoft-raise-prices-amid-ai-driven-component-inflation": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-march-23-2026": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-june-15-2026": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-july-1-2026": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-april-23-2026": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/blog/bitcoin-bullish-sentiment-supported-by-cooling-inflation-expectations-market-focuses-on-july-cpi-data": {
+      "status": "network-error"
+    },
+    "https://www.kuaikan.com/game": {
+      "status": "network-error"
+    },
+    "https://www.kspost.biz/en-us/articles/2555": {
+      "status": "network-error"
+    },
+    "https://www.kryptonews.com/2026/06/27/no-binance-mica-license-by-july-1-can-it-stay-in-the-eu/": {
+      "status": "network-error"
+    },
+    "https://www.kpmg.com/us/en/articles/2026/tariff-survey-consumer-impact.html": {
+      "status": "network-error"
+    },
+    "https://www.kpmg.com/us/en/articles/2026/": {
+      "status": "network-error"
+    },
+    "https://www.kpler.com/blog/sulphur-sulphuric-acid-in-2026-the-feedstock-crisis-cascading-through-copper-nickel-fertilisers": {
+      "status": "network-error"
+    },
+    "https://www.kpler.com/blog/iran-war-and-the-strait-of-hormuz-oil-market-implications-six-weeks-in": {
+      "status": "network-error"
+    },
+    "https://www.kpbs.org/news/economy/2026/04/28/as-gas-prices-climb-electric-vehicles-are-helping-some-drivers-save-money": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/southkorea/society/20260712/korea-issues-1st-ever-heat-wave-emergency-warning-for-gyeongsan-pohang": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/southkorea/politics/20260629/samsung-sk-hynix-to-invest-585-bil-to-build-semiconductor-complex-in-southwestern-region": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/southkorea/20260529/joint-korea-us-research-team-cuts-hydrogen-production-costs-in-catalyst-breakthrough": {
+      "status": "network-error"
+    },
+    "https://www.koreatimes.co.kr/foreignaffairs/20260705/why-us-and-china-are-struggling-to-reach-a-consensus-over-future-shape-of-relationship": {
+      "status": "network-error"
+    },
+    "https://www.kucoin.com/news/trends/BTC/69e360719b8ebc0007cc8f41": {
+      "status": "network-error"
+    },
+    "https://www.latimes.com/b2b/entertainment/story/2026-04-19/paramount-warner-bros-merger-hollywood-impact": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/technology/bitcoin-price-today-march-21-2026-btc-price-at-usd-70722-62-showing-moderate-gains-as-market-sentiment-remains-positive-7362317.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/sports/cricket/rahmanullah-gurbaz-scores-fastest-one-day-international-hundred-for-afghanistan-achieves-feat-during-ind-vs-afg-1st-odi-2026-7472030.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/india/news/yoga-day-2026-pm-narendra-modi-leads-international-yoga-day-celebrations-says-healthy-society-makes-strong-and-prosperous-nation-watch-videos-7483027.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/business/bitcoin-price-today-march-29-2026-btc-price-slightly-up-at-usd-66600-amid-market-volatility-geopolitical-tensions-7371407.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/business/bitcoin-price-today-march-25-2026-btc-price-at-usd-70600-following-geopolitical-relief-rally-7366516.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/business/bitcoin-price-today-march-24-2026-btc-surges-past-usd-71000-as-risk-on-sentiment-returns-7366105.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/business/bitcoin-price-today-april-9-2026-btc-price-near-usd-71000-level-amid-shifting-geopolitical-landscape-7385789.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/business/bitcoin-price-today-april-17-2026-btc-price-trades-near-usd-75000-mark-amid-institutional-accumulation-shifting-global-market-sentiment-7396169.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/auto/tesla-1st-year-sale-in-india-elon-musks-company-records-486-vehicle-registrations-since-its-launch-7522965.html": {
+      "status": "network-error"
+    },
+    "https://www.latestly.com/agency-news/business-news-sensex-nifty-open-lower-amid-fragile-us-iran-ceasefire-concerns-7385937.html": {
+      "status": "network-error"
+    },
+    "https://www.lanl.gov/media/news/0915-thor-ai": {
+      "status": "network-error"
+    },
+    "https://www.lanacion.com.ar/economia/IA/el-gobierno-anuncio-que-los-psav-quedaran-exentos-del-impuesto-al-debito-y-credito-nid18062026/": {
+      "status": "network-error"
+    },
+    "https://www.ladbible.com/news/study-weight-loss-jabs-halve-sick-days-work-074167-20260515": {
+      "status": "network-error"
+    },
+    "https://www.kyivpost.com/post/80215": {
+      "status": "network-error"
+    },
+    "https://www.kyivpost.com/post/77223": {
+      "status": "network-error"
+    },
+    "https://www.kyivpost.com/post/72422": {
+      "status": "network-error"
+    },
+    "https://www.kxan.com/news/national-news/highway-bill-includes-130-registration-fee-for-evs/": {
+      "status": "network-error"
+    },
+    "https://www.kut.org/austin/2026-04-29/austin-tx-self-driving-vehicles-waymo-bufords-shooting-emergency-response": {
+      "status": "network-error"
+    },
+    "https://www.kuppingercole.com/blog/leal/the-strait-of-hormuz-and-its-consequences-for-cybersecurity": {
+      "status": "network-error"
+    },
+    "https://www.kunming.cn/news/c/2026-07-16/14059321.shtml": {
+      "status": "network-error"
+    },
+    "https://www.kunming.cn/en/c/2026-06-25/14054282.shtml": {
+      "status": "network-error"
+    },
+    "https://www.kuer.org/science-environment/2026-05-26/lake-powells-cool-water-releases-protect-fish-that-comes-at-a-cost-to-hydropower": {
+      "status": "network-error"
+    },
+    "https://www.latimes.com/environment/story/2026-04-21/us-china-long-duration-storage-competition": {
+      "status": 404
+    },
+    "https://www.lyft.com/blog/posts/lyft-waymo-nashville-hub-2026": {
+      "status": 404
+    },
+    "https://www.maersk.com/insights/growth/2026/05/12/strategic-pathways-through-tariffs": {
+      "status": "timeout"
+    },
+    "https://www.maersk.com/news/articles/2026/03/12/middle-east-operational-update-9": {
+      "status": "timeout"
+    },
+    "https://www.maersk.com/news/articles/2026/04/01/europe-market-update-april": {
+      "status": "timeout"
+    },
+    "https://www.maersk.com/news/articles/2026/04/03/middle-east-operational-update-18": {
+      "status": "timeout"
+    },
+    "https://www.maersk.com/news/articles/2026/05/08/north-america-market-update-may": {
+      "status": "timeout"
+    },
+    "https://www.maersk.com/news/articles/2026/06/29/north-america-market-update-july": {
+      "status": "timeout"
+    },
+    "https://www.mangroveli.com/": {
+      "status": "network-error"
+    },
+    "https://www.mcgill.ca/newsroom/depression-brain-cells-2026/": {
+      "status": 404
+    },
+    "https://www.mercomindia.com/bridge-green-inaugurates-7-2-mtpa-li-ion-battery-recycling-facility": {
+      "status": 404
+    },
+    "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/red-extreme-heat-warning-issued-with-june-temperature-records-forecast-to-break": {
+      "status": 404
+    },
+    "https://www.miit.gov.cn/compute-power-2026/": {
+      "status": 404
+    },
+    "https://www.mining.com/the-us-passes-dominance-act-for-critical-minerals-security/": {
+      "status": "network-error"
+    },
+    "https://www.minecraft.net/en-us/article/mclive_march2026_recap": {
+      "status": "timeout"
+    },
+    "https://www.mohap.gov.ae/": {
+      "status": "network-error"
+    },
+    "https://www.moj.gov.cn/anti-extraterritorial-jurisdiction-2026": {
+      "status": "timeout"
+    },
+    "https://www.monexa.ai/blog/afternoon-market-overview-tech-strength-pushes-s-p-500-to-a-fresh-record-int-2026-04-16": {
+      "status": 404
+    },
+    "https://www.morganlewis.com/pubs/2026/04/china-supply-chain-security-regulations": {
+      "status": 404
+    },
+    "https://www.morganstanley.com/ideas/gaming-ai-profit-opportunity-2026": {
+      "status": 404
+    },
+    "https://www.motortrend.com/news/nyias-2026-ev-debuts/": {
+      "status": 404
+    },
+    "https://www.movurobotics.com/news/stow-georgia-factory-2026/": {
+      "status": 410
+    },
+    "https://www.msn.com/": {
+      "status": 404
+    },
+    "https://www.nacsmagazine.com/Issues/March-2026/The-State-of-Charging-in-the-United-States": {
+      "status": 404
+    },
+    "https://www.nasa.gov/artemis-accords-jordan-2026/": {
+      "status": 404
+    },
+    "https://www.nasa.gov/artemis/artemis-ii-earth-day-2026/": {
+      "status": 404
+    },
+    "https://www.nampa.org/text/22919296": {
+      "status": "network-error"
+    },
+    "https://www.mysteel.net/news/5109813-flash-china-announces-phase-out-timeline-for-vat-export-rebates-on-lithium-batteries-and-related-products": {
+      "status": "timeout"
+    },
+    "https://www.nasa.gov/humans-in-space/commercial-crew-program/": {
+      "status": 404
+    },
+    "https://www.nasa.gov/news-release/jordan-signs-artemis-accords-2026/": {
+      "status": 404
+    },
+    "https://www.nasa.gov/missions/artemis/artemis-ii/post-splashdown-assessment-2026": {
+      "status": 404
+    },
+    "https://www.nasa.gov/planetary-defense/": {
+      "status": 404
+    },
+    "https://www.nasdaq.com/articles/us-stocks-give-back-ground-after-early-advance-remain-mostly-higher": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/articles/weekly-chartstopper-march-16-2026": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/market-activity/earnings": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/market-activity/stocks/aapl": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/acuity-announce-fiscal-2026-second-quarter-results-april-2-2026-2026-02-27": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/acuity-reports-fiscal-2026-second-quarter-results-2026-04-02": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/adobe-delivers-record-q1-results-2026-03-12": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/chewy-announces-fiscal-fourth-quarter-and-full-year-2025-financial-results-conference": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/figure-technology-solutions-reports-february-operating-data-2026-03-04": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/general-mills-webcast-fiscal-2026-third-quarter-earnings-results-march-18-2026-2026": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/jefferies-announces-first-quarter-2026-financial-results-2026-03-25": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/lamb-weston-announce-fiscal-year-2026-third-quarter-financial-results-april-1-2026": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/micron-technology-inc-reports-results-second-quarter-fiscal-2026-2026-03-18": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/precision-biosciences-announces-late-breaking-poster-presentation-pbgene-hbv-european": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/reindustrialization-moves-more-selective-strategic-phase-europe-and-us-2026-04-20": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/ssc-globeop-hedge-fund-performance-index-and-capital-movement-index-2026-03-12": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/uber-deploy-one-worlds-largest-networks-autonomous-vehicles-powered-nvidia-ai": {
+      "status": "timeout"
+    },
+    "https://www.nasdaq.com/press-release/xcel-brands-host-fourth-quarter-and-year-end-2025-earnings-call-april-7-2026-2026-04": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/d41586-026-ai-peer-review-breach": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/d41586-026-breakthrough-prize-2026": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/desi-year5-2026": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/s41467-026-abandoned-well-methane": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/s41558-026-extreme-precip-4c": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/s41560-026-prolong-renewable-projections": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/s41586-026-w-boson-mass-cms": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/articles/s43016-026-precision-nutrition": {
+      "status": "timeout"
+    },
+    "https://www.nature.com/hdatasci/": {
+      "status": 404
+    },
+    "https://www.ncei.noaa.gov/news/national-climate-202603": {
+      "status": "network-error"
+    },
+    "https://www.ncei.noaa.gov/news/national-climate-202602": {
+      "status": "network-error"
+    },
+    "https://www.ndrc.gov.cn/dual-carbon-evaluation-2026/": {
+      "status": 404
+    },
+    "https://www.newsobserver.com/sports/article316161836.html": {
+      "status": "timeout"
+    },
+    "https://www.nextplatform.com/ai/2026/03/17/nvidia-says-openclaw-is-to-agentic-ai-what-gpt-was-to-chattybots/520942": {
+      "status": 404
+    },
+    "https://www.nice.org.uk/news/article/nice-recommends-wegovy-for-cardiovascular-disease-prevention": {
+      "status": 404
+    },
+    "https://www.nintendo.com/en-US/news/splatoon-raiders-switch-2-announcement-2026/": {
+      "status": 404
+    },
+    "https://www.nintendo.com/store/products/the-expanse-a-telltale-series/": {
+      "status": 404
+    },
+    "https://www.nintendolife.com/news/2026/04/sanrio-party-land-switch-2-announcement": {
+      "status": 404
+    },
+    "https://www.nippon.com/en/news/yjj2026041200244/": {
+      "status": 404
+    },
+    "https://www.nippon.com/en/news/yjj2026062600116/": {
+      "status": 404
+    },
+    "https://www.nippon.com/en/news/yjj2026052101195/": {
+      "status": 404
+    },
+    "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing": {
+      "status": 404
+    },
+    "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing-google-deepmind-microsoft-and-xai": {
+      "status": 404
+    },
+    "https://www.notebookcheck.net/honor-win-2026/": {
+      "status": 404
+    },
+    "https://www.npr.org/adolescent-sleep-systemic-change-2026/": {
+      "status": 404
+    },
+    "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-3.html": {
+      "status": "network-error"
+    },
+    "https://www.okx.com/press/go-network-2026/": {
+      "status": 404
+    },
+    "https://www.olympics.com/en/news/cycling-double-olympic-champion-katie-archibald-retires": {
+      "status": "timeout"
+    },
+    "https://www.olympics.com/en/news/golf-men-masters-rory-mcilroy": {
+      "status": "timeout"
+    },
+    "https://www.olympics.com/en/news/nba-playoffs-2026-schedule-results-and-scores": {
+      "status": "timeout"
+    },
+    "https://www.olympics.com/en/news/paris-roubaix-2026-wout-van-aert-claims-second-monument-title-results": {
+      "status": "timeout"
+    },
+    "https://www.olympics.com/en/news/usa-carissa-moore-return-surfing-2026-new-mother-interview": {
+      "status": "timeout"
+    },
+    "https://www.pcgamer.com/xbox-steam-integration-cross-save-2026/": {
+      "status": 404
+    },
+    "https://www.pge.com/en/about/newsroom/newsdetails/vehicle-to-grid-cybertruck-2026.html": {
+      "status": 404
+    },
+    "https://www.pewresearch.org/science/2026/04/ev-hybrid-interest-fuel-prices/": {
+      "status": 404
+    },
+    "https://www.pewresearch.org/science/2026/04/energy-climate-opinion/": {
+      "status": 404
+    },
+    "https://www.politico.eu/article/eu-plans-emergency-state-aid-rule-change-to-address-soaring-energy-costs/": {
+      "status": 404
+    },
+    "https://www.prnewswire.com/news-releases/aspen-neuroscience-announces-positive-12month-data-from-its-aspiro-clinical-trial-in-a-latebreaking-oral-presentation-at-the-adpdtm-2026-international-conference-on-alzheimers-and-parkinsons-diseases-302716505.html": {
+      "status": 404
+    },
+    "https://www.raymondjames.com/commentary-and-insights/markets-investing/2026/06/12/weekly-investment-strategy": {
+      "status": "timeout"
+    },
+    "https://www.resilinc.com/2026-supply-chain-risk-report/": {
+      "status": 404
+    },
+    "https://www.reuters.com/business/autos-transportation/nevi-court-challenge-dcfc-2026/": {
+      "status": 404
+    },
+    "https://www.rockpapershotgun.com/shapez-2-review-2026/": {
+      "status": 404
+    },
+    "https://www.roche.com/media/releases/gazyva-sle-fda-acceptance-2026": {
+      "status": 404
+    },
+    "https://www.sac.gov.cn/indoor-fitness-standards-2026": {
+      "status": 404
+    },
+    "https://www.saicmotor.com/chinese/xwzx/xwk/2026/64398.shtml": {
+      "status": 404
+    },
+    "https://www.sanrio.com/games-brand-launch-2026": {
+      "status": 404
+    },
+    "https://www.scientificamerican.com/article/nebraska-is-battling-its-largest-wildfires-in-history-worse-may-be-yet-to-come/": {
+      "status": 404
+    },
+    "https://www.scmp.com/economy/global-economy/article/3356921/do-chinas-export-curbs-on-tungsten-threaten-japans-ai-chip-supply-chain": {
+      "status": 404
+    },
+    "https://www.semiconductorweek.com/helium-shortage-hormuz-2026/": {
+      "status": "network-error"
+    },
+    "https://www.securityweek.com/ai-tooling-supply-chain-breach-2026/": {
+      "status": 404
+    },
+    "https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/tokenized-investment-products-2026": {
+      "status": 404
+    },
+    "https://www.sgcc.com.cn/grid-balance-2026/": {
+      "status": "network-error"
+    },
+    "https://www.sharecast.com/news/market-report-europe-close/europe-close-stocks-pare-gains-as-oil-prices-return-to-growth--22763902.html": {
+      "status": "timeout"
+    },
+    "https://www.sierraclub.org/articles/2026/04/state-progress-ev-charging-momentum-building-job-far-done": {
+      "status": "timeout"
+    },
+    "https://www.smmt.co.uk/vehicle-data/press-releases/": {
+      "status": 404
+    },
+    "https://www.space.com/artemis-2-earth-day-photo-2026/": {
+      "status": 404
+    },
+    "https://www.sohu.com/a/1036864471_115362": {
+      "status": "timeout"
+    },
+    "https://www.stellantis.com/en/news/press-releases/2026/april/stellantis-microsoft-ai-partnership-2026": {
+      "status": 404
+    },
+    "https://www.strafe.com/match/virtus-pro-vs-twisted-minds-week-3-emea-1af16e/": {
+      "status": 404
+    },
+    "https://www.strafe.com/match/tyloo-vs-titan-esports-club-week-1-2026-valorant-champions-tour-china-stage-1-61a65f/": {
+      "status": 404
+    },
+    "https://www.summergamefest.com/events/wholesome-direct": {
+      "status": 404
+    },
+    "https://www.techweb.com.cn/it/2026-03-30/2973650.shtml": {
+      "status": "network-error"
+    },
+    "https://www.tencent.com/zh-cn/articles/2026/ai-society-creation-camp.html": {
+      "status": 404
+    },
+    "https://www.the-independent.com/news/world/europe/ukraine-russia-war-live-deep-strikes-putin-flamingo-missile-b2993751.html": {
+      "status": "timeout"
+    },
+    "https://www.the-independent.com/news/world/middle-east/iran-us-war-live-trump-strait-hormuz-israel-peace-talks-b2961510.html": {
+      "status": "timeout"
+    },
+    "https://www.theenergytribune.com/energy-power/2026/05/07/energy-power/2026/05/07/254926": {
+      "status": 404
+    },
+    "https://www.thegamer.com/crimson-desert-piracy-denuvo-cracked/": {
+      "status": 404
+    },
+    "https://www.theglobeandmail.com/investing/article-sk-hynix-targets-29-billion-us-adr-listing/": {
+      "status": 404
+    },
+    "https://www.theglobeandmail.com/world/article-how-houthi-blockade-in-the-red-sea-threatens-global-energy-supplies/": {
+      "status": 404
+    },
+    "https://www.theguardian.com/environment/2026/apr/22/abandoned-oil-wells-methane-underestimate": {
+      "status": 404
+    },
+    "https://www.theguardian.com/technology/2026/apr/23/meta-teen-ai-data": {
+      "status": 404
+    },
+    "https://www.thelec.net/news/articleView.html?idxno=11004": {
+      "status": 404
+    },
+    "https://www.thelec.net/news/articleView.html?idxno=10569": {
+      "status": 404
+    },
+    "https://www.thelec.net/news/articleView.html?idxno=11726": {
+      "status": 404
+    },
+    "https://www.thelec.net/news/articleView.html?idxno=6325": {
+      "status": 404
+    },
+    "https://www.themarketsdaily.com/2026/03/14/exxon-mobil-corporation-nysexom-receives-143-41-average-target-price-from-analysts.html": {
+      "status": 404
+    },
+    "https://www.themarketsdaily.com/2026/04/02/tilray-brands-nasdaqtlry-issues-earnings-results.html": {
+      "status": 404
+    },
+    "https://www.theregister.com/2026/04/23/ai_tools_breach/": {
+      "status": 404
+    },
+    "https://www.thestar.com.my/news/world/2026/07/03/iran-warns-oil-tankers-to-use-approved-routes-in-strait-of-hormuz-or-face-a-forceful-response": {
+      "status": 404
+    },
+    "https://www.thestockobserver.com/2026/04/01/proshares-ultrapro-qqq-nasdaqtqqq-short-interest-up-28-6-in-march.html": {
+      "status": 404
+    },
+    "https://www.theverge.com/2026/4/9/google-tpu-v8-cloud-next": {
+      "status": 404
+    },
+    "https://www.theverge.com/2026/4/22/av-inflection-year": {
+      "status": 404
+    },
+    "https://www.theverge.com/2026/4/21/ford-model-e-dissolved-doug-field-2026": {
+      "status": 404
+    },
+    "https://www.theverge.com/2026/4/22/jensen-huang-tokenmaxxing-nvidia": {
+      "status": 404
+    },
+    "https://www.theverge.com/tesla-fsd-2026/": {
+      "status": 404
+    },
+    "https://www.timi.qq.com/": {
+      "status": "network-error"
+    },
+    "https://www.tomshardware.com/tech-industry/artificial-intelligence/pentagon-formalizes-palantirs-maven-ai-as-a-core-military-system-with-multi-year-funding-platforms-investment-grows-to-usd13-billion-from-480-million-in-2024": {
+      "status": 404
+    },
+    "https://www.tradevae.com/news/stock-markets/jpmorgan-views-mag-7-pullback-as-buying-chance-while-flagging-concentration-risk/": {
+      "status": 404
+    },
+    "https://www.trendforce.com/news/2026/04/16/news-ai-server-forecast-revised/": {
+      "status": 404
+    },
+    "https://www.trendforce.com/news/2026/04/22/memory-ai-first-reallocation/": {
+      "status": 404
+    },
+    "https://www.triathlon.org.cn/": {
+      "status": "network-error"
+    },
+    "https://www.tuwien.at/en/tu-wien/news/news-articles/news/quantenverschraenkung-schroedingers-ameisenhaufen": {
+      "status": "network-error"
+    },
+    "https://www.ubisoft.com/en-us/game/assassins-creed/black-flag-resynced/announcement": {
+      "status": 404
+    },
+    "https://www.unep.org/earth-day-2026": {
+      "status": 404
+    },
+    "https://www.ups.com/us/en/supplychain/resources/news-and-market-updates/market-update-march-18-2026": {
+      "status": "timeout"
+    },
+    "https://www.usda.gov/about-usda/news/press-releases/2026/01/07/kennedy-rollins-unveil-historic-reset-us-nutrition-policy-put-real-food-back-center-health": {
+      "status": "timeout"
+    },
+    "https://www.usda.gov/about-usda/news/radio/weekly-features/2026-01-13/2025-2030-dietary-guidelines-americans": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/info/blogs/press-room/articles/2026-04-22/u-s-news-announces-the-2026-best-hybrid-and-electric-cars": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/best-states/california/articles/2026-04-27/microsoft-cuts-openai-revenue-share-in-a-fresh-step-to-loosen-their-ai-alliance": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/health-news/articles/2026-04-03/new-heart-diet-advice-counters-u-s-guidance-on-meat-and-dairy": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/health-news/articles/2026-05-05/new-warning-labels-might-help-people-cut-back-on-drinking": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/national-news/articles/2026-04-29/fed-holds-rates-steady-in-powells-last-meeting-as-chairman": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/politics/articles/2026-04-18/trump-ballroom-construction-allowed-for-now-us-appeals-court-says": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/top-news/articles/2026-05-16/tesla-raises-prices-of-model-y-cars-in-the-us": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/top-news/articles/2026-05-20/china-says-rare-earth-controls-lawful-will-cooperate-with-us-on-reasonable-concerns": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/world/articles/2026-04-25/republicans-retool-midterm-strategy-trumps-policies-but-less-trump": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/world/articles/2026-04-30/analysis-white-house-quiet-as-china-ramps-up-trade-leverage-before-trump-xi-summit": {
+      "status": "timeout"
+    },
+    "https://www.usnews.com/news/world/articles/2026-05-10/rare-earths-deal-between-us-and-china-is-still-in-effect-us-official-says": {
+      "status": "timeout"
+    },
+    "https://www.vegasslotsonline.com/news/2026/03/18/india-passes-gaming-act-banning-all-real-money-games/": {
+      "status": "network-error"
+    },
+    "https://www.vct.com/zh-cn/news/china": {
+      "status": "network-error"
+    },
+    "https://www.vct.com/en-us/news/americas": {
+      "status": "network-error"
+    },
+    "https://www.uufund.com/News/Detail/NW202306122749347526": {
+      "status": "timeout"
+    },
+    "https://www.valorantesports.com/": {
+      "status": "timeout"
+    },
+    "https://www.vaneck.com/us/en/blogs/digital-assets/matthew-sigel-vaneck-mid-march-2026-bitcoin-chaincheck/": {
+      "status": "timeout"
+    },
+    "https://www.videogameschronicle.com/news/xbox-confirms-plans-to-cut-5-studios-and-thousands-of-jobs/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/ubisoft-ends-game-development-at-tom-clancy-studio-red-storm-resulting-in-105-job-losses/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/the-last-caretakers-new-major-update-curiosity-wakes-adds-sharks-with-laser-beams-on-their-heads/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/summer-game-fest-schedule-your-complete-2026-guide/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/square-enix-scraps-original-dragon-quest-12-will-now-release-as-dragon-quest-12-beyond-dreams/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/shinji-mikamis-new-studio-unbound-is-building-a-aaa-original-ip-for-consoles-and-pc/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/playstation-pc-ports-have-struggled-due-to-delayed-releases-research-firm-claims/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/nintendo-will-stop-selling-the-nintendo-switch-in-2027/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/nintendo-wants-to-produce-20-million-switch-2-consoles-by-march-2027-as-production-ramps-up/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/mewtwo-takes-over-times-square-as-pokemon-recreates-original-pokemon-go-trailer/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/metro-2039-is-coming-this-year-a-game-fundamentally-changed-by-russias-illegal-war/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/io-interactive-and-mindseye-studio-barb-officially-end-partnership-hitman-crossover-dlc-to-be-scrapped/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/fortnite-is-back-on-the-apple-app-store-in-most-regions-as-the-protracted-legal-battle-goes-on/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/fable-has-been-delayed-to-2027/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/assassins-creed-black-flag-resynced-studio-ubisoft-barcelona-strikes-to-protest-51-staff-being-laid-off/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/": {
+      "status": "network-error"
+    },
+    "https://www.vice.com/en/article/sleeping-too-much-might-be-bad-for-you-now-because-apparently-nothing-is-safe/": {
+      "status": "network-error"
+    },
+    "https://www.vice.com/en/article/final-fantasy-resonance-story-length-features-characters/": {
+      "status": "network-error"
+    },
+    "https://www.vgover.com/news/225683": {
+      "status": "network-error"
+    },
+    "https://www.vgchartz.com/article/468387/sonys-largest-playstation-disc-plant-is-reassigning-staff-to-work-on-micro-optics/": {
+      "status": "network-error"
+    },
+    "https://www.vespernews.com/en/news/4b79a49f-7cb4-41fc-aaf8-3f68664e64ff": {
+      "status": "network-error"
+    },
+    "https://www.versalogic.com/blog/supply-chain-brief-memory-market-conditions-in-2026/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/us-bill-requiring-paid-games-to-be-playable-after-they-shut-down-has-passed-initial-vote-and-moved-to-the-senate/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/we-are-committed-to-making-this-clearer-xbox-exec-says-its-not-obvious-to-players-which-games-will-be-exclusive/": {
+      "status": "network-error"
+    },
+    "https://www.videogameschronicle.com/news/xbox-has-removed-tony-hawk-12-from-its-upcoming-game-pass-releases/": {
+      "status": "network-error"
+    },
+    "https://www.wanmei.com/yihuan/": {
+      "status": "network-error"
+    },
+    "https://www.wallstreethorizon.com/jpmorgan-earnings-calendar": {
+      "status": "network-error"
+    },
+    "https://www.wallstdownunder.com.au/weekly-roundup-the-jobs-shock-that-broke-the-rally-week-ending-6-june-2026/": {
+      "status": "network-error"
+    },
+    "https://www.wada-ama.org/sites/default/files/2026-03/isti_2026_eng.pdf": {
+      "status": "network-error"
+    },
+    "https://www.wada-ama.org/en/news/reminder-revised-2026-international-standard-testing-and-investigations-enters-force-1-april": {
+      "status": "network-error"
+    },
+    "https://www.wada-ama.org/": {
+      "status": "network-error"
+    },
+    "https://www.vtmarkets.com/live-updates/china-may-data-show-steady-factory-output-but-weakening-demand-as-pmi-new-orders-slip-into-contraction/": {
+      "status": "network-error"
+    },
+    "https://www.vrt.be/vrtnws/en/2026/07/09/flemish-tech-firm-tests-fully-autonomous-car-in-european-first/": {
+      "status": "network-error"
+    },
+    "https://www.vpm.org/news/2026-07-16/dominion-nextera-merger-filing-scc-review-blue-hashmi-gilmore-clean-virginia": {
+      "status": "network-error"
+    },
+    "https://www.vozpopuli.com/indux/en/californias-next-data-center-fight-may-start-in-kern-where-power-carbon-storage-and-oil-infrastructure-meet/5901/": {
+      "status": "network-error"
+    },
+    "https://www.vox.com/technology/489534/pope-ai-magnificas-humanitas-artificial-intelligence-catholic-social-teaching-church-encyclical": {
+      "status": "network-error"
+    },
+    "https://www.vox.com/climate/493968/record-ocean-temperatures-2026-el-nino": {
+      "status": "network-error"
+    },
+    "https://www.votebeat.org/national/2026/07/09/trump-fires-election-assistance-commission-members-hicks-hovland-mccormick/": {
+      "status": "network-error"
+    },
+    "https://www.volvogroup.com/en/news-and-media/news/2026/mar/toyota-motor-corporation-aims-to-join-volvo-group-and-daimler-truck-as-equal-shareholder-in-the-fuel-cell-joint-venture-cellcentric.html": {
+      "status": "network-error"
+    },
+    "https://www.volvocars.com/us/media/press-releases/17602AB02DBA73AA/": {
+      "status": "network-error"
+    },
+    "https://www.volvoautonomoussolutions.com/en-en/news-and-insights/press-releases/2026/may/volvo-and-aurora-launch-autonomous-truck-route-to-oklahoma-city.html": {
+      "status": "network-error"
+    },
+    "https://www.volkswagen-newsroom.com/en/press-releases/world-premiere-of-the-all-new-electric-id-cross-premium-class-in-compact-format-20517": {
+      "status": "network-error"
+    },
+    "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-strengthens-financial-resilience-in-2025-strong-fourth-quarter-in-a-challenging-environment-20202": {
+      "status": "network-error"
+    },
+    "https://www.voachinese.com/a/amcham-china-white-paper-companies-still-value-the-chinese-market-but-are-concerned-about-economic-slowdown-and-policy-uncertainty-20260423/8141726.html": {
+      "status": "network-error"
+    },
+    "https://www.vlr.gg/107854/optic-and-nrg-secure-top-and-last-seeds-for-na-challengers-playoffs/": {
+      "status": "network-error"
+    },
+    "https://www.vitalthrills.com/apple-tv-april-2026/": {
+      "status": "network-error"
+    },
+    "https://www.vietnam.vn/en/ngay-29-6-khai-truong-san-giao-dich-carbon-tai-viet-nam": {
+      "status": "network-error"
+    },
+    "https://www.vietnam.vn/en/argentina-tro-lai-tap-luyen-chuan-bi-ngay-tran-gap-doi-tuyen-ao-messi-ra-sao": {
+      "status": "network-error"
+    },
+    "https://www.warframe.com/en/news/the-shadowgrapher-coming-march-25": {
+      "status": 404
+    },
+    "https://www.washingtonpost.com/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/03/12/trump-jones-act-energy-prices/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/04/02/ai-anthropic-defense-department-newsom-executive-order/a8e956f8-2ecf-11f1-aac2-f56b5ccad184_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/04/16/semiconductors-chips-tsmc-taiwan-iran-war/d8c087aa-397b-11f1-90c4-9772c7fabc03_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/04/16/stock-markets-trump-oil-iran-war/ebc18a70-394e-11f1-90c4-9772c7fabc03_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/04/17/wall-street-stocks-dow-nasdaq/95bae034-3a9a-11f1-90c4-9772c7fabc03_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/04/24/justice-department-fed-powell/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/05/02/trump-trade-ai-foreign-imports/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/05/19/ai-anthropic-trump-security-risk/07e39d7a-53ac-11f1-9c40-7a0a12d9e745_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/05/19/google-io-gemini-developers-conference/c5176706-53b5-11f1-9c40-7a0a12d9e745_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/business/2026/05/20/korea-samsung-union-strike-memory/2b1eca4c-5403-11f1-9c40-7a0a12d9e745_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/climate-environment/2026/05/19/un-climate-panel-says-rcp-85-worst-case-scenario-is-implausible/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/health/2026/05/19/hantavirus-ship-quarantine-andes-virus/0562acb6-53a8-11f1-9c40-7a0a12d9e745_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/immigration/2026/03/19/mullin-trump-dhs-senate-confirmation/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/lifestyle/2026/05/12/pcos-pmos-name-endocrine-society-women/6a19f55a-4e4a-11f1-97e7-22c6c29ff0d8_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/national-security/2026/03/05/china-xi-economy-military-planning/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/national-security/2026/03/06/russia-iran-intelligence-us-targets/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/national-security/2026/04/24/china-iran-oil-treasury-sanctions/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/national-security/2026/05/07/trump-xi-us-china-summit-iran/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/national/2026/03/05/iran-israel-us-latest-march-05-2026/02abe1d4-1854-11f1-aef0-0aac8e8e94db_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/national/2026/03/23/rubio-rivera-miami-trial-venezuela/11db870a-266d-11f1-a0f2-3ba4c9fe08ac_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/national/2026/05/13/medicare-fraud-trump-vance-oz-health-hospice/06b9d0ee-4eda-11f1-97e7-22c6c29ff0d8_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/opinions/2026/04/29/white-house-policy-ai-chatbots-should-be-adopted-by-congress/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/03/24/emily-gregory-trump-district-win/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/03/24/homeland-security-funding-ice-airport-security-lines/dcf7f396-2736-11f1-a0f2-3ba4c9fe08ac_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/03/27/trump-nato-iran-war/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/03/28/congress-shutdown-johnson-thune-dhs-deal-unraveled/f52397f4-2aa1-11f1-a0f2-3ba4c9fe08ac_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/04/02/senate-funding-homeland-security-shutdown/6787cf22-2e49-11f1-aac2-f56b5ccad184_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/04/16/haiti-tps-immigration-trump/ee8bd82a-3983-11f1-90c4-9772c7fabc03_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/04/16/trump-arch-eisenhower-building-white-house-visitors/66d758b8-3984-11f1-90c4-9772c7fabc03_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/04/21/federal-reserve-kevin-warsh-jerome-powell/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/04/21/federal-reserve-kevin-warsh-jerome-powell/d7a8e880-3d36-11f1-bb46-ed564688d953_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/04/25/trump-gerrymandering-iran-polls/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/04/30/trump-iran-standoff-strait-hormuz/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/05/05/senate-budget-bill-trump-ballroom/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/05/09/trump-redistrict-democrats-midterms-courts/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/05/10/trump-visit-china-xi-iran-trade-diplomacy/5fcacf68-4c63-11f1-97e7-22c6c29ff0d8_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/05/12/hegseth-iran-war-congress-pentagon/75cb53da-4de1-11f1-97e7-22c6c29ff0d8_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/05/13/trump-arrives-china-meet-with-xi-jinping-taiwan-trade-iran/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/05/14/senate-pay-shutdown-withhold-government/1daf1036-4faf-11f1-97e7-22c6c29ff0d8_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/politics/2026/05/17/trump-voter-eligibility-purge-noncitizens-disenfranchised/85bfbb2a-51e0-11f1-9c40-7a0a12d9e745_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/sports/mlb/2026/05/19/gerrit-cole-new-york-yankees/d213047e-53ce-11f1-9c40-7a0a12d9e745_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/sports/nba/2026/05/05/lakers-thunder-doncic-jalen-williams/a5386de0-483e-11f1-a119-857cd2bf4fd4_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/technology/2026/05/01/ai-jobs-tech-layoffs-austerity/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/weather/2026/04/06/super-el-nino-chances-increasing-risks/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/weather/2026/05/06/el-nino-record-weather-impacts/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/weather/2026/05/11/record-heat-western-drought-forecast-maps/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/weather/2026/05/14/see-where-severe-weather-risk-is-highest-central-us-beginning-this-weekend/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/wellness/2026/05/10/tick-borne-diseases-us/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/wellness/2026/05/17/exercise-middle-age-linked-longer-healthier-life-study-shows/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/wellness/2026/05/19/6-things-you-can-do-get-better-sleep/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/world/2026/04/18/iran-strait-hormuz-us-oil/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/world/2026/04/24/iran-us-israel-lebanon-ceasefire/": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/world/2026/04/29/eu-energy-iran-war-renewables-russia-crisis/c2afd23c-43b1-11f1-b19d-32431046b5b4_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/world/2026/05/07/china-us-senators-trump-xi/688d5004-49dd-11f1-a119-857cd2bf4fd4_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/world/2026/05/14/united-nations-trump-humanitarian-aid-funding/c64d93f6-4fbf-11f1-97e7-22c6c29ff0d8_story.html": {
+      "status": "timeout"
+    },
+    "https://www.washingtonpost.com/world/2026/05/17/russia-ukraine-drones-moscow-strike-attack-killed/290c00d8-51c6-11f1-97e7-22c6c29ff0d8_story.html": {
+      "status": "timeout"
+    },
+    "https://www.who.int/news-room/events/detail/2026/05/11/default-calendar/launch-of-the-who-guideline-for-screening-and-treatment-of-cervical-pre-cancer-lesions-for-cervical-cancer-prevention--use-of-human-papillomavirus-(hpv": {
+      "status": 404
+    },
+    "https://www.who.int/news/item/21-04-2026-who-upf-one-health-consultation-lyon": {
+      "status": 404
+    },
+    "https://www.who.int/publications/i/item/10-2471-B09711": {
+      "status": 404
+    },
+    "https://www.wipfli.com/insights/articles/trump-administration-acts-to-impose-additional-tariffs-under-section-232-and-section-301": {
+      "status": 404
+    },
+    "https://www.wireservice.ca/iea-deepens-global-coordination-as-middle-east-conflict-triggers-historic-energy-security-threat/": {
+      "status": "timeout"
+    },
+    "https://www.woodmac.com/news/opinion/ev-and-battery-supply-2026-outlook/": {
+      "status": 404
+    },
+    "https://www.woodmac.com/news/opinion/long-duration-storage-2026/": {
+      "status": 404
+    },
+    "https://www.worldweatherattribution.org/climate-change-exposes-hundreds-of-millions-to-longer-and-deadlier-pre-monsoon-heat-in-south-asia/": {
+      "status": "network-error"
+    },
+    "https://www.wral.com/news/ap/ee318-trump-says-hes-postponing-signing-an-executive-order-on-ai-out-of-concern-it-would-hurt-ai-industry/": {
+      "status": 410
+    },
+    "https://www.wral.com/news/ap/62413-taiwans-chipmaker-tsmc-reports-58-jump-in-profit-warns-about-iran-war-impacts/": {
+      "status": 410
+    },
+    "https://www.xinruipiao.com/tiyusaishi/29397.html": {
+      "status": 404
+    },
+    "https://www.xinhuanet.com/english/2026-04/23/c_wanji.htm": {
+      "status": 404
+    },
+    "https://www.xinhuanet.com/politics/20260626/d5ebd6b6c0834c17b0918475b6402522/c.html": {
+      "status": "timeout"
+    },
+    "https://www.youtube.com/mobilelegends": {
+      "status": 404
+    },
+    "https://www.zhiyuan.ai/": {
+      "status": "network-error"
+    },
+    "https://www3.nhk.or.jp/nhkworld/en/news/20260511_B2/": {
+      "status": 404
+    }
+  }
+}
