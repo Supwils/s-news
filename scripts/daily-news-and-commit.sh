@@ -20,8 +20,10 @@ log_warn() { echo "[$(LOG_TS)] [WARN] $*"; }
 log_error() { echo "[$(LOG_TS)] [ERROR] $*" >&2; }
 
 # Notification helpers (macOS desktop + Resend email). Sourced — never fatal.
+# The `|| true` suppresses errexit while the helper file loads; notify.sh must
+# not flip shell options itself (a sourced `set +e` leaks into this script).
 # shellcheck disable=SC1091
-source "$SCRIPT_DIR/notify.sh"
+source "$SCRIPT_DIR/notify.sh" || true
 
 JOB_STARTED_AT_EPOCH=$(date +%s)
 export NOTIFY_JOB_STARTED_AT="$(date '+%Y-%m-%d %H:%M:%S')"
@@ -32,7 +34,7 @@ on_error() {
   local exit_code="$1"
   local reason="exit_code=${exit_code}"
   log_error "Daily job failed at step=${LAST_STEP} exit_code=${exit_code}"
-  notify_failure "${LAST_STEP}" "${reason}" "${LAST_DEBUG_LOG}"
+  notify_failure "${LAST_STEP}" "${reason}" "${LAST_DEBUG_LOG}" || true
 }
 trap 'on_error "$?"' ERR
 
@@ -56,7 +58,7 @@ for attempt in 1 2 3 4 5 6; do
 done
 if [[ "$NET_OK" != "1" ]]; then
   log_error "Network preflight failed: api2.cursor.sh unresolvable after 6 attempts (~2 min)"
-  notify_failure "network_preflight" "DNS for api2.cursor.sh unresolvable after 6 attempts" ""
+  notify_failure "network_preflight" "DNS for api2.cursor.sh unresolvable after 6 attempts" "" || true
   # Exit 0 explicitly: this is an environment skip, not a job failure — avoids
   # the ERR trap double-notifying and keeps launchd's failure stats clean.
   exit 0
@@ -149,4 +151,4 @@ if [[ -f "$PROJECT_ROOT/.generated/daily-run.json" ]]; then
     log_warn "Partial run: quarantined topics=${FAILED_TOPICS}"
   fi
 fi
-notify_success "${JOB_DURATION}" "${RUN_SUMMARY}"
+notify_success "${JOB_DURATION}" "${RUN_SUMMARY}" || true

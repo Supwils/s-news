@@ -1,0 +1,11 @@
+#!/bin/sh
+# Local CI gate — runs before every `git push`. Activated by
+# `git config core.hooksPath .githooks` (package.json "prepare" sets it on install).
+#
+# Runs `pnpm prepush` = validate:news (layout + content) + lint + test.
+# Excludes `check-links` (slow/network) and the full next build — manual/CI.
+# Bypass in an emergency: git push --no-verify
+set -e
+echo "▶ pre-push: swil-news — validate:news + lint + test (pnpm prepush)…"
+pnpm prepush
+echo "✔ pre-push passed — safe to push"

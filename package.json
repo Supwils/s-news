@@ -23,7 +23,9 @@
     "prestart": "pnpm build:news-index && pnpm build:rollups && pnpm build:events",
     "start": "next start",
     "lint": "eslint .",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "prepush": "pnpm validate:news && pnpm lint && pnpm test",
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",

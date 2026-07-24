@@ -21,8 +21,12 @@
 #
 # All functions are best-effort and never propagate failures back to the caller:
 # losing a notification must not turn a successful job into a failed one.
-
-set +e  # explicit: notification failures are non-fatal
+#
+# No top-level `set +e` here: this file is sourced, so flipping shell options
+# would leak into the caller and disable its errexit for the rest of the run
+# (which is exactly how a failed `git push` once got reported as success).
+# Non-fatality is the call site's job: invoke as `notify_* ... || true` and
+# guard the source itself with `|| true`.
 
 NOTIFY_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 NOTIFY_PROJECT_ROOT="$(cd "$NOTIFY_SCRIPT_DIR/.." && pwd)"
