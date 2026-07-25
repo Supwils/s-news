@@ -2,7 +2,11 @@ import { ImageResponse } from "next/og";
 
 import { SITE_NAME } from "@/lib/site";
 
-export const runtime = "edge";
+// No `runtime = "edge"`. This image takes no parameters and never changes
+// between deploys, but declaring edge made Next skip static generation for it
+// ("Using edge runtime on a page currently disables static generation"), so
+// every social-card fetch woke a function. On the default runtime it is
+// generated once at build time and served as a static asset.
 export const contentType = "image/png";
 export const size = {
   width: 1200,

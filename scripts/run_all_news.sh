@@ -42,18 +42,35 @@ mkdir -p "$DEBUG_DIR"
 log_info "Generate all topics started model=${NEWS_AGENT_MODEL} parallelism=${NEWS_PARALLELISM}"
 
 export SKIP_NEWS_INDEX_REFRESH=1
+
+# Longest-running topics first.
+#
+# With a fixed number of lanes, makespan is decided by whatever starts last: on
+# 2026-07-24 the run finished at 16:41:30 because auto-mobility (467s) was
+# dispatched ninth, while every other lane had gone idle by 16:39. Dispatching
+# the long poles first lets the short topics fill the tail instead of extending
+# it. Order is by observed duration (467/445/392/299/199/195/180/168/166/154s);
+# it is a heuristic, not a contract — nothing breaks if a topic drifts.
 SCRIPTS=(
-  run-general-news.sh
-  run-finance-news.sh
+  run-auto-mobility-news.sh
   run-aitech-news.sh
   run-science-news.sh
-  run-crypto-news.sh
   run-energy-climate-news.sh
-  run-auto-mobility-news.sh
-  run-gaming-news.sh
   run-supply-chain-news.sh
+  run-crypto-news.sh
+  run-finance-news.sh
   run-sports-health-nutrition-news.sh
+  run-gaming-news.sh
+  run-general-news.sh
 )
+
+# The daily script's preflight only proves DNS resolved at 09:00. What actually
+# happens is the host sleeping mid-run and waking without a network — and
+# cursor-agent answers an unreachable API by spinning, not by exiting. Re-check
+# before every attempt.
+_dns_ok() {
+  host api2.cursor.sh >/dev/null 2>&1 || nslookup api2.cursor.sh >/dev/null 2>&1
+}
 
 run_topic() {
   local script="$1"
@@ -72,6 +89,12 @@ run_topic() {
     # second attempt is far cheaper than losing the topic for the day.
     local attempt
     for attempt in 1 2; do
+      if ! _dns_ok; then
+        ended_at="$(date +%s)"
+        duration="$((ended_at - started_at))"
+        log_error "Topic aborted topic=${topic} attempt=${attempt} duration_sec=${duration} reason=dns_unresolvable"
+        return 69 # EX_UNAVAILABLE
+      fi
       # `exit_code="$?"` must live in the `else` branch: a failed `if` with no
       # `else` evaluates to status 0, so reading `$?` after the block would
       # report every failure as a success.
@@ -82,6 +105,13 @@ run_topic() {
         return 0
       else
         exit_code="$?"
+      fi
+      # A dead network will not come back in 20 seconds, and the retry is not
+      # free: the agent burns the full timeout again before giving up. Retrying
+      # into an unreachable API is what doubled the 2026-07-24 stall.
+      if grep -qE 'ENOTFOUND|ECONNREFUSED|ETIMEDOUT|\[unavailable\]' "$debug_log" 2>/dev/null; then
+        log_warn "Topic attempt failed topic=${topic} exit_code=${exit_code} retrying=false reason=network_unreachable"
+        break
       fi
       if [[ "$attempt" -eq 1 ]]; then
         log_warn "Topic attempt failed topic=${topic} exit_code=${exit_code} retrying=true"

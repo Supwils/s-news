@@ -73,14 +73,20 @@ HOT_PATHS="$(node --input-type=module -e '
   }
 ' "$INDEX_FILE" "$WARM_DAYS" 2>/dev/null || true)"
 
+# Every response code, one per line, for the tally at the end. Lines are short
+# enough that concurrent appends stay atomic.
+WARM_RESULTS="$(mktemp "${TMPDIR:-/tmp}/warm-cache-XXXXXX")"
+trap 'rm -f "$WARM_RESULTS"' EXIT
+
 warm_one() {
   local path="$1"
   local code
   code="$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "${BASE_URL}${path}" || echo "000")"
+  printf '%s %s\n' "$code" "$path" >>"$WARM_RESULTS"
   echo "[warm-cache] ${code} ${path}"
 }
 export -f warm_one
-export BASE_URL
+export BASE_URL WARM_RESULTS
 
 echo "[warm-cache] Warming hot set on ${BASE_URL} (newest ${WARM_DAYS} day(s))"
 warm_one "/"
@@ -92,4 +98,24 @@ if [[ -n "$HOT_PATHS" ]]; then
   echo "$HOT_PATHS" | grep -v '^$' | xargs -P "$WARM_CONCURRENCY" -I{} bash -c 'warm_one "$@"' _ {}
 fi
 
-echo "[warm-cache] Done."
+# Report the tally, and fail loudly when the warmup mostly missed.
+#
+# This script used to exit 0 unconditionally, so on 2026-07-24 it reported
+# "Done." after twenty consecutive 404s and the job sent a success email. A
+# warmup that cannot reach the pages it is warming is the clearest possible
+# signal that the deploy is not live, and it was the one signal being discarded.
+TOTAL="$(wc -l <"$WARM_RESULTS" | tr -d ' ')"
+OK="$(grep -c '^2' "$WARM_RESULTS" || true)"
+BAD="$((TOTAL - OK))"
+echo "[warm-cache] Done. ${OK}/${TOTAL} warmed, ${BAD} not 2xx."
+
+if [[ "$BAD" -gt 0 ]]; then
+  echo "[warm-cache] Non-2xx responses:" >&2
+  grep -v '^2' "$WARM_RESULTS" | sed 's/^/  /' >&2 || true
+fi
+
+MAX_FAIL_PCT="${WARM_MAX_FAIL_PCT:-20}"
+if [[ "$TOTAL" -gt 0 && "$(( BAD * 100 / TOTAL ))" -gt "$MAX_FAIL_PCT" ]]; then
+  echo "[warm-cache] FAILED: ${BAD}/${TOTAL} non-2xx exceeds WARM_MAX_FAIL_PCT=${MAX_FAIL_PCT}%." >&2
+  exit 1
+fi

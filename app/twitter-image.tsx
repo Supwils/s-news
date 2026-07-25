@@ -2,7 +2,8 @@ import { ImageResponse } from "next/og";
 
 import { SITE_NAME } from "@/lib/site";
 
-export const runtime = "edge";
+// See app/opengraph-image.tsx: edge disabled static generation for a card that
+// is identical on every request.
 export const contentType = "image/png";
 export const size = {
   width: 1200,

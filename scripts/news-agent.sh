@@ -12,38 +12,82 @@
 #   codex   NEWS_CODEX_MODEL  (default: codex-mini-latest)
 #
 # Timeout:
-#   NEWS_AGENT_TIMEOUT_SECONDS  hard upper bound for a single topic call
-#                               (default 1800 = 30 min). Caps cursor-agent's
-#                               internal retry loop, which has been observed
-#                               to spin for 90+ minutes on transient DNS
-#                               errors and effectively kill the daily pipeline.
+#   NEWS_AGENT_TIMEOUT_SECONDS          hard upper bound for a single topic call
+#                                       (default 1800 = 30 min). Caps
+#                                       cursor-agent's internal retry loop, which
+#                                       spins for hours on transient DNS errors.
+#   NEWS_AGENT_WATCHDOG_POLL_SECONDS    how often the watchdog checks the clock
+#                                       (default 15).
 
 set -e
 
 TIMEOUT_SECS="${NEWS_AGENT_TIMEOUT_SECONDS:-1800}"
+WATCHDOG_POLL_SECS="${NEWS_AGENT_WATCHDOG_POLL_SECONDS:-15}"
 
-# Run a command with a hard wall-clock timeout. Prefer GNU `timeout` / `gtimeout`
-# (from brew coreutils); fall back to `perl -e 'alarm; exec'` which ships with
-# macOS by default. This avoids forcing a Homebrew dependency on the cron host.
+# Kills <pid>'s process group once TIMEOUT_SECS of *wall-clock* time have passed,
+# and touches <marker> so the caller can tell a timeout from an ordinary failure.
+# Returns as soon as the child is gone.
+_watchdog() {
+  local pid="$1" marker="$2" started now
+  started="$(date +%s)"
+  while :; do
+    sleep "$WATCHDOG_POLL_SECS"
+    kill -0 "$pid" 2>/dev/null || return 0
+    now="$(date +%s)"
+    if [[ "$((now - started))" -ge "$TIMEOUT_SECS" ]]; then
+      : >"$marker"
+      kill -TERM "-$pid" 2>/dev/null || kill -TERM "$pid" 2>/dev/null || true
+      sleep 30
+      kill -KILL "-$pid" 2>/dev/null || kill -KILL "$pid" 2>/dev/null || true
+      return 0
+    fi
+  done
+}
+
+# Run a command under a hard wall-clock timeout.
+#
+# Deliberately not GNU `timeout`, and no longer `perl -e 'alarm'`: both arm
+# ITIMER_REAL, which stops counting while macOS is asleep. This job runs on a
+# laptop. On 2026-07-24 the host slept four minutes into the 09:00 run and spent
+# the next five hours in a darkwake/sleep cycle; the 30-minute alarm never fired
+# because from its point of view barely any time had passed, one topic held a
+# concurrency slot from 09:15 to 14:15, and the whole 7-hour run published
+# nothing. The alarm mechanism was fine — the clock was not. `date +%s` is the
+# only clock on this host that keeps time across sleep, so the watchdog polls it.
+#
+# The child runs in its own process group (`set -m`) so the watchdog can signal
+# the whole tree: `cursor-agent` is a bash shim that execs node.
 _run_with_timeout() {
-  local rc
-  if command -v gtimeout &>/dev/null; then
-    gtimeout --kill-after=30 "$TIMEOUT_SECS" "$@"
-    rc=$?
-  elif command -v timeout &>/dev/null; then
-    timeout --kill-after=30 "$TIMEOUT_SECS" "$@"
-    rc=$?
-  else
-    # perl SIGALRM fallback: arms a wall-clock alarm and exec()s the child.
-    # On expiry the unhandled SIGALRM terminates the process tree (exit 142
-    # = 128 + SIGALRM(14)). We normalize that to 124 to match GNU timeout.
-    perl -e 'alarm shift; exec @ARGV or die "exec failed: $!"' "$TIMEOUT_SECS" "$@"
-    rc=$?
-    if [[ "$rc" -eq 142 ]]; then rc=124; fi
+  local marker rc=0 child_pid watchdog_pid
+  marker="$(mktemp "${TMPDIR:-/tmp}/news-agent-timeout-XXXXXX")"
+  rm -f "$marker"
+
+  set -m
+  "$@" &
+  child_pid=$!
+  set +m
+
+  _watchdog "$child_pid" "$marker" &
+  watchdog_pid=$!
+
+  # `set -m` makes the shell announce abnormal job termination ("Terminated: 15")
+  # on its own stderr. That lands in the topic's debug log, whose last non-empty
+  # line run_all_news.sh reports as the failure reason — so silence the reaper,
+  # not the child. The child's own stderr was bound at fork and is unaffected.
+  { wait "$child_pid" || rc=$?; } 2>/dev/null
+
+  kill "$watchdog_pid" 2>/dev/null || true
+  wait "$watchdog_pid" 2>/dev/null || true
+
+  # The signal that killed the child is not diagnostic on its own — the agent
+  # may have been terminated for any reason — so the marker, not the exit code,
+  # is what identifies a timeout.
+  if [[ -e "$marker" ]]; then
+    rc=124
+    rm -f "$marker"
+    echo "Error: news-agent timed out after ${TIMEOUT_SECS}s of wall-clock time (NEWS_AGENT_TIMEOUT_SECONDS)" >&2
   fi
-  if [[ "$rc" -eq 124 ]]; then
-    echo "Error: news-agent timed out after ${TIMEOUT_SECS}s (NEWS_AGENT_TIMEOUT_SECONDS)" >&2
-  fi
+  rm -f "$marker"
   return "$rc"
 }
 
