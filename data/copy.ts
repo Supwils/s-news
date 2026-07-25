@@ -216,6 +216,8 @@ const copyZh = {
       quickLinkHeading: "同日期其他主题",
       quickLinkCurrent: "当前",
       noNewsHint: "新闻不见了，试试别的主题。",
+      prevIssue: "前一期",
+      nextIssue: "后一期",
     },
   },
   news: {
@@ -419,6 +421,8 @@ const copyEn = {
       quickLinkHeading: "Same-day topics",
       quickLinkCurrent: "Current",
       noNewsHint: "No digest for this date. Try another topic.",
+      prevIssue: "Previous issue",
+      nextIssue: "Next issue",
     },
   },
   news: {

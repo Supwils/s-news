@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Clock3, Command, FileText, Layers3 } from "lucide-react";
-import type { ReactNode } from "react";
+import { useRouter } from "next/navigation";
+import { ArrowLeft, ArrowRight, Clock3, Command, FileText, Layers3 } from "lucide-react";
+import { useEffect, type ReactNode } from "react";
 
 import { InlineMarkdown } from "@/components/news-markdown";
 import { NewspaperFooter } from "@/components/newspaper/footer";
@@ -42,6 +43,10 @@ type NewsDetailContentProps = {
   isChineseFallback?: boolean;
   /** Cross-topic events this digest participates in (may be empty). */
   events?: DetailEventLink[];
+  /** Nearest older issue of this topic in the current locale's index. */
+  prevDate?: string | null;
+  /** Nearest newer issue of this topic in the current locale's index. */
+  nextDate?: string | null;
 };
 
 export function NewsDetailContent({
@@ -53,8 +58,11 @@ export function NewsDetailContent({
   related,
   isChineseFallback = false,
   events = [],
+  prevDate = null,
+  nextDate = null,
 }: NewsDetailContentProps) {
   const locale = useLocale();
+  const router = useRouter();
   const activeEntry = entry;
   const activeBody = articleBody;
   const isShowingChineseFallback = isChineseFallback;
@@ -64,6 +72,33 @@ export function NewsDetailContent({
   const topicHref = localizePath(`/news/${topic}`, locale);
   const homeHref = localizePath("/", locale);
   const archiveHref = localizePath(`/archive/${date.slice(0, 7)}`, locale);
+  const prevHref = prevDate ? localizePath(`/news/${topic}/${prevDate}`, locale) : null;
+  const nextHref = nextDate ? localizePath(`/news/${topic}/${nextDate}`, locale) : null;
+
+  // ArrowLeft steps to the older issue, ArrowRight to the newer one — but
+  // never while the reader is typing (search modal, forms) or chording a
+  // browser/OS shortcut.
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) {
+        return;
+      }
+      const target = event.target as HTMLElement | null;
+      if (
+        target &&
+        (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName))
+      ) {
+        return;
+      }
+      if (event.key === "ArrowLeft" && prevHref) {
+        router.push(prevHref);
+      } else if (event.key === "ArrowRight" && nextHref) {
+        router.push(nextHref);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [prevHref, nextHref, router]);
 
   if (!meta) {
     return null;
@@ -327,6 +362,36 @@ export function NewsDetailContent({
             ) : null}
           </aside>
         </div>
+
+        {prevHref || nextHref ? (
+          <nav
+            aria-label={locale === "zh" ? "相邻日报" : "Adjacent issues"}
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "space-between",
+              gap: 12,
+              marginTop: 32,
+            }}
+          >
+            {prevHref && prevDate ? (
+              <Link href={prevHref} className="np-btn-secondary" rel="prev">
+                <ArrowLeft size={14} />
+                {copy.ui.detailPage.prevIssue} · {formatDisplayDate(prevDate, locale)}
+              </Link>
+            ) : (
+              <span />
+            )}
+            {nextHref && nextDate ? (
+              <Link href={nextHref} className="np-btn-secondary" rel="next">
+                {formatDisplayDate(nextDate, locale)} · {copy.ui.detailPage.nextIssue}
+                <ArrowRight size={14} />
+              </Link>
+            ) : (
+              <span />
+            )}
+          </nav>
+        ) : null}
 
         {related.length > 0 ? (
           <RelatedSection

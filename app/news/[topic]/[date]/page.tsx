@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { NewsDetailContent } from "@/components/news-detail-content";
 import { NewsMarkdown } from "@/components/news-markdown-block";
+import { adjacentDates } from "@/lib/adjacent-dates";
 import { getEventsForDigest } from "@/lib/events";
 import { getDeadLinks } from "@/lib/link-health";
 import { StructuredData } from "@/components/structured-data";
@@ -94,6 +95,11 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
     .filter((entry) => entry.date !== date)
     .slice(0, 3);
 
+  const { prev: prevDate, next: nextDate } = adjacentDates(
+    topicPreviewsZh.map((entry) => entry.date),
+    date,
+  );
+
   const meta = getTopicMeta(topic, "zh");
 
   if (!entryZh || !meta) {
@@ -151,6 +157,8 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
         availableTopics={availableTopicsZh}
         related={relatedZh}
         events={events}
+        prevDate={prevDate}
+        nextDate={nextDate}
       />
     </>
   );

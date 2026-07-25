@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { NewsDetailContent } from "@/components/news-detail-content";
+import { adjacentDates } from "@/lib/adjacent-dates";
 import { NewsMarkdown } from "@/components/news-markdown-block";
 import { getEventsForDigest } from "@/lib/events";
 import { getDeadLinks } from "@/lib/link-health";
@@ -109,6 +110,14 @@ export default async function EnglishNewsDetailPage({ params }: NewsDetailPagePr
     .filter((entry) => entry.date !== date)
     .slice(0, 3);
 
+  // Pager steps stay inside the English index: a Chinese-only date is not
+  // advertised on /en (no sitemap entry, no links), and the pager keeps it
+  // that way by jumping to the nearest indexed English issues instead.
+  const { prev: prevDate, next: nextDate } = adjacentDates(
+    topicPreviewsEn.map((entry) => entry.date),
+    date,
+  );
+
   const meta = getTopicMeta(topic, "en");
   const activeEntry = entryEn ?? entryZh;
 
@@ -170,6 +179,8 @@ export default async function EnglishNewsDetailPage({ params }: NewsDetailPagePr
         related={relatedEn}
         isChineseFallback={!entryEn}
         events={events}
+        prevDate={prevDate}
+        nextDate={nextDate}
       />
     </>
   );
