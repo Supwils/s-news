@@ -7,16 +7,36 @@
 # then pays the origin fetch, which is the dominant contributor to the high TTFB
 # seen on /news/[topic]/[date] in Speed Insights.
 #
-# The hot set is everything a visitor reaches within one click of landing:
+# The hot set:
 #   - both home pages
-#   - the newest $WARM_DAYS days of articles (zh + en)
+#   - the newest $WARM_DAYS days of articles, per locale
 #   - all ten topic pages (zh + en) — linked from every masthead
-#   - the current month's archive (zh + en) — linked from every masthead
+#   - the current month's archive, /weekly, /events, the current week (zh + en)
 #
-# Scope/limits: a warmup from a single location only populates the POP(s) that
-# serve these requests, not every region. It is a cheap, partial mitigation.
-# For reliable, post-deploy, multi-region warming, run this from a Vercel Cron
-# job instead of (or in addition to) the local daily script.
+# Why $WARM_DAYS is 45 and not 2: "newest" was the wrong model of this site's
+# traffic. Measured 2026-07-25, the most-visited pages were /news/finance/
+# 2026-06-17 (38 days old), /news/finance/2026-07-03, /news/supply-chain/
+# 2026-07-09 — readers arrive from Google onto a specific old story, not onto
+# today's issue. A 2-day window warmed almost none of what people actually
+# open. 45 issue-days (~8 weeks of calendar, since the run has gaps) covers
+# that whole measured range with margin: 924 URLs in 177s, all 2xx. 30 days
+# stopped at 2026-06-18 — one day short of the single most-visited page, which
+# is a good sign the window should not be trimmed to fit. If traffic later
+# shows up on older pages, raise WARM_DAYS; the whole archive is only ~2700
+# pages and warming all of it would take roughly nine minutes.
+#
+# Scope/limits, both real:
+#   - a warmup from a single location only populates the POP(s) that serve
+#     these requests. This runs from the maintainer's laptop, so it warms one
+#     POP (pdx1). Readers elsewhere still pay the cold fetch. Fixing that needs
+#     the warmup to run from Vercel, and even then it is per-region.
+#   - it cannot outrun the invalidation: every daily deploy re-cools all ~2700
+#     pages, so this is a mitigation, not a solution.
+#
+# Requests are sent with a distinctive User-Agent so this job's own traffic is
+# filterable in Vercel's logs — it is otherwise indistinguishable from a
+# crawler, which is exactly the confusion that made the 2026-07-25 traffic
+# audit hard to read.
 #
 # Usage:
 #   scripts/warm-cache.sh [BASE_URL]
@@ -38,40 +58,56 @@ if [[ -z "$BASE_URL" ]]; then
   exit 0
 fi
 
-INDEX_FILE=".generated/news-index.json"
-WARM_DAYS="${WARM_DAYS:-2}"
-WARM_CONCURRENCY="${WARM_CONCURRENCY:-6}"
+WARM_DAYS="${WARM_DAYS:-45}"
+WARM_CONCURRENCY="${WARM_CONCURRENCY:-12}"
+WARM_USER_AGENT="${WARM_USER_AGENT:-swil-news-warmup/1 (+https://news.supwil.com)}"
 
-# Every path worth warming, one per line. Empty if the index is missing or
+# Every path worth warming, one per line. Empty if the indexes are missing or
 # unreadable — the home pages are still warmed in that case.
+#
+# Each locale's paths come from that locale's own index. The old version derived
+# the English list by prefixing "/en" onto every Chinese path, which held only
+# because the window was two days: 360 Chinese entries across 40 dates have no
+# English issue at all, so a wider window would have warmed a few hundred 404s
+# and tripped the miss-rate gate below.
 HOT_PATHS="$(node --input-type=module -e '
   import { readFileSync } from "node:fs";
-  const [indexFile, warmDays] = process.argv.slice(1);
-  const out = [];
-  try {
-    const idx = JSON.parse(readFileSync(indexFile, "utf8"));
-    const entries = Array.isArray(idx.entries) ? idx.entries : [];
-    if (entries.length) {
-      const days = [...new Set(entries.map((e) => e.date))].sort().reverse().slice(0, Number(warmDays) || 1);
-      for (const e of entries.filter((e) => days.includes(e.date))) {
-        out.push("/news/" + e.topic + "/" + e.date);
+  const warmDays = Number(process.argv[1]) || 1;
+  const { isoWeekId } = await import("./lib/iso-week.mjs");
+
+  const LOCALES = [
+    { prefix: "", index: ".generated/news-index.json" },
+    { prefix: "/en", index: ".generated/news-index-en.json" },
+  ];
+
+  for (const { prefix, index } of LOCALES) {
+    try {
+      const idx = JSON.parse(readFileSync(index, "utf8"));
+      const entries = Array.isArray(idx.entries) ? idx.entries : [];
+      if (!entries.length) continue;
+
+      const days = new Set(
+        [...new Set(entries.map((e) => e.date))].sort().reverse().slice(0, warmDays),
+      );
+      const newest = [...days].sort().reverse()[0];
+
+      const out = [];
+      for (const e of entries) {
+        if (days.has(e.date)) out.push(`/news/${e.topic}/${e.date}`);
       }
       for (const topic of [...new Set(entries.map((e) => e.topic))]) {
-        out.push("/news/" + topic);
+        out.push(`/news/${topic}`);
       }
-      out.push("/archive/" + days[0].slice(0, 7));
+      out.push(`/archive/${newest.slice(0, 7)}`);
       // Nav entry pages added 2026-07: weekly rollups and cross-topic events.
       out.push("/weekly");
       out.push("/events");
-      const { isoWeekId } = await import("./lib/iso-week.mjs");
-      out.push("/weekly/" + isoWeekId(days[0]));
-    }
-  } catch (_) { /* best-effort: emit nothing */ }
-  for (const p of out) {
-    console.log(p);
-    console.log("/en" + p);
+      out.push(`/weekly/${isoWeekId(newest)}`);
+
+      for (const p of out) console.log(prefix + p);
+    } catch (_) { /* best-effort: this locale contributes nothing */ }
   }
-' "$INDEX_FILE" "$WARM_DAYS" 2>/dev/null || true)"
+' "$WARM_DAYS" 2>/dev/null || true)"
 
 # Every response code, one per line, for the tally at the end. Lines are short
 # enough that concurrent appends stay atomic.
@@ -81,20 +117,23 @@ trap 'rm -f "$WARM_RESULTS"' EXIT
 warm_one() {
   local path="$1"
   local code
-  code="$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "${BASE_URL}${path}" || echo "000")"
+  code="$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 \
+    -A "$WARM_USER_AGENT" "${BASE_URL}${path}" || echo "000")"
   printf '%s %s\n' "$code" "$path" >>"$WARM_RESULTS"
-  echo "[warm-cache] ${code} ${path}"
 }
 export -f warm_one
-export BASE_URL WARM_RESULTS
+export BASE_URL WARM_RESULTS WARM_USER_AGENT
 
-echo "[warm-cache] Warming hot set on ${BASE_URL} (newest ${WARM_DAYS} day(s))"
+STARTED_AT="$(date +%s)"
+echo "[warm-cache] Warming hot set on ${BASE_URL} (newest ${WARM_DAYS} day(s), ${WARM_CONCURRENCY}-way)"
 warm_one "/"
 warm_one "/en"
 
 if [[ -n "$HOT_PATHS" ]]; then
-  # -P keeps a 60-URL warmup under a few seconds; failures are already swallowed
-  # by warm_one, so xargs never returns non-zero.
+  # Failures are already swallowed by warm_one, so xargs never returns non-zero.
+  # Nothing is echoed per URL: at 45 days this is ~900 requests, and 900 lines
+  # of "200 /news/…" in logs/daily-news.log buries every other step of the job.
+  # The tally below, plus the full list of failures, is what is worth reading.
   echo "$HOT_PATHS" | grep -v '^$' | xargs -P "$WARM_CONCURRENCY" -I{} bash -c 'warm_one "$@"' _ {}
 fi
 
@@ -107,7 +146,8 @@ fi
 TOTAL="$(wc -l <"$WARM_RESULTS" | tr -d ' ')"
 OK="$(grep -c '^2' "$WARM_RESULTS" || true)"
 BAD="$((TOTAL - OK))"
-echo "[warm-cache] Done. ${OK}/${TOTAL} warmed, ${BAD} not 2xx."
+ELAPSED="$(( $(date +%s) - STARTED_AT ))"
+echo "[warm-cache] Done in ${ELAPSED}s. ${OK}/${TOTAL} warmed, ${BAD} not 2xx."
 
 if [[ "$BAD" -gt 0 ]]; then
   echo "[warm-cache] Non-2xx responses:" >&2

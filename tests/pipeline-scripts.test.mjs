@@ -94,3 +94,23 @@ test("warm-cache reports its miss rate instead of always exiting 0", () => {
   const source = read("warm-cache.sh");
   assert.match(source, /WARM_MAX_FAIL_PCT/, "warm-cache.sh must fail when the warmup mostly missed");
 });
+
+test("each locale's warm list comes from that locale's own index", () => {
+  const source = read("warm-cache.sh");
+
+  // 360 Chinese entries across 40 dates have no English issue. Deriving the
+  // English list as "/en" + a Chinese path only survived because the window was
+  // two days; at 45 it would warm hundreds of 404s and trip the gate above.
+  assert.match(source, /news-index-en\.json/, "the English list must read the English index");
+  assert.doesNotMatch(
+    source,
+    /"\/en"\s*\+\s*p\b/,
+    "the English list must not be the Chinese list with a prefix",
+  );
+});
+
+test("warm-cache identifies itself so its own traffic is filterable", () => {
+  const source = read("warm-cache.sh");
+  assert.match(source, /WARM_USER_AGENT/);
+  assert.match(source, /-A "\$WARM_USER_AGENT"/, "every warm request must carry the agent");
+});
