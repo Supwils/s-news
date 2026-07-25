@@ -24,7 +24,7 @@ Everything below is live and verified; pointers are the code entry points.
 | Local push gate (validate + lint + test) via versioned hooks; node-version-proof test runner (`--experimental-strip-types`) | `.githooks/pre-push`, `package.json` `prepush`/`prepare` |
 | Rendering: ~2700 routes SSG from `.generated/news-index*.json`; only 3 routes carry the 31 MB corpus (traced + verified postbuild) | `next.config.ts`, `scripts/verify-build-trace.mjs` |
 | Weekly rollups `/weekly` — synthesized mechanically from the daily index, zero token cost | `scripts/build-rollups.mjs`, `lib/rollups.ts` |
-| Cross-topic events `/events`, `/events/[id]` — IDF-weighted same-day clustering + shared-URL chaining (≤7-day gap) | `scripts/build-events.mjs`, `scripts/events-lib.mjs`, `lib/events.ts` |
+| Cross-topic events `/events`, `/events/[id]` — IDF-weighted same-day clustering + shared-URL chaining (≤7-day gap, evergreen "hub" URLs filtered out) | `scripts/build-events.mjs`, `scripts/events-lib.mjs`, `lib/events.ts` |
 | Link health: weekly ~17.5k-URL check, conservative dead classification, Wayback fallback in the reader | `scripts/check-links.mjs`, `link-health.json` |
 | Search `/search`: Pagefind + topic/locale facets + time presets (month/quarter/year via `{any:[...]}` filters) | `scripts/build-search-index.mjs`, `lib/search-time-range.ts`, `components/search-page.tsx` |
 | Daily brief on both homes (lead + per-topic picks from highlights/takeaway) | `components/news-home.tsx` |
@@ -96,6 +96,20 @@ Everything below is live and verified; pointers are the code entry points.
   ran against the previous deployment — all twenty of that day's article URLs
   returned 404 and the job still emailed success. `await-deploy.sh` probes for
   the newest issue instead; a deployment that never serves it fails the job.
+- **2026-07-25 — an evergreen source URL is not a story link.** URL edges were
+  the one signal trusted without qualification. The URLs doing the most chaining
+  turned out to be reference pages (`federalreserve.gov/releases/h15` on 15
+  distinct days, a VIX product page on 12), and because union-find is
+  transitive, `URL_MAX_DAY_GAP` bounded each edge while the cluster grew without
+  limit — three weeks of market wraps became one "event" named after a single
+  day's close. A URL cited on more than `URL_MAX_DISTINCT_DAYS` (3) distinct
+  days now creates no edges, the same qualification IDF already gave the text
+  signal. Swept before choosing: event count is flat (322 → 324), max span
+  27d → 12d, events over 14 days 11 → 0. 18 of 322 event ids churned.
+- **2026-07-25 — the site hardcodes its production origin.** See
+  `lib/site-origin.mjs`. Canonical/sitemap/robots/RSS/OG had been advertising
+  the per-deployment `*.vercel.app` host since launch; a postbuild gate now
+  fails a production build that would ship the wrong one.
 - **2026-07-24 — the daily commit is pathspec-limited.** `git add -A NEWS/`
   bounds staging, not committing: `git commit` writes the whole index, and
   4985d86 shipped two unrelated staged doc renames. Content commits now carry

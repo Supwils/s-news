@@ -29,6 +29,41 @@
 export const SAME_DAY_THRESHOLD = 0.2;
 /** A source URL re-cited within this many days chains the story across days. */
 export const URL_MAX_DAY_GAP = 7;
+/**
+ * A source URL cited on more than this many distinct days is a reference page,
+ * not a story link, and creates no edges at all.
+ *
+ * URL edges were the one signal trusted without qualification, and it turned
+ * out to need the same treatment the text signal already gets from IDF: what
+ * matters is an *unusually* shared citation, not a shared one. The URLs doing
+ * the most chaining across this corpus are evergreen:
+ *
+ *   22 days  sec.gov/newsroom/press-releases/…
+ *   15 days  federalreserve.gov/releases/h15        (the daily rates release)
+ *   13 days  tradingeconomics.com/united-states/stock-market
+ *   12 days  cboe.com/tradable-products/vix
+ *
+ * Citing H.15 on June 5 and June 12 does not mean those are one story; it means
+ * both discuss interest rates. 74% of cross-day URL edges came from URLs
+ * spanning 3+ days, and because union-find is transitive, URL_MAX_DAY_GAP
+ * bounded each edge while the resulting cluster grew without limit — three
+ * weeks of market wraps merged into one "event" named after a single day's
+ * close.
+ *
+ * Swept against the corpus (zh, 14523 blocks). Event count is flat, so this
+ * splits over-merged clusters rather than dropping coverage:
+ *
+ *   limit      events  multi-day  max span  span>14d  span>7d
+ *   none          322        136       27d        11       30
+ *   4             325        129       14d         0       15
+ *   3 (this)      324        117       12d         0        8
+ *   2             317         96        8d         0        1   ← loses real ones
+ *
+ * At 3 the survivors past a week are all genuine continuing stories (a policy
+ * rollout, a quarterly delivery miss, an FDA approval); at 2 the 29% drop in
+ * multi-day events starts cutting those too.
+ */
+export const URL_MAX_DISTINCT_DAYS = 3;
 
 /**
  * Split a digest into its `### N. title` article blocks.
@@ -200,7 +235,9 @@ export function clusterEvents(blocks) {
   const totals = signatures.map((signature) => signatureWeight(signature, weights));
   const uf = createUnionFind(blocks.length);
 
-  // Shared-URL edges via an inverted index (cheap and certain).
+  // Shared-URL edges via an inverted index. Like the IDF weights above, the
+  // hub filter is computed over THIS corpus: a URL is a reference page relative
+  // to the days it is cited on here, not by any property of the URL itself.
   const byUrl = new Map();
   blocks.forEach((block, i) => {
     for (const url of block.urls) {
@@ -209,6 +246,9 @@ export function clusterEvents(blocks) {
     }
   });
   for (const holders of byUrl.values()) {
+    // See URL_MAX_DISTINCT_DAYS: an evergreen page cited across many days is
+    // evidence of a shared subject, not of a shared story.
+    if (new Set(holders.map((i) => blocks[i].date)).size > URL_MAX_DISTINCT_DAYS) continue;
     for (let a = 0; a < holders.length; a += 1) {
       for (let b = a + 1; b < holders.length; b += 1) {
         const i = holders[a];

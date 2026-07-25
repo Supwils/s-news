@@ -3,13 +3,15 @@ import assert from "node:assert/strict";
 
 import {
   clusterEvents,
-  dice,
   dayGap,
+  dice,
   eventId,
   eventTitle,
   grams,
   normalizeUrl,
   splitArticleBlocks,
+  URL_MAX_DAY_GAP,
+  URL_MAX_DISTINCT_DAYS,
 } from "../scripts/events-lib.mjs";
 
 const DIGEST = `# 2026年7月9日 · 日报
@@ -133,6 +135,60 @@ test("a shared URL beyond URL_MAX_DAY_GAP does not link", () => {
     block("finance", "2026-07-09", 1, "标题乙", [url]),
   ];
   assert.deepEqual(clusterEvents(blocks), []);
+});
+
+test("an evergreen URL cited across many days links nothing", () => {
+  // federalreserve.gov/releases/h15 is cited on 15 distinct days of the real
+  // corpus. Every pair of those days is inside URL_MAX_DAY_GAP, so before the
+  // hub filter this one URL alone merged three weeks of unrelated rate
+  // coverage into a single "event".
+  const hub = "https://federalreserve.gov/releases/h15";
+  const blocks = [];
+  for (let day = 1; day <= URL_MAX_DISTINCT_DAYS + 1; day += 1) {
+    const date = `2026-06-0${day}`;
+    blocks.push(block("general", date, 1, `第${day}日利率评论`, [hub]));
+    blocks.push(block("finance", date, 1, `第${day}日债市回顾`, [hub]));
+  }
+  assert.deepEqual(clusterEvents(blocks), []);
+});
+
+test("a story URL stays a story URL right up to the limit", () => {
+  // The same shape, one day shorter: still a story, still links.
+  const url = "https://reuters.com/opec-august-output-decision";
+  const blocks = [];
+  for (let day = 1; day <= URL_MAX_DISTINCT_DAYS; day += 1) {
+    const date = `2026-06-0${day}`;
+    blocks.push(block("general", date, 1, `第${day}日OPEC评论`, [url]));
+    blocks.push(block("finance", date, 1, `第${day}日油市回顾`, [url]));
+  }
+  const events = clusterEvents(blocks);
+  assert.equal(events.length, 1);
+  assert.equal(events[0].length, URL_MAX_DISTINCT_DAYS * 2);
+});
+
+test("URL_MAX_DAY_GAP bounds an edge; only the hub filter bounds the chain", () => {
+  // Each hop shares a URL with the next and sits 6 days away — every edge is
+  // legal — but union-find is transitive, so the cluster spans 18 days. This is
+  // the failure mode no single-edge test can see, and the reason the span had
+  // to be bounded at the source (URL_MAX_DISTINCT_DAYS) rather than by the gap.
+  // Every URL here is cited on exactly 2 days, so none is filtered as a hub.
+  const hops = [
+    ["general", "2026-06-01", ["https://reuters.com/s0"]],
+    ["finance", "2026-06-07", ["https://reuters.com/s0", "https://reuters.com/s1"]],
+    ["crypto", "2026-06-13", ["https://reuters.com/s1", "https://reuters.com/s2"]],
+    ["science", "2026-06-19", ["https://reuters.com/s2"]],
+  ];
+  const blocks = hops.map(([topic, date, urls], i) => block(topic, date, i + 1, `第${i}段`, urls));
+
+  const events = clusterEvents(blocks);
+  assert.equal(events.length, 1, "the four hops are one cluster");
+
+  const dates = [...new Set(events[0].map((b) => b.date))].sort();
+  assert.equal(dayGap(dates[0], dates[dates.length - 1]), 18);
+  assert.ok(
+    dayGap(dates[0], dates[dates.length - 1]) > URL_MAX_DAY_GAP,
+    "a chain outruns the per-edge gap by construction",
+  );
 });
 
 test("eventId is the chronologically first member and survives growth", () => {
