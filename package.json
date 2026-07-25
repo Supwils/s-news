@@ -25,7 +25,7 @@
     "start": "next start",
     "lint": "eslint .",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
-    "prepush": "pnpm validate:news && pnpm lint && pnpm test",
+    "prepush": "pnpm validate:news && pnpm build:news-index && pnpm build:rollups && pnpm lint && pnpm test",
     "prepare": "git config core.hooksPath .githooks || true"
   },
   "dependencies": {

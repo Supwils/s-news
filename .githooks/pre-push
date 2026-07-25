@@ -2,10 +2,14 @@
 # Local CI gate — runs before every `git push`. Activated by
 # `git config core.hooksPath .githooks` (package.json "prepare" sets it on install).
 #
-# Runs `pnpm prepush` = validate:news (layout + content) + lint + test.
+# Runs `pnpm prepush` = validate:news + build the index/rollup artifacts + lint
+# + test. The build step is not decoration: tests/rollups.test.mjs reads
+# .generated/rollup-index*.json, which is gitignored, so without it the gate
+# only passes on a machine that happens to have built recently — and fails on
+# every clean checkout. CI caught exactly that on 2026-07-25.
 # Excludes `check-links` (slow/network) and the full next build — manual/CI.
 # Bypass in an emergency: git push --no-verify
 set -e
-echo "▶ pre-push: swil-news — validate:news + lint + test (pnpm prepush)…"
+echo "▶ pre-push: swil-news — validate + build indexes + lint + test (pnpm prepush)…"
 pnpm prepush
 echo "✔ pre-push passed — safe to push"
