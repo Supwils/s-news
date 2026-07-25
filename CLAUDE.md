@@ -4,6 +4,8 @@ Guidance for AI coding agents in this repo. Instructions here override default b
 
 swil-news is a Next.js news/reading site (pnpm; `swil-news` on GitHub) deployed to Vercel. Content lives under `NEWS/`, validated + indexed at build time (`prebuild` runs `validate:news` + the index/rollup/event/search builders).
 
+开发状态、未完成事项与历史决策以 `docs/roadmap.md` 为准（权威状态板）；其他 docs 与它冲突时以它为准。
+
 ## 语言规则
 - **对用户始终用中文回复**；代码、标识符、注释一律英文。
 

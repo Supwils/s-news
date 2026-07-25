@@ -19,6 +19,18 @@ Swil-News 是一个本地优先的多主题日报阅读器。你用 Cursor 的 C
 
 ---
 
+## 功能总览
+
+- **每日双语日报**：10 个主题 × 中/英双语，隔离生成、失败隔离（一个主题出错不影响其余发布）。
+- **今日简报**：首页跨主题精选，当日各主题 highlights 汇成一屏。
+- **周报 `/weekly`**：从每日索引零成本机械合成的按周回顾（无额外模型调用）。
+- **跨主题事件 `/events`**：同一事件在不同主题日报中的多视角聚类（同日相似度 + 共享来源链接跨日串联）。
+- **全文搜索 `/search`**：Pagefind 静态索引，主题/语言/时间（月、季、年）筛选。
+- **链接健康**：每周体检全库约 1.7 万条外链，死链在阅读页自动提供 Wayback 存档兜底。
+- **RSS**：全站与每主题 feed（`/feed.xml`、`/news/[topic]/feed.xml`，中英各一套）。
+
+---
+
 ## 本地 vs 部署
 
 | 场景 | 行为 |
@@ -48,28 +60,26 @@ Swil-News 是一个本地优先的多主题日报阅读器。你用 Cursor 的 C
 │   ├── finance-news.md   # 金融股市
 │   ├── aitech-news.md    # AI 与科技
 │   └── …
-├── NEWS/                 # 日报产出（按主题分子目录，可提交 Git）
-│   ├── general/
-│   ├── finance/
-│   ├── ai-tech/
-│   ├── sports-health-nutrition/
-│   └── …
-├── scripts/              # 调用 Cursor CLI 的 Shell 脚本
-│   ├── run-all_news.sh   # 依次跑全部主题
-│   ├── run-general-news.sh
-│   ├── run-aitech-news.sh
-│   ├── run-sports-health-nutrition-news.sh
-│   └── …
-├── app/                   # Next.js App Router
-│   ├── page.tsx           # 首页：日期索引 + 今日摘要
-│   ├── runtime/           # 本地可用的「运行日报生成」页
+├── NEWS/                 # 日报产出（主题 × zh/en 双语子目录，可提交 Git）
+│   ├── general/{zh,en}/
+│   ├── finance/{zh,en}/
+│   ├── ai-tech/{zh,en}/
+│   └── …（共 10 个主题）
+├── scripts/              # 生成、校验、构建索引与运维脚本
+│   ├── daily-news-and-commit.sh  # 每日全流程：生成→校验→构建→提交推送→预热缓存
+│   ├── run_all_news.sh           # 并发跑全部主题（隔离失败、阈值发布）
+│   ├── validate-news-*.mjs       # 布局/内容校验（构建前置闸门）
+│   ├── build-{news-index,rollups,events,search-index}.mjs
+│   └── check-links.mjs           # 每周链接健康体检
+├── app/                   # Next.js App Router（/ 中文树 + /en 英文树）
+│   ├── page.tsx           # 首页：今日简报 + 日期索引
 │   ├── news/[topic]/[date]/  # 日报正文
-│   └── api/
-│       ├── news/          # 读 NEWS 的 API
-│       └── runtime/generate/  # 仅本地/受控环境可 POST 触发生成
-├── components/            # 首页、卡片、Runtime 链接（按环境显隐）等
-├── lib/                   # 读 md、解析、索引（news-client, news-meta）
+│   ├── weekly/ events/ search/ archive/  # 周报、事件、搜索、月归档
+│   ├── runtime/           # 本地可用的「运行日报生成」页
+│   └── api/               # 读 NEWS 的 API；runtime/generate 仅本地可触发
+├── components/  lib/      # UI 组件；索引读取、解析、事件/周报逻辑
 └── docs/
+    ├── roadmap.md         # 状态板：已交付 / 未完成 / 决策记录（权威）
     └── s-news.md          # 设计与架构说明（扩展与协作用）
 ```
 
@@ -79,7 +89,7 @@ Swil-News 是一个本地优先的多主题日报阅读器。你用 Cursor 的 C
 
 ### 环境要求
 
-- Node 18+
+- Node 22+（测试经 `--experimental-strip-types` 兼容 22.6+，推荐 22.18+）
 - 若需**生成**日报：已安装并登录 [Cursor CLI](https://cursor.com)（`agent` 在 PATH 中）
 
 ### 生成日报
@@ -96,7 +106,7 @@ Swil-News 是一个本地优先的多主题日报阅读器。你用 Cursor 的 C
 ./scripts/run_all_news.sh
 ```
 
-脚本会调用 `agent`，按 `.cursor/commands/*.md` 的流程做多轮搜索并写出 `NEWS/<topic>/YYYY-MM-DD_*.md`。可配合 cron/launchd 定时执行。
+脚本会调用 `agent`，按 `.cursor/commands/*.md` 的流程做多轮搜索并写出 `NEWS/<topic>/{zh,en}/YYYY-MM-DD_*.md`；产出立即经过严格校验，不合格的日报被隔离而不会破坏站点。日常全流程（生成→校验→构建→提交推送→缓存预热）由 `scripts/daily-news-and-commit.sh` 承担，可配合 cron/launchd 定时执行。
 
 ### 本地阅读与 Runtime
 
@@ -134,11 +144,13 @@ pnpm start     # 默认端口 3000；若需与 dev 一致可：pnpm start -- -p 
 
 ---
 
-## 后续可做
+## 后续方向
 
-- **全文检索**：在现有关键词搜索上加强，或加轻量索引。
-- **多脚本与定时**：补全各主题脚本及 `run_all_news.sh`，并写 cron/launchd 示例。
-- **周报/月报**：若新增对应 Command 与产出格式，在应用中加列表与正文路由。
+当前状态板与未完成事项见 **docs/roadmap.md**（权威）。摘要：
+
+- **事件跨日串联与叙事**（模型辅助，把机械聚类升级为跨天的事件时间线）。
+- **生成任务上云**：摆脱单机 launchd 依赖，笔记本合盖也不断更。
+- **移动端性能巡检**：桌面端已优化，移动端 Speed Insights 尚未复查。
 
 设计与规范细节见 **docs/s-news.md**。
 
