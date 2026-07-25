@@ -13,17 +13,27 @@
 #   - all ten topic pages (zh + en) — linked from every masthead
 #   - the current month's archive, /weekly, /events, the current week (zh + en)
 #
-# Why $WARM_DAYS is 45 and not 2: "newest" was the wrong model of this site's
-# traffic. Measured 2026-07-25, the most-visited pages were /news/finance/
-# 2026-06-17 (38 days old), /news/finance/2026-07-03, /news/supply-chain/
-# 2026-07-09 — readers arrive from Google onto a specific old story, not onto
-# today's issue. A 2-day window warmed almost none of what people actually
-# open. 45 issue-days (~8 weeks of calendar, since the run has gaps) covers
-# that whole measured range with margin: 924 URLs in 177s, all 2xx. 30 days
-# stopped at 2026-06-18 — one day short of the single most-visited page, which
-# is a good sign the window should not be trimmed to fit. If traffic later
-# shows up on older pages, raise WARM_DAYS; the whole archive is only ~2700
-# pages and warming all of it would take roughly nine minutes.
+# On $WARM_DAYS, and why it is small on purpose.
+#
+# "Newest" is the wrong model of this site's traffic: measured 2026-07-25, the
+# most-visited pages were /news/finance/2026-06-17 (38 days old),
+# /news/finance/2026-07-03, /news/supply-chain/2026-07-09 — readers arrive from
+# Google onto a specific old story, not onto today's issue. So a wide window was
+# tried: 45 issue-days, 924 URLs, 177s, all 2xx.
+#
+# It was reverted the same day. Two reasons, in order:
+#   - The benefit is unprovable from here. A warmup from one location populates
+#     one POP (this runs from a laptop, so pdx1). Without knowing where readers
+#     actually are, widening the window may help nobody.
+#   - The cost is certain. Against a baseline of ~96 edge requests per 5 minutes,
+#     924 requests in under 3 minutes reads as a 9.85x anomaly — Vercel alerted
+#     on it. Daily. An alert that fires every day is an alert you stop reading,
+#     which is the same failure this script itself was fixed for on 2026-07-24.
+#
+# Trading a certain noise for an unprovable gain is a bad trade. The targeted
+# version of this idea — warm the Top-N pages Vercel Analytics actually reports
+# — is the right one, and it needs an API token rather than a bigger number.
+# Until then this covers the nav-reachable set only. WARM_DAYS raises it.
 #
 # Scope/limits, both real:
 #   - a warmup from a single location only populates the POP(s) that serve
@@ -58,7 +68,7 @@ if [[ -z "$BASE_URL" ]]; then
   exit 0
 fi
 
-WARM_DAYS="${WARM_DAYS:-45}"
+WARM_DAYS="${WARM_DAYS:-3}"
 WARM_CONCURRENCY="${WARM_CONCURRENCY:-12}"
 WARM_USER_AGENT="${WARM_USER_AGENT:-swil-news-warmup/1 (+https://news.supwil.com)}"
 
@@ -131,9 +141,9 @@ warm_one "/en"
 
 if [[ -n "$HOT_PATHS" ]]; then
   # Failures are already swallowed by warm_one, so xargs never returns non-zero.
-  # Nothing is echoed per URL: at 45 days this is ~900 requests, and 900 lines
-  # of "200 /news/…" in logs/daily-news.log buries every other step of the job.
-  # The tally below, plus the full list of failures, is what is worth reading.
+  # Nothing is echoed per URL: the tally below, plus the full list of failures,
+  # is what is worth reading, and a per-URL log buries every other step of the
+  # job as soon as WARM_DAYS is raised.
   echo "$HOT_PATHS" | grep -v '^$' | xargs -P "$WARM_CONCURRENCY" -I{} bash -c 'warm_one "$@"' _ {}
 fi
 
