@@ -1,0 +1,51 @@
+# Cloud twin of .githooks/pre-push: validate:news (layout + content) + lint + test.
+#
+# Why this exists when the local hook runs the same command: the hook validates
+# the *working tree*, not the commit being pushed. With work in progress on disk
+# — the normal state of this repo — it reports on files that are not in the
+# push. On 2026-07-24 it reported 77 passing tests while the pushed tree held
+# 71; six of them lived in a file that was never committed. This job is the only
+# thing that tests what actually deploys. It also covers `git push --no-verify`,
+# pushes from a machine without the hook installed, and future contributors.
+#
+# Why only the gate and not `next build`: Vercel builds every push anyway, and a
+# broken build fails the deploy — the live site keeps serving the previous
+# version. Duplicating the build here would double the wall time for no extra
+# protection. What Vercel does NOT run is lint and the test suite; this does.
+#
+# Why `paths-ignore: NEWS/**`: the daily content push touches nothing else —
+# daily-news-and-commit.sh commits with a NEWS/ pathspec, so that is a guarantee
+# rather than a habit — and that content clears validate:news three times before
+# it is ever served: in `pnpm build` before the commit, in the pre-push hook, and
+# again in Vercel's prebuild. Running this on it would spend ten minutes of CI a
+# day re-checking the same files. Pushes that touch code still run.
+name: gate
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "NEWS/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4 # reads pnpm version from package.json "packageManager"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm prepush
