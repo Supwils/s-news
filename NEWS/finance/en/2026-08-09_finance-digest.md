@@ -1,171 +1,185 @@
 # Aug 9, 2026 · Finance & Markets Daily Digest
 
-> Digested on August 9, 2026: major indices, tech and sector leaders, earnings and fundamentals, market sentiment and institutional flows — with summaries, links, and commentary.
+> Digested on August 9, 2026: major indexes, tech and sector leaders, earnings and fundamentals, market sentiment and institutional flows — with summaries, links, and commentary.
 
 ---
 
-## I. Indices & Broad Market
+## I. Indexes & Market Overview
 
-### 1. Weekend pause after a record week: S&P closes 7,757.64; CPI week ahead (Indices)
-**Summary:** Sunday, August 9, U.S. cash equities are closed. At the latest close (Friday, August 7), the S&P 500 rose about 0.6% to a record 7,757.64; the Nasdaq Composite gained about 1.3% to 26,690.62; the Dow added about 0.3% to 54,036.93; the Russell 2000 rose about 1.1%. For the week, the S&P gained about 3.6%, the Nasdaq about 5.2%, and the Dow about 3.0% — the strongest stretch since mid-April. The catalyst was July payrolls falling 23,000 versus ~80,000 expected, with May–June revised down by a combined ~103,000. Attention now shifts to August 12 CPI plus PPI and retail sales later in the week.
+### 1. Weekend pause after a strong week: S&P closes at 7,757.64 record as soft jobs cool hike bets (Indexes)
+**Summary:** August 9 is a Sunday and U.S. cash equities are closed. In the latest session (Friday, August 7), the S&P 500 rose 47.68 points (~0.6%) to 7,757.64, a record close; the Nasdaq Composite gained 342.26 points (~1.3%) to 26,690.62; the Dow rose 151.83 points (~0.3%) to 54,036.93. For the week, the S&P advanced about 3.58%, the Nasdaq about 5.19%, and the Dow about 2.96% — among the strongest weeks in months. The catalyst was July nonfarm payrolls unexpectedly falling by 23,000 (Reuters consensus had expected roughly +80,000), with May–June levels revised down by a combined ~103,000; the unemployment rate eased to 4.1% as workers left the labor force. Attention now shifts to August 12 CPI and AI-chain earnings this week.
 
 **Links:**
 
-- [TS2 — US Stocks Brace for CPI After Jobs Data](https://ts2.tech/en/us-stocks-brace-for-cpi-after-jobs-data-as-markets-eye-rally-highs/)
-- [DNYUZ / AP — U.S. stocks jump as employers cut 23,000 jobs](https://dnyuz.com/2026/08/08/u-s-stocks-jump-as-employers-unexpectedly-cut-23000-jobs-raising-hopes-that-rate-hikes-can-wait/)
+- [Yahoo Finance / AP — U.S. stocks jump as employers cut 23,000 jobs](https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-us-stocks-062902244.html)
+- [MarketScreener / Reuters — S&P closes at record high as soft jobs report eases rate-hike concerns](https://www.marketscreener.com/news/s-p-closes-at-record-high-as-soft-jobs-report-eases-rate-hike-concerns-ce7f50d3d980fe2c)
 
-**Commentary:** “Weak jobs → lower hike odds” is already in the weekly tape; whether record highs hold hinges on whether Wednesday’s CPI validates a soft-landing mix of cooler inflation and softer labor.
+**Commentary:** The “weak jobs → lower hike premium” trade is already in the weekly tape; holding the record high still hinges on Wednesday’s CPI confirming a soft-landing mix of cooler inflation and cooler labor.
 
 ---
 
-### 2. Micro stronger than macro: ~85% S&P beats; AI-infrastructure earnings week next (Indices / Earnings)
-**Summary:** Weekend wrap-ups note that about 85.1% of reporting S&P 500 companies beat estimates versus a long-term average near 68%; FactSet-style blended Q2 profit growth is still estimated near the ~50% area including hyperscaler contributions. Next week’s AI-infrastructure gauges include CoreWeave (Aug. 11), Cisco (Aug. 12), and Applied Materials (Aug. 13). Friday’s single-stock dispersion was extreme: Airbnb jumped about 17%, Atlassian about 35%, while Trade Desk fell about 22%.
+### 2. Earnings catch up with prices: ~86% beats and ~50.4% profit growth ease valuation fears (Indexes / Earnings)
+**Summary:** Weekend reviews note that about 86% of reporting S&P 500 companies beat estimates (vs. a long-run average near 78%), with aggregate profits up roughly 50.4% year over year. Because earnings rose faster than prices, forward P/E compressed, partially easing “too expensive” concerns. Analysts also warn that repeated upward revisions to Q3 expectations are statistically rare, while questions linger about AI capex accounting quality and still-elevated long-term gauges such as CAPE. The week ahead features CoreWeave (Aug 11), Cisco and CPI (Aug 12), and Applied Materials (Aug 13).
 
 **Links:**
 
-- [TS2 — Earnings breadth and week-ahead calendar](https://ts2.tech/en/us-stocks-brace-for-cpi-after-jobs-data-as-markets-eye-rally-highs/)
+- [Whalesbook — US Stocks Hit New Highs as Strong Earnings Ease Valuation Fears](https://www.whalesbook.com/news/English/economy/US-Stocks-Hit-New-Highs-as-Strong-Earnings-Ease-Valuation-Fears/6a78592073b576501a064f12)
+- [Kalkine — Week Ahead Aug 10–14: CPI, Applied Materials, Cisco, CoreWeave](https://kalkine.com/news/premium/week-ahead-august-10-to-14-cpi-inflation-to-seal-the-feds-september-call-as-applied-materials-cisco-and-coreweave-earnings-roll-in)
 
-**Commentary:** Record indexes are being underwritten by earnings, not mood alone; if AI-chain guidance turns cautious, stock-level de-ratings may arrive before a broad index drawdown.
+**Commentary:** Record highs are being underwritten by profit growth that rebuts recession fears — if AI-chain guidance turns cautious, single-name de-rating can hit before the index does.
 
 ---
 
 ## II. Tech & Mega-Caps
 
-### 3. AI trade rotation: SOXX double-digit pullback over ~7 weeks as software ETFs attract flows (Tech)
-**Summary:** Weekend analysis notes the iShares Semiconductor ETF (SOXX) is still up roughly 80% year to date but has fallen by a double-digit percentage over the past seven weeks, while the iShares Expanded Tech-Software ETF (IGV) rose by a double-digit percentage over the same stretch, with large weights in names such as Palo Alto Networks, Microsoft, and Palantir. Explanations include a shift from “picks and shovels” toward AI monetizers, plus rich chip valuations (e.g., Intel near ~79× forward earnings) versus SaaS names sold hard earlier in a “SaaSpocalypse.” Nvidia still rose about 2.27% Friday to roughly $223.96, showing leaders did not fully share the sector’s pain.
+### 3. AI trade rotation: SOXX gives back double digits in seven weeks as money favors software ETFs (Tech)
+**Summary:** The iShares Semiconductor ETF (SOXX) is still up about 80% year to date but has fallen by a double-digit percentage over the past seven weeks, while the iShares Expanded Tech-Software ETF (IGV) has posted double-digit gains, with heavier exposure to names such as Palo Alto, Microsoft, and Palantir. Narratives include a shift from “picks and shovels” to AI application monetizers, plus rich chip valuations (e.g., Intel near ~79x forward earnings). The Philadelphia Semiconductor Index remains more than ~17% below its late-June high. Nvidia still rose about 2.27% Friday to roughly $223.96, showing leaders are not bleeding in lockstep with the group.
 
 **Links:**
 
 - [Motley Fool — The AI Trade Rotation: chips to software](https://www.fool.com/investing/2026/08/08/the-ai-trade-rotation-money-is-moving-out-of-chips/)
 - [Exa Markets — NVDA Aug 7, 2026](https://exa.ai/library/markets/stock/NVDA)
 
-**Commentary:** Rotation is rebalancing crowded hardware books, not ending the AI narrative; the bull case owns both sides, the bear case warns software rebounds that are only valuation-driven remain fragile.
+**Commentary:** Rotation is not the end of the AI story — it is a rebalance of crowded hardware risk. Bull case: own both sides; bear case: software snaps back on valuation alone without order proof.
 
 ---
 
-### 4. Airbnb surges ~14%–17% to a four-year high: raises full-year revenue outlook; CEO calls AI “the best thing” (Tech / Consumer)
-**Summary:** Airbnb (ABNB) reported Q2 after Thursday’s close: revenue about $3.61 billion (~+17% YoY), EPS about $1.37, net income about $816 million; Adjusted EBITDA rose ~21% YoY to about $1.3 billion with ~35% margin. Management raised full-year revenue growth to “at least mid teens” (from low- to mid-teens) and Adjusted EBITDA margin to at least 35.5%. Shares jumped roughly 14%–17% Friday to a more-than-four-year high; Wedbush upgraded to Outperform with a $200 target.
+### 4. Magnificent Seven fracture: most lag the S&P, forcing a choice between negative FCF and rich multiples (Tech)
+**Summary:** Reviews through about July 30 show only Apple (~+23% YTD) beating the S&P 500 among the Mag 7, while Meta and Tesla were down roughly 18% and 31%. Alphabet, Amazon, Meta, and Microsoft guided 2026 capex in bands around $195–205B, $220B, $130–145B, and $175B, respectively — leaving heavy spenders with FCF pressure — while Apple and Tesla kept capex restrained and FCF positive but traded at eye-watering forward multiples (Apple above ~34x at points). Near Friday’s close: Apple ~$313.33, Microsoft ~$499.99, Alphabet A ~$354.30, Nvidia ~$223.96.
 
 **Links:**
 
-- [Airbnb Newsroom — Q2 2026 financial results](https://news.airbnb.com/airbnb-q2-2026-financial-results/)
-- [BNN Bloomberg — Airbnb hits four-year high as forecast raised](https://www.bnnbloomberg.ca/business/company-news/2026/08/07/airbnb-hits-four-year-high-as-investors-cheer-revenue-forecast-raise-ai-payoff/)
+- [Motley Fool — Magnificent Seven: Negative FCF or Unjustifiable Valuation](https://www.fool.com/investing/2026/08/03/magnificent-7-pick-poison-negative-fcf-or-valuatio/)
+- [Motley Fool — Why the Magnificent Seven Trade Is Starting to Fracture](https://www.fool.com/investing/2026/08/04/why-the-magnificent-seven-trade-is-starting-to-fra/)
 
-**Commentary:** This is a dual premium of guidance raise plus AI-efficiency storytelling; a Hormuz-driven oil spike that hits travel demand could quickly unwind the short-term re-rating.
+**Commentary:** Mega-caps no longer move as one; portfolios must pick cash-flow and monetization paths rather than “buy the basket,” or index highs can still mask deep single-name drawdowns.
 
 ---
 
 ## III. Earnings & Fundamentals
 
-### 5. Wendy’s soft Q2 and withdrawn 2026 outlook: U.S. same-store sales ~-7% as new leadership reviews turnaround (Earnings)
-**Summary:** Wendy’s (WEN) on August 7 reported the quarter ended June 28: global systemwide sales down about 6.5%, U.S. same-restaurant sales down about 7.0%; net income about $32.6 million and adjusted EBITDA about $124.1 million; diluted EPS $0.17 / adjusted $0.18. The company withdrew its 2026 financial outlook, saying new leadership will assess opportunities and form a turnaround and capital plan, while declaring a $0.07 quarterly dividend.
+### 5. Airbnb raises full-year revenue outlook: ~$3.61B sales, shares jump as much as ~14% (Earnings)
+**Summary:** Airbnb (ABNB) reported Q2 after the close on August 6: revenue about $3.61B (~+17% YoY, above estimates), EPS about $1.37, and net income about $816M; nights and seats booked rose ~10% to ~148.3M. Full-year revenue growth was raised to “at least mid teens” (from low- to mid-teens), with full-year adjusted EBITDA margin guided to at least 35.5%; Q3 revenue was guided to $4.69–$4.77B. On Friday the stock jumped as much as ~14% to about $173.34, its biggest intraday gain in roughly 16 months. Wedbush upgraded the stock to Outperform from Neutral and lifted its target to $200 from $152.
+
+**Links:**
+
+- [Airbnb Newsroom — Q2 2026 financial results](https://news.airbnb.com/airbnb-q2-2026-financial-results/)
+- [Financial Post — Airbnb jumps after raising 2026 revenue outlook](https://financialpost.com/news/retail-marketing/e-commerce-solutions/airbnb-jumps-after-raising-revenue-outlook)
+
+**Commentary:** This is a double premium of raised guidance plus product momentum — a Hormuz-driven oil spike that hits travel demand could quickly unwind the short-term premium.
+
+---
+
+### 6. Wendy’s withdraws 2026 outlook: U.S. same-store sales ~-7% as new leadership resets (Earnings)
+**Summary:** Wendy’s (WEN) on August 7 reported the quarter ended June 28: global systemwide sales down about 6.5%, U.S. same-restaurant sales down about 7.0%; net income about $32.6M and adjusted EBITDA about $124.1M; reported EPS $0.17 and adjusted EPS $0.18. The company withdrew its 2026 financial outlook, saying new leadership will fully assess the business and craft a turnaround and capital plan.
 
 **Links:**
 
 - [Wendy’s IR — Reports Second Quarter 2026 Results](https://www.irwendys.com/news/news-details/2026/THE-WENDYS-COMPANY-REPORTS-SECOND-QUARTER-2026-RESULTS/default.aspx)
 
-**Commentary:** A sharp contrast with Airbnb’s demand resilience — under a K-shaped consumer, casual dining is showing stress earlier; withdrawing guidance is itself a bearish catalyst.
+**Commentary:** A stark contrast with Airbnb’s demand resilience — under a two-speed consumer, discretionary restaurants are showing traffic stress earlier than short-stay platforms; withdrawing guidance is itself a bearish catalyst.
 
 ---
 
-### 6. Vistra Q2: Ongoing Ops Adjusted EBITDA ~$1.77B, up sharply on realized power prices and capacity (Earnings / Energy)
-**Summary:** Power producer Vistra (VST) reported Q2 on August 7: net income about $305 million; Ongoing Operations Adjusted EBITDA about $1,767 million versus about $1,349 million a year earlier, driven mainly by higher realized energy and capacity prices plus a full quarter from Lotus-acquired plants. Full-year Ongoing Operations Adjusted EBITDA guidance was framed in a roughly $6.8–$7.6 billion range.
+### 7. Vistra Q2: ongoing operations adjusted EBITDA ~$1.77B, sharply higher YoY (Earnings / Energy)
+**Summary:** Power producer Vistra (VST) on August 7 reported net income of about $305M and ongoing operations adjusted EBITDA of about $1.767B, up roughly $418M from about $1.349B a year earlier, driven by higher realized energy and capacity prices plus a full-quarter contribution from Lotus-acquired plants. The company reaffirmed 2026 ongoing operations adjusted EBITDA guidance of about $6.8–$7.6B.
 
 **Links:**
 
 - [PR Newswire — Vistra Reports Second Quarter 2026 Results](https://www.prnewswire.com/news-releases/vistra-reports-second-quarter-2026-results-302845874.html)
 
-**Commentary:** Independent power is a parallel “picks and shovels” expression of AI data-center load growth; watch spot-power mean-reversion and capacity-market policy risk.
+**Commentary:** Independent power is a parallel “picks and shovels” expression of AI data-center load growth — watch spot power mean-reversion and capacity-market regulation risk.
+
+---
+
+### 8. Berkshire Q2: operating earnings ~$12.98B as Abel accelerates buybacks and turns net equity buyer (Earnings / Institutions)
+**Summary:** Berkshire Hathaway on Saturday, August 8 reported Q2 operating earnings of about $12.983B, up ~16% YoY, and net earnings attributable to shareholders of about $25.667B. The firm repurchased about $4.5B of its own stock in the quarter (vs. ~$235M in Q1), cash and equivalents fell from a record toward roughly $365.5B, and Berkshire became a net buyer of equities (~$20B net purchases) after about 14 straight quarters as a net seller. Strength in energy, rail, and manufacturing/services offset softer insurance underwriting.
+
+**Links:**
+
+- [CNBC — Berkshire Hathaway earnings Q2 2026](https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html)
+- [Berkshire / Stockwatch — Q2 2026 operating results](https://www.stockwatch.com/News/Item/U-b20260808394021-U!BRK-20260808/U/BRK)
+
+**Commentary:** Abel-era capital allocation matters more than one quarter’s profit print — a sustained shift from cash hoarding to deployment would support a multi-quarter bid narrative under mega-caps.
 
 ---
 
 ## IV. Sectors & Industries
 
-### 7. Hormuz weekend flare-up: Brent ~$83.55 Friday; UAE vessel attack stories revive supply premium (Energy)
-**Summary:** Crude had fallen more than ~8%–9% on the week on hopes of U.S.–Iran de-escalation, but Brent rebounded about 1.3% Friday to roughly $83.55 a barrel. Weekend headlines included Iranian comments that an Oman deal alone would not reopen Hormuz, plus reports of a missile attack involving a UAE-linked vessel — reopening geopolitical risk premiums. Trading notes flag potential Monday repricing in energy and shipping names.
+### 9. Hormuz uncertainty props oil: Brent ~$83.55 Friday even as the weekly tape still falls >7% (Energy)
+**Summary:** Friday Brent settled up more than 1% near $83.55/bbl and WTI near $78.18/bbl, though crude was still down more than ~7% for the week. Traders focused on Strait of Hormuz navigation arrangements: hopes for a full reopening faded after Iranian draft language suggested possible restrictions on U.S. and Israeli vessels. Upstream and refining prints in the same window remained strong (e.g., ConocoPhillips adjusted EPS about $3.24; Marathon Petroleum adjusted EBITDA about $8.5B), stacking fundamentals atop geopolitical premium.
 
 **Links:**
 
-- [TS2 — Oil and Hormuz risk into CPI week](https://ts2.tech/en/us-stocks-brace-for-cpi-after-jobs-data-as-markets-eye-rally-highs/)
-- [AMOverview — Oil rebound as jobs ease Fed fears, Iran talks stall](https://www.amoverview.com/oil-prices-rebound-as-weak-us-jobs-data-eases-fed-fears-and-iran-peace-talks-stall/)
+- [CNBC — Oil prices rise as market waits on Hormuz deal](https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html)
+- [ConocoPhillips — Second-quarter 2026 results](https://www.conocophillips.com/news-media/story/conocophillips-announces-second-quarter-2026-results-and-quarterly-dividend/)
 
-**Commentary:** A two-edged risk for equities: another oil spike threatens both the cool-CPI narrative and consumer margins; a real diplomatic breakthrough could unwind energy premium and inflation fears together.
-
----
-
-### 8. Gold’s ~7% weekly surge to ~$4,330–$4,340: soft jobs and softer dollar drive best week in ~8 months (Commodities)
-**Summary:** Spot gold rose about 2.3% Friday to roughly $4,336 an ounce and gained more than ~7% on the week — the strongest weekly performance since mid-January — after touching highs not seen since about June 17. Drivers included the weak payrolls print, lower Treasury yields and a softer dollar, plus the weekly oil slide easing rate-hike anxiety. Gold had corrected sharply from January peaks near ~$5,500 before this rebound.
-
-**Links:**
-
-- [Economic Times — Gold prices jump 7% best weekly gain in 8 months](https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-jump-7-to-log-best-weekly-gain-in-8-months-start-of-another-yellow-metal-bull-run/articleshow/133046536.cms)
-- [IndexBox — Gold and silver surge on soft payrolls](https://www.indexbox.io/blog/gold-silver-rally-after-weak-july-jobs-report-fed-rate-hike-odds-diminish/)
-
-**Commentary:** Gold is tightly priced to a “no September hike” path; a hot CPI that revives hike odds can reverse the weekly strength quickly.
+**Commentary:** A double-edged sword for equities: another oil spike threatens the “cooler CPI” and consumer-margin thesis; a diplomatic breakthrough could cool both inflation expectations and energy beta together.
 
 ---
 
 ## V. Central Banks & Macro
 
-### 9. September hike odds tumble: Kalshi ~65% hold, CME FedWatch ~60%; CPI on Aug. 12 is the decider (Fed)
-**Summary:** After the jobs miss, Kalshi implied about a 65% chance the Fed holds in September; CME FedWatch showed roughly 60% odds of a hold (about 45% the prior day). The 10-year yield eased toward about 4.64%, with the 2-year also lower. Even so, FedWatch still priced roughly 55% odds of a hike by October and nearly 75% by December — a delay, not a cancellation. Morgan Stanley Wealth Management’s Ellen Zentner said soft payrolls may ease September pressure, but next week’s inflation data will likely decide.
+### 10. September hike odds retreat: 10-year yield near 4.64% as markets lock onto Aug 12 CPI (Fed / Macro)
+**Summary:** After the jobs miss, the 10-year Treasury yield eased from about 4.67% toward ~4.64%, the 2-year also fell, and the dollar weakened. Weekend commentary describes a clear drop in September hike odds from elevated levels, even as October and December still retain meaningful hike pricing — a “near-term dovish, far-end still hawkish” curve. In China, the 10-year government bond yield again broke below the 1.70% handle to about 1.6985% on Friday amid still-ample liquidity despite net OMO drains — a diverging U.S.–China rate path.
 
 **Links:**
 
-- [CNBC — Odds the Fed hikes in September tumble](https://www.cnbc.com/2026/08/07/odds-the-fed-hikes-in-september-tumble-following-big-july-jobs-miss.html)
-- [Market Daily — Treasuries rally after July jobs report](https://marketdaily.com/treasury-yields-fall-jobs-report/)
+- [Yahoo Finance / AP — Jobs miss lifts stocks, pulls down Treasury yields](https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-us-stocks-062902244.html)
+- [Sina Finance — Zheshang Bank FICC rates daily: equities and bonds both firm](https://finance.sina.com.cn/roll/2026-08-08/doc-inimqccx9875950.shtml)
 
-**Commentary:** Pricing is “near-term dovish, later-hawkish”; the growth-stock risk is a hot CPI that instantly re-tightens long-duration discount rates.
-
----
-
-### 10. PBOC extends gold streak to a 21st month: reserves 76.08M oz at end-July, +640k oz MoM (Central banks)
-**Summary:** People’s Bank of China data show gold reserves at 76.08 million ounces at end-July 2026, up 640,000 ounces from 75.44 million at end-June — the 21st consecutive monthly increase. Coverage notes a “buy-the-dip” cadence: monthly additions accelerated from about 160k oz in March toward 640k oz in July as prices corrected from highs. Global official buying remains a theme, with South Korea also signaling a framework to resume physical gold purchases.
-
-**Links:**
-
-- [JRJ — PBOC gold purchases for a 21st straight month](https://stock.jrj.com.cn/2026/08/09141258052512.shtml)
-
-**Commentary:** Official buying cushions the medium-term floor, but near-term gold still trades the Fed path; the “buy more on dips” pattern is strategic allocation, not momentum chasing.
+**Commentary:** The growth-stock risk is a hot CPI reprint that instantly lifts long-duration discount rates; China bond strength still leans more on domestic liquidity and allocation demand.
 
 ---
 
 ## VI. Institutions & Positioning
 
-### 11. Flows: Ark adds Nvidia and TSMC; northbound estimates ~RMB 14.7B net inflow for Aug. 3–7 (Institutions)
-**Summary:** Weekend reviews note Cathie Wood’s Ark bought roughly $15 million of Nvidia and about $14.7 million of TSMC across funds around Meta’s earnings window, extending an AI-infrastructure thesis from GPUs into foundry. On China equities, Guosen Securities estimates northbound net inflows of about RMB 14.7 billion for Aug. 3–7, with flexible foreign capital about RMB 11.9 billion; active names included Zhongji Innolight, Eoptolink, and CATL. Hong Kong saw elevated stable foreign inflows into banks and hardware.
+### 11. Citadel takes Situational Awareness’s public book: leveraged AI unwind sparks a relief bounce (Institutions)
+**Summary:** Weekend follow-through still centers on AI hedge fund Situational Awareness selling roughly $16B of leveraged public equities to Citadel at about a 10% discount after July’s sharp drawdown; Millennium and others also bid. Citadel’s flagship Wellington fund finished July up about 5.9%, with tactical trading and equities funds also posting double-digit monthly gains tied in part to the deal. After forced-sale risk lifted, related names such as CoreWeave and SK hynix saw large multi-session relief rallies.
 
 **Links:**
 
-- [Motley Fool — Ark piled into Nvidia and TSMC](https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/)
-- [Hibor / Guosen — Global foreign-flow weekly, first week of August](http://p.hibor.org/data/d3286701ea56aaf70ee1613a0e881acd.html)
+- [The Daily Upside — Citadel’s flagship gains after buying Situational’s distressed book](https://www.thedailyupside.com/finance/hedge-funds/citadels-flagship-fund-posts-best-month-in-years-after-buying-ai-hedge-funds-distressed-book/)
+- [WSJ archive — Citadel Buys Situational Awareness’s Stock Portfolio](https://archive.ph/AiGnQ)
 
-**Commentary:** Active money is still buying AI infrastructure on dips; if CPI week volatility spikes, both U.S. active and northbound books may raise turnover rather than add one-way risk.
+**Commentary:** A textbook crowded-leverage unwind: removing a forced seller can ignite a bounce without proving a fundamental trough — next watch prime-broker risk controls and whether active money dare re-lever.
+
+---
+
+### 12. Northbound estimated inflow ~RMB 147B for the week; Galaxy sees A-shares entering a “verify reality” phase (Institutions / A-shares)
+**Summary:** Guosen Securities estimates northbound net inflows of about RMB 147B over August 3–7 (vs. ~RMB 41B outflow the prior week), with flexible foreign money about +RMB 119B; active Stock Connect names included Zhongji Innolight, Eoptolink, and CATL. In Hong Kong, stable foreign inflows were about HKD 184B for the measured week. Galaxy Securities on August 9 argued August A-shares are shifting from “expectation games” to “reality checks” around interim results, policy detail delivery, and the Fed path, favoring a balance of tech cyclicality and defensive core holdings.
+
+**Links:**
+
+- [Hibor / Guosen — Global foreign-flow weekly, first week of August](http://p.hibor.org/data/d3286701ea56aaf70ee1613a0e881acd.html)
+- [Yicai — Galaxy Securities: A-shares moving from expectations to verification](https://www.yicai.com/news/103310940.html)
+
+**Commentary:** Foreign re-entry into the interim-results window favors earnings-backed growth over pure themes; a volatile U.S. CPI week can still amplify same-day northbound turnover.
 
 ---
 
 ## VII. Sentiment & Technicals
 
-### 12. VIX near 14.85: record highs meet low vol — calm that can amplify surprises (Sentiment)
-**Summary:** The VIX finished Friday near about 14.85, a historically low reading that signals light demand for downside hedges and a complacent tape. Technical notes place the S&P roughly 3.5% above its 50-day and about 9.8% above its 200-day — elevated but not extreme — while cheap index implied vol coexists with violent single-stock dispersion. Some strategies flag a VIX close above 16 as an early warning of deteriorating sentiment.
+### 13. Low vol beside record highs: VIX near ~15 flags calm — and fragility (Sentiment)
+**Summary:** Friday quotes put the Cboe Volatility Index near the mid-teens with a slight decline, a historically subdued zone that implies light demand for hedges. At the same time, semiconductors remain well below late-June highs and single-name dispersion is high (Airbnb surging while discretionary restaurants weaken) — calm indexes, violent internals. This week’s CPI plus AI hardware/networking prints will test whether implied vol is too low.
 
 **Links:**
 
-- [Historical Option Data — Market Analysis 08/07/2026](https://historicaloptiondata.com/market-analysis-08-07-2026-0354-pm-et/)
-- [Yardeni QuickTakes — US MARKET CALL: History Lesson](https://www.yardeniquicktakes.com/us-market-call-history-lesson/)
+- [Sunday Guardian — Why is US Stock Market Up: indexes and VIX table](https://sundayguardianlive.com/business/why-is-us-stock-market-up-today-sp-500-climbs-066-nasdaq-jumps-127-as-fed-rate-hike-expectations-ease-tech-shares-rally-amid-middle-east-tensions-what-investors-should-watch-255957/amp/)
+- [Kalkine — CPI week as next test for rally](https://kalkine.com/news/premium/week-ahead-august-10-to-14-cpi-inflation-to-seal-the-feds-september-call-as-applied-materials-cisco-and-coreweave-earnings-roll-in)
 
-**Commentary:** Low VIX at highs is the bulls’ comfort zone and the macro-surprise amplifier; positioning favors hedged holds over unhedged chase.
+**Commentary:** Low VIX at highs is a bullish comfort zone and a macro-surprise amplifier — prefer hedged holds over unhedged chase.
 
 ---
 
 ## Today's Summary
 
-- U.S. cash markets are closed Sunday; the pricing anchor remains Friday’s records and the “weak jobs → cooler September hike odds” trade, with the week’s focus shifting to CPI/PPI/retail and CoreWeave, Cisco, and Applied Materials.
-- Inside tech, crowded semis have rotated toward software/apps; Airbnb’s beat-and-raise is the consumer-tech template, while Wendy’s withdrawn outlook shows uneven demand.
-- Hormuz weekend headlines can re-inflate oil’s inflation tail risk; gold’s ~7% weekly surge and the PBOC’s 21st month of gold buying reinforce dual pricing of rates and geopolitics.
-- **Opportunities & risks:** Upside in AI software relative-value, power/AI-infra crossovers, and a benign CPI that extends long-duration leadership; downside from a hot CPI, Hormuz oil shocks, and crowded de-risking under a low-VIX regime.
+- Weekend cash markets are closed; the pricing anchor remains Friday’s record close and the “soft jobs → cooler September hike odds” trade, with the week ahead pivoting to CPI plus CoreWeave, Cisco, and Applied Materials.
+- Inside tech, crowded semis are rotating toward software/apps; Airbnb’s raise is the consumer-tech template, while Wendy’s outlook withdrawal shows demand is uneven.
+- Berkshire turning net buyer and Citadel absorbing a leveraged AI book point to post-deleveraging reallocation; Hormuz oil risk can still lift the inflation tail.
+- **Opportunities & risks:** Upside in AI software relative-value repair, power/AI-infra cross-plays, and a soft CPI extending long-duration growth; risks include a hot CPI restarting hike fears, Hormuz oil spikes, and crowded unwind under low VIX.
 
-**Daily Framing:** Today was a “record-high CPI-eve observation day” in the finance news cycle — markets digesting the soft-jobs dividend over the weekend while bracing for Wednesday inflation and geopolitically sensitive oil at the Monday open.
+**Daily Framing:** Today was a “pre-CPI watch day after record highs” in the finance news cycle — markets digest the soft-jobs dividend over the weekend while bracing for Wednesday inflation and geopolitically bid oil at the reopen.
 
 ---
 

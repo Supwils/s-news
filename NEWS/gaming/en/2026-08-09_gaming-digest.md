@@ -4,186 +4,174 @@
 
 ---
 
-## I. Big Tech & Platforms
+## I. Big-Studio Marketing & M&A
 
-### 1. Microsoft bosses reportedly push for no “red line” on Xbox titles to PlayStation / Nintendo (Platforms)
+### 1. GTA VI “Extended Look” Locked to Netflix: Six-Hour Exclusive Window Dominates the Conversation (Streaming)
 
-**Summary:** Eurogamer, citing Windows Central, reports that Microsoft’s internal multiplatform push—codenamed “Latitude”—continues to stir debate: senior leaders are said to want no hard “red line” on which Xbox first-party games eventually ship on PlayStation and Nintendo, aiming to lift margins. Publicly, Xbox has framed early tests around multiplayer-friendly titles such as Sea of Thieves and Grounded, plus smaller games like Hi-Fi Rush and Pentiment that had largely finished their Xbox audience run. Eurogamer says larger franchise titles are also under consideration, against a backdrop of soft hardware sales, layoffs, and post–Activision Blizzard profit rebalancing.
+**Summary:** Rockstar / Take-Two confirmed that *Grand Theft Auto VI: An Extended Look* premieres on Netflix on August 27 at 3 p.m. ET, then hits Rockstar’s YouTube channel and official site six hours later at 9 p.m. ET. CEO Strauss Zelnick called it a first-of-its-kind Netflix marketing partnership and part of Rockstar’s campaign strategy. Insider Tom Henderson estimated Netflix may have paid near the $100 million range for the short exclusive window (not an official disclosure). The game remains scheduled for November 19 on PS5 and Xbox Series X/S.
 
 **Links:**
 
-- [Eurogamer — Microsoft bosses pushing for no red line on Xbox to PlayStation](https://www.eurogamer.net/microsoft-bosses-reportedly-pushing-for-no-red-line-around-which-xbox-games-launch-on-playstation)
-- [Arcader — Eurogamer roundup of Latitude debate](https://arcader.org/news/microsoft-bosses-reportedly-pushing-for-no-red-line-around-which-xbox-games-launch-on-playstation/)
+- [Variety — Grand Theft Auto VI Netflix partnership](https://variety.com/2026/gaming/news/grand-theft-auto-vi-netflix-partnership-1236830098/)
+- [The FPS Review — Six-hour Netflix exclusive window Aug 27](https://www.thefpsreview.com/2026/08/08/the-first-gta-6-gameplay-footage-is-a-netflix-exclusive-for-six-hours-on-august-27/)
 
-**Commentary:** When exclusivity becomes a negotiable cost line, Xbox’s identity crisis stops being a culture war and starts being a spreadsheet.
+**Commentary:** Trailers are becoming paywalled cultural premieres—AAA scheduling now runs on streaming release logic.
 
 ---
 
-### 2. Marvel Tōkon: Fighting Souls lands Mixed on Steam over performance, PSN, and anti-cheat (Launch)
+### 2. Saudi PIF-Led Consortium Completes EA Buyout: ~$55 Billion Take-Private Closes (M&A)
 
-**Summary:** Arc System Works’ 4v4 Marvel fighter, co-published with PlayStation Studios, launched Aug 6 on PS5 and PC. By the weekend, Steam user reviews remained Mixed, with multiple outlets citing roughly 43%–44% positive. Complaints cluster around PC stuttering/frame drops, mandatory PlayStation Network linking, and kernel-level Easy Anti-Cheat blocking Linux / Steam Deck; some PS5 players were advised to disable cross-play so opponents’ frame drops do not wreck rollback. The studio publicly said it is investigating PC performance reports.
+**Summary:** Electronic Arts said a consortium of Saudi Arabia’s Public Investment Fund (PIF), Silver Lake, and Affinity Partners completed its acquisition on August 4 in a deal valued at about $55 billion, with stockholders receiving $210 in cash per share and EA shares delisted from NASDAQ. The agreement was announced in September 2025, approved by stockholders in December 2025, and cleared remaining regulatory hurdles by late July. It ranks among the largest gaming deals on record after Microsoft’s Activision Blizzard purchase; follow-on coverage this week continues to probe content and governance implications.
 
 **Links:**
 
-- [PC Gamer — Mixed Steam rating, PSN and Linux issues](https://www.pcgamer.com/hardware/launch-day-performance-issues-and-forced-logins-take-another-victim-marvel-tokon-fighting-souls-sees-mixed-steam-rating-especially-among-linux-users/)
-- [Push Square — Mixed PC reviews, disable crossplay advice](https://www.pushsquare.com/news/2026/08/marvel-tokon-launches-to-mixed-reviews-on-pc-ps5-players-encouraged-to-disable-crossplay)
+- [EA — Completion of acquisition by PIF, Silver Lake, Affinity](https://www.ea.com/news/ea-announces-completion-of-acquisition)
+- [BBC — Saudi-led group completes $55bn purchase of EA](https://www.bbc.com/news/articles/cjejyl34345o)
 
-**Commentary:** Strong fighter fundamentals still cannot outrun a launch that pairs a login wall with a shaky PC port—Sony-linked PC releases keep facing the same stress test.
+**Commentary:** Another top public publisher leaves the public markets—sports and shooter cadence will answer more to sovereign-fund balance sheets than quarterly guidance.
 
 ---
 
-### 3. Super Mario Sunshine joins Switch 2 GameCube Classics on Aug 13 (Platforms)
+### 3. Activision’s Warsaw Studio Elsewhere Entertainment Pushes a New Narrative AAA IP (Studios)
 
-**Summary:** Nintendo confirmed that the 2002 GameCube title Super Mario Sunshine arrives Aug 13 on Nintendo Switch 2 via the Nintendo GameCube – Nintendo Classics app for Nintendo Switch Online + Expansion Pack members. The game’s recent modern-console path had largely run through the now-delisted Super Mario 3D All-Stars; the classics library already includes titles such as Luigi’s Mansion and The Wind Waker. A western Switch 2 price increase is also due Sept 1, raising the stakes on software cadence for hardware momentum.
+**Summary:** Reports around August 8 said Microsoft-owned Activision’s Elsewhere Entertainment—based in Warsaw, Poland, with U.S. and Sweden resources—is advancing a new narrative-driven AAA franchise, with staff credits spanning *The Last of Us*, *Uncharted*, *The Witcher*, and *Cyberpunk*. Job postings and trade coverage point toward an open-world RPG with PvE and live-service elements. The studio is still hiring globally; project details and a release window remain undisclosed.
 
 **Links:**
 
-- [Shane the Gamer — Super Mario Sunshine on Switch 2 GameCube app Aug 13](https://www.shanethegamer.com/playstation/super-mario-sunshine-lands-on-switch-2s-gamecube-app-aug-13-as-ps-doubles-down-on-discs/)
-- [Nintendo Life — Switch 2 at 23.68M, software cadence emphasis](https://www.nintendolife.com/news/2026/08/switch-2-surpasses-23-million-units-as-nintendo-claims-sales-remain-solid)
+- [Arcader — Elsewhere Entertainment Warsaw AAA narrative IP](https://arcader.org/news/activision-announces-elsewhere-entertainment-a-warsaw-based-studio-creating-a-brand-new-narrative-based-triple-a-ip/)
+- [Playfront — Open-world RPG job listing signals](https://playfront.de/en/activision-hinweise-auf-open-world-rpg-von-elsewhere-entertainment/)
 
-**Commentary:** Classics drops are cheap subscription fuel—feeding nostalgia right before a price hike is a blunt, effective playbook.
+**Commentary:** Activision’s post-merger “second franchise” bet is still recruiting—escaping the Call of Duty comfort zone depends on shipping a world, not just writing a job description.
 
 ---
 
-## II. Releases & Reception
+## II. Regulation & China Market
 
-### 4. Dieselpunk turret sim IRON NEST hits Steam “Overwhelmingly Positive” (Launch)
+### 4. miHoYo Wins China’s First Criminal Game-Leak Case: Two Bilibili Users Get Suspended Sentences (Regulation)
 
-**Summary:** IRON NEST: Heavy Turret Simulator launched Aug 6 in an alternate late-1920s Spain on the brink of civil war, casting players as operators of a roughly 5,000-ton walking turret who manually calculate fire missions, load charges, and repair valves. Gamemeca reported that as of Aug 9 the game held an Overwhelmingly Positive Steam rating (about 98% positive). Other coverage noted a strong post-launch run on new-release charts after a well-received Next Fest demo, plus Steam Deck Verified status.
+**Summary:** miHoYo’s legal team said around August 5 that two Bilibili users were convicted of copyright infringement for uploading unreleased footage from *Genshin Impact*, *Honkai: Star Rail*, and *Zenless Zone Zero*. Courts sentenced Su to one year and two months and Wu to one year, both suspended; the videos drew roughly 600,000 and 300,000 views. The case is described as the first criminal game-leak prosecution under updated SPC/SPP judicial interpretations that can trigger criminal thresholds based on distribution volume (for example, over 100,000 views), not only illegal proceeds.
 
 **Links:**
 
-- [Gamemeca — Iron Nest Overwhelmingly Positive as of Aug 9](https://www.gamemeca.com/en/view.php?gid=1778899)
-- [Steam — IRON NEST: Heavy Turret Simulator](https://store.steampowered.com/app/2950790/IRON_NEST_Heavy_Turret_Simulator/)
+- [CNA — Genshin Impact leakers jailed in landmark criminal case](https://www.channelnewsasia.com/east-asia/china-genshin-impact-leaks-jail-6305696)
+- [Global Times — First criminal case over miHoYo game leaks](https://www.globaltimes.cn/page/202608/1367653.shtml)
 
-**Commentary:** Niche heavy simulation keeps proving that tactile systems depth can spike reviews without open-world scale.
+**Commentary:** View-count criminal thresholds turn leaks from community gray areas into clear criminal risk—the chilling effect on streams and fan edits may outlast the verdict itself.
 
 ---
 
-### 5. Trails in the Sky 2nd Chapter promo trailer drops ahead of Sept 17 launch (Release)
+### 5. *Wangzhe Wanxiangqi* Sets September Open Beta; Pre-Registrations Top 50 Million (China)
 
-**Summary:** Nihon Falcom and GungHo Online Entertainment America released a nearly three-minute promotional trailer around Aug 8, showing story scenes, combat, and the opening theme “Silver Will, Golden Wings.” The full 3D remake of Trails in the Sky SC is scheduled for Sept 17, 2026 on PlayStation 5, Nintendo Switch 2, Nintendo Switch, and Steam. The trailer may contain spoilers for the first chapter.
+**Summary:** Tencent’s *Honor of Kings* auto-battler spin-off *Wangzhe Wanxiangqi* held a scheduling event on August 7, locking a September open-beta window and saying nationwide pre-registrations had surpassed 50 million. Design notes emphasize a level-up system instead of classic three-copy star upgrades (heroes can reach level 999 in a match, with skill-form unlocks at key breakpoints), plus blind bidding, keyword synergies, AI coaching, inherited *Honor of Kings* social graphs, and cross-platform play including HarmonyOS.
 
 **Links:**
 
-- [oprainfall — Trails in the Sky 2nd Chapter promotional trailer](https://operationrainfall.com/2026/08/08/trails-in-the-sky-2nd-chapter-promotional-trailer-released/)
+- [17173 — Wangzhe Wanxiangqi September beta, 50M pre-regs](https://news.17173.com/content/08082026/114432065.shtml)
 
-**Commentary:** The remake clock moves to chapter two—veterans will grade presentation fidelity; newcomers will ask whether they must clear chapter one first.
+**Commentary:** Huge pre-reg totals still have to convert *Honor of Kings* users into auto-battler DAU—IP traffic is not the same as genre migration.
 
 ---
 
-### 6. Genshin Impact Version 7.0 opens Snezhnaya on Aug 12 (Update)
+### 6. *Zhu Xian 2* Ships “Xian Gui Cultivation” Update on August 14, Advancing Bi Yao Storyline (China)
 
-**Summary:** During a Genshin Impact special program, HoYoverse confirmed Version 7.0 launches Aug 12, 2026, adding Teyvat’s seventh nation, Snezhnaya—icebound terrain, train routes, and Snezhnograd—alongside new characters, Archon Quest progress, and limited-time events. Coverage frames the drop as a six-year milestone toward the planned seven-nation map; players who are not fully caught up on the main story can still explore parts of the region.
+**Summary:** Perfect World’s mobile MMO *Zhu Xian 2* said its “Xian Gui Cultivation” overhaul launches August 14, centering Bi Yao’s resurrection arc with new Underworld zones, ghost-market exploration, and a ghost-path class. Logins grant a “super transformation chest” letting players become classic novel characters such as Gui Li, Lu Xueqi, and Bi Yao with matching skills; the studio is also running anniversary QoL and crossover campaigns.
 
 **Links:**
 
-- [GameTips — Genshin Impact Version 7.0 launches mid-August](https://gametips.gg/news/genshin-impacts-next-major-update-launches-on-pc-consoles-and-mobile-mid-august)
-- [Pixelkin — Seventh nation Snezhnaya with Version 7.0](https://pixelkin.org/2026/08/04/six-years-later-genshin-impact-is-getting-its-seventh-and-final-nation-with-version-7-0/)
+- [17173 — Zhu Xian 2 Xian Gui update August 14](https://news.17173.com/content/08082026/104850209.shtml)
 
-**Commentary:** Live-service open worlds are graded on nation cadence more than slogans—version 7.0 is another retention checkpoint, not an epilogue.
+**Commentary:** Legacy IP mobiles still renew via story seasons plus transformation social toys—eventized narrative beats pay better than another raw power pack.
 
 ---
 
-## III. China Market & Regulation
+## III. Products & Reception
 
-### 7. Honor of Kings auto-chess Wanxiangqi sets September launch after 50M pre-regs (Launch)
+### 7. *S.T.A.L.K.E.R. 2* Story DLC *Cost of Hope* Shows Fresh Gameplay; Ships August 20 (New Release)
 
-**Summary:** Tencent’s Honor of Kings–team auto-chess spin-off Wangzhe Wanxiangqi held a schedule event around Aug 7–8, locking a September open beta and claiming more than 50 million pre-registrations. The design replaces classic three-merge star-ups with in-match hero leveling (with skill evolutions at key thresholds), adds AI assist tools, inherits Honor of Kings social graphs, and supports iOS, Android, PC, and HarmonyOS cross-play. Launch marketing promises free starter boards, skins, and an initial chess master unlock.
+**Summary:** GSC Game World’s first major story expansion, *S.T.A.L.K.E.R. 2: Cost of Hope*, is nearing launch; around August 9, outlets shared roughly eight minutes of continuous gameplay covering the Iron Forest, the Chornobyl plant area, new anomalies, and an unseen enemy. The DLC launches August 20 on PC, PS5, and Xbox Series X/S alongside free Update 2.0 (including an Unreal Engine 5 version bump and broader fixes). Ultimate Edition / Season Pass owners are covered for both planned story expansions.
 
 **Links:**
 
-- [17173 — Wanxiangqi September launch, 50M pre-regs](https://news.17173.com/content/08082026/114432065.shtml)
-- [ZOL — Wanxiangqi September release coverage](https://game.zol.com.cn/1228/12281241.html)
+- [Guided News — Cost of Hope gameplay footage Aug 9](https://guided.news/en/news/s-t-a-l-k-e-r-2-cost-of-hope-shows-new-gameplay-fans-love-the-zone-but-one-big-concern-remains/)
+- [Games Press — Cost of Hope launches August 20 with Update 2.0](https://www.gamespress.com/en-US/STALKER-2-Cost-of-Hope-Launches-August-20)
 
-**Commentary:** Fifty million pre-regs measure channel mobilization—the real test is post-launch matchmaking health and whether monetization undercuts the “free start” pitch.
+**Commentary:** Shipping DLC and a free tech overhaul on the same day is a density bet against base-game reputation debt—August 20 will show whether the tech debt gets paid down too.
 
 ---
 
-### 8. miHoYo leak case yields China’s first criminal conviction for unreleased game content (Regulation)
+### 8. Indie Hit *ReStory* Recoups Budget in 12 Hours; ~97% Positive on Steam (New Release)
 
-**Summary:** Global Times and others report miHoYo’s legal team disclosed first-instance verdicts against two Bilibili users who uploaded unreleased footage from Genshin Impact, Honkai: Star Rail, and Zenless Zone Zero. They were convicted of copyright infringement and sentenced to one year and two months and one year, respectively—both suspended. View counts above roughly 600,000 and 300,000 crossed criminal thresholds under newer judicial interpretations. The public trial and verdict landed Apr 24, 2026; miHoYo called it the first criminal game-leak case under the new rules.
+**Summary:** tinyBuild-published, Mandragora-developed retro electronics repair sim *ReStory* launched on Steam this week: the publisher said it recouped its full development budget within about 12 hours, sold roughly 100,000 copies on day one, and crossed about $1 million in gross revenue, with ~97% positive Steam reviews and a peak concurrent over 17,000. Set in a mid-2000s Tokyo repair shop, it entered launch with about 700,000 wishlists; a launch discount runs through around August 20.
 
 **Links:**
 
-- [Global Times — First criminal game leak case, miHoYo](https://www.globaltimes.cn/page/202608/1367653.shtml)
-- [GosuGamers — Genshin/ZZZ leakers sentenced](https://www.gosugamers.net/news/78928-genshin-impact-and-zenless-zone-zero-leakers-jailed-in-china-s-first-criminal-game-leak-case)
+- [PCGamesN — ReStory earns budget back in 12 hours](https://www.pcgamesn.com/restory/retro-electronics-repair-sim)
+- [Engadget — Indie roundup featuring ReStory](https://www.engadget.com/2232571/big-walk-retro-electronic-repairs-and-other-new-indie-games-worth-checking-out/)
 
-**Commentary:** Leaking unreleased builds is shifting from gray-zone community sport to criminally actionable copyright risk—raising the cost of spoiler economies.
+**Commentary:** Fixing a broken Walkman can still mint a hit—sharp fantasy plus low-friction loops remain more repeatable than AAA budgets.
 
 ---
 
-### 9. Perfect World’s Fantasy New Jade Dynasty: Lite sets Sept 3 multi-platform open beta (Launch)
+### 9. Dieselpunk Turret Sim *IRON NEST* Holds “Overwhelmingly Positive” on Steam (New Release)
 
-**Summary:** Perfect World’s seasonal xianxia turn-based mobile title Fantasy New Jade Dynasty: Lite (梦幻新诛仙：轻享) will open a full-platform beta on Sept 3, 2026 across PC, Android, iOS, and HarmonyOS, with iOS pre-registration opening Aug 8. The studio stresses lighter progression, no pay-to-win value packs, drop-based gear, and free player trading; second-test leaderboard data showed top traders earning more than 20 million silver ingots via the marketplace in about two weeks. New co-op dungeons and guild beast features are also teed up for launch.
+**Summary:** *IRON NEST: Heavy Turret Simulator* launched August 6 and, as of August 9, held an Overwhelmingly Positive Steam rating (about 98% positive). Players crew a roughly 5,000-ton walking turret with manual firing solutions, valve repairs, and other systems work. Reviews praise the weight of the guns and the choice to strip real-world tedium while keeping the fun, with frequent calls for official multiplayer.
 
 **Links:**
 
-- [17173 — Fantasy New Jade Dynasty: Lite Sept 3 open beta](https://news.17173.com/content/08082026/114521706.shtml)
+- [Gamemeca — Iron Nest Overwhelmingly Positive on Steam](https://www.gamemeca.com/en/view.php?gid=1778899)
 
-**Commentary:** “Lite” is a fatigue pitch—the open beta will show whether free silver markets can survive studio farming pressure.
+**Commentary:** Ultra-niche sims can still spike review charts—differentiation beats “big and broad” in Steam’s discovery funnel.
 
 ---
 
-### 10. China buy-to-own action adventure Tide of Annihilation tees Chengdu playtest and Gamescom FGS reveal (Indie)
+## IV. Esports & VR Platforms
 
-**Summary:** Eclipse Edge Studio’s Tide of Annihilation (湮灭之潮), an Arthurian-myth action adventure planned as a premium buy-to-own release for PC and major consoles, will appear at the Future Games Show during gamescom, with a global livestream slated for 01:00 Beijing time on Aug 27. ZOL reported Aug 8 that the team will also host its first public offline playtest in Chengdu on Aug 15.
+### 10. LCK: BNK FEARX Sweeps Kiwoom DRX 2-0, Climbs to Second in Rise Group (Esports)
+
+**Summary:** In the 2026 LCK regular-season Round 3 Rise Group match at LoL PARK in Seoul on August 9, BNK FEARX beat Kiwoom DRX 2-0, moving to eight wins and second place in the group. Game 1 featured an effective top-lane Nidalee “joker” pick; Game 2 turned on jungler “Raptor” Pantheon fights around Dragon Soul timing. Both maps hinged on Dragon-pit teamfights.
 
 **Links:**
 
-- [ZOL — Tide of Annihilation Gamescom reveal and Chengdu playtest](https://game.zol.com.cn/1228/12283284.html)
+- [Inven Global — BNK FEARX defeats DRX, 8 wins, 2nd in Rise](https://www.invenglobal.com/articles/24597/bnk-fearx-defeats-drx-snaps-losing-streak-moves-to-8-wins-and-2nd-place-in-rise-group)
 
-**Commentary:** China’s premium narrative pipeline still needs hands-on proof—Chengdu pads and a Gamescom stream are the next conversion from concept art to feel.
+**Commentary:** Mid-season streak-snapping and standings points matter more than highlight reels—second place often decides playoff margin for error.
 
 ---
 
-## IV. Esports & Streaming
+### 11. VCT Americas: Leviatán Sweeps MIBR 2-0 (Esports)
 
-### 11. Kuaishou Gaming beats AG.AL 4–3 to win Honor of Kings World Cup 2026 (Esports)
-
-**Summary:** On Aug 9, Kuaishou Gaming (KSG) outlasted defending champions AG.AL 4–3 in a best-of-seven Honor of Kings World Cup grand final, taking the $600,000 first prize from a ~$3.025 million pool; AG.AL earned about $360,000 for second. After falling behind 2–3, KSG forced a Game 7 and closed in roughly 12 minutes; jungler JuHao won Finals MVP and a $25,000 bonus. Both sides had dominated international opponents en route to an all-China final as KPL Spring winners and defending champions, respectively.
+**Summary:** In Valorant Champions Tour 2026 Americas Stage 2 regular-season play on August 9, Argentina’s Leviatán defeated Brazil’s MIBR 2-0. LEV led the prior head-to-head 6–4 across 10 meetings; the series fell in Stage 2 Week 4, with LEV ranked well above its opponent.
 
 **Links:**
 
-- [GosuGamers — Kuaishou Gaming win KWC 2026](https://www.gosugamers.net/honor-of-kings/news/78931-kuaishou-gaming-defeat-ag-al-to-win-honor-of-kings-world-cup-2026)
+- [GosuGamers — Leviatán 2-0 MIBR, VCT Americas Stage 2](https://www.gosugamers.net/valorant/tournaments/62992-vct-2026-americas-stage-2/matches/655270-leviatan-vs-mibr)
+- [Ensigame — LEV vs MIBR match report Aug 9](https://ensigame.com/matches/valorant/1965877-leviatan-esports-lev-vs-made-in-brazil-mibr-vct-am-09-08-26)
 
-**Commentary:** Another world title decided as a Chinese civil war—the global trophy still concentrates in KPL’s top tier, and international gaps remain wide.
+**Commentary:** Americas tier gaps keep widening—clean BO3 sweeps say more about season form than one-map upsets.
 
 ---
 
-### 12. LCK: Hanwha Life ends skid with 2–1 win over T1 starting Painter (Esports)
+### 12. Meta Horizon+ August Lineup Expands, Stacked with Xbox Game Pass Starter Cloud Play (Platform / VR)
 
-**Summary:** On Aug 8 in LCK Round 3 at LoL PARK, Hanwha Life Esports beat T1 2–1 to snap a three-game losing streak. T1 started rookie jungler Painter in place of Oner but lost the decisive teamfights after Elder/Baron swings. A day earlier, Gen.G had swept KT Rolster 2–0 with back-to-back Player of the Match awards for Ruler, underscoring how dense the top-tier schedule remains.
-
-**Links:**
-
-- [Inven Global — HLE beats T1, Painter starts over Oner](https://www.invenglobal.com/articles/24583/t1-fielding-painter-instead-of-oner-falls-to-hanwha-life)
-
-**Commentary:** Mid-season lineup experiments cut both ways—standings will quickly grade whether the lab answer belongs in the starting five.
-
----
-
-### 13. Hollywood streaming quietly rebuilds the bundle as carrier packs advance (Streaming)
-
-**Summary:** An Aug 9 industry feature argues U.S. streaming is reversing the “unbundle everything” decade: Netflix and Warner Bros. Discovery are reported to have formalized a cross-promotional bundling arrangement expected on AT&T and Verizon platforms before the end of Q3 2026. Separately, Starz and Crunchyroll already launched a U.S. Prime Video bundle at $16.99/month in late July. Games marketing continues to hitch rides on streaming moments—Rockstar’s GTA VI Extended Look remains locked for Netflix on Aug 27.
+**Summary:** Meta updated its Quest subscription Horizon+ for August: monthly claim titles are *Wreckin’ Raccoon* and mech combat *Iron Rebellion*, with catalog adds including *I Expect You to Die 2*, *Surviving Mars: Pioneer*, and *Stilt*. The service already includes Xbox Game Pass Starter benefits—about 10 hours of monthly cloud gaming across 50-plus Xbox titles. Horizon+ is priced around $7.99 per month or $59.99 per year.
 
 **Links:**
 
-- [USA Business Times — Streaming giants rebuilding the bundle](https://usabusinesstimes.com/hollywoods-streaming-giants-are-quietly-rebuilding-the-bundle/)
-- [Amazon Press — Starz and Crunchyroll Prime Video bundle](https://press.aboutamazon.com/prime-video/2026/7/starz-and-crunchyroll-announce-new-u-s-streaming-bundle-available-on-prime-video)
+- [Meta — Horizon+ August titles and Xbox Game Pass](https://www.meta.com/blog/meta-horizon-plus-vr-subscription-service-august-wreckin-raccoon-i-expect-you-to-die-2-xbox-game-pass/)
+- [UploadVR — Horizon+ August 2026 monthly and catalog](https://www.uploadvr.com/meta-horizon-plus-august-2026-titles/)
 
-**Commentary:** The cable bundle is returning as a discounted app stack—entertainment and game marketing will lean harder on who can sit on carrier storefronts.
+**Commentary:** VR subscriptions need both a monthly claim list and a cloud filler library—headsets sell hardware; catalogs sell habit.
 
 ---
 
 ## Today's Summary
 
-- Xbox’s reported “no red line” Latitude push and Marvel Tōkon’s Mixed PC launch expose the same platform tension: profit via reach versus trust via technical quality and account policy.
-- Reception split hard—IRON NEST’s niche sim surge versus a high-profile fighter’s PC port pain—while Trails remake marketing and Genshin 7.0 enter final countdown mode.
-- In China, Wanxiangqi’s 50M pre-reg September lock sits beside miHoYo’s first criminal leak precedent, plus parallel bets on “lite” live-service and buy-to-own prestige projects.
-- Esports crowned KSG at the Honor of Kings World Cup as LCK heavyweights traded blows; streaming bundling’s return pulls game marketing deeper into carrier packages.
+- *GTA VI* handed a key extended preview to Netflix for a six-hour head start, treating game marketing like a streaming premiere slate.
+- EA’s ~$55 billion take-private closed, while miHoYo’s first criminal leak case tightened capital and legal boundaries at once.
+- *S.T.A.L.K.E.R. 2* DLC footage, indie repair sim *ReStory*, and hardcore turret sim *IRON NEST* showed content density and genre sharpness still buy goodwill and fast payback.
+- In China and esports/VR, *Wangzhe Wanxiangqi*’s 50M pre-regs, LCK/VCT results, and Meta Horizon+ expansion filled out the weekend’s regional and platform noise.
 
-**Daily Framing:** Today in the gaming/entertainment cycle was a “platform-strategy fracture meets regional esports settlement” Sunday—cross-play profit logic and PC-port credibility collided while Asia’s content calendar and a King of Glory world final reclaimed the spotlight.
+**Daily Framing:** Today in the gaming/entertainment cycle was a “trailer-as-streaming-premiere + megadeal aftershock” day—tentpole IPs chase broadcast windows, capital and criminal liability raise the floor, and sharper niches punch through on their own.
 
 ---
 

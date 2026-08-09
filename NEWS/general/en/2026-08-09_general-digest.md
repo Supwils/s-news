@@ -13,150 +13,159 @@
 
 - [Al Jazeera — Iran issues new demands as Pezeshkian seeks deal](https://www.aljazeera.com/news/2026/8/9/iran-issues-new-demands-as-pezeshkian-seeks-deal)
 - [AP — Iran thinks the US will let it keep the Strait of Hormuz](https://apnews.com/article/iran-us-war-strait-hormuz-goals-diplomacy-77d91b276db6d749711619b0aa1c5c3f)
-- [DW — IRGC says Hormuz to open if US accepts Iran's terms](https://www.dw.com/en/iran-war-revolutionary-guard-says-hormuz-to-open-if-us-accepts-irans-terms/live-78289364)
 
 **Commentary:** Tehran has reframed Hormuz from phased reciprocity into a U.S.-first maximal package, tightening both the diplomatic window and energy risk.
 
 ---
 
-### 2. UAE says Iran missile hit an ADNOC tanker in Hormuz; Gulf states condemn (Middle East / Shipping)
-**Summary:** The UAE Foreign Ministry said on August 8 that an ADNOC-owned tanker was struck by an Iranian missile while transiting the Strait of Hormuz, with no casualties reported. ADNOC had said 15 of its vessels had been attacked by missiles and drones since the conflict began, including three this week, with one crew member killed and 20 injured overall. The GCC, Saudi Arabia, Qatar and Jordan condemned the strike and pressed for freedom of navigation and an unconditional reopening. UKMTO separately reported a vessel east of Khasab, Oman, hit by a projectile that caused a fire later extinguished, with crew safe; it was unclear whether it was the same incident. The attack came as Iran–Oman talks neared a deal and markets had been betting on lower oil prices.
+### 2. Israel rejects Trump’s 15-point Gaza “Board of Peace” plan (Middle East / Gaza)
+**Summary:** At a cabinet meeting on August 9, Prime Minister Benjamin Netanyahu said Israel has rejected President Donald Trump’s 15-point Board of Peace document for Gaza and will not withdraw forces until Hamas is “genuinely disarmed,” while continuing to thwart threats against Israeli forces and civilians. The plan, endorsed by Hamas last month, initially focuses on heavy weapons, production sites, depots and tunnels. Netanyahu also vowed that “as long as I am prime minister, no Palestinian state will arise.” There was no immediate response from the White House or Hamas. Gaza’s health ministry says at least 1,250 people have been killed and 4,120 wounded since the mid-October “ceasefire.”
+
+**Links:**
+
+- [Al Jazeera — Israel rejects Trump’s 15-point plan for Gaza](https://www.aljazeera.com/news/2026/8/9/israel-rejects-trumps-15-point-plan-for-gaza)
+
+**Commentary:** Israel’s open veto of the U.S. roadmap resets post-ceasefire governance back into a military-first political deadlock.
+
+---
+
+### 3. UAE says Iran hit an ADNOC tanker; Houthis claim strike on Saudi Jazan refinery (Middle East / Energy shipping)
+**Summary:** The UAE Foreign Ministry said on August 8 that an ADNOC-owned tanker was struck by an Iranian missile while transiting the Strait of Hormuz, with no casualties reported; ADNOC said 15 of its vessels had been attacked by missiles and drones since the conflict began. The GCC, Saudi Arabia, Qatar and Jordan condemned the strike. On August 9, Houthi spokesman Yahya Saree said the group hit Saudi Aramco’s Jazan refinery with a drone in response to alleged Saudi drone incursions into northwest Yemen; Saudi Arabia’s energy ministry confirmed a dawn fire at the facility was extinguished with no injuries, without stating the cause. Risks on Hormuz and Red Sea routes rose the same day.
 
 **Links:**
 
 - [Al Jazeera — UAE says Iran targeted ADNOC tanker in Hormuz, no casualties](https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2)
-- [NBC News / AP — Iran makes new strait demands; UAE says ship targeted](https://www.nbcnews.com/world/iran/iran-says-deal-strait-hormuz-close-will-not-open-waterway-rcna591476)
-- [Iran International — UAE condemns Iranian missile attack on ADNOC vessel](https://www.iranintl.com/en/202608080555)
+- [Nukta — Houthis say they struck Saudi Aramco refinery in Jazan](https://nukta.com/houthis-say-they-struck-saudi-aramco-refinery-in-jazan)
 
-**Commentary:** Talking reopening while striking commercial ships shows negotiating headlines do not automatically cut physical risk in the strait.
+**Commentary:** Talking about reopening while striking tankers and refineries shows negotiating headlines do not automatically cut physical energy and shipping risk.
 
 ---
 
-### 3. Aftershocks of the Mecca defence pact: regional self-help accelerates; Turkey says it is not aimed at Iran (Middle East / Geopolitics)
-**Summary:** The Mecca Joint Defence Agreement signed August 7 by Saudi Arabia, Turkey and Pakistan continued to draw analysis that its collective-defence clause reflects Gulf doubts about U.S. security guarantees amid the U.S.–Israel war on Iran, and an effort to broaden regional deterrence partnerships. Turkish officials stressed the pact is defensive and not aimed at Iran, while Iranian commentary watched its strategic meaning closely. The deal does not instantly create an anti-Iran military bloc, but alongside Hormuz tensions and proxy fronts it signals a shift from a U.S.-centric security order toward more multipolar self-help.
+### 4. Russian strikes kill at least 13 and injure 90 across Ukraine; Kharkiv high-rise hit (Ukraine)
+**Summary:** Local authorities said on August 9 that Russian attacks over the past day killed 13 people and injured at least 90. In Kharkiv’s Saltivskyi district, a residential high-rise had floors 7–10 destroyed; officials said Banderol munitions were used and about 15 high-rises were damaged citywide. In Kyiv Oblast’s Pukhivka, a three-year-old boy and his grandparents were killed; Odesa and other regions were also hit, with partial power and water outages. Ukraine’s Air Force said it downed 174 Shahed-type drones and five Banderol missiles overnight. President Volodymyr Zelensky urged more air defenses and stronger sanctions on Russia.
 
 **Links:**
 
-- [Al Jazeera — What could the Mecca defence pact mean for the US role](https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east)
-- [Al-Monitor — How Saudi-Turkey-Pakistan pact puts Iran's regional strategy to test](https://www.al-monitor.com/originals/2026/08/how-saudi-turkey-pakistan-pact-puts-irans-regional-strategy-test)
+- [Kyiv Independent — Russian attacks kill at least 13, injure 90 across Ukraine](https://kyivindependent.com/russian-attacks-kill-at-least-12-people-injure-80-across-ukraine-over-past-day/)
+- [NV — Attack on Kharkiv: high-rise destroyed in Saltivskyi district](https://english.nv.ua/nation/attack-on-kharkiv-destruction-of-high-rise-building-in-saltivskyi-district-and-casualties-50631102.html)
 
-**Commentary:** The real test is not the communiqué language but whether a prolonged war hardens “supplementary defence cooperation” into a new balance of power.
+**Commentary:** Civilian housing and city infrastructure remain primary targets, keeping air-defense stocks and pressure on Russian energy revenues Kyiv’s most urgent external asks.
 
 ---
 
 ## II. U.S. Politics and Economy
 
-### 4. Senate funds government through Dec. 11 overnight and confirms Blanche 50–49 as attorney general (Politics)
-**Summary:** In the early hours of August 8 the Senate passed a short-term continuing resolution extending federal funding through December 11, 2026, by about 90–6, acting well ahead of the Sept. 30 fiscal deadline to reduce midterm-season shutdown risk, then adjourned for roughly five weeks. The same overnight session confirmed acting Attorney General Todd Blanche as attorney general 50–49, with Republican Sens. Susan Collins and Lisa Murkowski joining all Democrats in opposition and Sen. Bill Cassidy providing the decisive Republican yes. A broader budget resolution and most of the SAVE America Act were deferred until mid-September; a standalone voter-ID measure had already failed.
+### 5. Senate funds government through Dec. 11 and confirms Blanche 50–49 before recess (Politics)
+**Summary:** In the early hours of August 8, the Senate passed a short-term continuing resolution extending federal funding through December 11, 2026, then adjourned for about five weeks. The same overnight session confirmed acting Attorney General Todd Blanche as attorney general 50–49, with Republican Sens. Susan Collins and Lisa Murkowski joining all Democrats in opposition. Trump’s SAVE America Act failed to clear the chamber; a broader budget resolution and most election provisions were deferred until mid-September, after a standalone voter-ID measure had already failed.
 
 **Links:**
 
-- [AP — Senate confirms Blanche as attorney general in overnight vote](https://apnews.com/article/senate-blanche-attorney-general-justice-department-fcb4157d45d7b13a05de4d2b0f4f92e2)
+- [AP — Senators head for exits without meeting Trump’s voting bill demands](https://abcnews.com/Politics/wireStory/senators-head-exits-meeting-trumps-demands-voting-bill-135478661)
 - [CNN — Senate passes bill to fund government, avert shutdown](https://www.cnn.com/2026/08/08/politics/senate-government-funding-shutdown)
-- [AP — Senate approves funding bill to avoid shutdown](https://apnews.com/article/government-funding-shutdown-cr-a50b86875105a299498b846184a3736d)
 
-**Commentary:** Funding and Justice personnel first, big legislation later — Republicans stopped the bleeding before recess and saved the fights for September.
-
----
-
-### 5. Appeals court halts above-ground White House East Wing ballroom work; Trump vows Supreme Court appeal (Politics / Courts)
-**Summary:** The D.C. Circuit ruled 2–1 on Friday that above-ground construction on the East Wing ballroom must stop until Congress clearly authorizes the project, pausing the order for two weeks so the administration can appeal; Trump said he would appeal “immediately” to the Supreme Court. Reporting described poured reinforced concrete columns, walls and floors and towering walls nearing planned height, while some underground work may continue. The case turns a symbolic renovation into a constitutional fight over Congress’s power of the purse versus presidential control of the White House grounds.
-
-**Links:**
-
-- [CNN — Trump’s unfinished ballroom faces uncertain path after legal blow](https://www.cnn.com/2026/08/08/politics/white-house-ballroom-uncertainty)
-
-**Commentary:** When even White House construction needs a congressional green light, midterm-year power contests have moved into physical space.
+**Commentary:** Funding and personnel first, major legislation later—Republicans traded a pre-recess stopgap for political runway in the fall.
 
 ---
 
-### 6. After July’s 23,000-job drop, September hike odds fade as labor softens against oil-driven inflation (Economy / Fed)
-**Summary:** Friday’s BLS release still dominated weekend pricing: nonfarm payrolls fell 23,000 in July versus expectations of roughly an 80,000 gain, with May–June revised down by a combined about 103,000. Unemployment eased to 4.1% mainly because participation fell, and year-over-year average hourly earnings ran near 3.2%. The Fed had held rates at 3.50%–3.75% in a 9–3 vote with three members preferring a hike; after the soft jobs print, futures sharply cut odds of a September hike, with some trading shifting toward a hold or even cut scenarios. Elevated oil prices from the Iran war remain the hawkish counterargument, so inflation data before the September meeting will decide which narrative prevails.
+### 6. Senate passes Russia energy sanctions bill 86–11; measure heads to House (Politics / Ukraine)
+**Summary:** On August 7 the Senate passed 86–11 the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026. The bill authorizes tariffs of up to 100% on major importers of Russian oil and gas, sanctions Russian officials, oligarchs and financial institutions, and extends the Iran Sanctions Act through 2031; Zelensky welcomed the move. The House is in August recess, so a vote is unlikely before early September; some Democrats object to the breadth of presidential tariff authority. If enacted, large buyers including China and India would face direct pressure.
 
 **Links:**
 
-- [CNBC — Jobs report July 2026](https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html)
-- [Fortune — Jobs report reveals 23,000 deficit in July](https://fortune.com/2026/08/07/us-jobs-report-july-23000-cut-revisions/)
+- [AP — Senate passes Russia sanctions bill pushed by late Sen. Lindsey Graham](https://apnews.com/article/senate-russia-sanctions-graham-tariffs-8d37498c3f27d96cae7da147250ebe9f)
+- [Al Jazeera — US Senate passes sweeping Russian energy sanctions bill](https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war)
 
-**Commentary:** Soft labor gives the Fed cover to stay put — but Hormuz risk premium can yank the inflation story back at any time.
+**Commentary:** This is Congress’s strongest Ukraine-related legislative signal of Trump’s second term; real pressure hinges on the House and enforcement against major buyers.
+
+---
+
+### 7. July payrolls fall 23,000: September hike odds drop as jobs and oil inflation collide (Economy / Fed)
+**Summary:** Friday’s Labor Department data showed employers unexpectedly shed 23,000 jobs in July versus expectations of roughly an 80,000 gain, with May–June hiring revised down by a combined about 103,000. After the miss, futures markets cut September hike odds sharply, with CME FedWatch showing roughly a 56% chance of a hold. Under Chair Kevin Warsh, forward guidance has been thin, leaving markets more data-dependent; elevated oil prices tied to Middle East conflict remain the hawkish case. Upcoming inflation prints before the September FOMC will decide which narrative dominates.
+
+**Links:**
+
+- [CBS News — Fed September hike odds flip after weak jobs report](https://www.cbsnews.com/news/federal-reserve-september-rate-decision-jobs-report-kevin-warsh/)
+- [WOL — Don’t bet on September hike now, economists say](https://wol.com/the-fed-was-expected-to-hike-interest-rates-in-september-dont-bet-on-that-now-economists-say/)
+
+**Commentary:** Soft labor data gives the Fed cover to pause, but a Hormuz premium can still yank the inflation story back into view.
 
 ---
 
 ## III. China Policy and Economy
 
-### 7. Beijing eases home-purchase rules: non-local hukou wait cut to one year; housing provident loans up to 3.4 million yuan (Policy / Housing)
-**Summary:** Beijing’s housing, planning and provident-fund authorities issued a notice effective August 8, 2026: non-Beijing households buying homes inside the Fifth Ring Road need only one continuous year of social insurance or individual income tax (down from two), unifying the citywide requirement at one year while purchase-quantity rules stay unchanged. Provident-fund caps rise to 1.2 million yuan for a single contributor on a first home and 2.4 million for dual contributors, with stacking uplifts allowing roughly up to 1.8 million and 3.4 million yuan respectively; the package also expands “transfer with existing mortgage” and allows renovation withdrawals (up to 50% of invoice value, max 250,000 yuan per unit). It is widely read as the first major tier-one follow-through after the late-July Politburo call to stabilize the property market.
+### 8. Beijing eases homebuying rules: non-local social-security requirement cut to one year; housing fund loans up to about 3.4 million yuan (Policy / Property)
+**Summary:** Notices from Beijing housing and provident-fund authorities took effect August 8, 2026: non-local households buying homes inside the Fifth Ring Road now need only one year of continuous social security or personal income tax payments, down from two. Maximum provident-fund loans rise to 1.2 million yuan for a single first-home borrower and 2.4 million for couples, and up to about 3.4 million with uplift; “transfer with mortgage” is expanded and renovation withdrawals are allowed. The package is widely read as a first-tier city response after central calls to stabilize the property market.
 
 **Links:**
 
-- [Xinhua — Beijing further optimizes and adjusts real estate policy](https://www.news.cn/local/20260807/d8e1e7664c194142912ee42a06686d87/c.html)
-- [The Paper — Beijing cuts non-local purchase social-insurance requirement to one year](https://www.thepaper.cn/newsDetail_forward_33740158)
-- [Beijing News — Provident loans up to 3.4 million yuan; one-year social insurance](https://www.bjnews.com.cn/detail/1786154757168692.html)
+- [Xinhua — Beijing further optimizes housing policies](https://www.news.cn/local/20260807/d8e1e7664c194142912ee42a06686d87/c.html)
+- [The Paper — Beijing cuts non-local homebuyer social-security requirement to one year](https://www.thepaper.cn/newsDetail_forward_33740158)
 
-**Commentary:** Tier-one cities are now lowering thresholds and raising leverage to stabilize expectations — the priority has shifted from cooling overheating to preventing a stall.
+**Commentary:** Lowering thresholds and raising leverage in a first-tier city shows the policy tilt has shifted from cooling excess to preventing a stall.
 
 ---
 
-### 8. SAMR: 561,000 new firms in emerging and future industries in H1 (Economy / Structure)
-**Summary:** CCTV’s Xinwen Lianbo, citing State Administration for Market Regulation data released August 8, said that in the first half of 2026 China registered 561,000 new enterprises linked to eight emerging industries (including next-gen IT and high-end equipment) and nine future industries such as humanoid robots and generative AI. Generative AI saw 55,000 new firms (+28.0% YoY) and humanoid robots 116,000 (+9.5%). Services added 3.957 million new firms, including 1.475 million related to culture and tourism; spacecraft/launch-vehicle manufacturing and optical-fiber/cable manufacturing new-firm counts rose 185.7% and 129.4% YoY.
+### 9. Market regulator: 561,000 new firms in emerging and future industries in H1 (Economy / Structure)
+**Summary:** CCTV’s Xinwen Lianbo, citing State Administration for Market Regulation data released August 8, said China registered 561,000 new enterprises in the eight emerging industries and nine future industries in the first half of 2026. Generative AI accounted for 55,000 new firms (+28.0% year on year) and humanoid robots 116,000 (+9.5%). Services added 3.957 million new firms, including 1.475 million in culture and tourism; spacecraft/launch-vehicle manufacturing and optical-fiber/cable manufacturing new registrations rose 185.7% and 129.4% respectively.
 
 **Links:**
 
-- [China Economic Net — Business-entity structure keeps optimizing in H1](http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260809_3136849.shtml)
+- [China Economic Net — Business entity structure continues to optimize in H1](http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260809_3136849.shtml)
 
-**Commentary:** “New economy” registration tallies are a bright structural signal — but orders, profits and jobs still have to convert the story into growth.
+**Commentary:** “New economy” registration tallies are a positive structural signal—but orders, profits and jobs still have to convert the story into growth.
 
 ---
 
-### 9. PBOC extends gold-buying streak to 21 months; reserves at 76.08 million ounces end-July (Finance)
-**Summary:** People’s Bank of China data show gold reserves at 76.08 million ounces at end-July, up 640,000 ounces from 75.44 million at end-June — a 21st consecutive monthly increase. Commentary noted faster buying since March 2026, with larger purchases when prices pulled back. A World Gold Council survey found most reserve managers expect further central-bank gold accumulation over the next 12 months and a continued decline in the dollar’s share of global reserves.
+### 10. PBOC extends gold-buying streak to 21 months; reserves hit 76.08 million ounces (Finance)
+**Summary:** People’s Bank of China data show gold reserves at 76.08 million ounces at end-July, up 640,000 ounces (~19.9 tonnes) from 75.44 million at end-June—the 21st consecutive monthly increase and one of the larger monthly additions in the current cycle. Foreign-exchange reserves were about $3.4188 trillion, up slightly month on month. Analysts link the buying to reserve diversification and risk hedging, with purchases stepping up when prices pull back.
 
 **Links:**
 
-- [Sina Finance — What signal from 21 months of PBOC gold buying?](http://finance.sina.com.cn/zl/bank/2026-08-09/zl-inimtchm1828720.shtml)
+- [Caixin — PBOC adds nearly 20 tonnes of gold in July](https://finance.caixin.com/2026-08-07/102472383.html)
+- [Sina Finance — What signals from 21 straight months of gold buying?](http://finance.sina.com.cn/zl/bank/2026-08-09/zl-inimtchm1828720.shtml)
 
-**Commentary:** Consecutive gold buys look more like a slow reserve-diversification campaign than a short-term price trade.
+**Commentary:** Persistent official buying looks more like a slow diversification variable than a short-term gold-price trade.
 
 ---
 
 ## IV. U.S.–China Relations
 
-### 10. China counters with entity lists and export controls; analysts still see a “speed bump” before the September summit (Trade / Diplomacy)
-**Summary:** From August 5, China’s Ministry of Commerce placed multiple U.S. entities on a countermeasures list, barring Chinese organizations and individuals from dealing with them, and tightened case-by-case export reviews for drone-related dual-use items to the United States — a response to Washington’s addition of dozens of Chinese firms to the UFLPA entity list and FCC curbs on certain foreign robots and power inverters. CNBC and others called it Beijing’s broadest trade retaliation since last autumn’s truce. SCMP/The Star-cited analysts argued the tit-for-tat is more a “speed bump” on the road to a September Xi–Trump summit than a deal-breaker, unless Taiwan arms sales or similar red lines are crossed; economic chiefs had also held a high-level call on rare earths, farm goods and the trade-and-investment committee.
+### 11. China rolls out entity countermeasures and export controls; analysts say Sept. summit still on track (Trade / Diplomacy)
+**Summary:** From August 5, China’s Commerce Ministry sanctioned multiple U.S. entities, barred domestic parties from dealing with them, and tightened dual-use export reviews for drones headed to the United States—responding to U.S. additions of dozens of Chinese firms to the Uyghur Forced Labor Prevention Act entity list and FCC curbs on certain foreign robots and power inverters. CNBC called the package Beijing’s broadest retaliation since last year’s trade truce. Analysts mostly frame the tit-for-tat as a “speed bump” ahead of a possible September Xi–Trump meeting, unlikely to cancel the summit unless deeper red lines are crossed.
 
 **Links:**
 
 - [CNBC — Beijing launches broadest trade retaliation since Busan truce](https://www.cnbc.com/2026/08/06/us-china-trump-xi-summit-trade-technology-restrictions.html)
-- [MOFCOM — Countermeasures on Applied DNA Sciences and five other U.S. entities](http://www.mofcom.gov.cn/zcfb/zc/art/2026/art_fb19718d3e2b4f41828ca0ebd1f13b1d.html)
 - [The Star — Will latest trade ‘speed bump’ slow China-US ties, or stop Xi-Trump summit?](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/08/will-latest-trade-speed-bump-slow-china-us-ties-or-even-stop-xi-trump-summit)
 
-**Commentary:** Pre-summit reciprocal sanctions manage domestic politics; the real stress test remains Taiwan arms sales and high-tech controls crossing red lines.
+**Commentary:** Pre-summit reciprocal sanctions manage domestic political narratives; the real test remains tech controls and geopolitical red lines.
 
 ---
 
 ## V. Other Regions
 
-### 11. Turkish Kurdish peace bill clears committee; Yemeni forces strike Houthis (Regional)
-**Summary:** A Turkish draft law advancing a peace effort with Kurdish militants cleared a parliamentary committee on August 8 and is expected on the floor next week. The same day, Yemen’s military said it struck Houthi “sites and capabilities” on multiple fronts in response to recent rebel attacks in central and eastern Yemen. The two tracks matter for Turkey’s domestic reconciliation agenda and for the intensity of Iran-linked proxy fighting on the peninsula.
+### 12. Aftershocks of the Mecca defence pact: Saudi–Turkey–Pakistan collective deterrence draws focus (Middle East / Geopolitics)
+**Summary:** The Mecca Joint Defence Agreement signed August 7 by Saudi Arabia, Turkey and Pakistan continued to draw analysis. A joint statement says an armed attack on any one of the three shall be regarded as an attack on all, and pledges deeper defence cooperation. Turkish officials described the pact as defensive and not aimed at any specific country. Analysts link it to rising doubts about U.S. security guarantees amid the U.S.–Israel war on Iran and to efforts to broaden regional deterrence partnerships; implementation details remain to be seen.
 
 **Links:**
 
-- [NBC News / AP — Turkey’s Kurdish peace bill; Yemen military attacks Houthis](https://www.nbcnews.com/world/iran/iran-says-deal-strait-hormuz-close-will-not-open-waterway-rcna591476)
+- [Al Jazeera — What could the Mecca defence pact mean for the US role](https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east)
+- [BBC — Saudi Arabia, Turkey and Pakistan sign defence agreement](https://www.bbc.com/news/articles/c30418m4mj4o)
 
-**Commentary:** While the main Middle East war grinds on, side-theater peace bills and proxy clearance reshape each side’s bargaining chips.
+**Commentary:** The real impact is not the communiqué wording but whether a prolonged war hardens “supplementary defence cooperation” into a new balance of power.
 
 ---
 
 ## Today's Summary
 
-- Hormuz dominated the weekend: Iran raised six reopening conditions and the IRGC decoupled them from Oman talks, while the UAE alleged a tanker strike — energy and shipping risk rose together.
-- Washington’s pre-recess package landed: funding through Dec. 11 and Blanche confirmed; budget and election-reform fights deferred to September.
-- China paired demand stabilization with structural signals: Beijing eased purchase rules and boosted provident loans; emerging/future-industry firm counts and another month of PBOC gold buying arrived the same cycle.
-- U.S.–China kept “managed sparring” before the summit: entity lists and export controls traded blows, but markets and analysts still mostly frame them as a speed bump, not a decoupling.
+- Middle East pressure rose on multiple fronts the same day: Iran raised six Hormuz conditions, Israel rejected the U.S. Gaza plan, Houthis claimed a Jazan refinery strike, and the UAE alleged a tanker attack.
+- Civilian casualties climbed again in Ukraine: a Kharkiv high-rise was hit by missiles, with at least 13 killed and 90 injured nationwide; Zelensky pressed for air defenses and sanctions.
+- Washington’s recess handoff: funding through December, Blanche confirmed, Russia sanctions cleared the Senate, while SAVE America and the budget fight wait until September; weak jobs cut rate-hike odds.
+- China paired demand support with structural signals—Beijing eased purchase rules and boosted housing-fund credit, while emerging-industry registrations and PBOC gold buying made headlines; U.S.–China friction stayed in a “managed” pre-summit lane.
 
-**Daily Framing:** Today in the news cycle was a “Hormuz escalation meets Washington recess handoff” day — Tehran raised the price of reopening as a tanker was hit, the Senate locked in cash and Justice leadership then left town, Beijing steadied housing expectations, and bilateral friction stayed boxed inside what a September summit can still absorb.
+**Daily Framing:** A day of multi-front Middle East escalation meeting a Washington recess handoff—Hormuz demands, a Gaza veto and Red Sea energy strikes landed alongside fresh Ukrainian civilian losses, while the U.S. locked in funding, Justice leadership and Russia sanctions before leaving town and China leaned on housing and industry data to steady expectations.
 
 ---
 
 *This digest is compiled from real-time search results and is for reference only.*
-*Date: Aug 9, 2026 (Sunday)*
+*Date: August 9, 2026 (Sunday)*

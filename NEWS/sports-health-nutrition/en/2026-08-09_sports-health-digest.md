@@ -30,7 +30,20 @@
 
 ---
 
-### 3. 104-week RCT: Non-nutritive sweetened beverages equivalent to water for long-term weight maintenance in a behavioral program (Nutrition / Evidence)
+### 3. Cohort + metabolomics: Healthy patterns (MED/MIND/DASH) linked to lower incident GERD; metabolic signatures partly mediate (Nutrition)
+
+**Summary:** *British Journal of Nutrition* (published online Aug 6, 2026) followed 183,878 adults free of gastroesophageal reflux disease (GERD) at baseline, scoring nine dietary patterns from repeated 24-hour recalls. Over a median 13.2 years, 15,401 incident GERD cases occurred. Higher adherence to healthy patterns including MED, MIND, DASH, and DI-GM was associated with lower GERD risk (highest vs lowest tertile HRs ≈ 0.87–0.89), while a pro-inflammatory pattern (E-DII) was linked to higher risk (HR ≈ 1.11). In an NMR metabolomics sub-cohort (n = 98,669), diet-related metabolic signatures mediated ~11.1%–32.2% of the diet–GERD association. Observational evidence suggesting systemic metabolic profiles may help explain how diet relates to reflux risk.
+
+**Links:**
+
+- [British Journal of Nutrition — Dietary patterns, metabolomics, and incident GERD](https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/dietary-patterns-metabolomics-and-incident-gastroesophageal-reflux-disease-a-prospective-cohort-study/8D926C891848AEC770A7C73B5929D142)
+- [DOI — S0007114526108162](https://doi.org/10.1017/S0007114526108162)
+
+**Commentary:** For reflux, do not stop at “avoid spicy food and coffee”—shift the overall pattern toward Mediterranean/DASH-style eating while managing weight and inflammatory diet load.
+
+---
+
+### 4. 104-week RCT: Non-nutritive sweetened beverages equivalent to water for long-term weight maintenance in a behavioral program (Nutrition / Evidence)
 
 **Summary:** *British Journal of Nutrition* (published online Aug 4, 2026) reported long-term SWITCH results: 493 adults with BMI 27–35 who regularly drank cold beverages were randomized 1:1 to water or non-nutritive sweetened (NNS) beverages within a group behavioral weight-management program (52 weeks assisted, then a voluntary 52-week unassisted extension; 220 completed week 104). At week 104, maintained weight loss was ~3.7 kg (water) vs ~4.8 kg (NNS); the between-group difference was not significant and met the equivalence criterion. People can lose and maintain weight over two years drinking either NNS beverages or water while in a structured program.
 
@@ -43,155 +56,143 @@
 
 ---
 
-### 4. Natural experiment: Early-life sugar restriction linked to lower adult cancer risk and more favorable aging markers (Nutrition)
+### 5. Ancillary RCT analysis: One avocado daily lowered LDL particle concentration in adults with abdominal obesity (Nutrition)
 
-**Summary:** Cambridge-led work leveraged the abrupt end of UK sugar rationing in 1953 as a natural experiment among ~64,761 UK Biobank participants born 1951–1956. Longer exposure to sugar restriction in the first ~1,000 days (conception to age ~2) was associated with lower adult risks of liver, rectal, lung, prostate, and breast cancers (e.g., in utero plus 1–2 postnatal years: liver HR ≈ 0.31; prostate HR ≈ 0.48, with reported CIs). Proposed mechanisms include lasting lower-sugar dietary preferences decades later and biological imprinting (~2.2 years less biological aging via leukocyte telomere length; lower circulating granzyme B). Policy-shock causal inference; extrapolation to today’s infants requires caution. Widely covered in early August 2026 media.
+**Summary:** An ancillary analysis of the Habitual Diet and Avocado Trial in *Journal of Clinical Lipidology* randomized adults with abdominal obesity (waist >40 in men, >35 in women) to one avocado per day or habitual diet for 26 weeks; lipoprotein particle data were available for ~786 participants (avocado ≈ 389; control ≈ 397). Versus habitual diet, the avocado group had a mean reduction in total LDL particle concentration of about −49.1 nmol/L (95% CI −83.6 to −14.5). No between-group differences were seen for LDL particle size/subclasses, triglyceride-rich lipoprotein particles, HDL particles, or apolipoproteins A/B. Subsequent coverage estimated ~4% lower heart-disease risk from the particle change—an extrapolation from biomarkers, not hard clinical events. Widely discussed in early-August 2026 media.
 
 **Links:**
 
-- [Cambridge Apollo — Early-Life Sugar Restriction and Long-Term Risk of Cancer](https://doi.org/10.17863/cam.127751)
-- [medRxiv — Full preprint of the same study](https://doi.org/10.1101/2025.11.22.25340786)
+- [DOI — One avocado daily and lipoprotein particle concentrations](https://doi.org/10.1016/j.jacl.2026.06.005)
+- [Medical Xpress — Daily avocado and heart-disease risk factor in obesity](https://medicalxpress.com/news/2026-07-avocado-day-lowers-heart-disease.html)
 
-**Commentary:** For parents, the actionable takeaway is keeping early childhood closer to WHO free-sugar guidance and delaying sweetened drinks—more than adult “sugar detox” fads.
+**Commentary:** Treat this as a modest whole-food swap effect, not a miracle anti-heart-attack therapy—use avocado to replace ultraprocessed snacks, not to replace lipid drugs or overall diet quality.
 
 ---
 
 ## II. Exercise & Training Science
 
-### 5. 10-week trial: Multi-joint squat training outperforms equal-volume leg extension for thickness, torque, and strength transfer (Training)
+### 6. 10-week comparison: Multi-joint squat training outperformed volume-matched leg extension for thickness, peak torque, and strength transfer (Training)
 
-**Summary:** *European Journal of Applied Physiology* assigned 24 participants to squat (SQG) or leg-extension (LEG) groups for 10 weeks of equal training volume. Both groups gained 1RM and knee-extensor thickness, but thickness gains were larger in SQG; peak isometric torque rose ~14% (SQG) vs ~10% (LEG). Pennation angle, fascicle length, and optimal fascicle length improved significantly only in SQG. Strength transfer favored SQG (~16% gain in leg-extension 1RM) over LEG (~9% gain in squat 1RM). Small non-elite sample—interpret cautiously for high-level strength sports.
+**Summary:** *European Journal of Applied Physiology* assigned 24 participants to a squat group (SQG) or leg-extension group (LEG) for 10 weeks of volume-matched resistance training. Both groups increased 1RM and knee-extensor thickness, but thickness gains were larger in SQG; maximal isometric torque rose ~14% (SQG) vs ~10% (LEG), with a significant between-group difference. Pennation angle, fascicle length, and optimal fascicle length improved significantly only in SQG. Strength transfer favored SQG (~+16% on leg-extension 1RM) over LEG (~+9% on squat 1RM). Authors argue squats demand higher knee torque to sustain external load, driving fuller neuromuscular adaptations. Small non-athlete sample; extrapolate cautiously to elite powerlifting.
 
 **Links:**
 
-- [European Journal of Applied Physiology — Multi-joint vs single-joint neuromuscular adaptations](https://link.springer.com/article/10.1007/s00421-026-06391-7)
+- [European Journal of Applied Physiology — Multi- vs single-joint neuromuscular adaptations](https://link.springer.com/article/10.1007/s00421-026-06391-7)
 
-**Commentary:** When training time is scarce, prioritize squats and other multi-joint lifts; isolation moves are better for weak-point work and rehab than as the entire program.
+**Commentary:** When time is limited, prioritize multi-joint staples (squat, hinge, press); save single-joint work for weak-point and rehab blocks, not the entire main session.
 
 ---
 
-### 6. 24-week RCT: Complex training boosts jump and eccentric strength; contrast training shortens push-off time (Training)
+### 7. 8-week RCT: In-season low-load wearable resistance improved soccer sprint, jump, and rate of force development (Training)
 
-**Summary:** *Journal of Strength & Conditioning Research* (August 2026 issue) randomized 45 national-level male track and field athletes to complex training (short 1–3 min rests, PAP emphasis), contrast training (longer 4–10 min rests, PAPE emphasis), or control for 24 weeks (3 sessions/week), assessed on a 3D force plate. With arm swing, complex training improved jump height ~+30.9% and drop height ~+30.4%, outperforming contrast and control; without arm swing, contrast training better reduced push-off time (~−6.1%) and raised push-off power (~+17.1%). Eccentric strength explained ~43% of jump-height variance. Elite sample—scale loads for recreational athletes.
+**Summary:** *Frontiers in Physiology* (published July 28, 2026) randomized 30 collegiate soccer players to wearable resistance training (WRT; ~2% body-mass load on the lower limbs) or control for 8 in-season weeks. Versus control, WRT produced larger gains in 10-m and 30-m sprint, countermovement jump height, and 5–0–5 change-of-direction performance, with rate of force development up ~7.95%. No significant group × time interactions for MVC, sEMG amplitude, or muscle morphology (thickness, pennation). Findings suggest low-load WRT improves explosive performance mainly via neural rather than hypertrophic pathways. Session-RPE training loads were similar between groups.
 
 **Links:**
 
-- [JSCR / Ovid — Complex vs contrast training for lower-limb power](https://www.ovid.com/jnls/nsca-jscr/fulltext/10.1519/jsc.0000000000005451~effects-of-complex-and-contrast-training-on-lower-limb)
+- [Frontiers in Physiology — 8-week wearable resistance and soccer neuromuscular adaptations](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1828654/full)
 
-**Commentary:** Choose complex work when the goal is jump height and elastic storage; choose contrast when the goal is faster ground contact—do not pile both to exhaustion.
+**Commentary:** In-season, light wearable loading can be a neural “power patch” without heavy barbell spikes—still prioritize technique quality and recovery; 2% body mass is not free.
 
 ---
 
-### 7. 8-week RCT: High-intensity interval cross training edges classical sprint training on acceleration and explosive markers in junior sprinters (Training)
+### 8. 8-week within-subject RCT: Autoregulated BFR pressure offered no extra hypertrophy or strength vs fixed pressure (Training / Evidence)
 
-**Summary:** *PLOS One* (published Aug 3, 2026) randomized 64 male junior sprinters to high-intensity interval cross training (HIICT: sprinting, plyometrics, and functional strength) or classical training (CT) for 8 weeks with comparable session-RPE internal loads. Versus CT, HIICT showed more favorable changes in 100-m performance, first-60-m split, ground contact time, countermovement jump, and relative peak power; squat jump improved in both groups with a larger tendency after HIICT. Body composition and several strength outcomes were broadly similar. Authors urge cautious interpretation pending larger replications.
+**Summary:** *Frontiers in Physiology* reported a within-subject randomized trial in 21 resistance-trained men (≥3 years experience): twice-weekly single-leg squats and knee extensions for 8 weeks, one limb under autoregulated BFR (AUTO) and the contralateral under non-autoregulated BFR (NONAUTO). Both conditions produced comparable increases in rectus femoris/vastus lateralis thickness and CSA and in 1RM for both lifts; RPE and discomfort fell over time with no between-condition differences; no adverse events. Autoregulation did not outperform fixed-pressure BFR for chronic hypertrophy or strength under this device and protocol. Small trained-male sample; caution before generalizing to women, novices, or other cuff systems.
 
 **Links:**
 
-- [PLOS One — HIICT vs classical training in male junior sprinters](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354592)
+- [Frontiers in Physiology — Autoregulated vs non-autoregulated BFR: 8-week trial](https://doi.org/10.3389/fphys.2026.1772708)
 
-**Commentary:** For junior sprint programs with controlled total load, mixed sprint–plyometric–strength interval blocks may deliver more neuromuscular payoff than simply adding more running volume.
+**Commentary:** Do not overpay for “smart autoregulation” on BFR cuffs—get placement, target pressure percentage, and progressive loading right first.
 
 ---
 
 ## III. Public Health & Disease Prevention
 
-### 8. Phase 3 SMART: Second-season clesrovimab well tolerated in high-risk children; FDA accepts expanded indication filing (Public Health)
+### 9. CDC update: ~2,465 U.S. measles cases in 2026 year-to-date; elimination status under review (Public Health)
 
-**Summary:** Healio (Aug 7, 2026) reported SMART (MK-1654-007) phase 3 findings: 997 high-risk infants received first-season clesrovimab 105 mg or monthly palivizumab; 276 children remaining at high risk received open-label clesrovimab 210 mg before a second RSV season and generally tolerated it over 180 days. First-season RSV-associated medically attended lower respiratory infection rates were similar (~3.2% vs 3.4%). Merck announced Aug 6 that FDA accepted an sBLA to expand use in children under 2 years at increased risk entering a second season (PDUFA target March 22, 2027). Second-season data lack a control group.
+**Summary:** Medical Daily (Aug 8, 2026) reported CDC added 94 confirmed measles cases in the latest week, bringing the 2026 U.S. total to about 2,465, with many new cases in Pennsylvania. A national verification committee is slated to review CDC data in mid-August for Pan American Health Organization submission; a regional committee is expected to announce in November whether the U.S. still meets measles elimination criteria. Elimination is a surveillance concept (no continuous indigenous transmission for 12 months), not a synonym for “nationwide uncontrolled outbreak.” Two-dose MMR vaccine effectiveness remains the core defense; coverage declines in some kindergarten cohorts were noted as context.
 
 **Links:**
 
-- [Healio — Clesrovimab for children entering a second RSV season](https://www.healio.com/news/pediatrics/20260807/findings-support-clesrovimab-as-option-to-protect-children-entering-second-rsv-season)
+- [Medical Daily — CDC measles case update and elimination-status review](https://www.medicaldaily.com/cdc-measles-2465-cases-elimination-status-review-august-2026-477045)
 
-**Commentary:** Parents of premature infants or those with chronic lung or significant congenital heart disease should ask pediatrics whether second-season RSV prevention options have been updated—do not assume year one was enough.
+**Commentary:** Before travel or school enrollment, verify MMR doses for yourself and children—more actionable than debating the elimination label.
 
 ---
 
-### 9. CDC: U.S. measles tally reaches ~2,465 in 2026 as a federal panel prepares elimination-status review (Public Health)
+### 10. Local CDC August advisory: Mosquito-borne disease, foodborne illness, and heatstroke risks rise together (Public Health)
 
-**Summary:** Medical Daily (Aug 8, 2026) reported CDC added 94 confirmed measles cases this week, bringing the 2026 national total to about 2,465, with many new infections in Pennsylvania. A national verification committee is set to meet mid-August and forward its assessment to PAHO; a Regional Verification Commission determination is expected in November on whether the U.S. still qualifies as having eliminated measles. Elimination is a surveillance designation about continuous domestic transmission for 12 months—not a claim that every community faces equal risk. Two-dose MMR effectiveness remains the main defense amid reported coverage declines.
-
-**Links:**
-
-- [Medical Daily — CDC measles update and elimination-status review](https://www.medicaldaily.com/cdc-measles-2465-cases-elimination-status-review-august-2026-477045)
-
-**Commentary:** Before travel or school terms, verify MMR doses for yourself and your children—more actionable than debating the elimination label.
-
----
-
-### 10. Local CDC August advisories: Concurrent rises in mosquito-borne, foodborne, and heat-illness risks (Public Health)
-
-**Summary:** Taizhou CDC’s August 2026 key infectious-disease and health-risk advisory flags sustained heat and humidity favoring mosquito breeding and imported/local dengue and chikungunya risk; medium risk for intestinal and foodborne illness as foods spoil faster and cold dishes increase; medium heatstroke risk for outdoor workers, infants, and older adults; and rising rabies-exposure opportunities from summer pet and stray-animal contact. Parallel city forecasts (e.g., Nanchang) similarly prioritize dengue, foodborne disease, and heat illness. Local risk assessments with seasonally generalizable precautions.
+**Summary:** Taizhou CDC’s August 2026 key infectious-disease and health-risk advisory flags high heat/humidity favoring mosquito vectors (dengue/chikungunya import and local transmission risk); medium risk for enteric/foodborne illness as foods spoil faster and cold dishes increase; medium heatstroke risk for outdoor workers, infants, and older adults; and rising rabies exposure risk from more summer contact with pets/strays. Parallel forecasts elsewhere (e.g., Nanchang) similarly prioritize dengue, foodborne illness, and heat illness. Local risk assessment with seasonally generalizable actions.
 
 **Links:**
 
-- [Taizhou Government — August 2026 key infectious disease and health risk tips](http://oi6.taizhou.gov.cn/xwzx/bmzx/art/2026/art_b928362d324948008e1e2c3168092c10.html)
+- [Taizhou Government — CDC August 2026 key disease and health-risk tips](http://oi6.taizhou.gov.cn/xwzx/bmzx/art/2026/art_b928362d324948008e1e2c3168092c10.html)
 
-**Commentary:** For outdoor training this month: mosquito protection, skip leftover cold dishes and wild mushrooms, and shorten midday heat exposure beat another sports drink.
+**Commentary:** For outdoor training this month: repellent, skip overnight cold dishes and wild mushrooms, and shorten peak-heat sessions—more important than another sports drink.
 
 ---
 
 ## IV. Sleep & Mental Health
 
-### 11. 6-month prospective cohort: Greater baseline insomnia severity predicts subsequent suicide attempts in depressed youth (Sleep / Mental Health)
+### 11. 6-month prospective cohort: Greater baseline insomnia severity predicted later suicide attempts in depressed youth (Sleep / Mental Health)
 
-**Summary:** *Child and Adolescent Psychiatry and Mental Health* (published Aug 2, 2026) followed 561 depressed youth from a psychiatric hospital in China (76.3% female); 81.6% met insomnia criteria (Athens Insomnia Scale ≥ 6) at baseline. Over 6 months, multivariable Cox models linked insomnia severity to a small but significant higher hazard of suicide attempts (HR ≈ 1.07 per score point, 95% CI 1.01–1.13); depressive severity and lifetime suicidality also predicted attempts. Kaplan–Meier curves differed between insomnia and non-insomnia groups. Single-center clinical sample; per-point effects should not be overstated as inevitability.
+**Summary:** *Child and Adolescent Psychiatry and Mental Health* (published Aug 2, 2026) followed 561 depressed youth from a Chinese psychiatric hospital (≈76.3% female); 81.6% met insomnia criteria (Athens Insomnia Scale ≥6) at baseline over 6 months. In multivariable Cox models, insomnia severity was associated with a small but significant higher hazard of suicide attempts (HR ≈ 1.07 per scale point; 95% CI 1.01–1.13); depressive severity and lifetime suicidality history also predicted attempts. Kaplan–Meier curves differed between insomnia and non-insomnia groups. Single-center clinical sample; do not read the per-point HR as “insomnia inevitably causes suicide.”
 
 **Links:**
 
-- [Child Adolesc Psychiatry Ment Health — Insomnia severity and suicide attempts in depressed youth](https://link.springer.com/article/10.1186/s13034-026-01148-8)
+- [Child Adolesc Psychiatry Ment Health — Insomnia severity predicts suicide attempts in depressed youth](https://link.springer.com/article/10.1186/s13034-026-01148-8)
 
-**Commentary:** In households with depressed adolescents, treat worsening insomnia as a safety signal—escalate to mental-health professionals, not only sleep supplements.
+**Commentary:** In households with depressed adolescents, treat worsening insomnia as a safety-assessment item—contact mental-health professionals promptly rather than relying on sleep supplements alone.
 
 ---
 
-### 12. NHANES mediation: Insulin resistance partly bridges sleep disturbance and depression (Sleep / Metabolism)
+### 12. Cross-sectional: Worse insomnia tied to greater emotion-regulation difficulty; exercise duration and depression moderated the link (Sleep / Mental Health)
 
-**Summary:** *BMC Psychiatry* analyzed ~20,510 NHANES adults (2005–2014) using multidimensional sleep measures, PHQ-9 depression, and insulin-resistance indices (METS-IR, TyG, TyG-BMI). Sleep disturbances associated with depression; IR indices also associated with depression (e.g., TyG OR ≈ 1.36 per unit). Causal-mediation analyses estimated IR mediated ~1.94%–7.34% of the sleep–depression pathway, highest for TyG-BMI. Cross-sectional design and modest mediation fractions mean metabolism is one piece of a larger puzzle.
+**Summary:** *BMC Psychiatry* (published Aug 7, 2026) surveyed 2,045 adults with the Insomnia Severity Index (ISI) and Difficulties in Emotion Regulation Scale (DERS-16). ISI correlated positively with DERS-16 (r ≈ 0.786); DERS-16 rose stepwise with insomnia severity, with the largest jump between mild and moderate insomnia. After covariates, ISI independently explained ~13% of DERS-16 variance. Weekly exercise duration, medical history, and depression (HADS-D) moderated the ISI–DERS slope; steeper slopes at longer exercise durations require cautious interpretation alongside depression comorbidity. Cross-sectional design cannot establish causal direction.
 
 **Links:**
 
-- [BMC Psychiatry — Insulin resistance mediating sleep disturbance and depression](https://link.springer.com/article/10.1186/s12888-026-08464-5)
+- [BMC Psychiatry — Insomnia severity and emotion-regulation difficulties](https://link.springer.com/article/10.1186/s12888-026-08495-y)
 
-**Commentary:** When poor sleep and low mood co-occur, check glucose, waist, and activity together—metabolic care will not “cure” depression alone, but it may cut one modifiable comorbidity link.
+**Commentary:** When sleep is poor, do not just “tough out” emotions—pair insomnia screening with emotion-regulation skills or counseling; exercise helps but does not replace professional care for moderate–severe insomnia and depression.
 
 ---
 
 ## V. Evidence Clarification / Sports Medicine
 
-### 13. EU RASFF analysis: Online food supplements carry diverse hazards; classification and enforcement gaps remain (Evidence)
+### 13. EU RASFF analysis: Online dietary-supplement hazards are diverse; legal classification gaps remain (Evidence)
 
-**Summary:** *Journal of Consumer Policy* secondarily analyzed 910 e-commerce-related RASFF notifications (Nov 2017–Jun 2023), including 786 food notifications. About 82.1% involved specific substances/ingredients, spanning 210 distinct hazards—commonly 2,4-dinitrophenol, cannabidiol (CBD), and yohimbine. Among 689 supplement notifications, a decision tree legally classified about two-thirds of 178 distinct hazards under food-related bases, highlighting regulatory gaps. Authors call for more coherent supplement risk management and e-commerce monitoring tools. Notification analysis—not a single-product recall list.
+**Summary:** *Journal of Consumer Policy* secondarily analyzed 910 e-commerce-related RASFF notifications (Nov 2017–Jun 2023), including 786 food-related alerts. About 82.1% involved specific substances/ingredients, spanning 210 distinct hazards—commonly 2,4-dinitrophenol, cannabidiol (CBD), and yohimbine. Among 689 supplement notifications, a decision tree classified about two-thirds of 178 hazards using food-related legal bases, leaving regulatory gaps. Authors call for more coherent supplement risk management and e-commerce monitoring tools. Notification analysis, not a single-product recall list.
 
 **Links:**
 
-- [Journal of Consumer Policy — RASFF hazards and legal classification decision tree for online supplements](https://link.springer.com/article/10.1007/s10603-026-09628-2)
+- [Journal of Consumer Policy — RASFF e-commerce supplement hazards and legal decision tree](https://link.springer.com/article/10.1007/s10603-026-09628-2)
 
-**Commentary:** Treat flashy online “fat-burn/muscle/relax” supplements as high-risk until labeling, approvals, and ingredients check out—regulators are still chasing e-commerce; consumers should not trust influencer reviews alone.
+**Commentary:** Treat anonymous online “fat-burn/muscle/relax” supplements as high-risk until you see legitimate authorization and a full ingredient list—regulators are still chasing e-commerce; influencer reviews are not safety evidence.
 
 ---
 
-### 14. Meta-analysis: Neuromuscular training associated with ~55% lower ankle injury incidence and better dynamic balance (Sports Medicine)
+### 14. Meta-analysis: Neuromuscular training cut ankle-injury incidence ~55% and improved dynamic balance in athletes (Sports Medicine)
 
-**Summary:** *Frontiers in Physiology* (published Jul 22, 2026) pooled 13 RCTs (1,476 athletes): versus no or conventional training, neuromuscular training (NMT) was associated with lower ankle injury incidence (RR ≈ 0.45, 95% CI 0.25–0.81, I² ≈ 62%). Star Excursion Balance Test reach improved in posteromedial, posterolateral, and anterior directions; FAAM-Sports scores rose; FAAM-ADL did not improve significantly. Moderate heterogeneity; interpret GRADE certainty from the full paper. Continues to be cited in sports-medicine roundups.
+**Summary:** *Frontiers in Physiology* pooled 13 RCTs (1,476 athletes): versus no training or conventional training, neuromuscular training (NMT) was associated with lower ankle-injury incidence (RR ≈ 0.45, 95% CI 0.25–0.81, I² ≈ 62%). Star Excursion Balance Test reach improved in posteromedial, posterolateral, and anterior directions; FAAM-Sports scores rose; FAAM-ADL did not improve significantly. Moderate heterogeneity; interpret GRADE certainty with the full paper. Continues to be cited in sports-medicine syntheses around the search date.
 
 **Links:**
 
 - [Frontiers in Physiology — NMT for preventing ankle injuries: systematic review and meta-analysis](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1854319/full)
 
-**Commentary:** For cutting and jumping sports, 10–15 minutes of single-leg balance, landing mechanics, and ankle stability in the warm-up remains one of the cheapest evidence-backed injury investments.
+**Commentary:** For cutting/jumping sports, 10–15 minutes of single-leg balance, landing mechanics, and ankle stability in the warm-up remains one of the cheapest evidence-backed injury investments.
 
 ---
 
 ## Today's Summary
 
-- Nutrition evidence today splits “quality-defined plant patterns” and early-life sugar control from pragmatic tools like NNS beverages that can match water for long-term weight maintenance inside behavioral programs.
-- Training science offers clear method choices: multi-joint lifts for foundational adaptation, complex vs contrast by power goal, and cautious HIICT blocks for junior sprinters under matched internal load.
-- Public-health focus sits on second-season RSV prevention for high-risk children, measles vaccination coverage amid elimination review, and midsummer mosquito/foodborne/heat risks.
-- Sleep–metabolism–suicide links treat insomnia as a clinical signal; online supplements keep showing claim-ahead, regulation-behind hazards.
+- Diet evidence favors pattern quality: healthful plant-based/MED–DASH signals for CKD, breast cancer, and GERD sit alongside an RCT showing NNS beverages can match water for two-year weight maintenance in a behavioral program.
+- Training science is method-specific: prioritize multi-joint bases; in-season light wearable load can boost explosiveness; BFR does not need autoregulation upsell.
+- Public-health focus is measles vaccination coverage plus summer mosquito, foodborne, and heat protection.
+- Sleep–emotion–suicidality links mark insomnia as a clinical signal; online supplements still outpace coherent consumer protection.
 
-**Daily Framing:** Today in the sport/health/nutrition cycle was a “diet-quality stratification × training-method matching” day—plant-based must mean healthful plants, strength and power sessions should match the goal, and sleep plus vaccines remain non-negotiable baselines no supplement aisle can replace.
+**Daily Framing:** Today in the sport/health/nutrition cycle was a “dietary pattern quality × training-method precision” day—sort healthful vs pro-inflammatory patterns, match multi-joint vs neural stimuli to the goal, and treat sleep plus vaccines as baseline work that no supplement shelf can outsource.
 
 ---
 
