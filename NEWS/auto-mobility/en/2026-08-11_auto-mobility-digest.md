@@ -6,151 +6,158 @@
 
 ## I. EVs & Policy
 
-### 1. Tesla Burns Through California MyFirstEV Allocation in Five Days (Policy / US)
-**Summary:** After California’s MyFirstEV point-of-sale rebate went live for Tesla buyers on Aug 3, the automaker exhausted its state allocation by Aug 8. The program pools about $135.5 million in state funds matched dollar-for-dollar by participating OEMs (about $271 million total), split roughly evenly across roughly 13–15 brands—on the order of $9 million in state money per brand before the match; Tesla-side combined discounts are estimated around $18 million. Eligible first-time ZEV buyers get $3,500 off a new EV generally under $50,000 MSRP, or $1,750 off a certified used EV under $25,000. Hyundai/Genesis and Lucid still have remaining funds; Ford, Chevrolet, Kia and others are due later in August.
+### 1. CPCA: China’s July NEV retail penetration hits a record 65.1% (Market / China)
+**Summary:** Yicai, cited by Sina Finance on Aug 11, said China’s passenger-car NEV retail penetration reached 65.1% in July—up 11.6 percentage points year over year and 2.1 points month over month—another all-time high after crossing 60% for the first time in April and holding above that mark for four straight months. July NEV passenger retail was 951,000 units (−3.9% YoY, −5.8% MoM); January–July retail totaled 5.668 million (−12.5% YoY). Overall passenger retail was only 1.461 million in July (−20.9% YoY), underscoring rising NEV share alongside a softer total market.
 
 **Links:**
 
-- [Electrek — Tesla exhausts California MyFirstEV rebate in 5 days](https://electrek.co/2026/08/10/tesla-california-myfirstev-rebate-exhausted-5-days/)
-- [InsideEVs — Tesla burned through California EV rebates in five days](https://insideevs.com/news/804405/tesla-runs-out-of-california-ev-rebates/)
+- [Sina Finance / Yicai — July NEV penetration hits another record high](https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimxrnp4321274.shtml)
 
-**Commentary:** Equal per-brand buckets stop one OEM from vacuuming the whole pot—but they also guarantee that California’s volume leader hits the wall first.
+**Commentary:** Record share with softer unit sales shows China’s electrification has entered a “share-led, volume-constrained” phase.
 
 ---
 
-### 2. Spain Opens Auto+ Consumer Applications: Up to €4,500, Retroactive to Jan 1 Purchases (Policy / Europe)
-**Summary:** Spain’s Ministry of Industry and Tourism opened Line 1 of the Auto+ program for individuals on Aug 4, with applications running through Dec 31. The line is endowed with about €350 million and can cover eligible purchases made since Jan 1, 2026. Maximum support is about €4,500 for passenger cars (M1) and about €5,000 for light commercials, plus a mandatory dealer discount of at least €1,000; final awards also depend on electrification level, price band, and EU manufacturing/battery content factors. The redesign aims to close Spain’s BEV adoption gap versus Germany, France, and the UK.
+### 2. Policy rollbacks drive a simultaneous China–US NEV slowdown (Policy / China–US)
+**Summary:** Caijing’s Aug 11 analysis argues China’s early-2026 shift to price-based trade-in subsidies and a halved NEV purchase-tax break—plus a July notice ending energy-saving and NEV vehicle-and-vessel tax relief from 2027—marks a pivot from scale stimulus to higher-quality growth. In the US, the $7,500 federal purchase tax credit ended on Sept 30, 2025, and weaker demand continues to ripple through the battery supply chain. Even so, China’s NEV retail share has stayed above 60% for four months since April and reached about 65% in July.
 
 **Links:**
 
-- [Spain Ministry of Industry and Tourism — Auto+ application window opens](https://www.mintur.gob.es/en-us/GabinetePrensa/NotasPrensa/2026/Paginas/industria-abre-plazo-solicitar-ayudas-programa-auto-plus-vehiculos-electricos.aspx)
-- [Automotive World — Spain overhauls EV incentive scheme](https://www.automotiveworld.com/news/spain-overhauls-ev-incentive-scheme-to-close-adoption-gap/)
+- [Sina Finance / Caijing — China and US NEV markets slow together; who fills the gap?](https://finance.sina.com.cn/wm/2026-08-11/doc-inimxewp0758195.shtml)
 
-**Commentary:** Southern Europe is using centralized subsidies with EU-content tilt to catch up on penetration—Chinese brands stay eligible, but local manufacturing weight is rising.
+**Commentary:** After synchronized subsidy withdrawal, competition shifts to product, cost structure, and charging networks—not one-off stimulus pulses.
 
 ---
 
-### 3. CPCA: China’s July NEV Retail Penetration Hits a Record 65.1% Even as Volumes Fall for a Seventh Month (Market / China)
-**Summary:** CPCA data released Aug 11 show passenger NEV retail at about 951,000 units in July, down about 3.9% year-on-year and 5.8% month-on-month—the seventh consecutive YoY decline—while Jan–Jul retail totaled about 5.668 million units, down about 12.5% YoY. Retail penetration nonetheless rose to a record about 65.1%, up about 11.6 points YoY and 2.1 points MoM. Overall passenger-car retail was about 1.461 million units, down about 20.9% YoY, with ICE demand contracting much faster. July NEV passenger-vehicle exports reached about 540,000 units, up about 147.8% YoY and about 58.8% of total PV exports.
+### 3. CAAM: H1 NEV exports to Belt and Road markets hit 1.135 million (+59.4%) (Exports / China)
+**Summary:** Cailian Press reported on Aug 11, citing CAAM-compiled customs data, that China’s auto-goods exports to Belt and Road markets reached $83.67 billion in H1 2026 (+30.8% YoY), or 57.5% of total auto-goods exports. Whole-vehicle shipments totaled 3.381 million (+48.1%), including 1.135 million NEVs (+59.4%). Economic Daily the same day put H1 NEV exports at 2.355 million (+about 1.2× YoY) and said full-year NEV exports could top 4 million units.
 
 **Links:**
 
-- [CnEVPost — China NEV retail July 2026 CPCA](https://cnevpost.com/2026/08/11/china-nev-retail-jul-2026-cpca/)
-- [Yicai / Sina — July NEV penetration hits another record](https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimxrnp4321274.shtml)
+- [Sina Finance / Cailian — H1 Belt and Road NEV exports at 1.135 million](https://finance.sina.com.cn/roll/2026-08-11/doc-inimxewt4398549.shtml)
+- [Rednet / Economic Daily — China’s NEVs lead globally](https://economy.rednet.cn/content/646042/55/16163777.html)
 
-**Commentary:** Record share with softer absolute volumes is the signature of a market where ICE demand is collapsing faster than NEV demand is growing.
+**Commentary:** As domestic volumes cool, exports and localized overseas capacity are becoming Chinese NEV makers’ main cycle hedge.
 
 ---
 
-## II. Automakers & Exports
+## II. OEMs & New Models
 
-### 4. Economic Daily: H1 NEV Exports Reach 2.355 Million Units, Roughly Doubling YoY; Full-Year Outlook Above 4 Million (Exports / China)
-**Summary:** An Aug 11 Economic Daily roundup says China exported 7.098 million vehicles in 2025, including 2.615 million NEVs. In H1 2026, auto exports reached 5.096 million units (about +65.3% YoY) and NEV exports 2.355 million (about +1.2× YoY)—implying roughly 4.6 of every 10 exported vehicles were NEVs. CAAM’s Chen Shihua said export momentum should remain elevated in H2, with full-year NEV exports potentially topping 4 million; industry voices called 2026 a pivotal year for scaled, normalized NEV globalization. Complete supply chains, e-powertrains, and intelligent features remain the cited competitive core.
-
-**Links:**
-
-- [Economic Daily (via Rednet) — China’s NEVs lead globally](https://economy.rednet.cn/content/646042/55/16163777.html)
-
-**Commentary:** The export story has moved from “can China ship?” to “can a 4-million-unit NEV export year clear tariffs and localization hurdles?”
-
----
-
-### 5. Chevrolet Ends New-Car Retail in China; JV Capacity Reorients to Non-U.S. Exports (OEM / China–US)
-**Summary:** GM China confirmed Chevrolet will stop selling new cars in China after about 21 years of retail presence, while continuing to build Chevrolet products in China for export markets outside the United States. Peak retail was about 767,000 units in 2014; 2025 sales fell below about 9,000. The move fits the SAIC–GM renewal through 2047, a domestic focus on Buick and Cadillac, and a plan for at least 30 NEV models by 2030. CPCA data put Chevrolet’s H1 China exports at about 6,930 units (+6.9% YoY). GM pledged aftersales and parts support for more than 7.5 million existing owners.
+### 4. Fang Cheng Bao Ti9 revealed: six-seat PHEV flagship with ~310 km EV range claim (New model / China)
+**Summary:** BYD’s Fang Cheng Bao brand released official images and specs for the Ti9 flagship SUV around Aug 11: roughly 5,270×1,999×1,850/1,880 mm with a 3,130 mm wheelbase, mainly filed as a six-seater. Powertrain pairs a 1.5T engine with dual ~200 kW peak motors and a ~66.48 kWh LFP pack claiming about 310 km pure-electric range; a roof lidar and “God’s Eye B” ADAS are listed. The brand said launch “will not wait too long” but gave no firm date or price; rivals include Denza N9, Li Auto L9, and Aito M9.
 
 **Links:**
 
-- [CarNewsChina — Chevrolet exits China market after 21 years](https://carnewschina.com/2026/08/11/chevrolet-exits-china-market-after-21-years-shift-focus-to-global-exports/)
-- [Reuters — GM renews China JV with SAIC for 20 years](https://www.reuters.com/business/autos-transportation/gm-renews-china-joint-venture-with-saic-20-years-after-restructuring-2026-08-05/)
+- [CarNewsChina — BYD Fang Cheng Bao Ti9 officially revealed](https://carnewschina.com/2026/08/11/byd-fang-cheng-bao-ti9-officially-revealed-with-6-seats-dual-200-kw-motors-and-310-km-ev-range/)
+- [Yiche — Fang Cheng Bao Ti9 official images / God’s Eye B](https://news.yiche.com/xinchexiaoxi/20260811/09112189090.html)
 
-**Commentary:** Legacy JVs are shrinking from three-brand volume machines into premium retail plus China-as-export-hub—Chevrolet’s exit is the accounting for lost share.
+**Commentary:** In a crowded large six-seat premium segment, BYD is again stacking blade batteries, long PHEV range, and ADAS to own the family-flagship brief.
 
 ---
 
 ## III. Autonomous Driving & Mobility
 
-### 6. Zoox Starts Paid Robotaxi Service in Las Vegas After NHTSA Commercial Exemption (Autonomy)
-**Summary:** Amazon-owned Zoox began charging for rides in Las Vegas on Aug 10—the first paid U.S. service for its purpose-built, steering-wheel-free, bidirectional robotaxi—after free/early-rider operations in markets such as San Francisco. NHTSA’s late-July temporary exemption allows commercial deployment of up to about 2,500 vehicles per year for two years under enhanced oversight. Service reportedly runs about 11 a.m. to 1 a.m. across a wide Las Vegas Valley footprint, with Austin, Miami, and San Francisco on-demand next. Waymo already operates in Vegas, setting up a same-city contest between retrofitted production cars and purpose-built cabins.
+### 5. Zoox starts paid Las Vegas robotaxi service: first fares for a no-steering-wheel vehicle (AV / US)
+**Summary:** Amazon-owned Zoox began charging for rides in its purpose-built, steering-wheel-free robotaxis in Las Vegas on Aug 10, ending free public trials; Electronics Weekly on Aug 11 listed it among the day’s paid US driverless operators. Commercialization rests on an NHTSA temporary exemption for purpose-built robotaxis (up to about 2,500 vehicles per year for two years). Fares combine base, distance, and time, with possible destination fees for hubs such as the airport; quotes appear before booking and do not rise if the vehicle takes a longer route. Zoox aims to price against ride-hail “Comfort” tiers and expand as state approvals arrive.
 
 **Links:**
 
-- [Mashable — Amazon's Zoox launches first paid service in U.S.](https://sea.mashable.com/tech/53539/amazons-robotaxi-zoox-launches-first-paid-service-in-us)
-- [TechCrunch — Zoox clears final federal hurdle for paid service](https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service/)
+- [CNBC — Amazon's Zoox to launch paid robotaxi rides in Las Vegas on Aug. 10](https://www.cnbc.com/2026/08/05/amazon-zoox-paid-robotaxi-rides-las-vegas.html)
+- [Electronics Weekly — Waymo extends driverless lead (includes Zoox paid Vegas launch)](https://www.electronicsweekly.com/news/business/waymo-extends-driverless-lead-2026-08/)
 
-**Commentary:** Flipping the paid switch moves the U.S. robotaxi race from “can it drive?” to “can a wheel-free design clear federal exemption economics?”
+**Commentary:** Purpose-built, no-steering-wheel robotaxis in the US now face unit-economics scrutiny, not just technical demos.
 
 ---
 
-### 7. Tesla Shows First Cybercab With Integrated Starlink Antenna—Connectivity for Fleet Ops, Not Driving (Autonomy / OEM)
-**Summary:** Tesla’s Robotaxi account on Aug 10 posted photos of what it called the first Cybercab with a built-in Starlink antenna, following a July “directly integrated” teaser. Company AI leadership said satellite connectivity is not required for safe autonomous operation and is mainly for navigation, customer service, and fleet management; driving still runs on onboard compute. Cybercab pilot production continues at Giga Texas, with large lots sighted, but unsupervised commercial scale remains gated by regulation and product maturity.
+### 6. Waymo’s driverless lead restated: ~4,000 vehicles and ~500,000 paid trips a week (AV / US)
+**Summary:** Electronics Weekly on Aug 11 said Alphabet’s Waymo fleet is near about 4,000 driverless cars—up from roughly 700 early last year—operating in about 15 cities and delivering around half a million paid trips weekly, still well ahead of Zoox, Baidu Apollo Go, and Tesla. Waymo’s city-expansion lead said vehicles see about 94% fewer serious-injury crashes than human drivers, with the current focus on never-before-seen edge cases. The same piece noted Motional still needs a safety driver for paid Uber rides in Las Vegas.
 
 **Links:**
 
-- [Electrek — Tesla unveils first Cybercab with Starlink antenna](https://electrek.co/2026/08/10/tesla-first-cybercab-starlink-integration/)
-- [Teslarati — Tesla's reason for Starlink on Cybercab](https://www.teslarati.com/teslas-reason-for-starlink-integration-on-cybercab-might-surprise-you/)
+- [Electronics Weekly — Waymo extends driverless lead](https://www.electronicsweekly.com/news/business/waymo-extends-driverless-lead-2026-08/)
 
-**Commentary:** Starlink on Cybercab is a fleet-ops signal: robotaxi scaling bottlenecks are spilling from perception stacks into remote support and connectivity redundancy.
+**Commentary:** Scaled operations and the safety narrative remain Waymo’s benchmark; rivals must prove both city expansion and unit economics.
 
 ---
 
-### 8. Uber Commits Over $10 Billion to Robotaxi Aggregation as Waymo Partnership Turns Competitive (Mobility Platforms)
-**Summary:** On its recent earnings messaging, Uber pledged more than $10 billion over the next few years to its robotaxi aggregator strategy while insisting Waymo remains a “very important” partner. In parallel, the Phoenix collaboration wound down in May 2026, and Atlanta/Austin exclusivity is widely expected to unwind toward 2028 as Waymo pushes its own app. Uber is diversifying suppliers—Zoox, Motional, and Avride in the U.S., plus planned Lucid and Rivian vehicle pipelines—and pairing with WeRide/Baidu, Wayve, Momenta, and Pony.ai abroad. Aug 10 coverage framed the shift as partners becoming platform competitors.
+## IV. Batteries, Charging & Supply Chain
+
+### 7. GM exits $3.5B Indiana battery JV as Samsung SDI takes full control (Batteries / US–Korea)
+**Summary:** Electrek, TechTimes, and Korean outlets reported on Aug 11 that Samsung SDI will buy GM’s ~49.99% stake in Synergy Cells (also called SynerCells) and take full ownership of the ~$3.5 billion New Carlisle, Indiana battery plant—Samsung’s first wholly owned North American factory. The site was planned for about 27 GWh initially (scalable toward ~36 GWh) with mass production around 2027; the purchase price was not disclosed. Soft US EV demand after the federal purchase-credit sunset has pushed GM to cut EV exposure, while Samsung says it can flex toward US energy-storage (ESS) demand while keeping GM as a partner.
 
 **Links:**
 
-- [Automotive World — Uber pledges $10bn to robotaxis](https://www.automotiveworld.com/news/uber-pledges-10bn-to-robotaxis-waymo-still-important/)
-- [Smart Cities Dive — Uber, Waymo go from partners to competitors](https://www.smartcitiesdive.com/news/waymo-uber-robotaxi-growth-challenge-cities/827451/)
+- [Electrek — GM exits $3.5B Indiana battery plant as Samsung SDI takes full control](https://electrek.co/2026/08/11/gm-sells-indiana-battery-plant-stake-samsung-sdi/)
+- [Seoul Economic Daily — Samsung SDI to Buy Out GM Battery Venture](https://en.sedaily.com/finance/2026/08/11/samsung-sdi-to-buy-out-gm-battery-venture-take-full)
 
-**Commentary:** The endgame is splitting: Waymo wants the demand interface; Uber wants nearly every robotaxi fleet dependent on its distribution layer.
+**Commentary:** North American battery JVs are shifting from locked OEM capacity to cell makers reallocating plants across EV and ESS demand—ownership is rearranging faster than demand recovers.
 
 ---
 
-## IV. Batteries & Charging
-
-### 9. CATL Targets 2027 All-Solid-State Pilot Production Alongside BYD; Million-Vehicle Scale Still Post-2030 (Batteries)
-**Summary:** Reports dated Aug 10–11 say CATL told investors it plans a 2027 pilot line and small-batch all-solid-state cell production. Chief scientist Wu Kai aims to lift technology readiness from about level 4 to levels 7–8 for pilot builds and road validation. Chairman Robin Zeng said early pilot volume will likely prioritize premium EVs priced above about 250,000 yuan, and million-vehicle-scale installation before 2030 remains unlikely. BYD is also targeting 2027 pilot production and real-vehicle testing, with new solid-state patents; semi-solid/hybrid cells are already playing a 2026 transitional role.
+### 8. Samsung SDI and GM sign a joint development deal for next-gen prismatic cells (Batteries / Partnership)
+**Summary:** On the same day, Samsung SDI said it signed a joint development agreement with GM to co-develop high-energy-density, fast-charging prismatic batteries for GM’s next-generation EVs—keeping a technology partnership even as the plant JV’s equity dissolves. Korean coverage said the cells are expected for future GM models, and the Indiana site may also produce advanced batteries for ESS and other uses. Samsung framed the move as a flexible response to North American market shifts while preserving the strategic tie with GM.
 
 **Links:**
 
-- [STARNEWS — CATL to begin pilot production of all-solid-state batteries in 2027](https://www.starnewskorea.com/en/business-life/2026/08/11/2026081110483595506)
-- [CarNewsChina — CATL joins BYD in targeting 2027 SSB trial production](https://carnewschina.com/2026/08/10/catl-joins-byd-in-targeting-2027-solid-state-battery-trial-production/)
+- [The Herald Business — Samsung SDI to co-develop next-gen prismatic batteries with GM](https://biz.heraldcorp.com/article/10837559)
+- [TechTimes — Samsung SDI Buys GM's Indiana Battery Stake](https://www.techtimes.com/articles/323951/20260811/samsung-sdi-buys-gms-indiana-battery-stake-turns-blank-slate-shell-us-grid-base.htm)
 
-**Commentary:** “2027 pilot” is now the consensus calendar—but the cost curve still hinges on post-2030 yield and scale, not lab Wh/kg headlines.
+**Commentary:** “Equity exit + tech lock-in” is becoming the playbook for OEMs cutting CapEx and cell makers widening end markets.
 
 ---
 
-### 10. Philippines’ Voltai Targets ~1,000 Two-Wheeler Swap Stations, Starting With Metro Manila Saturation (Charging / Mobility)
-**Summary:** AboitizPower-backed startup Voltai said on Aug 11 it aims to expand its two-wheeler battery-swap network to about 1,000 stations over the medium term starting in 2027, with later coverage into Cebu and Davao commercial corridors after saturating Metro Manila. Since an October 2025 launch, it has built 15 Cleanfuel co-located swap stations and calls the network the country’s largest dedicated two-wheel swap system. H1 2026 pilots with delivery and ride-hail fleets are converting toward commercial contracts; the B2B lease bundle (vehicles, swaps, fleet software, maintenance) reportedly cut operators’ running costs by about 20%–60%.
+### 9. India’s Indofast and GLIDA aim for 50 sites and 100+ swap stations in 12 months (Charging / India)
+**Summary:** PTI reported on Aug 11 that battery-swapping provider Indofast Energy partnered with charging-services firm GLIDA to co-locate swap stations at GLIDA sites, targeting 50 locations and more than 100 swap stations within 12 months, starting with about 10 quick-swap stations in Chennai, Bengaluru, and Hyderabad. The companies say the hubs will serve delivery riders and fleets by combining fast charging and swapping to cut downtime.
 
 **Links:**
 
-- [Manila Bulletin — Voltai targets 1,000 EV battery-swap stations](https://mb.com.ph/2026/08/11/aboitizpower-backed-voltai-targets-1000-ev-battery-swap-stations)
+- [Rediff Moneynews — Indofast Energy, GLIDA Partner to Expand Battery Swapping](https://money.rediff.com/news/market/indofast-energy-glida-partner-to-expand-battery-swapping/52263120260811)
 
-**Commentary:** Southeast Asian electrification is leading with two-wheeler commercial fleets and swap leasing—network density may matter more than passenger DC fast charging.
+**Commentary:** In emerging two-wheeler and light-commercial electrification, swap density is becoming a parallel infrastructure track to public DC fast charging.
 
 ---
 
-## V. Supply Chain
-
-### 11. Proficient Auto Logistics to Acquire Hansen & Adkins, Aiming for North America’s Largest Finished-Vehicle Hauler (Supply Chain / M&A)
-**Summary:** Nasdaq-listed Proficient Auto Logistics on Aug 10 signed a definitive deal to buy California finished-vehicle hauler Hansen & Adkins, expecting a mid-August close and claiming the combination will create North America’s largest finished-vehicle logistics platform across the U.S. and Canada. Upfront consideration is about $130 million including roughly $75 million of assumed debt, plus earnouts up to about $22.1 million tied to near-term EBITDA. Owned fleet capacity is expected to more than double, adding over 900 drivers and staff, with combined annual vehicle moves above 4 million. Proficient also plans a ~$75 million convertible notes issue due 2033 for debt restructuring.
+### 10. India weighs pantograph flash charging for 18-meter articulated e-buses (Charging / India)
+**Summary:** The Hindu BusinessLine reported on Aug 11 that the central government is reviewing pantograph flash-charging for high-capacity electric buses so roughly 18-meter articulated vehicles carrying about 130 passengers can top up during short stops and run near-continuously. Conventional public fast chargers were cited at about ₹7–12 lakh, versus ₹25–50 lakh or more per 400–600 kW heavy-duty pantograph point excluding grid upgrades. No final financing framework was announced; the policy question is whether higher roadside CapEx can justify smaller batteries and higher bus utilization.
 
 **Links:**
 
-- [Markets Insider / GlobeNewswire — Proficient to acquire Hansen & Adkins](https://markets.businessinsider.com/news/stocks/proficient-auto-logistics-agrees-to-acquire-hansen-adkins-strengthening-market-leadership-and-creating-north-america-s-largest-auto-haul-provider-announces-launch-of-75-million-convertible-1036437994)
+- [The Hindu BusinessLine — Centre weighs pantograph charging model for high-capacity e-buses](https://www.thehindubusinessline.com/economy/logistics/centre-weighs-pantograph-charging-model-for-high-capacity-e-buses/article71329719.ece)
 
-**Commentary:** Finished-vehicle logistics consolidation is heating up as OEMs seek asset-backed carriers that can flex capacity across U.S.–Canada networks amid tariff and schedule volatility.
+**Commentary:** Bus electrification is shifting from “bigger packs” to “stronger roadside charging,” moving CapEx from vehicle to depot/stop.
+
+---
+
+### 11. Philippines’ Voltai targets ~1,000 two-wheel battery-swap stations medium term (Charging / Southeast Asia)
+**Summary:** Manila Bulletin and Context.ph reported on Aug 11 that AboitizPower-backed Voltai (via 1882 Energy Ventures) plans to expand its motorcycle battery-swap network from 2027 toward roughly 1,000 stations medium term. Since launching in October 2025, Voltai has built 15 swap stations at Cleanfuel sites across Metro Manila—said to be the country’s largest dedicated two-wheel swap network—and ran H1 2026 pilots with delivery and ride-hail fleets. Near-term priority is saturating Metro Manila before longer-term moves into Cebu and Davao.
+
+**Links:**
+
+- [Manila Bulletin — AboitizPower-backed Voltai targets 1,000 EV battery-swap stations](https://mb.com.ph/2026/08/11/aboitizpower-backed-voltai-targets-1000-ev-battery-swap-stations)
+- [Context.ph — Voltai to expand battery-swapping network, eyes 1,000 stations](https://context.ph/2026/08/11/voltai-to-expand-battery-swapping-network-eyes-1000-stations/)
+
+**Commentary:** Southeast Asia’s electrification path looks more like “utility + fuel-station networks + two-wheel fleets” than a copy of Western passenger-car DC-fast-charge narratives.
+
+---
+
+### 12. Omega Holdings acquires Wells Vehicle Electronics’ aftermarket business (Supply chain / US)
+**Summary:** Omega Holdings announced around Aug 9–10 that it acquired the automotive aftermarket electronics business of Wells Vehicle Electronics, L.P., expanding its sensors and vehicle-electronics portfolio. The acquired unit will continue as a standalone business within Omega, with stated goals around transit time, fill rates, pricing, and quality. The deal fits a 2026 auto M&A theme shifting from pure EV transformation toward supply-chain resilience and aftermarket electronics capabilities.
+
+**Links:**
+
+- [PR Newswire — Omega Holdings acquires Wells Vehicle Electronics aftermarket business](https://www.prnewswire.com/news-releases/omega-holdings-acquires-the-automotive-aftermarket-business-of-wells-vehicle-electronics-lp-to-accelerate-growth-in-vehicle-electronics-302846771.html)
+
+**Commentary:** As OEM EV CapEx tightens, aftermarket and electronics consolidation remains an active “resilience M&A” lane in North America.
 
 ---
 
 ## Today's Summary
 
-- Policy: California’s per-brand MyFirstEV buckets emptied fastest at Tesla, while Spain’s Auto+ opened a centralized consumer window to close a southern European adoption gap.
-- China: July NEV retail penetration cleared 65% even as volumes fell YoY; export strength and JV brand retrenchment (Chevrolet) underline an export-hub pivot.
-- Robotaxi: Zoox turned on paid Las Vegas fares, Tesla added Starlink for fleet ops, and Uber vs Waymo competition intensified at the distribution layer.
-- Batteries & logistics: CATL/BYD locked onto 2027 solid-state pilots; SE Asia two-wheeler swapping and North American auto-haul M&A both accelerated.
+- China’s July NEV retail penetration hit a record 65.1% even as unit sales and the broader car market stayed soft—high share, lower growth after policy rollbacks.
+- North American battery ownership rearranged: GM exits the Indiana JV, Samsung SDI takes full control, and a new prismatic-cell JDA keeps the OEM–cell-maker tech tie while ESS becomes a key demand outlet.
+- Zoox’s paid Las Vegas launch and Waymo’s ~500,000 weekly paid trips frame a multi-operator US robotaxi commercial phase.
+- India and the Philippines advanced swap and pantograph plans the same day, underscoring how emerging-market charging narratives are diverging from passenger-car DC-fast-charge templates.
 
-**Daily Framing:** A commercialization-and-repricing day—paid robotaxi switches, state incentive ceilings, and China’s share-vs-volume data all pushed the narrative from pilots toward scale and margin stress tests.
+**Daily Framing:** A day of peak-penetration narratives meeting capital-structure resets—China offset softer volumes with share highs, US–Korea battery JVs rewired ownership, and robotaxis moved from demos into paid operations.
 
 ---
 

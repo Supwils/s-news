@@ -1,164 +1,171 @@
 # Aug 11, 2026 · Finance & Markets Daily Digest
 
-> Digested on August 11, 2026: equity indices, mega-cap tech and cross-sector leaders, earnings and fundamentals, market sentiment and institutional flows — with summaries, links, and commentary.
+> Digest of equity indexes, tech and sector movers, earnings and fundamentals, market sentiment and institutional flows for August 11, 2026, with summaries, links, and commentary.
 
 ---
 
-## I. Indices & Broad Market
+## I. Indexes & Market Overview
 
-### 1. U.S. stocks ease from records: S&P nearly flat, Nasdaq -0.32%, energy surge offsets tech drag (Indices)
-**Summary:** On Monday, August 10, the three major U.S. indexes pulled back modestly from last week’s record zone. The S&P 500 closed at 7,753.11 (−0.06%), the Dow at 53,975.98 (−0.11%), and the Nasdaq at 26,605.36 (−0.32%). Sector divergence was sharp: energy rose about 4.63%, while information technology fell about 1.10%, with real estate and utilities down about 1.23% and 1.11%. The equal-weight S&P finished near an all-time high, showing weakness concentrated in mega-cap tech rather than broad breadth deterioration. Fading Hormuz reopening hopes, a crude spike, and higher Treasury yields set the tone.
+### 1. U.S. equities chop near records as Iran headlines and oil set the tone (Indexes)
+**Summary:** U.S. stocks traded in a tight range near record territory on Tuesday. Intraday/quoted levels put the S&P 500 near 7,743 (−0.13%), the Dow near 53,943 (−0.06%), and the Nasdaq 100 near 29,495 (−0.43%); the open saw the S&P around 7,767.51 and the Nasdaq Composite up about 0.25%. Investors toggled between reports of a possible U.S.–Iran “arrangement” and the Hormuz reopening impasse, with focus shifting to Wednesday’s July CPI. The MSCI All-Country World Index was about 0.1% lower early on.
 
 **Links:**
 
-- [Dimsum Daily — S&P 500 ends flat as oil climbs; Intel weighs on tech](https://www.dimsumdaily.hk/sp-500-ends-flat-as-oil-prices-climb-on-uncertainty-over-us-iran-talks-while-intel-weighs-on-technology-shares/)
-- [StockWireX — US markets flatline as energy soars & yields peak](https://stockwirex.com/news/us-stock-market-news-energy-surge-yields-august-2026/)
+- [MarketScreener — S&P 500, Nasdaq open higher on U.S.-Iran peace-deal report](https://sa.marketscreener.com/news/s-p-500-nasdaq-open-higher-as-investors-weigh-report-of-fresh-u-s-iran-peace-deal-ce7859dbdb88f326)
+- [Trading Economics — US stock indexes Aug 11, 2026](https://tradingeconomics.com/united-states/stock-market)
 
-**Commentary:** A calm headline mask a style shift — oil and rates hit long-duration growth while energy and equal-weight breadth held up; the near-term bull/bear line remains Wednesday’s CPI versus oil.
+**Commentary:** Flat indexes mask a style tug-of-war—geopolitics and rates versus tech weights; holding the record zone hinges on whether CPI and oil reprice hike odds together.
 
 ---
 
-### 2. Asia cautious: Hong Kong slips, mainland mixed as oil and Hormuz deadlock dominate risk appetite (Indices / Asia)
-**Summary:** On Tuesday, August 11, Asian markets stayed cautious on U.S.–Iran deadlock and higher oil. The Hang Seng was reported down about 0.6% with Hong Kong tech about −1.3%; mainland equities were mixed, with the Shanghai Composite about −0.1% and the CSI 300 about +0.2% at midday, while Shenzhen and ChiNext held relatively firmer. The Nikkei was closed for Mountain Day. Early quotes put Shanghai near the 3,950 area and the Hang Seng in a roughly 25,800–26,000 range, with Korea also swinging before recovering.
+### 2. China A-shares fade after an early lift: Shanghai −0.82%, northbound selling heavy (Indexes/Asia)
+**Summary:** On August 11, A-shares closed weaker after a choppy session: the Shanghai Composite finished at 3,934.09 (−0.82%), the Shenzhen Component at 14,259.44 (−0.4%), ChiNext rose 0.34% to 3,549.16, and STAR 50 fell 1.63%. Combined Shanghai–Shenzhen turnover was about RMB 2.32 trillion, down roughly RMB 203 billion day-over-day, with more than 3,700 stocks lower. Northbound flows net sold nearly RMB 12.3 billion, extending a week of outflows totaling about RMB 25.6 billion. In Asia, the Hang Seng fell about 1.01% and CSI 300 about 0.81%; Japan was closed for Mountain Day.
 
 **Links:**
 
-- [FMT — China’s stocks mixed, Hong Kong slips as Hormuz hopes fade](https://www.freemalaysiatoday.com/category/business/2026/08/11/china-s-stocks-mixed-hong-kong-slips-as-hormuz-reopening-hopes-fade)
-- [RTHK — HK stocks open up amid caution over US-Iran gulf](https://news.rthk.hk/rthk/en/component/k2/1865737-20260811.htm?spTabChangeable=0)
+- [JRJ — A-share close: indexes retreat on lighter volume](https://stock.jrj.com.cn/2026/08/11150558070541.shtml)
+- [9fzt — Northbound net selling near RMB 12.3B](https://9fzt.com/common/2063acdb51b7281ce5fbb2ebc7fc09b9.html)
 
-**Commentary:** Asia is the first receptor of the oil premium — HK tech tracks Nasdaq/rates sensitivity, while mainland dispersion points to a geopolitics/inflation-tail trade rather than indiscriminate de-risking.
+**Commentary:** Structure over beta: ChiNext and CPO names drew cash while indexes and northbound flows lagged—sentiment repair looks late-cycle and needs earnings proof.
 
 ---
 
-## II. Tech & Mega-Caps
+## II. Tech & Mega-Cap Stocks
 
-### 3. Mag 7 keeps splintering: Nvidia ~−3%, Apple ~−1.5%, while Microsoft and Amazon rise (Tech)
-**Summary:** Monday’s Magnificent Seven moves diverged sharply. Nvidia closed near $217.55 (−2.86%); Apple near $308.26 (−1.53%). Microsoft closed near $506.06 (+1.21%); Alphabet (GOOGL) near $357.52 (+0.91%); Amazon also gained more than 1%. Hardware/semiconductors lagged while cloud/software held up better, and with oil and yields rising, the Nasdaq underperformed the Dow and S&P.
+### 3. Intel upsizes equity raise to $20 billion, prices at $95 a share (Tech)
+**Summary:** Intel on Tuesday priced an upsized common-stock offering of about 210.5 million shares at $95 each, lifting the deal from the prior $15 billion plan to $20 billion, with a 30-day greenshoe of up to ~31.6 million shares. Net proceeds are expected near $19.7 billion (ex-greenshoe) for general corporate purposes including capex and working capital, with closing targeted for August 12, 2026. Shares had already slid about 4% Monday on dilution fears, weighing on tech.
 
 **Links:**
 
-- [TradingKey — Market recap: Nvidia -3%, Intel -4%, oil surge](https://www.tradingkey.com/analysis/stocks/us-stocks/262094158-dow-nvidia-intel-coherent-us-oil-tradingkey)
-- [HDFC SKY — Dow and Nasdaq slide as oil surges 5%](https://hdfcsky.com/news/dow-nasdaq-slide-oil-surges-5-percent-iran-deal-hopes-fade-august-11-2026)
+- [Intel Newsroom — Upsize and pricing of $20B common stock offering](https://newsroom.intel.com/corporate/intel-announces-upsize-and-pricing-of-20-billion-common-stock-offering)
+- [Quartz — Intel upsizes stock offering to $20 billion](https://qz.com/intel-stock-offering-20-billion-ai-chips-081126)
 
-**Commentary:** Mag 7 has shifted from lockstep beta to single-name pricing — cloud monetization still supports software leaders, while AI hardware is more sensitive to financing structure and dilution, making dispersion itself a volatility source.
+**Commentary:** Financing foundry/AI capacity is constructive long term but a clear near-term dilution hit; watch post-settlement supply and use-of-proceeds clarity.
 
 ---
 
-### 4. Nvidia partners with six Wall Street firms to mobilize $500B+ AI compute financing; shares still fall (Tech / Institutions)
-**Summary:** On August 10, Nvidia announced MOUs with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to create independent compute financing platforms aiming to mobilize over $500 billion of third-party capital for AI infrastructure. Investors fretted about “circular financing” and demand durability, and Nvidia fell nearly 3%. Reports said Nvidia may offer residual-value guarantees of up to about 25% on chips in some projects to ease financing friction.
+### 4. Nvidia and Wall Street aim to mobilize $500B+ for AI compute finance; bond yields watched (Tech/Institutions)
+**Summary:** Nvidia signed MOUs with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to build independent compute-financing platforms intended to mobilize more than $500 billion of third-party capital for data centers and hardware. Markets also flagged a selloff in Nvidia’s bonds, with the 2% 2031 note yielding about 4.86%–4.89%. Shares traded near $218 after a roughly 3% drop in the prior session.
 
 **Links:**
 
-- [NVIDIA Newsroom — Partners to mobilize over $500B for AI compute financing](https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital)
-- [SiliconANGLE — Nvidia taps Wall Street for half-trillion AI buildout](https://siliconangle.com/2026/08/10/nvidia-taps-wall-street-half-trillion-dollars-fuel-global-ai-infrastructure-buildout/)
+- [NVIDIA Newsroom — AI compute infrastructure financing platforms (>$500B)](https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital)
+- [CNBC — Nvidia, Wall Street asset managers partner on $500B AI push](https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html)
 
-**Commentary:** Longer term this can unblock customer capex and support chip shipments; near term, “buy the rumor / sell the structure” and financial-engineering skepticism can compress multiples — watch committed capital, not the headline figure.
+**Commentary:** Demand-side financing supports the ecosystem, but “compute securitization” raises leverage/credit tails—bullish if orders accelerate, cautionary if credit reprices AI leverage.
 
 ---
 
-### 5. Intel launches common-stock raise: $15B proposed, then upsized to ~$20B at $95/share (Tech)
-**Summary:** Intel on Monday announced a proposed ~$15 billion underwritten common-stock offering for general corporate purposes (including capex and working capital), with an underwriter option for up to ~$2.25 billion more; shares fell more than 4%. Early Tuesday, CNBC and others reported the deal was upsized to about $20 billion at $95 a share, with expected net proceeds of about $19.7 billion and settlement targeted for August 12. Management cited strong AI customer demand and a desire to keep an investment-grade balance sheet.
+### 5. Magnificent 7 keep diverging: Apple steadier, Alphabet and Amazon softer (Tech)
+**Summary:** August 11 quotes showed Apple near $306.7 (−0.5%), Microsoft near $502 (−0.8%), Alphabet near $349.9 (−2.1%), Amazon near $272.4 (−2.1%), and Nvidia near $218.3 (+0.4%). Narrative-wise, Mag 7 as a single trade is cooling: pairwise correlation has fallen sharply, and capital is pricing each name on its own AI monetization path.
 
 **Links:**
 
-- [Intel Newsroom — Proposed $15 billion common stock offering](https://newsroom.intel.com/corporate/intel-announces-proposed-15-billion-common-stock-offering)
-- [CNBC — Intel upsizes stock offering to $20 billion at $95](https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html)
+- [Exa Markets — AAPL/MSFT/GOOGL/NVDA/AMZN quotes Aug 11, 2026](https://exa.ai/library/markets/stock/AAPL)
+- [Gate Blog — Mag 7 divergence and AI rally leadership](https://www.gate.com/blog/mag-7-losing-wall-street-attention-big-tech-stocks-decline-ai-market-next-winners-analysis)
 
-**Commentary:** Dilution is a hard near-term hit for holders, while funding foundry/packaging capacity is longer-term constructive; if the upsized book clears, institutions are paying cash for capacity exposure — expect elevated short-term volatility either way.
+**Commentary:** Less lockstep mega-cap beta can damp index swings but raises stock-picking and theme-rotation risk.
 
 ---
 
 ## III. Earnings & Fundamentals
 
-### 6. Berkshire Q2: operating earnings ~$12.98B (+16% YoY); buybacks and net equity buying accelerate (Earnings)
-**Summary:** Berkshire Hathaway reported on August 8: operating earnings of about $12.98 billion (+16% YoY) and net earnings attributable to shareholders of about $25.67 billion. Manufacturing/service/retail earnings rose about 24% to ~$4.47 billion, Berkshire Hathaway Energy about 27% to ~$891 million, and BNSF about 6% to ~$1.56 billion; insurance underwriting fell about 13%. Berkshire bought back about $4.5 billion of stock in Q2 and swung to nearly $20 billion of net equity purchases, with cash down to roughly the mid-$360 billion area. Markets continue to frame this as Greg Abel starting to deploy Buffett’s cash pile.
-
-**Links:**
-
-- [CNBC — Berkshire Q2 2026: operating earnings up 16%](https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html)
-- [Berkshire Hathaway — Aug 8, 2026 earnings release (PDF)](https://berkshirehathaway.com/news/aug0826.pdf)
-
-**Commentary:** Beat-and-buyback optics support a “bottom-up allocator” read; weaker underwriting is a reminder the cycle is not one-way. Index sentiment gets a mild bid; stock-level impact waits on Abel’s next holdings disclosures.
-
----
-
-### 7. CoreWeave set to report Q2 after the close on Aug 11: revenue guide ~$2.45–$2.60B, backlog near $100B (Earnings preview)
-**Summary:** AI cloud infrastructure provider CoreWeave (CRWV) is scheduled for a Q2 call at about 5:00 PM ET on August 11. Management previously guided Q2 revenue to $2.45–$2.60 billion; Street consensus clusters near $2.5–$2.6 billion (roughly double-plus YoY). Revenue backlog was disclosed near $99.4 billion as of March 31, 2026. Investors will focus more on updated backlog, 2026 capex (guided around $31–$35 billion), and interest expense than on near-term GAAP profitability.
+### 6. CoreWeave reports after the close: consensus sees revenue doubling with heavy losses and capex (Earnings)
+**Summary:** CoreWeave (CRWV) was set to release Q2 2026 results after the bell on August 11, with a 5:00 p.m. ET call. Bloomberg consensus pointed to roughly $2.5 billion in revenue (~+111% YoY) and an adjusted loss of about $1.18 per share, with capex potentially near $7.9 billion and a sharp rise in backlog/RPO. The stock had fallen more than 30% since the May print; options priced about a 14.6% move.
 
 **Links:**
 
 - [CoreWeave IR — Q2 2026 earnings call Aug 11, 5:00 PM ET](https://investors.coreweave.com/events-and-presentations/event-details/2026/CoreWeave-Second-Quarter-2026-Earnings-Conference-Call/default.aspx)
-- [Yahoo Finance — CRWV ahead of Q2 earnings](https://finance.yahoo.com/markets/stocks/articles/crwv-stock-ahead-q2-earnings-133700117.html)
+- [Yahoo Finance — CoreWeave to report amid spending, margin concerns](https://finance.yahoo.com/technology/article/coreweave-to-report-second-quarter-results-amid-spending-margin-concerns-193036479.html)
 
-**Commentary:** A key stress test of AI compute leasing demand versus leveraged buildout; soft backlog/guidance could spill into power, liquid-cooling, and second-tier chip risk appetite.
+**Commentary:** A live stress test of “AI demand vs. cash burn”—clear capacity/cash-flow guidance would support infrastructure names; a miss could hit high-multiple AI buildout stocks.
+
+---
+
+### 7. Berkshire under Abel deploys cash: Q2 operating earnings +16%, ~$20B net equity buys (Earnings/Institutions)
+**Summary:** Berkshire Hathaway’s Q2 operating earnings rose about 16% to $12.98 billion. CEO Greg Abel accelerated ~$4.5 billion of buybacks and swung to a net equity buyer of nearly $20 billion after 14 quarters of net selling, with cash and T-bills near ~$365 billion. The shift lifted shares into Monday’s session and remained a key institutional talking point on Tuesday.
+
+**Links:**
+
+- [CNBC — Berkshire Q2 2026: Abel puts cash to work](https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html)
+- [CNBC — Abel puts a big chunk of Berkshire's cash to work](https://www.cnbc.com/2026/08/09/abel-puts-a-big-chunk-of-berkshires-cash-to-work.html)
+
+**Commentary:** Cash deployment supports a “value buyer” narrative, but residual liquidity is still vast—more sentiment ballast than an immediate index re-rating.
 
 ---
 
 ## IV. Sectors & Industries
 
-### 8. Oil jumps ~5%: WTI ~$82.13, Brent ~$87.72; Chevron and Exxon rally more than 4% (Energy)
-**Summary:** With Hormuz reopening talks looking less imminent, Brent settled near $87.72 a barrel (~+5%) and WTI near $82.13 (~+5.1%) on Monday. U.S. energy led equities: Chevron rose about 4.48% to ~$194.91, Exxon about 4.41% to ~$159.79, and ConocoPhillips about 4.61%. CNBC and others warned that if the deadlock stretches into next week, price action may stop looking “benign”; strategic inventories near multi-decade lows amplify the supply premium.
+### 8. Oil nears $90 as Hormuz talks stall; energy wins, rate-sensitive names lag (Energy)
+**Summary:** Brent traded near $88–$90/bbl on Tuesday, up about 5% over two days and the highest since July 31; WTI hovered around $82–$84. Trump’s demand that Iran pay “compensation” complicated Hormuz reopening hopes. Shipping data showed traffic falling to about six vessels vs. a ~11-vessel 10-day average; Barclays cited net exports via the strait near 3 million bpd. Energy had surged about 4.6% on Monday, with names such as Chevron participating.
 
 **Links:**
 
-- [Time News — Stocks edge back as oil climbs on Iran tensions](https://time.news/u-s-stocks-edge-back-from-record-highs-as-oil-prices-climb-on-iran-tensions/)
-- [CNBC — Hormuz deadlock: oil price outlook](https://www.cnbc.com/2026/08/11/hormuz-oil-prices-us-iran.html)
-- [TS2 — Chevron jumps 4.5% as oil rally shrinks analyst upside](https://ts2.tech/en/chevron-stock-jumps-4-5-as-oil-rally-shrinks-analyst-upside-to-6/)
+- [MarketScreener/Reuters — Oil firm as US-Iran impasse drags on](https://www.marketscreener.com/news/oil-prices-rise-asia-stocks-drift-amid-us-iran-stalemate-ce7859dadf89f621)
+- [Euronext live — Oil climbs as U.S.-Iran peace hopes dim](https://live.euronext.com/en/financial-news/oil-steadies-near-one-week-highs-us-iran-peace-deal-hopes-dim)
 
-**Commentary:** Energy is the cleanest near-term beneficiary, but crowded upside is already compressing target room; if oil feeds inflation expectations, the trade upgrades from sector rotation to a macro-tightening impulse.
+**Commentary:** Energy is the tactical winner but also the inflation switch—prolonged strait disruption helps upstream and hurts long-duration growth.
+
+---
+
+### 9. A-share flows chase optics: Zhongji Innolight and Eoptolink lead inflows as telecom tops sectors (Sectors)
+**Summary:** Despite a weaker tape, China’s telecom sector rose about 1.13% on ~RMB 159 billion of turnover. Main-force net inflows were led by CPO leaders Eoptolink (~RMB 2.185 billion) and Zhongji Innolight (~RMB 1.809 billion); Zhongji’s ~RMB 30.0 billion turnover topped the A-share list. New listing “N Chaocun” jumped about 662% on debut to RMB 503.
+
+**Links:**
+
+- [Sina Finance — CPO leaders draw heavy main-force inflows](https://finance.sina.cn/stock/ggyj/2026-08-11/detail-inimyhkc7349589.d.html?node_id=76524&vt=4)
+
+**Commentary:** AI optical modules remain one of the strongest A-share consensus trades; crowded structure can persist with weak indexes—but volatility rises with crowding.
 
 ---
 
 ## V. Central Banks & Macro
 
-### 9. 10-year Treasury yield near 4.70% as markets await July CPI; Sept hike odds still roughly coin-flip (Macro)
-**Summary:** The 10-year Treasury yield rose about 5 basis points to roughly 4.70% on Monday, approaching a ~20-month high; some Tuesday quotes pushed toward about 4.74%. Higher oil revived “sticky inflation → higher-for-longer” concerns. The week’s key release is July CPI (surveys near ~3.4% YoY). CME FedWatch-linked reports put September hike odds around 46%–50%, down from roughly 64%–67% a week earlier, as the soft jobs print’s dovish impulse is partly offset by crude.
+### 10. Treasury yields stay elevated; September hike odds roughly a coin flip ahead of CPI (Macro)
+**Summary:** The U.S. 10-year yield traded near 4.69%–4.72% Tuesday as oil kept inflation re-pricing alive. Markets put September Fed hike odds near ~46% (vs. ~64% a week earlier) and hold odds near ~54%. Economists expect July CPI at about 3.4% YoY (from 3.5% in June), with core near ~2.5%. Friday’s surprising −23k payrolls print had driven the prior dovish repricing.
 
 **Links:**
 
-- [Trading Economics — US 10-year yield](https://tradingeconomics.com/united-states/government-bond-yield)
-- [Economic Times — US bonds fall as markets weigh inflation, Middle East risks](https://economictimes.indiatimes.com/markets/us-stocks/news/us-bonds-fall-as-markets-weight-inflation-middle-east-risks/articleshow/133130271.cms)
+- [Trading Economics — US 10-year Treasury yield](https://tradingeconomics.com/united-states/government-bond-yield)
+- [FXStreet — Treasury yields climb as oil spike revives CPI jitters](https://www.fxstreet.com/news/us-treasury-yields-climb-as-oil-spike-revives-cpi-jitters-202608102215)
 
-**Commentary:** Equities and bonds are pricing “cooling labor vs. oil inflation” at once; a hot CPI would hit high-multiple tech and rate-sensitive REITs/utilities hardest, while energy could stay relatively resilient.
+**Commentary:** CPI is the week’s pricing gate—hot data revives hike tails and hits growth; cool data reinforces high-level constructive chop.
 
 ---
 
-## VI. Institutions & Positioning
-
-### 10. Jefferies cuts Apple to Underperform, trims PT to about $263.66 (Institutions)
-**Summary:** Jefferies on Monday downgraded Apple from Hold to Underperform (sell-equivalent) and cut its price target to about $263.66 from about $285.56. The analyst cited supply-chain checks suggesting cancellation of an all-glass anniversary iPhone on yield issues, a harder ASP-up path, soaring memory costs, and limited visible AI progress. Reports said about six firms now have sell-equivalent ratings, with consensus recommendation near its weakest since 2019. Apple closed down about 1.5%.
+### 11. PBOC nets RMB 46.5 billion drain as reverse repos pause; money markets stay easy (Macro/Liquidity)
+**Summary:** On August 11 the PBOC skipped 7-day reverse repos while RMB 46.5 billion matured, producing a net drain of RMB 46.5 billion—the first reverse-repo pause in more than two months. Money-market commentary described balanced-to-loose conditions, with overnight pledged rates printing as low as ~1.36%. Short-end NCD yields edged slightly higher.
 
 **Links:**
 
-- [MarketScreener — Jefferies downgrades Apple to Underperform, PT $263.66](https://www.marketscreener.com/news/jefferies-downgrades-apple-to-underperform-from-hold-adjusts-pt-to-263-66-from-285-56-ce7f50d3d08afe26)
-- [Yahoo Finance / Bloomberg — Apple cut at Jefferies on iPhone worries](https://finance.yahoo.com/markets/stocks/articles/apple-cut-jefferies-iphone-worries-115949846.html)
+- [CNFIN — Money market daily, Aug 11](https://m.cnfin.com/yw-lb//zixun/20260811/4453944_1.html)
 
-**Commentary:** The cut sharpens cracks in the hardware ASP story; unless September’s event proves foldables/AI can offset memory inflation, Apple may keep lagging cloud-software mega-caps.
+**Commentary:** Net drain ≠ tightening while bank liquidity remains ample; for A-shares the binding constraint is risk appetite and northbound flows, not overnight cash.
 
 ---
 
-## VII. Sentiment & Technicals
+## VI. Sentiment & Technicals
 
-### 11. VIX up to ~15.46 but still low: soft demand for downside hedges as S&P consolidates into CPI (Sentiment / Technicals)
-**Summary:** The VIX rose about 3.76% to 15.46 on Monday — still historically contained. Some analysis said demand for S&P downside protection was the weakest since about April 2025. Technically, the S&P has largely consolidated near the upper bound of a rising channel since last Wednesday, awaiting CPI for direction; a break of the record high would reopen an 8,000 narrative, while failure could retest the channel’s lower bound. Equal-weight near highs versus cap-weighted soft close again points to index risk residing in mega-caps more than a broad washout.
+### 12. VIX eases to ~15.3: calm near records as traders wait on CPI (Sentiment)
+**Summary:** The Cboe VIX spot was about 15.32 on August 11, down ~0.9% from 15.46. Technically, the S&P 500 has consolidated near the upper bound of its rising channel since last Wednesday, with short-term support watched around 7,725 and resistance at recent record highs (historical peak near 7,794). Implied S&P moves into Wednesday’s CPI were roughly ±1.0%–1.2%.
 
 **Links:**
 
-- [StockWireX — Energy surge, yields peak, VIX at 15.46](https://stockwirex.com/news/us-stock-market-news-energy-surge-yields-august-2026/)
-- [InvestingLive — S&P 500 rally stalls ahead of US CPI](https://investinglive.com/stocks/the-s-p-500-rally-stalls-as-us-iran-deal-gets-delayed-and-the-focus-shifts-to-the-us-cpi-report/)
+- [Cboe — VIX spot as of August 11, 2026](https://www.cboe.com/tradable-products/vix/)
+- [InvestingLive — S&P 500 rally stalls ahead of CPI](https://investinglive.com/stocks/the-s-p-500-rally-stalls-as-us-iran-deal-gets-delayed-and-the-focus-shifts-to-the-us-cpi-report/)
 
-**Commentary:** Low vol plus high positioning is a fragile mix; hedges are still relatively cheap before any shock. Bull case: soft CPI and fading oil risk renew the grind higher; bear case: oil and CPI together force a volatility mean reversion.
+**Commentary:** Low vol into a high base often means short-vol crowding; a CPI surprise can lift both volatility and price swings—do not extrapolate calm as trend safety.
 
 ---
 
 ## Today's Summary
 
-- U.S. equities looked calm at the index level but rotated hard underneath: energy surged while tech and rate-sensitive groups lagged, leaving Nasdaq clearly weaker than the S&P and Dow.
-- The AI tape is pricing financing architecture: Nvidia’s $500B+ compute-funding partnerships and Intel’s multi-ten-billion equity raise trade expansion against dilution risk side by side.
-- Macro focus shifts to oil → inflation → Treasury yields → the September FOMC path, with Wednesday’s CPI as the week’s highest-weight event and CoreWeave’s after-close print testing AI infra demand quality.
-- **Opportunities & risks:** Opportunity skew toward strong energy cash-flow names, relatively resilient cloud software, and equal-weight breadth; risks include a prolonged Hormuz deadlock lifting oil, a hot CPI re-pricing hikes, and Mag 7 dispersion amplifying index swings.
+- U.S. equities chopped near records under Iran/oil versus tech weightings, awaiting Wednesday CPI; A-shares faded with heavy northbound selling while telecom/CPO stayed strong.
+- Tech split: Intel’s $20B upsized raise crystallized dilution, while Nvidia’s $500B+ compute-finance push raised leverage and credit focus.
+- Energy benefited from the Hormuz impasse near $90 oil, reinforcing inflation-tail risks; CoreWeave’s after-hours print tests AI-infrastructure cash burn.
+- **Opportunities & risks:** Upside in energy upstream, AI optics/infra names with earnings delivery, and growth if CPI cools; watch oil–yield co-moves, dilution overhang, northbound outflows, and a hot CPI reviving hike tails.
 
-**Daily Framing:** Today was a “style-rotation day under oil and dilution pressure” — beneath still index prints, markets pivoted from the soft-jobs trade toward inflation-tail risk and the quality of AI financing.
+**Daily Framing:** A high-level handoff day where geopolitics priced oil, dilution hit semis, and markets waited on CPI—indexes were quiet, but style, financing, and macro gates all tightened attention.
 
 ---
 
