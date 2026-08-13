@@ -64,12 +64,19 @@ SCRIPTS=(
   run-general-news.sh
 )
 
-# The daily script's preflight only proves DNS resolved at 09:00. What actually
-# happens is the host sleeping mid-run and waking without a network — and
-# cursor-agent answers an unreachable API by spinning, not by exiting. Re-check
-# before every attempt.
-_dns_ok() {
-  host api2.cursor.sh >/dev/null 2>&1 || nslookup api2.cursor.sh >/dev/null 2>&1
+# The daily script's preflight only proves the API was reachable at 09:00. What
+# actually happens is the host sleeping mid-run and waking without a network —
+# and cursor-agent answers an unreachable API by spinning, not by exiting.
+# Re-check before every attempt.
+#
+# `curl` first for the same reason as the daily script's preflight: it probes
+# the HTTPS round trip rather than just name resolution, and `host`/`nslookup`
+# are absent from the GitHub Actions ubuntu image. There the DNS-only version
+# reported every topic as dns_unresolvable before it ever called the agent.
+_net_ok() {
+  curl -sS --max-time 10 -o /dev/null "https://api2.cursor.sh" 2>/dev/null ||
+    host api2.cursor.sh >/dev/null 2>&1 ||
+    nslookup api2.cursor.sh >/dev/null 2>&1
 }
 
 run_topic() {
@@ -89,10 +96,10 @@ run_topic() {
     # second attempt is far cheaper than losing the topic for the day.
     local attempt
     for attempt in 1 2; do
-      if ! _dns_ok; then
+      if ! _net_ok; then
         ended_at="$(date +%s)"
         duration="$((ended_at - started_at))"
-        log_error "Topic aborted topic=${topic} attempt=${attempt} duration_sec=${duration} reason=dns_unresolvable"
+        log_error "Topic aborted topic=${topic} attempt=${attempt} duration_sec=${duration} reason=api_unreachable"
         return 69 # EX_UNAVAILABLE
       fi
       # `exit_code="$?"` must live in the `else` branch: a failed `if` with no

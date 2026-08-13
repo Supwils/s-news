@@ -103,7 +103,11 @@ case "$BACKEND" in
       echo "错误: 未找到 Cursor CLI (cursor-agent)。请安装: curl https://cursor.com/install -fsS | bash" >&2
       exit 1
     fi
-    _run_with_timeout cursor-agent -p --force --model "$MODEL" "@${COMMAND_FILE}" "${INSTRUCTION}"
+    # `--trust` accepts the workspace without prompting. On this host that is a
+    # no-op — the trust decision is already recorded in ~/.cursor — but a CI
+    # runner checks the repo out into a HOME that has never seen it, and a
+    # headless agent has no way to answer the prompt.
+    _run_with_timeout cursor-agent -p --force --trust --model "$MODEL" "@${COMMAND_FILE}" "${INSTRUCTION}"
     ;;
 
   claude)

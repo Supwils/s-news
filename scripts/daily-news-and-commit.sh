@@ -62,24 +62,42 @@ log_info "Daily job started project_root=${PROJECT_ROOT}"
 # --- Network preflight --------------------------------------------------------
 # A bad wifi / DNS at 09:00 is the dominant historical failure mode (often
 # 90+ minutes wasted on cursor-agent's internal retries). Verify Cursor's API
-# host resolves before launching the pipeline; if it doesn't after a short
+# is reachable before launching the pipeline; if it isn't after a short
 # bounded wait, abort cleanly with a notification.
+#
+# `curl` leads because it tests what the run actually needs — an HTTPS round
+# trip to the API — rather than only that a name resolved. It is also the one
+# probe guaranteed to exist on both this Mac and a CI runner: `host` and
+# `nslookup` ship in dnsutils, which is NOT installed on the GitHub Actions
+# ubuntu image. Without this, the preflight below would fail on every cloud run
+# and take the `exit 0` path — a green job that publishes nothing, every day.
+# The two DNS probes stay as fallbacks so local behaviour is unchanged.
 LAST_STEP="network_preflight"
 log_info "Step start: network_preflight host=api2.cursor.sh"
+_net_ok() {
+  curl -sS --max-time 10 -o /dev/null "https://api2.cursor.sh" 2>/dev/null ||
+    host api2.cursor.sh >/dev/null 2>&1 ||
+    nslookup api2.cursor.sh >/dev/null 2>&1
+}
 NET_OK=0
 for attempt in 1 2 3 4 5 6; do
-  if host api2.cursor.sh >/dev/null 2>&1 || nslookup api2.cursor.sh >/dev/null 2>&1; then
+  if _net_ok; then
     NET_OK=1
     break
   fi
-  log_warn "Preflight DNS attempt ${attempt}/6 failed; sleeping 20s"
+  log_warn "Preflight network attempt ${attempt}/6 failed; sleeping 20s"
   sleep 20
 done
 if [[ "$NET_OK" != "1" ]]; then
-  log_error "Network preflight failed: api2.cursor.sh unresolvable after 6 attempts (~2 min)"
-  notify_failure "network_preflight" "DNS for api2.cursor.sh unresolvable after 6 attempts" "" || true
-  # Exit 0 explicitly: this is an environment skip, not a job failure — avoids
-  # the ERR trap double-notifying and keeps launchd's failure stats clean.
+  log_error "Network preflight failed: api2.cursor.sh unreachable after 6 attempts (~2 min)"
+  notify_failure "network_preflight" "api2.cursor.sh unreachable after 6 attempts" "" || true
+  # On this laptop an unreachable API at 09:00 is an environment skip, not a job
+  # failure, so exit 0 and keep launchd's failure stats clean. On CI it is the
+  # opposite: nothing else watches this job, so a silent exit 0 would render a
+  # green check over a day that published nothing. Fail loudly there.
+  if [[ -n "${CI:-}" ]]; then
+    exit 1
+  fi
   exit 0
 fi
 log_info "Step success: network_preflight"

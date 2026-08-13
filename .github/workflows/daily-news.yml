@@ -1,0 +1,114 @@
+# Cloud twin of the launchd job (com.snews.daily-news.plist).
+#
+# Runs the exact same entry point as the Mac — scripts/daily-news-and-commit.sh —
+# so there is one pipeline, not two that drift. Everything CI-specific lives in
+# this file; the scripts stay host-agnostic.
+#
+# Why this exists: generation ran on one laptop. The 2026-07-24 09:00 run
+# measured the cost — the host slept four minutes in and burned seven hours to
+# publish nothing — and even after `caffeinate` and a sleep-proof watchdog, a
+# machine that is powered off at 09:00 simply does not run. A runner does.
+name: daily-news
+
+on:
+  schedule:
+    # 16:00 UTC = 09:00 PDT, matching the launchd StartCalendarInterval.
+    # GitHub cron has no DST, so this lands at 08:00 during PST. That is fine:
+    # the digest is dated, not timed. GitHub also queues scheduled runs under
+    # load, so treat 09:00 as "give or take half an hour".
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+    inputs:
+      backend:
+        description: "Agent backend. 'noop' writes nothing and exercises the plumbing for free (it is EXPECTED to fail the >=7/10 threshold)."
+        type: choice
+        options: [cursor, noop]
+        default: cursor
+      parallelism:
+        description: "Concurrent topics (local default is 2)"
+        default: "2"
+
+permissions:
+  contents: write # commits the day's NEWS/ and pushes; Vercel deploys off that push
+
+# One issue per day. A scheduled run overlapping a manual one would have two
+# agents writing the same NEWS/<topic>/<date> files.
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # Worst case: 10 topics / 2 lanes = 5 waves x 20 min cap, plus install,
+    # build and the deploy probe. Observed local runs finish in well under 45.
+    timeout-minutes: 150
+
+    env:
+      # The runner is UTC. Every filename, title and index entry in the existing
+      # 2348-file corpus is stamped with the author's local date, so pin the zone
+      # rather than silently starting a UTC-dated series.
+      TZ: America/Los_Angeles
+      SITE_URL: https://news.supwil.com
+      NEWS_AGENT_BACKEND: ${{ inputs.backend || 'cursor' }}
+      NEWS_PARALLELISM: ${{ inputs.parallelism || '2' }}
+      # Lower than the 1800s local default so the worst case still fits inside
+      # timeout-minutes above. Observed topic durations are 154-467s.
+      NEWS_AGENT_TIMEOUT_SECONDS: "1200"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4 # reads the version from package.json "packageManager"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22 # matches the nvm version the launchd job pins
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Configure git for CI
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # `pnpm install` ran `prepare`, which points core.hooksPath at
+          # .githooks — so the script's `git push` would trigger pre-push and
+          # re-run validate:news + lint + test, minutes after this job already
+          # ran the same content through `pnpm build`. Restore the default
+          # (empty) hooks dir. The local hook is untouched; this is CI-only.
+          git config core.hooksPath .git/hooks
+
+      - name: Install Cursor CLI
+        run: |
+          curl https://cursor.com/install -fsS | bash
+          # The docs say ~/.cursor/bin; this project's Mac has it in
+          # ~/.local/bin. Add both rather than betting on either.
+          echo "$HOME/.cursor/bin" >> "$GITHUB_PATH"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Verify agent is on PATH
+        run: cursor-agent --version
+
+      - name: Generate, build, commit, deploy, warm
+        env:
+          # Step-scoped on purpose: checkout and install have no business
+          # holding the key.
+          CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: bash scripts/daily-news-and-commit.sh
+
+      # Logs and quarantined digests are gitignored, so without this a failed
+      # cloud run leaves nothing to read. This is the cloud replacement for
+      # opening logs/debug/ on the Mac.
+      - name: Upload run logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-news-logs-${{ github.run_id }}
+          path: |
+            logs/
+            .generated/daily-run.json
+            .quarantine/
+          retention-days: 14
+          if-no-files-found: ignore
