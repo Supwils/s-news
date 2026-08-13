@@ -12,11 +12,16 @@ name: daily-news
 
 on:
   schedule:
-    # 16:00 UTC = 09:00 PDT, matching the launchd StartCalendarInterval.
-    # GitHub cron has no DST, so this lands at 08:00 during PST. That is fine:
-    # the digest is dated, not timed. GitHub also queues scheduled runs under
-    # load, so treat 09:00 as "give or take half an hour".
-    - cron: "0 16 * * *"
+    # 14:43 UTC = 07:43 PDT / 06:43 PST.
+    #
+    # The minute matters more than the hour. GitHub queues scheduled runs by
+    # UTC instant, and almost everyone writes round crons, so `0 * * * *` — and
+    # `0 0 * * *` above all — pile the whole world into one minute and delay
+    # runs by 20-30 minutes or drop them outright. :43 is a minute nobody picks.
+    #
+    # No DST here, so this drifts an hour in winter. The digest is dated, not
+    # timed, so that costs nothing.
+    - cron: "43 14 * * *"
   workflow_dispatch:
     inputs:
       backend:
