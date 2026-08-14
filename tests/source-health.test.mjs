@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { summarizeSources } from "../lib/source-health.ts";
+import { isCoveredByCheck, summarizeSources } from "../lib/source-health.ts";
 
 const digest = `
 ### 1. First story
@@ -48,4 +48,25 @@ test("summarizeSources matches the report's raw-URL keys", () => {
   // normalized, every www host would silently count as reachable.
   const md = "[x](https://www.cnbc.com/b)";
   assert.equal(summarizeSources(md, new Set(["https://www.cnbc.com/b"])).archived, 1);
+});
+
+test("isCoveredByCheck refuses to speak for issues the check never saw", () => {
+  // The report holds only dead URLs, so "absent" means either checked-and-fine
+  // or never-checked. Without this guard every issue published since the last
+  // weekly run claims a verification it never got — and that is the newest
+  // issue nearly every day, the one most people read.
+  assert.equal(isCoveredByCheck("2026-08-13", "2026-08-14T08:16:50.447Z"), true);
+  assert.equal(isCoveredByCheck("2026-08-15", "2026-08-14T08:16:50.447Z"), false);
+});
+
+test("isCoveredByCheck treats a same-day issue as covered", () => {
+  // The weekly check runs at the end of the daily job, after that day's content
+  // is committed, so it sees the issue dated the same day.
+  assert.equal(isCoveredByCheck("2026-08-14", "2026-08-14T23:59:00.000Z"), true);
+  assert.equal(isCoveredByCheck("2026-08-14", "2026-08-14T00:00:01.000Z"), true);
+});
+
+test("isCoveredByCheck reports no coverage when there is no report", () => {
+  assert.equal(isCoveredByCheck("2026-08-13", null), false);
+  assert.equal(isCoveredByCheck("", "2026-08-14T08:16:50.447Z"), false);
 });

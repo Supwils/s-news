@@ -1,4 +1,4 @@
-import { summarizeSources } from "@/lib/source-health";
+import { isCoveredByCheck, summarizeSources } from "@/lib/source-health";
 import type { DeadLinks } from "@/lib/link-health";
 
 /**
@@ -17,6 +17,8 @@ import type { DeadLinks } from "@/lib/link-health";
 type Props = {
   content: string;
   deadLinks: DeadLinks;
+  /** This issue's date, compared against the report to know if it was covered. */
+  articleDate: string;
   /** ISO timestamp from the report; null when there is no usable report. */
   checkedAt: string | null;
   locale: "zh" | "en";
@@ -37,7 +39,7 @@ function formatCheckedAt(checkedAt: string, locale: "zh" | "en") {
   return `${year}年${month}月${day}日`;
 }
 
-export function SourceHealthStrip({ content, deadLinks, checkedAt, locale }: Props) {
+export function SourceHealthStrip({ content, deadLinks, articleDate, checkedAt, locale }: Props) {
   const { total, reachable, archived } = summarizeSources(content, deadLinks);
 
   // A digest with no links has nothing to attest to; an empty strip would be
@@ -45,14 +47,19 @@ export function SourceHealthStrip({ content, deadLinks, checkedAt, locale }: Pro
   if (total === 0) return null;
 
   const verifiedOn = checkedAt ? formatCheckedAt(checkedAt, locale) : null;
+  const covered = isCoveredByCheck(articleDate, checkedAt);
 
-  const parts =
-    locale === "en"
+  // An issue newer than the last check is not "all reachable" — it is unknown.
+  // The report only records dead URLs, so its silence about these is not
+  // evidence, and the check runs weekly: on most days this is the newest issue.
+  const parts = !covered
+    ? locale === "en"
+      ? [`${total} ${total === 1 ? "source" : "sources"} cited`, "not yet verified"]
+      : [`本期引用来源 ${total} 条`, "尚未校验"]
+    : locale === "en"
       ? [
           `${total} ${total === 1 ? "source" : "sources"} cited`,
-          archived === 0
-            ? "all still reachable"
-            : `${reachable} reachable · ${archived} archived`,
+          archived === 0 ? "all still reachable" : `${reachable} reachable · ${archived} archived`,
         ]
       : [
           `本期引用来源 ${total} 条`,
@@ -73,7 +80,7 @@ export function SourceHealthStrip({ content, deadLinks, checkedAt, locale }: Pro
     >
       <p>
         {parts.join(" · ")}
-        {archived > 0 ? (
+        {covered && archived > 0 ? (
           <span className="ml-1.5 text-(--np-ink-red)">
             {locale === "en" ? "(opens Web Archive)" : "（打开存档快照）"}
           </span>

@@ -175,6 +175,7 @@ export default async function EnglishNewsDetailPage({ params }: NewsDetailPagePr
       <SourceHealthStrip
         content={content}
         deadLinks={deadLinks}
+        articleDate={date}
         checkedAt={linkCheckedAt}
         locale={entryEn ? "en" : "zh"}
       />

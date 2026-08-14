@@ -151,7 +151,13 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
   const articleBody = (
     <>
       <NewsMarkdown content={zhContent} deadLinks={deadLinks} articleDate={date} locale="zh" />
-      <SourceHealthStrip content={zhContent} deadLinks={deadLinks} checkedAt={linkCheckedAt} locale="zh" />
+      <SourceHealthStrip
+        content={zhContent}
+        deadLinks={deadLinks}
+        articleDate={date}
+        checkedAt={linkCheckedAt}
+        locale="zh"
+      />
     </>
   );
 
