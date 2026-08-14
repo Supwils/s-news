@@ -208,6 +208,11 @@ const copyZh = {
       badge: "Topic archive",
       defaultTitle: "日报",
     },
+    pipelineRecord: {
+      badge: "运行记录",
+      heading: "这条流水线自己的出勤表",
+      body: "日报由自动流水线生成、校验并发布。它每天的成绩——发了没有、带了几个主题、跑了多久、哪个主题失败——都记录在提交进仓库的档案里，和它产出的内容一起公开。缺席的日子没有被抹掉。",
+    },
     detailPage: {
       issueDetails: "期数详情",
       inThisIssue: "本期要目",
@@ -413,6 +418,11 @@ const copyEn = {
       backToTopic: (label: string) => `Back to ${label}`,
       badge: "Topic archive",
       defaultTitle: "Digest",
+    },
+    pipelineRecord: {
+      badge: "Run record",
+      heading: "The pipeline's own attendance",
+      body: "Every issue is generated, validated and published by an automated pipeline. How it did each day — whether an issue came out, how many topics it carried, how long it took, which topics failed — is kept in a file committed alongside the content it produces. The days it delivered nothing are still there.",
     },
     detailPage: {
       issueDetails: "Issue details",

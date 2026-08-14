@@ -39,6 +39,13 @@ trim() {
 DEBUG_DIR="$PROJECT_ROOT/logs/debug"
 mkdir -p "$DEBUG_DIR"
 
+# Per-topic outcomes, appended by each lane. `>>` of a single short line is
+# atomic enough for concurrent lanes on both macOS and Linux; the alternative
+# (a file per topic) buys nothing at this size.
+TOPIC_RESULTS="$(mktemp "${TMPDIR:-/tmp}/news-topic-results-XXXXXX")"
+trap 'rm -f "$TOPIC_RESULTS"' EXIT
+
+RUN_STARTED_AT="$(date +%s)"
 log_info "Generate all topics started model=${NEWS_AGENT_MODEL} parallelism=${NEWS_PARALLELISM}"
 
 export SKIP_NEWS_INDEX_REFRESH=1
@@ -109,6 +116,10 @@ run_topic() {
         ended_at="$(date +%s)"
         duration="$((ended_at - started_at))"
         log_info "Topic success topic=${topic} attempt=${attempt} duration_sec=${duration} debug_log=${debug_log}"
+        # One line per topic for the committed run record. Written from the
+        # subshell that owns the topic, so it goes to a file rather than a
+        # variable — a `&`-backgrounded lane cannot assign to its parent.
+        printf '%s\t%s\t%s\t%s\n' "$topic" "ok" "$attempt" "$duration" >>"$TOPIC_RESULTS"
         return 0
       else
         exit_code="$?"
@@ -131,6 +142,7 @@ run_topic() {
     reason="$(awk 'NF{line=$0} END{print line}' "$debug_log" 2>/dev/null || true)"
     reason="$(trim "${reason:-unknown_error}")"
     log_error "Topic failed topic=${topic} duration_sec=${duration} exit_code=${exit_code} reason=${reason} debug_log=${debug_log}"
+    printf '%s\t%s\t%s\t%s\n' "$topic" "failed" "${attempt:-1}" "$duration" >>"$TOPIC_RESULTS"
     return "$exit_code"
   else
     log_warn "Topic skipped script=${script} reason=missing_or_not_executable"
@@ -196,15 +208,33 @@ DAILY_RUN_DATE="$(date +%Y-%m-%d)" \
 DAILY_RUN_TOTAL="$TOTAL" \
 DAILY_RUN_SUCCEEDED="${SUCCEEDED[*]:-}" \
 DAILY_RUN_FAILED="${FAILED[*]:-}" \
+DAILY_RUN_DURATION="$(( $(date +%s) - RUN_STARTED_AT ))" \
+DAILY_RUN_TOPIC_RESULTS="$TOPIC_RESULTS" \
 node -e '
+  const fs = require("node:fs");
   const list = (value) => (value ?? "").split(" ").filter(Boolean);
+  // Per-topic lines are tab-separated: topic, status, attempts, seconds.
+  let topics = [];
+  try {
+    topics = fs
+      .readFileSync(process.env.DAILY_RUN_TOPIC_RESULTS, "utf8")
+      .split("\n")
+      .filter(Boolean)
+      .map((line) => {
+        const [topic, status, attempts, durationSec] = line.split("\t");
+        return { topic, status, attempts: Number(attempts), durationSec: Number(durationSec) };
+      })
+      .sort((a, b) => a.topic.localeCompare(b.topic));
+  } catch { /* no lane wrote anything: leave the array empty rather than fail the run */ }
   const manifest = {
     date: process.env.DAILY_RUN_DATE,
     total: Number(process.env.DAILY_RUN_TOTAL),
     succeeded: list(process.env.DAILY_RUN_SUCCEEDED),
     failed: list(process.env.DAILY_RUN_FAILED),
+    durationSec: Number(process.env.DAILY_RUN_DURATION),
+    topics,
   };
-  require("node:fs").writeFileSync(process.argv[1], JSON.stringify(manifest, null, 2) + "\n");
+  fs.writeFileSync(process.argv[1], JSON.stringify(manifest, null, 2) + "\n");
 ' "$PROJECT_ROOT/.generated/daily-run.json"
 
 if [[ "${#FAILED[@]}" -gt 0 ]]; then

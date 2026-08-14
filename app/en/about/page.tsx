@@ -9,6 +9,8 @@ import { RuntimeNavLink } from "@/components/runtime-nav-link";
 import { getCopy } from "@/data/copy";
 import { localizePath } from "@/lib/locale-routing";
 import { getAllNewsPreviews, formatDisplayDate } from "@/lib/news";
+import { PipelineRecord } from "@/components/pipeline-record";
+import { getPipelineByTopic, getPipelineSummary, getRecentRuns } from "@/lib/pipeline-metrics";
 import { TOPICS, getTopicMeta } from "@/lib/news-meta";
 import { SITE_NAME } from "@/lib/site";
 
@@ -32,6 +34,11 @@ export default async function EnglishAboutPage() {
   const latestEntries = latestDate ? entries.filter((entry) => entry.date === latestDate) : [];
   const archiveDays = new Set(entries.map((entry) => entry.date)).size;
   const topics = TOPICS.map((topic) => getTopicMeta(topic.key, locale)!).filter(Boolean);
+  const [pipelineSummary, pipelineTopics, recentRuns] = await Promise.all([
+    getPipelineSummary(),
+    getPipelineByTopic(),
+    getRecentRuns(90),
+  ]);
 
   return (
     <div className="np-root">
@@ -88,6 +95,20 @@ export default async function EnglishAboutPage() {
             />
             <Metric label="Topics" value={`${topics.length}`} hint="Same topic taxonomy as the Chinese archive" borderLeft />
             <Metric label="Archive days" value={`${archiveDays}`} hint="Days with at least one English digest" borderLeft />
+          </div>
+        </section>
+
+        <section style={sectionStyle}>
+          <SectionLabel icon={<Command size={12} />} label={copy.ui.pipelineRecord.badge} />
+          <h2 className="np-serif" style={headingStyle}>{copy.ui.pipelineRecord.heading}</h2>
+          <p
+            className="np-sans"
+            style={{ marginTop: 14, maxWidth: 720, fontSize: 15, lineHeight: 1.75, color: "var(--color-text-secondary)" }}
+          >
+            {copy.ui.pipelineRecord.body}
+          </p>
+          <div style={{ marginTop: 24 }}>
+            <PipelineRecord summary={pipelineSummary} topics={pipelineTopics} recent={recentRuns} locale={locale} />
           </div>
         </section>
 

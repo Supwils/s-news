@@ -117,6 +117,14 @@ log_info "Step start: build command=pnpm build"
 pnpm build
 log_info "Step success: build"
 
+# Fold this run into the committed record before the commit, so it rides that
+# commit instead of costing a second deploy of its own.
+LAST_STEP="record_run"
+log_info "Step start: record_run"
+node "$SCRIPT_DIR/record-run.mjs" --published "$([[ -n $(git status -s -- NEWS/) ]] && echo true || echo false)" || \
+  log_warn "Step warn: record_run failed (non-fatal)"
+log_info "Step success: record_run"
+
 LAST_STEP="git_commit_push"
 COMMITTED=0
 # `git add -A NEWS/` stages additions, modifications and deletions under NEWS/
@@ -130,8 +138,12 @@ if [[ -n $(git status -s -- NEWS/) ]]; then
   # makes the commit carry NEWS/ and nothing else, and — verified — it still
   # picks up newly added files while leaving the rest of the index staged and
   # untouched for whoever put it there.
-  git add -A NEWS/
-  git commit -m "feat(content): adding daily news" -- NEWS/
+  git add -A NEWS/ pipeline-metrics.json
+  # The pathspec still bounds the commit to these two paths — anything else the
+  # operator left staged stays staged. pipeline-metrics.json rides along rather
+  # than getting its own commit, which would deploy the site twice a day to say
+  # the same thing.
+  git commit -m "feat(content): adding daily news" -- NEWS/ pipeline-metrics.json
   git push
   COMMITTED=1
   log_info "Step success: git_commit_push result=committed_and_pushed"

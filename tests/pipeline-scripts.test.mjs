@@ -67,16 +67,18 @@ test("a network failure does not buy a second full-length attempt", () => {
   );
 });
 
-test("the daily content commit is limited to NEWS/", () => {
+test("the daily content commit names every path it may carry", () => {
   const source = read("daily-news-and-commit.sh");
 
   // `git add -A NEWS/` bounds staging, not committing: `git commit` writes the
-  // whole index, which is how 4985d86 shipped two unrelated doc renames.
-  assert.match(
-    source,
-    /git commit -m "feat\(content\): adding daily news" -- NEWS\//,
-    "the content commit must carry a NEWS/ pathspec",
-  );
+  // whole index, which is how 4985d86 shipped two unrelated doc renames. The
+  // pathspec is the guard, so it has to enumerate what the run may write —
+  // NEWS/ for content and pipeline-metrics.json for the run record, which rides
+  // this commit rather than deploying the site a second time to record itself.
+  const commit = source.match(/git commit -m "feat\(content\): adding daily news" --([^\n]*)/);
+  assert.ok(commit, "the content commit must carry a pathspec");
+  const paths = commit[1].trim().split(/\s+/);
+  assert.deepEqual(paths, ["NEWS/", "pipeline-metrics.json"]);
 });
 
 test("the cache warmup waits for a probe, never a fixed sleep", () => {

@@ -1446,3 +1446,33 @@ select {
     transition: none;
   }
 }
+
+/* ── Delivery strip (about page) ────────────────────────────────────────────
+   One cell per day of the pipeline's operating span. Colour carries the state
+   but so does opacity and, on hover, the title — a reader who cannot separate
+   the hues still gets the gaps from the lighter cells and the tooltip. */
+.np-runstrip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.np-runstrip-cell {
+  width: 9px;
+  height: 18px;
+  border-radius: 1px;
+  background: var(--color-border);
+}
+
+.np-runstrip-cell[data-state="full"] {
+  background: var(--color-text-secondary);
+}
+
+.np-runstrip-cell[data-state="partial"] {
+  background: var(--color-accent-gold);
+}
+
+.np-runstrip-cell[data-state="missed"] {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--color-border-strong);
+}

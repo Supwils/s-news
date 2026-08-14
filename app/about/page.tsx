@@ -9,6 +9,8 @@ import { getCopy } from "@/data/copy";
 import { RuntimeNavLink } from "@/components/runtime-nav-link";
 import { localizePath } from "@/lib/locale-routing";
 import { getAllNewsPreviews, formatDisplayDate } from "@/lib/news";
+import { PipelineRecord } from "@/components/pipeline-record";
+import { getPipelineByTopic, getPipelineSummary, getRecentRuns } from "@/lib/pipeline-metrics";
 import { TOPICS, getTopicMeta } from "@/lib/news-meta";
 import { SITE_NAME } from "@/lib/site";
 
@@ -32,6 +34,11 @@ export default async function AboutPage() {
   const latestEntries = latestDate ? entries.filter((entry) => entry.date === latestDate) : [];
   const archiveDays = new Set(entries.map((entry) => entry.date)).size;
   const topicsWithLocale = TOPICS.map((t) => getTopicMeta(t.key, locale)!);
+  const [pipelineSummary, pipelineTopics, recentRuns] = await Promise.all([
+    getPipelineSummary(),
+    getPipelineByTopic(),
+    getRecentRuns(90),
+  ]);
 
   return (
     <div className="np-root">
@@ -101,6 +108,25 @@ export default async function AboutPage() {
               label={copy.about.metrics.archiveLabel}
               value={`${archiveDays}`}
               hint={copy.about.metrics.archiveHint}
+            />
+          </div>
+        </section>
+
+        {/* Pipeline record */}
+        <section style={sectionStyle}>
+          <SectionBadge icon={<Sparkles size={12} />} label={copy.ui.pipelineRecord.badge} />
+          <h2 className="np-serif" style={sectionHeading}>
+            {copy.ui.pipelineRecord.heading}
+          </h2>
+          <p className="np-sans" style={sectionBody}>
+            {copy.ui.pipelineRecord.body}
+          </p>
+          <div style={{ marginTop: 24 }}>
+            <PipelineRecord
+              summary={pipelineSummary}
+              topics={pipelineTopics}
+              recent={recentRuns}
+              locale={locale}
             />
           </div>
         </section>
