@@ -24,7 +24,11 @@ node "$SCRIPT_DIR/check-links.mjs"
 
 if [[ "${LINK_CHECK_COMMIT:-1}" == "1" && -n $(git status -s -- link-health.json) ]]; then
   git add link-health.json
-  git commit -m "chore(links): refresh link-health report"
+  # The pathspec bounds what is COMMITTED, not just what is staged: `git commit`
+  # with no pathspec commits the whole index, which is how 4985d86 shipped two
+  # unrelated doc renames the operator had left staged. daily-news-and-commit.sh
+  # was fixed for this; this script is its sibling and had the same hole.
+  git commit -m "chore(links): refresh link-health report" -- link-health.json
   if [[ "${LINK_CHECK_PUSH:-0}" == "1" ]]; then
     git push
   fi

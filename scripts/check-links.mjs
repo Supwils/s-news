@@ -24,13 +24,18 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { chunk, classifyStatus, extractUrls } from "./link-health-lib.mjs";
+import { classifyStatus, extractUrls, interleaveByHost, mapWithConcurrency } from "./link-health-lib.mjs";
 
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const NEWS_ROOT = path.join(PROJECT_ROOT, "NEWS");
 const OUTPUT_PATH = path.join(PROJECT_ROOT, "link-health.json");
 
-const CONCURRENCY = Number(process.env.LINK_CHECK_CONCURRENCY ?? 24);
+// 24 was chosen when batches were single-host, where it meant 24 simultaneous
+// requests at one origin. Interleaving spreads a batch across ~thousands of
+// hosts, so the same number is now almost nothing per host and the limit is
+// just throughput. 48 checks the whole corpus in ~35 min; the daily job appends
+// this to a 34-min run on Mondays and must stay inside its 150-min timeout.
+const CONCURRENCY = Number(process.env.LINK_CHECK_CONCURRENCY ?? 48);
 const TIMEOUT_MS = Number(process.env.LINK_CHECK_TIMEOUT_MS ?? 12000);
 
 function argValue(name) {
@@ -100,7 +105,10 @@ async function probe(url) {
 
 async function main() {
   const allUrls = await collectUrls();
-  const urls = SAMPLE > 0 ? allUrls.slice(0, SAMPLE) : allUrls;
+  const selected = SAMPLE > 0 ? allUrls.slice(0, SAMPLE) : allUrls;
+  // collectUrls sorts, so every host's URLs arrive adjacent and a batch became
+  // CONCURRENCY simultaneous requests to one origin. Spread them before batching.
+  const urls = interleaveByHost(selected);
 
   console.log(`link-health: ${allUrls.length} distinct URLs${SAMPLE ? ` (checking first ${urls.length})` : ""}`);
 
@@ -113,18 +121,16 @@ async function main() {
   const tally = { ok: 0, dead: 0, unknown: 0 };
   let done = 0;
 
-  for (const batch of chunk(urls, CONCURRENCY)) {
-    await Promise.all(
-      batch.map(async (url) => {
-        const status = await probe(url);
-        const verdict = classifyStatus(status);
-        links[url] = { status, verdict };
-        tally[verdict] += 1;
-        done += 1;
-      }),
-    );
-    process.stderr.write(`\r  checked ${done}/${urls.length} · ok ${tally.ok} dead ${tally.dead} unknown ${tally.unknown}`);
-  }
+  await mapWithConcurrency(urls, CONCURRENCY, async (url) => {
+    const status = await probe(url);
+    const verdict = classifyStatus(status);
+    links[url] = { status, verdict };
+    tally[verdict] += 1;
+    done += 1;
+    if (done % 50 === 0 || done === urls.length) {
+      process.stderr.write(`\r  checked ${done}/${urls.length} · ok ${tally.ok} dead ${tally.dead} unknown ${tally.unknown}`);
+    }
+  });
   process.stderr.write("\n");
 
   // `checkedAt` is passed in rather than read from the clock so a scheduled run
@@ -143,6 +149,17 @@ async function main() {
         .map(([url, info]) => [url, { status: info.status }]),
     ),
   };
+
+  // A partial run must never replace the committed report. `--sample` is
+  // documented as a smoke test, but it wrote its handful of URLs straight over
+  // link-health.json — one smoke test and the site loses every real verdict it
+  // had. Sampling now reports to stdout and leaves the file alone.
+  if (SAMPLE > 0) {
+    console.log(
+      `link-health: SAMPLE of ${urls.length} — ok ${tally.ok} · dead ${tally.dead} · unknown ${tally.unknown} (${path.relative(PROJECT_ROOT, OUTPUT_PATH)} left untouched)`,
+    );
+    return;
+  }
 
   await writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`, "utf8");
   console.log(
