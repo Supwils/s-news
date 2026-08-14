@@ -5,7 +5,9 @@ import { NewsDetailContent } from "@/components/news-detail-content";
 import { NewsMarkdown } from "@/components/news-markdown-block";
 import { adjacentDates } from "@/lib/adjacent-dates";
 import { getEventsForDigest } from "@/lib/events";
-import { getDeadLinks } from "@/lib/link-health";
+import { getDeadLinks, getLinkCheckedAt } from "@/lib/link-health";
+import { SourceHealthStrip } from "@/components/source-health-strip";
+import { outlineOf } from "@/lib/digest-outline";
 import { StructuredData } from "@/components/structured-data";
 import { localizePath } from "@/lib/locale-routing";
 import { getAllNewsParams, getEntryPreviewsByTopic, getTopicsWithNewsForDate } from "@/lib/news";
@@ -144,7 +146,14 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
     topics: event.topics,
     memberCount: event.memberCount,
   }));
-  const articleBody = <NewsMarkdown content={zhContent} deadLinks={deadLinks} articleDate={date} locale="zh" />;
+  const linkCheckedAt = await getLinkCheckedAt();
+  const outline = outlineOf(zhContent);
+  const articleBody = (
+    <>
+      <NewsMarkdown content={zhContent} deadLinks={deadLinks} articleDate={date} locale="zh" />
+      <SourceHealthStrip content={zhContent} deadLinks={deadLinks} checkedAt={linkCheckedAt} locale="zh" />
+    </>
+  );
 
   return (
     <>
@@ -154,6 +163,7 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
         date={date}
         entry={clientEntry}
         articleBody={articleBody}
+        outline={outline}
         availableTopics={availableTopicsZh}
         related={relatedZh}
         events={events}

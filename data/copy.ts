@@ -210,6 +210,7 @@ const copyZh = {
     },
     detailPage: {
       issueDetails: "期数详情",
+      inThisIssue: "本期要目",
       keyHighlights: "要点",
       dailyFraming: "今日定性",
       minRead: (min: number) => `${min} 分钟阅读`,
@@ -415,6 +416,7 @@ const copyEn = {
     },
     detailPage: {
       issueDetails: "Issue details",
+      inThisIssue: "In this issue",
       keyHighlights: "Key highlights",
       dailyFraming: "Daily framing",
       minRead: (min: number) => `${min} min read`,

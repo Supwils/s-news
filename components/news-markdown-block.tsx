@@ -3,7 +3,26 @@ import remarkGfm from "remark-gfm";
 
 import { reparseInlineChildren } from "@/components/news-markdown";
 import type { Locale } from "@/data/copy";
+import { headingId } from "@/lib/digest-outline";
 import { archiveUrl, type DeadLinks } from "@/lib/link-health";
+
+/**
+ * Flatten a heading's children to plain text for `headingId`.
+ *
+ * react-markdown hands a heading either a string or a mix of strings and
+ * elements (bold, code, a link). Only the text matters for the anchor, and
+ * react-markdown has already unwrapped the markup — so what arrives here is
+ * what the outline gets after its own inline-stripping pass.
+ */
+function childrenToText(node: React.ReactNode): string {
+  if (node === null || node === undefined || typeof node === "boolean") return "";
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(childrenToText).join("");
+  if (typeof node === "object" && "props" in node) {
+    return childrenToText((node as { props?: { children?: React.ReactNode } }).props?.children);
+  }
+  return "";
+}
 
 type NewsMarkdownProps = {
   content: string;
@@ -68,13 +87,27 @@ export function NewsMarkdown({ content, deadLinks, articleDate, locale = "zh" }:
               {reparseInlineChildren(children, false)}
             </h1>
           ),
+          // `id` is what the in-page index links to. It is derived from the
+          // heading text via the same `headingId` the outline uses, so the two
+          // agree without either knowing the other's position in the document —
+          // a react-markdown renderer receives no index, and relying on call
+          // order would couple the anchor to React's traversal.
+          //
+          // `scroll-mt` keeps a targeted heading clear of the sticky masthead;
+          // without it the anchor lands with the title hidden underneath.
           h2: ({ children }) => (
-            <h2 className="font-display mt-12 border-t border-(--color-border) pt-8 text-3xl leading-none tracking-[-0.03em] text-(--color-text-primary)">
+            <h2
+              id={headingId(childrenToText(children))}
+              className="font-display mt-12 scroll-mt-24 border-t border-(--color-border) pt-8 text-3xl leading-none tracking-[-0.03em] text-(--color-text-primary)"
+            >
               {reparseInlineChildren(children, false)}
             </h2>
           ),
           h3: ({ children }) => (
-            <h3 className="mt-8 text-xl leading-8 font-semibold text-(--color-text-primary) sm:text-2xl">
+            <h3
+              id={headingId(childrenToText(children))}
+              className="mt-8 scroll-mt-24 text-xl leading-8 font-semibold text-(--color-text-primary) sm:text-2xl"
+            >
               {reparseInlineChildren(children, false)}
             </h3>
           ),

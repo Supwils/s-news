@@ -11,7 +11,9 @@ import { NewspaperMasthead } from "@/components/newspaper/masthead";
 import { QuickTopicLinks } from "@/components/quick-topic-links";
 import { ReadingProgress } from "@/components/reading-progress";
 import { useLocale } from "@/components/locale-context";
+import { DigestOutlineNav } from "@/components/digest-outline-nav";
 import { getCopy } from "@/data/copy";
+import type { OutlineEntry } from "@/lib/digest-outline";
 import { localizePath } from "@/lib/locale-routing";
 import { formatDisplayDate } from "@/lib/news-client";
 import type { NewsEntry, NewsPreview } from "@/lib/news";
@@ -41,6 +43,13 @@ type NewsDetailContentProps = {
    * rendering the Chinese original as a fallback.
    */
   isChineseFallback?: boolean;
+  /**
+   * The issue's headings, extracted server-side from the same markdown the body
+   * was rendered from. Passed rather than read back out of the DOM so the guide
+   * is in the HTML: it renders with the page instead of appearing after
+   * hydration and shifting the aside, and it survives with JS off.
+   */
+  outline?: OutlineEntry[];
   /** Cross-topic events this digest participates in (may be empty). */
   events?: DetailEventLink[];
   /** Nearest older issue of this topic in the current locale's index. */
@@ -57,6 +66,7 @@ export function NewsDetailContent({
   availableTopics,
   related,
   isChineseFallback = false,
+  outline = [],
   events = [],
   prevDate = null,
   nextDate = null,
@@ -241,6 +251,8 @@ export function NewsDetailContent({
                 <InfoRow icon={<Command size={14} />} label={meta.commandPath} mono />
               </div>
             </section>
+
+            <DigestOutlineNav entries={outline} label={copy.ui.detailPage.inThisIssue} />
 
             {activeEntry.highlights.length > 0 ? (
               <section

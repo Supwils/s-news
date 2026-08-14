@@ -1388,3 +1388,61 @@ select {
   font-weight: 600;
   min-width: 44px;
 }
+
+/* ── Issue outline (detail-page column guide) ───────────────────────────────
+   A repeated list, so its rules live here rather than as per-item inline
+   styles: measured at +14.3 KB of HTML for one issue when inlined.
+   The left rule is the guide's spine — it thickens and inks up for whatever
+   section the reader is currently in. */
+.np-outline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.np-outline-item[data-level="2"] {
+  margin-top: 12px;
+}
+
+.np-outline-item[data-level="3"] {
+  margin-top: 4px;
+}
+
+.np-outline-link {
+  display: block;
+  border-left: 1px solid var(--color-border);
+  line-height: 1.55;
+  text-decoration: none;
+  transition:
+    color 180ms ease-out,
+    border-color 180ms ease-out;
+}
+
+.np-outline-item[data-level="2"] > .np-outline-link {
+  padding-left: 10px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.np-outline-item[data-level="3"] > .np-outline-link {
+  padding-left: 20px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.np-outline-link:hover {
+  color: var(--color-text-primary);
+}
+
+.np-outline-item > .np-outline-link[data-active] {
+  border-left-width: 2px;
+  border-left-color: var(--color-text-primary);
+  color: var(--color-text-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .np-outline-link {
+    transition: none;
+  }
+}
