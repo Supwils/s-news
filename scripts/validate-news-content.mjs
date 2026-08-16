@@ -92,8 +92,36 @@ function validateArticleBlock(block, locale, fileLabel, articleIndex, errors) {
   }
 }
 
+/**
+ * Raw HTML tags. Digests are written by an agent summarising pages it fetched
+ * from the open web, and they reach the reader through two paths that do not
+ * escape: `react-markdown` renders the body, and Pagefind's search excerpts are
+ * injected with `dangerouslySetInnerHTML` in `components/search-page.tsx` and
+ * `components/search-modal.tsx`. Nothing between the source article and that
+ * `__html` currently asserts the content is tag-free.
+ *
+ * The corpus has zero matches today, so this is a latch on a door that is
+ * already shut rather than a cleanup. Markdown needs no HTML for anything these
+ * digests do.
+ *
+ * Autolinks are not tags and must not trip it: `<https://…>`, `<mailto:…>` and
+ * `<name@example.com>` all fail the pattern at their `:` or `@`, since a tag
+ * name may only be followed by whitespace, `/` or `>`.
+ */
+const RAW_HTML_TAG = /<\/?[a-zA-Z][a-zA-Z0-9-]*(?:\s[^<>]*)?\/?>/g;
+
 function validateContent(content, locale, fileLabel, errors) {
   const rules = LOCALE_RULES[locale];
+
+  const htmlTags = [...new Set(content.match(RAW_HTML_TAG) ?? [])];
+  if (htmlTags.length > 0) {
+    errors.push(
+      `${fileLabel}: contains raw HTML, which is rendered unescaped: ${htmlTags
+        .slice(0, 5)
+        .map((tag) => (tag.length > 40 ? `${tag.slice(0, 40)}…` : tag))
+        .join(" ")}`,
+    );
+  }
 
   if (!/^#\s+.+$/m.test(content)) {
     errors.push(`${fileLabel}: missing top-level title`);

@@ -36,11 +36,26 @@ const ALL_TOPICS_ORDER: string[] = [
 const RUN_TIMEOUT_MS = 20 * 60 * 1000; // 20 minutes (single-topic)
 const RUN_ALL_PER_TOPIC_TIMEOUT_MS = 8 * 60 * 1000; // 8 minutes per topic when running all
 
+/**
+ * This endpoint runs shell scripts, so the host check is the whole security
+ * boundary. Two rules, in order:
+ *
+ *  1. Never on Vercel. Production has no business generating content on demand;
+ *     the daily pipeline does that in CI and commits the result.
+ *  2. Otherwise, localhost only, unless ALLOWED_RUNTIME_HOST names something else.
+ *
+ * `host` is read *before* `x-forwarded-host`, which is the opposite of the
+ * original order and the point of this function. `x-forwarded-host` is set by
+ * whoever is upstream — and with no trusted proxy in front, that is the client.
+ * Preferring it let anyone reach a self-hosted deployment with
+ * `X-Forwarded-Host: localhost` and run the generation scripts. Rule 1 covered
+ * this project, but this file is public and other people will deploy it.
+ */
 function isAllowedHost(request: NextRequest): boolean {
   if (process.env.VERCEL) {
     return false;
   }
-  const host = request.headers.get("x-forwarded-host") ?? request.headers.get("host") ?? "";
+  const host = request.headers.get("host") ?? "";
   const allowed = process.env.ALLOWED_RUNTIME_HOST;
   if (allowed) {
     return host === allowed || host.startsWith(`${allowed}:`);

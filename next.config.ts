@@ -55,8 +55,45 @@ const buildTime = new Date().toISOString();
  *     nothing at all, silently — hence `toTracingKey`;
  *   - `outputFileTracingIncludes` is applied after the excludes and wins.
  */
+/**
+ * Response headers. Vercel already sends HSTS; everything below was missing, and
+ * on a public repository the source is the threat model's starting point rather
+ * than a secret.
+ *
+ * Deliberately NOT a full Content-Security-Policy yet. A useful `script-src`
+ * here would have to cover the inline theme bootstrap in `app/layout.tsx`
+ * (hashable, since every page is static), Vercel Analytics and Speed Insights,
+ * and Pagefind's WebAssembly (`wasm-unsafe-eval`). Shipping that untested would
+ * break search or silently drop analytics, so it is left as a separate change
+ * with a browser test pass behind it. `frame-ancestors` needs none of that and
+ * cannot break rendering, so it ships now.
+ */
+const SECURITY_HEADERS = [
+  // Stop the browser from second-guessing Content-Type — the vector that turns
+  // a served .json or .md into executable script.
+  { key: "X-Content-Type-Options", value: "nosniff" },
+  // Clickjacking. X-Frame-Options for old agents, frame-ancestors for the rest;
+  // nothing here is meant to be embedded anywhere.
+  { key: "X-Frame-Options", value: "DENY" },
+  { key: "Content-Security-Policy", value: "frame-ancestors 'none'" },
+  // Send the origin cross-site, the full path same-site. Article URLs carry the
+  // topic and date, which is more than a third party needs.
+  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+  // A reading site asks for none of these. Denying them means an injected
+  // script cannot ask either.
+  {
+    key: "Permissions-Policy",
+    value: "camera=(), microphone=(), geolocation=(), interest-cohort=(), payment=(), usb=()",
+  },
+];
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // `x-powered-by: Next.js` told every visitor the framework for free.
+  poweredByHeader: false,
+  async headers() {
+    return [{ source: "/:path*", headers: SECURITY_HEADERS }];
+  },
   env: {
     NEXT_PUBLIC_BUILD_TIME: buildTime,
     NEXT_PUBLIC_LATEST_ISSUE_DATE: readLatestIssueDate(buildTime.slice(0, 10)),
