@@ -5,8 +5,20 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$PROJECT_ROOT"
 
-# 让 launchd/cron 能找到 pnpm 和 agent（nvm + Cursor CLI）
-export PATH="$HOME/.nvm/versions/node/v22.17.0/bin:$HOME/.local/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
+# launchd and cron start with a near-empty PATH — no pnpm, no cursor-agent, and
+# macOS ships no node — so these fallbacks make the job self-sufficient there.
+#
+# They are APPENDED, not prepended, and that matters on CI. The GitHub runner
+# image installs its own Node with `n`, which lands in /usr/local/bin; prepending
+# put that ahead of the one actions/setup-node had just resolved from .nvmrc, so
+# the daily job silently built on the image default while the gate built on the
+# pinned version. Appending leaves an already-correct PATH alone.
+#
+# The nvm entry is the launchd path only, and is resolved from .nvmrc rather than
+# hardcoded, so it cannot drift away from what CI and Vercel run. An unmatched
+# glob just leaves a non-existent directory on PATH, which is harmless.
+NVM_NODE_BIN=("$HOME"/.nvm/versions/node/v"$(tr -d '[:space:]' < "$PROJECT_ROOT/.nvmrc")".*/bin)
+export PATH="$PATH:${NVM_NODE_BIN[0]}:$HOME/.local/bin:/usr/local/bin:/opt/homebrew/bin"
 
 # Hold a power assertion for the lifetime of the job.
 #
