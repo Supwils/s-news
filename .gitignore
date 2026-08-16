@@ -11,5 +11,23 @@ logs/
 tsconfig.tsbuildinfo
 public/pagefind
 
+# Secrets. `.env` alone was not enough: it matches that one filename and nothing
+# else, while `vercel env pull` writes `.env.local` by default and would have
+# been staged by a plain `git add .`. The live .env here holds RESEND_API_KEY and
+# CURSOR_API_KEY, and this repository is public — a key committed once is a key
+# to rotate, not a commit to amend.
 .env
+.env.*
+!.env.example
+
+# `vercel link` writes projectId / orgId here.
+.vercel
+
+# Private keys and certificates, by extension, so a stray one cannot be staged.
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+
 .quarantine

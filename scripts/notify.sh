@@ -12,11 +12,14 @@
 #
 # Environment variables (read from .env at PROJECT_ROOT if present):
 #   RESEND_API_KEY            required for email; if missing, email is skipped.
-#   DAILY_NEWS_NOTIFY_TO      recipient (default: shang2017@yahoo.com — the
-#                             address the Resend account is registered with).
-#                             To deliver to other addresses, verify a domain
-#                             at https://resend.com/domains and change
-#                             DAILY_NEWS_NOTIFY_FROM to use that domain.
+#   DAILY_NEWS_NOTIFY_TO      recipient. REQUIRED for email — there is no
+#                             default, because a default in a public repository
+#                             is a personal address published to every scraper
+#                             that reads it. Set it in .env locally and as a
+#                             repository secret in CI. Resend only delivers to
+#                             the address its account is registered with until
+#                             you verify a domain at https://resend.com/domains
+#                             and point DAILY_NEWS_NOTIFY_FROM at it.
 #   DAILY_NEWS_NOTIFY_FROM    sender (default: "Swil-News <onboarding@resend.dev>")
 #
 # All functions are best-effort and never propagate failures back to the caller:
@@ -46,7 +49,9 @@ if [[ -f "$NOTIFY_PROJECT_ROOT/.env" ]]; then
   done < "$NOTIFY_PROJECT_ROOT/.env"
 fi
 
-: "${DAILY_NEWS_NOTIFY_TO:=shang2017@yahoo.com}"
+# No default recipient: see the header. Unset means email is skipped, the same
+# way a missing RESEND_API_KEY skips it — a notification that cannot be
+# addressed must not fail the job that produced it.
 : "${DAILY_NEWS_NOTIFY_FROM:=Swil-News <onboarding@resend.dev>}"
 
 # --- macOS desktop notification ----------------------------------------------
@@ -71,6 +76,9 @@ EOF
 _notify_email() {
   local subject="$1" body="$2"
   if [[ -z "${RESEND_API_KEY:-}" ]]; then return 0; fi
+  # Must precede every use of the variable: the caller runs under `set -u`, so
+  # an unset recipient would abort the job rather than skip the email.
+  if [[ -z "${DAILY_NEWS_NOTIFY_TO:-}" ]]; then return 0; fi
   if ! command -v curl &>/dev/null; then return 0; fi
 
   # Build JSON safely with python (jq isn't a guaranteed dep on macOS).
