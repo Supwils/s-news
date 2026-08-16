@@ -6,8 +6,11 @@ import { LocaleProvider } from "@/components/locale-context";
 import "./global.css";
 import { absoluteUrl, getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
+// Web Analytics stays: it is on the free tier at this traffic and someone reads
+// it. Speed Insights is gone — the subscription was cancelled for cost, and the
+// component kept shipping 12.5 KB of script to every visitor to beacon vitals at
+// a product no longer collecting them.
 import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // The three Latin faces are vendored under app/fonts/ rather than pulled with
 // `next/font/google`, because that loader downloads the .woff2 binaries from
@@ -127,7 +130,6 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <LocaleProvider initialLocale="zh">
           {children}
           <Analytics />
-          <SpeedInsights />
         </LocaleProvider>
       </body>
     </html>
