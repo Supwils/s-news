@@ -104,6 +104,11 @@ jobs:
           # holding the key.
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          # A secret rather than a literal because this repository is public and
+          # the value is a personal address. notify.sh has no default for it —
+          # unset means the run still succeeds and simply sends no mail, so if
+          # the daily emails stop, this secret is the first thing to check.
+          DAILY_NEWS_NOTIFY_TO: ${{ secrets.DAILY_NEWS_NOTIFY_TO }}
         run: bash scripts/daily-news-and-commit.sh
 
       # Logs and quarantined digests are gitignored, so without this a failed
