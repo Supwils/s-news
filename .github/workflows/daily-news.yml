@@ -62,13 +62,16 @@ jobs:
       NEWS_AGENT_TIMEOUT_SECONDS: "1200"
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: pnpm/action-setup@v4 # reads the version from package.json "packageManager"
+      - uses: pnpm/action-setup@v6 # reads the version from package.json "packageManager"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 22 # matches the nvm version the launchd job pins
+          # .nvmrc, set to the Vercel project's Node major. This job builds the
+          # same tree Vercel is about to build, so a version split here means a
+          # green build on a runtime production never uses.
+          node-version-file: .nvmrc
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
@@ -108,7 +111,7 @@ jobs:
       # opening logs/debug/ on the Mac.
       - name: Upload run logs
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: daily-news-logs-${{ github.run_id }}
           path: |
