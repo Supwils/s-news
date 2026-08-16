@@ -1,0 +1,28 @@
+# gitleaks configuration for the `secret-scan` job in .github/workflows/gate.yml.
+#
+# Everything gitleaks ships with stays on. The single change is narrow, and it
+# exists so the job stays worth reading.
+
+[extend]
+useDefault = true
+
+# `generic-api-key` is the entropy heuristic: any longish high-entropy string
+# near a word like "key", "token" or "access". That is the right default for
+# source code and the wrong one for NEWS/, which is 2300+ files of
+# machine-written prose about the open web. It already fires on this, in an
+# article about gym membership tiers:
+#
+#   .../2026-05-29_sports-health-digest.md:153   "access, daily/weekly/monthly"
+#
+# Left alone, the job would be red on every run from the day it was added, and a
+# check that is always red is a check nobody reads — the failure mode this job
+# exists to prevent.
+#
+# Scoped deliberately to this one rule and this one directory. Every specific
+# rule — AWS keys, GitHub and Slack tokens, private key blocks, and the rest of
+# the default set — still applies to NEWS/ in full. A real credential pasted into
+# a digest is still caught; only the entropy guess is silenced, and only there.
+[[allowlists]]
+description = "Entropy heuristic produces false positives on generated prose in NEWS/"
+targetRules = ["generic-api-key"]
+paths = ['''^NEWS/''']

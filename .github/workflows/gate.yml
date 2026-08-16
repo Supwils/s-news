@@ -52,3 +52,24 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm prepush
+
+  # Separate job, not a step in `gate`: a leaked credential is a different
+  # emergency from a failing test, and it must not sit behind one in the log or
+  # be skipped because the other failed first.
+  #
+  # This is the backstop, not the front line. The repository is public, so
+  # GitHub's own secret scanning with push protection refuses the push at the
+  # server before a key can ever reach a commit — enable it in
+  # Settings → Code security. gitleaks runs after the fact and catches the
+  # shapes GitHub does not know.
+  #
+  # No GITLEAKS_LICENSE: it is required for organization accounts only, and this
+  # repository belongs to a personal one.
+  secret-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # gitleaks scans history, which a shallow clone does not have
+      - uses: gitleaks/gitleaks-action@v3

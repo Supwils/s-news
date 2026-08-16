@@ -1,0 +1,41 @@
+# Keeping dependencies current is the cheapest security work available here, and
+# until now nothing did it: the Next.js pin sat at 16.1.6 while 16.3.1 shipped
+# with a batch of advisories fixed, and nothing in the repository would ever have
+# said so.
+#
+# Every PR opened here runs the `gate` workflow, so an upgrade that breaks the
+# build, lint or the test suite says so before it can be merged.
+version: 2
+
+updates:
+  # `npm` is the right ecosystem for a pnpm project — Dependabot reads
+  # pnpm-lock.yaml under this key.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: America/Los_Angeles
+    open-pull-requests-limit: 5
+    groups:
+      # One PR per week for the routine noise. Ungrouped, a lockfile this size
+      # produces enough PRs that they stop being read, which is worse than not
+      # having them.
+      minor-and-patch:
+        update-types: [minor, patch]
+    # Majors stay ungrouped and arrive one at a time: they need release notes
+    # read, not a merge button.
+    labels: [dependencies]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: America/Los_Angeles
+    groups:
+      actions:
+        patterns: ["*"]
+    labels: [dependencies, ci]
