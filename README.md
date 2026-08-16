@@ -106,7 +106,7 @@ Swil-News 是一个本地优先的多主题日报阅读器。你用 Cursor 的 C
 ./scripts/run_all_news.sh
 ```
 
-脚本会调用 `agent`，按 `.cursor/commands/*.md` 的流程做多轮搜索并写出 `NEWS/<topic>/{zh,en}/YYYY-MM-DD_*.md`；产出立即经过严格校验，不合格的日报被隔离而不会破坏站点。日常全流程（生成→校验→构建→提交推送→缓存预热）由 `scripts/daily-news-and-commit.sh` 承担，可配合 cron/launchd 定时执行。
+脚本会调用 `agent`，按 `.cursor/commands/*.md` 的流程做多轮搜索并写出 `NEWS/<topic>/{zh,en}/YYYY-MM-DD_*.md`；产出立即经过严格校验，不合格的日报被隔离而不会破坏站点。日常全流程（生成→校验→构建→提交推送→缓存预热）由 `scripts/daily-news-and-commit.sh` 承担。自 2026-08-13 起该流程运行在 GitHub Actions 上（`.github/workflows/daily-news.yml`，每日 14:43 UTC），不再依赖本机——此前笔记本休眠就意味着当天停更。脚本本身保持宿主无关，本地仍可用 cron/launchd 驱动。
 
 ### 本地阅读与 Runtime
 
@@ -149,8 +149,8 @@ pnpm start     # 默认端口 3000；若需与 dev 一致可：pnpm start -- -p 
 当前状态板与未完成事项见 **docs/roadmap.md**（权威）。摘要：
 
 - **事件跨日串联与叙事**（模型辅助，把机械聚类升级为跨天的事件时间线）。
-- **生成任务上云**：摆脱单机 launchd 依赖，笔记本合盖也不断更。
-- **移动端性能巡检**：桌面端已优化，移动端 Speed Insights 尚未复查。
+- **移动端性能巡检**：桌面端已优化，移动端尚未复查（用 Lighthouse / PageSpeed Insights）。
+- **漏发日的死信开关**：定时任务被 GitHub 丢弃时不会产生失败记录，因而无人知晓；需要一个独立工作流来断言"今天 main 上有当日 NEWS 提交"。
 
 设计与规范细节见 **docs/s-news.md**。
 

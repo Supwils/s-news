@@ -75,8 +75,11 @@ Everything below is live and verified; pointers are the code entry points.
    deliberately excluded — Vercel already builds every push and a broken build
    fails the deploy, not the site. `paths-ignore: NEWS/**` keeps the daily
    content push out of CI; the NEWS-only content commit makes that filter exact.
-4. **Mobile Speed Insights pass.** Desktop was profiled and fixed (RES 74 → 
-   Tier 1–3 done); the Mobile tab was never reviewed. Needs dashboard data.
+4. **Mobile performance pass.** Desktop was profiled and fixed (RES 74 →
+   Tier 1–3 done); mobile was never reviewed. No longer blocked on "dashboard
+   data": the Speed Insights subscription was cancelled on cost 2026-08-15 and
+   the component removed, so this needs Lighthouse or PageSpeed Insights against
+   the deployed site instead — both free, and neither ships script to readers.
 5. **`<html lang>` is `zh-CN` when SSR-rendering `/en`.** Fix requires two root
    layouts via route groups (moving every route file). Deferred by risk
    assessment 2026-07-10; client-side `lang` is corrected.

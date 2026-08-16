@@ -106,7 +106,7 @@ Or run all topics in sequence:
 ./scripts/run_all_news.sh
 ```
 
-These scripts call `agent`, follow the workflows defined in `.cursor/commands/*.md`, and produce files like `NEWS/<topic>/{zh,en}/YYYY-MM-DD_*.md`. Every digest is strictly validated on arrival; a malformed one is quarantined instead of breaking the site. The full daily flow (generate → validate → build → commit/push → cache warmup) lives in `scripts/daily-news-and-commit.sh` and can be scheduled with cron or launchd.
+These scripts call `agent`, follow the workflows defined in `.cursor/commands/*.md`, and produce files like `NEWS/<topic>/{zh,en}/YYYY-MM-DD_*.md`. Every digest is strictly validated on arrival; a malformed one is quarantined instead of breaking the site. The full daily flow (generate → validate → build → commit/push → cache warmup) lives in `scripts/daily-news-and-commit.sh`. Since 2026-08-13 it runs on GitHub Actions (`.github/workflows/daily-news.yml`, 14:43 UTC daily), not on a laptop — publishing used to stop whenever the machine was asleep. The script itself stays host-agnostic, so cron or launchd can still drive it locally.
 
 ### Local Reading and Runtime
 
@@ -147,8 +147,8 @@ Production mode still reads from the current directory's `NEWS/`. On a local mac
 The authoritative status board and open items live in **docs/roadmap.md**. In short:
 
 - **Cross-day event chaining and narratives** (model-assisted, upgrading the mechanical clusters into multi-day timelines).
-- **Moving generation to the cloud** so publishing no longer depends on one laptop being awake.
-- **A mobile Speed Insights pass** (desktop has been profiled and optimized; mobile has not).
+- **A mobile performance pass** with Lighthouse or PageSpeed Insights (desktop has been profiled and optimized; mobile has not).
+- **A deadman switch for skipped days**: when GitHub drops a scheduled run there is no failed job to notice, so a separate workflow should assert that `main` carries a NEWS commit for today.
 
 For design and architecture details, see **docs/s-news.md**.
 
