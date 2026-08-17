@@ -37,20 +37,20 @@
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.577.0",
     "next": "^16.3.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.1",
+    "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^25.3.5",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^16.1.6",
+    "eslint-config-next": "^16.3.1",
     "pagefind": "^1.5.2",
-    "tailwindcss": "^4.2.1",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3"
   }
 }
