@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "checkedAt": "2026-08-24T16:01:54.561Z",
+  "checkedAt": "2026-08-31T21:10:49.486Z",
   "counts": {
-    "total": 24462,
-    "ok": 19829,
-    "dead": 611,
+    "total": 25598,
+    "ok": 20935,
+    "dead": 641,
     "unknown": 4022
   },
   "dead": {
@@ -26,16 +26,22 @@
     "https://sg.finance.yahoo.com/news/anthropic-calls-pause-global-ai-223531771.html": {
       "status": 404
     },
-    "https://www.capgemini.com/insights/research-library/reindustrialization-2026/": {
+    "https://www.acea.auto/eu-automotive-policy-2026/": {
       "status": 404
     },
     "https://www.thelec.net/news/articleView.html?idxno=10569": {
       "status": 404
     },
-    "https://www.internazionale.it/ultime-notizie-reuters/2026/05/07/us-trade-court-rules-against-trump-s-10-global-tariffs-2": {
+    "https://www.escardio.org/Research/Research-Topics/Exercise-Physiology": {
       "status": 404
     },
-    "https://www.cyclingnews.com/news/van-aert-paris-roubaix-2026-tour/": {
+    "https://www.capgemini.com/insights/research-library/reindustrialization-2026/": {
+      "status": 404
+    },
+    "https://www.itbear.com.cn/html/2026-03/1201682.html": {
+      "status": 404
+    },
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/05/07/us-trade-court-rules-against-trump-s-10-global-tariffs-2": {
       "status": 404
     },
     "https://www.nippon.com/en/news/yjj2026041200244/": {
@@ -47,10 +53,16 @@
     "https://www3.nhk.or.jp/nhkworld/en/news/20260511_B2/": {
       "status": 404
     },
+    "https://www.cyclingnews.com/news/van-aert-paris-roubaix-2026-tour/": {
+      "status": 404
+    },
+    "https://www.hyundai.com/eu/en/models/ioniq3/news-ioniq3-launch-2026": {
+      "status": 404
+    },
     "https://about.fb.com/news/2026/04/teen-ai-insights/": {
       "status": 404
     },
-    "https://sports.sina.cn/2026-04-15/detail-inhunxzu3939175.d.html?vt=4": {
+    "https://cryptonews.net/news/ethereum/32572565/": {
       "status": 404
     },
     "https://thegamingboardroom.com/2026/04/01/australias-new-aml-framework-kicks-in-today-placing-greater-responsibility-on-gambling-sector/": {
@@ -62,43 +74,46 @@
     "https://www.ad-hoc-news.de/boerse/news/ueberblick/ethereum-price-holds-key-support-amid-bitcoin-liquidations-and-broader/68968579": {
       "status": 410
     },
+    "https://sports.sina.cn/2026-04-15/detail-inhunxzu3939175.d.html?vt=4": {
+      "status": 404
+    },
     "https://www.bandainamcoent.com/news/super-robot-wars-y-infinite-darkness-dlc": {
       "status": 404
     },
     "https://www.beijing.gov.cn/ai-agent-subsidy-2026/": {
       "status": 404
     },
-    "https://www.escardio.org/Research/Research-Topics/Exercise-Physiology": {
-      "status": 404
-    },
     "https://www.cam.ac.uk/research/memristor-ai-2026/": {
       "status": 404
     },
-    "https://www.hyundai.com/eu/en/models/ioniq3/news-ioniq3-launch-2026": {
+    "https://m.thepaper.cn/kuaibao_detail.jsp?contid=17181682&from=kuaibao": {
       "status": 404
     },
-    "https://cryptonews.net/news/ethereum/32572565/": {
+    "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-market-data-2026-q1": {
       "status": 404
     },
     "https://www.1news.co.nz/2026/04/17/trump-fumes-at-court-blocking-white-house-ballroom-project/": {
       "status": 404
     },
-    "https://www.ebc.com/forex/brent-crude-falls-asia-naphtha-urea-shortage": {
-      "status": 404
-    },
     "https://www.earthday.org/earth-day-2026-our-power-our-planet/": {
       "status": 404
     },
-    "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/more-than-2700-excess-deaths-estimated-in-england-and-wales-during-may-and-june-heatwaves": {
+    "https://www.ebc.com/forex/brent-crude-falls-asia-naphtha-urea-shortage": {
       "status": 404
     },
     "https://www.morganstanley.com/ideas/gaming-ai-profit-opportunity-2026": {
+      "status": 404
+    },
+    "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/more-than-2700-excess-deaths-estimated-in-england-and-wales-during-may-and-june-heatwaves": {
       "status": 404
     },
     "https://www.roche.com/media/releases/gazyva-sle-fda-acceptance-2026": {
       "status": 404
     },
     "https://www.warframe.com/en/news/the-shadowgrapher-coming-march-25": {
+      "status": 404
+    },
+    "https://chaingridnews.com/2026/05/09/hacker-drains-5-9m-from-ethereum-liquidity-provider-trustedvolumes/": {
       "status": 404
     },
     "https://en.infomaxai.com/news/articleView.html?idxno=126507": {
@@ -116,19 +131,19 @@
     "https://news.sap.com/2026/04/agentic-ai-supply-chain-hannover-messe-2026/": {
       "status": 404
     },
-    "https://m.thepaper.cn/kuaibao_detail.jsp?contid=17181682&from=kuaibao": {
-      "status": 404
-    },
     "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-flies-around-the-moon-official-broadcast/": {
       "status": 404
     },
     "https://support.google.com/webmasters/answer/66353": {
       "status": 404
     },
-    "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-market-data-2026-q1": {
+    "https://uk.advfn.com/market-news/article/14311/energy-shares-advance-globally-as-oil-pushes-back-above-100-on-hormuz-tensions": {
       "status": 404
     },
-    "https://uk.advfn.com/market-news/article/14311/energy-shares-advance-globally-as-oil-pushes-back-above-100-on-hormuz-tensions": {
+    "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22496.html": {
+      "status": 404
+    },
+    "https://wallstreetcn.com/articles/3774643": {
       "status": 404
     },
     "https://www.aan.com/PressRoom/home/PressRelease/5332": {
@@ -173,6 +188,21 @@
     "http://hkstock.cnfol.com/shichangfenxi/20260316/32070693.html": {
       "status": 404
     },
+    "http://www.csrs.org.cn/sleep-health-white-paper-2026": {
+      "status": 404
+    },
+    "http://www.ilovepcbang.com/news/articleView.html?idxno=129671": {
+      "status": 404
+    },
+    "https://24seven.news/2026/06/27/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/": {
+      "status": 404
+    },
+    "https://4g.stockstar.com/detail/SS2026072200028205": {
+      "status": 404
+    },
+    "https://agenceurope.eu/en/bulletin/article/13877/9/european-commission-considers-three-year-postponement-of-sanctions-against-energy-importers-not-complying-with-methane-regulation": {
+      "status": 404
+    },
     "https://athleticsweekly.com/featured/boston-marathon-2026-korir-course-record/": {
       "status": 404
     },
@@ -182,16 +212,13 @@
     "https://azcc.gov/news/home/2026/03/05/acc-votes-to-eliminate-renewable-energy-standard-and-tariff-(rest": {
       "status": 404
     },
-    "https://blockchainecho.info/2026/05/31/bitcoin-snaps-back-to-74000-as-trump-ends-hormuz-naval-blockade/": {
-      "status": 404
-    },
     "https://blackhealthmatters.com/ohow-cancer-prevention-2026/": {
       "status": 404
     },
-    "https://blueyonder.com/insights/2026-supply-chain-sustainability-survey": {
+    "https://blogs.nvidia.cn/blog/nvidia-unveils-vera-the-cpu-for-agents-2/": {
       "status": 404
     },
-    "https://blogs.nvidia.cn/blog/nvidia-unveils-vera-the-cpu-for-agents-2/": {
+    "https://blueyonder.com/insights/2026-supply-chain-sustainability-survey": {
       "status": 404
     },
     "https://cdn5.benzinga.com/markets/tech/26/04/51795495/musk-hits-out-at-tesla-killers-as-tesla-outsells-gm-ford-rivian": {
@@ -200,9 +227,6 @@
     "https://business.financialpost.com/pmn/business-pmn/trumps-war-jolts-global-central-banks-from-fed-to-ecb-to-boj": {
       "status": 410
     },
-    "https://chaingridnews.com/2026/05/09/hacker-drains-5-9m-from-ethereum-liquidity-provider-trustedvolumes/": {
-      "status": 404
-    },
     "https://clariveno.com/article/bitcoin-ethereum-etfs-crash-111m-lost-as-fed-rate-cut-hopes-fade-what-s-next-for-crypto": {
       "status": 404
     },
@@ -210,6 +234,9 @@
       "status": 404
     },
     "https://cryptifynow.com/layer-2-shakeout-zero-network-everclear-and-syndicate-labs-wind-down/": {
+      "status": 404
+    },
+    "https://credencewire.com/article/senate-passes-ai-accountability-act-june-2026": {
       "status": 404
     },
     "https://crunchupdates.com/x-layer-solv-protocol-bitcoin-defi-liquidity/": {
@@ -239,6 +266,9 @@
     "https://investorshub.advfn.com/market-news/article/32719/baker-hughes-tops-second-quarter-expectations-as-strong-cash-flow-lifts-shares": {
       "status": 404
     },
+    "https://kdhnews.com/news/world/high-level-talks-begin-on-moving-away-from-fossil-fuels-at-colombia-conference/article_9a8ed9e9-8614-57a3-b83a-468c91a4ebcd.html": {
+      "status": 404
+    },
     "https://layerzero.network/security": {
       "status": 404
     },
@@ -254,7 +284,10 @@
     "https://news.emory.edu/plasma-ml-2026/": {
       "status": 404
     },
-    "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-reports-second-quarter-2026-financial-results.html": {
+    "https://optionpit.com/the-fear-index-has-a-bend-in-it/": {
+      "status": 404
+    },
+    "https://operations.nfl.com/journey-to-the-nfl/the-nfl-draft/2026-nfl-draft/": {
       "status": 404
     },
     "https://radical.vc/our-investment-in-discovery-loop/": {
@@ -272,6 +305,12 @@
     "https://sustainableatlas.org/post/trend-watch-grid-scale-energy-storage-economics-procurement-in-2026-signals-winn-3065": {
       "status": 404
     },
+    "https://signalixx.com/article/market-radar/2026-06-20-commitment-of-traders-analysis-2026-institutional-risk-exposure-framework": {
+      "status": 404
+    },
+    "https://techstory.com.au/2026/07/26/saudi-arabias-takeover-of-electronic-arts-approved-by-european-commission/": {
+      "status": 404
+    },
     "https://thenyledger.com/markets/forex/crude-oil-fades-another-war-spike-as-the-ceasefire-dies-its-daily-death/": {
       "status": 404
     },
@@ -284,16 +323,19 @@
     "https://wallstreet.ai/insights/q2-2026-earnings-calendar-megacap-tech-banks-preview": {
       "status": 404
     },
-    "https://wallstreetcn.com/articles/3774643": {
+    "https://whale-alert.io/transactions/tether-usdt-2b-2026": {
       "status": 404
     },
     "https://wap.stockstar.com/detail/IG2026072100017594": {
       "status": 404
     },
-    "https://whale-alert.io/transactions/tether-usdt-2b-2026": {
+    "https://wordupnews.com/cryptocurrency/bitcoin-price-prediction-post-deribit-settlement-btc-survived-the-selling-wave/": {
       "status": 404
     },
-    "https://wordupnews.com/cryptocurrency/bitcoin-price-prediction-post-deribit-settlement-btc-survived-the-selling-wave/": {
+    "https://www-pp.afp.com/en/oil-extends-gains-and-stocks-mostly-down-fresh-hormuz-worries": {
+      "status": 404
+    },
+    "https://velo.outsideonline.com/road/road-racing/tour-de-france/tour-de-france-riders-trial-secretive-new-lactate-energy-gels/": {
       "status": 404
     },
     "https://www.americanbankingnews.com/2026/04/04/planet-labs-pbc-nysepl-stock-price-up-16-7-after-analyst-upgrade.html": {
@@ -306,9 +348,6 @@
       "status": 404
     },
     "https://www.bcapgroup.com/insights/software-remains-bright-2026/": {
-      "status": 404
-    },
-    "https://www.booksci.cn/literature/148409716.htm": {
       "status": 404
     },
     "https://www.cliffordchance.com/china-anti-extraterritorial-2026-crypto": {
@@ -350,6 +389,9 @@
     "https://www.iam-media.com/article/new-china-regulations-aim-block-punish-measures-deemed-as-foreign-overreach": {
       "status": 404
     },
+    "https://www.icinsights.com/news/automotive-semiconductor-share-2025/": {
+      "status": 404
+    },
     "https://www.infineon.com/cms/en/discoveries/infineon-auto-semis-no1-2026/": {
       "status": 404
     },
@@ -374,28 +416,34 @@
     "https://www.nacsmagazine.com/Issues/March-2026/The-State-of-Charging-in-the-United-States": {
       "status": 404
     },
+    "https://www.nampa.org/text/22919296": {
+      "status": 404
+    },
     "https://www.myscience.ch/en/news/2026/weltneuheit_neuer_materiezustand_dank_lichtblitz-2026-unifr": {
       "status": 404
     },
-    "https://www.nampa.org/text/22919296": {
+    "https://www.movurobotics.com/news/stow-georgia-factory-2026/": {
+      "status": 410
+    },
+    "https://www.nextplatform.com/ai/2026/03/17/nvidia-says-openclaw-is-to-agentic-ai-what-gpt-was-to-chattybots/520942": {
       "status": 404
     },
     "https://www.newsianbiz.com/news/articleView.html?idxno=1109": {
       "status": 404
     },
-    "https://www.nextplatform.com/ai/2026/03/17/nvidia-says-openclaw-is-to-agentic-ai-what-gpt-was-to-chattybots/520942": {
+    "https://www.pge.com/en/about/newsroom/newsdetails/vehicle-to-grid-cybertruck-2026.html": {
       "status": 404
     },
     "https://www.okx.com/press/go-network-2026/": {
       "status": 404
     },
-    "https://www.pge.com/en/about/newsroom/newsdetails/vehicle-to-grid-cybertruck-2026.html": {
-      "status": 404
-    },
-    "https://www.sac.gov.cn/indoor-fitness-standards-2026": {
+    "https://www.sahmcapital.com/news/content/livestreaming-platform-kick-completes-strategic-acquisition-of-faze-media-to-boost-live-first-ecosystem-and-creator-growth-to-rebuild-faze-roster-with-the-integration-of-kick-streamers-2026-04-01": {
       "status": 404
     },
     "https://www.saicmotor.com/chinese/xwzx/xwk/2026/64398.shtml": {
+      "status": 404
+    },
+    "https://www.sac.gov.cn/indoor-fitness-standards-2026": {
       "status": 404
     },
     "https://www.resilinc.com/2026-supply-chain-risk-report/": {
@@ -413,7 +461,7 @@
     "https://www.smmt.co.uk/vehicle-data/press-releases/": {
       "status": 404
     },
-    "https://www.standard-journal.com/ap/business/article_5b8e821a-90b0-5536-a443-847fe0a949b8.html": {
+    "https://www.thelec.kr/news/articleView.html?idxno=61241": {
       "status": 404
     },
     "https://www.theenergytribune.com/energy-power/2026/05/07/energy-power/2026/05/07/254926": {
@@ -428,13 +476,13 @@
     "https://www.wanmei.com/yihuan/": {
       "status": 404
     },
+    "https://www.wita.org/blogs/chinas-new-supply-chain/": {
+      "status": 404
+    },
     "https://www.wipfli.com/insights/articles/trump-administration-acts-to-impose-additional-tariffs-under-section-232-and-section-301": {
       "status": 404
     },
     "https://www.xinruipiao.com/tiyusaishi/29397.html": {
-      "status": 404
-    },
-    "https://www.wita.org/blogs/chinas-new-supply-chain/": {
       "status": 404
     },
     "https://www.bbc.com/audio/play/p0ng93t9": {
@@ -479,22 +527,19 @@
     "https://financialpost.com/investing/big-techs-boomerang-powers-sp-500-new-heights": {
       "status": 410
     },
+    "https://www.thelec.net/news/articleView.html?idxno=11004": {
+      "status": 404
+    },
     "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E9%81%8A%E6%88%B2%E5%85%AC%E5%8F%B8gdc-%E5%B1%95%E7%A4%BAai%E5%AF%A6%E5%8A%9B-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E6%95%88%E7%8E%87%E5%A4%A7%E5%B9%85%E6%8F%90%E5%8D%87-103840308.html": {
       "status": 404
     },
     "https://www.esma.europa.eu/mica-transition-2026": {
       "status": 404
     },
-    "https://www.thelec.net/news/articleView.html?idxno=11004": {
-      "status": 404
-    },
     "https://lolesports.com/lck/standings-2026/": {
       "status": 404
     },
     "https://www.bcg.com/press/22april2026-bcg-google-cloud-agentic-ai": {
-      "status": 404
-    },
-    "https://www.energyconnects.com/news/oil/2026/august/oil-edges-lower-after-six-day-gain-with-hormuz-impasse-in-focus-1/": {
       "status": 404
     },
     "https://www.internazionale.it/ultime-notizie-reuters/2026/05/14/russia-pounds-ukraine-in-heaviest-wartime-drone-attack-over-two-days": {
@@ -509,10 +554,10 @@
     "http://health.people.com.cn/n1/2026/0422/c14739-sanjian-2026.html": {
       "status": 404
     },
-    "https://thegamingboardroom.com/2026/04/01/star-completes-sale-of-50-stake-in-brisbane-integrated-resort-to-hong-kong-partners/": {
+    "https://sports.sina.cn/2026-06-06/detail-inianqpm0556334.d.html?vt=4": {
       "status": 404
     },
-    "https://sports.sina.cn/2026-06-06/detail-inianqpm0556334.d.html?vt=4": {
+    "https://thegamingboardroom.com/2026/04/01/star-completes-sale-of-50-stake-in-brisbane-integrated-resort-to-hong-kong-partners/": {
       "status": 404
     },
     "https://www.ama-assn.org/delivering-care/public-health/dietary-guidelines-patient-summary-2026": {
@@ -524,16 +569,16 @@
     "https://hoodline.com/2026/05/gm-slams-brakes-on-new-carlisle-battery-plant-1600-jobs-in-limbo/": {
       "status": 404
     },
-    "https://ods.od.nih.gov/News/ODS_Digest_April_2026/": {
-      "status": 404
-    },
     "https://l2beat.com/scaling/tvl/2026-04-22": {
       "status": 404
     },
-    "https://www.1news.co.nz/2026/06/07/major-ai-firm-urges-pause-in-development-as-risks-grow/": {
+    "https://ods.od.nih.gov/News/ODS_Digest_April_2026/": {
       "status": 404
     },
     "https://www.ebc.com/forex/walmart-stock-fell-9-percent-q2-fy27-earnings": {
+      "status": 404
+    },
+    "https://www.1news.co.nz/2026/06/07/major-ai-firm-urges-pause-in-development-as-risks-grow/": {
       "status": 404
     },
     "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/red-extreme-heat-warning-issued-with-june-temperature-records-forecast-to-break": {
@@ -551,10 +596,10 @@
     "https://breakthroughprize.org/laureates/2026": {
       "status": 404
     },
-    "https://cdn1.benzinga.com/markets/tech/26/04/51795495/musk-hits-out-at-tesla-killers-as-tesla-outsells-gm-ford-rivian": {
+    "https://cbn.globo.com/economia/noticia/2026/07/10/inflacao-oficial-desacelera-em-junio-e-fica-em-016percent-aponta-ibge.ghtml": {
       "status": 404
     },
-    "https://cbn.globo.com/economia/noticia/2026/07/10/inflacao-oficial-desacelera-em-junio-e-fica-em-016percent-aponta-ibge.ghtml": {
+    "https://cdn1.benzinga.com/markets/tech/26/04/51795495/musk-hits-out-at-tesla-killers-as-tesla-outsells-gm-ford-rivian": {
       "status": 404
     },
     "https://cpnn.com.cn/news/zngc/202604/t20260421_1882721.html": {
@@ -584,13 +629,16 @@
     "https://transitionawayconference.com/science/": {
       "status": 404
     },
+    "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22626.html": {
+      "status": 404
+    },
     "https://uk.advfn.com/market-news/article/21639/european-stocks-head-for-worst-week-since-july-as-oil-and-bond-pressures-weigh-dax-cac-ftse100": {
       "status": 404
     },
-    "https://www.aan.com/pressroom/home/pressrelease/5355": {
+    "https://wallstreetcn.com/articles/3780593": {
       "status": 404
     },
-    "https://www.bis.org/research/working-papers/stablecoins-etf-systemic-risk-2026.htm": {
+    "https://www.aan.com/pressroom/home/pressrelease/5355": {
       "status": 404
     },
     "https://www.aichatdaily.com/ai-security/openai-releases-sol-no-clear-us-government-approval-process": {
@@ -600,6 +648,9 @@
       "status": 404
     },
     "https://www.businesskorea.co.kr/news/articleView.html?idxno=275323": {
+      "status": 404
+    },
+    "https://www.bis.org/research/working-papers/stablecoins-etf-systemic-risk-2026.htm": {
       "status": 404
     },
     "https://www.desi.lbl.gov/2026/04/21/desi-3d-map-complete/": {
@@ -653,11 +704,14 @@
     "https://ca.finance.yahoo.com/news/asian-stocks-lower-oil-falls-084224313.html": {
       "status": 404
     },
+    "https://www.fda.gov/drugs/drug-shortages": {
+      "status": 404
+    },
     "https://www.nintendo.com/en-US/news/splatoon-raiders-switch-2-announcement-2026/": {
       "status": 404
     },
-    "https://www.fda.gov/drugs/drug-shortages": {
-      "status": 404
+    "https://www.chaincatcher.com/article/2270414": {
+      "status": 410
     },
     "https://www.energy.gov/articles/doe-500-million-critical-materials-battery-manufacturing-2026": {
       "status": 404
@@ -665,13 +719,10 @@
     "https://abcnews.go.com/Business/wireStory/uk-gathers-30-countries-plot-ways-reopening-strait-131640345": {
       "status": 404
     },
-    "https://www.chaincatcher.com/article/2270414": {
-      "status": 410
-    },
-    "https://lasvegassun.com/news/2026/apr/23/the-iconic-pirate-adventure-returns-in-assassins-c/": {
+    "https://www.gate.com/learn/articles/the-clarity-act-and-dei-is-decentralized-finance-entering-a-clearer-regulatory-era": {
       "status": 404
     },
-    "https://www.gate.com/learn/articles/the-clarity-act-and-dei-is-decentralized-finance-entering-a-clearer-regulatory-era": {
+    "https://lasvegassun.com/news/2026/apr/23/the-iconic-pirate-adventure-returns-in-assassins-c/": {
       "status": 404
     },
     "https://theedgemalaysia.com/node/799463": {
@@ -680,25 +731,31 @@
     "https://www.insurancejournal.com/news/international/2026/07/08/876716.html": {
       "status": 410
     },
-    "https://www.woodmac.com/news/opinion/ev-and-battery-supply-2026-outlook/": {
-      "status": 404
-    },
-    "https://stock.jrj.com.cn/2026/07/03185157692698.html": {
-      "status": 404
-    },
     "https://www.thegamer.com/crimson-desert-piracy-denuvo-cracked/": {
       "status": 404
     },
-    "https://news.gmw.cn/2026-07-15/content_38886105.htm": {
+    "https://www.woodmac.com/news/opinion/ev-and-battery-supply-2026-outlook/": {
       "status": 404
     },
-    "https://www.coxautoinc.com/market-insights/ev-2026-q1/": {
+    "https://www.acea.auto/fact/electric-cars-tax-benefits-and-incentives-in-2026/": {
       "status": 404
     },
     "https://www.thelec.net/news/articleView.html?idxno=11726": {
       "status": 404
     },
+    "https://stock.jrj.com.cn/2026/07/03185157692698.html": {
+      "status": 404
+    },
+    "https://news.gmw.cn/2026-07-15/content_38886105.htm": {
+      "status": 404
+    },
+    "https://www.energyconnects.com/news/oil/2026/august/oil-edges-lower-after-six-day-gain-with-hormuz-impasse-in-focus-1/": {
+      "status": 404
+    },
     "https://lolesports.com/msi-2026-tickets/": {
+      "status": 404
+    },
+    "https://www.coxautoinc.com/market-insights/ev-2026-q1/": {
       "status": 404
     },
     "https://www.nippon.com/en/news/yjj2026062600116/": {
@@ -710,16 +767,13 @@
     "https://app.xinhuanet.com/news/article.html?articleId=83a8f8ef00dbb20da2a2650e3979b169": {
       "status": 404
     },
-    "https://www.miit.gov.cn/compute-power-2026/": {
-      "status": 404
-    },
     "https://thegamingboardroom.com/2026/04/03/new-california-card-room-regulations-take-effect-amid-uncertainty-and-legal-challenges/": {
       "status": 404
     },
-    "https://www.autocar.co.uk/car-news/new-cars/hyundai-ioniq-3-european-launch-2026": {
+    "https://www.biopharmadive.com/news/fda-approvals-2026/": {
       "status": 404
     },
-    "https://www.biopharmadive.com/news/fda-approvals-2026/": {
+    "https://www.energypolicy.columbia.edu/events/global-energy-summit-2026": {
       "status": 404
     },
     "https://www.mercomindia.com/bridge-green-inaugurates-7-2-mtpa-li-ion-battery-recycling-facility": {
@@ -749,16 +803,7 @@
     "https://www.ebc.com/forex/why-the-vix-is-flashing-fear-while-the-market-refuses-to-break": {
       "status": 404
     },
-    "https://www.energypolicy.columbia.edu/events/global-energy-summit-2026": {
-      "status": 404
-    },
-    "https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-second-quarter-2026-earnings-call": {
-      "status": 404
-    },
     "https://www.lyft.com/blog/posts/lyft-waymo-nashville-hub-2026": {
-      "status": 404
-    },
-    "https://www.metoffice.gov.uk/blog/2026/an-unprecedented-el-nio-and-its-implications-for-the-weather-forecast": {
       "status": 404
     },
     "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing-google-deepmind-microsoft-and-xai": {
@@ -770,10 +815,10 @@
     "https://www.tencent.com/zh-cn/articles/2026/ai-society-creation-camp.html": {
       "status": 404
     },
-    "https://www.theverge.com/2026/4/22/jensen-huang-tokenmaxxing-nvidia": {
+    "https://www.ubisoft.com/en-us/game/assassins-creed/black-flag-resynced/announcement": {
       "status": 404
     },
-    "https://www.ubisoft.com/en-us/game/assassins-creed/black-flag-resynced/announcement": {
+    "https://www.theverge.com/2026/4/22/jensen-huang-tokenmaxxing-nvidia": {
       "status": 404
     },
     "https://thenextweb.com/news/alphabet-25-billion-bond-sale-ai-capex-twice-yearly": {
@@ -794,19 +839,19 @@
     "https://waymo.com/blog/2026/04/miami-orlando-fully-public-launch": {
       "status": 404
     },
+    "https://www.thelec.net/news/articleView.html?idxno=12473": {
+      "status": 404
+    },
     "https://news.crunchbase.com/venture/q1-2026-global-venture-report/": {
       "status": 404
     },
     "https://lolesports.com/msi-2026/": {
       "status": 404
     },
-    "https://www.thelec.net/news/articleView.html?idxno=12473": {
+    "https://skillings.net/rare-earth-supply-chain-what-it-is-why-it-matters-2026-outlook/": {
       "status": 404
     },
     "https://www.nippon.com/en/news/yjj2026072100636/": {
-      "status": 404
-    },
-    "https://home.cern/news/press-release/cern/muon-g-2-experiment-pioneers-win-breakthrough-prize-fundamental-physics": {
       "status": 404
     },
     "https://about.bnef.com/us-battery-storage-chinese-cells-2026/": {
@@ -824,19 +869,19 @@
     "https://www.energy-transitions.org/publications/lessons-on-energy-security-after-the-hormuz-crisis/": {
       "status": 404
     },
-    "https://www.theverge.com/2026/4/9/google-tpu-v8-cloud-next": {
+    "https://www.163.com/dy/article/KNOB3ISB0553VFLH.html": {
       "status": 404
     },
-    "https://www.163.com/dy/article/KNOB3ISB0553VFLH.html": {
+    "https://www.theverge.com/2026/4/9/google-tpu-v8-cloud-next": {
       "status": 404
     },
     "https://thenextweb.com/news/alta-ares-50m-ai-air-defence-interceptors": {
       "status": 404
     },
-    "http://www.xinhuanet.com/english/2026-04/22/liu-zhenmin-climate-multilateral.htm": {
+    "https://www.trendforce.com/news/2026/04/22/memory-ai-first-reallocation/": {
       "status": 404
     },
-    "https://www.trendforce.com/news/2026/04/22/memory-ai-first-reallocation/": {
+    "http://www.xinhuanet.com/english/2026-04/22/liu-zhenmin-climate-multilateral.htm": {
       "status": 404
     },
     "https://www.hltv.org/events/fissure-playground-3-2026/": {
@@ -851,28 +896,28 @@
     "https://lasvegassun.com/news/2026/apr/27/backed-by-investments-exceeding-1-billion-pci-phar/": {
       "status": 404
     },
+    "https://cordcuttersnews.com/disney-plans-to-cut-1000-staff-in-the-new-ceo/": {
+      "status": 404
+    },
     "https://www.insurancejournal.com/news/national/2026/05/29/871695.html": {
       "status": 410
     },
     "https://www.hollywoodreporter.com/stranger-things-tales-from-85-2026/": {
       "status": 404
     },
-    "https://cordcuttersnews.com/disney-plans-to-cut-1000-staff-in-the-new-ceo/": {
-      "status": 404
-    },
     "https://financialpost.com/pmn/business-pmn/trumps-war-jolts-global-central-banks-from-fed-to-ecb-to-boj": {
       "status": 410
-    },
-    "https://www.pewresearch.org/science/2026/04/energy-climate-opinion/": {
-      "status": 404
     },
     "https://www.thelec.net/news/articleView.html?idxno=12597": {
       "status": 404
     },
-    "https://ca.sports.yahoo.com/news/yankees-ace-gerrit-cole-return-220518488.html": {
+    "https://www.coxautoinc.com/news/fullpath-acquisition-2026/": {
       "status": 404
     },
-    "https://www.coxautoinc.com/news/fullpath-acquisition-2026/": {
+    "https://www.pewresearch.org/science/2026/04/energy-climate-opinion/": {
+      "status": 404
+    },
+    "https://ca.sports.yahoo.com/news/yankees-ace-gerrit-cole-return-220518488.html": {
       "status": 404
     },
     "https://www.internazionale.it/ultime-notizie-reuters/2026/05/24/trump-says-iran-deal-is-largely-negotiated-would-reopen-strait-of-hormuz": {
@@ -902,16 +947,16 @@
     "https://lasvegassun.com/news/2026/apr/27/thinktrends-agentic-ai-goes-live-with-the-us-food-/": {
       "status": 404
     },
+    "https://www.woodmac.com/news/opinion/long-duration-storage-2026/": {
+      "status": 404
+    },
     "https://www.hollywoodreporter.com/streaming-2026-04-23/": {
       "status": 404
     },
     "https://financialpost.com/pmn/business-pmn/uae-asks-un-to-approve-measures-including-force-to-open-hormuz": {
       "status": 410
     },
-    "https://www.woodmac.com/news/opinion/long-duration-storage-2026/": {
-      "status": 404
-    },
-    "https://www.bitget.com/news/detail/12560605272920": {
+    "https://www.thelec.net/news/articleView.html?idxno=13021": {
       "status": 404
     },
     "https://tw.stock.yahoo.com/news/%E9%80%BE%E7%99%BE%E5%AE%B6%E7%BE%8E%E5%9C%8B%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E6%A5%AD%E8%80%85%E7%B1%B2%E5%8F%83%E9%99%A2%E6%8E%A8%E9%80%B2%E7%9B%A3%E7%AE%A1%E6%B3%95%E6%A1%88-071805982.html": {
@@ -932,9 +977,6 @@
     "https://www.pewresearch.org/science/2026/04/ev-hybrid-interest-fuel-prices/": {
       "status": 404
     },
-    "https://www.thelec.net/news/articleView.html?idxno=6325": {
-      "status": 404
-    },
     "https://abcnews.com/Business/wireStory/china-opens-investigations-us-trade-practices-response-trump-131464213": {
       "status": 404
     },
@@ -947,7 +989,13 @@
     "https://lasvegassun.com/news/2026/apr/29/xsolla-and-gamesbeat-release-exclusive-industry-re/": {
       "status": 404
     },
-    "https://coingape.com/l2-unity-launches-50m-token-airdrop-across-arbitrum-and-optimism-eligibility-open-for-100k-wallets/": {
+    "http://politics.people.com.cn/n1/2026/0421/c1001-state-council-energy.html": {
+      "status": 404
+    },
+    "https://www.bitget.com/news/detail/12560605272920": {
+      "status": 404
+    },
+    "https://www.thelec.net/news/articleView.html?idxno=13273": {
       "status": 404
     },
     "https://abcnews.com/Business/wireStory/iran-reviewing-us-proposal-trump-pressures-tehran-agreement-132735703": {
@@ -956,22 +1004,31 @@
     "https://thenextweb.com/news/amazon-human-in-the-loop-ai-governance-normalization-deviance": {
       "status": 404
     },
+    "https://siliconangle.com/2026/03/19/deeptune-raises-43m-accelerate-ai-learning-through-virtual-training-gyms/": {
+      "status": 404
+    },
     "https://www.fda.gov/food/cfsan-strategic-priorities/human-foods-program-2026-priorities": {
       "status": 404
     },
-    "https://www.philstar.com/headlines/2026/07-23/2544091/dfa-protests-ccg-attack-ayungin": {
+    "https://abcnews.go.com/International/wireStory/asia-braces-wave-energy-shocks-iran-war-132837680": {
       "status": 404
     },
     "https://lasvegassun.com/news/2026/jul/15/fandango-expands-free-streaming-offering-under-one/": {
       "status": 404
     },
-    "https://m.economictimes.com/news/international/us/us-stock-market-closing-nasdaq-snaps-13-day-rally-as-iran-tensions-rise-oil-jumps-above-95/": {
-      "status": 404
-    },
     "https://financialpost.com/pmn/business-pmn/us-stocks-sink-nasdaq-100-and-dow-industrials-enter-correction": {
       "status": 410
     },
+    "https://m.economictimes.com/news/international/us/us-stock-market-closing-nasdaq-snaps-13-day-rally-as-iran-tensions-rise-oil-jumps-above-95/": {
+      "status": 404
+    },
+    "https://www.acea.auto/publication/ev-incentives-europe-2026/": {
+      "status": 404
+    },
     "https://www.notebookcheck.net/honor-win-2026/": {
+      "status": 404
+    },
+    "https://www.thelec.net/news/articleView.html?idxno=6325": {
       "status": 404
     },
     "https://techcrunch.com/2026/03/05/unleash-raises-35m-ai-generated-code-governance/": {
@@ -983,6 +1040,9 @@
     "https://thenextweb.com/news/anthropic-mythos-cybersecurity-banks-vulnerability": {
       "status": 404
     },
+    "https://www.forbes.com/sites/gaming-industry-trends-2026/": {
+      "status": 404
+    },
     "https://abcnews.go.com/International/wireStory/japan-deploys-long-range-missiles-131566210": {
       "status": 404
     },
@@ -990,9 +1050,6 @@
       "status": 404
     },
     "https://waymo.com/blog/miami-orlando-2026/": {
-      "status": 404
-    },
-    "https://www.gamesradar.com/games/releasing-playstation-games-day-one-on-pc-isnt-a-good-strategy-for-its-aaa-titles-former-playstation-head-says-but-he-hasnt-seen-proof-its-abandoning-the-platform-altogether/": {
       "status": 404
     },
     "https://abcnews.com/Business/wireStory/iraqs-oil-hub-slows-crawl-strait-hormuz-shutdown-131641155": {
@@ -1007,19 +1064,25 @@
     "https://www.eurogamer.net/masters-of-albion-early-access-2026": {
       "status": 404
     },
-    "https://www.autonews.com/manufacturing/automakers/an-cr-v-dethrones-ford-f150-toyota-rav4-0702/": {
-      "status": 404
-    },
     "https://tech.eu/2026/05/13/corti-launches-no-equity-accelerator-to-help-healthcare-ai-startups-navigate-europes-tightening-regulation/": {
       "status": 404
     },
-    "https://lasvegassun.com/news/2026/mar/31/nike-inc-reports-fiscal-2026-third-quarter-results/": {
+    "https://www.autonews.com/manufacturing/automakers/an-cr-v-dethrones-ford-f150-toyota-rav4-0702/": {
+      "status": 404
+    },
+    "https://www.philstar.com/headlines/2026/07-23/2544091/dfa-protests-ccg-attack-ayungin": {
+      "status": 404
+    },
+    "https://coingape.com/l2-unity-launches-50m-token-airdrop-across-arbitrum-and-optimism-eligibility-open-for-100k-wallets/": {
+      "status": 404
+    },
+    "https://www.gamesradar.com/games/releasing-playstation-games-day-one-on-pc-isnt-a-good-strategy-for-its-aaa-titles-former-playstation-head-says-but-he-hasnt-seen-proof-its-abandoning-the-platform-altogether/": {
       "status": 404
     },
     "https://www.canarymedia.com/articles/power-semiconductors-clean-energy-2026/": {
       "status": 404
     },
-    "https://screenrant.com/xbox-officially-steam-integration-update/": {
+    "https://lasvegassun.com/news/2026/mar/31/nike-inc-reports-fiscal-2026-third-quarter-results/": {
       "status": 404
     },
     "https://www.caranddriver.com/news/g64795/nyias-2026-ev-reveals/": {
@@ -1034,9 +1097,6 @@
     "http://www.xinhuanet.com/health/2026-04/22/china-sleep-2026.htm": {
       "status": 404
     },
-    "https://timesofindia.indiatimes.com/business/international-business/asian-stocks-today-21-april-2026-markets-mixed-as-us-iran-talks-offset-geopolitical-jitters/": {
-      "status": 404
-    },
     "https://insider-gaming.com/g2-eliminated-from-lol-ewc-by-dplus-kias-unpaid-players/": {
       "status": 404
     },
@@ -1046,22 +1106,28 @@
     "https://www.theglobeandmail.com/investing/article-sk-hynix-targets-29-billion-us-adr-listing/": {
       "status": 404
     },
-    "https://www.latimes.com/environment/story/2026-04-21/us-china-long-duration-storage-competition": {
-      "status": 404
-    },
     "https://lasvegassun.com/news/2026/may/14/xsolla-brings-must-attend-sessions-to-gamesbeat-su/": {
       "status": 404
     },
-    "https://finance.yahoo.com/economy/policy/articles/dow-falls-nearly-800-points-214600297.html": {
+    "https://screenrant.com/xbox-officially-steam-integration-update/": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/economy/policy/articles/bond-rout-sends-warning-warsh-223107499.html": {
       "status": 404
     },
     "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-422026-131667588": {
       "status": 404
     },
-    "https://thenextweb.com/news/china-carmakers-component-shortage-mlcc-memory": {
+    "https://thenextweb.com/news/byd-10000-flash-charging-stations-afir-europe-megawatt": {
       "status": 404
     },
     "https://www.carbonbrief.org/colombia-fossil-fuel-conference-preview-2026/": {
+      "status": 404
+    },
+    "https://timesofindia.indiatimes.com/business/international-business/asian-stocks-today-21-april-2026-markets-mixed-as-us-iran-talks-offset-geopolitical-jitters/": {
+      "status": 404
+    },
+    "https://www.latimes.com/environment/story/2026-04-21/us-china-long-duration-storage-competition": {
       "status": 404
     },
     "https://abcnews.go.com/Politics/wireStory/rubio-sell-iran-war-skeptical-g7-diplomats-after-131460102": {
@@ -1070,19 +1136,16 @@
     "https://www.strafe.com/match/virtus-pro-vs-twisted-minds-week-3-emea-1af16e/": {
       "status": 404
     },
-    "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-6252026-134220440": {
-      "status": 404
-    },
     "https://en.sedaily.com/finance/2026/05/13/sk-on-to-mass-produce-koreas-first-erev-batteries-as-new-growth-engine": {
       "status": 404
     },
-    "https://thenextweb.com/news/china-tightens-indium-phosphide-checks-as-ai-demand-climbs": {
+    "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-6252026-134220440": {
+      "status": 404
+    },
+    "https://thenextweb.com/news/china-carmakers-component-shortage-mlcc-memory": {
       "status": 404
     },
     "https://www.who.int/news-room/events/detail/2026/05/11/default-calendar/launch-of-the-who-guideline-for-screening-and-treatment-of-cervical-pre-cancer-lesions-for-cervical-cancer-prevention--use-of-human-papillomavirus-(hpv": {
-      "status": 404
-    },
-    "https://www.businesstimes.com.sg/international/china-manufacturing-caps-best-quarter-since-2020-survey": {
       "status": 404
     },
     "https://abcnews.go.com/Sports/wireStory/uconn-reaches-3rd-national-title-game-4-seasons-131736437": {
@@ -1091,16 +1154,13 @@
     "https://www.energy.gov/energysaver/new-and-used-clean-vehicle-tax-credits": {
       "status": 404
     },
-    "https://doi.org/10.1016/S1473-3099(26": {
+    "https://finance.yahoo.com/economy/policy/articles/dow-falls-nearly-800-points-214600297.html": {
       "status": 404
     },
     "https://abcnews.com/Business/wireStory/new-york-sues-trump-administrations-deal-end-offshore-133520227": {
       "status": 404
     },
-    "https://thenextweb.com/news/claude-outage-multiple-models": {
-      "status": 404
-    },
-    "https://www.theguardian.com/environment/2026/apr/22/abandoned-oil-wells-methane-underestimate": {
+    "https://thenextweb.com/news/china-tightens-indium-phosphide-checks-as-ai-demand-climbs": {
       "status": 404
     },
     "https://financefeeds.com/cow-swap-protocol-halts-services-following-major-dns-hijacking-attack/": {
@@ -1109,13 +1169,7 @@
     "http://www.xinhuanet.com/politics/2026-04/21/state-council-energy-study.htm": {
       "status": 404
     },
-    "https://www.nintendolife.com/news/2026/04/sanrio-party-land-switch-2-announcement": {
-      "status": 404
-    },
     "https://abcnews.go.com/Sports/wireStory/us-forward-christian-pulisic-misses-milan-match-injury-132833476": {
-      "status": 404
-    },
-    "https://doi.org/10.1016/S2468-2667(26": {
       "status": 404
     },
     "https://www.cs.com.cn/xwzx/hg/202603/t20260325_6542757.html": {
@@ -1124,7 +1178,7 @@
     "https://abcnews.com/Business/wireStory/trump-administration-appeals-ruling-blocked-pentagon-action-anthropic-131657674": {
       "status": 404
     },
-    "https://thenextweb.com/news/decart-300-million-radical-ventures-world-models": {
+    "https://thenextweb.com/news/claude-outage-multiple-models": {
       "status": 404
     },
     "http://www.xinhuanet.com/science/2026-04/22/mrna-vaccine-ind.htm": {
@@ -1136,37 +1190,37 @@
     "https://www.aol.com/articles/us-renews-russian-oil-waiver-025244431.html": {
       "status": 404
     },
+    "https://www.nintendolife.com/news/2026/04/sanrio-party-land-switch-2-announcement": {
+      "status": 404
+    },
     "https://www.nintendo.com/store/products/the-expanse-a-telltale-series/": {
       "status": 404
     },
     "https://abcnews.go.com/Technology/wireStory/anthropic-pentagon-head-court-ai-firm-seeks-end-131362035": {
       "status": 404
     },
-    "https://abcnews.com/Business/wireStory/weeklong-rainstorms-chile-blamed-el-nino-kill-10-134958036": {
+    "https://thenextweb.com/news/decart-300-million-radical-ventures-world-models": {
       "status": 404
     },
-    "https://thenextweb.com/news/deepseek-v4-pro-price-cut-75-percent": {
+    "https://www.theguardian.com/environment/2026/apr/22/abandoned-oil-wells-methane-underestimate": {
       "status": 404
     },
     "https://news.xbox.com/en-us/2026/04/21/xbox-game-pass-april-2026-additions/": {
       "status": 404
     },
-    "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1869031/full": {
+    "https://www.businesstimes.com.sg/international/china-manufacturing-caps-best-quarter-since-2020-survey": {
       "status": 404
     },
     "https://abcnews.go.com/Technology/wireStory/epic-games-lays-off-1000-amid-slowing-fortnite-131367967": {
       "status": 404
     },
-    "https://www.gov.uk/government/publications/british-industry-supercharger": {
-      "status": 404
-    },
     "https://www.theglobeandmail.com/world/article-how-houthi-blockade-in-the-red-sea-threatens-global-energy-supplies/": {
       "status": 404
     },
-    "https://abcnews.com/Business/wireStory/world-shares-higher-after-wall-street-hits-record-132088346": {
+    "https://abcnews.com/Business/wireStory/weeklong-rainstorms-chile-blamed-el-nino-kill-10-134958036": {
       "status": 404
     },
-    "https://thenextweb.com/news/eu-ai-act-labels-compulsory-synthetic-content": {
+    "https://thenextweb.com/news/deepseek-v4-pro-price-cut-75-percent": {
       "status": 404
     },
     "https://www.abc.net.au/news/2026-05-18/ukraine-launches-drone-attack-on-russia/106690990": {
@@ -1178,31 +1232,28 @@
     "https://sports.yahoo.com/articles/open-thread-may-3-2026-130500811.html": {
       "status": 404
     },
-    "https://kotaku.com/ubisoft-ac-black-flag-resynced-reveal-april-23-2026/": {
-      "status": 404
-    },
     "https://www.aol.com/articles/xrp-price-why-todays-sec-130627121.html": {
       "status": 404
     },
-    "https://kyivindependent.com/us-waiver-permitting-russian-oil-purchases-expires-without-renewal/": {
+    "https://www.gov.uk/government/publications/british-industry-supercharger": {
       "status": 404
     },
     "https://abcnews.go.com/US/wireStory/3-men-charged-conspiring-smuggle-us-artificial-intelligence-131237823": {
       "status": 404
     },
-    "https://finance.yahoo.com/economy/policy/articles/trump-aides-see-china-cheating-163826999.html": {
+    "https://doi.org/10.1016/S1473-3099(26": {
       "status": 404
     },
-    "https://abcnews.com/Business/wireStory/world-shares-mixed-oil-falls-after-wall-street-132127130": {
-      "status": 404
-    },
-    "https://thenextweb.com/news/eu-cloud-dma-aws-azurecloud-regulation": {
+    "https://abcnews.com/Business/wireStory/world-shares-higher-after-wall-street-hits-record-132088346": {
       "status": 404
     },
     "https://techcrunch.com/2026/03/09/russian-government-hackers-signal-whatsapp-dutch-spies/": {
       "status": 404
     },
-    "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-20-s-and-p-500-suffers-technical-breakdown-four-week-slide-ends-below-200-day-moving-average": {
+    "https://thenextweb.com/news/eu-ai-act-labels-compulsory-synthetic-content": {
+      "status": 404
+    },
+    "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1869031/full": {
       "status": 404
     },
     "https://sports.yahoo.com/articles/sabalenka-face-osaka-cobolli-french-133036131.html": {
@@ -1211,28 +1262,25 @@
     "https://www.carbonbrief.org/extreme-rainfall-4c-warming-2026": {
       "status": 404
     },
-    "https://www.scientificamerican.com/article/nebraska-is-battling-its-largest-wildfires-in-history-worse-may-be-yet-to-come/": {
+    "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-20-s-and-p-500-suffers-technical-breakdown-four-week-slide-ends-below-200-day-moving-average": {
       "status": 404
     },
-    "https://spacenews.com/roman-telescope-gpu-compute-2026/": {
+    "https://kyivindependent.com/us-waiver-permitting-russian-oil-purchases-expires-without-renewal/": {
       "status": 404
     },
-    "https://abcnews.go.com/US/wireStory/democrats-vow-fight-1-billion-senate-security-proposal-132839106": {
+    "https://doi.org/10.1016/S2468-2667(26": {
       "status": 404
     },
-    "https://abcnews.com/Business/wireStory/world-shares-mixed-oil-falls-after-wall-street-sets-another-record-on-ceasefire-hopes-132127130": {
-      "status": 404
-    },
-    "https://thenextweb.com/news/eu-pax-silica-ai-chips": {
+    "https://abcnews.com/Business/wireStory/world-shares-mixed-oil-falls-after-wall-street-132127130": {
       "status": 404
     },
     "https://www.prnewswire.com/news-releases/aspen-neuroscience-announces-positive-12month-data-from-its-aspiro-clinical-trial-in-a-latebreaking-oral-presentation-at-the-adpdtm-2026-international-conference-on-alzheimers-and-parkinsons-diseases-302716505.html": {
       "status": 404
     },
-    "https://www.gamesindustry.biz/gaming-ma-15-month-high-q1-2026": {
+    "https://thenextweb.com/news/eu-cloud-dma-aws-azurecloud-regulation": {
       "status": 404
     },
-    "https://asia.nikkei.com/business/materials/china-s-rare-earth-curbs-endanger-6-5tn-of-western-industry-iea-says": {
+    "https://abcnews.go.com/US/wireStory/democrats-vow-fight-1-billion-senate-security-proposal-132839106": {
       "status": 404
     },
     "https://www.supplychaindive.com/news/semiconductor-materials-price-hikes-april-2026/": {
@@ -1244,7 +1292,28 @@
     "https://www.aol.com/finance/global-central-banks-signal-shocking-154700874.html": {
       "status": 404
     },
+    "https://kotaku.com/ubisoft-ac-black-flag-resynced-reveal-april-23-2026/": {
+      "status": 404
+    },
     "https://energy.ec.europa.eu/topics/energy-security/emergency-measures_en": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/economy/policy/articles/trump-aides-see-china-cheating-163826999.html": {
+      "status": 404
+    },
+    "https://abcnews.com/Business/wireStory/world-shares-mixed-oil-falls-after-wall-street-sets-another-record-on-ceasefire-hopes-132127130": {
+      "status": 404
+    },
+    "https://thenextweb.com/news/eu-pax-silica-ai-chips": {
+      "status": 404
+    },
+    "https://www.gamesindustry.biz/gaming-ma-15-month-high-q1-2026": {
+      "status": 404
+    },
+    "https://www.scientificamerican.com/article/nebraska-is-battling-its-largest-wildfires-in-history-worse-may-be-yet-to-come/": {
+      "status": 404
+    },
+    "https://spacenews.com/roman-telescope-gpu-compute-2026/": {
       "status": 404
     },
     "https://abcnews.com/Business/wireStory/world-shares-mixed-oil-prices-slip-after-iran-134607616": {
@@ -1253,10 +1322,16 @@
     "https://thenextweb.com/news/eu-tech-sovereignty-package": {
       "status": 404
     },
-    "https://www.forbes.com/sites/tylerroush/2026/04/27/could-this-new-ai-smartphone-compete-with-iphone-qualcomm-shares-rise/": {
+    "https://www.gematsu.com/2026/04/super-robot-wars-y-infinite-darkness-dlc": {
       "status": 404
     },
-    "https://www.businesstimes.com.sg/property/chinas-endless-housing-crisis-shows-faint-signs-hope": {
+    "https://asia.nikkei.com/business/materials/china-s-rare-earth-curbs-endanger-6-5tn-of-western-industry-iea-says": {
+      "status": 404
+    },
+    "https://www.theregister.com/2026/04/23/ai_tools_breach/": {
+      "status": 404
+    },
+    "https://www.aol.com/news/pancreatic-cancer-pill-doubles-survival-000600842.html": {
       "status": 404
     },
     "https://abcnews.com/Entertainment/wireStory/hollywood-directors-reach-tentative-4-year-deal-studios-133736337": {
@@ -1265,22 +1340,19 @@
     "https://thenextweb.com/news/europe-ai-sovereignty-g7-vivatech": {
       "status": 404
     },
-    "https://www.gematsu.com/2026/04/super-robot-wars-y-infinite-darkness-dlc": {
-      "status": 404
-    },
-    "https://www.theregister.com/2026/04/23/ai_tools_breach/": {
+    "https://www.gematsu.com/2026/04/super-robot-wars-y-update-1-3-0-and-infinite-darkness-dlc": {
       "status": 404
     },
     "https://ca.finance.yahoo.com/news/us-eases-russian-oil-sanctions-182938833.html": {
       "status": 404
     },
-    "https://www.aol.com/news/pancreatic-cancer-pill-doubles-survival-000600842.html": {
-      "status": 404
-    },
     "https://thenextweb.com/news/europe-drought-nuclear-reactors-romania-danube": {
       "status": 404
     },
-    "https://www.gematsu.com/2026/04/super-robot-wars-y-update-1-3-0-and-infinite-darkness-dlc": {
+    "https://www.businessinsider.com/streaming-free-tiers-disney-paramount-netflix-youtube-tubi-roku-tv-2026-8": {
+      "status": 404
+    },
+    "https://www.forbes.com/sites/tylerroush/2026/04/27/could-this-new-ai-smartphone-compete-with-iphone-qualcomm-shares-rise/": {
       "status": 404
     },
     "https://ca.finance.yahoo.com/news/worlds-largest-chipmaker-does-not-220030588.html": {
@@ -1289,40 +1361,43 @@
     "https://thenextweb.com/news/europe-ev-sales-chinese-brands-record": {
       "status": 404
     },
-    "https://www.theguardian.com/technology/2026/apr/23/meta-teen-ai-data": {
-      "status": 404
-    },
-    "https://www.businessinsider.com/streaming-free-tiers-disney-paramount-netflix-youtube-tubi-roku-tv-2026-8": {
+    "https://tech.eu/ai-vc-europe-2026-q1/": {
       "status": 404
     },
     "https://thenextweb.com/news/ev-models-discontinued-us-tariffs-2026": {
       "status": 404
     },
-    "https://www.scmp.com/economy/global-economy/article/3356921/do-chinas-export-curbs-on-tungsten-threaten-japans-ai-chip-supply-chain": {
-      "status": 404
-    },
     "https://news.bitcoin.com/clarity-act-misses-july-4-deadline-25-day-window-shrinks/": {
       "status": 404
     },
-    "https://tech.eu/ai-vc-europe-2026-q1/": {
-      "status": 404
-    },
-    "https://thenextweb.com/news/firebird-armenia-ai-factory-export-licence-compute-diplomacy": {
+    "https://finance.yahoo.com/energy/articles/power-grids-reach-tipping-point-133000813.html": {
       "status": 404
     },
     "https://www.fool.com/investing/2026/03/03/the-best-magnificent-seven-stocks-to-buy-in-march/": {
       "status": 404
     },
+    "https://thenextweb.com/news/firebird-armenia-ai-factory-export-licence-compute-diplomacy": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/energy/articles/power-grids-reach-tipping-point-as-100f-weather-us-data-center-boom-stress-aging-networks-133000813.html": {
+      "status": 404
+    },
+    "https://www.businesstimes.com.sg/property/chinas-endless-housing-crisis-shows-faint-signs-hope": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KQ6VDHH3055616ZQ.html": {
+      "status": 404
+    },
     "https://thenextweb.com/news/google-ai-overviews-german-court-liable": {
+      "status": 404
+    },
+    "https://www.scmp.com/economy/global-economy/article/3356921/do-chinas-export-curbs-on-tungsten-threaten-japans-ai-chip-supply-chain": {
       "status": 404
     },
     "https://www.cbsnews.com/news/house-gop-pulls-iran-war-powers-resolution-vote/": {
       "status": 404
     },
-    "https://finance.yahoo.com/markets/commodities/articles/oil-prices-dip-most-stocks-025819872.html": {
-      "status": 404
-    },
-    "https://www.163.com/dy/article/KQ6VDHH3055616ZQ.html": {
+    "https://www.ign.com/articles/splatoon-raiders-switch-2-2026": {
       "status": 404
     },
     "https://abcnews.com/Health/wireStory/trump-signs-order-speed-review-of-psychedelics-including-controversial-132165514": {
@@ -1331,82 +1406,76 @@
     "https://thenextweb.com/news/google-ai-zero-day-exploit-cybersecurity-arms-race": {
       "status": 404
     },
-    "https://www.gamesindustry.biz/morgan-stanley-ai-22b-gaming-profits-2026": {
-      "status": 404
-    },
-    "https://www.ign.com/articles/splatoon-raiders-switch-2-2026": {
-      "status": 404
-    },
     "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop": {
       "status": 404
     },
-    "https://thenextweb.com/news/google-spacex-920-million-month-compute-deal": {
-      "status": 404
-    },
-    "https://www.cna.com.tw/news/aspt/202606163044337.html": {
+    "https://www.theguardian.com/technology/2026/apr/23/meta-teen-ai-data": {
       "status": 404
     },
     "https://www.xinhuanet.com/english/2026-04/23/c_wanji.htm": {
       "status": 404
     },
-    "https://www.chinadaily.com.cn/fitness-standards-2026/": {
+    "https://thenextweb.com/news/google-spacex-920-million-month-compute-deal": {
       "status": 404
     },
-    "https://thenextweb.com/news/google-workers-rally-job-security": {
+    "https://www.gamesindustry.biz/morgan-stanley-ai-22b-gaming-profits-2026": {
       "status": 404
     },
     "https://www.ign.com/articles/video-games-with-loot-boxes-will-now-have-a-16-age-rating-across-europe-as-part-of-a-huge-pegi-shakeup": {
       "status": 404
     },
-    "https://thenextweb.com/news/harvey-tenet-legal-model-kimi-k3-chinese-base": {
+    "https://finance.yahoo.com/markets/commodities/articles/oil-prices-dip-most-stocks-025819872.html": {
+      "status": 404
+    },
+    "https://thenextweb.com/news/google-workers-rally-job-security": {
       "status": 404
     },
     "https://www.who.int/news/item/21-04-2026-who-upf-one-health-consultation-lyon": {
       "status": 404
     },
-    "https://thenextweb.com/news/hugging-face-delangue-china-open-models-winning": {
+    "https://www.cna.com.tw/news/aspt/202606163044337.html": {
+      "status": 404
+    },
+    "https://thenextweb.com/news/harvey-tenet-legal-model-kimi-k3-chinese-base": {
       "status": 404
     },
     "https://www.caixinglobal.com/2026/08/21/japan-faces-heavy-rare-earth-shortage-as-china-curbs-supply-102476428.html": {
       "status": 404
     },
-    "https://variety.com/streaming-calendar-2026/": {
-      "status": 404
-    },
-    "https://thenextweb.com/news/india-scraps-import-duties-electronics-battery-inputs": {
+    "https://thenextweb.com/news/hugging-face-delangue-china-open-models-winning": {
       "status": 404
     },
     "https://www.caixinglobal.com/energy/": {
       "status": 404
     },
-    "https://variety.com/streaming-calendar-spring-2026/": {
+    "https://www.chinadaily.com.cn/fitness-standards-2026/": {
       "status": 404
     },
-    "https://abcnews.com/International/wireStory/protesters-block-copper-exports-china-rio-tinto-mine-133952721": {
+    "https://thenextweb.com/news/india-scraps-import-duties-electronics-battery-inputs": {
       "status": 404
     },
-    "https://thenextweb.com/news/intel-pushes-18a-p-into-risk-production": {
-      "status": 404
-    },
-    "https://www.nature.com/articles/d41586-026-breakthrough-prize-2026": {
+    "https://variety.com/streaming-calendar-2026/": {
       "status": 404
     },
     "https://www.caixinglobal.com/markets/": {
       "status": 404
     },
+    "https://thenextweb.com/news/intel-pushes-18a-p-into-risk-production": {
+      "status": 404
+    },
     "https://cryptobriefing.com/btcpay-lightning-node-exploit/": {
       "status": 404
     },
-    "https://abcnews.com/International/wireStory/uk-gathers-30-countries-plot-ways-reopening-strait-131640331": {
+    "https://variety.com/streaming-calendar-spring-2026/": {
       "status": 404
     },
     "https://thenextweb.com/news/kimi-k3-china-ai-tech-rout-selloff": {
       "status": 404
     },
-    "https://www.thestar.com.my/news/world/2026/07/03/iran-warns-oil-tankers-to-use-approved-routes-in-strait-of-hormuz-or-face-a-forceful-response": {
+    "https://www.nature.com/articles/d41586-026-breakthrough-prize-2026": {
       "status": 404
     },
-    "https://abcnews.com/International/wireStory/uks-starmer-hosts-zelenskyy-macron-merz-discuss-support-133659267": {
+    "https://abcnews.com/International/wireStory/protesters-block-copper-exports-china-rio-tinto-mine-133952721": {
       "status": 404
     },
     "https://thenextweb.com/news/kling-ai-2-billion-kuaishou-spinoff-video": {
@@ -1415,13 +1484,22 @@
     "https://cryptobriefing.com/cftc-approves-bitcoin-perpetual-futures/": {
       "status": 404
     },
-    "https://abcnews.com/International/wireStory/war-iran-raises-pressure-ukraine-russia-prepares-new-131243838": {
+    "https://abcnews.com/International/wireStory/uk-gathers-30-countries-plot-ways-reopening-strait-131640331": {
       "status": 404
     },
     "https://thenextweb.com/news/lutnick-apple-chinese-memory-chips-cxmt-ymtc": {
       "status": 404
     },
+    "https://abcnews.com/International/wireStory/uks-starmer-hosts-zelenskyy-macron-merz-discuss-support-133659267": {
+      "status": 404
+    },
     "https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026": {
+      "status": 404
+    },
+    "https://www.fool.com/investing/2026/03/20/super-micro-has-now-faced-sec-probes-accounting-scandals-and-smuggling-charges/": {
+      "status": 404
+    },
+    "https://abcnews.com/International/wireStory/war-iran-raises-pressure-ukraine-russia-prepares-new-131243838": {
       "status": 404
     },
     "https://www.euronews.com/business/2026/04/14/the-largest-energy-security-threat-in-history-is-about-push-oil-prices-further-up-iea-warns": {
@@ -1430,28 +1508,28 @@
     "https://thenextweb.com/news/meta-muse-image-instagram-privacy-backlash-pulled": {
       "status": 404
     },
-    "https://www.fool.com/investing/2026/03/20/super-micro-has-now-faced-sec-probes-accounting-scandals-and-smuggling-charges/": {
+    "https://www.thestar.com.my/news/world/2026/07/03/iran-warns-oil-tankers-to-use-approved-routes-in-strait-of-hormuz-or-face-a-forceful-response": {
       "status": 404
     },
     "https://thenextweb.com/news/microsoft-claude-code-retreat-ai-cost": {
       "status": 404
     },
+    "https://thenextweb.com/news/microsoft-copilot-entertainment-only-disclaimer-adoption": {
+      "status": 404
+    },
+    "https://www.who.int/publications/i/item/10-2471-B09711": {
+      "status": 404
+    },
     "https://www.fool.com/investing/2026/03/20/why-shares-of-super-micro-computer-stock-collapsed-this-week/": {
       "status": 404
     },
-    "https://thenextweb.com/news/microsoft-copilot-entertainment-only-disclaimer-adoption": {
+    "https://cnevpost.com/2026/04/16/tesla-adds-sunwoda-battery-supplier/": {
       "status": 404
     },
     "https://thenextweb.com/news/microsoft-mai-models-openai-independence": {
       "status": 404
     },
     "https://www.channelnewsasia.com/business/strait-hormuz-oil-disruption-shell-6174311": {
-      "status": 404
-    },
-    "https://www.invenglobal.com/lck-geng-drx-2026/": {
-      "status": 404
-    },
-    "https://cnevpost.com/2026/04/16/tesla-adds-sunwoda-battery-supplier/": {
       "status": 404
     },
     "https://thenextweb.com/news/moonshot-kimi-k3-subscriptions-paused-gpu-capacity": {
@@ -1463,88 +1541,97 @@
     "https://thenextweb.com/news/nvidia-halves-asia-buyer-list-china-crackdown": {
       "status": 404
     },
-    "https://cryptobriefing.com/covenant-ai-exit-bittensor-tao-falls-15/": {
-      "status": 404
-    },
-    "https://www.who.int/publications/i/item/10-2471-B09711": {
-      "status": 404
-    },
-    "https://thenextweb.com/news/nvidia-poolside-6bn-model-factory-licence": {
-      "status": 404
-    },
     "https://www.cnbc.com/2026/03/10/oracle-orcl-earnings-report-2026.html": {
       "status": 404
     },
     "https://www.163.com/dy/article/KTJA155B05561FZP.html": {
       "status": 404
     },
-    "https://thenextweb.com/news/openai-c2pa-synthid-ai-image-detection-watermark": {
+    "https://thenextweb.com/news/nvidia-poolside-6bn-model-factory-licence": {
       "status": 404
     },
     "https://electrek.co/2026/04/21/pge-tesla-cybertruck-v2g-residential/": {
       "status": 404
     },
-    "https://thenextweb.com/news/openai-deployment-company-4bn-tpg-tomoro": {
+    "https://thenextweb.com/news/openai-c2pa-synthid-ai-image-detection-watermark": {
       "status": 404
     },
-    "https://www.channelnewsasia.com/east-asia/china-ai-not-dominated-one-country-xi-6260096": {
+    "https://cryptobriefing.com/covenant-ai-exit-bittensor-tao-falls-15/": {
+      "status": 404
+    },
+    "https://www.invenglobal.com/lck-geng-drx-2026/": {
       "status": 404
     },
     "https://electrek.co/2026/04/22/catl-5c-condensed-matter-2026/": {
       "status": 404
     },
-    "https://www.nasa.gov/humans-in-space/commercial-crew-program/": {
-      "status": 404
-    },
-    "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens": {
+    "https://thenextweb.com/news/openai-deployment-company-4bn-tpg-tomoro": {
       "status": 404
     },
     "https://electrek.co/2026/04/22/europe-ev-q1-surge-51-percent/": {
       "status": 404
     },
+    "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens": {
+      "status": 404
+    },
     "https://www.163.com/dy/article/KTMFMHK205566SCS.html": {
-      "status": 404
-    },
-    "https://abcnews.com/Politics/wireStory/house-republicans-95-billion-iran-war-package-clears-134828867": {
-      "status": 404
-    },
-    "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026": {
       "status": 404
     },
     "https://www.fool.com/investing/2026/03/26/microsoft-meta-and-alphabet-stocks-are-all-getting-hammered/": {
       "status": 404
     },
-    "https://abcnews.com/Politics/wireStory/pam-bondi-face-closed-door-questioning-house-lawmakers-133408948": {
-      "status": 404
-    },
-    "https://www.chinanews.com.cn/cj/2026/06/13/10639610.shtml": {
-      "status": 404
-    },
     "https://cointelegraph.com/news/crypto-markets-recover-iran-ceasefire-2026": {
+      "status": 404
+    },
+    "https://www.channelnewsasia.com/east-asia/china-ai-not-dominated-one-country-xi-6260096": {
       "status": 404
     },
     "https://techcrunch.com/2026/03/24/arm-is-releasing-the-first-in-house-chip-in-its-35-year-history/": {
       "status": 404
     },
-    "https://thenextweb.com/news/openai-singapore-applied-ai-lab-235-million": {
+    "https://www.nasa.gov/humans-in-space/commercial-crew-program/": {
+      "status": 404
+    },
+    "https://www.chinanews.com.cn/cj/2026/06/13/10639610.shtml": {
+      "status": 404
+    },
+    "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026": {
       "status": 404
     },
     "https://fortune.com/2026/07/24/openais-president-suggests-ai-labs-are-struggling-to-control-ai-models-in-wake-of-its-own-models-going-rogue-and-hacking-another-company/": {
       "status": 404
     },
-    "https://abcnews.com/Politics/wireStory/republicans-mull-dropping-1-billion-security-money-request-133163212": {
+    "https://thenextweb.com/news/openai-singapore-applied-ai-lab-235-million": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/house-republicans-95-billion-iran-war-package-clears-134828867": {
+      "status": 404
+    },
+    "https://thenextweb.com/news/ox-alpha-zhipu-glm-open-weights-censorship-fingerprint": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/pam-bondi-face-closed-door-questioning-house-lawmakers-133408948": {
       "status": 404
     },
     "https://thenextweb.com/news/robbyant-ant-group-lingbot-embodied-ai-open-source": {
       "status": 404
     },
-    "https://abcnews.com/Politics/wireStory/senate-republicans-reject-war-powers-resolution-after-trump-134195190": {
+    "https://www.fool.com/investing/2026/04/01/microsoft-vs-meta-both-ai-stocks-have-been-hit-hard-but-one-is-a-better-buy-now/": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/republicans-mull-dropping-1-billion-security-money-request-133163212": {
       "status": 404
     },
     "https://thenextweb.com/news/sail-research-80m-ai-agent-inference": {
       "status": 404
     },
-    "https://abcnews.com/Politics/wireStory/senators-head-exits-meeting-trumps-demands-voting-bill-135478661": {
+    "https://www.fool.com/investing/2026/04/01/nvidia-vs-broadcom-the-smarter-ai-stock-to-buy-in-april/": {
+      "status": 404
+    },
+    "https://abcnews.com/Politics/wireStory/senate-republicans-reject-war-powers-resolution-after-trump-134195190": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KTUJNPJC0556EXJK.html?f=post2020_dy_recommends": {
       "status": 404
     },
     "https://www.pcgamer.com/xbox-steam-integration-cross-save-2026/": {
@@ -1553,94 +1640,88 @@
     "https://thenextweb.com/news/samsung-q2-2026-operating-profit-record-ai-memory": {
       "status": 404
     },
-    "https://abcnews.com/Politics/wireStory/trump-administration-asks-appeals-court-pause-order-halting-131728966": {
+    "https://abcnews.com/Politics/wireStory/senators-head-exits-meeting-trumps-demands-voting-bill-135478661": {
       "status": 404
     },
     "https://thenextweb.com/news/sk-hynix-29-billion-us-adr-listing": {
       "status": 404
     },
-    "https://www.channelnewsasia.com/east-asia/tropical-storm-jangmi-injures-9-in-japan-thousands-without-power-6155476": {
+    "https://finance.sina.com.cn/jjxw/2026-04-03/doc-inhtfkwx3698715.shtml": {
       "status": 404
     },
-    "https://www.fool.com/investing/2026/04/01/microsoft-vs-meta-both-ai-stocks-have-been-hit-hard-but-one-is-a-better-buy-now/": {
-      "status": 404
-    },
-    "https://www.163.com/dy/article/KTUJNPJC0556EXJK.html?f=post2020_dy_recommends": {
-      "status": 404
-    },
-    "https://www.fool.com/investing/2026/04/01/nvidia-vs-broadcom-the-smarter-ai-stock-to-buy-in-april/": {
-      "status": 404
-    },
-    "https://abcnews.com/Sports/wireStory/after-escaping-taliban-years-exile-afghan-womens-soccer-133519971": {
+    "https://abcnews.com/Politics/wireStory/trump-administration-asks-appeals-court-pause-order-halting-131728966": {
       "status": 404
     },
     "https://thenextweb.com/news/softbank-openai-patching-as-a-service-japan": {
       "status": 404
     },
-    "https://finance.sina.com.cn/jjxw/2026-04-03/doc-inhtfkwx3698715.shtml": {
+    "https://www.channelnewsasia.com/east-asia/tropical-storm-jangmi-injures-9-in-japan-thousands-without-power-6155476": {
       "status": 404
     },
-    "https://abcnews.com/Sports/wireStory/john-tavares-scores-5-seconds-left-ot-lift-131565645": {
-      "status": 404
-    },
-    "https://www.channelnewsasia.com/world/el-nino-un-weather-rain-6229781": {
+    "https://abcnews.com/Sports/wireStory/after-escaping-taliban-years-exile-afghan-womens-soccer-133519971": {
       "status": 404
     },
     "https://thenextweb.com/news/south-korea-5-trillion-won-chip-materials-fund": {
       "status": 404
     },
-    "https://abcnews.com/Sports/wireStory/messi-scores-penalty-argentina-beats-iceland-3-0-133736070": {
+    "https://abcnews.com/Sports/wireStory/john-tavares-scores-5-seconds-left-ot-lift-131565645": {
       "status": 404
     },
     "https://thenextweb.com/news/spain-social-media-ai-rules-tech-lobbying": {
       "status": 404
     },
-    "https://doi.org/10.1038/s13395-026-00440-7": {
+    "https://www.cnbc.com/2026/03/11/uber-amazon-zox-partnership-robotaxi-demand.html": {
       "status": 404
     },
-    "https://abcnews.com/Sports/wireStory/rory-mcilroy-6-shot-lead-entering-3rd-round-131946844": {
+    "https://abcnews.com/Sports/wireStory/messi-scores-penalty-argentina-beats-iceland-3-0-133736070": {
       "status": 404
     },
     "https://thenextweb.com/news/taktile-110m-goldman-sachs-series-c": {
       "status": 404
     },
+    "https://www.channelnewsasia.com/world/el-nino-un-weather-rain-6229781": {
+      "status": 404
+    },
     "https://apnews.com/article/forest-service-relocation-dc-salt-lake-city-eca93fa055ffce3528e8c71160a135": {
+      "status": 404
+    },
+    "https://abcnews.com/Sports/wireStory/rory-mcilroy-6-shot-lead-entering-3rd-round-131946844": {
       "status": 404
     },
     "https://www.chinanews.com.cn/gj/2026/04/02/10597100.shtml": {
       "status": 404
     },
-    "https://abcnews.com/Sports/wireStory/top-seeded-arizona-beats-arkansas-109-88-reach-131460756": {
+    "https://thenextweb.com/news/tesla-fsd-supervised-netherlands-europe": {
       "status": 404
     },
     "https://www.nasa.gov/missions/artemis/artemis-ii/post-splashdown-assessment-2026": {
       "status": 404
     },
-    "https://thenextweb.com/news/tesla-fsd-supervised-netherlands-europe": {
-      "status": 404
-    },
-    "https://abcnews.com/Sports/wireStory/yankees-hit-6-homers-starter-2-hits-time-133334636": {
-      "status": 404
-    },
-    "https://www.cnbc.com/2026/03/11/uber-amazon-zox-partnership-robotaxi-demand.html": {
+    "https://abcnews.com/Sports/wireStory/top-seeded-arizona-beats-arkansas-109-88-reach-131460756": {
       "status": 404
     },
     "https://thenextweb.com/news/tesla-reclaims-the-quarterly-ev-crown-from-byd-but-the-numbers-tell-a-more-complicated-story": {
       "status": 404
     },
-    "https://www.channelnewsasia.com/world/iran-war-us-deal-begin-nuclear-lebanon-6186961": {
+    "https://abcnews.com/Sports/wireStory/yankees-hit-6-homers-starter-2-hits-time-133334636": {
+      "status": 404
+    },
+    "https://asia.nikkei.com/spotlight/supply-chain/glp-japan-sets-up-3-7bn-fund-for-logistics-centers-drawing-global-investors": {
       "status": 404
     },
     "https://thenextweb.com/news/tesla-robotaxi-austin-fully-driverless-bollards": {
       "status": 404
     },
-    "https://abcnews.com/Technology/wireStory/china-blocks-exports-helium-key-chipmaking-iran-war-134650800": {
+    "https://www.channelnewsasia.com/world/iran-war-us-deal-begin-nuclear-lebanon-6186961": {
       "status": 404
     },
     "https://thenextweb.com/news/tesla-robotaxi-miami-no-safety-monitor": {
       "status": 404
     },
-    "https://www.channelnewsasia.com/world/switzerland-talks-implementing-us-iran-deal-6193006": {
+    "https://doi.org/10.1038/s13395-026-00440-7": {
+      "status": 404
+    },
+    "https://abcnews.com/Technology/wireStory/china-blocks-exports-helium-key-chipmaking-iran-war-134650800": {
       "status": 404
     },
     "https://abcnews.com/Technology/wireStory/eu-demands-facebook-instagram-dismantle-design-features-calls-134643678": {
@@ -1649,28 +1730,34 @@
     "https://thenextweb.com/news/the-ai-models-finding-10000-vulnerabilities-are-the-same-ones-china-is-trying-to-copy-that-is-the-problem": {
       "status": 404
     },
+    "https://www.globenewswire.com/news-release/2026/07/3322416/14450/en/Micron-and-Ford-Sign-Strategic-Agreement-to-Strengthen-Long-Term-Memory-Supply-and-Industry-Resilience.html": {
+      "status": 404
+    },
+    "https://www.channelnewsasia.com/world/switzerland-talks-implementing-us-iran-deal-6193006": {
+      "status": 404
+    },
     "https://abcnews.com/Technology/wireStory/gas-plants-rise-power-ai-renewable-energy-allies-134672277": {
       "status": 404
     },
     "https://thenextweb.com/news/trump-says-apple-will-build-chips-with-intel-in-the-us": {
       "status": 404
     },
-    "https://abcnews.com/Technology/wireStory/indonesia-tightens-control-key-commodities-major-trade-takeover-133211693": {
-      "status": 404
-    },
     "https://thenextweb.com/news/uber-nuro-lucid-gravity-robotaxi": {
       "status": 404
     },
-    "https://abcnews.com/Technology/wireStory/yahoo-turns-ai-powered-answer-engine-scout-lead-131473137": {
-      "status": 404
-    },
-    "https://www.globenewswire.com/news-release/2026/07/3322416/14450/en/Micron-and-Ford-Sign-Strategic-Agreement-to-Strengthen-Long-Term-Memory-Supply-and-Industry-Resilience.html": {
+    "https://abcnews.com/Technology/wireStory/indonesia-tightens-control-key-commodities-major-trade-takeover-133211693": {
       "status": 404
     },
     "https://thenextweb.com/news/uber-pony-ai-verne-zagreb-europe-autonomous-rides": {
       "status": 404
     },
+    "https://abcnews.com/Technology/wireStory/yahoo-turns-ai-powered-answer-engine-scout-lead-131473137": {
+      "status": 404
+    },
     "https://thenextweb.com/news/uber-relaunches-motional-robotaxis-in-las-vegas": {
+      "status": 404
+    },
+    "https://www.163.com/dy/article/KU7RL4S105561FZX.html": {
       "status": 404
     },
     "https://thenextweb.com/news/uber-wayve-nissan-tokyo-robotaxi-pilot": {
@@ -1679,37 +1766,34 @@
     "https://www.nasa.gov/news-release/jordan-signs-artemis-accords-2026/": {
       "status": 404
     },
+    "https://www.npr.org/adolescent-sleep-systemic-change-2026/": {
+      "status": 404
+    },
     "https://thenextweb.com/news/us-officials-have-discussed-taking-government-stakes-in-ai-companies": {
-      "status": 404
-    },
-    "https://www.163.com/dy/article/KU7RL4S105561FZX.html": {
-      "status": 404
-    },
-    "https://www.bbc.co.uk/sport/hyrox-gen-z-fitness-economy-2026": {
       "status": 404
     },
     "https://thenextweb.com/news/us-states-sue-paramount-warner-bros-deal": {
       "status": 404
     },
-    "https://finance.yahoo.com/markets/stocks/articles/easyjet-accepts-rival-takeover-bid-092915185.html": {
-      "status": 404
-    },
-    "https://www.channelnewsasia.com/world/us-stocks-oil-prices-trump-iran-strikes-deal-6177956": {
-      "status": 404
-    },
-    "https://www.npr.org/adolescent-sleep-systemic-change-2026/": {
-      "status": 404
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/goldman-strategists-lift-p-500-080509731.html": {
-      "status": 404
-    },
     "https://thenextweb.com/news/viktor-75-million-series-a-accel-ai-coworker-slack-teams": {
+      "status": 404
+    },
+    "https://www.bbc.co.uk/sport/hyrox-gen-z-fitness-economy-2026": {
       "status": 404
     },
     "https://thenextweb.com/news/white-house-dictating-frontier-ai-model-access-anthropic-openai": {
       "status": 404
     },
+    "https://www.channelnewsasia.com/world/us-stocks-oil-prices-trump-iran-strikes-deal-6177956": {
+      "status": 404
+    },
     "https://thenextweb.com/news/zankore-ooredoo-800m-indonesia-ai-cloud-neocloud-nvidia": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/easyjet-accepts-rival-takeover-bid-092915185.html": {
+      "status": 404
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/goldman-strategists-lift-p-500-080509731.html": {
       "status": 404
     },
     "https://www.fool.com/investing/2026/04/25/alphabets-google-could-supercharge-this-artificial-intelligence-ai-stock-that-has-soared-78-in-2026-heres-why-you-should-buy-it-hand-over-fist-before-it-is-too-late.html": {
@@ -1733,31 +1817,34 @@
     "https://abcnews.com/US/wireStory/trump-nominates-us-attorney-jay-clayton-director-national-133793834": {
       "status": 404
     },
-    "https://finance.yahoo.com/markets/stocks/articles/sap-reports-8-rise-in-q1-091221025.html": {
-      "status": 404
-    },
     "https://abcnews.com/US/wireStory/trumps-plan-build-triumphal-arch-gets-hearing-key-132092676": {
       "status": 404
     },
-    "https://www.163.com/dy/article/KUP49B510542MBOG.html?f=post1603_tab_news": {
+    "https://finance.yahoo.com/markets/stocks/articles/sap-reports-8-rise-in-q1-091221025.html": {
       "status": 404
     },
     "https://techcrunch.com/2026/04/21/waymo-miami-orlando-public-highway-mode/": {
       "status": 404
     },
-    "https://techcrunch.com/2026/04/22/octen-10m-ai-agent-search/": {
+    "https://www.163.com/dy/article/KUP49B510542MBOG.html?f=post1603_tab_news": {
+      "status": 404
+    },
+    "http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260821_3162798.shtml": {
       "status": 404
     },
     "https://techcrunch.com/2026/04/22/waymo-lyft-nashville-flexdrive/": {
       "status": 404
     },
+    "https://techcrunch.com/2026/04/22/octen-10m-ai-agent-search/": {
+      "status": 404
+    },
     "https://techcrunch.com/2026/04/23/era-computer-edge-ai/": {
       "status": 404
     },
-    "https://www.nasa.gov/planetary-defense/": {
+    "https://techcrunch.com/2026/04/23/waymo-all-access-2026/": {
       "status": 404
     },
-    "https://techcrunch.com/2026/04/23/waymo-all-access-2026/": {
+    "https://www.nasa.gov/planetary-defense/": {
       "status": 404
     },
     "https://www.163.com/dy/article/KVE7BEJO05561FZJ.html?f=post2020_dy_recommends": {
@@ -1781,6 +1868,9 @@
     "https://finance.yahoo.com/news/us-says-china-agrees-to-spend-billions-on-agricultural-goods-194438412.html": {
       "status": 404
     },
+    "https://www.163.com/dy/article/L51ESOUU05561FZK.html?f=post1603_tab_news": {
+      "status": 404
+    },
     "https://www.cnbc.com/2026/04/15/us-strait-of-hormuz-blockade-navy-iran-seaborne-trade-oil.html": {
       "status": 404
     },
@@ -1793,28 +1883,28 @@
     "https://electrek.co/tesla-robotaxi-app-rollback-2026/": {
       "status": 404
     },
+    "https://www.163.com/tech/article/KTUH00GK00097U7T.html": {
+      "status": 404
+    },
+    "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-computing-into-cash/": {
+      "status": 404
+    },
     "https://finance.yahoo.com/sectors/technology/articles/amazon-meta-microsofts-ai-data-center-push-faces-strong-revolt-seven-in-10-americans-dont-want-hubs-near-them-150118422.html": {
       "status": 404
     },
     "https://finance.yahoo.com/sectors/technology/articles/china-prepares-295-billion-plan-081310126.html": {
       "status": 404
     },
-    "https://www.163.com/tech/article/KTUH00GK00097U7T.html": {
-      "status": 404
-    },
     "https://finance.yahoo.com/technology/ai/articles/deepseek-said-tell-backers-funding-144955175.html": {
-      "status": 404
-    },
-    "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-computing-into-cash/": {
       "status": 404
     },
     "https://apnews.com/article/west-virginia-chemical-plant-explosion-2026": {
       "status": 404
     },
-    "https://finance.sina.com.cn/roll/2026-05-25/doc-inhzafpu3712685.html": {
+    "https://finance.sina.com.cn/roll/2026-05-25/doc-inhzasck5849233.html": {
       "status": 404
     },
-    "https://finance.sina.com.cn/roll/2026-05-25/doc-inhzasck5849233.html": {
+    "https://finance.sina.com.cn/roll/2026-05-25/doc-inhzafpu3712685.html": {
       "status": 404
     },
     "https://techcrunch.com/2026/08/11/accel-raises-3-5-billion-across-four-funds-to-chase-ai-startups/": {
@@ -1826,19 +1916,19 @@
     "https://www.cnbc.com/amp/2026/05/16/china-signals-tariff-cuts-advances-in-farm-market-access-after-trump-xi-summit.html": {
       "status": 404
     },
+    "https://www.cnbc.com/amp/2026/04/16/pepsico-pep-q1-2026-earnings.html": {
+      "status": 404
+    },
     "https://www.cnbc.com/amp/2026/05/27/european-markets-stoxx-600-ftse-dax-cac-iran-news.html": {
       "status": 404
     },
-    "https://www.cnbc.com/servicenow-earnings-2026/": {
-      "status": 404
-    },
-    "https://www.cnbc.com/amp/2026/04/16/pepsico-pep-q1-2026-earnings.html": {
+    "https://www.cnbc.com/amp/2026/03/17/uae-airspace-closure-dubai-airport-drone-strike-middle-east-flights.html": {
       "status": 404
     },
     "https://www.cnbc.com/micron-earnings-2026/": {
       "status": 404
     },
-    "https://www.cnbc.com/amp/2026/03/17/uae-airspace-closure-dubai-airport-drone-strike-middle-east-flights.html": {
+    "https://www.cnbc.com/servicenow-earnings-2026/": {
       "status": 404
     }
   }
